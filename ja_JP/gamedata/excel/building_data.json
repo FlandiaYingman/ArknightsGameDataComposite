@@ -5009,6 +5009,172 @@
           "buffData": []
         }
       ]
+    },
+    "char_282_catap": {
+      "charId": "char_282_catap",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "trade_ord_spd&cost[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[131]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_283_midn": {
+      "charId": "char_283_midn",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "trade_ord_spd&cost[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_formula_spd[200]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_137_brownb": {
+      "charId": "char_137_brownb",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[020]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[300]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_164_nightm": {
+      "charId": "char_164_nightm",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[050]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "hire_spd[020]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_220_grani": {
+      "charId": "char_220_grani",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[010]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd&profession[011]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_263_skadi": {
+      "charId": "char_263_skadi",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_oneself[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "dorm_rec_oneself[020]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
     }
   },
   "buffs": {
@@ -5322,7 +5488,7 @@
     },
     "trade_ord_spd[000]": {
       "buffId": "trade_ord_spd[000]",
-      "buffName": "注文配布α",
+      "buffName": "注文分配α",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_spd",
       "buffColor": "#0075a9",
@@ -5333,7 +5499,7 @@
     },
     "trade_ord_spd[001]": {
       "buffId": "trade_ord_spd[001]",
-      "buffName": "注文配布β",
+      "buffName": "注文分配β",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_spd",
       "buffColor": "#0075a9",
@@ -5366,7 +5532,7 @@
     },
     "trade_ord_spd[020]": {
       "buffId": "trade_ord_spd[020]",
-      "buffName": "物流専門",
+      "buffName": "物流エキスパート",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_spd",
       "buffColor": "#0075a9",
@@ -5443,7 +5609,7 @@
     },
     "trade_ord_spd&limit[031]": {
       "buffId": "trade_ord_spd&limit[031]",
-      "buffName": "高速配達",
+      "buffName": "絶対に、確実に",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_spd&limit",
       "buffColor": "#0075a9",
@@ -5619,7 +5785,7 @@
     },
     "workshop_formula_probability[130]": {
       "buffId": "workshop_formula_probability[130]",
-      "buffName": "爆発物原料学α",
+      "buffName": "火薬学α",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_evolve",
       "buffColor": "#e3eb00",
@@ -5630,7 +5796,7 @@
     },
     "workshop_formula_probability[131]": {
       "buffId": "workshop_formula_probability[131]",
-      "buffName": "爆発物原料学β",
+      "buffName": "火薬学β",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_evolve",
       "buffColor": "#e3eb00",
@@ -5674,7 +5840,7 @@
     },
     "train_spd&profession[010]": {
       "buffId": "train_spd&profession[010]",
-      "buffName": "先鋒専門α",
+      "buffName": "先鋒エキスパートα",
       "buffIcon": "training",
       "skillIcon": "bskill_train_vanguard",
       "buffColor": "#7d0022",
@@ -5685,7 +5851,7 @@
     },
     "train_spd&profession[011]": {
       "buffId": "train_spd&profession[011]",
-      "buffName": "先鋒専門β",
+      "buffName": "先鋒エキスパートβ",
       "buffIcon": "training",
       "skillIcon": "bskill_train_vanguard",
       "buffColor": "#7d0022",
@@ -5696,7 +5862,7 @@
     },
     "train_spd&profession[020]": {
       "buffId": "train_spd&profession[020]",
-      "buffName": "前衛専門α",
+      "buffName": "前衛エキスパートα",
       "buffIcon": "training",
       "skillIcon": "bskill_train_guard",
       "buffColor": "#7d0022",
@@ -5707,7 +5873,7 @@
     },
     "train_spd&profession[021]": {
       "buffId": "train_spd&profession[021]",
-      "buffName": "前衛専門β",
+      "buffName": "前衛エキスパートβ",
       "buffIcon": "training",
       "skillIcon": "bskill_train_guard",
       "buffColor": "#7d0022",
@@ -5718,7 +5884,7 @@
     },
     "train_spd&profession[030]": {
       "buffId": "train_spd&profession[030]",
-      "buffName": "重装専門α",
+      "buffName": "重装エキスパートα",
       "buffIcon": "training",
       "skillIcon": "bskill_train_defender",
       "buffColor": "#7d0022",
@@ -5729,7 +5895,7 @@
     },
     "train_spd&profession[031]": {
       "buffId": "train_spd&profession[031]",
-      "buffName": "重装専門β",
+      "buffName": "重装エキスパートβ",
       "buffIcon": "training",
       "skillIcon": "bskill_train_defender",
       "buffColor": "#7d0022",
@@ -5740,7 +5906,7 @@
     },
     "train_spd&profession[040]": {
       "buffId": "train_spd&profession[040]",
-      "buffName": "狙撃専門α",
+      "buffName": "狙撃エキスパートα",
       "buffIcon": "training",
       "skillIcon": "bskill_train_sniper",
       "buffColor": "#7d0022",
@@ -5751,7 +5917,7 @@
     },
     "train_spd&profession[041]": {
       "buffId": "train_spd&profession[041]",
-      "buffName": "狙撃専門β",
+      "buffName": "狙撃エキスパートβ",
       "buffIcon": "training",
       "skillIcon": "bskill_train_sniper",
       "buffColor": "#7d0022",
@@ -5762,7 +5928,7 @@
     },
     "train_spd&profession[050]": {
       "buffId": "train_spd&profession[050]",
-      "buffName": "術師専門α",
+      "buffName": "術師エキスパートα",
       "buffIcon": "training",
       "skillIcon": "bskill_train_caster",
       "buffColor": "#7d0022",
@@ -5773,7 +5939,7 @@
     },
     "train_spd&profession[051]": {
       "buffId": "train_spd&profession[051]",
-      "buffName": "術師専門β",
+      "buffName": "術師エキスパートβ",
       "buffIcon": "training",
       "skillIcon": "bskill_train_caster",
       "buffColor": "#7d0022",
@@ -5784,7 +5950,7 @@
     },
     "train_spd&profession[060]": {
       "buffId": "train_spd&profession[060]",
-      "buffName": "補助専門α",
+      "buffName": "補助エキスパートα",
       "buffIcon": "training",
       "skillIcon": "bskill_train_supporter",
       "buffColor": "#7d0022",
@@ -5795,7 +5961,7 @@
     },
     "train_spd&profession[061]": {
       "buffId": "train_spd&profession[061]",
-      "buffName": "補助専門β",
+      "buffName": "補助エキスパートβ",
       "buffIcon": "training",
       "skillIcon": "bskill_train_supporter",
       "buffColor": "#7d0022",
@@ -5806,7 +5972,7 @@
     },
     "train_spd&profession[070]": {
       "buffId": "train_spd&profession[070]",
-      "buffName": "医療専門α",
+      "buffName": "医療エキスパートα",
       "buffIcon": "training",
       "skillIcon": "bskill_train_medic",
       "buffColor": "#7d0022",
@@ -5817,7 +5983,7 @@
     },
     "train_spd&profession[071]": {
       "buffId": "train_spd&profession[071]",
-      "buffName": "医療専門β",
+      "buffName": "医療エキスパートβ",
       "buffIcon": "training",
       "skillIcon": "bskill_train_medic",
       "buffColor": "#7d0022",
@@ -5828,7 +5994,7 @@
     },
     "train_spd&profession[080]": {
       "buffId": "train_spd&profession[080]",
-      "buffName": "特殊専門α",
+      "buffName": "特殊エキスパートα",
       "buffIcon": "training",
       "skillIcon": "bskill_train_specialist",
       "buffColor": "#7d0022",
@@ -5839,7 +6005,7 @@
     },
     "train_spd&profession[081]": {
       "buffId": "train_spd&profession[081]",
-      "buffName": "特殊専門β",
+      "buffName": "特殊エキスパートβ",
       "buffIcon": "training",
       "skillIcon": "bskill_train_specialist",
       "buffColor": "#7d0022",
@@ -5982,7 +6148,7 @@
     },
     "dorm_rec_all[060]": {
       "buffId": "dorm_rec_all[060]",
-      "buffName": "提灯の女神",
+      "buffName": "ランプの貴婦人",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all",
       "buffColor": "#21cdcb",
@@ -6015,7 +6181,7 @@
     },
     "dorm_rec_single&oneself[010]": {
       "buffId": "dorm_rec_single&oneself[010]",
-      "buffName": "ベイク",
+      "buffName": "ベーキング",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single&one",
       "buffColor": "#21cdcb",
@@ -6092,7 +6258,7 @@
     },
     "hire_spd[010]": {
       "buffId": "hire_spd[010]",
-      "buffName": "天災使者α",
+      "buffName": "天災トランスポーターα",
       "buffIcon": "hire",
       "skillIcon": "bskill_hire_spd",
       "buffColor": "#565656",
@@ -6103,7 +6269,7 @@
     },
     "hire_spd[011]": {
       "buffId": "hire_spd[011]",
-      "buffName": "天災使者β",
+      "buffName": "天災トランスポーターβ",
       "buffIcon": "hire",
       "skillIcon": "bskill_hire_spd",
       "buffColor": "#565656",
@@ -6224,7 +6390,7 @@
     },
     "meet_spd&team[060]": {
       "buffId": "meet_spd&team[060]",
-      "buffName": "使節",
+      "buffName": "トランスポーター",
       "buffIcon": "meeting",
       "skillIcon": "bskill_meet_rhodes",
       "buffColor": "#dd653f",
@@ -6243,6 +6409,28 @@
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
       "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>グラスゴー</>の手がかりを入手しやすい"
+    },
+    "manu_formula_spd[200]": {
+      "buffId": "manu_formula_spd[200]",
+      "buffName": "源石工芸α",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_originium",
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所配置時、<@cc.kw>原石</>製造の製造効率<@cc.vup>+30%</>"
+    },
+    "dorm_rec_oneself[020]": {
+      "buffId": "dorm_rec_oneself[020]",
+      "buffName": "悲歌",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_one",
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+1</>"
     }
   },
   "customData": {
@@ -13902,6 +14090,94 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": true
+      },
+      "furni_dropS002_abbeyRoad_01": {
+        "id": "furni_dropS002_abbeyRoad_01",
+        "name": "パネル「落日」",
+        "iconId": "furni_dropS002_abbeyRoad_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "「時間と伝説は流れゆくもの。旋律は街を巡り、失意にあるもの全てを癒す。」",
+        "obtainApproach": "イベント「騎兵と狩人」イベント任務クリアで入手",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_team001_odaA4_boardGameTable_01": {
+        "id": "furni_team001_odaA4_boardGameTable_01",
+        "name": "A4ゲームテーブル",
+        "iconId": "furni_team001_odaA4_boardGameTable_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 4,
+        "height": 4,
+        "comfort": 475,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "行動予備隊A4のメンバー達がボードゲームで遊ぶテーブル。",
+        "obtainApproach": "行動隊A4信頼達成記念",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_team002_opdaA6_gacha_01": {
+        "id": "furni_team002_opdaA6_gacha_01",
+        "name": "ガチャマシン",
+        "iconId": "furni_team002_opdaA6_gacha_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 5,
+        "comfort": 155,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "オーキッドが管理しているガチャマシン。中のおもちゃはスポットの手作りで、カタパルトもポプカルも大好き。資金はミッドナイトから出る。",
+        "obtainApproach": "行動予備隊A6信頼達成記念",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_team002_abyssal_trident_01": {
+        "id": "furni_team002_abyssal_trident_01",
+        "name": "エーギルの台座",
+        "iconId": "furni_team002_abyssal_trident_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 3,
+        "height": 6,
+        "comfort": 300,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "武器の形をした台座。モデルとなった武器は既に消失したが、誰かがどこからか映画の小道具を買ってきて代用した。",
+        "obtainApproach": "アビサル信頼達成記念",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
       }
     },
     "themes": {
@@ -14722,6 +14998,153 @@
             "pos1": 0
           }
         ]
+      },
+      "furni_set_pizza": {
+        "id": "furni_set_pizza",
+        "name": "ピザチェーン店",
+        "desc": "今どきのピザチェーン店がテーマ。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_pizza_priceList_01",
+            "pos0": 0,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_pizza_cashierDesk_01",
+            "pos0": 0,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_pizza_brazier_01",
+            "pos0": 6,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_cupboard_01",
+            "pos0": 0,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_shelf_01",
+            "pos0": 0,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_brickWallSticker_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_brickWallSticker_01",
+            "pos0": 2,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_brickWallSticker_01",
+            "pos0": 4,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_brickWallSticker_01",
+            "pos0": 6,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_brickWallSticker_01",
+            "pos0": 8,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_ceilingLights_01",
+            "pos0": 2,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_ceilingLights_01",
+            "pos0": 15,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_ceilingLights_01",
+            "pos0": 26,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_noticeWall_01",
+            "pos0": 10,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_column_01",
+            "pos0": 31,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_banner_01",
+            "pos0": 12,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_pizza_barTable_01",
+            "pos0": 12,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_barStool_01",
+            "pos0": 13,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_barStool_01",
+            "pos0": 17,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_barStool_01",
+            "pos0": 21,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_exitIndicator_01",
+            "pos0": 19,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_pizza_abstractArt_01",
+            "pos0": 17,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_pizza_diningTable_01",
+            "pos0": 28,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_chair_L_01",
+            "pos0": 26,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_chair_R_01",
+            "pos0": 31,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_chair_F_01",
+            "pos0": 26,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
       }
     },
     "groups": {
@@ -15182,6 +15605,71 @@
           "furni_wooden_wallpaper_01",
           "furni_wooden_floor_01",
           "furni_wooden_deerHeads_01"
+        ]
+      },
+      "furni_set_pizza_1": {
+        "id": "furni_set_pizza_1",
+        "name": "店舗セット",
+        "themeId": "furni_set_pizza",
+        "comfort": 280,
+        "count": 5,
+        "furniture": [
+          "furni_pizza_priceList_01",
+          "furni_pizza_cashierDesk_01",
+          "furni_pizza_brazier_01",
+          "furni_pizza_cupboard_01",
+          "furni_pizza_shelf_01"
+        ]
+      },
+      "furni_set_pizza_2": {
+        "id": "furni_set_pizza_2",
+        "name": "宣伝セット",
+        "themeId": "furni_set_pizza",
+        "comfort": 250,
+        "count": 3,
+        "furniture": [
+          "furni_pizza_noticeWall_01",
+          "furni_pizza_banner_01",
+          "furni_pizza_column_01"
+        ]
+      },
+      "furni_set_pizza_3": {
+        "id": "furni_set_pizza_3",
+        "name": "カウンター席",
+        "themeId": "furni_set_pizza",
+        "comfort": 130,
+        "count": 3,
+        "furniture": [
+          "furni_pizza_barTable_01",
+          "furni_pizza_barStool_01",
+          "furni_pizza_exitIndicator_01"
+        ]
+      },
+      "furni_set_pizza_4": {
+        "id": "furni_set_pizza_4",
+        "name": "テーブル席",
+        "themeId": "furni_set_pizza",
+        "comfort": 150,
+        "count": 4,
+        "furniture": [
+          "furni_pizza_diningTable_01",
+          "furni_pizza_chair_L_01",
+          "furni_pizza_chair_R_01",
+          "furni_pizza_chair_F_01"
+        ]
+      },
+      "furni_set_pizza_5": {
+        "id": "furni_set_pizza_5",
+        "name": "内装",
+        "themeId": "furni_set_pizza",
+        "comfort": 250,
+        "count": 5,
+        "furniture": [
+          "furni_pizza_wallpaper_01",
+          "furni_pizza_floor_01",
+          "furni_pizza_abstractArt_01",
+          "furni_pizza_ceilingLights_01",
+          "furni_pizza_brickWallSticker_01"
         ]
       }
     },
