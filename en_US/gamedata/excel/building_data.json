@@ -5009,6 +5009,172 @@
           "buffData": []
         }
       ]
+    },
+    "char_282_catap": {
+      "charId": "char_282_catap",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "trade_ord_spd&cost[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[131]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_283_midn": {
+      "charId": "char_283_midn",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "trade_ord_spd&cost[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_formula_spd[200]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_137_brownb": {
+      "charId": "char_137_brownb",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[020]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[300]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_164_nightm": {
+      "charId": "char_164_nightm",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[050]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "hire_spd[020]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_220_grani": {
+      "charId": "char_220_grani",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[010]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd&profession[011]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_263_skadi": {
+      "charId": "char_263_skadi",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_oneself[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "dorm_rec_oneself[020]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
     }
   },
   "buffs": {
@@ -6243,6 +6409,28 @@
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
       "description": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>10%</> and it's easier to obtain the clues of <@cc.kw>Glasgow</>"
+    },
+    "manu_formula_spd[200]": {
+      "buffId": "manu_formula_spd[200]",
+      "buffName": "Originium Work α",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_originium",
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "When this Operator is assigned to a Factory, <@cc.kw>Originium</> formula related productivity <@cc.vup>+30%</>"
+    },
+    "dorm_rec_oneself[020]": {
+      "buffId": "dorm_rec_oneself[020]",
+      "buffName": "Elegy",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_one",
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "When this Operator is assigned to a Dormitory, self Morale recovered per hour <@cc.vup>+1</>"
     }
   },
   "customData": {
@@ -13902,6 +14090,94 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": true
+      },
+      "furni_dropS002_abbeyRoad_01": {
+        "id": "furni_dropS002_abbeyRoad_01",
+        "name": "Plaque - Sunset",
+        "iconId": "furni_dropS002_abbeyRoad_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "\"Time and legend passed away together, but the melody still lingers in that city, soothing the frustrated.”",
+        "obtainApproach": "The Knight & The Hunter quest reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_team001_odaA4_boardGameTable_01": {
+        "id": "furni_team001_odaA4_boardGameTable_01",
+        "name": "Dorm Board Game Table",
+        "iconId": "furni_team001_odaA4_boardGameTable_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 4,
+        "height": 4,
+        "comfort": 475,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A table for Operators of Op Team A4 to play board games. Don’t let the other players see your hand.",
+        "obtainApproach": "Op Team A4 Trust collection",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_team002_opdaA6_gacha_01": {
+        "id": "furni_team002_opdaA6_gacha_01",
+        "name": "Strange Gashapon Machine in the Aisle",
+        "iconId": "furni_team002_opdaA6_gacha_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 5,
+        "comfort": 155,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A gashapon machine in the charge of Orchid. The toys in it are handmade by Spot, and they are Catapult and Popukar's favorite. Midnight ends up paying the bill.",
+        "obtainApproach": "Reserve Op Team A6 Trust collection",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_team002_abyssal_trident_01": {
+        "id": "furni_team002_abyssal_trident_01",
+        "name": "Ægir's Mysterious Pedestal",
+        "iconId": "furni_team002_abyssal_trident_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 3,
+        "height": 6,
+        "comfort": 300,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "The stone pedestal of a weapon. The original weapon was long lost, but someone replaced it with a movie prop.",
+        "obtainApproach": "Abyssal Hunters Trust collection",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
       }
     },
     "themes": {
@@ -14722,6 +14998,153 @@
             "pos1": 0
           }
         ]
+      },
+      "furni_set_pizza": {
+        "id": "furni_set_pizza",
+        "name": "Express Chain Pizzeria",
+        "desc": "A popular chain pizzeria.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_pizza_priceList_01",
+            "pos0": 0,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_pizza_cashierDesk_01",
+            "pos0": 0,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_pizza_brazier_01",
+            "pos0": 6,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_cupboard_01",
+            "pos0": 0,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_shelf_01",
+            "pos0": 0,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_brickWallSticker_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_brickWallSticker_01",
+            "pos0": 2,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_brickWallSticker_01",
+            "pos0": 4,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_brickWallSticker_01",
+            "pos0": 6,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_brickWallSticker_01",
+            "pos0": 8,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_ceilingLights_01",
+            "pos0": 2,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_ceilingLights_01",
+            "pos0": 15,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_ceilingLights_01",
+            "pos0": 26,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_noticeWall_01",
+            "pos0": 10,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_column_01",
+            "pos0": 31,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_banner_01",
+            "pos0": 12,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_pizza_barTable_01",
+            "pos0": 12,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_barStool_01",
+            "pos0": 13,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_barStool_01",
+            "pos0": 17,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_barStool_01",
+            "pos0": 21,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_exitIndicator_01",
+            "pos0": 19,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_pizza_abstractArt_01",
+            "pos0": 17,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_pizza_diningTable_01",
+            "pos0": 28,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_chair_L_01",
+            "pos0": 26,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_chair_R_01",
+            "pos0": 31,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_chair_F_01",
+            "pos0": 26,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_pizza_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
       }
     },
     "groups": {
@@ -15182,6 +15605,71 @@
           "furni_wooden_wallpaper_01",
           "furni_wooden_floor_01",
           "furni_wooden_deerHeads_01"
+        ]
+      },
+      "furni_set_pizza_1": {
+        "id": "furni_set_pizza_1",
+        "name": "Store Management Facilities",
+        "themeId": "furni_set_pizza",
+        "comfort": 280,
+        "count": 5,
+        "furniture": [
+          "furni_pizza_priceList_01",
+          "furni_pizza_cashierDesk_01",
+          "furni_pizza_brazier_01",
+          "furni_pizza_cupboard_01",
+          "furni_pizza_shelf_01"
+        ]
+      },
+      "furni_set_pizza_2": {
+        "id": "furni_set_pizza_2",
+        "name": "Store Advertising Facilities",
+        "themeId": "furni_set_pizza",
+        "comfort": 250,
+        "count": 3,
+        "furniture": [
+          "furni_pizza_noticeWall_01",
+          "furni_pizza_banner_01",
+          "furni_pizza_column_01"
+        ]
+      },
+      "furni_set_pizza_3": {
+        "id": "furni_set_pizza_3",
+        "name": "Facilities for Dining Alone",
+        "themeId": "furni_set_pizza",
+        "comfort": 130,
+        "count": 3,
+        "furniture": [
+          "furni_pizza_barTable_01",
+          "furni_pizza_barStool_01",
+          "furni_pizza_exitIndicator_01"
+        ]
+      },
+      "furni_set_pizza_4": {
+        "id": "furni_set_pizza_4",
+        "name": "Facilities for Dining Together",
+        "themeId": "furni_set_pizza",
+        "comfort": 150,
+        "count": 4,
+        "furniture": [
+          "furni_pizza_diningTable_01",
+          "furni_pizza_chair_L_01",
+          "furni_pizza_chair_R_01",
+          "furni_pizza_chair_F_01"
+        ]
+      },
+      "furni_set_pizza_5": {
+        "id": "furni_set_pizza_5",
+        "name": "Popular Pizzeria Design",
+        "themeId": "furni_set_pizza",
+        "comfort": 250,
+        "count": 5,
+        "furniture": [
+          "furni_pizza_wallpaper_01",
+          "furni_pizza_floor_01",
+          "furni_pizza_abstractArt_01",
+          "furni_pizza_ceilingLights_01",
+          "furni_pizza_brickWallSticker_01"
         ]
       }
     },
