@@ -5203,6 +5203,118 @@
           ]
         }
       ]
+    },
+    "char_281_popka": {
+      "charId": "char_281_popka",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd&limit&cost[010]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_single&oneself[020]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_253_greyy": {
+      "charId": "char_253_greyy",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "power_rec_spd[002]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_proc_probability[010]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_010_chen": {
+      "charId": "char_010_chen",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp_cost&faction[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd&team[100]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_308_swire": {
+      "charId": "char_308_swire",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_tra_spd[010]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd[000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -6459,6 +6571,72 @@
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+1</>"
+    },
+    "control_tra_spd[010]": {
+      "buffId": "control_tra_spd[010]",
+      "buffName": "お嬢様",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_t_spd",
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "制御中枢配置時、全貿易所の受注効率<@cc.vup>+7%</>（同種の効果は高いほうのみ適応）"
+    },
+    "control_mp_cost&faction[000]": {
+      "buffId": "control_mp_cost&faction[000]",
+      "buffName": "才徳兼備",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_lungmen",
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "制御中枢配置時、制御中枢内の<@cc.kw>龍門近衛局</>所属オペレーター1人につき、中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>"
+    },
+    "power_rec_spd[002]": {
+      "buffId": "power_rec_spd[002]",
+      "buffName": "静電場",
+      "buffIcon": "power",
+      "skillIcon": "bskill_pow_spd",
+      "buffColor": "#8fc31f",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "POWER",
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+20%</>"
+    },
+    "manu_prod_spd&limit&cost[010]": {
+      "buffId": "manu_prod_spd&limit&cost[010]",
+      "buffName": "トラブルメーカー",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd&limit&cost",
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所配置時、製造効率<@cc.vup>+25%</>、保管上限<@cc.vdown>-12</>、体力消費が1時間ごと<@cc.vdown>+0.25</>"
+    },
+    "dorm_rec_single&oneself[020]": {
+      "buffId": "dorm_rec_single&oneself[020]",
+      "buffName": "調和",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_single&one",
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.4</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.2</>"
+    },
+    "meet_spd&team[100]": {
+      "buffId": "meet_spd&team[100]",
+      "buffName": "警視",
+      "buffIcon": "meeting",
+      "skillIcon": "bskill_meet_spd",
+      "buffColor": "#dd653f",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "MEETING",
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+25%</>"
     }
   },
   "customData": {
@@ -10007,7 +10185,7 @@
       },
       "furni_artdeco_carpet_01": {
         "id": "furni_artdeco_carpet_01",
-        "name": "バー絨毯",
+        "name": "ホテル絨毯",
         "iconId": "furni_artdeco_carpet_01",
         "type": "CARPET",
         "location": "CARPET",
@@ -10019,7 +10197,7 @@
         "height": 1,
         "comfort": 435,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "モダンなバーの絨毯。四方八方に向いたロケットの模様は、拡大政策を続けていた頃のクルビアのよう。",
+        "description": "モダンホテルの絨毯。四方八方に向いた矢印の模様は、拡大政策を続けていた頃のクルビアのよう。",
         "obtainApproach": "ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
@@ -10051,7 +10229,7 @@
       },
       "furni_artdeco_wallLamp_01": {
         "id": "furni_artdeco_wallLamp_01",
-        "name": "バー壁灯",
+        "name": "ホテル壁灯",
         "iconId": "furni_artdeco_wallLamp_01",
         "type": "WALLLAMP",
         "location": "WALL",
@@ -10063,7 +10241,7 @@
         "height": 2,
         "comfort": 35,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "モダンなバーのライト。灯された光は理想の未来を照らす。",
+        "description": "モダンホテルのライト。灯された光は理想の未来を照らす。",
         "obtainApproach": "ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
@@ -10073,7 +10251,7 @@
       },
       "furni_artdeco_abstractArt_01": {
         "id": "furni_artdeco_abstractArt_01",
-        "name": "バー壁掛け",
+        "name": "ホテル壁掛け",
         "iconId": "furni_artdeco_abstractArt_01",
         "type": "WALLDECO",
         "location": "WALL",
@@ -10095,7 +10273,7 @@
       },
       "furni_artdeco_ceilingLamp_01": {
         "id": "furni_artdeco_ceilingLamp_01",
-        "name": "バーシャンデリア",
+        "name": "ホテルシャンデリア",
         "iconId": "furni_artdeco_ceilingLamp_01",
         "type": "CEILINGLAMP",
         "location": "CEILING",
@@ -10107,7 +10285,7 @@
         "height": 2,
         "comfort": 95,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "モダンなバーのシャンデリア。華やかで煌びやか、そんな未来への憧憬が禁じ得ない。",
+        "description": "モダンホテルのシャンデリア。華やかで煌びやか、そんな未来への憧憬が禁じ得ない。",
         "obtainApproach": "ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
@@ -10117,7 +10295,7 @@
       },
       "furni_artdeco_sofa_01": {
         "id": "furni_artdeco_sofa_01",
-        "name": "バーソファ",
+        "name": "ホテルソファ",
         "iconId": "furni_artdeco_sofa_01",
         "type": "SEATING",
         "location": "FLOOR",
@@ -10129,7 +10307,7 @@
         "height": 3,
         "comfort": 340,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "匠の手によって作られた機械で作られたバーのソファー。雲のようにふかふかで、悩みも雲散しそう。",
+        "description": "匠の手によって作られた機械で作られたホテルのソファー。雲のようにふかふかで、悩みも雲散しそう。",
         "obtainApproach": "ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
@@ -10139,7 +10317,7 @@
       },
       "furni_artdeco_coffeeTable_01": {
         "id": "furni_artdeco_coffeeTable_01",
-        "name": "バーテーブル",
+        "name": "ホテルテーブル",
         "iconId": "furni_artdeco_coffeeTable_01",
         "type": "TABLE",
         "location": "FLOOR",
@@ -10151,7 +10329,7 @@
         "height": 3,
         "comfort": 180,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "モダンなバーのテーブルには、美酒とグラス。へべれけになっても、誰も気にやしない。",
+        "description": "モダンホテルのテーブルには、美酒とグラス。へべれけになっても、誰も気にやしない。",
         "obtainApproach": "ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
@@ -10183,7 +10361,7 @@
       },
       "furni_artdeco_floorLamp_01": {
         "id": "furni_artdeco_floorLamp_01",
-        "name": "バースタンド",
+        "name": "ホテルスタンド",
         "iconId": "furni_artdeco_floorLamp_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -10195,7 +10373,7 @@
         "height": 4,
         "comfort": 120,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "モダンなバーのフロアスタンド。光量はやや少ないが、雰囲気は完璧。",
+        "description": "モダンホテルのフロアスタンド。光量はやや少ないが、雰囲気は完璧。",
         "obtainApproach": "ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
@@ -10205,7 +10383,7 @@
       },
       "furni_artdeco_ceiling_01": {
         "id": "furni_artdeco_ceiling_01",
-        "name": "バー天井",
+        "name": "ホテル天井",
         "iconId": "furni_artdeco_ceiling_01",
         "type": "CEILING",
         "location": "CEILING",
@@ -10217,7 +10395,7 @@
         "height": 2,
         "comfort": 185,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "モダンなバーのダウンライト。とはいえ照明は補助的なもの。",
+        "description": "モダンホテルのダウンライト。とはいえ照明は補助的なもの。",
         "obtainApproach": "ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
@@ -10227,7 +10405,7 @@
       },
       "furni_artdeco_wallpaper_01": {
         "id": "furni_artdeco_wallpaper_01",
-        "name": "バー壁紙",
+        "name": "ホテル壁紙",
         "iconId": "furni_artdeco_wallpaper_01",
         "type": "WALLPAPER",
         "location": "NONE",
@@ -10239,7 +10417,7 @@
         "height": 10,
         "comfort": 240,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "モダンなバーの壁紙。シンプルなデザインと上質な素材、技術の粋を結集した逸品。",
+        "description": "モダンホテルの壁紙。シンプルなデザインと上質な素材、技術の粋を結集した逸品。",
         "obtainApproach": "ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
@@ -10327,7 +10505,7 @@
         "height": 2,
         "comfort": 265,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "近衛局で買った腹筋マシン。毎日欠かさず使える人はきっと執念深い。",
+        "description": "近衛局が発注して購入した腹筋マシン。毎日欠かさず使える人はきっと執念深い。",
         "obtainApproach": "購買部期間限定",
         "processedProductId": "3401",
         "processedProductCount": 173,
@@ -10393,7 +10571,7 @@
         "height": 5,
         "comfort": 425,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "仕事の資料や部下を叱り飛ばした後に飲む喉の薬が山積みになっている。ぼろぼろの熊さんは絶対に捨てようとしない。",
+        "description": "近衛局が配給したデスク。仕事の資料や部下を叱り飛ばした後に飲む喉の薬が山積みになっている。ぼろぼろのくまさんは絶対に捨てようとしない。",
         "obtainApproach": "購買部期間限定",
         "processedProductId": "3401",
         "processedProductCount": 250,
@@ -10415,7 +10593,7 @@
         "height": 4,
         "comfort": 190,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "チェンが快適度の最低ラインを下げまくった結果、近衛局は一番座り心地が悪い椅子に座ることになってしまった。",
+        "description": "近衛局が配給した椅子。チェンが調整機能を取り除いた結果、近衛局でもっとも座りにくい椅子になった。",
         "obtainApproach": "購買部期間限定",
         "processedProductId": "3401",
         "processedProductCount": 138,
@@ -10437,7 +10615,7 @@
         "height": 2,
         "comfort": 120,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "近衛局のゴミ箱。ゴミがこぼれているのは珍しい。",
+        "description": "近衛局が配給したゴミ箱。ご覧の通り、ゴミ出しは疎かになっている。",
         "obtainApproach": "購買部期間限定",
         "processedProductId": "3401",
         "processedProductCount": 88,
@@ -14206,6 +14384,116 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false
+      },
+      "furni_dropS003_peanuts_01": {
+        "id": "furni_dropS003_peanuts_01",
+        "name": "パネル「落花生」",
+        "iconId": "furni_dropS003_peanuts_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "「種子が地面に落ち成長を始める。熟れると自分がアレルギーになることを忘れて。」",
+        "obtainApproach": "5-3強襲作戦クリアで入手",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_dropS003_meno_01": {
+        "id": "furni_dropS003_meno_01",
+        "name": "パネル「失策」",
+        "iconId": "furni_dropS003_meno_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "「歩くという些細な事でも、一歩ずつ進めば誰かに会える。結果が大事なのだ。」",
+        "obtainApproach": "5-7強襲作戦クリアで入手",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_dropS003_asLongAsFar_01": {
+        "id": "furni_dropS003_asLongAsFar_01",
+        "name": "パネル「奇譚」",
+        "iconId": "furni_dropS003_asLongAsFar_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "「飛び越えられる高さならば、気にならない。」",
+        "obtainApproach": "5-10強襲作戦クリアで入手",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_dropS003_fabric_01": {
+        "id": "furni_dropS003_fabric_01",
+        "name": "パネル「省略」",
+        "iconId": "furni_dropS003_fabric_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "「もし実施することよりも、計画することの方が更に創造的な価値を備えているとしたら？結果から言えば、どちらも必要だ。」",
+        "obtainApproach": "H5-2クリアで入手",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_dropS003_zero_01": {
+        "id": "furni_dropS003_zero_01",
+        "name": "パネル「秩序」",
+        "iconId": "furni_dropS003_zero_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "「もし一つの言語が我々にとって理解不能な姿で現れたら、我々の浅はかさを検証するだろう。」",
+        "obtainApproach": "H5-4クリアで入手",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
       }
     },
     "themes": {
@@ -14918,7 +15206,7 @@
       "furni_set_wooden": {
         "id": "furni_set_wooden",
         "name": "田園別荘",
-        "desc": "サーミ風ログハウスがテーマ。",
+        "desc": "サーミ伝統のログハウスがテーマ。",
         "quickSetup": [
           {
             "furnitureId": "furni_wooden_loftBed_01",
@@ -15169,6 +15457,240 @@
           },
           {
             "furnitureId": "furni_pizza_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
+      },
+      "furni_set_artdeco": {
+        "id": "furni_set_artdeco",
+        "name": "モダンホテル",
+        "desc": "モダン時代のホテルがテーマ。瞬く間に消え去ったクルビアの黄金期を思い出させる。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_artdeco_barCeiling_01",
+            "pos0": 0,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_artdeco_bar_01",
+            "pos0": 0,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_artdeco_barstool_01",
+            "pos0": 2,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_artdeco_barstool_01",
+            "pos0": 4,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_artdeco_barstool_01",
+            "pos0": 6,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_artdeco_refrigerator_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_artdeco_framedArt_01",
+            "pos0": 3,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_artdeco_pianoKit_01",
+            "pos0": 12,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_artdeco_carpet_01",
+            "pos0": 12,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_artdeco_JukeBox_01",
+            "pos0": 9,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_artdeco_wallLamp_01",
+            "pos0": 9,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_artdeco_wallLamp_01",
+            "pos0": 24,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_artdeco_abstractArt_01",
+            "pos0": 15,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_artdeco_ceilingLamp_01",
+            "pos0": 15,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_artdeco_sofa_01",
+            "pos0": 22,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_artdeco_coffeeTable_01",
+            "pos0": 25,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_artdeco_framedArt2_01",
+            "pos0": 27,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_artdeco_floorLamp_01",
+            "pos0": 32,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_artdeco_ceiling_01",
+            "pos0": 25,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_artdeco_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_artdeco_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
+      },
+      "furni_set_chen": {
+        "id": "furni_set_chen",
+        "name": "チェンの執務室",
+        "desc": "龍門近衛局のチェンの執務室がテーマ。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_chen_showcase_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_chen_weaponCabinet_01",
+            "pos0": 4,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_chen_supineBoard_01",
+            "pos0": 2,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_chen_honorMedal_01",
+            "pos0": 8,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_chen_cactusPottedPlant_01",
+            "pos0": 8,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_chen_desk_01",
+            "pos0": 13,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_chen_chair_01",
+            "pos0": 16,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_chen_trash_01",
+            "pos0": 23,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_chen_wingChunDummy_01",
+            "pos0": 29,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_chen_investigationBoard_01",
+            "pos0": 23,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_chen_ceilingLight_R_01",
+            "pos0": 1,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_chen_ceilingLight_R_01",
+            "pos0": 9,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_chen_ceilingLight_R_01",
+            "pos0": 17,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_chen_ceilingLight_R_01",
+            "pos0": 25,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_chen_ceilingLight_C_01",
+            "pos0": 0,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_chen_ceilingLight_C_01",
+            "pos0": 8,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_chen_ceilingLight_C_01",
+            "pos0": 16,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_chen_ceilingLight_C_01",
+            "pos0": 24,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_chen_ceilingLight_C_01",
+            "pos0": 32,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_chen_spotlight_01",
+            "pos0": 22,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_chen_spotlight_01",
+            "pos0": 28,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_chen_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_chen_floor_01",
             "pos0": 0,
             "pos1": 0
           }
@@ -15698,6 +16220,111 @@
           "furni_pizza_abstractArt_01",
           "furni_pizza_ceilingLights_01",
           "furni_pizza_brickWallSticker_01"
+        ]
+      },
+      "furni_set_artdeco_1": {
+        "id": "furni_set_artdeco_1",
+        "name": "カウンターセット",
+        "themeId": "furni_set_artdeco",
+        "comfort": 225,
+        "count": 5,
+        "furniture": [
+          "furni_artdeco_barCeiling_01",
+          "furni_artdeco_bar_01",
+          "furni_artdeco_barstool_01",
+          "furni_artdeco_refrigerator_01",
+          "furni_artdeco_framedArt_01"
+        ]
+      },
+      "furni_set_artdeco_2": {
+        "id": "furni_set_artdeco_2",
+        "name": "フロアセット",
+        "themeId": "furni_set_artdeco",
+        "comfort": 355,
+        "count": 5,
+        "furniture": [
+          "furni_artdeco_pianoKit_01",
+          "furni_artdeco_carpet_01",
+          "furni_artdeco_JukeBox_01",
+          "furni_artdeco_abstractArt_01",
+          "furni_artdeco_ceilingLamp_01"
+        ]
+      },
+      "furni_set_artdeco_3": {
+        "id": "furni_set_artdeco_3",
+        "name": "楽器/インテリア",
+        "themeId": "furni_set_artdeco",
+        "comfort": 230,
+        "count": 5,
+        "furniture": [
+          "furni_artdeco_sofa_01",
+          "furni_artdeco_coffeeTable_01",
+          "furni_artdeco_framedArt2_01",
+          "furni_artdeco_floorLamp_01",
+          "furni_artdeco_ceiling_01"
+        ]
+      },
+      "furni_set_artdeco_4": {
+        "id": "furni_set_artdeco_4",
+        "name": "内装",
+        "themeId": "furni_set_artdeco",
+        "comfort": 90,
+        "count": 3,
+        "furniture": [
+          "furni_artdeco_wallpaper_01",
+          "furni_artdeco_floor_01",
+          "furni_artdeco_wallLamp_01"
+        ]
+      },
+      "furni_set_chen_1": {
+        "id": "furni_set_chen_1",
+        "name": "オフィスセット",
+        "themeId": "furni_set_chen",
+        "comfort": 300,
+        "count": 5,
+        "furniture": [
+          "furni_chen_desk_01",
+          "furni_chen_chair_01",
+          "furni_chen_trash_01",
+          "furni_chen_investigationBoard_01",
+          "furni_chen_spotlight_01"
+        ]
+      },
+      "furni_set_chen_2": {
+        "id": "furni_set_chen_2",
+        "name": "チェンの私物",
+        "themeId": "furni_set_chen",
+        "comfort": 185,
+        "count": 3,
+        "furniture": [
+          "furni_chen_showcase_01",
+          "furni_chen_weaponCabinet_01",
+          "furni_chen_honorMedal_01"
+        ]
+      },
+      "furni_set_chen_3": {
+        "id": "furni_set_chen_3",
+        "name": "チェンの趣味",
+        "themeId": "furni_set_chen",
+        "comfort": 180,
+        "count": 3,
+        "furniture": [
+          "furni_chen_supineBoard_01",
+          "furni_chen_wingChunDummy_01",
+          "furni_chen_cactusPottedPlant_01"
+        ]
+      },
+      "furni_set_chen_4": {
+        "id": "furni_set_chen_4",
+        "name": "内装",
+        "themeId": "furni_set_chen",
+        "comfort": 295,
+        "count": 4,
+        "furniture": [
+          "furni_chen_wallpaper_01",
+          "furni_chen_floor_01",
+          "furni_chen_ceilingLight_R_01",
+          "furni_chen_ceilingLight_C_01"
         ]
       }
     },
