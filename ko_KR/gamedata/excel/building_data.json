@@ -5315,6 +5315,117 @@
           ]
         }
       ]
+    },
+    "char_248_mgllan": {
+      "charId": "char_248_mgllan",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_proc_probability[011]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost[000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_131_flameb": {
+      "charId": "char_131_flameb",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "workshop_formula_probability[020]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_279_excu": {
+      "charId": "char_279_excu",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[040]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp_cost[003]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_190_clour": {
+      "charId": "char_190_clour",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_limit&cost[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_variable[000]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -6637,6 +6748,61 @@
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
       "description": "응접실에 배치 시, 단서 수집 속도<@cc.vup>+25%</>"
+    },
+    "control_mp_cost[003]": {
+      "buffId": "control_mp_cost[003]",
+      "buffName": "처분 협의",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_cost",
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, 제어 센터 내의 모든 오퍼레이터의 시간당 컨디션 소모<@cc.vup>-0.05</>"
+    },
+    "manu_prod_spd_variable[000]": {
+      "buffId": "manu_prod_spd_variable[000]",
+      "buffName": "재활용",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_variable",
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "제조소에 배치 시, 해당 제조소 내의 오퍼레이터가 늘린 창고 용량마다 생산력<@cc.vup>2%</> 제공"
+    },
+    "workshop_proc_probability[011]": {
+      "buffId": "workshop_proc_probability[011]",
+      "buffName": "다용도 측정기",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_p",
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치 후 <@cc.kw>임의류 재료</> 가공 시, 부산물 산출 확률 <@cc.vup>50%</>"
+    },
+    "workshop_formula_cost[000]": {
+      "buffId": "workshop_formula_cost[000]",
+      "buffName": "드래곤플라이 드론",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_cost",
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치 후 컨디션 <@cc.kw>4</>이상 소모하는 <@cc.kw>임의류 재료</> 가공 시 컨디션 소모<@cc.vup>-2</>"
+    },
+    "workshop_formula_probability[020]": {
+      "buffId": "workshop_formula_probability[020]",
+      "buffName": "최고의 경지",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_skill",
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치 후 <@cc.kw>스킬개론</> 가공 시, 부산물 산출 확률 <@cc.vup>80%</>"
     }
   },
   "customData": {
@@ -11769,7 +11935,7 @@
       },
       "furni_safetyZone_gate_01": {
         "id": "furni_safetyZone_gate_01",
-        "name": "안전구역 소독실",
+        "name": "안전선실 소독실",
         "iconId": "furni_safetyZone_gate_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -11780,8 +11946,8 @@
         "depth": 5,
         "height": 7,
         "comfort": 310,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "폐쇄형 소독실. 옷에 묻은 분진과 액체를 제거하는 일은 최우선 사항이다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "폐쇄형 소독실. 옷에 묻은 분진과 액체를 제거하는 일은 최우선 사항이다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 210,
@@ -11791,7 +11957,7 @@
       },
       "furni_safetyZone_UVLamp_01": {
         "id": "furni_safetyZone_UVLamp_01",
-        "name": "안전구역 자외선 소독기",
+        "name": "안전선실 자외선 소독기",
         "iconId": "furni_safetyZone_UVLamp_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -11802,8 +11968,8 @@
         "depth": 1,
         "height": 3,
         "comfort": 110,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "자외선 쿼츠 소독등. 병원체에 대항할 수 있는 가장 효과적인 수단이다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "자외선 쿼츠 소독등. 병원체에 대항할 수 있는 가장 효과적인 수단이다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 93,
@@ -11824,8 +11990,8 @@
         "depth": 5,
         "height": 3,
         "comfort": 245,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "소독액, 중화용 시약 등 필수 자원을 포함하고 있는 통. 긴급 상황 대비용이다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "소독액, 중화용 시약 등 필수 자원을 포함하고 있는 통. 긴급 상황 대비용이다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 168,
@@ -11846,7 +12012,7 @@
         "depth": 4,
         "height": 6,
         "comfort": 360,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
         "description": "안전선실에 보관 중인 응급용 이동식 침대. 이것을 사용하는 일이 없길 바라며…",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
@@ -11868,8 +12034,8 @@
         "depth": 1,
         "height": 4,
         "comfort": 85,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "선실 내 상시 구비 중인 격리복 세트. 자신을 보호하는 최선의 방법은 바로 본인을 다른 환경으로 격리하는 것이다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "선실 내 상시 구비 중인 격리복 세트. 자신을 보호하는 최선의 방법은 바로 본인을 다른 환경으로 격리하는 것이다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 73,
@@ -11890,8 +12056,8 @@
         "depth": 1,
         "height": 4,
         "comfort": 85,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "선실 내 상시 구비 중인 격리복. 모든 스텝 또한 엄격한 통제를 필요로 한다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "선실 내 상시 구비 중인 격리복. 모든 과정엔 엄격한 통제가 필요하다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 73,
@@ -11912,8 +12078,8 @@
         "depth": 1,
         "height": 2,
         "comfort": 45,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "각종 조작이 가능한 다기능 삽. 들리는 바에 의하면 적지 않은 엔지니어 오퍼레이터들이 본인들의 무기로 사용한다고 한다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "각종 조작이 가능한 다기능 삽. 들리는 바에 의하면 적지 않은 엔지니어 오퍼레이터들이 본인들의 무기로 사용한다고 한다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 38,
@@ -11923,7 +12089,7 @@
       },
       "furni_safetyZone_box_01": {
         "id": "furni_safetyZone_box_01",
-        "name": "안전구역 물자 상자",
+        "name": "안전선실 물자 상자",
         "iconId": "furni_safetyZone_box_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -11934,8 +12100,8 @@
         "depth": 4,
         "height": 2,
         "comfort": 175,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "각종 물자가 포함되어 있는 물자 상자. 모든 자원을 동원하여 문제를 확실히 처리하자",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "각종 물자가 포함되어 있는 물자 상자. 모든 자원을 동원하여 문제를 확실히 처리하자.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 133,
@@ -11945,7 +12111,7 @@
       },
       "furni_safetyZone_partitionWall_01": {
         "id": "furni_safetyZone_partitionWall_01",
-        "name": "안전구역 방벽",
+        "name": "안전선실 방벽",
         "iconId": "furni_safetyZone_partitionWall_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -11956,7 +12122,7 @@
         "depth": 7,
         "height": 8,
         "comfort": 245,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
         "description": "안전선실 내 필수품인 격리벽. 음, 이건 언제부터 여기 놓여져 있었지?",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
@@ -11967,7 +12133,7 @@
       },
       "furni_safetyZone_roboticArmVehicle_01": {
         "id": "furni_safetyZone_roboticArmVehicle_01",
-        "name": "안전구역 작업차량",
+        "name": "안전선실 작업차량",
         "iconId": "furni_safetyZone_roboticArmVehicle_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -11978,8 +12144,8 @@
         "depth": 4,
         "height": 4,
         "comfort": 255,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "정밀 조작이 가능한 외팔 작업 차량. 사태가 상당히 악화됐을 시에만 사용되는 기계이다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "정밀 조작이 가능한 외팔 작업 차량. 사태가 상당히 악화됐을 시에만 사용되는 기계이다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 193,
@@ -12000,8 +12166,8 @@
         "depth": 4,
         "height": 5,
         "comfort": 335,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "다기능 소독 정화기. 기기 내부에 강산이 포함되어 있어, 반드시 설명서에 따라 사용해야 한다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "다기능 소독 정화기. 기기 내부에 강산이 포함되어 있어, 반드시 설명서에 따라 사용해야 한다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 228,
@@ -12011,7 +12177,7 @@
       },
       "furni_safetyZone_pipeline1_01": {
         "id": "furni_safetyZone_pipeline1_01",
-        "name": "안전구역 공기파이프",
+        "name": "안전선실 공기파이프",
         "iconId": "furni_safetyZone_pipeline1_01",
         "type": "WALLDECO",
         "location": "WALL",
@@ -12022,8 +12188,8 @@
         "depth": 2,
         "height": 2,
         "comfort": 305,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "안전선실 내 통기 파이프. 선실 내부 공기는 반드시 2차 순환을 거쳐야 한다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "안전선실 내 통기 파이프. 선실 내부 공기는 반드시 2차 순환을 거쳐야 한다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 208,
@@ -12033,7 +12199,7 @@
       },
       "furni_safetyZone_pipeline2_01": {
         "id": "furni_safetyZone_pipeline2_01",
-        "name": "안전구역 환기파이프",
+        "name": "안전선실 환기파이프",
         "iconId": "furni_safetyZone_pipeline2_01",
         "type": "WALLDECO",
         "location": "WALL",
@@ -12044,8 +12210,8 @@
         "depth": 1,
         "height": 2,
         "comfort": 135,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "안전선실 내 제어 파이프. 공기 순환 과정을 제어한다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "안전선실 내 제어 파이프. 공기 순환 과정을 제어한다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 103,
@@ -12066,8 +12232,8 @@
         "depth": 1,
         "height": 8,
         "comfort": 135,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "안전선실 내 기압 제어용 스위치. 선실 밖에 따로 컨트롤실을 두고 있다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "안전선실 내 기압 제어용 스위치. 선실 밖에 따로 컨트롤실을 두고 있다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 113,
@@ -12077,7 +12243,7 @@
       },
       "furni_safetyZone_ceilingLight_01": {
         "id": "furni_safetyZone_ceilingLight_01",
-        "name": "안전구역 형광등",
+        "name": "안전선실 형광등",
         "iconId": "furni_safetyZone_ceilingLight_01",
         "type": "CEILINGLAMP",
         "location": "CEILING",
@@ -12088,8 +12254,8 @@
         "depth": 2,
         "height": 4,
         "comfort": 105,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "수 차례 긴급 사건들을 겪어 약간 파손된 조명등. 걱정하지 않아도 된다. 엔지니어 오퍼레이터가 곧 도착할 테니",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "수 차례 긴급 사건들을 겪어 약간 파손된 조명등. 걱정하지 않아도 된다. 엔지니어 오퍼레이터가 곧 도착할 테니.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 88,
@@ -12110,8 +12276,8 @@
         "depth": 10,
         "height": 1,
         "comfort": 315,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "신규 선실 천장 갑판 가림막. 통상적으로 갑판 가림막의 수명은 그리 긴 편이 아니다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "신규 선실 천장 갑판 가림막. 통상적으로 갑판 가림막의 수명은 그리 긴 편이 아니다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 215,
@@ -12121,7 +12287,7 @@
       },
       "furni_safetyZone_downlight_01": {
         "id": "furni_safetyZone_downlight_01",
-        "name": "안전구역 천장등",
+        "name": "안전선실 천장등",
         "iconId": "furni_safetyZone_downlight_01",
         "type": "CEILINGLAMP",
         "location": "CEILING",
@@ -12132,8 +12298,8 @@
         "depth": 2,
         "height": 1,
         "comfort": 55,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "전력 제공이 절대 멈추지 않는 천장등. 빛이야 말로 안전을 뜻한다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "전력 제공이 절대 멈추지 않는 천장등. 빛이야 말로 안전을 뜻한다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 48,
@@ -12154,7 +12320,7 @@
         "depth": 8,
         "height": 1,
         "comfort": 130,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
         "description": "분진과 액체를 단단히 잡아둘 수 있는 정전기 카펫. 주기적인 청소와 교체가 있어야만 제대로 된 흡착 효과를 보장할 수 있다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
@@ -12176,8 +12342,8 @@
         "depth": 1,
         "height": 10,
         "comfort": 240,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "선실 필수품인 방독 방화 격리용 선벽. 위험이 번지는 것을 미리 막을 수 있다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "선실 필수품인 방독 방화 격리용 선벽. 위험이 번지는 것을 미리 막을 수 있다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 180,
@@ -12198,8 +12364,8 @@
         "depth": 10,
         "height": 1,
         "comfort": 240,
-        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다",
-        "description": "선실 필수품인 방화용 장갑판. 화학 제품의 부식을 철저하게 차단할 수 있다",
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "선실 필수품인 방화용 장갑판. 화학 제품의 부식을 철저하게 차단할 수 있다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 180,
@@ -13717,7 +13883,7 @@
         "height": 6,
         "comfort": 250,
         "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
-        "description": "예비작전팀 A1의 오퍼레이터들이 옷을 걸어 놓는 옷걸이. 실내 온도는 여전히 높다.",
+        "description": "예비작전팀 A4의 오퍼레이터들이 옷을 걸어 놓는 옷걸이. 실내 온도는 여전히 높다.",
         "obtainApproach": "예비작전팀 A4 신뢰도 수집",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -14489,6 +14655,28 @@
         "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
         "description": "\"어쩌면 어떤 미지의 언어가 우리가 알수 없는 형태로 출현할 수도 있다. 그것은 단지 우리의 천박함을 검증할 뿐이다.\"",
         "obtainApproach": "H5-4 첫 클리어 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_dropS004_YMO_01": {
+        "id": "furni_dropS004_YMO_01",
+        "name": "플레이트 《가면》",
+        "iconId": "furni_dropS003_zero_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "\"세월이 흐름에 당신은 박장대소하며, 연륜이 쌓여감에 당신의 가슴은 벅차간다.\"",
+        "obtainApproach": "SW-EV-5 하드 모드 첫 클리어",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -15695,6 +15883,118 @@
             "pos1": 0
           }
         ]
+      },
+      "furni_set_safetyZone": {
+        "id": "furni_set_safetyZone",
+        "name": "밀폐화학방어안전선실",
+        "desc": "방독방화 기능을 갖추고 있는 소독된 안전선실. 긴급사태 및 위험임무 발생 때만 사용 가능하다.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_safetyZone_gate_01",
+            "pos0": 2,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_safetyZone_UVLamp_01",
+            "pos0": 6,
+            "pos1": 9
+          },
+          {
+            "furnitureId": "furni_safetyZone_oxygenTank_01",
+            "pos0": 4,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_stretcher_01",
+            "pos0": 9,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_safetyZone_hazmatSuit_01",
+            "pos0": 11,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_safetyZone_hazmatCoat_01",
+            "pos0": 13,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_safetyZone_shovel_01",
+            "pos0": 15,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_safetyZone_box_01",
+            "pos0": 16,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_safetyZone_partitionWall_01",
+            "pos0": 20,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_roboticArmVehicle_01",
+            "pos0": 21,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_safetyZone_virusFilter_01",
+            "pos0": 26,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_pipeline1_01",
+            "pos0": 0,
+            "pos1": 8
+          },
+          {
+            "furnitureId": "furni_safetyZone_pipeline2_01",
+            "pos0": 4,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_safetyZone_PipelineValve_01",
+            "pos0": 18,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_ceilingLight_01",
+            "pos0": 11,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_safetyZone_ceiling_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_downlight_01",
+            "pos0": 7,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_safetyZone_downlight_01",
+            "pos0": 20,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_safetyZone_carpet_01",
+            "pos0": 6,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
       }
     },
     "groups": {
@@ -16325,6 +16625,62 @@
           "furni_chen_floor_01",
           "furni_chen_ceilingLight_R_01",
           "furni_chen_ceilingLight_C_01"
+        ]
+      },
+      "furni_set_safetyZone_1": {
+        "id": "furni_set_safetyZone_1",
+        "name": "안전선실 소독여과 세트",
+        "themeId": "furni_set_safetyZone",
+        "comfort": 215,
+        "count": 5,
+        "furniture": [
+          "furni_safetyZone_gate_01",
+          "furni_safetyZone_UVLamp_01",
+          "furni_safetyZone_pipeline1_01",
+          "furni_safetyZone_pipeline2_01",
+          "furni_safetyZone_PipelineValve_01"
+        ]
+      },
+      "furni_set_safetyZone_2": {
+        "id": "furni_set_safetyZone_2",
+        "name": "안전선실 방호 세트",
+        "themeId": "furni_set_safetyZone",
+        "comfort": 145,
+        "count": 5,
+        "furniture": [
+          "furni_safetyZone_stretcher_01",
+          "furni_safetyZone_carpet_01",
+          "furni_safetyZone_hazmatSuit_01",
+          "furni_safetyZone_hazmatCoat_01",
+          "furni_safetyZone_shovel_01"
+        ]
+      },
+      "furni_set_safetyZone_3": {
+        "id": "furni_set_safetyZone_3",
+        "name": "안전선실 청결 세트",
+        "themeId": "furni_set_safetyZone",
+        "comfort": 290,
+        "count": 5,
+        "furniture": [
+          "furni_safetyZone_oxygenTank_01",
+          "furni_safetyZone_box_01",
+          "furni_safetyZone_partitionWall_01",
+          "furni_safetyZone_roboticArmVehicle_01",
+          "furni_safetyZone_virusFilter_01"
+        ]
+      },
+      "furni_set_safetyZone_4": {
+        "id": "furni_set_safetyZone_4",
+        "name": "안전선실 기초 설비 세트",
+        "themeId": "furni_set_safetyZone",
+        "comfort": 185,
+        "count": 5,
+        "furniture": [
+          "furni_safetyZone_ceiling_01",
+          "furni_safetyZone_ceilingLight_01",
+          "furni_safetyZone_downlight_01",
+          "furni_safetyZone_wallpaper_01",
+          "furni_safetyZone_floor_01"
         ]
       }
     },
