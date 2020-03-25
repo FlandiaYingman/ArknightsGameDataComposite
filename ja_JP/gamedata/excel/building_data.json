@@ -5315,6 +5315,117 @@
           ]
         }
       ]
+    },
+    "char_248_mgllan": {
+      "charId": "char_248_mgllan",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_proc_probability[011]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost[000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_131_flameb": {
+      "charId": "char_131_flameb",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "workshop_formula_probability[020]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_279_excu": {
+      "charId": "char_279_excu",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[040]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp_cost[003]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_190_clour": {
+      "charId": "char_190_clour",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_limit&cost[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_variable[000]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -6637,6 +6748,61 @@
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
       "description": "応接室配置時、手がかり捜索速度<@cc.vup>+25%</>"
+    },
+    "control_mp_cost[003]": {
+      "buffId": "control_mp_cost[003]",
+      "buffName": "執行協定",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_cost",
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "制御中枢配置時、制御中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>"
+    },
+    "manu_prod_spd_variable[000]": {
+      "buffId": "manu_prod_spd_variable[000]",
+      "buffName": "再利用",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_variable",
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所配置時、保管上限1上昇につき、製造効率<@cc.vup>+2%</>"
+    },
+    "workshop_proc_probability[011]": {
+      "buffId": "workshop_proc_probability[011]",
+      "buffName": "多機能セオドライト",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_p",
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+50%</>"
+    },
+    "workshop_formula_cost[000]": {
+      "buffId": "workshop_formula_cost[000]",
+      "buffName": "ドローン・DDF",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_cost",
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "加工所で<@cc.kw>任意の素材</>を加工時、体力消費が<@cc.kw>4</>以上の素材の体力消費が<@cc.vup>-2</>になる"
+    },
+    "workshop_formula_probability[020]": {
+      "buffId": "workshop_formula_probability[020]",
+      "buffName": "剣技の粋",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_skill",
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "加工所で<@cc.kw>アーツ学</>を加工時、副産物の入手確率<@cc.vup>+80%</>"
     }
   },
   "customData": {
@@ -14494,6 +14660,28 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false
+      },
+      "furni_dropS004_YMO_01": {
+        "id": "furni_dropS004_YMO_01",
+        "name": "パネル「マスク」",
+        "iconId": "furni_dropS003_zero_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "「時が流れれば笑い話になる。歳を取れば器も深くなる。」",
+        "obtainApproach": "SW-EV-5強襲作戦初回クリア",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
       }
     },
     "themes": {
@@ -15695,6 +15883,118 @@
             "pos1": 0
           }
         ]
+      },
+      "furni_set_safetyZone": {
+        "id": "furni_set_safetyZone",
+        "name": "気密性化学防護室",
+        "desc": "化学防護設備を揃えたバイオセーフティ施設がテーマ。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_safetyZone_gate_01",
+            "pos0": 2,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_safetyZone_UVLamp_01",
+            "pos0": 6,
+            "pos1": 9
+          },
+          {
+            "furnitureId": "furni_safetyZone_oxygenTank_01",
+            "pos0": 4,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_stretcher_01",
+            "pos0": 9,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_safetyZone_hazmatSuit_01",
+            "pos0": 11,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_safetyZone_hazmatCoat_01",
+            "pos0": 13,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_safetyZone_shovel_01",
+            "pos0": 15,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_safetyZone_box_01",
+            "pos0": 16,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_safetyZone_partitionWall_01",
+            "pos0": 20,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_roboticArmVehicle_01",
+            "pos0": 21,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_safetyZone_virusFilter_01",
+            "pos0": 26,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_pipeline1_01",
+            "pos0": 0,
+            "pos1": 8
+          },
+          {
+            "furnitureId": "furni_safetyZone_pipeline2_01",
+            "pos0": 4,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_safetyZone_PipelineValve_01",
+            "pos0": 18,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_ceilingLight_01",
+            "pos0": 11,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_safetyZone_ceiling_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_downlight_01",
+            "pos0": 7,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_safetyZone_downlight_01",
+            "pos0": 20,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_safetyZone_carpet_01",
+            "pos0": 6,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_safetyZone_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
       }
     },
     "groups": {
@@ -16325,6 +16625,62 @@
           "furni_chen_floor_01",
           "furni_chen_ceilingLight_R_01",
           "furni_chen_ceilingLight_C_01"
+        ]
+      },
+      "furni_set_safetyZone_1": {
+        "id": "furni_set_safetyZone_1",
+        "name": "化学防護",
+        "themeId": "furni_set_safetyZone",
+        "comfort": 215,
+        "count": 5,
+        "furniture": [
+          "furni_safetyZone_gate_01",
+          "furni_safetyZone_UVLamp_01",
+          "furni_safetyZone_pipeline1_01",
+          "furni_safetyZone_pipeline2_01",
+          "furni_safetyZone_PipelineValve_01"
+        ]
+      },
+      "furni_set_safetyZone_2": {
+        "id": "furni_set_safetyZone_2",
+        "name": "安全処置",
+        "themeId": "furni_set_safetyZone",
+        "comfort": 145,
+        "count": 5,
+        "furniture": [
+          "furni_safetyZone_stretcher_01",
+          "furni_safetyZone_carpet_01",
+          "furni_safetyZone_hazmatSuit_01",
+          "furni_safetyZone_hazmatCoat_01",
+          "furni_safetyZone_shovel_01"
+        ]
+      },
+      "furni_set_safetyZone_3": {
+        "id": "furni_set_safetyZone_3",
+        "name": "物資/作業",
+        "themeId": "furni_set_safetyZone",
+        "comfort": 290,
+        "count": 5,
+        "furniture": [
+          "furni_safetyZone_oxygenTank_01",
+          "furni_safetyZone_box_01",
+          "furni_safetyZone_partitionWall_01",
+          "furni_safetyZone_roboticArmVehicle_01",
+          "furni_safetyZone_virusFilter_01"
+        ]
+      },
+      "furni_set_safetyZone_4": {
+        "id": "furni_set_safetyZone_4",
+        "name": "内装",
+        "themeId": "furni_set_safetyZone",
+        "comfort": 185,
+        "count": 5,
+        "furniture": [
+          "furni_safetyZone_ceiling_01",
+          "furni_safetyZone_ceilingLight_01",
+          "furni_safetyZone_downlight_01",
+          "furni_safetyZone_wallpaper_01",
+          "furni_safetyZone_floor_01"
         ]
       }
     },
