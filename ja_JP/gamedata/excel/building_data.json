@@ -12815,7 +12815,7 @@
       },
       "furni_spirit_pumpkin_01": {
         "id": "furni_spirit_pumpkin_01",
-        "name": "パンプキンA",
+        "name": "儀式用パンプキンA",
         "iconId": "furni_spirit_pumpkin_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -12837,7 +12837,7 @@
       },
       "furni_spirit_pumpkin2_01": {
         "id": "furni_spirit_pumpkin2_01",
-        "name": "パンプキンB",
+        "name": "儀式用パンプキンB",
         "iconId": "furni_spirit_pumpkin2_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -12859,7 +12859,7 @@
       },
       "furni_spirit_fireplace_01": {
         "id": "furni_spirit_fireplace_01",
-        "name": "パンプキンな暖炉",
+        "name": "怪しげな暖炉",
         "iconId": "furni_spirit_fireplace_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -12925,7 +12925,7 @@
       },
       "furni_spirit_table_01": {
         "id": "furni_spirit_table_01",
-        "name": "上品な本棚付き机",
+        "name": "怪しげな棚付き机",
         "iconId": "furni_spirit_table_01",
         "type": "TABLE",
         "location": "FLOOR",
@@ -12991,7 +12991,7 @@
       },
       "furni_spirit_carpet_01": {
         "id": "furni_spirit_carpet_01",
-        "name": "普通のござ",
+        "name": "古びたござ",
         "iconId": "furni_spirit_carpet_01",
         "type": "CARPET",
         "location": "CARPET",
@@ -14499,7 +14499,7 @@
         "height": 4,
         "comfort": 475,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "行動予備隊A4のメンバー達がボードゲームで遊ぶテーブル。",
+        "description": "行動隊A4のメンバー達がボードゲームで遊ぶテーブル。",
         "obtainApproach": "信頼達成記念・行動隊A4",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -15995,6 +15995,78 @@
             "pos1": 0
           }
         ]
+      },
+      "furni_set_spirit": {
+        "id": "furni_set_spirit",
+        "name": "ウィッチハウス",
+        "desc": "特別に飾り付けられた小屋がテーマ。いかにも何か出てきそう。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_spirit_tree_01",
+            "pos0": 0,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_spirit_window_01",
+            "pos0": 5,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_spirit_pumpkin_01",
+            "pos0": 13,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_spirit_pumpkin2_01",
+            "pos0": 2,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_spirit_fireplace_01",
+            "pos0": 13,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_book_01",
+            "pos0": 21,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_crucible_01",
+            "pos0": 23,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_table_01",
+            "pos0": 28,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_chair_01",
+            "pos0": 29,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_spirit_ceilingLight_01",
+            "pos0": 14,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_spirit_carpet_01",
+            "pos0": 19,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
       }
     },
     "groups": {
@@ -16681,6 +16753,55 @@
           "furni_safetyZone_downlight_01",
           "furni_safetyZone_wallpaper_01",
           "furni_safetyZone_floor_01"
+        ]
+      },
+      "furni_set_spirit_1": {
+        "id": "furni_set_spirit_1",
+        "name": "寝具/窓枠",
+        "themeId": "furni_set_spirit",
+        "comfort": 310,
+        "count": 3,
+        "furniture": [
+          "furni_spirit_tree_01",
+          "furni_spirit_pumpkin2_01",
+          "furni_spirit_window_01"
+        ]
+      },
+      "furni_set_spirit_2": {
+        "id": "furni_set_spirit_2",
+        "name": "暖炉/照明",
+        "themeId": "furni_set_spirit",
+        "comfort": 220,
+        "count": 3,
+        "furniture": [
+          "furni_spirit_fireplace_01",
+          "furni_spirit_pumpkin_01",
+          "furni_spirit_ceilingLight_01"
+        ]
+      },
+      "furni_set_spirit_3": {
+        "id": "furni_set_spirit_3",
+        "name": "書斎",
+        "themeId": "furni_set_spirit",
+        "comfort": 225,
+        "count": 4,
+        "furniture": [
+          "furni_spirit_table_01",
+          "furni_spirit_chair_01",
+          "furni_spirit_crucible_01",
+          "furni_spirit_book_01"
+        ]
+      },
+      "furni_set_spirit_4": {
+        "id": "furni_set_spirit_4",
+        "name": "内装",
+        "themeId": "furni_set_spirit",
+        "comfort": 130,
+        "count": 3,
+        "furniture": [
+          "furni_spirit_wallpaper_01",
+          "furni_spirit_floor_01",
+          "furni_spirit_carpet_01"
         ]
       }
     },
