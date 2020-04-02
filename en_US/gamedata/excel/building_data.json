@@ -15995,6 +15995,78 @@
             "pos1": 0
           }
         ]
+      },
+      "furni_set_spirit": {
+        "id": "furni_set_spirit",
+        "name": "Secret Occult Society",
+        "desc": "These decorations will make your cabin look spooky and special. Aesthetics approved by the Occult Club.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_spirit_tree_01",
+            "pos0": 0,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_spirit_window_01",
+            "pos0": 5,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_spirit_pumpkin_01",
+            "pos0": 13,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_spirit_pumpkin2_01",
+            "pos0": 2,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_spirit_fireplace_01",
+            "pos0": 13,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_book_01",
+            "pos0": 21,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_crucible_01",
+            "pos0": 23,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_table_01",
+            "pos0": 28,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_chair_01",
+            "pos0": 29,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_spirit_ceilingLight_01",
+            "pos0": 14,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_spirit_carpet_01",
+            "pos0": 19,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_spirit_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
       }
     },
     "groups": {
@@ -16681,6 +16753,55 @@
           "furni_safetyZone_downlight_01",
           "furni_safetyZone_wallpaper_01",
           "furni_safetyZone_floor_01"
+        ]
+      },
+      "furni_set_spirit_1": {
+        "id": "furni_set_spirit_1",
+        "name": "A Restful Sleep",
+        "themeId": "furni_set_spirit",
+        "comfort": 310,
+        "count": 3,
+        "furniture": [
+          "furni_spirit_tree_01",
+          "furni_spirit_pumpkin2_01",
+          "furni_spirit_window_01"
+        ]
+      },
+      "furni_set_spirit_2": {
+        "id": "furni_set_spirit_2",
+        "name": "Secret Ritual",
+        "themeId": "furni_set_spirit",
+        "comfort": 220,
+        "count": 3,
+        "furniture": [
+          "furni_spirit_fireplace_01",
+          "furni_spirit_pumpkin_01",
+          "furni_spirit_ceilingLight_01"
+        ]
+      },
+      "furni_set_spirit_3": {
+        "id": "furni_set_spirit_3",
+        "name": "Pathfinder",
+        "themeId": "furni_set_spirit",
+        "comfort": 225,
+        "count": 4,
+        "furniture": [
+          "furni_spirit_table_01",
+          "furni_spirit_chair_01",
+          "furni_spirit_crucible_01",
+          "furni_spirit_book_01"
+        ]
+      },
+      "furni_set_spirit_4": {
+        "id": "furni_set_spirit_4",
+        "name": "Otherworldly Appeal",
+        "themeId": "furni_set_spirit",
+        "comfort": 130,
+        "count": 3,
+        "furniture": [
+          "furni_spirit_wallpaper_01",
+          "furni_spirit_floor_01",
+          "furni_spirit_carpet_01"
         ]
       }
     },
