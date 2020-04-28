@@ -23389,6 +23389,27 @@
     {
       "sounds": [
         {
+          "asset": "Audio/Sound_Beta_2/Player/p_skill/p_skill_explocar_cast",
+          "weight": 1,
+          "important": true,
+          "is2D": true,
+          "delay": 0,
+          "minPitch": 1,
+          "maxPitch": 1,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        }
+      ],
+      "maxSoundAllowed": 0,
+      "popOldest": false,
+      "customMixerGroup": "Battle_Skill_Important",
+      "loop": false,
+      "name": "battle.ON_ABILITY_START.char_376_therex.T.1"
+    },
+    {
+      "sounds": [
+        {
           "asset": "Audio/Sound_Beta_2/Player/p_atk/p_atk_charm2_n",
           "weight": 1,
           "important": false,
@@ -23438,6 +23459,30 @@
           "delay": 0,
           "minPitch": 1,
           "maxPitch": 1,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "",
+          "weight": 80,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
@@ -23504,6 +23549,30 @@
           "delay": 0,
           "minPitch": 0.8,
           "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "",
+          "weight": 80,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 1,
+          "maxPitch": 1,
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
