@@ -5406,7 +5406,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_limit&cost[000]",
+              "buffId": "manu_prod_limit&cost[0000]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -5717,6 +5717,116 @@
           ]
         }
       ]
+    },
+    "char_213_mostma": {
+      "charId": "char_213_mostma",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd&team[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "meet_spd&team[020]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_325_bison": {
+      "charId": "char_325_bison",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "trade_ord_spd&limit[032]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "trade_ord_spd&limit[033]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_243_waaifu": {
+      "charId": "char_243_waaifu",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_cost_all[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_variable2[000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_133_mm": {
+      "charId": "char_133_mm",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd[0010]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "meet_team[020]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -5729,7 +5839,8 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "制御中枢配置時、全貿易所の受注効率<@cc.vup>+7%</>（同種の効果は高いほうのみ適応）"
+      "description": "制御中枢配置時、全貿易所の受注効率<@cc.vup>+7%</>（同種の効果は高いほうのみ適応）",
+      "sortId": 1302
     },
     "control_mp_cost[000]": {
       "buffId": "control_mp_cost[000]",
@@ -5740,7 +5851,8 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "制御中枢配置時、制御中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>"
+      "description": "制御中枢配置時、制御中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>",
+      "sortId": 1003
     },
     "control_mp_cost[001]": {
       "buffId": "control_mp_cost[001]",
@@ -5751,172 +5863,188 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "制御中枢配置時、制御中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>"
+      "description": "制御中枢配置時、制御中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>",
+      "sortId": 1002
     },
     "power_rec_spd[000]": {
       "buffId": "power_rec_spd[000]",
       "buffName": "予備電源",
       "buffIcon": "power",
-      "skillIcon": "bskill_pow_spd",
+      "skillIcon": "bskill_pow_spd1",
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+10%</>"
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+10%</>",
+      "sortId": 2001
     },
     "power_rec_spd[001]": {
       "buffId": "power_rec_spd[001]",
       "buffName": "メンテナンス",
       "buffIcon": "power",
-      "skillIcon": "bskill_pow_spd",
+      "skillIcon": "bskill_pow_spd2",
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+15%</>"
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+15%</>",
+      "sortId": 2101
     },
     "power_rec_spd[010]": {
       "buffId": "power_rec_spd[010]",
       "buffName": "火力発電α",
       "buffIcon": "power",
-      "skillIcon": "bskill_pow_spd",
+      "skillIcon": "bskill_pow_spd1",
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+10%</>"
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+10%</>",
+      "sortId": 2002
     },
     "power_rec_spd[020]": {
       "buffId": "power_rec_spd[020]",
       "buffName": "高火力発電",
       "buffIcon": "power",
-      "skillIcon": "bskill_pow_spd",
+      "skillIcon": "bskill_pow_spd2",
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+15%</>"
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+15%</>",
+      "sortId": 2105
     },
     "power_rec_spd[030]": {
       "buffId": "power_rec_spd[030]",
       "buffName": "電弧放電α",
       "buffIcon": "power",
-      "skillIcon": "bskill_pow_spd",
+      "skillIcon": "bskill_pow_spd2",
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+15%</>"
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+15%</>",
+      "sortId": 2103
     },
     "power_rec_spd[031]": {
       "buffId": "power_rec_spd[031]",
       "buffName": "電弧放電β",
       "buffIcon": "power",
-      "skillIcon": "bskill_pow_spd",
+      "skillIcon": "bskill_pow_spd3",
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+20%</>"
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+20%</>",
+      "sortId": 2202
     },
     "manu_prod_spd[000]": {
       "buffId": "manu_prod_spd[000]",
       "buffName": "標準化α",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd",
+      "skillIcon": "bskill_man_spd1",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、製造効率<@cc.vup>+15%</>"
+      "description": "製造所配置時、製造効率<@cc.vup>+15%</>",
+      "sortId": 3501
     },
     "manu_prod_spd[001]": {
       "buffId": "manu_prod_spd[001]",
       "buffName": "標準化β",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd",
+      "skillIcon": "bskill_man_spd2",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、製造効率<@cc.vup>+25%</>"
+      "description": "製造所配置時、製造効率<@cc.vup>+25%</>",
+      "sortId": 3522
     },
     "manu_prod_spd[010]": {
       "buffId": "manu_prod_spd[010]",
       "buffName": "ラインテクα",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd",
+      "skillIcon": "bskill_man_spd1",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、製造効率<@cc.vup>+15%</>"
+      "description": "製造所配置時、製造効率<@cc.vup>+15%</>",
+      "sortId": 3502
     },
     "manu_prod_spd[011]": {
       "buffId": "manu_prod_spd[011]",
       "buffName": "ラインテクβ",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd",
+      "skillIcon": "bskill_man_spd2",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、製造効率<@cc.vup>+25%</>"
+      "description": "製造所配置時、製造効率<@cc.vup>+25%</>",
+      "sortId": 3523
     },
     "manu_prod_spd[020]": {
       "buffId": "manu_prod_spd[020]",
       "buffName": "ミーボ製造型",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd",
+      "skillIcon": "bskill_man_spd3",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、製造効率<@cc.vup>+30%</>"
+      "description": "製造所配置時、製造効率<@cc.vup>+30%</>",
+      "sortId": 3531
     },
     "manu_prod_spd_addition[030]": {
       "buffId": "manu_prod_spd_addition[030]",
       "buffName": "せっかち",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd_add",
+      "skillIcon": "bskill_man_spd_add1",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、最初の1時間製造効率<@cc.vup>+20%</>、その後まで1時間ごと更に<@cc.vup>+1%</>、最終的に<@cc.vup>+25%</>になる"
+      "description": "製造所配置時、最初の1時間製造効率<@cc.vup>+20%</>、その後まで1時間ごと更に<@cc.vup>+1%</>、最終的に<@cc.vup>+25%</>になる",
+      "sortId": 3512
     },
     "manu_prod_spd_addition[040]": {
       "buffId": "manu_prod_spd_addition[040]",
       "buffName": "のんびり",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd_add",
+      "skillIcon": "bskill_man_spd_add2",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、最初の1時間製造効率<@cc.vup>+15%</>、その後まで1時間ごと更に<@cc.vup>+2%</>、最終的に<@cc.vup>+25%</>になる"
+      "description": "製造所配置時、最初の1時間製造効率<@cc.vup>+15%</>、その後まで1時間ごと更に<@cc.vup>+2%</>、最終的に<@cc.vup>+25%</>になる",
+      "sortId": 3511
     },
     "manu_prod_spd&limit[000]": {
       "buffId": "manu_prod_spd&limit[000]",
       "buffName": "倉庫整備α",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd&limit",
+      "skillIcon": "bskill_man_spd&limit1",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、保管上限<@cc.vup>+6</>、製造効率<@cc.vup>+10%</>"
+      "description": "製造所配置時、保管上限<@cc.vup>+6</>、製造効率<@cc.vup>+10%</>",
+      "sortId": 3401
     },
     "manu_prod_spd&limit[001]": {
       "buffId": "manu_prod_spd&limit[001]",
       "buffName": "倉庫整備β",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd&limit",
+      "skillIcon": "bskill_man_spd&limit3",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、保管上限<@cc.vup>+10</>、製造効率<@cc.vup>+10%</>"
+      "description": "製造所配置時、保管上限<@cc.vup>+10</>、製造効率<@cc.vup>+10%</>",
+      "sortId": 3403
     },
     "manu_prod_limit&cost[000]": {
       "buffId": "manu_prod_limit&cost[000]",
@@ -5927,238 +6055,260 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、保管上限<@cc.vup>+8</>、体力消費が1時間ごと<@cc.vup>-0.25</>"
+      "description": "製造所配置時、保管上限<@cc.vup>+8</>、体力消費が1時間ごと<@cc.vup>-0.25</>",
+      "sortId": 3101
     },
     "manu_prod_spd&limit&cost[000]": {
       "buffId": "manu_prod_spd&limit&cost[000]",
       "buffName": "職人魂α",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd&limit&cost",
+      "skillIcon": "bskill_man_spd&limit&cost1",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、製造効率<@cc.vdown>-5%</>、保管上限<@cc.vup>+16</>、体力消費が1時間ごと<@cc.vup>-0.15</>"
+      "description": "製造所配置時、製造効率<@cc.vdown>-5%</>、保管上限<@cc.vup>+16</>、体力消費が1時間ごと<@cc.vup>-0.15</>",
+      "sortId": 3301
     },
     "manu_prod_spd&limit&cost[001]": {
       "buffId": "manu_prod_spd&limit&cost[001]",
       "buffName": "職人魂β",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd&limit&cost",
+      "skillIcon": "bskill_man_spd&limit&cost2",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、製造効率<@cc.vdown>-5%</>、保管上限<@cc.vup>+18</>、体力消費が1時間ごと<@cc.vup>-0.25</>"
+      "description": "製造所配置時、製造効率<@cc.vdown>-5%</>、保管上限<@cc.vup>+18</>、体力消費が1時間ごと<@cc.vup>-0.25</>",
+      "sortId": 3302
     },
     "manu_formula_spd[000]": {
       "buffId": "manu_formula_spd[000]",
       "buffName": "作戦記録指導",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_exp",
+      "skillIcon": "bskill_man_exp1",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、<@cc.kw>作戦記録</>製造の製造効率<@cc.vup>+30%</>"
+      "description": "製造所配置時、<@cc.kw>作戦記録</>製造の製造効率<@cc.vup>+30%</>",
+      "sortId": 3801
     },
     "manu_formula_spd[001]": {
       "buffId": "manu_formula_spd[001]",
       "buffName": "拳術記録指導",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_exp",
+      "skillIcon": "bskill_man_exp2",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、<@cc.kw>作戦記録</>製造の製造効率<@cc.vup>+35%</>"
+      "description": "製造所配置時、<@cc.kw>作戦記録</>製造の製造効率<@cc.vup>+35%</>",
+      "sortId": 3802
     },
     "manu_formula_spd[100]": {
       "buffId": "manu_formula_spd[100]",
       "buffName": "金属工芸α",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_gold",
+      "skillIcon": "bskill_man_gold1",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、<@cc.kw>金属</>製造の製造効率<@cc.vup>+30%</>"
+      "description": "製造所配置時、<@cc.kw>金属</>製造の製造効率<@cc.vup>+30%</>",
+      "sortId": 3702
     },
     "manu_formula_spd[101]": {
       "buffId": "manu_formula_spd[101]",
       "buffName": "金属工芸β",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_gold",
+      "skillIcon": "bskill_man_gold2",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、<@cc.kw>金属</>製造の製造効率<@cc.vup>+35%</>"
+      "description": "製造所配置時、<@cc.kw>金属</>製造の製造効率<@cc.vup>+35%</>",
+      "sortId": 3703
     },
     "manu_formula_spd[201]": {
       "buffId": "manu_formula_spd[201]",
       "buffName": "源石工芸β",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_originium",
+      "skillIcon": "bskill_man_originium2",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>"
+      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>",
+      "sortId": 3002
     },
     "manu_formula_spd[210]": {
       "buffId": "manu_formula_spd[210]",
       "buffName": "地質学者",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_originium",
+      "skillIcon": "bskill_man_originium2",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>"
+      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>",
+      "sortId": 3003
     },
     "manu_formula_spd[211]": {
       "buffId": "manu_formula_spd[211]",
       "buffName": "火山学者",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_originium",
+      "skillIcon": "bskill_man_originium2",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>"
+      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>",
+      "sortId": 3005
     },
     "trade_ord_spd[000]": {
       "buffId": "trade_ord_spd[000]",
       "buffName": "注文分配α",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd",
+      "skillIcon": "bskill_tra_spd1",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+20%</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+20%</>",
+      "sortId": 4301
     },
     "trade_ord_spd[001]": {
       "buffId": "trade_ord_spd[001]",
       "buffName": "注文分配β",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd",
+      "skillIcon": "bskill_tra_spd2",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+30%</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+30%</>",
+      "sortId": 4601
     },
     "trade_ord_spd[010]": {
       "buffId": "trade_ord_spd[010]",
       "buffName": "ペンギン急便α",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd",
+      "skillIcon": "bskill_tra_spd1",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+20%</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+20%</>",
+      "sortId": 4303
     },
     "trade_ord_spd[011]": {
       "buffId": "trade_ord_spd[011]",
       "buffName": "ペンギン急便β",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd",
+      "skillIcon": "bskill_tra_spd2",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+30%</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+30%</>",
+      "sortId": 4602
     },
     "trade_ord_spd[020]": {
       "buffId": "trade_ord_spd[020]",
       "buffName": "物流エキスパート",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd",
+      "skillIcon": "bskill_tra_spd3",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+35%</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+35%</>",
+      "sortId": 4901
     },
     "trade_ord_spd&limit[000]": {
       "buffId": "trade_ord_spd&limit[000]",
       "buffName": "注文管理α",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd&limit",
+      "skillIcon": "bskill_tra_spd&limit1",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+10%</>、注文上限<@cc.vup>+1</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+10%</>、注文上限<@cc.vup>+1</>",
+      "sortId": 4101
     },
     "trade_ord_spd&limit[010]": {
       "buffId": "trade_ord_spd&limit[010]",
       "buffName": "供給管理",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd&limit",
+      "skillIcon": "bskill_tra_spd&limit6",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+25%</>、注文上限<@cc.vup>+1</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+25%</>、注文上限<@cc.vup>+1</>",
+      "sortId": 4501
     },
     "trade_ord_spd&limit[020]": {
       "buffId": "trade_ord_spd&limit[020]",
       "buffName": "カランド貿易α",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd&limit",
+      "skillIcon": "bskill_tra_spd&limit3",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+15%</>、注文上限<@cc.vup>+1</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+15%</>、注文上限<@cc.vup>+1</>",
+      "sortId": 4201
     },
     "trade_ord_spd&limit[021]": {
       "buffId": "trade_ord_spd&limit[021]",
       "buffName": "カランド貿易β",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd&limit",
+      "skillIcon": "bskill_tra_spd&limit4",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+15%</>、注文上限<@cc.vup>+2</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+15%</>、注文上限<@cc.vup>+2</>",
+      "sortId": 4202
     },
     "trade_ord_spd&limit[022]": {
       "buffId": "trade_ord_spd&limit[022]",
       "buffName": "カランドの主",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd&limit",
+      "skillIcon": "bskill_tra_spd&limit5",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+20%</>、注文上限<@cc.vup>+3</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+20%</>、注文上限<@cc.vup>+3</>",
+      "sortId": 4304
     },
     "trade_ord_spd&limit[030]": {
       "buffId": "trade_ord_spd&limit[030]",
       "buffName": "ペンギン急便α",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd",
+      "skillIcon": "bskill_tra_spd1",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+20%</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+20%</>",
+      "sortId": 4303
     },
     "trade_ord_spd&limit[031]": {
       "buffId": "trade_ord_spd&limit[031]",
       "buffName": "絶対に、確実に",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd&limit",
+      "skillIcon": "bskill_tra_spd&limit7",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+30%</>、注文上限<@cc.vup>+1</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+30%</>、注文上限<@cc.vup>+1</>",
+      "sortId": 4604
     },
     "trade_ord_spd&cost[000]": {
       "buffId": "trade_ord_spd&cost[000]",
@@ -6169,7 +6319,8 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、受注効率<@cc.vup>+30%</>、体力消費が1時間ごと<@cc.vup>-0.25</>"
+      "description": "貿易所配置時、受注効率<@cc.vup>+30%</>、体力消費が1時間ごと<@cc.vup>-0.25</>",
+      "sortId": 4801
     },
     "trade_ord_limit&cost[000]": {
       "buffId": "trade_ord_limit&cost[000]",
@@ -6180,194 +6331,212 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "貿易所配置時、注文上限<@cc.vup>+3</>、体力消費が1時間ごと<@cc.vup>-0.25</>"
+      "description": "貿易所配置時、注文上限<@cc.vup>+3</>、体力消費が1時間ごと<@cc.vup>-0.25</>",
+      "sortId": 4003
     },
     "trade_ord_spd&cost_P[000]": {
       "buffId": "trade_ord_spd&cost_P[000]",
       "buffName": "因縁",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_spd&cost",
+      "skillIcon": "bskill_tra_texas1",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "<@cc.kw>ラップランド</>と同じ貿易所に配置時、体力消費が1時間ごと<@cc.vup>+0.3</>、受注効率<@cc.vup>+65%</>"
+      "description": "<@cc.kw>ラップランド</>と同じ貿易所に配置時、体力消費が1時間ごと<@cc.vup>+0.3</>、受注効率<@cc.vup>+65%</>",
+      "sortId": 4903
     },
     "trade_ord_limit&cost_P[010]": {
       "buffId": "trade_ord_limit&cost_P[010]",
       "buffName": "チームワーク",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_cost",
+      "skillIcon": "bskill_tra_texas2",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "<@cc.kw>エクシア</>と同じ貿易所に配置時、体力消費が1時間ごと<@cc.vup>-0.3</>"
+      "description": "<@cc.kw>エクシア</>と同じ貿易所に配置時、体力消費が1時間ごと<@cc.vup>-0.3</>",
+      "sortId": 4903
     },
     "trade_ord_limit&cost_P[000]": {
       "buffId": "trade_ord_limit&cost_P[000]",
       "buffName": "酔翁の意α",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_limit&cost",
+      "skillIcon": "bskill_tra_Lappland1",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "<@cc.kw>テキサス</>と同じ貿易所に配置時、体力消費が1時間ごと<@cc.vup>-0.1</>、注文上限<@cc.vup>+2</>"
+      "description": "<@cc.kw>テキサス</>と同じ貿易所に配置時、体力消費が1時間ごと<@cc.vup>-0.1</>、注文上限<@cc.vup>+2</>",
+      "sortId": 4902
     },
     "trade_ord_limit&cost_P[001]": {
       "buffId": "trade_ord_limit&cost_P[001]",
       "buffName": "酔翁の意β",
       "buffIcon": "trading",
-      "skillIcon": "bskill_tra_limit&cost",
+      "skillIcon": "bskill_tra_Lappland2",
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "<@cc.kw>テキサス</>と同じ貿易所に配置時、体力消費が1時間ごと<@cc.vup>-0.1</>、注文上限<@cc.vup>+4</>"
+      "description": "<@cc.kw>テキサス</>と同じ貿易所に配置時、体力消費が1時間ごと<@cc.vup>-0.1</>、注文上限<@cc.vup>+4</>",
+      "sortId": 4902
     },
     "workshop_proc_probability[000]": {
       "buffId": "workshop_proc_probability[000]",
       "buffName": "集中α",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_p",
+      "skillIcon": "bskill_ws_p1",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+40%</>"
+      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+40%</>",
+      "sortId": 7101
     },
     "workshop_proc_probability[001]": {
       "buffId": "workshop_proc_probability[001]",
       "buffName": "集中β",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_p",
+      "skillIcon": "bskill_ws_p3",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+60%</>"
+      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+60%</>",
+      "sortId": 7121
     },
     "workshop_proc_probability[010]": {
       "buffId": "workshop_proc_probability[010]",
       "buffName": "能工巧匠",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_p",
+      "skillIcon": "bskill_ws_p2",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+50%</>"
+      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+50%</>",
+      "sortId": 7111
     },
     "workshop_proc_probability[020]": {
       "buffId": "workshop_proc_probability[020]",
       "buffName": "ミーボ加工型",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_p",
+      "skillIcon": "bskill_ws_p4",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+65%</>"
+      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+65%</>",
+      "sortId": 7131
     },
     "workshop_formula_probability[000]": {
       "buffId": "workshop_formula_probability[000]",
       "buffName": "アーツ理論",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_skill",
+      "skillIcon": "bskill_ws_skill1",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>アーツ学</>を加工時、副産物の入手確率<@cc.vup>+70%</>"
+      "description": "加工所で<@cc.kw>アーツ学</>を加工時、副産物の入手確率<@cc.vup>+70%</>",
+      "sortId": 7301
     },
     "workshop_formula_probability[100]": {
       "buffId": "workshop_formula_probability[100]",
       "buffName": "栄養学",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_evolve",
+      "skillIcon": "bskill_ws_evolve1",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+70%</>"
+      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+70%</>",
+      "sortId": 7501
     },
     "workshop_formula_probability[110]": {
       "buffId": "workshop_formula_probability[110]",
       "buffName": "薬理学α",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_evolve",
+      "skillIcon": "bskill_ws_evolve2",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+75%</>"
+      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+75%</>",
+      "sortId": 7511
     },
     "workshop_formula_probability[120]": {
       "buffId": "workshop_formula_probability[120]",
       "buffName": "毒理学α",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_evolve",
+      "skillIcon": "bskill_ws_evolve2",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+75%</>"
+      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+75%</>",
+      "sortId": 7512
     },
     "workshop_formula_probability[121]": {
       "buffId": "workshop_formula_probability[121]",
       "buffName": "毒理学β",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_evolve",
+      "skillIcon": "bskill_ws_evolve3",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>"
+      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>",
+      "sortId": 7522
     },
     "workshop_formula_probability[130]": {
       "buffId": "workshop_formula_probability[130]",
       "buffName": "火薬学α",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_evolve",
+      "skillIcon": "bskill_ws_evolve2",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+75%</>"
+      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+75%</>",
+      "sortId": 7513
     },
     "workshop_formula_probability[131]": {
       "buffId": "workshop_formula_probability[131]",
       "buffName": "火薬学β",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_evolve",
+      "skillIcon": "bskill_ws_evolve3",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>"
+      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>",
+      "sortId": 7523
     },
     "workshop_formula_probability[200]": {
       "buffId": "workshop_formula_probability[200]",
       "buffName": "工学",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_build",
+      "skillIcon": "bskill_ws_build1",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>建築材料</>を加工時、副産物の入手確率<@cc.vup>+70%</>"
+      "description": "加工所で<@cc.kw>建築材料</>を加工時、副産物の入手確率<@cc.vup>+70%</>",
+      "sortId": 7401
     },
     "workshop_formula_probability[300]": {
       "buffId": "workshop_formula_probability[300]",
       "buffName": "特訓記録",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_asc",
+      "skillIcon": "bskill_ws_asc1",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>SoC</>を加工時、副産物の入手確率<@cc.vup>+70%</>"
+      "description": "加工所で<@cc.kw>SoC</>を加工時、副産物の入手確率<@cc.vup>+70%</>",
+      "sortId": 7201
     },
     "train_spd[000]": {
       "buffId": "train_spd[000]",
@@ -6378,601 +6547,656 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、訓練速度<@cc.vup>+25%</>"
+      "description": "訓練室で協力者として配置時、訓練速度<@cc.vup>+25%</>",
+      "sortId": 9001
     },
     "train_spd&profession[010]": {
       "buffId": "train_spd&profession[010]",
       "buffName": "先鋒エキスパートα",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_vanguard",
+      "skillIcon": "bskill_train_vanguard1",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>先鋒</>の訓練速度<@cc.vup>+30%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>先鋒</>の訓練速度<@cc.vup>+30%</>",
+      "sortId": 9801
     },
     "train_spd&profession[011]": {
       "buffId": "train_spd&profession[011]",
       "buffName": "先鋒エキスパートβ",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_vanguard",
+      "skillIcon": "bskill_train_vanguard2",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>先鋒</>の訓練速度<@cc.vup>+50%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>先鋒</>の訓練速度<@cc.vup>+50%</>",
+      "sortId": 9811
     },
     "train_spd&profession[020]": {
       "buffId": "train_spd&profession[020]",
       "buffName": "前衛エキスパートα",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_guard",
+      "skillIcon": "bskill_train_guard1",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>前衛</>の訓練速度<@cc.vup>+30%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>前衛</>の訓練速度<@cc.vup>+30%</>",
+      "sortId": 9701
     },
     "train_spd&profession[021]": {
       "buffId": "train_spd&profession[021]",
       "buffName": "前衛エキスパートβ",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_guard",
+      "skillIcon": "bskill_train_guard2",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>前衛</>の訓練速度<@cc.vup>+50%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>前衛</>の訓練速度<@cc.vup>+50%</>",
+      "sortId": 9711
     },
     "train_spd&profession[030]": {
       "buffId": "train_spd&profession[030]",
       "buffName": "重装エキスパートα",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_defender",
+      "skillIcon": "bskill_train_defender1",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>重装</>の訓練速度<@cc.vup>+30%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>重装</>の訓練速度<@cc.vup>+30%</>",
+      "sortId": 9601
     },
     "train_spd&profession[031]": {
       "buffId": "train_spd&profession[031]",
       "buffName": "重装エキスパートβ",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_defender",
+      "skillIcon": "bskill_train_defender2",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>重装</>の訓練速度<@cc.vup>+50%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>重装</>の訓練速度<@cc.vup>+50%</>",
+      "sortId": 9611
     },
     "train_spd&profession[040]": {
       "buffId": "train_spd&profession[040]",
       "buffName": "狙撃エキスパートα",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_sniper",
+      "skillIcon": "bskill_train_sniper1",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>狙撃</>の訓練速度<@cc.vup>+30%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>狙撃</>の訓練速度<@cc.vup>+30%</>",
+      "sortId": 9501
     },
     "train_spd&profession[041]": {
       "buffId": "train_spd&profession[041]",
       "buffName": "狙撃エキスパートβ",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_sniper",
+      "skillIcon": "bskill_train_sniper2",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>狙撃</>の訓練速度<@cc.vup>+50%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>狙撃</>の訓練速度<@cc.vup>+50%</>",
+      "sortId": 9511
     },
     "train_spd&profession[050]": {
       "buffId": "train_spd&profession[050]",
       "buffName": "術師エキスパートα",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_caster",
+      "skillIcon": "bskill_train_caster1",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>術師</>の訓練速度<@cc.vup>+30%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>術師</>の訓練速度<@cc.vup>+30%</>",
+      "sortId": 9401
     },
     "train_spd&profession[051]": {
       "buffId": "train_spd&profession[051]",
       "buffName": "術師エキスパートβ",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_caster",
+      "skillIcon": "bskill_train_caster2",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>術師</>の訓練速度<@cc.vup>+50%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>術師</>の訓練速度<@cc.vup>+50%</>",
+      "sortId": 9411
     },
     "train_spd&profession[060]": {
       "buffId": "train_spd&profession[060]",
       "buffName": "補助エキスパートα",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_supporter",
+      "skillIcon": "bskill_train_supporter1",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>補助</>の訓練速度<@cc.vup>+30%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>補助</>の訓練速度<@cc.vup>+30%</>",
+      "sortId": 9301
     },
     "train_spd&profession[061]": {
       "buffId": "train_spd&profession[061]",
       "buffName": "補助エキスパートβ",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_supporter",
+      "skillIcon": "bskill_train_supporter2",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>補助</>の訓練速度<@cc.vup>+50%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>補助</>の訓練速度<@cc.vup>+50%</>",
+      "sortId": 9311
     },
     "train_spd&profession[070]": {
       "buffId": "train_spd&profession[070]",
       "buffName": "医療エキスパートα",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_medic",
+      "skillIcon": "bskill_train_medic1",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>医療</>の訓練速度<@cc.vup>+30%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>医療</>の訓練速度<@cc.vup>+30%</>",
+      "sortId": 9201
     },
     "train_spd&profession[071]": {
       "buffId": "train_spd&profession[071]",
       "buffName": "医療エキスパートβ",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_medic",
+      "skillIcon": "bskill_train_medic2",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>医療</>の訓練速度<@cc.vup>+50%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>医療</>の訓練速度<@cc.vup>+50%</>",
+      "sortId": 9211
     },
     "train_spd&profession[080]": {
       "buffId": "train_spd&profession[080]",
       "buffName": "特殊エキスパートα",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_specialist",
+      "skillIcon": "bskill_train_specialist1",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>特殊</>の訓練速度<@cc.vup>+30%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>特殊</>の訓練速度<@cc.vup>+30%</>",
+      "sortId": 9101
     },
     "train_spd&profession[081]": {
       "buffId": "train_spd&profession[081]",
       "buffName": "特殊エキスパートβ",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_specialist",
+      "skillIcon": "bskill_train_specialist2",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>特殊</>の訓練速度<@cc.vup>+50%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>特殊</>の訓練速度<@cc.vup>+50%</>",
+      "sortId": 9111
     },
     "train_spd&profession[130]": {
       "buffId": "train_spd&profession[130]",
       "buffName": "般若",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_defender",
+      "skillIcon": "bskill_train_defender3",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>重装</>の訓練速度<@cc.vup>+60%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>重装</>の訓練速度<@cc.vup>+60%</>",
+      "sortId": 9621
     },
     "dorm_rec_oneself[000]": {
       "buffId": "dorm_rec_oneself[000]",
       "buffName": "一人きり",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_one",
+      "skillIcon": "bskill_dorm_one2",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.7</>"
+      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.7</>",
+      "sortId": 5002
     },
     "dorm_rec_oneself[010]": {
       "buffId": "dorm_rec_oneself[010]",
       "buffName": "狂熱",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_one",
+      "skillIcon": "bskill_dorm_one4",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.85</>"
+      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.85</>",
+      "sortId": 5004
     },
     "dorm_rec_single[000]": {
       "buffId": "dorm_rec_single[000]",
       "buffName": "医療サービス",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single",
+      "skillIcon": "bskill_dorm_single2",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.65</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.65</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5102
     },
     "dorm_rec_single[010]": {
       "buffId": "dorm_rec_single[010]",
       "buffName": "思いやり",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single",
+      "skillIcon": "bskill_dorm_single1",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.55</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.55</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5101
     },
     "dorm_rec_single[020]": {
       "buffId": "dorm_rec_single[020]",
       "buffName": "慈悲",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single",
+      "skillIcon": "bskill_dorm_single4",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.75</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.75</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5105
     },
     "dorm_rec_all[000]": {
       "buffId": "dorm_rec_all[000]",
       "buffName": "鼓舞",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all",
+      "skillIcon": "bskill_dorm_all1",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.1</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.1</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5301
     },
     "dorm_rec_all[010]": {
       "buffId": "dorm_rec_all[010]",
       "buffName": "バイオリン独奏",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all",
+      "skillIcon": "bskill_dorm_all2",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.15</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.15</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5305
     },
     "dorm_rec_all[020]": {
       "buffId": "dorm_rec_all[020]",
       "buffName": "アイドル",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all",
+      "skillIcon": "bskill_dorm_all2",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.15</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.15</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5304
     },
     "dorm_rec_all[030]": {
       "buffId": "dorm_rec_all[030]",
       "buffName": "カリスマ",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all",
+      "skillIcon": "bskill_dorm_all2",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.15</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.15</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5303
     },
     "dorm_rec_all[040]": {
       "buffId": "dorm_rec_all[040]",
       "buffName": "冬将軍",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all",
+      "skillIcon": "bskill_dorm_all3",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5306
     },
     "dorm_rec_all[050]": {
       "buffId": "dorm_rec_all[050]",
       "buffName": "ライオンハート",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all",
+      "skillIcon": "bskill_dorm_all3",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5308
     },
     "dorm_rec_all[060]": {
       "buffId": "dorm_rec_all[060]",
       "buffName": "ランプの貴婦人",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all",
+      "skillIcon": "bskill_dorm_all3",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5307
     },
     "dorm_rec_single&oneself[000]": {
       "buffId": "dorm_rec_single&oneself[000]",
       "buffName": "活発",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single&one",
+      "skillIcon": "bskill_dorm_single&one01",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.4</>"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.4</>",
+      "sortId": 5201
     },
     "dorm_rec_single&oneself[001]": {
       "buffId": "dorm_rec_single&oneself[001]",
       "buffName": "探検家の情熱",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single&one",
+      "skillIcon": "bskill_dorm_single&one02",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.25</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.5</>"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.25</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.5</>",
+      "sortId": 5202
     },
     "dorm_rec_single&oneself[010]": {
       "buffId": "dorm_rec_single&oneself[010]",
       "buffName": "ベーキング",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single&one",
+      "skillIcon": "bskill_dorm_single&one11",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.3</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.3</>"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.3</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.3</>",
+      "sortId": 5211
     },
     "dorm_rec_single&oneself[011]": {
       "buffId": "dorm_rec_single&oneself[011]",
       "buffName": "調理",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single&one",
+      "skillIcon": "bskill_dorm_single&one12",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.35</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.35</>"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.35</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.35</>",
+      "sortId": 5212
     },
     "dorm_rec_single&oneself[021]": {
       "buffId": "dorm_rec_single&oneself[021]",
       "buffName": "カランドの聖女",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single&one",
+      "skillIcon": "bskill_dorm_single&one22",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.5</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.25</>"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.5</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.25</>",
+      "sortId": 5222
     },
     "dorm_rec_single&oneself[030]": {
       "buffId": "dorm_rec_single&oneself[030]",
       "buffName": "耀騎士",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single&one",
+      "skillIcon": "bskill_dorm_single&one22",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.5</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.25</>"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.5</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.25</>",
+      "sortId": 5223
     },
     "dorm_rec_all&oneself[000]": {
       "buffId": "dorm_rec_all&oneself[000]",
       "buffName": "怠惰",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all&one",
+      "skillIcon": "bskill_dorm_all&one1",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vdown>-0.1</>。配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）"
+      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vdown>-0.1</>。配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5402
     },
     "dorm_rec_all&oneself[001]": {
       "buffId": "dorm_rec_all&oneself[001]",
       "buffName": "過眠",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all&one",
+      "skillIcon": "bskill_dorm_all&one2",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vdown>-0.1</>。配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.25</>（同種の効果は高いほうのみ適応）"
+      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vdown>-0.1</>。配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.25</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5403
     },
     "hire_spd[000]": {
       "buffId": "hire_spd[000]",
       "buffName": "人事管理α",
       "buffIcon": "hire",
-      "skillIcon": "bskill_hire_spd",
+      "skillIcon": "bskill_hire_spd1",
       "buffColor": "#565656",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
-      "description": "事務室配置時、事務連絡速度<@cc.vup>+20%</>"
+      "description": "事務室配置時、事務連絡速度<@cc.vup>+20%</>",
+      "sortId": 8001
     },
     "hire_spd[010]": {
       "buffId": "hire_spd[010]",
       "buffName": "天災トランスポーターα",
       "buffIcon": "hire",
-      "skillIcon": "bskill_hire_spd",
+      "skillIcon": "bskill_hire_spd2",
       "buffColor": "#565656",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
-      "description": "事務室配置時、事務連絡速度<@cc.vup>+30%</>"
+      "description": "事務室配置時、事務連絡速度<@cc.vup>+30%</>",
+      "sortId": 8101
     },
     "hire_spd[011]": {
       "buffId": "hire_spd[011]",
       "buffName": "天災トランスポーターβ",
       "buffIcon": "hire",
-      "skillIcon": "bskill_hire_spd",
+      "skillIcon": "bskill_hire_spd5",
       "buffColor": "#565656",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
-      "description": "事務室配置時、事務連絡速度<@cc.vup>+45%</>"
+      "description": "事務室配置時、事務連絡速度<@cc.vup>+45%</>",
+      "sortId": 8401
     },
     "hire_spd[020]": {
       "buffId": "hire_spd[020]",
       "buffName": "心理学",
       "buffIcon": "hire",
-      "skillIcon": "bskill_hire_spd",
+      "skillIcon": "bskill_hire_spd4",
       "buffColor": "#565656",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
-      "description": "事務室配置時、事務連絡速度<@cc.vup>+40%</>"
+      "description": "事務室配置時、事務連絡速度<@cc.vup>+40%</>",
+      "sortId": 8301
     },
     "meet_spd[000]": {
       "buffId": "meet_spd[000]",
       "buffName": "情報収集α",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_spd",
+      "skillIcon": "bskill_meet_spd1",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>",
+      "sortId": 6001
     },
     "meet_spd[001]": {
       "buffId": "meet_spd[001]",
       "buffName": "情報収集β",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_spd",
+      "skillIcon": "bskill_meet_spd2",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+20%</>"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+20%</>",
+      "sortId": 6002
     },
     "meet_spd[010]": {
       "buffId": "meet_spd[010]",
       "buffName": "占い",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_spd",
+      "skillIcon": "bskill_meet_spd3",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+25%</>"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+25%</>",
+      "sortId": 6003
     },
     "meet_spd[020]": {
       "buffId": "meet_spd[020]",
       "buffName": "追跡者",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_spd",
+      "skillIcon": "bskill_meet_spd3",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+25%</>"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+25%</>",
+      "sortId": 6005
     },
     "meet_spd&team[000]": {
       "buffId": "meet_spd&team[000]",
       "buffName": "情報収集α",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_spd",
+      "skillIcon": "bskill_meet_spd1",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>",
+      "sortId": 6001
     },
     "meet_spd&team[010]": {
       "buffId": "meet_spd&team[010]",
       "buffName": "ウォッチマン",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_rhine",
+      "skillIcon": "bskill_meet_rhine2",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ライン生命</>の手がかりを入手しやすい"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ライン生命</>の手がかりを入手しやすい",
+      "sortId": 6101
     },
     "meet_spd&team[030]": {
       "buffId": "meet_spd&team[030]",
       "buffName": "連絡員",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_blacksteel",
+      "skillIcon": "bskill_meet_blacksteel2",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>BSW</>の手がかりを入手しやすい"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>BSW</>の手がかりを入手しやすい",
+      "sortId": 6301
     },
     "meet_spd&team[040]": {
       "buffId": "meet_spd&team[040]",
       "buffName": "クーリエ",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_kjerag",
+      "skillIcon": "bskill_meet_kjerag2",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>カランド貿易</>の手がかりを入手しやすい"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>カランド貿易</>の手がかりを入手しやすい",
+      "sortId": 6601
     },
     "meet_spd&team[050]": {
       "buffId": "meet_spd&team[050]",
       "buffName": "参謀",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_ursus",
+      "skillIcon": "bskill_meet_ursus2",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ウルサス学生自治団</>の手がかりを入手しやすい"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ウルサス学生自治団</>の手がかりを入手しやすい",
+      "sortId": 6401
     },
     "meet_spd&team[060]": {
       "buffId": "meet_spd&team[060]",
-      "buffName": "トランスポーター",
+      "buffName": "トランスポーター・ロドス",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_rhodes",
+      "skillIcon": "bskill_meet_rhodes2",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ロドス製薬</>の手がかりを入手しやすい"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ロドス製薬</>の手がかりを入手しやすい",
+      "sortId": 6701
     },
     "meet_spd&team[070]": {
       "buffId": "meet_spd&team[070]",
       "buffName": "メッセンジャー",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_glasgow",
+      "skillIcon": "bskill_meet_glasgow2",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>グラスゴー</>の手がかりを入手しやすい"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>グラスゴー</>の手がかりを入手しやすい",
+      "sortId": 6502
     },
     "manu_formula_spd[200]": {
       "buffId": "manu_formula_spd[200]",
       "buffName": "源石工芸α",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_originium",
+      "skillIcon": "bskill_man_originium1",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+30%</>"
+      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+30%</>",
+      "sortId": 3001
     },
     "dorm_rec_oneself[020]": {
       "buffId": "dorm_rec_oneself[020]",
       "buffName": "悲歌",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_one",
+      "skillIcon": "bskill_dorm_one5",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+1</>"
+      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+1</>",
+      "sortId": 5005
     },
     "control_tra_spd[010]": {
       "buffId": "control_tra_spd[010]",
@@ -6983,7 +7207,8 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "制御中枢配置時、全貿易所の受注効率<@cc.vup>+7%</>（同種の効果は高いほうのみ適応）"
+      "description": "制御中枢配置時、全貿易所の受注効率<@cc.vup>+7%</>（同種の効果は高いほうのみ適応）",
+      "sortId": 1301
     },
     "control_mp_cost&faction[000]": {
       "buffId": "control_mp_cost&faction[000]",
@@ -6994,51 +7219,56 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "制御中枢配置時、制御中枢内の<@cc.kw>龍門近衛局</>所属オペレーター1人につき、中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>"
+      "description": "制御中枢配置時、制御中枢内の<@cc.kw>龍門近衛局</>所属オペレーター1人につき、中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>",
+      "sortId": 1102
     },
     "power_rec_spd[002]": {
       "buffId": "power_rec_spd[002]",
       "buffName": "静電場",
       "buffIcon": "power",
-      "skillIcon": "bskill_pow_spd",
+      "skillIcon": "bskill_pow_spd3",
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+20%</>"
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+20%</>",
+      "sortId": 2201
     },
     "manu_prod_spd&limit&cost[010]": {
       "buffId": "manu_prod_spd&limit&cost[010]",
       "buffName": "トラブルメーカー",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd&limit&cost",
+      "skillIcon": "bskill_man_spd&limit&cost3",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、製造効率<@cc.vup>+25%</>、保管上限<@cc.vdown>-12</>、体力消費が1時間ごと<@cc.vdown>+0.25</>"
+      "description": "製造所配置時、製造効率<@cc.vup>+25%</>、保管上限<@cc.vdown>-12</>、体力消費が1時間ごと<@cc.vdown>+0.25</>",
+      "sortId": 3521
     },
     "dorm_rec_single&oneself[020]": {
       "buffId": "dorm_rec_single&oneself[020]",
       "buffName": "調和",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single&one",
+      "skillIcon": "bskill_dorm_single&one21",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.4</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.2</>"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.4</>（同種の効果は高いほうのみ適応）。自身の体力回復速度が1時間ごと<@cc.vup>+0.2</>",
+      "sortId": 5221
     },
     "meet_spd&team[100]": {
       "buffId": "meet_spd&team[100]",
       "buffName": "警視",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_spd",
+      "skillIcon": "bskill_meet_spd3",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+25%</>"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+25%</>",
+      "sortId": 6006
     },
     "control_mp_cost[003]": {
       "buffId": "control_mp_cost[003]",
@@ -7049,183 +7279,200 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "制御中枢配置時、制御中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>"
+      "description": "制御中枢配置時、制御中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>",
+      "sortId": 1004
     },
     "manu_prod_spd_variable[000]": {
       "buffId": "manu_prod_spd_variable[000]",
       "buffName": "再利用",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_spd_variable",
+      "skillIcon": "bskill_man_spd_variable11",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、保管上限1上昇につき、製造効率<@cc.vup>+2%</>"
+      "description": "製造所配置時、保管上限1上昇につき、製造効率<@cc.vup>+2%</>",
+      "sortId": 3202
     },
     "workshop_proc_probability[011]": {
       "buffId": "workshop_proc_probability[011]",
       "buffName": "多機能セオドライト",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_p",
+      "skillIcon": "bskill_ws_p2",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+50%</>"
+      "description": "加工所で<@cc.kw>任意の素材</>を加工時、副産物の入手確率<@cc.vup>+50%</>",
+      "sortId": 7112
     },
     "workshop_formula_cost[000]": {
       "buffId": "workshop_formula_cost[000]",
       "buffName": "ドローン・DDF",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_cost",
+      "skillIcon": "bskill_ws_cost_magallan",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>任意の素材</>を加工時、体力消費が<@cc.kw>4</>以上の素材の体力消費が<@cc.vup>-2</>になる"
+      "description": "加工所で<@cc.kw>任意の素材</>を加工時、体力消費が<@cc.kw>4</>以上の素材の体力消費<@cc.vup>-2</>",
+      "sortId": 7112
     },
     "workshop_formula_probability[020]": {
       "buffId": "workshop_formula_probability[020]",
       "buffName": "剣技の粋",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_skill",
+      "skillIcon": "bskill_ws_skill2",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>アーツ学</>を加工時、副産物の入手確率<@cc.vup>+80%</>"
+      "description": "加工所で<@cc.kw>アーツ学</>を加工時、副産物の入手確率<@cc.vup>+80%</>",
+      "sortId": 7302
     },
     "workshop_formula_probability[010]": {
       "buffId": "workshop_formula_probability[010]",
       "buffName": "兵は詭道なり",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_skill",
+      "skillIcon": "bskill_ws_skill2",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>アーツ学</>を加工時、副産物の入手確率<@cc.vup>+80%</>"
+      "description": "加工所で<@cc.kw>アーツ学</>を加工時、副産物の入手確率<@cc.vup>+80%</>",
+      "sortId": 7304
     },
     "dorm_rec_all&oneself[010]": {
       "buffId": "dorm_rec_all&oneself[010]",
       "buffName": "超越",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_one",
+      "skillIcon": "bskill_dorm_one1",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.55</>"
+      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.55</>",
+      "sortId": 5001
     },
     "dorm_rec_all&oneself[011]": {
       "buffId": "dorm_rec_all&oneself[011]",
       "buffName": "昇華",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all",
+      "skillIcon": "bskill_dorm_all1",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.1</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.1</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5302
     },
     "dorm_rec_all&oneself[012]": {
       "buffId": "dorm_rec_all&oneself[012]",
       "buffName": "解脱",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_all&one",
+      "skillIcon": "bskill_dorm_all&one3",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.55</>。配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.1</>（同種の効果は高いほうのみ適応）"
+      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.55</>。配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.1</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5402
     },
     "meet_spd&team[110]": {
       "buffId": "meet_spd&team[110]",
       "buffName": "占星学",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_spd",
+      "skillIcon": "bskill_meet_spd3",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+25%</>"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+25%</>",
+      "sortId": 6004
     },
     "power_rec_spd[040]": {
       "buffId": "power_rec_spd[040]",
       "buffName": "電磁充電α",
       "buffIcon": "power",
-      "skillIcon": "bskill_pow_spd",
+      "skillIcon": "bskill_pow_spd1",
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+10%</>"
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+10%</>",
+      "sortId": 2003
     },
     "power_rec_spd[041]": {
       "buffId": "power_rec_spd[041]",
       "buffName": "電磁充電β",
       "buffIcon": "power",
-      "skillIcon": "bskill_pow_spd",
+      "skillIcon": "bskill_pow_spd2",
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
-      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+15%</>"
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+15%</>",
+      "sortId": 2104
     },
     "manu_formula_spd[220]": {
       "buffId": "manu_formula_spd[220]",
       "buffName": "源石研究",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_originium",
+      "skillIcon": "bskill_man_originium2",
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>"
+      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>",
+      "sortId": 3004
     },
     "workshop_formula_probability[101]": {
       "buffId": "workshop_formula_probability[101]",
       "buffName": "学者",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_evolve",
+      "skillIcon": "bskill_ws_evolve3",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>"
+      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>",
+      "sortId": 7524
     },
     "workshop_formula_probability[111]": {
       "buffId": "workshop_formula_probability[111]",
       "buffName": "薬理学β",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_evolve",
+      "skillIcon": "bskill_ws_evolve3",
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>"
+      "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>",
+      "sortId": 7521
     },
     "train_spd&profession[140]": {
       "buffId": "train_spd&profession[140]",
       "buffName": "黒矢",
       "buffIcon": "training",
-      "skillIcon": "bskill_train_sniper",
+      "skillIcon": "bskill_train_sniper3",
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>狙撃</>の訓練速度<@cc.vup>+60%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>狙撃</>の訓練速度<@cc.vup>+60%</>",
+      "sortId": 9521
     },
     "dorm_rec_single_P[000]": {
       "buffId": "dorm_rec_single_P[000]",
       "buffName": "ティーサーブ",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_single",
+      "skillIcon": "bskill_dorm_single_schwarz",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.55</>。対象が<@cc.kw>セイロン</>の場合、更に<@cc.vup>+0.45</>（同種の効果は高いほうのみ適応）"
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.55</>。対象が<@cc.kw>セイロン</>の場合、更に<@cc.vup>+0.45</>（同種の効果は高いほうのみ適応）",
+      "sortId": 5103
     },
     "control_mp_cost[002]": {
       "buffId": "control_mp_cost[002]",
@@ -7236,40 +7483,140 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "制御中枢配置時、制御中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>"
+      "description": "制御中枢配置時、制御中枢内のオペレーターの体力消費が1時間ごと<@cc.vup>-0.05</>",
+      "sortId": 1001
     },
     "dorm_rec_oneself[030]": {
       "buffId": "dorm_rec_oneself[030]",
       "buffName": "見えない美食家",
       "buffIcon": "dormitory",
-      "skillIcon": "bskill_dorm_one",
+      "skillIcon": "bskill_dorm_one3",
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.75</>"
+      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.75</>",
+      "sortId": 5003
     },
     "hire_spd[030]": {
       "buffId": "hire_spd[030]",
       "buffName": "WRITER",
       "buffIcon": "hire",
-      "skillIcon": "bskill_hire_spd",
+      "skillIcon": "bskill_hire_spd4",
       "buffColor": "#565656",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
-      "description": "事務室配置時、事務連絡速度<@cc.vup>+40%</>"
+      "description": "事務室配置時、事務連絡速度<@cc.vup>+40%</>",
+      "sortId": 8302
     },
     "meet_spd&team[071]": {
       "buffId": "meet_spd&team[071]",
       "buffName": "没落貴族",
       "buffIcon": "meeting",
-      "skillIcon": "bskill_meet_glasgow",
+      "skillIcon": "bskill_meet_glasgow2",
       "buffColor": "#dd653f",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>グラスゴー</>の手がかりを入手しやすい"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>グラスゴー</>の手がかりを入手しやすい",
+      "sortId": 6501
+    },
+    "manu_prod_limit&cost[0000]": {
+      "buffId": "manu_prod_limit&cost[0000]",
+      "buffName": "ウェストピッカー",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_limit&cost",
+      "sortId": 3201,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所配置時、保管上限<@cc.vup>+8</>、体力消費が1時間ごと<@cc.vup>-0.25</>"
+    },
+    "manu_prod_spd_variable2[000]": {
+      "buffId": "manu_prod_spd_variable2[000]",
+      "buffName": "コンビネーション",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_variable21",
+      "sortId": 3601,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所配置時、配置製造所の製造効率が<@cc.vup>5%</>上昇につき、製造効率<@cc.vup>+5%</>、最大<@cc.vup>40%</>"
+    },
+    "manu_cost_all[000]": {
+      "buffId": "manu_cost_all[000]",
+      "buffName": "チームワーク",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_cost_all",
+      "sortId": 3601,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所配置時、配属オペレーターの<@cc.kw>自身</>に対する体力消費に関する効果が<@cc.kw>無効</>になる"
+    },
+    "trade_ord_spd&limit[032]": {
+      "buffId": "trade_ord_spd&limit[032]",
+      "buffName": "フェンツ運輸",
+      "buffIcon": "trading",
+      "skillIcon": "bskill_tra_spd1",
+      "sortId": 4302,
+      "buffColor": "#0075a9",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "TRADING",
+      "description": "貿易所配置時、受注効率<@cc.vup>+20%</>"
+    },
+    "trade_ord_spd&limit[033]": {
+      "buffId": "trade_ord_spd&limit[033]",
+      "buffName": "御曹司",
+      "buffIcon": "trading",
+      "skillIcon": "bskill_tra_spd&limit7",
+      "sortId": 4603,
+      "buffColor": "#0075a9",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "TRADING",
+      "description": "貿易所配置時、受注効率<@cc.vup>+30%</>、注文上限<@cc.vup>+1</>"
+    },
+    "meet_spd[0010]": {
+      "buffId": "meet_spd[0010]",
+      "buffName": "情報収集β",
+      "buffIcon": "meeting",
+      "skillIcon": "bskill_meet_spd2",
+      "sortId": 6201,
+      "buffColor": "#dd653f",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "MEETING",
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+20%</>"
+    },
+    "meet_team[020]": {
+      "buffId": "meet_team[020]",
+      "buffName": "皇室探偵（自称）",
+      "buffIcon": "meeting",
+      "skillIcon": "bskill_meet_penguin1",
+      "sortId": 6201,
+      "buffColor": "#dd653f",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "MEETING",
+      "description": "応接室配置時、<@cc.kw>ペンギン急便</>の手がかりを入手しやすい"
+    },
+    "meet_spd&team[020]": {
+      "buffId": "meet_spd&team[020]",
+      "buffName": "トランスポーター・ペンギン急便",
+      "buffIcon": "meeting",
+      "skillIcon": "bskill_meet_penguin2",
+      "sortId": 6202,
+      "buffColor": "#dd653f",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "MEETING",
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ペンギン急便</>の手がかりを入手しやすい"
     }
   },
   "customData": {
@@ -9907,7 +10254,7 @@
         "comfort": 390,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "下にソファがあるベッド。付属品のクッションとぬいぐるみが大人気。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -9929,7 +10276,7 @@
         "comfort": 340,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "暖かく炎が揺らめく暖炉。お気に入りの物語は永遠に終わらない。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -9951,7 +10298,7 @@
         "comfort": 95,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "薪をたくさん入れられる不格好な手編みの竹かご。素材の竹はよそから運ばれたもの。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -9973,7 +10320,7 @@
         "comfort": 205,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "ゆったりと動く椅子。伝統のセンスがついに工業に帰服した。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -9995,7 +10342,7 @@
         "comfort": 80,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "機械織の絨毯。デザイナーの強烈な反対を受けた。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10017,7 +10364,7 @@
         "comfort": 95,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "有名な職人によって作られたバイオリン。音色はのびやかで、木々の間に吹く風の歌のよう。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10039,7 +10386,7 @@
         "comfort": 105,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "革袋は一時の支えにすぎぬ。鹿の魂は荒野を永遠にさまよう。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10061,7 +10408,7 @@
         "comfort": 205,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "収納空間がたっぷりの棚。身長が低いオペレーターには優しくない。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10083,7 +10430,7 @@
         "comfort": 210,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "こじんまりとした食卓。食事の後は綺麗に拭いて。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10105,7 +10452,7 @@
         "comfort": 95,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "ハンドメイドの椅子。クッションはよそで買ったもの。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10127,7 +10474,7 @@
         "comfort": 95,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "ハンドメイドの椅子。クッションはよそで買ったもの。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10149,7 +10496,7 @@
         "comfort": 110,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "倉庫から発掘したファン。ちゃんと動く。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10171,7 +10518,7 @@
         "comfort": 35,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "倉庫から発掘した照明。意外と良さげ。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10193,7 +10540,7 @@
         "comfort": 400,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "一本の木から作った梁。船の内装のようなデザインだが、工匠が想いを注ぎ込んだのは間違いない。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10215,7 +10562,7 @@
         "comfort": 120,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "端材で作った壁紙。近づくと奇妙な匂いがする。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10237,7 +10584,7 @@
         "comfort": 120,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "つやつやなフローリング。裸足でいると山々の声が聞こえてくるようだ。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10699,7 +11046,7 @@
         "comfort": 165,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "ロドス特製ワイングラスラック。ロドスの公認ソムリエだけがラックにマイグラスをかけることが出来る。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10721,7 +11068,7 @@
         "comfort": 250,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "ロドス特製バーカウンター。「アルコールは危険な嗜好品」とはモダンタイムスのクルビア人の言。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10743,7 +11090,7 @@
         "comfort": 70,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "ロドス特製カウンターチェア。一人酒もよし、二人でサシ飲みもよし、三人で酒盛りするもよし。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10765,7 +11112,7 @@
         "comfort": 135,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "金庫のように堅牢な冷凍庫。各地の美味が詰まっている。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10787,7 +11134,7 @@
         "comfort": 90,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "クルビアの現代アーティストの作品。幾何学模様を継ぎ接ぎしたデザインは、見る者によって印象を変える。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10809,7 +11156,7 @@
         "comfort": 580,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "ウィレム株式会社製作のピアノ。ピアニストが鍵盤に指を滑らせれば、音符が舞い踊る。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10831,7 +11178,7 @@
         "comfort": 435,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "モダンホテルの絨毯。四方八方に向いた矢印の模様は、拡大政策を続けていた頃のクルビアのよう。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10853,7 +11200,7 @@
         "comfort": 105,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "クルビアでよく見るジュークボックス。1曲ワンコインで優雅なひと時を。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10875,7 +11222,7 @@
         "comfort": 35,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "モダンホテルのライト。灯された光は理想の未来を照らす。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10897,7 +11244,7 @@
         "comfort": 115,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "クルビアの有名デザイナーの自信作の壁飾り。ただの壁飾りというのがあの頃っぽい。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10919,7 +11266,7 @@
         "comfort": 95,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "モダンホテルのシャンデリア。華やかで煌びやか、そんな未来への憧憬が禁じ得ない。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10941,7 +11288,7 @@
         "comfort": 340,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "匠の手によって作られた機械で作られたホテルのソファー。雲のようにふかふかで、悩みも雲散しそう。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10963,7 +11310,7 @@
         "comfort": 180,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "モダンホテルのテーブルには、美酒とグラス。へべれけになっても、誰も気にやしない。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -10985,7 +11332,7 @@
         "comfort": 100,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "クルビアの芸術家の出世作は大量に複製された。飽くなき向上と連合は力をもたらす。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -11007,7 +11354,7 @@
         "comfort": 120,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "モダンホテルのフロアスタンド。光量はやや少ないが、雰囲気は完璧。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -11029,7 +11376,7 @@
         "comfort": 185,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "モダンホテルのダウンライト。とはいえ照明は補助的なもの。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -11051,7 +11398,7 @@
         "comfort": 240,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "モダンホテルの壁紙。シンプルなデザインと上質な素材、技術の粋を結集した逸品。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -11073,7 +11420,7 @@
         "comfort": 240,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "高級感のある大理石のタイル。過ぎ去った栄華でも、依然として華やかだ。",
-        "obtainApproach": "ラッキードロップ",
+        "obtainApproach": "購買部、ラッキードロップ",
         "processedProductId": "3401",
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
@@ -12558,7 +12905,7 @@
         "id": "furni_safetyZone_box_01",
         "name": "物資コンテナ",
         "iconId": "furni_safetyZone_box_01",
-        "type": "DECORATION",
+        "type": "CABINET",
         "location": "FLOOR",
         "category": "FURNITURE",
         "rarity": 2,
@@ -12842,7 +13189,7 @@
       },
       "furni_rococo_cabinet_01": {
         "id": "furni_rococo_cabinet_01",
-        "name": "豪華なキャビネット",
+        "name": "王室風キャビネット",
         "iconId": "furni_rococo_cabinet_01",
         "type": "CABINET",
         "location": "FLOOR",
@@ -12864,7 +13211,7 @@
       },
       "furni_rococo_bustStatue_01": {
         "id": "furni_rococo_bustStatue_01",
-        "name": "衛兵の像",
+        "name": "ランセラー城の衛兵像",
         "iconId": "furni_rococo_bustStatue_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -12886,7 +13233,7 @@
       },
       "furni_rococo_table_01": {
         "id": "furni_rococo_table_01",
-        "name": "豪華なロングテーブル",
+        "name": "王室風ロングテーブル",
         "iconId": "furni_rococo_table_01",
         "type": "TABLE",
         "location": "FLOOR",
@@ -12908,7 +13255,7 @@
       },
       "furni_rococo_mainSeat_01": {
         "id": "furni_rococo_mainSeat_01",
-        "name": "豪華な椅子A",
+        "name": "王室風椅子A",
         "iconId": "furni_rococo_mainSeat_01",
         "type": "SEATING",
         "location": "FLOOR",
@@ -12930,7 +13277,7 @@
       },
       "furni_rococo_secondarySeat_01": {
         "id": "furni_rococo_secondarySeat_01",
-        "name": "豪華な椅子B",
+        "name": "王室風椅子B",
         "iconId": "furni_rococo_secondarySeat_01",
         "type": "SEATING",
         "location": "FLOOR",
@@ -12952,7 +13299,7 @@
       },
       "furni_rococo_stool_01": {
         "id": "furni_rococo_stool_01",
-        "name": "豪華なロースツール",
+        "name": "ランセラー風ロースツール",
         "iconId": "furni_rococo_stool_01",
         "type": "SEATING",
         "location": "FLOOR",
@@ -13062,7 +13409,7 @@
       },
       "furni_rococo_pillar_01": {
         "id": "furni_rococo_pillar_01",
-        "name": "豪華な柱",
+        "name": "ランセラー城の柱",
         "iconId": "furni_rococo_pillar_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -13194,7 +13541,7 @@
       },
       "furni_rococo_wallpaper_01": {
         "id": "furni_rococo_wallpaper_01",
-        "name": "豪華な壁紙",
+        "name": "王室風壁紙",
         "iconId": "furni_rococo_wallpaper_01",
         "type": "WALLPAPER",
         "location": "WALL",
@@ -13216,7 +13563,7 @@
       },
       "furni_rococo_floor_01": {
         "id": "furni_rococo_floor_01",
-        "name": "豪華なフロア",
+        "name": "ランセラー風フロア",
         "iconId": "furni_rococo_floor_01",
         "type": "FLOOR",
         "location": "FLOOR",
@@ -13282,7 +13629,7 @@
       },
       "furni_spirit_pumpkin_01": {
         "id": "furni_spirit_pumpkin_01",
-        "name": "儀式用パンプキンA",
+        "name": "儀式用パンプキンB",
         "iconId": "furni_spirit_pumpkin_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -13294,7 +13641,7 @@
         "height": 2,
         "comfort": 230,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "いくつか積まれたカボチャのランタン。「カボチャは安寧に抗い、安寧より生ずるものを恐れる。」",
+        "description": "大量に詰まれたカボチャのランタン。「君はカボチャに火を灯す。カボチャが心の火を消すのを期待しているのだ。」",
         "obtainApproach": "購買部期間限定",
         "processedProductId": "3401",
         "processedProductCount": 173,
@@ -13304,7 +13651,7 @@
       },
       "furni_spirit_pumpkin2_01": {
         "id": "furni_spirit_pumpkin2_01",
-        "name": "儀式用パンプキンB",
+        "name": "儀式用パンプキンA",
         "iconId": "furni_spirit_pumpkin2_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -13316,7 +13663,7 @@
         "height": 2,
         "comfort": 145,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "大量に詰まれたカボチャのランタン。「君はカボチャに火を灯す。カボチャが心の火を消すのを期待しているのだ。」",
+        "description": "いくつか積まれたカボチャのランタン。「カボチャは安寧に抗い、安寧より生ずるものを恐れる。」",
         "obtainApproach": "購買部期間限定",
         "processedProductId": "3401",
         "processedProductCount": 120,
@@ -14758,7 +15105,7 @@
         "id": "furni_dropN001_box_01",
         "name": "資材箱黒",
         "iconId": "furni_dropN001_box_01",
-        "type": "DECORATION",
+        "type": "CABINET",
         "location": "FLOOR",
         "category": "FURNITURE",
         "rarity": 2,
@@ -14780,7 +15127,7 @@
         "id": "furni_dropN001_box_02",
         "name": "資材箱白",
         "iconId": "furni_dropN001_box_02",
-        "type": "DECORATION",
+        "type": "CABINET",
         "location": "FLOOR",
         "category": "FURNITURE",
         "rarity": 2,
@@ -14802,7 +15149,7 @@
         "id": "furni_dropN001_box_03",
         "name": "資材箱緑",
         "iconId": "furni_dropN001_box_03",
-        "type": "DECORATION",
+        "type": "CABINET",
         "location": "FLOOR",
         "category": "FURNITURE",
         "rarity": 2,
@@ -14945,7 +15292,7 @@
         "comfort": 75,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "「時間と伝説は流れゆくもの。旋律は街を巡り、失意にあるもの全てを癒す。」",
-        "obtainApproach": "イベント「騎兵と狩人」任務報酬",
+        "obtainApproach": "イベント報酬",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -15143,7 +15490,7 @@
         "comfort": 75,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "「時が流れれば笑い話になる。歳を取れば器も深くなる。」",
-        "obtainApproach": "SW-EV-5強襲作戦初回クリア",
+        "obtainApproach": "イベント報酬",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -15253,7 +15600,7 @@
         "comfort": 75,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "「ジュウデンチュウ……ジュウデンチュウ……」",
-        "obtainApproach": "イベント「青く燃ゆる心」OF-8初回クリア",
+        "obtainApproach": "イベント報酬",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -15275,7 +15622,7 @@
         "comfort": 75,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "「振り返りたくなる時が来るのは早く、君の声を聴きたいときは静かすぎる。」",
-        "obtainApproach": "イベント「青く燃ゆる心」OF-EX6強襲作戦初回クリア",
+        "obtainApproach": "イベント報酬",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -15298,6 +15645,358 @@
         "usage": "宿舎に飾れば、雰囲気を良くする。",
         "description": "特殊な技術で組み上げられた柱時計。針が進み鐘の音が鳴り響く。あの人の命はとうに尽き果てた。",
         "obtainApproach": "信頼達成記念・S.W.E.E.P",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_recordPlayer_01": {
+        "id": "furni_penguin_recordPlayer_01",
+        "name": "古い蓄音機",
+        "iconId": "furni_penguin_recordPlayer_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 170,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "秘密基地の古い蓄音機。テキサスが自分のコレクションを再生する為に使っていたものだが、今ではほとんどの時間は流行歌を流している。",
+        "obtainApproach": "「喧騒の掟」イベント報酬",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_bulletinboard_01": {
+        "id": "furni_penguin_bulletinboard_01",
+        "name": "手がかり掲示板",
+        "iconId": "furni_penguin_bulletinboard_01",
+        "type": "DECORATION",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 7,
+        "depth": 1,
+        "height": 3,
+        "comfort": 155,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "秘密基地の情報掲示板。いつも任務のターゲットや周辺の地形の情報が少しと、ペンギン急便内輪ネタのギャグが大量に貼られている。",
+        "obtainApproach": "「喧騒の掟」イベント報酬",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_sofa_01": {
+        "id": "furni_penguin_sofa_01",
+        "name": "ふかふかソファ",
+        "iconId": "furni_penguin_sofa_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 4,
+        "height": 3,
+        "comfort": 325,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "秘密基地のふかふかでやわらかいソファ。ソファに腰かけて武器の手入れをするエクシアはいつも寝落ちする。",
+        "obtainApproach": "「喧騒の掟」イベント報酬",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_partitionGate_01": {
+        "id": "furni_penguin_partitionGate_01",
+        "name": "安全ゲート",
+        "iconId": "furni_penguin_partitionGate_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 1,
+        "depth": 8,
+        "height": 8,
+        "comfort": 290,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "イースに委託して作られたゲート。ペンギン急便の社員たちとは実はあまり相性が良くない。",
+        "obtainApproach": "購買部期間限定",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_floorLamp_01": {
+        "id": "furni_penguin_floorLamp_01",
+        "name": "高性能ピンスポ",
+        "iconId": "furni_penguin_floorLamp_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 4,
+        "height": 5,
+        "comfort": 265,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "クロワッサンがどこからか買ってきた、どう見てもロケーションライトなフロアライト。聞くところによると生物を分解できる照射兵器らしいが、たまにカメラのフラッシュに使っている。",
+        "obtainApproach": "購買部期間限定",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_screen_01": {
+        "id": "furni_penguin_screen_01",
+        "name": "ペンギン急便の幕",
+        "iconId": "furni_penguin_screen_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 14,
+        "depth": 1,
+        "height": 7,
+        "comfort": 280,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "ペンギン急便のロゴマークが印刷されている幕。会社のロゴを見るたびに仕事とボスとひと時のサボリを思い出す。",
+        "obtainApproach": "購買部期間限定",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_oilDrumSink_01": {
+        "id": "furni_penguin_oilDrumSink_01",
+        "name": "ドリンクサーバー",
+        "iconId": "furni_penguin_oilDrumSink_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 4,
+        "height": 5,
+        "comfort": 225,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "ペンギン急便に設置された大容量の樽型ドリンクサーバー。イースが毎日決まった時間にドリンクを補充しているが、実際は飲み干せたことがない。",
+        "obtainApproach": "「喧騒の掟」イベント報酬",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_table_01": {
+        "id": "furni_penguin_table_01",
+        "name": "多機能作業台",
+        "iconId": "furni_penguin_table_01",
+        "type": "TABLE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 4,
+        "height": 7,
+        "comfort": 470,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "ペンギン急便の多機能作業台。様々な工具の追加設置が可能で、どんなものでも改造できる。だが普段は都市間のネットワークにアクセスするのにしか使われていない。",
+        "obtainApproach": "「喧騒の掟」イベント報酬",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_stool_01": {
+        "id": "furni_penguin_stool_01",
+        "name": "高機能スツール",
+        "iconId": "furni_penguin_stool_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 155,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "エンペラーが特別にオーダーメイドしたスツール。毎秒36回転に耐えることができ、たとえスツールに座っている人が弾き飛ばされたとしても、クッションには傷一つつかない。",
+        "obtainApproach": "購買部期間限定",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_shelf_01": {
+        "id": "furni_penguin_shelf_01",
+        "name": "赤い棚",
+        "iconId": "furni_penguin_shelf_01",
+        "type": "CABINET",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 4,
+        "height": 7,
+        "comfort": 290,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "社員共用の棚。サイン入りCD、資料、オーディオ機器、貯金箱……雑多でゴミとも呼べない物は全部ここに積まれている。",
+        "obtainApproach": "「喧騒の掟」イベント報酬",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_boxes_01": {
+        "id": "furni_penguin_boxes_01",
+        "name": "配送待ち貨物",
+        "iconId": "furni_penguin_boxes_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 4,
+        "height": 4,
+        "comfort": 240,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "しっかり梱包された配達物。許された客の許された状況下でのみ開く。とあるアイドルが朝練の時に置きっぱなしにした水コップを移動して、仕事開始だ。",
+        "obtainApproach": "「喧騒の掟」イベント報酬",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_ceiling_01": {
+        "id": "furni_penguin_ceiling_01",
+        "name": "基地の蛍光灯",
+        "iconId": "furni_penguin_ceiling_01",
+        "type": "CEILING",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 26,
+        "depth": 8,
+        "height": 2,
+        "comfort": 610,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "エクシアが担当で購入した蛍光灯。天井につるされている蛍光灯は自由に組み合わせて設置できた———あの日までは。",
+        "obtainApproach": "購買部期間限定",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_wallpaper_01": {
+        "id": "furni_penguin_wallpaper_01",
+        "name": "秘密基地壁紙",
+        "iconId": "furni_penguin_wallpaper_01",
+        "type": "WALLPAPER",
+        "location": "WALL",
+        "category": "WALL",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 280,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "ペンギン急便特製の壁紙。最新の映像投影技術で窓の外の景色を永遠に固定させた。最も配達に相応しい時間———夜に。",
+        "obtainApproach": "購買部期間限定",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_penguin_floor_01": {
+        "id": "furni_penguin_floor_01",
+        "name": "秘密基地タイル",
+        "iconId": "furni_penguin_floor_01",
+        "type": "FLOOR",
+        "location": "FLOOR",
+        "category": "FLOOR",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 280,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "ペンギン急便特製のタイル。「クロワッサン！お前には車庫があるだろう！貨物を車庫に置いて車を部屋の中に止めるのはやめろ！」",
+        "obtainApproach": "購買部期間限定",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_dropS004_giorgioMoroder_01": {
+        "id": "furni_dropS004_giorgioMoroder_01",
+        "name": "パネル「瑞夢」",
+        "iconId": "furni_dropS003_zero_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "「ビジョンは見えている。この大地は夢想を現実に変える。」",
+        "obtainApproach": "イベント報酬",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false
+      },
+      "furni_dropS005_nosferatu_01": {
+        "id": "furni_dropS005_nosferatu_01",
+        "name": "パネル「冷血」",
+        "iconId": "furni_dropS005_nosferatu_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "宿舎に飾れば、雰囲気を良くする。",
+        "description": "「会社でこの城を買い取りたい。」",
+        "obtainApproach": "イベント報酬",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -15861,12 +16560,12 @@
           {
             "furnitureId": "furni_s2_chair_L_01",
             "pos0": 16,
-            "pos1": 0
+            "pos1": 1
           },
           {
             "furnitureId": "furni_s2_chair_R_01",
             "pos0": 22,
-            "pos1": 0
+            "pos1": 1
           },
           {
             "furnitureId": "furni_s2_chair2_01",
@@ -15948,12 +16647,12 @@
           {
             "furnitureId": "furni_s2_chair_L_02",
             "pos0": 16,
-            "pos1": 0
+            "pos1": 1
           },
           {
             "furnitureId": "furni_s2_chair_R_02",
             "pos0": 22,
-            "pos1": 0
+            "pos1": 1
           },
           {
             "furnitureId": "furni_s2_chair2_02",
@@ -16937,6 +17636,225 @@
             "pos1": 0
           }
         ]
+      },
+      "furni_set_rococo": {
+        "id": "furni_set_rococo",
+        "name": "バンケットホール",
+        "desc": "遠い小国・ランセラーの王家の城のバンケットホールがテーマ。山々を照らす一点の光。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_rococo_cabinet_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_rococo_bustStatue_01",
+            "pos0": 0,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_table_01",
+            "pos0": 6,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_rococo_mainSeat_01",
+            "pos0": 16,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_secondarySeat_01",
+            "pos0": 13,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_secondarySeat_01",
+            "pos0": 19,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_secondarySeat_01",
+            "pos0": 10,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_secondarySeat_01",
+            "pos0": 22,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_secondarySeat_01",
+            "pos0": 7,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_secondarySeat_01",
+            "pos0": 25,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_stool_01",
+            "pos0": 3,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_fireplace_01",
+            "pos0": 28,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_rococo_carpet_01",
+            "pos0": 28,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_rococo_brazier_01",
+            "pos0": 30,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_rococo_observationDeck_01",
+            "pos0": 8,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_rococo_pillar_01",
+            "pos0": 11,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_rococo_pillar_01",
+            "pos0": 21,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_rococo_framedArt_01",
+            "pos0": 5,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_rococo_mirror_01",
+            "pos0": 29,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_rococo_ceilingLight1_01",
+            "pos0": 15,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_ceilingLight2_01",
+            "pos0": 5,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_ceilingLight2_01",
+            "pos0": 25,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_rococo_doorMat_01",
+            "pos0": 0,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_rococo_doorMat_01",
+            "pos0": 32,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_rococo_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_rococo_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
+      },
+      "furni_set_penguin": {
+        "id": "furni_set_penguin",
+        "name": "ペンギン急便\n秘密基地",
+        "desc": "協力組織ペンギン急便特注の秘密基地。設計図と施工図はロドスに提出済み。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_penguin_recordPlayer_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_penguin_bulletinboard_01",
+            "pos0": 2,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_penguin_sofa_01",
+            "pos0": 2,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_penguin_partitionGate_01",
+            "pos0": 11,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_penguin_floorLamp_01",
+            "pos0": 14,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_penguin_screen_01",
+            "pos0": 18,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_penguin_oilDrumSink_01",
+            "pos0": 18,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_penguin_table_01",
+            "pos0": 21,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_penguin_stool_01",
+            "pos0": 23,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_penguin_stool_01",
+            "pos0": 25,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_penguin_shelf_01",
+            "pos0": 30,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_penguin_boxes_01",
+            "pos0": 28,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_penguin_ceiling_01",
+            "pos0": 4,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_penguin_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_penguin_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
       }
     },
     "groups": {
@@ -17799,6 +18717,110 @@
           "furni_guitar_partitionWall_01",
           "furni_guitar_curtain_01"
         ]
+      },
+      "furni_set_rococo_1": {
+        "id": "furni_set_rococo_1",
+        "name": "椅子/机",
+        "themeId": "furni_set_rococo",
+        "comfort": 395,
+        "count": 5,
+        "furniture": [
+          "furni_rococo_table_01",
+          "furni_rococo_mainSeat_01",
+          "furni_rococo_secondarySeat_01",
+          "furni_rococo_observationDeck_01",
+          "furni_rococo_pillar_01"
+        ]
+      },
+      "furni_set_rococo_2": {
+        "id": "furni_set_rococo_2",
+        "name": "収納/調度品",
+        "themeId": "furni_set_rococo",
+        "comfort": 120,
+        "count": 4,
+        "furniture": [
+          "furni_rococo_cabinet_01",
+          "furni_rococo_bustStatue_01",
+          "furni_rococo_stool_01",
+          "furni_rococo_framedArt_01"
+        ]
+      },
+      "furni_set_rococo_3": {
+        "id": "furni_set_rococo_3",
+        "name": "暖房器具",
+        "themeId": "furni_set_rococo",
+        "comfort": 90,
+        "count": 4,
+        "furniture": [
+          "furni_rococo_fireplace_01",
+          "furni_rococo_brazier_01",
+          "furni_rococo_mirror_01",
+          "furni_rococo_carpet_01"
+        ]
+      },
+      "furni_set_rococo_4": {
+        "id": "furni_set_rococo_4",
+        "name": "内装",
+        "themeId": "furni_set_rococo",
+        "comfort": 115,
+        "count": 5,
+        "furniture": [
+          "furni_rococo_wallpaper_01",
+          "furni_rococo_floor_01",
+          "furni_rococo_doorMat_01",
+          "furni_rococo_ceilingLight1_01",
+          "furni_rococo_ceilingLight2_01"
+        ]
+      },
+      "furni_set_penguin_1": {
+        "id": "furni_set_penguin_1",
+        "name": "雑貨",
+        "themeId": "furni_set_penguin",
+        "comfort": 160,
+        "count": 3,
+        "furniture": [
+          "furni_penguin_shelf_01",
+          "furni_penguin_oilDrumSink_01",
+          "furni_penguin_boxes_01"
+        ]
+      },
+      "furni_set_penguin_2": {
+        "id": "furni_set_penguin_2",
+        "name": "業務設備",
+        "themeId": "furni_set_penguin",
+        "comfort": 260,
+        "count": 4,
+        "furniture": [
+          "furni_penguin_table_01",
+          "furni_penguin_stool_01",
+          "furni_penguin_screen_01",
+          "furni_penguin_floorLamp_01"
+        ]
+      },
+      "furni_set_penguin_3": {
+        "id": "furni_set_penguin_3",
+        "name": "休憩設備",
+        "themeId": "furni_set_penguin",
+        "comfort": 115,
+        "count": 3,
+        "furniture": [
+          "furni_penguin_sofa_01",
+          "furni_penguin_bulletinboard_01",
+          "furni_penguin_recordPlayer_01"
+        ]
+      },
+      "furni_set_penguin_4": {
+        "id": "furni_set_penguin_4",
+        "name": "秘密基地内装",
+        "themeId": "furni_set_penguin",
+        "comfort": 275,
+        "count": 4,
+        "furniture": [
+          "furni_penguin_wallpaper_01",
+          "furni_penguin_floor_01",
+          "furni_penguin_ceiling_01",
+          "furni_penguin_partitionGate_01"
+        ]
       }
     },
     "types": {
@@ -18325,7 +19347,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 1001
     },
     "2": {
       "formulaId": "2",
@@ -18358,7 +19381,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 1002
     },
     "3": {
       "formulaId": "3",
@@ -18391,7 +19415,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 1003
     },
     "4": {
       "formulaId": "4",
@@ -18429,7 +19454,8 @@
           "stageId": "wk_armor_3",
           "rank": 2
         }
-      ]
+      ],
+      "sortId": 1101
     },
     "5": {
       "formulaId": "5",
@@ -18467,7 +19493,8 @@
           "stageId": "wk_armor_4",
           "rank": 2
         }
-      ]
+      ],
+      "sortId": 1102
     },
     "6": {
       "formulaId": "6",
@@ -18505,7 +19532,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 1201
     },
     "7": {
       "formulaId": "7",
@@ -18538,7 +19566,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 1202
     },
     "8": {
       "formulaId": "8",
@@ -18571,7 +19600,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 1203
     },
     "9": {
       "formulaId": "9",
@@ -18609,7 +19639,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 1204
     },
     "10": {
       "formulaId": "10",
@@ -18642,7 +19673,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 1205
     },
     "11": {
       "formulaId": "11",
@@ -18675,7 +19707,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 1206
     },
     "12": {
       "formulaId": "12",
@@ -18737,6 +19770,16 @@
           "weight": 56,
           "itemId": "30104",
           "itemCount": 1
+        },
+        {
+          "weight": 72,
+          "itemId": "31014",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "31024",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -18763,7 +19806,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2001
     },
     "13": {
       "formulaId": "13",
@@ -18825,6 +19869,16 @@
           "weight": 56,
           "itemId": "30104",
           "itemCount": 1
+        },
+        {
+          "weight": 72,
+          "itemId": "31014",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "31024",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -18846,7 +19900,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2002
     },
     "14": {
       "formulaId": "14",
@@ -18908,6 +19963,16 @@
           "weight": 56,
           "itemId": "30104",
           "itemCount": 1
+        },
+        {
+          "weight": 72,
+          "itemId": "31014",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "31024",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -18934,7 +19999,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2003
     },
     "15": {
       "formulaId": "15",
@@ -18996,6 +20062,16 @@
           "weight": 30,
           "itemId": "30103",
           "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -19022,7 +20098,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2103
     },
     "16": {
       "formulaId": "16",
@@ -19084,6 +20161,16 @@
           "weight": 30,
           "itemId": "30103",
           "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -19110,7 +20197,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2104
     },
     "17": {
       "formulaId": "17",
@@ -19172,6 +20260,16 @@
           "weight": 30,
           "itemId": "30103",
           "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -19198,7 +20296,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2105
     },
     "18": {
       "formulaId": "18",
@@ -19260,6 +20359,16 @@
           "weight": 30,
           "itemId": "30103",
           "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -19286,7 +20395,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2106
     },
     "19": {
       "formulaId": "19",
@@ -19344,7 +20454,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2201
     },
     "20": {
       "formulaId": "20",
@@ -19402,7 +20513,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2202
     },
     "21": {
       "formulaId": "21",
@@ -19464,6 +20576,16 @@
           "weight": 30,
           "itemId": "30103",
           "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -19490,7 +20612,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2203
     },
     "22": {
       "formulaId": "22",
@@ -19548,7 +20671,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2301
     },
     "23": {
       "formulaId": "23",
@@ -19606,7 +20730,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2302
     },
     "24": {
       "formulaId": "24",
@@ -19668,6 +20793,16 @@
           "weight": 30,
           "itemId": "30103",
           "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -19694,7 +20829,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2303
     },
     "25": {
       "formulaId": "25",
@@ -19752,7 +20888,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2401
     },
     "26": {
       "formulaId": "26",
@@ -19810,7 +20947,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2402
     },
     "27": {
       "formulaId": "27",
@@ -19872,6 +21010,16 @@
           "weight": 30,
           "itemId": "30103",
           "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -19898,7 +21046,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2403
     },
     "28": {
       "formulaId": "28",
@@ -19956,7 +21105,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2501
     },
     "29": {
       "formulaId": "29",
@@ -20014,7 +21164,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2502
     },
     "30": {
       "formulaId": "30",
@@ -20076,6 +21227,16 @@
           "weight": 30,
           "itemId": "30103",
           "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -20102,7 +21263,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2503
     },
     "31": {
       "formulaId": "31",
@@ -20160,7 +21322,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2601
     },
     "32": {
       "formulaId": "32",
@@ -20218,7 +21381,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2602
     },
     "33": {
       "formulaId": "33",
@@ -20280,6 +21444,16 @@
           "weight": 30,
           "itemId": "30103",
           "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -20306,7 +21480,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2603
     },
     "34": {
       "formulaId": "34",
@@ -20364,7 +21539,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2701
     },
     "35": {
       "formulaId": "35",
@@ -20422,7 +21598,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2702
     },
     "36": {
       "formulaId": "36",
@@ -20484,6 +21661,16 @@
           "weight": 30,
           "itemId": "30103",
           "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -20500,7 +21687,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 2703
     },
     "37": {
       "formulaId": "37",
@@ -20538,7 +21726,8 @@
           "stageId": "wk_fly_3",
           "rank": 2
         }
-      ]
+      ],
+      "sortId": 3001
     },
     "38": {
       "formulaId": "38",
@@ -20576,7 +21765,8 @@
           "stageId": "wk_fly_4",
           "rank": 2
         }
-      ]
+      ],
+      "sortId": 3002
     },
     "39": {
       "formulaId": "39",
@@ -20644,7 +21834,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4001
     },
     "40": {
       "formulaId": "40",
@@ -20712,7 +21903,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4002
     },
     "41": {
       "formulaId": "41",
@@ -20780,7 +21972,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4003
     },
     "42": {
       "formulaId": "42",
@@ -20848,7 +22041,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4004
     },
     "43": {
       "formulaId": "43",
@@ -20916,7 +22110,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4005
     },
     "44": {
       "formulaId": "44",
@@ -20984,7 +22179,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4006
     },
     "45": {
       "formulaId": "45",
@@ -21052,7 +22248,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4007
     },
     "46": {
       "formulaId": "46",
@@ -21120,7 +22317,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4008
     },
     "47": {
       "formulaId": "47",
@@ -21188,7 +22386,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4101
     },
     "48": {
       "formulaId": "48",
@@ -21256,7 +22455,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4102
     },
     "49": {
       "formulaId": "49",
@@ -21324,7 +22524,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4103
     },
     "50": {
       "formulaId": "50",
@@ -21392,7 +22593,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4104
     },
     "51": {
       "formulaId": "51",
@@ -21460,7 +22662,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4105
     },
     "52": {
       "formulaId": "52",
@@ -21528,7 +22731,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4106
     },
     "53": {
       "formulaId": "53",
@@ -21596,7 +22800,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4107
     },
     "54": {
       "formulaId": "54",
@@ -21664,7 +22869,8 @@
           "roomCount": 1
         }
       ],
-      "requireStages": []
+      "requireStages": [],
+      "sortId": 4108
     }
   },
   "creditFormula": {
