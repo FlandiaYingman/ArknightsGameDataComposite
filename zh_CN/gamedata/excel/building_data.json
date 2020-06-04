@@ -4149,7 +4149,7 @@
         {
           "buffData": [
             {
-              "buffId": "dorm_rec_all[020]",
+              "buffId": "dorm_rec_all[011]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -8924,6 +8924,18 @@
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
       "description": "进驻人力办公室时，人脉资源的联络速度<@cc.vup>+30%</>，同时每个招募位（不包含初始招募位）额外<@cc.vup>+5%</>会客室线索搜集速度"
+    },
+    "dorm_rec_all[011]": {
+      "buffId": "dorm_rec_all[011]",
+      "buffName": "偶像",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_all2",
+      "sortId": 5313,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "进驻宿舍时，该宿舍内所有干员的心情每小时恢复<@cc.vup>+0.15</>（同种效果取最高）"
     }
   },
   "customData": {
