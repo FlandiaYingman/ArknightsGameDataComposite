@@ -6196,7 +6196,7 @@
         {
           "buffData": [
             {
-              "buffId": "workshop_formula_cost3[110]",
+              "buffId": "workshop_formula_cost3[111]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -6397,7 +6397,7 @@
               }
             },
             {
-              "buffId": "train_spd&profession2[220]",
+              "buffId": "train_spd&profession2[420]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -6452,7 +6452,7 @@
               }
             },
             {
-              "buffId": "train_spd&profession2[241]",
+              "buffId": "train_spd&profession2[441]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -6693,6 +6693,116 @@
           "buffData": [
             {
               "buffId": "dorm_rec_all[012]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_358_lisa": {
+      "charId": "char_358_lisa",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[060]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd&profession[160]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_294_ayer": {
+      "charId": "char_294_ayer",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "meet_spd[001]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_345_folnic": {
+      "charId": "char_345_folnic",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[120]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost3[100]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_328_cammou": {
+      "charId": "char_328_cammou",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_formula_cost[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_formula_limit[000]",
               "cond": {
                 "phase": 1,
                 "level": 1
@@ -6985,7 +7095,7 @@
       "buffName": "急性子",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd_add1",
-      "sortId": 3512,
+      "sortId": 3513,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7069,12 +7179,12 @@
       "buffName": "工匠精神·β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd&limit&cost2",
-      "sortId": 3302,
+      "sortId": 3303,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "进驻制造站时，生产力<@cc.vdown>-5%</>，仓库容量上限<@cc.vup>+18</>，心情每小时消耗<@cc.vup>-0.25</>"
+      "description": "进驻制造站时，生产力<@cc.vdown>-5%</>，仓库容量上限<@cc.vup>+19</>，心情每小时消耗<@cc.vup>-0.25</>"
     },
     "manu_prod_spd&limit&cost[010]": {
       "buffId": "manu_prod_spd&limit&cost[010]",
@@ -7302,7 +7412,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+10%</>，且订单上限<@cc.vup>+1</>"
+      "description": "进驻贸易站时，订单获取效率<@cc.vup>+10%</>，且订单上限<@cc.vup>+2</>"
     },
     "trade_ord_spd&limit[010]": {
       "buffId": "trade_ord_spd&limit[010]",
@@ -7326,7 +7436,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+15%</>，且订单上限<@cc.vup>+1</>"
+      "description": "进驻贸易站时，订单获取效率<@cc.vup>+15%</>，且订单上限<@cc.vup>+2</>"
     },
     "trade_ord_spd&limit[021]": {
       "buffId": "trade_ord_spd&limit[021]",
@@ -7338,7 +7448,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+15%</>，且订单上限<@cc.vup>+2</>"
+      "description": "进驻贸易站时，订单获取效率<@cc.vup>+15%</>，且订单上限<@cc.vup>+4</>"
     },
     "trade_ord_spd&limit[022]": {
       "buffId": "trade_ord_spd&limit[022]",
@@ -7350,7 +7460,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单获取效率<@cc.vup>+20%</>，且订单上限<@cc.vup>+3</>"
+      "description": "进驻贸易站时，订单获取效率<@cc.vup>+20%</>，且订单上限<@cc.vup>+4</>"
     },
     "trade_ord_spd&limit[030]": {
       "buffId": "trade_ord_spd&limit[030]",
@@ -7422,7 +7532,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "进驻贸易站时，订单上限<@cc.vup>+3</>，心情每小时消耗<@cc.vup>-0.25</>"
+      "description": "进驻贸易站时，订单上限<@cc.vup>+5</>，心情每小时消耗<@cc.vup>-0.25</>"
     },
     "trade_ord_spd&cost_P[000]": {
       "buffId": "trade_ord_spd&cost_P[000]",
@@ -8062,7 +8172,7 @@
     },
     "dorm_rec_all[020]": {
       "buffId": "dorm_rec_all[020]",
-      "buffName": "凛冬将军",
+      "buffName": "冬将军",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all3",
       "sortId": 5321,
@@ -8458,7 +8568,7 @@
     },
     "meet_spd&team[050]": {
       "buffId": "meet_spd&team[050]",
-      "buffName": "参谋",
+      "buffName": "军师",
       "buffIcon": "meeting",
       "skillIcon": "bskill_meet_ursus2",
       "sortId": 6421,
@@ -8581,7 +8691,7 @@
       "buffName": "肆无忌惮",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_nian",
-      "sortId": 7531,
+      "sortId": 7601,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -8593,7 +8703,7 @@
       "buffName": "稀有金属辨识",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_evolve4",
-      "sortId": 7531,
+      "sortId": 7601,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -9151,6 +9261,90 @@
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
       "description": "进驻会客室后，每当新搜集到的线索不是<@cc.kw>乌萨斯学生自治团</>时，则额外增加<@cc.kw>乌萨斯学生自治团</>线索的出现概率"
+    },
+    "manu_formula_cost[000]": {
+      "buffId": "manu_formula_cost[000]",
+      "buffName": "vlog",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_exp&cost",
+      "sortId": 3101,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "进驻制造站时，生产<@cc.kw>作战记录</>类配方时，心情每小时消耗<@cc.vup>-0.25</>"
+    },
+    "manu_formula_limit[000]": {
+      "buffId": "manu_formula_limit[000]",
+      "buffName": "视频剪辑",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_exp&limit",
+      "sortId": 3403,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "进驻制造站时，生产<@cc.kw>作战记录</>类配方时，仓库容量上限<@cc.vup>+12</>"
+    },
+    "workshop_formula_cost3[100]": {
+      "buffId": "workshop_formula_cost3[100]",
+      "buffName": "一丝不苟",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve_cost",
+      "sortId": 7512,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工<@cc.kw>精英材料</>时，心情消耗为<@cc.kw>2</>的配方全部<@cc.vup>-1</>心情消耗"
+    },
+    "workshop_formula_cost3[111]": {
+      "buffId": "workshop_formula_cost3[111]",
+      "buffName": "极简实用主义",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve_cost2",
+      "sortId": 7053,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工<@cc.kw>精英材料</>时，心情消耗为<@cc.kw>4</>的配方全部<@cc.vup>-2</>心情消耗"
+    },
+    "train_spd&profession[160]": {
+      "buffId": "train_spd&profession[160]",
+      "buffName": "共鸣",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train_supporter3",
+      "sortId": 9321,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "进驻训练室协助位时，<@cc.kw>辅助</>干员的专精技能训练速度<@cc.vup>+60%</>"
+    },
+    "train_spd&profession2[420]": {
+      "buffId": "train_spd&profession2[420]",
+      "buffName": "尽心尽力",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train3_guard1",
+      "sortId": 9721,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "进驻训练室协助位时，<@cc.kw>近卫</>干员的专精技能训练速度<@cc.vup>+30%</>，如果本次训练专精技能至<@cc.vup>3</>级，则训练速度额外<@cc.vup>+45%</>"
+    },
+    "train_spd&profession2[441]": {
+      "buffId": "train_spd&profession2[441]",
+      "buffName": "伺机而动",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train3_sniper2",
+      "sortId": 9532,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "进驻训练室协助位时，<@cc.kw>狙击</>干员的专精技能训练速度<@cc.vup>+30%</>，如果本次训练专精技能至<@cc.vup>3</>级，则训练速度额外<@cc.vup>+65%</>"
     }
   },
   "customData": {
@@ -9175,7 +9369,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_boxes_01": {
         "id": "furni_warehouse_boxes_01",
@@ -9197,7 +9392,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_boxes_02": {
         "id": "furni_warehouse_boxes_02",
@@ -9219,7 +9415,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_boxes_03": {
         "id": "furni_warehouse_boxes_03",
@@ -9241,7 +9438,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_chair_01": {
         "id": "furni_warehouse_chair_01",
@@ -9263,7 +9461,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_bed_01": {
         "id": "furni_warehouse_bed_01",
@@ -9285,7 +9484,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_laptop_01": {
         "id": "furni_warehouse_laptop_01",
@@ -9307,7 +9507,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_trolley_01": {
         "id": "furni_warehouse_trolley_01",
@@ -9329,7 +9530,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_cardboard_01": {
         "id": "furni_warehouse_cardboard_01",
@@ -9351,7 +9553,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_attendance_01": {
         "id": "furni_warehouse_attendance_01",
@@ -9373,7 +9576,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_note_01": {
         "id": "furni_warehouse_note_01",
@@ -9395,7 +9599,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_warehouse_graffiti_01": {
         "id": "furni_warehouse_graffiti_01",
@@ -9417,7 +9622,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_bed_01": {
         "id": "furni_s1_bed_01",
@@ -9439,7 +9645,8 @@
         "processedProductCount": 125,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_nightstand_01": {
         "id": "furni_s1_nightstand_01",
@@ -9461,7 +9668,8 @@
         "processedProductCount": 48,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_comdesk_01": {
         "id": "furni_s1_comdesk_01",
@@ -9483,7 +9691,8 @@
         "processedProductCount": 83,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_comchair_01": {
         "id": "furni_s1_comchair_01",
@@ -9505,7 +9714,8 @@
         "processedProductCount": 55,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_comcabinet_01": {
         "id": "furni_s1_comcabinet_01",
@@ -9527,7 +9737,8 @@
         "processedProductCount": 48,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_bookcase_01": {
         "id": "furni_s1_bookcase_01",
@@ -9549,7 +9760,8 @@
         "processedProductCount": 100,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_tv_01": {
         "id": "furni_s1_tv_01",
@@ -9571,7 +9783,8 @@
         "processedProductCount": 75,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_sofa_01": {
         "id": "furni_s1_sofa_01",
@@ -9593,7 +9806,8 @@
         "processedProductCount": 83,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_coffeetable_01": {
         "id": "furni_s1_coffeetable_01",
@@ -9615,7 +9829,8 @@
         "processedProductCount": 70,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_floor_01": {
         "id": "furni_s1_floor_01",
@@ -9637,7 +9852,8 @@
         "processedProductCount": 73,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_carpet_01": {
         "id": "furni_s1_carpet_01",
@@ -9659,7 +9875,8 @@
         "processedProductCount": 40,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_bulletinboard_01": {
         "id": "furni_s1_bulletinboard_01",
@@ -9681,7 +9898,8 @@
         "processedProductCount": 43,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_clock_01": {
         "id": "furni_s1_clock_01",
@@ -9703,7 +9921,8 @@
         "processedProductCount": 20,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_walllamp_01": {
         "id": "furni_s1_walllamp_01",
@@ -9725,7 +9944,8 @@
         "processedProductCount": 20,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_wallpaper_01": {
         "id": "furni_s1_wallpaper_01",
@@ -9747,7 +9967,8 @@
         "processedProductCount": 73,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_bed_02": {
         "id": "furni_s1_bed_02",
@@ -9769,7 +9990,8 @@
         "processedProductCount": 125,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_nightstand_02": {
         "id": "furni_s1_nightstand_02",
@@ -9791,7 +10013,8 @@
         "processedProductCount": 48,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_comdesk_02": {
         "id": "furni_s1_comdesk_02",
@@ -9813,7 +10036,8 @@
         "processedProductCount": 83,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_comchair_02": {
         "id": "furni_s1_comchair_02",
@@ -9835,7 +10059,8 @@
         "processedProductCount": 55,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_comcabinet_02": {
         "id": "furni_s1_comcabinet_02",
@@ -9857,7 +10082,8 @@
         "processedProductCount": 48,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_bookcase_02": {
         "id": "furni_s1_bookcase_02",
@@ -9879,7 +10105,8 @@
         "processedProductCount": 100,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_tv_02": {
         "id": "furni_s1_tv_02",
@@ -9901,7 +10128,8 @@
         "processedProductCount": 75,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_sofa_02": {
         "id": "furni_s1_sofa_02",
@@ -9923,7 +10151,8 @@
         "processedProductCount": 83,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_coffeetable_02": {
         "id": "furni_s1_coffeetable_02",
@@ -9945,7 +10174,8 @@
         "processedProductCount": 70,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_floor_02": {
         "id": "furni_s1_floor_02",
@@ -9967,7 +10197,8 @@
         "processedProductCount": 73,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_carpet_02": {
         "id": "furni_s1_carpet_02",
@@ -9989,7 +10220,8 @@
         "processedProductCount": 40,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_bulletinboard_02": {
         "id": "furni_s1_bulletinboard_02",
@@ -10011,7 +10243,8 @@
         "processedProductCount": 43,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_clock_02": {
         "id": "furni_s1_clock_02",
@@ -10033,7 +10266,8 @@
         "processedProductCount": 20,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_walllamp_02": {
         "id": "furni_s1_walllamp_02",
@@ -10055,7 +10289,8 @@
         "processedProductCount": 20,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s1_wallpaper_02": {
         "id": "furni_s1_wallpaper_02",
@@ -10077,7 +10312,8 @@
         "processedProductCount": 73,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_desk_01": {
         "id": "furni_cabin_desk_01",
@@ -10099,7 +10335,8 @@
         "processedProductCount": 158,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_chair_01": {
         "id": "furni_cabin_chair_01",
@@ -10121,7 +10358,8 @@
         "processedProductCount": 68,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_trash_01": {
         "id": "furni_cabin_trash_01",
@@ -10143,7 +10381,8 @@
         "processedProductCount": 58,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_bed_01": {
         "id": "furni_cabin_bed_01",
@@ -10165,7 +10404,8 @@
         "processedProductCount": 345,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_control_01": {
         "id": "furni_cabin_control_01",
@@ -10187,7 +10427,8 @@
         "processedProductCount": 80,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_display_01": {
         "id": "furni_cabin_display_01",
@@ -10209,7 +10450,8 @@
         "processedProductCount": 55,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_note_01": {
         "id": "furni_cabin_note_01",
@@ -10231,7 +10473,8 @@
         "processedProductCount": 48,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_cabinet_01": {
         "id": "furni_cabin_cabinet_01",
@@ -10253,7 +10496,8 @@
         "processedProductCount": 78,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_fireExtinguisher_01": {
         "id": "furni_cabin_fireExtinguisher_01",
@@ -10275,7 +10519,8 @@
         "processedProductCount": 38,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_constructionMember_01": {
         "id": "furni_cabin_constructionMember_01",
@@ -10297,7 +10542,8 @@
         "processedProductCount": 293,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_carpet_01": {
         "id": "furni_cabin_carpet_01",
@@ -10319,7 +10565,8 @@
         "processedProductCount": 50,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_wallpaper_01": {
         "id": "furni_cabin_wallpaper_01",
@@ -10341,7 +10588,8 @@
         "processedProductCount": 73,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cabin_floor_01": {
         "id": "furni_cabin_floor_01",
@@ -10363,7 +10611,8 @@
         "processedProductCount": 73,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_wallpaper_01": {
         "id": "furni_specimen_wallpaper_01",
@@ -10385,7 +10634,8 @@
         "processedProductCount": 80,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_floor_01": {
         "id": "furni_specimen_floor_01",
@@ -10407,7 +10657,8 @@
         "processedProductCount": 80,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_coffeetable_01": {
         "id": "furni_specimen_coffeetable_01",
@@ -10429,7 +10680,8 @@
         "processedProductCount": 98,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_bed_01": {
         "id": "furni_specimen_bed_01",
@@ -10451,7 +10703,8 @@
         "processedProductCount": 135,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_nightstand_01": {
         "id": "furni_specimen_nightstand_01",
@@ -10473,7 +10726,8 @@
         "processedProductCount": 63,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_lazysofa_L_01": {
         "id": "furni_specimen_lazysofa_L_01",
@@ -10495,7 +10749,8 @@
         "processedProductCount": 88,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_lazysofa_R_01": {
         "id": "furni_specimen_lazysofa_R_01",
@@ -10517,7 +10772,8 @@
         "processedProductCount": 88,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_pottedplant_02": {
         "id": "furni_specimen_pottedplant_02",
@@ -10539,7 +10795,8 @@
         "processedProductCount": 110,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_pottedplant_01": {
         "id": "furni_specimen_pottedplant_01",
@@ -10561,7 +10818,8 @@
         "processedProductCount": 113,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_seedling_01": {
         "id": "furni_specimen_seedling_01",
@@ -10583,7 +10841,8 @@
         "processedProductCount": 110,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_showcase_01": {
         "id": "furni_specimen_showcase_01",
@@ -10605,7 +10864,8 @@
         "processedProductCount": 133,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_carpet_01": {
         "id": "furni_specimen_carpet_01",
@@ -10627,7 +10887,8 @@
         "processedProductCount": 95,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_specimenframed_01": {
         "id": "furni_specimen_specimenframed_01",
@@ -10649,7 +10910,8 @@
         "processedProductCount": 88,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_specimenframedkit_01": {
         "id": "furni_specimen_specimenframedkit_01",
@@ -10671,7 +10933,8 @@
         "processedProductCount": 75,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_bulletinboard_01": {
         "id": "furni_specimen_bulletinboard_01",
@@ -10693,7 +10956,8 @@
         "processedProductCount": 95,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_downlight_01": {
         "id": "furni_specimen_downlight_01",
@@ -10715,7 +10979,8 @@
         "processedProductCount": 98,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_specimen_downlight_02": {
         "id": "furni_specimen_downlight_02",
@@ -10737,7 +11002,8 @@
         "processedProductCount": 58,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_bar_01": {
         "id": "furni_cafe_bar_01",
@@ -10759,7 +11025,8 @@
         "processedProductCount": 285,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_barstool_01": {
         "id": "furni_cafe_barstool_01",
@@ -10781,7 +11048,8 @@
         "processedProductCount": 78,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_shelf_01": {
         "id": "furni_cafe_shelf_01",
@@ -10803,7 +11071,8 @@
         "processedProductCount": 205,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_cupboard_01": {
         "id": "furni_cafe_cupboard_01",
@@ -10825,7 +11094,8 @@
         "processedProductCount": 125,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_pottedplant_01": {
         "id": "furni_cafe_pottedplant_01",
@@ -10847,7 +11117,8 @@
         "processedProductCount": 115,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_chair_L_01": {
         "id": "furni_cafe_chair_L_01",
@@ -10869,7 +11140,8 @@
         "processedProductCount": 78,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_chair_R_01": {
         "id": "furni_cafe_chair_R_01",
@@ -10891,7 +11163,8 @@
         "processedProductCount": 78,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_coffeetable_01": {
         "id": "furni_cafe_coffeetable_01",
@@ -10913,7 +11186,8 @@
         "processedProductCount": 135,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_floatingshelf_01": {
         "id": "furni_cafe_floatingshelf_01",
@@ -10935,7 +11209,8 @@
         "processedProductCount": 85,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_blackboard_01": {
         "id": "furni_cafe_blackboard_01",
@@ -10957,7 +11232,8 @@
         "processedProductCount": 100,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_framedwallart_01": {
         "id": "furni_cafe_framedwallart_01",
@@ -10979,7 +11255,8 @@
         "processedProductCount": 100,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_framedwallartset_01": {
         "id": "furni_cafe_framedwallartset_01",
@@ -11001,7 +11278,8 @@
         "processedProductCount": 100,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_barlamp_01": {
         "id": "furni_cafe_barlamp_01",
@@ -11023,7 +11301,8 @@
         "processedProductCount": 140,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_ceilinglamp_01": {
         "id": "furni_cafe_ceilinglamp_01",
@@ -11045,7 +11324,8 @@
         "processedProductCount": 50,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_downlight_01": {
         "id": "furni_cafe_downlight_01",
@@ -11067,7 +11347,8 @@
         "processedProductCount": 25,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_wallpaper_01": {
         "id": "furni_cafe_wallpaper_01",
@@ -11089,7 +11370,8 @@
         "processedProductCount": 168,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_cafe_floor_01": {
         "id": "furni_cafe_floor_01",
@@ -11111,7 +11393,8 @@
         "processedProductCount": 168,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_bed_01": {
         "id": "furni_s2_bed_01",
@@ -11133,7 +11416,8 @@
         "processedProductCount": 300,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_nightstand_01": {
         "id": "furni_s2_nightstand_01",
@@ -11155,7 +11439,8 @@
         "processedProductCount": 138,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_table_01": {
         "id": "furni_s2_table_01",
@@ -11177,7 +11462,8 @@
         "processedProductCount": 185,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_chair_L_01": {
         "id": "furni_s2_chair_L_01",
@@ -11199,7 +11485,8 @@
         "processedProductCount": 105,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_chair_R_01": {
         "id": "furni_s2_chair_R_01",
@@ -11221,7 +11508,8 @@
         "processedProductCount": 105,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_chair2_01": {
         "id": "furni_s2_chair2_01",
@@ -11243,7 +11531,8 @@
         "processedProductCount": 138,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_lowtable_01": {
         "id": "furni_s2_lowtable_01",
@@ -11265,7 +11554,8 @@
         "processedProductCount": 348,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_lowchair_L_01": {
         "id": "furni_s2_lowchair_L_01",
@@ -11287,7 +11577,8 @@
         "processedProductCount": 143,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_lowchair_R_01": {
         "id": "furni_s2_lowchair_R_01",
@@ -11309,7 +11600,8 @@
         "processedProductCount": 143,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_bulletinboard_01": {
         "id": "furni_s2_bulletinboard_01",
@@ -11331,7 +11623,8 @@
         "processedProductCount": 470,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_carpet_01": {
         "id": "furni_s2_carpet_01",
@@ -11353,7 +11646,8 @@
         "processedProductCount": 133,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_floor_01": {
         "id": "furni_s2_floor_01",
@@ -11375,7 +11669,8 @@
         "processedProductCount": 200,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_poster_01": {
         "id": "furni_s2_poster_01",
@@ -11397,7 +11692,8 @@
         "processedProductCount": 113,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_walllamp_01": {
         "id": "furni_s2_walllamp_01",
@@ -11419,7 +11715,8 @@
         "processedProductCount": 60,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_wallpaper_01": {
         "id": "furni_s2_wallpaper_01",
@@ -11441,7 +11738,8 @@
         "processedProductCount": 200,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_bed_02": {
         "id": "furni_s2_bed_02",
@@ -11463,7 +11761,8 @@
         "processedProductCount": 300,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_nightstand_02": {
         "id": "furni_s2_nightstand_02",
@@ -11485,7 +11784,8 @@
         "processedProductCount": 138,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_table_02": {
         "id": "furni_s2_table_02",
@@ -11507,7 +11807,8 @@
         "processedProductCount": 185,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_chair_L_02": {
         "id": "furni_s2_chair_L_02",
@@ -11529,7 +11830,8 @@
         "processedProductCount": 105,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_chair_R_02": {
         "id": "furni_s2_chair_R_02",
@@ -11551,7 +11853,8 @@
         "processedProductCount": 105,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_chair2_02": {
         "id": "furni_s2_chair2_02",
@@ -11573,7 +11876,8 @@
         "processedProductCount": 138,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_lowtable_02": {
         "id": "furni_s2_lowtable_02",
@@ -11595,7 +11899,8 @@
         "processedProductCount": 348,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_lowchair_L_02": {
         "id": "furni_s2_lowchair_L_02",
@@ -11617,7 +11922,8 @@
         "processedProductCount": 143,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_lowchair_R_02": {
         "id": "furni_s2_lowchair_R_02",
@@ -11639,7 +11945,8 @@
         "processedProductCount": 143,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_bulletinboard_02": {
         "id": "furni_s2_bulletinboard_02",
@@ -11661,7 +11968,8 @@
         "processedProductCount": 470,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_carpet_02": {
         "id": "furni_s2_carpet_02",
@@ -11683,7 +11991,8 @@
         "processedProductCount": 133,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_floor_02": {
         "id": "furni_s2_floor_02",
@@ -11705,7 +12014,8 @@
         "processedProductCount": 200,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_poster_02": {
         "id": "furni_s2_poster_02",
@@ -11727,7 +12037,8 @@
         "processedProductCount": 113,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_walllamp_02": {
         "id": "furni_s2_walllamp_02",
@@ -11749,7 +12060,8 @@
         "processedProductCount": 60,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_s2_wallpaper_02": {
         "id": "furni_s2_wallpaper_02",
@@ -11771,7 +12083,8 @@
         "processedProductCount": 200,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_loftBed_01": {
         "id": "furni_wooden_loftBed_01",
@@ -11793,7 +12106,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_fireplace_01": {
         "id": "furni_wooden_fireplace_01",
@@ -11815,7 +12129,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_woodBasket_01": {
         "id": "furni_wooden_woodBasket_01",
@@ -11837,7 +12152,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_rockingChair_01": {
         "id": "furni_wooden_rockingChair_01",
@@ -11859,7 +12175,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_carpet_01": {
         "id": "furni_wooden_carpet_01",
@@ -11881,7 +12198,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_violin_01": {
         "id": "furni_wooden_violin_01",
@@ -11903,7 +12221,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_deerHeads_01": {
         "id": "furni_wooden_deerHeads_01",
@@ -11925,7 +12244,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_cabinet_01": {
         "id": "furni_wooden_cabinet_01",
@@ -11947,7 +12267,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_diningTable_01": {
         "id": "furni_wooden_diningTable_01",
@@ -11969,7 +12290,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_chair_L_01": {
         "id": "furni_wooden_chair_L_01",
@@ -11991,7 +12313,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_chair_R_01": {
         "id": "furni_wooden_chair_R_01",
@@ -12013,7 +12336,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_ceilingFan_01": {
         "id": "furni_wooden_ceilingFan_01",
@@ -12035,7 +12359,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_ceilingLight_01": {
         "id": "furni_wooden_ceilingLight_01",
@@ -12057,7 +12382,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_slopedCeiling_01": {
         "id": "furni_wooden_slopedCeiling_01",
@@ -12079,7 +12405,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_wallpaper_01": {
         "id": "furni_wooden_wallpaper_01",
@@ -12101,7 +12428,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_wooden_floor_01": {
         "id": "furni_wooden_floor_01",
@@ -12123,7 +12451,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_pizza_priceList_01": {
         "id": "furni_pizza_priceList_01",
@@ -12145,7 +12474,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_cashierDesk_01": {
         "id": "furni_pizza_cashierDesk_01",
@@ -12167,7 +12497,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_brazier_01": {
         "id": "furni_pizza_brazier_01",
@@ -12189,7 +12520,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_cupboard_01": {
         "id": "furni_pizza_cupboard_01",
@@ -12211,7 +12543,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_shelf_01": {
         "id": "furni_pizza_shelf_01",
@@ -12233,7 +12566,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_brickWallSticker_01": {
         "id": "furni_pizza_brickWallSticker_01",
@@ -12255,7 +12589,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 5
       },
       "furni_pizza_ceilingLights_01": {
         "id": "furni_pizza_ceilingLights_01",
@@ -12277,7 +12612,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 3
       },
       "furni_pizza_noticeWall_01": {
         "id": "furni_pizza_noticeWall_01",
@@ -12299,7 +12635,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_column_01": {
         "id": "furni_pizza_column_01",
@@ -12321,7 +12658,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_banner_01": {
         "id": "furni_pizza_banner_01",
@@ -12343,7 +12681,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_barTable_01": {
         "id": "furni_pizza_barTable_01",
@@ -12365,7 +12704,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_barStool_01": {
         "id": "furni_pizza_barStool_01",
@@ -12387,7 +12727,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 3
       },
       "furni_pizza_exitIndicator_01": {
         "id": "furni_pizza_exitIndicator_01",
@@ -12409,7 +12750,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_abstractArt_01": {
         "id": "furni_pizza_abstractArt_01",
@@ -12431,7 +12773,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_diningTable_01": {
         "id": "furni_pizza_diningTable_01",
@@ -12453,7 +12796,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_chair_L_01": {
         "id": "furni_pizza_chair_L_01",
@@ -12475,7 +12819,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_chair_R_01": {
         "id": "furni_pizza_chair_R_01",
@@ -12497,7 +12842,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_chair_F_01": {
         "id": "furni_pizza_chair_F_01",
@@ -12519,7 +12865,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_wallpaper_01": {
         "id": "furni_pizza_wallpaper_01",
@@ -12541,7 +12888,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_pizza_floor_01": {
         "id": "furni_pizza_floor_01",
@@ -12563,7 +12911,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_artdeco_barCeiling_01": {
         "id": "furni_artdeco_barCeiling_01",
@@ -12585,7 +12934,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_bar_01": {
         "id": "furni_artdeco_bar_01",
@@ -12607,7 +12957,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_barstool_01": {
         "id": "furni_artdeco_barstool_01",
@@ -12629,7 +12980,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_refrigerator_01": {
         "id": "furni_artdeco_refrigerator_01",
@@ -12651,7 +13003,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_framedArt_01": {
         "id": "furni_artdeco_framedArt_01",
@@ -12673,7 +13026,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_pianoKit_01": {
         "id": "furni_artdeco_pianoKit_01",
@@ -12695,7 +13049,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_carpet_01": {
         "id": "furni_artdeco_carpet_01",
@@ -12717,7 +13072,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_JukeBox_01": {
         "id": "furni_artdeco_JukeBox_01",
@@ -12739,7 +13095,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_wallLamp_01": {
         "id": "furni_artdeco_wallLamp_01",
@@ -12761,7 +13118,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_abstractArt_01": {
         "id": "furni_artdeco_abstractArt_01",
@@ -12783,7 +13141,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_ceilingLamp_01": {
         "id": "furni_artdeco_ceilingLamp_01",
@@ -12805,7 +13164,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_sofa_01": {
         "id": "furni_artdeco_sofa_01",
@@ -12827,7 +13187,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_coffeeTable_01": {
         "id": "furni_artdeco_coffeeTable_01",
@@ -12849,7 +13210,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_framedArt2_01": {
         "id": "furni_artdeco_framedArt2_01",
@@ -12871,7 +13233,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_floorLamp_01": {
         "id": "furni_artdeco_floorLamp_01",
@@ -12893,7 +13256,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_ceiling_01": {
         "id": "furni_artdeco_ceiling_01",
@@ -12915,7 +13279,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_wallpaper_01": {
         "id": "furni_artdeco_wallpaper_01",
@@ -12937,7 +13302,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_artdeco_floor_01": {
         "id": "furni_artdeco_floor_01",
@@ -12959,7 +13325,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_showcase_01": {
         "id": "furni_chen_showcase_01",
@@ -12981,7 +13348,8 @@
         "processedProductCount": 200,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_weaponCabinet_01": {
         "id": "furni_chen_weaponCabinet_01",
@@ -13003,7 +13371,8 @@
         "processedProductCount": 200,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_supineBoard_01": {
         "id": "furni_chen_supineBoard_01",
@@ -13025,7 +13394,8 @@
         "processedProductCount": 173,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_honorMedal_01": {
         "id": "furni_chen_honorMedal_01",
@@ -13047,7 +13417,8 @@
         "processedProductCount": 108,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_cactusPottedPlant_01": {
         "id": "furni_chen_cactusPottedPlant_01",
@@ -13069,7 +13440,8 @@
         "processedProductCount": 113,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_desk_01": {
         "id": "furni_chen_desk_01",
@@ -13091,7 +13463,8 @@
         "processedProductCount": 250,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_chair_01": {
         "id": "furni_chen_chair_01",
@@ -13113,7 +13486,8 @@
         "processedProductCount": 138,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_trash_01": {
         "id": "furni_chen_trash_01",
@@ -13135,7 +13509,8 @@
         "processedProductCount": 88,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_wingChunDummy_01": {
         "id": "furni_chen_wingChunDummy_01",
@@ -13157,7 +13532,8 @@
         "processedProductCount": 213,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_investigationBoard_01": {
         "id": "furni_chen_investigationBoard_01",
@@ -13179,7 +13555,8 @@
         "processedProductCount": 188,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_ceilingLight_R_01": {
         "id": "furni_chen_ceilingLight_R_01",
@@ -13201,7 +13578,8 @@
         "processedProductCount": 48,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_ceilingLight_C_01": {
         "id": "furni_chen_ceilingLight_C_01",
@@ -13223,7 +13601,8 @@
         "processedProductCount": 50,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_spotlight_01": {
         "id": "furni_chen_spotlight_01",
@@ -13245,7 +13624,8 @@
         "processedProductCount": 63,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_wallpaper_01": {
         "id": "furni_chen_wallpaper_01",
@@ -13267,7 +13647,8 @@
         "processedProductCount": 158,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_chen_floor_01": {
         "id": "furni_chen_floor_01",
@@ -13289,7 +13670,8 @@
         "processedProductCount": 158,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_cabinet_01": {
         "id": "furni_beach_cabinet_01",
@@ -13311,7 +13693,8 @@
         "processedProductCount": 200,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_tableChairSets_01": {
         "id": "furni_beach_tableChairSets_01",
@@ -13333,7 +13716,8 @@
         "processedProductCount": 313,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_calendar_01": {
         "id": "furni_beach_calendar_01",
@@ -13355,7 +13739,8 @@
         "processedProductCount": 73,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_floorLamp_01": {
         "id": "furni_beach_floorLamp_01",
@@ -13377,7 +13762,8 @@
         "processedProductCount": 143,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_anchor_01": {
         "id": "furni_beach_anchor_01",
@@ -13399,7 +13785,8 @@
         "processedProductCount": 138,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_sail_01": {
         "id": "furni_beach_sail_01",
@@ -13421,7 +13808,8 @@
         "processedProductCount": 88,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_chair_01": {
         "id": "furni_beach_chair_01",
@@ -13443,7 +13831,8 @@
         "processedProductCount": 113,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_coffeeTable_01": {
         "id": "furni_beach_coffeeTable_01",
@@ -13465,7 +13854,8 @@
         "processedProductCount": 125,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_drinkTable_01": {
         "id": "furni_beach_drinkTable_01",
@@ -13487,7 +13877,8 @@
         "processedProductCount": 68,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_surfboard_01": {
         "id": "furni_beach_surfboard_01",
@@ -13509,7 +13900,8 @@
         "processedProductCount": 148,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_deckChair_01": {
         "id": "furni_beach_deckChair_01",
@@ -13531,7 +13923,8 @@
         "processedProductCount": 133,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_curtain_L_01": {
         "id": "furni_beach_curtain_L_01",
@@ -13553,7 +13946,8 @@
         "processedProductCount": 125,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_curtain_R_01": {
         "id": "furni_beach_curtain_R_01",
@@ -13575,7 +13969,8 @@
         "processedProductCount": 125,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_carpet_01": {
         "id": "furni_beach_carpet_01",
@@ -13597,7 +13992,8 @@
         "processedProductCount": 125,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_doorMat_01": {
         "id": "furni_beach_doorMat_01",
@@ -13619,7 +14015,8 @@
         "processedProductCount": 35,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_slopedCeiling_01": {
         "id": "furni_beach_slopedCeiling_01",
@@ -13641,7 +14038,8 @@
         "processedProductCount": 538,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_wallpaper_01": {
         "id": "furni_beach_wallpaper_01",
@@ -13663,7 +14061,8 @@
         "processedProductCount": 153,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beach_floor_01": {
         "id": "furni_beach_floor_01",
@@ -13685,7 +14084,8 @@
         "processedProductCount": 153,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_guitar_guitar1_01": {
         "id": "furni_guitar_guitar1_01",
@@ -13707,7 +14107,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_guitar2_01": {
         "id": "furni_guitar_guitar2_01",
@@ -13729,7 +14130,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_guitar3_01": {
         "id": "furni_guitar_guitar3_01",
@@ -13751,7 +14153,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_guitar4_01": {
         "id": "furni_guitar_guitar4_01",
@@ -13773,7 +14176,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_guitar5_01": {
         "id": "furni_guitar_guitar5_01",
@@ -13795,7 +14199,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_guitar6_01": {
         "id": "furni_guitar_guitar6_01",
@@ -13817,7 +14222,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_guitar7_01": {
         "id": "furni_guitar_guitar7_01",
@@ -13839,7 +14245,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_guitar8_01": {
         "id": "furni_guitar_guitar8_01",
@@ -13861,7 +14268,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_guitar9_01": {
         "id": "furni_guitar_guitar9_01",
@@ -13883,7 +14291,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_guitar10_01": {
         "id": "furni_guitar_guitar10_01",
@@ -13905,7 +14314,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_guitarCases_01": {
         "id": "furni_guitar_guitarCases_01",
@@ -13927,7 +14337,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_drumKit_01": {
         "id": "furni_guitar_drumKit_01",
@@ -13949,7 +14360,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_longBench_01": {
         "id": "furni_guitar_longBench_01",
@@ -13971,7 +14383,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_partitionWall_01": {
         "id": "furni_guitar_partitionWall_01",
@@ -13993,7 +14406,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_reception_01": {
         "id": "furni_guitar_reception_01",
@@ -14015,7 +14429,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_stool_01": {
         "id": "furni_guitar_stool_01",
@@ -14037,7 +14452,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 2
       },
       "furni_guitar_display_01": {
         "id": "furni_guitar_display_01",
@@ -14059,7 +14475,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_pegboard_01": {
         "id": "furni_guitar_pegboard_01",
@@ -14081,7 +14498,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_pegboard2_01": {
         "id": "furni_guitar_pegboard2_01",
@@ -14103,7 +14521,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_poster1_01": {
         "id": "furni_guitar_poster1_01",
@@ -14125,7 +14544,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_poster2_01": {
         "id": "furni_guitar_poster2_01",
@@ -14147,7 +14567,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_curtain_01": {
         "id": "furni_guitar_curtain_01",
@@ -14169,7 +14590,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_spotlight_01": {
         "id": "furni_guitar_spotlight_01",
@@ -14191,7 +14613,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_ceiling_01": {
         "id": "furni_guitar_ceiling_01",
@@ -14213,7 +14636,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_carpet_01": {
         "id": "furni_guitar_carpet_01",
@@ -14235,7 +14659,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_wallpaper_01": {
         "id": "furni_guitar_wallpaper_01",
@@ -14257,7 +14682,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_guitar_floor_01": {
         "id": "furni_guitar_floor_01",
@@ -14279,7 +14705,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_safetyZone_gate_01": {
         "id": "furni_safetyZone_gate_01",
@@ -14301,7 +14728,8 @@
         "processedProductCount": 210,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_UVLamp_01": {
         "id": "furni_safetyZone_UVLamp_01",
@@ -14323,7 +14751,8 @@
         "processedProductCount": 93,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_oxygenTank_01": {
         "id": "furni_safetyZone_oxygenTank_01",
@@ -14345,7 +14774,8 @@
         "processedProductCount": 168,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_stretcher_01": {
         "id": "furni_safetyZone_stretcher_01",
@@ -14367,7 +14797,8 @@
         "processedProductCount": 245,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_hazmatSuit_01": {
         "id": "furni_safetyZone_hazmatSuit_01",
@@ -14389,7 +14820,8 @@
         "processedProductCount": 73,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_hazmatCoat_01": {
         "id": "furni_safetyZone_hazmatCoat_01",
@@ -14411,7 +14843,8 @@
         "processedProductCount": 73,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_shovel_01": {
         "id": "furni_safetyZone_shovel_01",
@@ -14433,7 +14866,8 @@
         "processedProductCount": 38,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_box_01": {
         "id": "furni_safetyZone_box_01",
@@ -14455,7 +14889,8 @@
         "processedProductCount": 133,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_partitionWall_01": {
         "id": "furni_safetyZone_partitionWall_01",
@@ -14477,7 +14912,8 @@
         "processedProductCount": 185,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_roboticArmVehicle_01": {
         "id": "furni_safetyZone_roboticArmVehicle_01",
@@ -14499,7 +14935,8 @@
         "processedProductCount": 193,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_virusFilter_01": {
         "id": "furni_safetyZone_virusFilter_01",
@@ -14521,7 +14958,8 @@
         "processedProductCount": 228,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_pipeline1_01": {
         "id": "furni_safetyZone_pipeline1_01",
@@ -14543,7 +14981,8 @@
         "processedProductCount": 208,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_pipeline2_01": {
         "id": "furni_safetyZone_pipeline2_01",
@@ -14565,7 +15004,8 @@
         "processedProductCount": 103,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_PipelineValve_01": {
         "id": "furni_safetyZone_PipelineValve_01",
@@ -14587,7 +15027,8 @@
         "processedProductCount": 113,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_ceilingLight_01": {
         "id": "furni_safetyZone_ceilingLight_01",
@@ -14609,7 +15050,8 @@
         "processedProductCount": 88,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_ceiling_01": {
         "id": "furni_safetyZone_ceiling_01",
@@ -14631,7 +15073,8 @@
         "processedProductCount": 215,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_downlight_01": {
         "id": "furni_safetyZone_downlight_01",
@@ -14653,7 +15096,8 @@
         "processedProductCount": 48,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_carpet_01": {
         "id": "furni_safetyZone_carpet_01",
@@ -14675,7 +15119,8 @@
         "processedProductCount": 98,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_wallpaper_01": {
         "id": "furni_safetyZone_wallpaper_01",
@@ -14697,7 +15142,8 @@
         "processedProductCount": 180,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_safetyZone_floor_01": {
         "id": "furni_safetyZone_floor_01",
@@ -14719,7 +15165,8 @@
         "processedProductCount": 180,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_cabinet_01": {
         "id": "furni_rococo_cabinet_01",
@@ -14741,7 +15188,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_bustStatue_01": {
         "id": "furni_rococo_bustStatue_01",
@@ -14763,7 +15211,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_table_01": {
         "id": "furni_rococo_table_01",
@@ -14785,7 +15234,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_mainSeat_01": {
         "id": "furni_rococo_mainSeat_01",
@@ -14807,7 +15257,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_secondarySeat_01": {
         "id": "furni_rococo_secondarySeat_01",
@@ -14829,7 +15280,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_stool_01": {
         "id": "furni_rococo_stool_01",
@@ -14851,7 +15303,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_fireplace_01": {
         "id": "furni_rococo_fireplace_01",
@@ -14873,7 +15326,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_carpet_01": {
         "id": "furni_rococo_carpet_01",
@@ -14895,7 +15349,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_brazier_01": {
         "id": "furni_rococo_brazier_01",
@@ -14917,7 +15372,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_observationDeck_01": {
         "id": "furni_rococo_observationDeck_01",
@@ -14939,7 +15395,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_pillar_01": {
         "id": "furni_rococo_pillar_01",
@@ -14961,7 +15418,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_framedArt_01": {
         "id": "furni_rococo_framedArt_01",
@@ -14983,7 +15441,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_mirror_01": {
         "id": "furni_rococo_mirror_01",
@@ -15005,7 +15464,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_ceilingLight1_01": {
         "id": "furni_rococo_ceilingLight1_01",
@@ -15027,7 +15487,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_ceilingLight2_01": {
         "id": "furni_rococo_ceilingLight2_01",
@@ -15049,7 +15510,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_doorMat_01": {
         "id": "furni_rococo_doorMat_01",
@@ -15071,7 +15533,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_wallpaper_01": {
         "id": "furni_rococo_wallpaper_01",
@@ -15093,7 +15556,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_rococo_floor_01": {
         "id": "furni_rococo_floor_01",
@@ -15115,7 +15579,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_tree_01": {
         "id": "furni_spirit_tree_01",
@@ -15137,7 +15602,8 @@
         "processedProductCount": 548,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_window_01": {
         "id": "furni_spirit_window_01",
@@ -15159,7 +15625,8 @@
         "processedProductCount": 145,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_pumpkin_01": {
         "id": "furni_spirit_pumpkin_01",
@@ -15181,7 +15648,8 @@
         "processedProductCount": 173,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_pumpkin2_01": {
         "id": "furni_spirit_pumpkin2_01",
@@ -15203,7 +15671,8 @@
         "processedProductCount": 120,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_fireplace_01": {
         "id": "furni_spirit_fireplace_01",
@@ -15225,7 +15694,8 @@
         "processedProductCount": 323,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_book_01": {
         "id": "furni_spirit_book_01",
@@ -15247,7 +15717,8 @@
         "processedProductCount": 145,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_crucible_01": {
         "id": "furni_spirit_crucible_01",
@@ -15269,7 +15740,8 @@
         "processedProductCount": 210,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_table_01": {
         "id": "furni_spirit_table_01",
@@ -15291,7 +15763,8 @@
         "processedProductCount": 305,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_chair_01": {
         "id": "furni_spirit_chair_01",
@@ -15313,7 +15786,8 @@
         "processedProductCount": 43,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_ceilingLight_01": {
         "id": "furni_spirit_ceilingLight_01",
@@ -15335,7 +15809,8 @@
         "processedProductCount": 155,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_carpet_01": {
         "id": "furni_spirit_carpet_01",
@@ -15357,7 +15832,8 @@
         "processedProductCount": 165,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_wallpaper_01": {
         "id": "furni_spirit_wallpaper_01",
@@ -15379,7 +15855,8 @@
         "processedProductCount": 180,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_spirit_floor_01": {
         "id": "furni_spirit_floor_01",
@@ -15401,7 +15878,8 @@
         "processedProductCount": 180,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_KFC_priceList_01": {
         "id": "furni_KFC_priceList_01",
@@ -15423,7 +15901,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_cashierDesk_01": {
         "id": "furni_KFC_cashierDesk_01",
@@ -15445,7 +15924,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_displayCabinet_01": {
         "id": "furni_KFC_displayCabinet_01",
@@ -15467,7 +15947,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_blackWall_01": {
         "id": "furni_KFC_blackWall_01",
@@ -15489,7 +15970,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_banner_01": {
         "id": "furni_KFC_banner_01",
@@ -15511,7 +15993,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_partitionWall_01": {
         "id": "furni_KFC_partitionWall_01",
@@ -15533,7 +16016,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_fence_01": {
         "id": "furni_KFC_fence_01",
@@ -15555,7 +16039,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_diningTable_01": {
         "id": "furni_KFC_diningTable_01",
@@ -15577,7 +16062,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_barTable_01": {
         "id": "furni_KFC_barTable_01",
@@ -15599,7 +16085,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_barrier_01": {
         "id": "furni_KFC_barrier_01",
@@ -15621,7 +16108,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_cupFilling_01": {
         "id": "furni_KFC_cupFilling_01",
@@ -15643,7 +16131,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_poster_01": {
         "id": "furni_KFC_poster_01",
@@ -15665,7 +16154,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_sticker_01": {
         "id": "furni_KFC_sticker_01",
@@ -15687,7 +16177,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_spotlight_01": {
         "id": "furni_KFC_spotlight_01",
@@ -15709,7 +16200,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_ceilingLight_01": {
         "id": "furni_KFC_ceilingLight_01",
@@ -15731,7 +16223,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 2
       },
       "furni_KFC_wallpaper_01": {
         "id": "furni_KFC_wallpaper_01",
@@ -15753,7 +16246,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_KFC_floor_01": {
         "id": "furni_KFC_floor_01",
@@ -15775,7 +16269,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_recordPlayer_01": {
         "id": "furni_penguin_recordPlayer_01",
@@ -15797,7 +16292,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_bulletinboard_01": {
         "id": "furni_penguin_bulletinboard_01",
@@ -15819,7 +16315,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_sofa_01": {
         "id": "furni_penguin_sofa_01",
@@ -15841,7 +16338,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_partitionGate_01": {
         "id": "furni_penguin_partitionGate_01",
@@ -15863,7 +16361,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_floorLamp_01": {
         "id": "furni_penguin_floorLamp_01",
@@ -15885,7 +16384,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_screen_01": {
         "id": "furni_penguin_screen_01",
@@ -15907,7 +16407,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_oilDrumSink_01": {
         "id": "furni_penguin_oilDrumSink_01",
@@ -15929,7 +16430,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_table_01": {
         "id": "furni_penguin_table_01",
@@ -15951,7 +16453,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_stool_01": {
         "id": "furni_penguin_stool_01",
@@ -15973,7 +16476,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 2
       },
       "furni_penguin_shelf_01": {
         "id": "furni_penguin_shelf_01",
@@ -15995,7 +16499,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_boxes_01": {
         "id": "furni_penguin_boxes_01",
@@ -16017,7 +16522,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_ceiling_01": {
         "id": "furni_penguin_ceiling_01",
@@ -16039,7 +16545,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_wallpaper_01": {
         "id": "furni_penguin_wallpaper_01",
@@ -16061,7 +16568,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_penguin_floor_01": {
         "id": "furni_penguin_floor_01",
@@ -16083,7 +16591,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_elite_ceiling_01": {
         "id": "furni_elite_ceiling_01",
@@ -16105,7 +16614,8 @@
         "processedProductCount": 270,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_board_01": {
         "id": "furni_elite_board_01",
@@ -16127,7 +16637,8 @@
         "processedProductCount": 195,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_sawingMachine_01": {
         "id": "furni_elite_sawingMachine_01",
@@ -16149,7 +16660,8 @@
         "processedProductCount": 248,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_cabinet_01": {
         "id": "furni_elite_cabinet_01",
@@ -16171,7 +16683,8 @@
         "processedProductCount": 150,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_desk_01": {
         "id": "furni_elite_desk_01",
@@ -16193,7 +16706,8 @@
         "processedProductCount": 308,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_stool_01": {
         "id": "furni_elite_stool_01",
@@ -16215,7 +16729,8 @@
         "processedProductCount": 133,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_roboticArm_01": {
         "id": "furni_elite_roboticArm_01",
@@ -16237,7 +16752,8 @@
         "processedProductCount": 230,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_weaponCabinet_01": {
         "id": "furni_elite_weaponCabinet_01",
@@ -16259,7 +16775,8 @@
         "processedProductCount": 323,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_cleaningBucket_01": {
         "id": "furni_elite_cleaningBucket_01",
@@ -16281,7 +16798,8 @@
         "processedProductCount": 165,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_suspensionCrane_01": {
         "id": "furni_elite_suspensionCrane_01",
@@ -16303,7 +16821,8 @@
         "processedProductCount": 178,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_shadingBoard_01": {
         "id": "furni_elite_shadingBoard_01",
@@ -16325,7 +16844,8 @@
         "processedProductCount": 270,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_wallpaper_01": {
         "id": "furni_elite_wallpaper_01",
@@ -16347,7 +16867,8 @@
         "processedProductCount": 180,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_elite_floor_01": {
         "id": "furni_elite_floor_01",
@@ -16369,7 +16890,8 @@
         "processedProductCount": 180,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_NY2020_wallpaper_01": {
         "id": "furni_NY2020_wallpaper_01",
@@ -16391,7 +16913,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_NY2020_floor_01": {
         "id": "furni_NY2020_floor_01",
@@ -16413,7 +16936,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_obsidianFestival_DJBooth_01": {
         "id": "furni_obsidianFestival_DJBooth_01",
@@ -16435,7 +16959,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_obsidianFestival_soundSystem_01": {
         "id": "furni_obsidianFestival_soundSystem_01",
@@ -16457,7 +16982,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_obsidianFestival_portableSpeaker_01": {
         "id": "furni_obsidianFestival_portableSpeaker_01",
@@ -16479,7 +17005,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_theLittleMermaid_01": {
         "id": "furni_dropS001_theLittleMermaid_01",
@@ -16501,7 +17028,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_cinderella_01": {
         "id": "furni_dropS001_cinderella_01",
@@ -16523,7 +17051,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_theHonestWoodcutter_01": {
         "id": "furni_dropS001_theHonestWoodcutter_01",
@@ -16545,7 +17074,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_snowWhite_01": {
         "id": "furni_dropS001_snowWhite_01",
@@ -16567,7 +17097,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_matchGirl_01": {
         "id": "furni_dropS001_matchGirl_01",
@@ -16589,7 +17120,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_hanselAndGretel_01": {
         "id": "furni_dropS001_hanselAndGretel_01",
@@ -16611,7 +17143,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_sleepingBeauty_01": {
         "id": "furni_dropS001_sleepingBeauty_01",
@@ -16633,7 +17166,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_peterPan_01": {
         "id": "furni_dropS001_peterPan_01",
@@ -16655,7 +17189,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_theTallowCandle_01": {
         "id": "furni_dropS001_theTallowCandle_01",
@@ -16677,7 +17212,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_theUglyDuckling_01": {
         "id": "furni_dropS001_theUglyDuckling_01",
@@ -16699,7 +17235,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_theFrogPrince_01": {
         "id": "furni_dropS001_theFrogPrince_01",
@@ -16721,7 +17258,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_piedPiper_01": {
         "id": "furni_dropS001_piedPiper_01",
@@ -16743,7 +17281,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS001_trinity_01": {
         "id": "furni_dropS001_trinity_01",
@@ -16765,7 +17304,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS002_abbeyRoad_01": {
         "id": "furni_dropS002_abbeyRoad_01",
@@ -16787,7 +17327,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS003_peanuts_01": {
         "id": "furni_dropS003_peanuts_01",
@@ -16809,7 +17350,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS003_meno_01": {
         "id": "furni_dropS003_meno_01",
@@ -16831,7 +17373,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS003_asLongAsFar_01": {
         "id": "furni_dropS003_asLongAsFar_01",
@@ -16853,7 +17396,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS003_fabric_01": {
         "id": "furni_dropS003_fabric_01",
@@ -16875,7 +17419,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS003_zero_01": {
         "id": "furni_dropS003_zero_01",
@@ -16897,7 +17442,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS004_daftPunk_01": {
         "id": "furni_dropS004_daftPunk_01",
@@ -16919,7 +17465,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS004_giorgioMoroder_01": {
         "id": "furni_dropS004_giorgioMoroder_01",
@@ -16941,7 +17488,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS004_kraftwerk_01": {
         "id": "furni_dropS004_kraftwerk_01",
@@ -16963,7 +17511,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS004_YMO_01": {
         "id": "furni_dropS004_YMO_01",
@@ -16985,7 +17534,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS004_deadBySunrise_01": {
         "id": "furni_dropS004_deadBySunrise_01",
@@ -17007,7 +17557,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS005_nosferatu_01": {
         "id": "furni_dropS005_nosferatu_01",
@@ -17029,7 +17580,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS005_sedmikrasky_01": {
         "id": "furni_dropS005_sedmikrasky_01",
@@ -17051,7 +17603,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS006_theHolyMountain_01": {
         "id": "furni_dropS006_theHolyMountain_01",
@@ -17073,7 +17626,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS006_suspiria_01": {
         "id": "furni_dropS006_suspiria_01",
@@ -17095,7 +17649,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS006_oceans12_01": {
         "id": "furni_dropS006_oceans12_01",
@@ -17117,7 +17672,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_taptap_arcadegame_01": {
         "id": "furni_taptap_arcadegame_01",
@@ -17139,7 +17695,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": -1
       },
       "furni_bilibili_carpet_01": {
         "id": "furni_bilibili_carpet_01",
@@ -17161,7 +17718,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": -1
       },
       "furni_event_lazyPillow_01": {
         "id": "furni_event_lazyPillow_01",
@@ -17183,7 +17741,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": -1
       },
       "furni_OST_room_01": {
         "id": "furni_OST_room_01",
@@ -17205,7 +17764,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": -1
       },
       "furni_choShanLand_rabbit1st_01": {
         "id": "furni_choShanLand_rabbit1st_01",
@@ -17227,7 +17787,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": -1
       },
       "furni_team001_blackSteel_target_01": {
         "id": "furni_team001_blackSteel_target_01",
@@ -17249,7 +17810,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team001_followers_ceilingLight_01": {
         "id": "furni_team001_followers_ceilingLight_01",
@@ -17271,7 +17833,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team001_ursus_baseballStand_01": {
         "id": "furni_team001_ursus_baseballStand_01",
@@ -17293,7 +17856,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team001_opdaA1_coatRack_01": {
         "id": "furni_team001_opdaA1_coatRack_01",
@@ -17315,7 +17879,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team001_opdaA4_coatRack_01": {
         "id": "furni_team001_opdaA4_coatRack_01",
@@ -17337,7 +17902,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team001_kjerag_fireplaceTool_01": {
         "id": "furni_team001_kjerag_fireplaceTool_01",
@@ -17359,7 +17925,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team001_penguin_frame_01": {
         "id": "furni_team001_penguin_frame_01",
@@ -17381,7 +17948,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team001_rhine_cultivationPool_01": {
         "id": "furni_team001_rhine_cultivationPool_01",
@@ -17403,7 +17971,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team001_lungmen_diningCar_01": {
         "id": "furni_team001_lungmen_diningCar_01",
@@ -17425,7 +17994,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team001_victoria_graffiti_01": {
         "id": "furni_team001_victoria_graffiti_01",
@@ -17447,7 +18017,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team001_odaA4_boardGameTable_01": {
         "id": "furni_team001_odaA4_boardGameTable_01",
@@ -17469,7 +18040,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team002_opdaA6_gacha_01": {
         "id": "furni_team002_opdaA6_gacha_01",
@@ -17491,7 +18063,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_team002_abyssal_trident_01": {
         "id": "furni_team002_abyssal_trident_01",
@@ -17513,7 +18086,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_single001_conicalCeilingLight_01": {
         "id": "furni_single001_conicalCeilingLight_01",
@@ -17535,7 +18109,8 @@
         "processedProductCount": 33,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_shelf_01": {
         "id": "furni_single001_shelf_01",
@@ -17557,7 +18132,8 @@
         "processedProductCount": 210,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_mahjongTable_01": {
         "id": "furni_single001_mahjongTable_01",
@@ -17579,7 +18155,8 @@
         "processedProductCount": 118,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_mahjongChair_L_01": {
         "id": "furni_single001_mahjongChair_L_01",
@@ -17601,7 +18178,8 @@
         "processedProductCount": 63,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_mahjongChair_R_01": {
         "id": "furni_single001_mahjongChair_R_01",
@@ -17623,7 +18201,8 @@
         "processedProductCount": 63,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_boardGameTable_01": {
         "id": "furni_single001_boardGameTable_01",
@@ -17645,7 +18224,8 @@
         "processedProductCount": 80,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_catClimbingFrame_01": {
         "id": "furni_single001_catClimbingFrame_01",
@@ -17667,7 +18247,8 @@
         "processedProductCount": 220,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_layerStack_01": {
         "id": "furni_single001_layerStack_01",
@@ -17689,7 +18270,8 @@
         "processedProductCount": 148,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_newspaperStool_01": {
         "id": "furni_single001_newspaperStool_01",
@@ -17711,7 +18293,8 @@
         "processedProductCount": 55,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_printer_01": {
         "id": "furni_single001_printer_01",
@@ -17733,7 +18316,8 @@
         "processedProductCount": 70,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_vendingMachine_01": {
         "id": "furni_single001_vendingMachine_01",
@@ -17755,7 +18339,8 @@
         "processedProductCount": 103,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_letterLight_0_01": {
         "id": "furni_single001_letterLight_0_01",
@@ -17777,7 +18362,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_single001_letterLight_1_01": {
         "id": "furni_single001_letterLight_1_01",
@@ -17799,7 +18385,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dropN001_box_01": {
         "id": "furni_dropN001_box_01",
@@ -17821,7 +18408,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dropN001_box_02": {
         "id": "furni_dropN001_box_02",
@@ -17843,7 +18431,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dropN001_box_03": {
         "id": "furni_dropN001_box_03",
@@ -17865,7 +18454,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dropN001_generator_01": {
         "id": "furni_dropN001_generator_01",
@@ -17887,7 +18477,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dropN001_generator_02": {
         "id": "furni_dropN001_generator_02",
@@ -17909,7 +18500,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dropN001_generator_03": {
         "id": "furni_dropN001_generator_03",
@@ -17931,7 +18523,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dropN001_sculptureColumn_01": {
         "id": "furni_dropN001_sculptureColumn_01",
@@ -17953,7 +18546,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dropN001_vineColumn_01": {
         "id": "furni_dropN001_vineColumn_01",
@@ -17975,7 +18569,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_ceiling1_01": {
         "id": "furni_restaurant_ceiling1_01",
@@ -17997,7 +18592,8 @@
         "processedProductCount": 150,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_curtain_01": {
         "id": "furni_restaurant_curtain_01",
@@ -18019,7 +18615,8 @@
         "processedProductCount": 243,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_fryingTable_01": {
         "id": "furni_restaurant_fryingTable_01",
@@ -18041,7 +18638,8 @@
         "processedProductCount": 150,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_stockPotTable_01": {
         "id": "furni_restaurant_stockPotTable_01",
@@ -18063,7 +18661,8 @@
         "processedProductCount": 203,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_barTable_01": {
         "id": "furni_restaurant_barTable_01",
@@ -18085,7 +18684,8 @@
         "processedProductCount": 360,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_chair_01": {
         "id": "furni_restaurant_chair_01",
@@ -18107,7 +18707,8 @@
         "processedProductCount": 63,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_diningTable_01": {
         "id": "furni_restaurant_diningTable_01",
@@ -18129,7 +18730,8 @@
         "processedProductCount": 150,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_longBench_01": {
         "id": "furni_restaurant_longBench_01",
@@ -18151,7 +18753,8 @@
         "processedProductCount": 165,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_screen_01": {
         "id": "furni_restaurant_screen_01",
@@ -18173,7 +18776,8 @@
         "processedProductCount": 178,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_bonsai_01": {
         "id": "furni_restaurant_bonsai_01",
@@ -18195,7 +18799,8 @@
         "processedProductCount": 175,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_pottedPlant_01": {
         "id": "furni_restaurant_pottedPlant_01",
@@ -18217,7 +18822,8 @@
         "processedProductCount": 140,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_priceList1_01": {
         "id": "furni_restaurant_priceList1_01",
@@ -18239,7 +18845,8 @@
         "processedProductCount": 170,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_trottingHorseLamp_01": {
         "id": "furni_restaurant_trottingHorseLamp_01",
@@ -18261,7 +18868,8 @@
         "processedProductCount": 43,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_spotlight_01": {
         "id": "furni_restaurant_spotlight_01",
@@ -18283,7 +18891,8 @@
         "processedProductCount": 53,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_downlight_01": {
         "id": "furni_restaurant_downlight_01",
@@ -18305,7 +18914,8 @@
         "processedProductCount": 60,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_carpet_01": {
         "id": "furni_restaurant_carpet_01",
@@ -18327,7 +18937,8 @@
         "processedProductCount": 123,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_wallpaper_01": {
         "id": "furni_restaurant_wallpaper_01",
@@ -18349,7 +18960,8 @@
         "processedProductCount": 185,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_restaurant_floor_01": {
         "id": "furni_restaurant_floor_01",
@@ -18371,7 +18983,8 @@
         "processedProductCount": 185,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_tangyuan_ceiling_01": {
         "id": "furni_tangyuan_ceiling_01",
@@ -18393,7 +19006,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_tangyuan_priceList_01": {
         "id": "furni_tangyuan_priceList_01",
@@ -18415,7 +19029,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act7d5_bookshelf": {
         "id": "furni_act7d5_bookshelf",
@@ -18437,7 +19052,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act7d5_atomicClock": {
         "id": "furni_act7d5_atomicClock",
@@ -18459,7 +19075,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act7d5_weaponRack": {
         "id": "furni_act7d5_weaponRack",
@@ -18481,7 +19098,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act7d5_wallSticker": {
         "id": "furni_act7d5_wallSticker",
@@ -18503,7 +19121,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act7d5_petHouse": {
         "id": "furni_act7d5_petHouse",
@@ -18525,7 +19144,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act7d5_apron": {
         "id": "furni_act7d5_apron",
@@ -18547,7 +19167,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_lightFood_priceList_01": {
         "id": "furni_lightFood_priceList_01",
@@ -18569,7 +19190,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_sign_01": {
         "id": "furni_lightFood_sign_01",
@@ -18591,7 +19213,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_cashierDesk_01": {
         "id": "furni_lightFood_cashierDesk_01",
@@ -18613,7 +19236,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_spotlight_01": {
         "id": "furni_lightFood_spotlight_01",
@@ -18635,7 +19259,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_foodCabinet_01": {
         "id": "furni_lightFood_foodCabinet_01",
@@ -18657,7 +19282,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_juicer_01": {
         "id": "furni_lightFood_juicer_01",
@@ -18679,7 +19305,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_orderingMachine_01": {
         "id": "furni_lightFood_orderingMachine_01",
@@ -18701,7 +19328,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_vendingMachine_01": {
         "id": "furni_lightFood_vendingMachine_01",
@@ -18723,7 +19351,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_board_01": {
         "id": "furni_lightFood_board_01",
@@ -18745,7 +19374,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_partitionGate_01": {
         "id": "furni_lightFood_partitionGate_01",
@@ -18767,7 +19397,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_wallSticker_01": {
         "id": "furni_lightFood_wallSticker_01",
@@ -18789,7 +19420,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_table_01": {
         "id": "furni_lightFood_table_01",
@@ -18811,7 +19443,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_chair_01": {
         "id": "furni_lightFood_chair_01",
@@ -18833,7 +19466,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_ceiling_01": {
         "id": "furni_lightFood_ceiling_01",
@@ -18855,7 +19489,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_carpet_01": {
         "id": "furni_lightFood_carpet_01",
@@ -18877,7 +19512,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_downlight_01": {
         "id": "furni_lightFood_downlight_01",
@@ -18899,7 +19535,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_wallpaper_01": {
         "id": "furni_lightFood_wallpaper_01",
@@ -18921,7 +19558,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_lightFood_floor_01": {
         "id": "furni_lightFood_floor_01",
@@ -18943,7 +19581,8 @@
         "processedProductCount": 5,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_beerhouse_priceList_01": {
         "id": "furni_beerhouse_priceList_01",
@@ -18965,7 +19604,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_cashierDesk_01": {
         "id": "furni_beerhouse_cashierDesk_01",
@@ -18987,7 +19627,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_foodCabinet_01": {
         "id": "furni_beerhouse_foodCabinet_01",
@@ -19009,7 +19650,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_wineRack_01": {
         "id": "furni_beerhouse_wineRack_01",
@@ -19031,7 +19673,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_banner1_01": {
         "id": "furni_beerhouse_banner1_01",
@@ -19053,7 +19696,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_wallSticker_01": {
         "id": "furni_beerhouse_wallSticker_01",
@@ -19075,7 +19719,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_diningTable1_01": {
         "id": "furni_beerhouse_diningTable1_01",
@@ -19097,7 +19742,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_diningTable2_01": {
         "id": "furni_beerhouse_diningTable2_01",
@@ -19119,7 +19765,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_framedArt1_01": {
         "id": "furni_beerhouse_framedArt1_01",
@@ -19141,7 +19788,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_framedArt2_01": {
         "id": "furni_beerhouse_framedArt2_01",
@@ -19163,7 +19811,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_banner2_01": {
         "id": "furni_beerhouse_banner2_01",
@@ -19185,7 +19834,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_slopedCeiling1_01": {
         "id": "furni_beerhouse_slopedCeiling1_01",
@@ -19207,7 +19857,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_slopedCeiling2_01": {
         "id": "furni_beerhouse_slopedCeiling2_01",
@@ -19229,7 +19880,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_ceilingLight_01": {
         "id": "furni_beerhouse_ceilingLight_01",
@@ -19251,7 +19903,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 3
       },
       "furni_beerhouse_wallpaper_01": {
         "id": "furni_beerhouse_wallpaper_01",
@@ -19273,7 +19926,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_beerhouse_floor_01": {
         "id": "furni_beerhouse_floor_01",
@@ -19295,7 +19949,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS009_carmen_01": {
         "id": "furni_dropS009_carmen_01",
@@ -19317,7 +19972,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act9d0_carpet_01": {
         "id": "furni_act9d0_carpet_01",
@@ -19339,7 +19995,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act9d0_bed_01": {
         "id": "furni_act9d0_bed_01",
@@ -19361,7 +20018,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act9d0_walllamp_01": {
         "id": "furni_act9d0_walllamp_01",
@@ -19383,7 +20041,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dormW_weaponRack_01": {
         "id": "furni_dormW_weaponRack_01",
@@ -19405,7 +20064,8 @@
         "processedProductCount": 278,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_wallDecor_01": {
         "id": "furni_dormW_wallDecor_01",
@@ -19427,7 +20087,8 @@
         "processedProductCount": 168,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_partition_01": {
         "id": "furni_dormW_partition_01",
@@ -19449,7 +20110,8 @@
         "processedProductCount": 160,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_barrel_01": {
         "id": "furni_dormW_barrel_01",
@@ -19471,7 +20133,8 @@
         "processedProductCount": 120,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_toolbox_01": {
         "id": "furni_dormW_toolbox_01",
@@ -19493,7 +20156,8 @@
         "processedProductCount": 135,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_table_01": {
         "id": "furni_dormW_table_01",
@@ -19515,7 +20179,8 @@
         "processedProductCount": 170,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_mirror_01": {
         "id": "furni_dormW_mirror_01",
@@ -19537,7 +20202,8 @@
         "processedProductCount": 108,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_snookerTable_01": {
         "id": "furni_dormW_snookerTable_01",
@@ -19559,7 +20225,8 @@
         "processedProductCount": 410,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_triangle_01": {
         "id": "furni_dormW_triangle_01",
@@ -19581,7 +20248,8 @@
         "processedProductCount": 53,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_dartboard_01": {
         "id": "furni_dormW_dartboard_01",
@@ -19603,7 +20271,8 @@
         "processedProductCount": 123,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_shelf_01": {
         "id": "furni_dormW_shelf_01",
@@ -19625,7 +20294,8 @@
         "processedProductCount": 125,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_bulletinboard_01": {
         "id": "furni_dormW_bulletinboard_01",
@@ -19647,7 +20317,8 @@
         "processedProductCount": 120,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_carpet_01": {
         "id": "furni_dormW_carpet_01",
@@ -19669,7 +20340,8 @@
         "processedProductCount": 128,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_wallSticker_01": {
         "id": "furni_dormW_wallSticker_01",
@@ -19691,7 +20363,8 @@
         "processedProductCount": 228,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_walllamp_01": {
         "id": "furni_dormW_walllamp_01",
@@ -19713,7 +20386,8 @@
         "processedProductCount": 58,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_ceiling_01": {
         "id": "furni_dormW_ceiling_01",
@@ -19735,7 +20409,8 @@
         "processedProductCount": 335,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_fluorescentLamp_01": {
         "id": "furni_dormW_fluorescentLamp_01",
@@ -19757,7 +20432,8 @@
         "processedProductCount": 148,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_ceilingLight_01": {
         "id": "furni_dormW_ceilingLight_01",
@@ -19779,7 +20455,8 @@
         "processedProductCount": 58,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_wallpaper_01": {
         "id": "furni_dormW_wallpaper_01",
@@ -19801,7 +20478,8 @@
         "processedProductCount": 203,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dormW_floor_01": {
         "id": "furni_dormW_floor_01",
@@ -19823,7 +20501,8 @@
         "processedProductCount": 203,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_dropS007_repulsion_01": {
         "id": "furni_dropS007_repulsion_01",
@@ -19845,7 +20524,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS007_easyRider_01": {
         "id": "furni_dropS007_easyRider_01",
@@ -19867,7 +20547,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_lawson_kantoCooking_01": {
         "id": "furni_lawson_kantoCooking_01",
@@ -19889,7 +20570,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": -1
       },
       "furni_contract_s0_01": {
         "id": "furni_contract_s0_01",
@@ -19911,7 +20593,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_contract_s1_01": {
         "id": "furni_contract_s1_01",
@@ -19933,7 +20616,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_MSR001_room_01": {
         "id": "furni_MSR001_room_01",
@@ -19955,7 +20639,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": -1
       },
       "furni_community_bookshelf_01": {
         "id": "furni_community_bookshelf_01",
@@ -19977,7 +20662,8 @@
         "processedProductCount": 458,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_floorLamp_01": {
         "id": "furni_community_floorLamp_01",
@@ -19999,7 +20685,8 @@
         "processedProductCount": 153,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_bulletinboard_01": {
         "id": "furni_community_bulletinboard_01",
@@ -20021,7 +20708,8 @@
         "processedProductCount": 218,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_cabinet_01": {
         "id": "furni_community_cabinet_01",
@@ -20043,7 +20731,8 @@
         "processedProductCount": 273,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_table1_01": {
         "id": "furni_community_table1_01",
@@ -20065,7 +20754,8 @@
         "processedProductCount": 180,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_table2_01": {
         "id": "furni_community_table2_01",
@@ -20087,7 +20777,8 @@
         "processedProductCount": 180,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_table3_01": {
         "id": "furni_community_table3_01",
@@ -20109,7 +20800,8 @@
         "processedProductCount": 193,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_table4_01": {
         "id": "furni_community_table4_01",
@@ -20131,7 +20823,8 @@
         "processedProductCount": 193,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_chair_L_01": {
         "id": "furni_community_chair_L_01",
@@ -20153,7 +20846,8 @@
         "processedProductCount": 85,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_chair_R_01": {
         "id": "furni_community_chair_R_01",
@@ -20175,7 +20869,8 @@
         "processedProductCount": 85,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_trailStove_01": {
         "id": "furni_community_trailStove_01",
@@ -20197,7 +20892,8 @@
         "processedProductCount": 133,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_ceilingLamp_01": {
         "id": "furni_community_ceilingLamp_01",
@@ -20219,7 +20915,8 @@
         "processedProductCount": 150,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_ceilingLight_01": {
         "id": "furni_community_ceilingLight_01",
@@ -20241,7 +20938,8 @@
         "processedProductCount": 73,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_wallpaper_01": {
         "id": "furni_community_wallpaper_01",
@@ -20263,7 +20961,8 @@
         "processedProductCount": 175,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_community_floor_01": {
         "id": "furni_community_floor_01",
@@ -20285,7 +20984,8 @@
         "processedProductCount": 175,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": true
+        "canBeDestroy": true,
+        "isOnly": -1
       },
       "furni_act10d5_sideboard_01": {
         "id": "furni_act10d5_sideboard_01",
@@ -20307,7 +21007,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act10d5_coatRack_01": {
         "id": "furni_act10d5_coatRack_01",
@@ -20329,7 +21030,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act10d5_plushBear_01": {
         "id": "furni_act10d5_plushBear_01",
@@ -20351,7 +21053,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act10d5_walldecoKit_01": {
         "id": "furni_act10d5_walldecoKit_01",
@@ -20373,7 +21076,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act10d5_banner_01": {
         "id": "furni_act10d5_banner_01",
@@ -20395,7 +21099,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_act10d5_honeyDrink_01": {
         "id": "furni_act10d5_honeyDrink_01",
@@ -20417,7 +21122,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_dropS009_magicFlute_01": {
         "id": "furni_dropS009_magicFlute_01",
@@ -20439,7 +21145,8 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
       },
       "furni_duanwu_lazysofa_01": {
         "id": "furni_duanwu_lazysofa_01",
@@ -20461,7 +21168,422 @@
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
-        "canBeDestroy": false
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_recordPlayer_01": {
+        "id": "furni_nightView_recordPlayer_01",
+        "name": "仿古唱片机",
+        "iconId": "furni_nightView_recordPlayer_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 175,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "放置在古莱塔尼亚样式高脚桌上的唱片机。从未相合的旋律，滋润着莱塔尼亚每一个灵魂。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_sofa_01": {
+        "id": "furni_nightView_sofa_01",
+        "name": "白色加长沙发",
+        "iconId": "furni_nightView_sofa_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 3,
+        "height": 3,
+        "comfort": 405,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "舒适的加长沙发。选用与乐器截然相反的颜色，无意间区分了观众与乐手。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_carpet_01": {
+        "id": "furni_nightView_carpet_01",
+        "name": "莱塔尼亚手工地毯",
+        "iconId": "furni_nightView_carpet_01",
+        "type": "CARPET",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 14,
+        "depth": 10,
+        "height": 1,
+        "comfort": 205,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "造价不菲的手工地毯。大概有一把乐器的零头那么贵。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_cello_01": {
+        "id": "furni_nightView_cello_01",
+        "name": "黑漆白头大提琴",
+        "iconId": "furni_nightView_cello_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 4,
+        "comfort": 210,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "莱塔尼亚琴匠手工打造的提琴。真正好的提琴能在琴弦触碰琴弓的瞬间征服乐手。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_celloChair_01": {
+        "id": "furni_nightView_celloChair_01",
+        "name": "伴琴椅",
+        "iconId": "furni_nightView_celloChair_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 4,
+        "height": 4,
+        "comfort": 230,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "为大提琴演奏者提供的椅子。一把好琴椅能有效延缓琴手的寿命，再不济也能让他们少受慢性疼痛之苦——广告里是这么说的。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_framed_01": {
+        "id": "furni_nightView_framed_01",
+        "name": "“向日葵与美”",
+        "iconId": "furni_nightView_framed_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 1,
+        "height": 3,
+        "comfort": 90,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "莱塔尼亚家喻户晓的名画，这是复制品。真正的美在于想象之中。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_bottles_01": {
+        "id": "furni_nightView_bottles_01",
+        "name": "莱塔尼亚饮料",
+        "iconId": "furni_nightView_bottles_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 140,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "莱塔尼亚人常喝的饮料。提神醒脑是这些饮料的基础功效，但听说喝多了会产生副作用。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_books_01": {
+        "id": "furni_nightView_books_01",
+        "name": "杂书堆",
+        "iconId": "furni_nightView_books_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 4,
+        "height": 3,
+        "comfort": 225,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "堆在一起的莱塔尼亚书籍，还未来得及整理。莱塔尼亚人长于接受书中的一切，即使那里面并不是知识。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_studyTable_01": {
+        "id": "furni_nightView_studyTable_01",
+        "name": "一体式书桌",
+        "iconId": "furni_nightView_studyTable_01",
+        "type": "TABLE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 2,
+        "height": 8,
+        "comfort": 345,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "自带立柜的书桌。抬头便能见到藏品时的愉悦几乎无法被替代。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_globe_01": {
+        "id": "furni_nightView_globe_01",
+        "name": "“平衡之球”",
+        "iconId": "furni_nightView_globe_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 155,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "巫术信仰者在家中放置的中型法器。无尽旋转中，内心获得平静。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_bed_01": {
+        "id": "furni_nightView_bed_01",
+        "name": "四柱床",
+        "iconId": "furni_nightView_bed_01",
+        "type": "BEDDING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 5,
+        "height": 4,
+        "comfort": 520,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "莱塔尼亚地区独有的四柱床。举行仪式时可摆放法器，平常则能用来放香薰。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_curtain_L_01": {
+        "id": "furni_nightView_curtain_L_01",
+        "name": "厚重窗帘（左）",
+        "iconId": "furni_nightView_curtain_L_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 10,
+        "comfort": 200,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "厚重的窗帘，能隔绝噪音。收拢时，城市夜景尽收眼底。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_curtain_R_01": {
+        "id": "furni_nightView_curtain_R_01",
+        "name": "厚重窗帘（右）",
+        "iconId": "furni_nightView_curtain_R_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 10,
+        "comfort": 200,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "厚重的窗帘，能遮蔽光线。拉上时，私密空间不受干扰。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_ceilingLight1_01": {
+        "id": "furni_nightView_ceilingLight1_01",
+        "name": "六烛大吊灯",
+        "iconId": "furni_nightView_ceilingLight1_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 6,
+        "height": 3,
+        "comfort": 245,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "豪华的吊灯，能照亮整个房间。复杂的莱塔尼亚家具需要用特定手势或语音激活。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_ceilingLight2_01": {
+        "id": "furni_nightView_ceilingLight2_01",
+        "name": "四烛吊灯",
+        "iconId": "furni_nightView_ceilingLight2_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 3,
+        "comfort": 110,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "简易的吊灯，已插上特制源石蜡烛。简单的莱塔尼亚家具拍拍手就能开关。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 2
+      },
+      "furni_nightView_wallpaper_01": {
+        "id": "furni_nightView_wallpaper_01",
+        "name": "全景显示屏（夜）",
+        "iconId": "furni_nightView_wallpaper_01",
+        "type": "WALLPAPER",
+        "location": "WALL",
+        "category": "WALL",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "展现莱塔尼亚都市夜景的显示屏，窗框部分不可移除。全景投射莱塔尼亚夜景，让人一时分辨不清自己身处何方。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_nightView_floor_01": {
+        "id": "furni_nightView_floor_01",
+        "name": "莱塔尼亚原木地板",
+        "iconId": "furni_nightView_floor_01",
+        "type": "FLOOR",
+        "location": "FLOOR",
+        "category": "FLOOR",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "以莱塔尼亚当地木料制作的地板。艺术、音乐、源石技艺，莱塔尼亚不变的瑰宝。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_dropS009_nocturnesOp9_01": {
+        "id": "furni_dropS009_nocturnesOp9_01",
+        "name": "饰牌《安宁》",
+        "iconId": "furni_dropS009_nocturnesOp9_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "“无声的夜晚，烛火微燃。寒冷与饥饿，与他无关。啊啊，令人向往，多么美好......再会了，我的朋友。”",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
       }
     },
     "themes": {
@@ -23059,6 +24181,103 @@
             "pos1": 0
           }
         ]
+      },
+      "furni_set_nightView": {
+        "id": "furni_set_nightView",
+        "name": "莱塔尼亚之夜",
+        "desc": "再现了莱塔尼亚都市夜生活的概念房间。夜帷撒下，旋律与之为伴。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_nightView_recordPlayer_01",
+            "pos0": 0,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_nightView_sofa_01",
+            "pos0": 2,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_nightView_carpet_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_nightView_cello_01",
+            "pos0": 7,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_nightView_celloChair_01",
+            "pos0": 10,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_nightView_framed_01",
+            "pos0": 4,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_nightView_bottles_01",
+            "pos0": 12,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_nightView_books_01",
+            "pos0": 15,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_nightView_studyTable_01",
+            "pos0": 18,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_nightView_globe_01",
+            "pos0": 24,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_nightView_bed_01",
+            "pos0": 26,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_nightView_curtain_L_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_nightView_curtain_R_01",
+            "pos0": 30,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_nightView_ceilingLight1_01",
+            "pos0": 13,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_nightView_ceilingLight2_01",
+            "pos0": 4,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_nightView_ceilingLight2_01",
+            "pos0": 27,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_nightView_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_nightView_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
       }
     },
     "groups": {
@@ -24402,6 +25621,59 @@
         "furniture": [
           "furni_community_wallpaper_01",
           "furni_community_floor_01"
+        ]
+      },
+      "furni_set_nightView_1": {
+        "id": "furni_set_nightView_1",
+        "name": "旋律之喜",
+        "themeId": "furni_set_nightView",
+        "comfort": 190,
+        "count": 4,
+        "furniture": [
+          "furni_nightView_recordPlayer_01",
+          "furni_nightView_cello_01",
+          "furni_nightView_celloChair_01",
+          "furni_nightView_carpet_01"
+        ]
+      },
+      "furni_set_nightView_2": {
+        "id": "furni_set_nightView_2",
+        "name": "学识之爱",
+        "themeId": "furni_set_nightView",
+        "comfort": 200,
+        "count": 4,
+        "furniture": [
+          "furni_nightView_studyTable_01",
+          "furni_nightView_globe_01",
+          "furni_nightView_books_01",
+          "furni_nightView_bottles_01"
+        ]
+      },
+      "furni_set_nightView_3": {
+        "id": "furni_set_nightView_3",
+        "name": "休憩之乐",
+        "themeId": "furni_set_nightView",
+        "comfort": 350,
+        "count": 5,
+        "furniture": [
+          "furni_nightView_bed_01",
+          "furni_nightView_sofa_01",
+          "furni_nightView_framed_01",
+          "furni_nightView_curtain_L_01",
+          "furni_nightView_curtain_R_01"
+        ]
+      },
+      "furni_set_nightView_4": {
+        "id": "furni_set_nightView_4",
+        "name": "夜晚之美",
+        "themeId": "furni_set_nightView",
+        "comfort": 215,
+        "count": 4,
+        "furniture": [
+          "furni_nightView_wallpaper_01",
+          "furni_nightView_floor_01",
+          "furni_nightView_ceilingLight1_01",
+          "furni_nightView_ceilingLight2_01"
         ]
       }
     },
