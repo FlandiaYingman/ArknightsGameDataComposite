@@ -849,6 +849,36 @@
       }
     },
     {
+      "tagId": "tag_30",
+      "displayType": "block_1",
+      "tagName": "Half Year Anniv. Headhunting Pack",
+      "itemTag": "DEADLINE",
+      "orderNum": 1,
+      "startDatetime": 1594825200,
+      "endDatetime": 1596020399,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag30_a",
+              "slotIndex": 0,
+              "cmd": "GIFTPACKAGE",
+              "param1": "GP_NpOne_1_NpOne_1_v1",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_30",
+        "text": "Happy half year anniversary, Doctor! I've added a ton of new products to my collection - care to take a look?"
+      }
+    },
+    {
       "tagId": "tag_33",
       "displayType": "block_1",
       "tagName": "Early Spring Picks",
@@ -1465,6 +1495,74 @@
     {
       "items": [
         {
+          "spriteId": "shop_NpOne_1",
+          "startTime": 1594825200,
+          "endTime": 1596020399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_NpOne_1_NpOne_1_v1",
+          "skinId": ""
+        },
+        {
+          "spriteId": "shop_headbr_marthe#2",
+          "startTime": 1574204400,
+          "endTime": 1575370799,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_115_headbr@marthe#2",
+          "skinId": "char_115_headbr@marthe#2"
+        },
+        {
+          "spriteId": "shop_ccheal_epoque#2",
+          "startTime": 1574204400,
+          "endTime": 1575370799,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_187_ccheal@epoque#2",
+          "skinId": "char_187_ccheal@epoque#2"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_Once_5",
+          "startTime": 1596034800,
+          "endTime": 1597834799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_5",
+          "skinId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_Once_6",
+          "startTime": 1596034800,
+          "endTime": 1597834799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_6",
+          "skinId": ""
+        },
+        {
+          "spriteId": "shop_silent_sweep#1_r1",
+          "startTime": 1574204400,
+          "endTime": 1575370799,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_108_silent@sweep#1_r1",
+          "skinId": "char_108_silent@sweep#1"
+        },
+        {
+          "spriteId": "shop_jesica_sweep#1_r1",
+          "startTime": 1574204400,
+          "endTime": 1575370799,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_235_jesica@sweep#1_r1",
+          "skinId": "char_235_jesica@sweep#1"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_hsguma_nian#3",
           "startTime": 1574204400,
           "endTime": 1575370799,
@@ -1692,7 +1790,19 @@
     "GP_gW_48_W_2": "ALWAYS_UNLOCK",
     "GP_gW_49_W_2": "ALWAYS_UNLOCK",
     "GP_gW_50_W_2": "ALWAYS_UNLOCK",
-    "GP_gW_51_W_2": "ALWAYS_UNLOCK"
+    "GP_gW_51_W_2": "ALWAYS_UNLOCK",
+    "GP_Once_5": "ALWAYS_UNLOCK",
+    "GP_Once_6": "ALWAYS_UNLOCK",
+    "GP_NpOne_1": "ALWAYS_UNLOCK"
   },
-  "chooseShopRelations": []
+  "chooseShopRelations": [
+    {
+      "goodId": "GP_NpOne_1",
+      "optionList": [
+        "GP_NpOne_1_NpOne_1_v1",
+        "GP_NpOne_1_NpOne_1_v2",
+        "GP_NpOne_1_NpOne_1_v3"
+      ]
+    }
+  ]
 }
