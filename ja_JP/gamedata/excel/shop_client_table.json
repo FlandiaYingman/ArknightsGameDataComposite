@@ -849,6 +849,36 @@
       }
     },
     {
+      "tagId": "tag_30",
+      "displayType": "block_1",
+      "tagName": "半年記念\nスカウトパック",
+      "itemTag": "DEADLINE",
+      "orderNum": 1,
+      "startDatetime": 1594789200,
+      "endDatetime": 1595962799,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag30_a",
+              "slotIndex": 0,
+              "cmd": "GIFTPACKAGE",
+              "param1": "GP_NpOne_1_NpOne_1_v1",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_30",
+        "text": "節目のお祝いだね、ドクター！今回も新商品がたくさん来てるよ、見ていかない？"
+      }
+    },
+    {
       "tagId": "tag_33",
       "displayType": "block_1",
       "tagName": "春季精选",
@@ -1449,6 +1479,74 @@
     {
       "items": [
         {
+          "spriteId": "shop_NpOne_1",
+          "startTime": 1594789200,
+          "endTime": 1595962799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_NpOne_1_NpOne_1_v1",
+          "skinId": ""
+        },
+        {
+          "spriteId": "shop_headbr_marthe#2",
+          "startTime": 1574146800,
+          "endTime": 1575313199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_115_headbr@marthe#2",
+          "skinId": "char_115_headbr@marthe#2"
+        },
+        {
+          "spriteId": "shop_ccheal_epoque#2",
+          "startTime": 1574146800,
+          "endTime": 1575313199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_187_ccheal@epoque#2",
+          "skinId": "char_187_ccheal@epoque#2"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_Once_5",
+          "startTime": 1595998800,
+          "endTime": 1597777199,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_5",
+          "skinId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_Once_6",
+          "startTime": 1595998800,
+          "endTime": 1597777199,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_6",
+          "skinId": ""
+        },
+        {
+          "spriteId": "shop_silent_sweep#1_r1",
+          "startTime": 1574146800,
+          "endTime": 1575313199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_108_silent@sweep#1_r1",
+          "skinId": "char_108_silent@sweep#1"
+        },
+        {
+          "spriteId": "shop_jesica_sweep#1_r1",
+          "startTime": 1574146800,
+          "endTime": 1575313199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_235_jesica@sweep#1_r1",
+          "skinId": "char_235_jesica@sweep#1"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_hsguma_nian#3",
           "startTime": 1574146800,
           "endTime": 1575313199,
@@ -1676,7 +1774,19 @@
     "GP_gW_48_W_2": "ALWAYS_UNLOCK",
     "GP_gW_49_W_2": "ALWAYS_UNLOCK",
     "GP_gW_50_W_2": "ALWAYS_UNLOCK",
-    "GP_gW_51_W_2": "ALWAYS_UNLOCK"
+    "GP_gW_51_W_2": "ALWAYS_UNLOCK",
+    "GP_Once_5": "ALWAYS_UNLOCK",
+    "GP_Once_6": "ALWAYS_UNLOCK",
+    "GP_NpOne_1": "ALWAYS_UNLOCK"
   },
-  "chooseShopRelations": []
+  "chooseShopRelations": [
+    {
+      "goodId": "GP_NpOne_1",
+      "optionList": [
+        "GP_NpOne_1_NpOne_1_v1",
+        "GP_NpOne_1_NpOne_1_v2",
+        "GP_NpOne_1_NpOne_1_v3"
+      ]
+    }
+  ]
 }
