@@ -26886,27 +26886,6 @@
     {
       "sounds": [
         {
-          "asset": "Audio/Sound_Beta_2/Player/p_imp/p_imp_tank_n",
-          "weight": 1,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        }
-      ],
-      "maxSoundAllowed": 2,
-      "popOldest": true,
-      "customMixerGroup": "Battle_P_SImp",
-      "loop": false,
-      "name": "battle.ON_ABILITY_HIT.token_10010_folivo_car.attack"
-    },
-    {
-      "sounds": [
-        {
           "asset": "Audio/Sound_Beta_2/Player/p_atk/p_atk_healpistol_n",
           "weight": 1,
           "important": false,
@@ -27269,6 +27248,30 @@
         {
           "asset": "Audio/Sound_Beta_2/Enemy/e_imp/e_imp_general_w",
           "weight": 1,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
           "important": false,
           "is2D": false,
           "delay": 0,
@@ -27893,6 +27896,27 @@
       "customMixerGroup": "Battle_P_SImp",
       "loop": false,
       "name": "battle.ON_BUFF_START.thorns_s_2[audio]"
+    },
+    {
+      "sounds": [
+        {
+          "asset": "Audio/Sound_Beta_2/Player/p_imp/p_imp_throwsabre_s",
+          "weight": 1,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        }
+      ],
+      "maxSoundAllowed": 2,
+      "popOldest": true,
+      "customMixerGroup": "Battle_P_SImp",
+      "loop": false,
+      "name": "battle.ON_PROJECTILE_HIT.projectile_chr_thorns_s3"
     },
     {
       "sounds": [
