@@ -1311,6 +1311,10 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
+          "stageId": "act6d5_03",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "main_01-07",
           "occPer": "ALWAYS"
         },
@@ -1450,6 +1454,10 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
+          "stageId": "act6d5_04",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "a001_03",
           "occPer": "USUAL"
         },
@@ -1560,15 +1568,19 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
+          "stageId": "act6d5_01",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "a001_01",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "sub_02-07",
+          "stageId": "main_00-11",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "main_00-11",
+          "stageId": "sub_02-07",
           "occPer": "ALWAYS"
         }
       ],
@@ -1707,12 +1719,16 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "main_01-03",
-          "occPer": "ALMOST"
+          "stageId": "act6d5_02",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "sub_02-08",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_01-03",
+          "occPer": "ALMOST"
         }
       ],
       "buildingProductList": []
@@ -1917,6 +1933,10 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
+          "stageId": "act6d5_06",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "main_03-01",
           "occPer": "OFTEN"
         },
@@ -2013,6 +2033,10 @@
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
+        {
+          "stageId": "act6d5_05",
+          "occPer": "ALMOST"
+        },
         {
           "stageId": "main_01-12",
           "occPer": "USUAL"
@@ -2115,6 +2139,10 @@
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
+        {
+          "stageId": "act6d5_07",
+          "occPer": "OFTEN"
+        },
         {
           "stageId": "a001_05",
           "occPer": "USUAL"
@@ -2241,6 +2269,10 @@
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
+        {
+          "stageId": "act6d5_08",
+          "occPer": "OFTEN"
+        },
         {
           "stageId": "a001_06",
           "occPer": "OFTEN"
@@ -6124,6 +6156,151 @@
       "obtainApproach": "Gift",
       "classifyType": "CONSUME",
       "itemType": "VOUCHER_MGACHA",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_226_hmau": {
+      "itemId": "p_char_226_hmau",
+      "name": "Hung's Token",
+      "description": "A self-authored and compiled cookbook. Its recipes are suitable for any season, featuring dishes that are both easy-to-make and delicious.",
+      "rarity": 4,
+      "iconId": "p_char_226_hmau",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700043,
+      "usage": "Used to improve the Potential of Hung.",
+      "obtainApproach": "New Operator's gift",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_383_snsant": {
+      "itemId": "p_char_383_snsant",
+      "name": "Snowsant's Token",
+      "description": "A hand-sewn purse that contains small coins no longer in circulation.",
+      "rarity": 4,
+      "iconId": "p_char_383_snsant",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700044,
+      "usage": "Used to improve the Potential of Snowsant.",
+      "obtainApproach": "New Operator's gift",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_225_haak": {
+      "itemId": "p_char_225_haak",
+      "name": "Aak's Token",
+      "description": "A bottle filled with 6 different-colored pills. No instructions are provided.",
+      "rarity": 5,
+      "iconId": "p_char_225_haak",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600017,
+      "usage": "Used to improve the Potential of Aak.",
+      "obtainApproach": "New Operator's gift",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_2014_nian": {
+      "itemId": "p_char_2014_nian",
+      "name": "Nian's Token",
+      "description": "A simple, antique dagger. Legend holds that if this dagger is ever lifted with an intent to murder, the blade will disappear.",
+      "rarity": 5,
+      "iconId": "p_char_2014_nian",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600018,
+      "usage": "Used to improve the Potential of Nian.",
+      "obtainApproach": "New Operator's gift",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "act6d5_point_firecracker": {
+      "itemId": "act6d5_point_firecracker",
+      "name": "Quantum Firecracker",
+      "description": "A traditional explosive device that derives its meaning from its purpose. If an explosive goes off in a forest and no one is around to hear it, did an explosive really go off at all?",
+      "rarity": 4,
+      "iconId": "act6d5_point_firecracker",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "The wonderful paraphernalia collected during the festival can be exchanged for great rewards.",
+      "obtainApproach": "Limited Event Drop",
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [
+        {
+          "stageId": "act6d5_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act6d5_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act6d5_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act6d5_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act6d5_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act6d5_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act6d5_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act6d5_08",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "voucher_recruitR3_1": {
+      "itemId": "voucher_recruitR3_1",
+      "name": "★3 Recruitment Exchange Voucher I",
+      "description": "Allows you to select one of the 3-star Operators available during the first Recruitment period.",
+      "rarity": 2,
+      "iconId": "voucher_recruitR3_1",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 30003,
+      "usage": "Used to exchange for an Operator.",
+      "obtainApproach": "Store",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_PICK",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "voucher_recruitR4_1": {
+      "itemId": "voucher_recruitR4_1",
+      "name": "★4 Recruitment Exchange Voucher I",
+      "description": "Allows you to select one of the 4-star Operators available during the first Recruitment period.",
+      "rarity": 3,
+      "iconId": "voucher_recruitR4_1",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 30002,
+      "usage": "Used to exchange for an Operator.",
+      "obtainApproach": "Store",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_PICK",
       "stageDropList": [],
       "buildingProductList": []
     }
