@@ -461,8 +461,8 @@
     "endTime": -1,
     "startShowTime": 1568664000,
     "endShowTime": -1,
-    "remakeStartTime": -1,
-    "remakeEndTime": -1,
+    "remakeStartTime": 1597132800,
+    "remakeEndTime": 1598299199,
     "storyEntryPicId": "storyEntryPic_act3d0",
     "storyPicId": null,
     "storyMainColor": null,
@@ -1065,6 +1065,33 @@
       },
       {
         "storyReviewType": 0,
+        "storyId": "act3d0_level_act11d7_st01",
+        "storyGroup": "act3d0",
+        "storySort": 23,
+        "storyDependence": "act3d0_level_act3d0_st05",
+        "storyCanShow": 1,
+        "storyCode": "OF-ST6",
+        "storyName": "邂逅潮声",
+        "storyPic": null,
+        "storyInfo": "info/activities/act11d7/level_act11d7_st01",
+        "storyCanEnter": 1,
+        "storyTxt": "activities/act11d7/level_act11d7_st01",
+        "avgTag": "幕间",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "act11d7_st01",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
         "storyId": "act3d0_level_act3d0_ex01_end",
         "storyGroup": "act3d0",
         "storySort": 24,
@@ -1145,7 +1172,7 @@
         ]
       }
     ],
-    "replicateActionId": null,
+    "replicateActionId": "act11d7",
     "storyCompleteMedalId": null
   },
   "act5d0": {
