@@ -1601,6 +1601,10 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
+          "stageId": "act7d5_03",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "a001_04",
           "occPer": "USUAL"
         },
@@ -1748,6 +1752,10 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
+          "stageId": "act7d5_04",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "act4d0_04",
           "occPer": "ALWAYS"
         },
@@ -1862,12 +1870,16 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "main_01-06",
-          "occPer": "ALMOST"
+          "stageId": "act7d5_02",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "sub_02-09",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_01-06",
+          "occPer": "ALMOST"
         }
       ],
       "buildingProductList": []
@@ -2005,16 +2017,20 @@
       "itemType": "MATERIAL",
       "stageDropList": [
         {
+          "stageId": "act7d5_01",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "a001_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_01-05",
           "occPer": "USUAL"
         },
         {
           "stageId": "main_02-03",
           "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_01-05",
-          "occPer": "USUAL"
         }
       ],
       "buildingProductList": []
@@ -2139,6 +2155,10 @@
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
+        {
+          "stageId": "act7d5_05",
+          "occPer": "USUAL"
+        },
         {
           "stageId": "act6d5_07",
           "occPer": "OFTEN"
@@ -2409,7 +2429,7 @@
     "30125": {
       "itemId": "30125",
       "name": "Bipolar Nanoflake",
-      "description": "A device that is sensitive to Originium within a certain range. It can significatnly improve the sensitive of nearby weapons and equipment to Originium, making them near vessels for Originium Arts.",
+      "description": "A device that is sensitive to Originium within a certain range. It can significantly improve the sensitive of nearby weapons and equipment to Originium, making them near vessels for Originium Arts.",
       "rarity": 4,
       "iconId": "MTL_SL_BN",
       "overrideBkg": null,
@@ -2513,6 +2533,10 @@
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
+        {
+          "stageId": "act7d5_06",
+          "occPer": "OFTEN"
+        },
         {
           "stageId": "main_06-11",
           "occPer": "OFTEN"
@@ -5948,7 +5972,32 @@
       "obtainApproach": "Limited Event Drop",
       "classifyType": "NONE",
       "itemType": "ACTIVITY_ITEM",
-      "stageDropList": [],
+      "stageDropList": [
+        {
+          "stageId": "act7d5_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act7d5_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act7d5_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act7d5_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act7d5_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act7d5_06",
+          "occPer": "ALWAYS"
+        }
+      ],
       "buildingProductList": []
     },
     "CRISIS_SHOP_COIN": {
@@ -6317,6 +6366,38 @@
       "obtainApproach": "Event Stages",
       "classifyType": "CONSUME",
       "itemType": "VOUCHER_MGACHA",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_306_leizi": {
+      "itemId": "p_char_306_leizi",
+      "name": "Leizi's Token",
+      "description": "An old oak ruler. No ruler markings, no rules.",
+      "rarity": 4,
+      "iconId": "p_char_306_leizi",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700045,
+      "usage": "Used to improve the Potential of Leizi.",
+      "obtainApproach": "New Operator's gift",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_2013_cerber": {
+      "itemId": "p_char_2013_cerber",
+      "name": "Ceobe's Token",
+      "description": "An origami knife that took a long time to fold. It's crooked, full of extra creases, and rough around the edges. Wonder if the recipient will like it?",
+      "rarity": 5,
+      "iconId": "p_char_2013_cerber",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600020,
+      "usage": "Used to improve the Potential of Ceobe.",
+      "obtainApproach": "New Operator's gift",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
       "stageDropList": [],
       "buildingProductList": []
     }
