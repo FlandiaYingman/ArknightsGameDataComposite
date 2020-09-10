@@ -999,13 +999,13 @@
       }
     },
     {
-      "tagId": "tag_37",
+      "tagId": "tag_33",
       "displayType": "block_1",
-      "tagName": "PIONEER",
+      "tagName": "秋のトレンド",
       "itemTag": "DEADLINE",
       "orderNum": 1,
-      "startDatetime": 1574146800,
-      "endDatetime": 1575313199,
+      "startDatetime": 1599712200,
+      "endDatetime": 1600887599,
       "groupList": [
         {
           "recommendGroup": [
@@ -1013,7 +1013,7 @@
           ],
           "dataList": [
             {
-              "imgId": "tag37_a",
+              "imgId": "tag33_a",
               "slotIndex": 0,
               "cmd": "SKINSHOP",
               "param1": null,
@@ -1024,18 +1024,18 @@
         }
       ],
       "tagWord": {
-        "id": "tag_37",
-        "text": "セールに間に合わなくてガッカリ？すっごくわかるよその気持ち！そんなドクターにチャンスをもう一度！"
+        "id": "tag_33",
+        "text": "新しいコーデで心機一転！誰だって気分転換したい時はあるでしょー！"
       }
     },
     {
-      "tagId": "tag_38",
+      "tagId": "tag_36",
       "displayType": "block_1",
-      "tagName": "気密性化学防護室",
-      "itemTag": "DEADLINE",
-      "orderNum": 2,
-      "startDatetime": 1574146800,
-      "endDatetime": 1575313199,
+      "tagName": "モダンホテル",
+      "itemTag": "NONE",
+      "orderNum": 1,
+      "startDatetime": 1599712200,
+      "endDatetime": 1600887599,
       "groupList": [
         {
           "recommendGroup": [
@@ -1043,10 +1043,10 @@
           ],
           "dataList": [
             {
-              "imgId": "tag38_a",
+              "imgId": "tag36_a",
               "slotIndex": 0,
               "cmd": "FURNSHOP",
-              "param1": "safetyZone_2019",
+              "param1": "artdeco_2020",
               "param2": null,
               "skinId": ""
             }
@@ -1054,8 +1054,8 @@
         }
       ],
       "tagWord": {
-        "id": "tag_38",
-        "text": "プロフェッショナルな環境には危険が伴うんだ。機械を移動させる時は必ず申請を出すように！"
+        "id": "tag_36",
+        "text": "ゴージャスな家具！ブリリアントな内装！あのピアノを見ただけでピンと来たよ。ゲットして間違いなし！"
       }
     },
     {
@@ -1799,6 +1799,62 @@
     {
       "items": [
         {
+          "spriteId": "shop_hsguma_nian#3",
+          "startTime": 1599712200,
+          "endTime": 1600887599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_136_hsguma@nian#3",
+          "skinId": "char_136_hsguma@nian#3"
+        },
+        {
+          "spriteId": "shop_headbr_marthe#2",
+          "startTime": 1599712200,
+          "endTime": 1600887599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_115_headbr@marthe#2",
+          "skinId": "char_115_headbr@marthe#2"
+        },
+        {
+          "spriteId": "shop_ccheal_epoque#2",
+          "startTime": 1599712200,
+          "endTime": 1600887599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_187_ccheal@epoque#2",
+          "skinId": "char_187_ccheal@epoque#2"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_artdeco_2020",
+          "startTime": 1599712200,
+          "endTime": 1600887599,
+          "cmd": "FURNSHOP",
+          "param1": "artdeco_2020",
+          "skinId": ""
+        },
+        {
+          "spriteId": "shop_silent_sweep#1_r1",
+          "startTime": 1574146800,
+          "endTime": 1575313199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_108_silent@sweep#1_r1",
+          "skinId": "char_108_silent@sweep#1"
+        },
+        {
+          "spriteId": "shop_jesica_sweep#1_r1",
+          "startTime": 1574146800,
+          "endTime": 1575313199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_235_jesica@sweep#1_r1",
+          "skinId": "char_235_jesica@sweep#1"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_meteo_sweep#1_r1",
           "startTime": 1574146800,
           "endTime": 1575313199,
@@ -1833,22 +1889,6 @@
           "cmd": "FURNSHOP",
           "param1": "safetyZone_2019",
           "skinId": ""
-        },
-        {
-          "spriteId": "shop_silent_sweep#1_r1",
-          "startTime": 1574146800,
-          "endTime": 1575313199,
-          "cmd": "SKINSHOP",
-          "param1": "SS_char_108_silent@sweep#1_r1",
-          "skinId": "char_108_silent@sweep#1"
-        },
-        {
-          "spriteId": "shop_jesica_sweep#1_r1",
-          "startTime": 1574146800,
-          "endTime": 1575313199,
-          "cmd": "SKINSHOP",
-          "param1": "SS_char_235_jesica@sweep#1_r1",
-          "skinId": "char_235_jesica@sweep#1"
         }
       ]
     },
@@ -1860,18 +1900,6 @@
           "endTime": 1589914799,
           "cmd": "FURNSHOP",
           "param1": null,
-          "skinId": ""
-        }
-      ]
-    },
-    {
-      "items": [
-        {
-          "spriteId": "shop_beach_2020",
-          "startTime": 1588136400,
-          "endTime": 1590519599,
-          "cmd": "FURNSHOP",
-          "param1": "beach_2020",
           "skinId": ""
         }
       ]
