@@ -1922,7 +1922,7 @@
         ]
       }
     ],
-    "replicateActionId": null,
+    "replicateActionId": "",
     "storyCompleteMedalId": null
   },
   "act9d0": {
@@ -2294,7 +2294,7 @@
         ]
       }
     ],
-    "replicateActionId": null,
+    "replicateActionId": "",
     "storyCompleteMedalId": null
   },
   "act4d0": {
@@ -2478,7 +2478,7 @@
         "requiredStages": []
       }
     ],
-    "replicateActionId": null,
+    "replicateActionId": "",
     "storyCompleteMedalId": "medal_activity_4d0_01"
   },
   "act6d5": {
@@ -2578,7 +2578,7 @@
         "requiredStages": []
       }
     ],
-    "replicateActionId": null,
+    "replicateActionId": "",
     "storyCompleteMedalId": "medal_activity_6d5_01"
   },
   "act7d5": {
@@ -2741,7 +2741,7 @@
         "requiredStages": []
       }
     ],
-    "replicateActionId": null,
+    "replicateActionId": "",
     "storyCompleteMedalId": "medal_activity_7d5_01"
   },
   "act10d5": {
@@ -2925,7 +2925,7 @@
         "requiredStages": []
       }
     ],
-    "replicateActionId": null,
+    "replicateActionId": "",
     "storyCompleteMedalId": "medal_activity_10d5_01"
   },
   "act11d0": {
@@ -2937,7 +2937,7 @@
     "endTime": -1,
     "startShowTime": 1596052800,
     "endShowTime": -1,
-    "replicateActionId": null,
+    "replicateActionId": "",
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": "storyEntryPic_act11d0",
@@ -3497,7 +3497,7 @@
     "endTime": -1,
     "startShowTime": 1591041600,
     "endShowTime": -1,
-    "replicateActionId": null,
+    "replicateActionId": "",
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": null,
@@ -3883,7 +3883,7 @@
     "endTime": -1,
     "startShowTime": 1591041600,
     "endShowTime": -1,
-    "replicateActionId": null,
+    "replicateActionId": "",
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": null,
@@ -4227,7 +4227,7 @@
     "endTime": -1,
     "startShowTime": 1591041600,
     "endShowTime": -1,
-    "replicateActionId": null,
+    "replicateActionId": "",
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": null,
@@ -4787,7 +4787,7 @@
     "endTime": -1,
     "startShowTime": 1591041600,
     "endShowTime": -1,
-    "replicateActionId": null,
+    "replicateActionId": "",
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": null,
@@ -5239,7 +5239,7 @@
     "endTime": -1,
     "startShowTime": 1591041600,
     "endShowTime": -1,
-    "replicateActionId": null,
+    "replicateActionId": "",
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": null,
@@ -5799,7 +5799,7 @@
     "endTime": -1,
     "startShowTime": 1591041600,
     "endShowTime": -1,
-    "replicateActionId": null,
+    "replicateActionId": "",
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": null,
@@ -6278,7 +6278,7 @@
     "endTime": -1,
     "startShowTime": 1591041600,
     "endShowTime": -1,
-    "replicateActionId": null,
+    "replicateActionId": "",
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": null,
@@ -6856,10 +6856,37 @@
       },
       {
         "storyReviewType": 0,
+        "storyId": "main_6_level_main_06-12_end",
+        "storyGroup": "main_6",
+        "storySort": 20,
+        "storyDependence": "main_6_level_st_06-02",
+        "storyCanShow": 0,
+        "storyCode": "6-14",
+        "storyName": "冰原之霜",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_06-12_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_06-12_end",
+        "avgTag": "行动后",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_06-12",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
         "storyId": "main_6_level_main_06-13_beg",
         "storyGroup": "main_6",
         "storySort": 22,
-        "storyDependence": "main_6_level_st_06-02",
+        "storyDependence": "main_6_level_main_06-12_end",
         "storyCanShow": 0,
         "storyCode": "6-15",
         "storyName": "不错的回忆",
@@ -7000,7 +7027,7 @@
     "endTime": -1,
     "startShowTime": 1591041600,
     "endShowTime": -1,
-    "replicateActionId": null,
+    "replicateActionId": "",
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": null,
@@ -7560,7 +7587,7 @@
     "endTime": -1,
     "startShowTime": 1600113600,
     "endShowTime": -1,
-    "replicateActionId": null,
+    "replicateActionId": "",
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": "storyEntryPic_act12d0",
@@ -8135,6 +8162,189 @@
             "maxState": 3
           }
         ]
+      }
+    ]
+  },
+  "act13d0": {
+    "id": "act13d0",
+    "name": "踏寻往昔之风",
+    "entryType": "MINI_ACTIVITY",
+    "actType": "MINI_STORY",
+    "startTime": 1600920000,
+    "endTime": -1,
+    "startShowTime": 1601755200,
+    "endShowTime": -1,
+    "replicateActionId": "",
+    "remakeStartTime": -1,
+    "remakeEndTime": -1,
+    "storyEntryPicId": "storyEntryPic_act13d0",
+    "storyPicId": "storyPic_act13d0",
+    "storyMainColor": "fe3d11",
+    "storyCompleteMedalId": "medal_activity_13d0_01",
+    "rewards": [
+      {
+        "id": "4001",
+        "count": 5000,
+        "type": "GOLD"
+      },
+      {
+        "id": "2003",
+        "count": 5,
+        "type": "CARD_EXP"
+      },
+      {
+        "id": "30053",
+        "count": 2,
+        "type": "MATERIAL"
+      }
+    ],
+    "infoUnlockDatas": [
+      {
+        "storyReviewType": 0,
+        "storyId": "act13d0_level_act13d0_st01",
+        "storyGroup": "act13d0",
+        "storySort": 1,
+        "storyDependence": null,
+        "storyCanShow": 1,
+        "storyCode": "",
+        "storyName": "归处",
+        "storyPic": "storyMainPic_level_act13d0_st01",
+        "storyInfo": "info/activities/act13d0/level_act13d0_st01",
+        "storyCanEnter": 0,
+        "storyTxt": "activities/act13d0/level_act13d0_st01",
+        "avgTag": "幕间",
+        "unLockType": "USE_ITEM",
+        "costItemType": "MATERIAL",
+        "costItemId": "STORY_REVIEW_COIN",
+        "costItemCount": 1,
+        "stageCount": 0,
+        "requiredStages": []
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "act13d0_level_act13d0_st02",
+        "storyGroup": "act13d0",
+        "storySort": 2,
+        "storyDependence": null,
+        "storyCanShow": 1,
+        "storyCode": "",
+        "storyName": "域外同族",
+        "storyPic": "storyMainPic_level_act13d0_st02",
+        "storyInfo": "info/activities/act13d0/level_act13d0_st02",
+        "storyCanEnter": 0,
+        "storyTxt": "activities/act13d0/level_act13d0_st02",
+        "avgTag": "幕间",
+        "unLockType": "USE_ITEM",
+        "costItemType": "MATERIAL",
+        "costItemId": "STORY_REVIEW_COIN",
+        "costItemCount": 1,
+        "stageCount": 0,
+        "requiredStages": []
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "act13d0_level_act13d0_st03",
+        "storyGroup": "act13d0",
+        "storySort": 3,
+        "storyDependence": null,
+        "storyCanShow": 1,
+        "storyCode": "",
+        "storyName": "不知返",
+        "storyPic": "storyMainPic_level_act13d0_st03",
+        "storyInfo": "info/activities/act13d0/level_act13d0_st03",
+        "storyCanEnter": 0,
+        "storyTxt": "activities/act13d0/level_act13d0_st03",
+        "avgTag": "幕间",
+        "unLockType": "USE_ITEM",
+        "costItemType": "MATERIAL",
+        "costItemId": "STORY_REVIEW_COIN",
+        "costItemCount": 1,
+        "stageCount": 0,
+        "requiredStages": []
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "act13d0_level_act13d0_st04",
+        "storyGroup": "act13d0",
+        "storySort": 4,
+        "storyDependence": null,
+        "storyCanShow": 1,
+        "storyCode": "",
+        "storyName": " 回首",
+        "storyPic": "storyMainPic_level_act13d0_st04",
+        "storyInfo": "info/activities/act13d0/level_act13d0_st04",
+        "storyCanEnter": 0,
+        "storyTxt": "activities/act13d0/level_act13d0_st04",
+        "avgTag": "幕间",
+        "unLockType": "USE_ITEM",
+        "costItemType": "MATERIAL",
+        "costItemId": "STORY_REVIEW_COIN",
+        "costItemCount": 1,
+        "stageCount": 0,
+        "requiredStages": []
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "act13d0_level_act13d0_st05",
+        "storyGroup": "act13d0",
+        "storySort": 5,
+        "storyDependence": null,
+        "storyCanShow": 1,
+        "storyCode": "",
+        "storyName": "四月的歌",
+        "storyPic": "storyMainPic_level_act13d0_st05",
+        "storyInfo": "info/activities/act13d0/level_act13d0_st05",
+        "storyCanEnter": 0,
+        "storyTxt": "activities/act13d0/level_act13d0_st05",
+        "avgTag": "幕间",
+        "unLockType": "USE_ITEM",
+        "costItemType": "MATERIAL",
+        "costItemId": "STORY_REVIEW_COIN",
+        "costItemCount": 1,
+        "stageCount": 0,
+        "requiredStages": []
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "act13d0_level_act13d0_st06",
+        "storyGroup": "act13d0",
+        "storySort": 6,
+        "storyDependence": null,
+        "storyCanShow": 1,
+        "storyCode": "",
+        "storyName": "交错光影",
+        "storyPic": "storyMainPic_level_act13d0_st06",
+        "storyInfo": "info/activities/act13d0/level_act13d0_st06",
+        "storyCanEnter": 0,
+        "storyTxt": "activities/act13d0/level_act13d0_st06",
+        "avgTag": "幕间",
+        "unLockType": "USE_ITEM",
+        "costItemType": "MATERIAL",
+        "costItemId": "STORY_REVIEW_COIN",
+        "costItemCount": 1,
+        "stageCount": 0,
+        "requiredStages": []
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "act13d0_level_act13d0_st07",
+        "storyGroup": "act13d0",
+        "storySort": 7,
+        "storyDependence": null,
+        "storyCanShow": 1,
+        "storyCode": "",
+        "storyName": "天空的故事",
+        "storyPic": "storyMainPic_level_act13d0_st07",
+        "storyInfo": "info/activities/act13d0/level_act13d0_st07",
+        "storyCanEnter": 0,
+        "storyTxt": "activities/act13d0/level_act13d0_st07",
+        "avgTag": "幕间",
+        "unLockType": "USE_ITEM",
+        "costItemType": "MATERIAL",
+        "costItemId": "STORY_REVIEW_COIN",
+        "costItemCount": 1,
+        "stageCount": 0,
+        "requiredStages": []
       }
     ]
   }
