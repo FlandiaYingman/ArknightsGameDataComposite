@@ -8138,7 +8138,7 @@
     "weekly_110": {
       "id": "weekly_110",
       "sortId": 110,
-      "description": "Clear any stage 5 times while using friends' Support Units (including Contingency Contract stages)",
+      "description": "Clear any stage 5 times while using friends' Support Units",
       "type": "WEEKLY",
       "preMissionIds": null,
       "template": "StageWithAssistChar",
@@ -15885,7 +15885,7 @@
     "daily_2010": {
       "id": "daily_2010",
       "sortId": 2010,
-      "description": "Clear any stage using a Support Unit 1 time(s) (including Contingency Contract stages)",
+      "description": "Clear any stage using a Support Unit 1 times",
       "type": "DAILY",
       "preMissionIds": null,
       "template": "StageWithAssistChar",
@@ -16282,7 +16282,7 @@
     "daily_2110": {
       "id": "daily_2110",
       "sortId": 2110,
-      "description": "Clear any stage using a Support Unit 1 time(s) (including Contingency Contract stages)",
+      "description": "Clear any stage using a Support Unit 1 times",
       "type": "DAILY",
       "preMissionIds": null,
       "template": "StageWithAssistChar",
@@ -16679,7 +16679,7 @@
     "daily_2210": {
       "id": "daily_2210",
       "sortId": 2210,
-      "description": "Clear any stage using a Support Unit 1 time(s) (including Contingency Contract stages)",
+      "description": "Clear any stage using a Support Unit 1 times",
       "type": "DAILY",
       "preMissionIds": null,
       "template": "StageWithAssistChar",
@@ -17076,7 +17076,7 @@
     "daily_2310": {
       "id": "daily_2310",
       "sortId": 2310,
-      "description": "Clear any stage using a Support Unit 1 time(s) (including Contingency Contract stages)",
+      "description": "Clear any stage using a Support Unit 1 times",
       "type": "DAILY",
       "preMissionIds": null,
       "template": "StageWithAssistChar",
@@ -17273,6 +17273,2388 @@
       "unlockCondition": null,
       "unlockParam": null,
       "missionGroup": "daily_g_23",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2401": {
+      "id": "daily_2401",
+      "sortId": 2401,
+      "description": "Clear any stage 1 time (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2402": {
+      "id": "daily_2402",
+      "sortId": 2402,
+      "description": "Clear any stage 3 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2401"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2403": {
+      "id": "daily_2403",
+      "sortId": 2403,
+      "description": "Clear any stage 5 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2402"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2404": {
+      "id": "daily_2404",
+      "sortId": 2404,
+      "description": "Clear any stage 8 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2403"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "8"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 3,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2405": {
+      "id": "daily_2405",
+      "sortId": 2405,
+      "description": "Defeat a total of 1 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2406": {
+      "id": "daily_2406",
+      "sortId": 2406,
+      "description": "Defeat a total of 3 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2405"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2407": {
+      "id": "daily_2407",
+      "sortId": 2407,
+      "description": "Defeat a total of 200 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2408": {
+      "id": "daily_2408",
+      "sortId": 2408,
+      "description": "Defeat a total of 400 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2407"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2409": {
+      "id": "daily_2409",
+      "sortId": 2409,
+      "description": "Defeat a total of 600 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2408"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "600"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2410": {
+      "id": "daily_2410",
+      "sortId": 2410,
+      "description": "Clear any stage using a Support Unit 1 times",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithAssistChar",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2411": {
+      "id": "daily_2411",
+      "sortId": 2411,
+      "description": "Upgrade any Operator 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "UpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2412": {
+      "id": "daily_2412",
+      "sortId": 2412,
+      "description": "Collect Credit from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ReceiveSocialPoint",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2413": {
+      "id": "daily_2413",
+      "sortId": 2413,
+      "description": "Buy any items from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2414": {
+      "id": "daily_2414",
+      "sortId": 2414,
+      "description": "Use Recruitment 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2415": {
+      "id": "daily_2415",
+      "sortId": 2415,
+      "description": "Use Recruitment 3 time(s)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2414"
+      ],
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2416": {
+      "id": "daily_2416",
+      "sortId": 2416,
+      "description": "Interact with Operators in the Base and increase their Trust 5 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2417": {
+      "id": "daily_2417",
+      "sortId": 2417,
+      "description": "Collect Factory products 1 time(s) in total",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ManufactureItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2418": {
+      "id": "daily_2418",
+      "sortId": 2418,
+      "description": "Complete 1 orders",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2419": {
+      "id": "daily_2419",
+      "sortId": 2419,
+      "description": "Assign 3 Operators to restore Morale in the Dormitory",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_24",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2501": {
+      "id": "daily_2501",
+      "sortId": 2501,
+      "description": "Clear any stage 1 time (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2502": {
+      "id": "daily_2502",
+      "sortId": 2502,
+      "description": "Clear any stage 3 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2501"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2503": {
+      "id": "daily_2503",
+      "sortId": 2503,
+      "description": "Clear any stage 5 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2502"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2504": {
+      "id": "daily_2504",
+      "sortId": 2504,
+      "description": "Clear any stage 8 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2503"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "8"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 3,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2505": {
+      "id": "daily_2505",
+      "sortId": 2505,
+      "description": "Defeat a total of 1 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2506": {
+      "id": "daily_2506",
+      "sortId": 2506,
+      "description": "Defeat a total of 3 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2505"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2507": {
+      "id": "daily_2507",
+      "sortId": 2507,
+      "description": "Defeat a total of 200 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2508": {
+      "id": "daily_2508",
+      "sortId": 2508,
+      "description": "Defeat a total of 400 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2507"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2509": {
+      "id": "daily_2509",
+      "sortId": 2509,
+      "description": "Defeat a total of 600 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2508"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "600"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2510": {
+      "id": "daily_2510",
+      "sortId": 2510,
+      "description": "Clear any stage using a Support Unit 1 times",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithAssistChar",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2511": {
+      "id": "daily_2511",
+      "sortId": 2511,
+      "description": "Upgrade any Operator 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "UpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2512": {
+      "id": "daily_2512",
+      "sortId": 2512,
+      "description": "Collect Credit from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ReceiveSocialPoint",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2513": {
+      "id": "daily_2513",
+      "sortId": 2513,
+      "description": "Buy any items from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2514": {
+      "id": "daily_2514",
+      "sortId": 2514,
+      "description": "Use Recruitment 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2515": {
+      "id": "daily_2515",
+      "sortId": 2515,
+      "description": "Use Recruitment 3 time(s)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2514"
+      ],
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2516": {
+      "id": "daily_2516",
+      "sortId": 2516,
+      "description": "Interact with Operators in the Base and increase their Trust 5 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2517": {
+      "id": "daily_2517",
+      "sortId": 2517,
+      "description": "Collect Factory products 1 time(s) in total",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ManufactureItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2518": {
+      "id": "daily_2518",
+      "sortId": 2518,
+      "description": "Complete 1 orders",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2519": {
+      "id": "daily_2519",
+      "sortId": 2519,
+      "description": "Assign 3 Operators to restore Morale in the Dormitory",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_25",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2601": {
+      "id": "daily_2601",
+      "sortId": 2601,
+      "description": "Clear any stage 1 time (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2602": {
+      "id": "daily_2602",
+      "sortId": 2602,
+      "description": "Clear any stage 3 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2601"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2603": {
+      "id": "daily_2603",
+      "sortId": 2603,
+      "description": "Clear any stage 5 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2602"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2604": {
+      "id": "daily_2604",
+      "sortId": 2604,
+      "description": "Clear any stage 8 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2603"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "8"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 3,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2605": {
+      "id": "daily_2605",
+      "sortId": 2605,
+      "description": "Defeat a total of 1 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2606": {
+      "id": "daily_2606",
+      "sortId": 2606,
+      "description": "Defeat a total of 3 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2605"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2607": {
+      "id": "daily_2607",
+      "sortId": 2607,
+      "description": "Defeat a total of 200 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2608": {
+      "id": "daily_2608",
+      "sortId": 2608,
+      "description": "Defeat a total of 400 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2607"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2609": {
+      "id": "daily_2609",
+      "sortId": 2609,
+      "description": "Defeat a total of 600 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2608"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "600"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2610": {
+      "id": "daily_2610",
+      "sortId": 2610,
+      "description": "Clear any stage using a Support Unit 1 times",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithAssistChar",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2611": {
+      "id": "daily_2611",
+      "sortId": 2611,
+      "description": "Upgrade any Operator 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "UpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2612": {
+      "id": "daily_2612",
+      "sortId": 2612,
+      "description": "Collect Credit from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ReceiveSocialPoint",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2613": {
+      "id": "daily_2613",
+      "sortId": 2613,
+      "description": "Buy any items from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2614": {
+      "id": "daily_2614",
+      "sortId": 2614,
+      "description": "Use Recruitment 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2615": {
+      "id": "daily_2615",
+      "sortId": 2615,
+      "description": "Use Recruitment 3 time(s)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2614"
+      ],
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2616": {
+      "id": "daily_2616",
+      "sortId": 2616,
+      "description": "Interact with Operators in the Base and increase their Trust 5 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2617": {
+      "id": "daily_2617",
+      "sortId": 2617,
+      "description": "Collect Factory products 1 time(s) in total",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ManufactureItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2618": {
+      "id": "daily_2618",
+      "sortId": 2618,
+      "description": "Complete 1 orders",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2619": {
+      "id": "daily_2619",
+      "sortId": 2619,
+      "description": "Assign 3 Operators to restore Morale in the Dormitory",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_26",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2701": {
+      "id": "daily_2701",
+      "sortId": 2701,
+      "description": "Clear any stage 1 time (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2702": {
+      "id": "daily_2702",
+      "sortId": 2702,
+      "description": "Clear any stage 3 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2701"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2703": {
+      "id": "daily_2703",
+      "sortId": 2703,
+      "description": "Clear any stage 5 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2702"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2704": {
+      "id": "daily_2704",
+      "sortId": 2704,
+      "description": "Clear any stage 8 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2703"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "8"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 3,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2705": {
+      "id": "daily_2705",
+      "sortId": 2705,
+      "description": "Defeat a total of 1 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2706": {
+      "id": "daily_2706",
+      "sortId": 2706,
+      "description": "Defeat a total of 3 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2705"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2707": {
+      "id": "daily_2707",
+      "sortId": 2707,
+      "description": "Defeat a total of 200 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2708": {
+      "id": "daily_2708",
+      "sortId": 2708,
+      "description": "Defeat a total of 400 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2707"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2709": {
+      "id": "daily_2709",
+      "sortId": 2709,
+      "description": "Defeat a total of 600 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2708"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "600"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2710": {
+      "id": "daily_2710",
+      "sortId": 2710,
+      "description": "Clear any stage using a Support Unit 1 times",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithAssistChar",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2711": {
+      "id": "daily_2711",
+      "sortId": 2711,
+      "description": "Upgrade any Operator 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "UpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2712": {
+      "id": "daily_2712",
+      "sortId": 2712,
+      "description": "Collect Credit from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ReceiveSocialPoint",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2713": {
+      "id": "daily_2713",
+      "sortId": 2713,
+      "description": "Buy any items from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2714": {
+      "id": "daily_2714",
+      "sortId": 2714,
+      "description": "Use Recruitment 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2715": {
+      "id": "daily_2715",
+      "sortId": 2715,
+      "description": "Use Recruitment 3 time(s)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2714"
+      ],
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2716": {
+      "id": "daily_2716",
+      "sortId": 2716,
+      "description": "Interact with Operators in the Base and increase their Trust 5 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2717": {
+      "id": "daily_2717",
+      "sortId": 2717,
+      "description": "Collect Factory products 1 time(s) in total",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ManufactureItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2718": {
+      "id": "daily_2718",
+      "sortId": 2718,
+      "description": "Complete 1 orders",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2719": {
+      "id": "daily_2719",
+      "sortId": 2719,
+      "description": "Assign 3 Operators to restore Morale in the Dormitory",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_27",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2801": {
+      "id": "daily_2801",
+      "sortId": 2801,
+      "description": "Clear any stage 1 time (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2802": {
+      "id": "daily_2802",
+      "sortId": 2802,
+      "description": "Clear any stage 3 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2801"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2803": {
+      "id": "daily_2803",
+      "sortId": 2803,
+      "description": "Clear any stage 5 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2802"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2804": {
+      "id": "daily_2804",
+      "sortId": 2804,
+      "description": "Clear any stage 8 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2803"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "8"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 3,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2805": {
+      "id": "daily_2805",
+      "sortId": 2805,
+      "description": "Defeat a total of 1 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2806": {
+      "id": "daily_2806",
+      "sortId": 2806,
+      "description": "Defeat a total of 3 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2805"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2807": {
+      "id": "daily_2807",
+      "sortId": 2807,
+      "description": "Defeat a total of 200 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2808": {
+      "id": "daily_2808",
+      "sortId": 2808,
+      "description": "Defeat a total of 400 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2807"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2809": {
+      "id": "daily_2809",
+      "sortId": 2809,
+      "description": "Defeat a total of 600 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2808"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "600"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2810": {
+      "id": "daily_2810",
+      "sortId": 2810,
+      "description": "Clear any stage using a Support Unit 1 times",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithAssistChar",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2811": {
+      "id": "daily_2811",
+      "sortId": 2811,
+      "description": "Upgrade any Operator 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "UpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2812": {
+      "id": "daily_2812",
+      "sortId": 2812,
+      "description": "Collect Credit from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ReceiveSocialPoint",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2813": {
+      "id": "daily_2813",
+      "sortId": 2813,
+      "description": "Buy any items from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2814": {
+      "id": "daily_2814",
+      "sortId": 2814,
+      "description": "Use Recruitment 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2815": {
+      "id": "daily_2815",
+      "sortId": 2815,
+      "description": "Use Recruitment 3 time(s)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2814"
+      ],
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2816": {
+      "id": "daily_2816",
+      "sortId": 2816,
+      "description": "Interact with Operators in the Base and increase their Trust 5 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2817": {
+      "id": "daily_2817",
+      "sortId": 2817,
+      "description": "Collect Factory products 1 time(s) in total",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ManufactureItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2818": {
+      "id": "daily_2818",
+      "sortId": 2818,
+      "description": "Complete 1 orders",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2819": {
+      "id": "daily_2819",
+      "sortId": 2819,
+      "description": "Assign 3 Operators to restore Morale in the Dormitory",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_28",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2901": {
+      "id": "daily_2901",
+      "sortId": 2901,
+      "description": "Clear any stage 1 time (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2902": {
+      "id": "daily_2902",
+      "sortId": 2902,
+      "description": "Clear any stage 3 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2901"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2903": {
+      "id": "daily_2903",
+      "sortId": 2903,
+      "description": "Clear any stage 5 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2902"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2904": {
+      "id": "daily_2904",
+      "sortId": 2904,
+      "description": "Clear any stage 8 times (excluding Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2903"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "8"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 3,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2905": {
+      "id": "daily_2905",
+      "sortId": 2905,
+      "description": "Defeat a total of 1 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2906": {
+      "id": "daily_2906",
+      "sortId": 2906,
+      "description": "Defeat a total of 3 enemy leaders in Main Story stages",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2905"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2907": {
+      "id": "daily_2907",
+      "sortId": 2907,
+      "description": "Defeat a total of 200 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2908": {
+      "id": "daily_2908",
+      "sortId": 2908,
+      "description": "Defeat a total of 400 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2907"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2909": {
+      "id": "daily_2909",
+      "sortId": 2909,
+      "description": "Defeat a total of 600 enemies (excluding enemies defeated in Contingency Contract stages)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2908"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "1",
+      "param": [
+        "1",
+        "600"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2910": {
+      "id": "daily_2910",
+      "sortId": 2910,
+      "description": "Clear any stage using a Support Unit 1 times",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithAssistChar",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2911": {
+      "id": "daily_2911",
+      "sortId": 2911,
+      "description": "Upgrade any Operator 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "UpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2912": {
+      "id": "daily_2912",
+      "sortId": 2912,
+      "description": "Collect Credit from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ReceiveSocialPoint",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2913": {
+      "id": "daily_2913",
+      "sortId": 2913,
+      "description": "Buy any items from the Credit Store 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2914": {
+      "id": "daily_2914",
+      "sortId": 2914,
+      "description": "Use Recruitment 1 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2915": {
+      "id": "daily_2915",
+      "sortId": 2915,
+      "description": "Use Recruitment 3 time(s)",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_2914"
+      ],
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2916": {
+      "id": "daily_2916",
+      "sortId": 2916,
+      "description": "Interact with Operators in the Base and increase their Trust 5 time(s)",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2917": {
+      "id": "daily_2917",
+      "sortId": 2917,
+      "description": "Collect Factory products 1 time(s) in total",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ManufactureItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2918": {
+      "id": "daily_2918",
+      "sortId": 2918,
+      "description": "Complete 1 orders",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_2919": {
+      "id": "daily_2919",
+      "sortId": 2919,
+      "description": "Assign 3 Operators to restore Morale in the Dormitory",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_29",
       "toPage": null,
       "periodicalPoint": 1,
       "rewards": null,
@@ -19722,6 +22104,192 @@
         "daily_2317",
         "daily_2318",
         "daily_2319"
+      ],
+      "startTs": -1,
+      "endTs": -1
+    },
+    "daily_g_24": {
+      "id": "daily_g_24",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "daily_2401",
+        "daily_2402",
+        "daily_2403",
+        "daily_2404",
+        "daily_2405",
+        "daily_2406",
+        "daily_2407",
+        "daily_2408",
+        "daily_2409",
+        "daily_2410",
+        "daily_2411",
+        "daily_2412",
+        "daily_2413",
+        "daily_2414",
+        "daily_2415",
+        "daily_2416",
+        "daily_2417",
+        "daily_2418",
+        "daily_2419"
+      ],
+      "startTs": -1,
+      "endTs": -1
+    },
+    "daily_g_25": {
+      "id": "daily_g_25",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "daily_2501",
+        "daily_2502",
+        "daily_2503",
+        "daily_2504",
+        "daily_2505",
+        "daily_2506",
+        "daily_2507",
+        "daily_2508",
+        "daily_2509",
+        "daily_2510",
+        "daily_2511",
+        "daily_2512",
+        "daily_2513",
+        "daily_2514",
+        "daily_2515",
+        "daily_2516",
+        "daily_2517",
+        "daily_2518",
+        "daily_2519"
+      ],
+      "startTs": -1,
+      "endTs": -1
+    },
+    "daily_g_26": {
+      "id": "daily_g_26",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "daily_2601",
+        "daily_2602",
+        "daily_2603",
+        "daily_2604",
+        "daily_2605",
+        "daily_2606",
+        "daily_2607",
+        "daily_2608",
+        "daily_2609",
+        "daily_2610",
+        "daily_2611",
+        "daily_2612",
+        "daily_2613",
+        "daily_2614",
+        "daily_2615",
+        "daily_2616",
+        "daily_2617",
+        "daily_2618",
+        "daily_2619"
+      ],
+      "startTs": -1,
+      "endTs": -1
+    },
+    "daily_g_27": {
+      "id": "daily_g_27",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "daily_2701",
+        "daily_2702",
+        "daily_2703",
+        "daily_2704",
+        "daily_2705",
+        "daily_2706",
+        "daily_2707",
+        "daily_2708",
+        "daily_2709",
+        "daily_2710",
+        "daily_2711",
+        "daily_2712",
+        "daily_2713",
+        "daily_2714",
+        "daily_2715",
+        "daily_2716",
+        "daily_2717",
+        "daily_2718",
+        "daily_2719"
+      ],
+      "startTs": -1,
+      "endTs": -1
+    },
+    "daily_g_28": {
+      "id": "daily_g_28",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "daily_2801",
+        "daily_2802",
+        "daily_2803",
+        "daily_2804",
+        "daily_2805",
+        "daily_2806",
+        "daily_2807",
+        "daily_2808",
+        "daily_2809",
+        "daily_2810",
+        "daily_2811",
+        "daily_2812",
+        "daily_2813",
+        "daily_2814",
+        "daily_2815",
+        "daily_2816",
+        "daily_2817",
+        "daily_2818",
+        "daily_2819"
+      ],
+      "startTs": -1,
+      "endTs": -1
+    },
+    "daily_g_29": {
+      "id": "daily_g_29",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "daily_2901",
+        "daily_2902",
+        "daily_2903",
+        "daily_2904",
+        "daily_2905",
+        "daily_2906",
+        "daily_2907",
+        "daily_2908",
+        "daily_2909",
+        "daily_2910",
+        "daily_2911",
+        "daily_2912",
+        "daily_2913",
+        "daily_2914",
+        "daily_2915",
+        "daily_2916",
+        "daily_2917",
+        "daily_2918",
+        "daily_2919"
       ],
       "startTs": -1,
       "endTs": -1
@@ -23282,6 +25850,1000 @@
           "count": 60
         }
       ]
+    },
+    "reward_daily_214": {
+      "groupId": "reward_daily_g_24",
+      "id": "reward_daily_214",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 1,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 500
+        }
+      ]
+    },
+    "reward_daily_215": {
+      "groupId": "reward_daily_g_24",
+      "id": "reward_daily_215",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 2,
+      "rewards": [
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_216": {
+      "groupId": "reward_daily_g_24",
+      "id": "reward_daily_216",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 3,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 1000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3301",
+          "count": 2
+        }
+      ]
+    },
+    "reward_daily_217": {
+      "groupId": "reward_daily_g_24",
+      "id": "reward_daily_217",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 4,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "30012",
+          "count": 3
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30032",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_218": {
+      "groupId": "reward_daily_g_24",
+      "id": "reward_daily_218",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 5,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_219": {
+      "groupId": "reward_daily_g_24",
+      "id": "reward_daily_219",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 6,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 2000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3112",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_220": {
+      "groupId": "reward_daily_g_24",
+      "id": "reward_daily_220",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 7,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 5
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30062",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_221": {
+      "groupId": "reward_daily_g_24",
+      "id": "reward_daily_221",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 8,
+      "rewards": [
+        {
+          "type": "TKT_INST_FIN",
+          "id": "7002",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2002",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_222": {
+      "groupId": "reward_daily_g_24",
+      "id": "reward_daily_222",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 9,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 100
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3003",
+          "count": 8
+        }
+      ]
+    },
+    "reward_daily_223": {
+      "groupId": "reward_daily_g_24",
+      "id": "reward_daily_223",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 10,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 10
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 60
+        }
+      ]
+    },
+    "reward_daily_224": {
+      "groupId": "reward_daily_g_25",
+      "id": "reward_daily_224",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 1,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 500
+        }
+      ]
+    },
+    "reward_daily_225": {
+      "groupId": "reward_daily_g_25",
+      "id": "reward_daily_225",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 2,
+      "rewards": [
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_226": {
+      "groupId": "reward_daily_g_25",
+      "id": "reward_daily_226",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 3,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 1000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3301",
+          "count": 2
+        }
+      ]
+    },
+    "reward_daily_227": {
+      "groupId": "reward_daily_g_25",
+      "id": "reward_daily_227",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 4,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "31013",
+          "count": 2
+        },
+        {
+          "type": "VOUCHER_MGACHA",
+          "id": "randomMaterial_1",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_228": {
+      "groupId": "reward_daily_g_25",
+      "id": "reward_daily_228",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 5,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_229": {
+      "groupId": "reward_daily_g_25",
+      "id": "reward_daily_229",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 6,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 2000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3112",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_230": {
+      "groupId": "reward_daily_g_25",
+      "id": "reward_daily_230",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 7,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 100
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 60
+        }
+      ]
+    },
+    "reward_daily_231": {
+      "groupId": "reward_daily_g_25",
+      "id": "reward_daily_231",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 8,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2002",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_232": {
+      "groupId": "reward_daily_g_25",
+      "id": "reward_daily_232",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 9,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 150
+        },
+        {
+          "type": "MATERIAL",
+          "id": "31014",
+          "count": 2
+        }
+      ]
+    },
+    "reward_daily_233": {
+      "groupId": "reward_daily_g_25",
+      "id": "reward_daily_233",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 10,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 5
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 80
+        }
+      ]
+    },
+    "reward_daily_234": {
+      "groupId": "reward_daily_g_26",
+      "id": "reward_daily_234",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 1,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 500
+        }
+      ]
+    },
+    "reward_daily_235": {
+      "groupId": "reward_daily_g_26",
+      "id": "reward_daily_235",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 2,
+      "rewards": [
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_236": {
+      "groupId": "reward_daily_g_26",
+      "id": "reward_daily_236",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 3,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 1000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3301",
+          "count": 2
+        }
+      ]
+    },
+    "reward_daily_237": {
+      "groupId": "reward_daily_g_26",
+      "id": "reward_daily_237",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 4,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "30022",
+          "count": 3
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30042",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_238": {
+      "groupId": "reward_daily_g_26",
+      "id": "reward_daily_238",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 5,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_239": {
+      "groupId": "reward_daily_g_26",
+      "id": "reward_daily_239",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 6,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 2000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3112",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_240": {
+      "groupId": "reward_daily_g_26",
+      "id": "reward_daily_240",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 7,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 5
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30052",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_241": {
+      "groupId": "reward_daily_g_26",
+      "id": "reward_daily_241",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 8,
+      "rewards": [
+        {
+          "type": "TKT_INST_FIN",
+          "id": "7002",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2002",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_242": {
+      "groupId": "reward_daily_g_26",
+      "id": "reward_daily_242",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 9,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 100
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3003",
+          "count": 8
+        }
+      ]
+    },
+    "reward_daily_243": {
+      "groupId": "reward_daily_g_26",
+      "id": "reward_daily_243",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 10,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 10
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 60
+        }
+      ]
+    },
+    "reward_daily_244": {
+      "groupId": "reward_daily_g_27",
+      "id": "reward_daily_244",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 1,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 500
+        }
+      ]
+    },
+    "reward_daily_245": {
+      "groupId": "reward_daily_g_27",
+      "id": "reward_daily_245",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 2,
+      "rewards": [
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_246": {
+      "groupId": "reward_daily_g_27",
+      "id": "reward_daily_246",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 3,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 1000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3301",
+          "count": 2
+        }
+      ]
+    },
+    "reward_daily_247": {
+      "groupId": "reward_daily_g_27",
+      "id": "reward_daily_247",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 4,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "31023",
+          "count": 2
+        },
+        {
+          "type": "VOUCHER_MGACHA",
+          "id": "randomMaterial_1",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_248": {
+      "groupId": "reward_daily_g_27",
+      "id": "reward_daily_248",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 5,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_249": {
+      "groupId": "reward_daily_g_27",
+      "id": "reward_daily_249",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 6,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 2000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3112",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_250": {
+      "groupId": "reward_daily_g_27",
+      "id": "reward_daily_250",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 7,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 100
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 60
+        }
+      ]
+    },
+    "reward_daily_251": {
+      "groupId": "reward_daily_g_27",
+      "id": "reward_daily_251",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 8,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2002",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_252": {
+      "groupId": "reward_daily_g_27",
+      "id": "reward_daily_252",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 9,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 150
+        },
+        {
+          "type": "MATERIAL",
+          "id": "31024",
+          "count": 2
+        }
+      ]
+    },
+    "reward_daily_253": {
+      "groupId": "reward_daily_g_27",
+      "id": "reward_daily_253",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 10,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 5
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 80
+        }
+      ]
+    },
+    "reward_daily_254": {
+      "groupId": "reward_daily_g_28",
+      "id": "reward_daily_254",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 1,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 500
+        }
+      ]
+    },
+    "reward_daily_255": {
+      "groupId": "reward_daily_g_28",
+      "id": "reward_daily_255",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 2,
+      "rewards": [
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_256": {
+      "groupId": "reward_daily_g_28",
+      "id": "reward_daily_256",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 3,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 1000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3301",
+          "count": 2
+        }
+      ]
+    },
+    "reward_daily_257": {
+      "groupId": "reward_daily_g_28",
+      "id": "reward_daily_257",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 4,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_258": {
+      "groupId": "reward_daily_g_28",
+      "id": "reward_daily_258",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 5,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 2000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3112",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_259": {
+      "groupId": "reward_daily_g_28",
+      "id": "reward_daily_259",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 6,
+      "rewards": [
+        {
+          "type": "TKT_INST_FIN",
+          "id": "7002",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2002",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_260": {
+      "groupId": "reward_daily_g_28",
+      "id": "reward_daily_260",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 7,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 100
+        }
+      ]
+    },
+    "reward_daily_261": {
+      "groupId": "reward_daily_g_28",
+      "id": "reward_daily_261",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 8,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 5
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 60
+        }
+      ]
+    },
+    "reward_daily_262": {
+      "groupId": "reward_daily_g_29",
+      "id": "reward_daily_262",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 1,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 500
+        }
+      ]
+    },
+    "reward_daily_263": {
+      "groupId": "reward_daily_g_29",
+      "id": "reward_daily_263",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 2,
+      "rewards": [
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_264": {
+      "groupId": "reward_daily_g_29",
+      "id": "reward_daily_264",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 3,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 1000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3301",
+          "count": 2
+        }
+      ]
+    },
+    "reward_daily_265": {
+      "groupId": "reward_daily_g_29",
+      "id": "reward_daily_265",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 4,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_266": {
+      "groupId": "reward_daily_g_29",
+      "id": "reward_daily_266",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 5,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 2000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3112",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_267": {
+      "groupId": "reward_daily_g_29",
+      "id": "reward_daily_267",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 6,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2002",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_268": {
+      "groupId": "reward_daily_g_29",
+      "id": "reward_daily_268",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 7,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 100
+        }
+      ]
+    },
+    "reward_daily_269": {
+      "groupId": "reward_daily_g_29",
+      "id": "reward_daily_269",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 8,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 5
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 60
+        }
+      ]
     }
   },
   "weeklyRewards": {
@@ -23514,13 +27076,39 @@
   },
   "dailyMissionPeriodInfo": [
     {
-      "startTime": 1577919600,
-      "endTime": 1586948399,
+      "startTime": 1597230000,
+      "endTime": 1598439599,
+      "tagState": "ACT_MISSION_IMG",
+      "periodList": [
+        {
+          "missionGroupId": "daily_g_20",
+          "rewardGroupId": "reward_daily_g_20",
+          "period": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "missionGroupId": "daily_g_21",
+          "rewardGroupId": "reward_daily_g_21",
+          "period": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 1598439600,
+      "endTime": 1602673199,
       "tagState": null,
       "periodList": [
         {
-          "missionGroupId": "daily_g_1",
-          "rewardGroupId": "reward_daily_g_1",
+          "missionGroupId": "daily_g_22",
+          "rewardGroupId": "reward_daily_g_22",
           "period": [
             1,
             2,
@@ -23530,8 +27118,8 @@
           ]
         },
         {
-          "missionGroupId": "daily_g_2",
-          "rewardGroupId": "reward_daily_g_2",
+          "missionGroupId": "daily_g_23",
+          "rewardGroupId": "reward_daily_g_23",
           "period": [
             6,
             7
@@ -23540,13 +27128,13 @@
       ]
     },
     {
-      "startTime": 1586948400,
-      "endTime": 1588157999,
+      "startTime": 1602673200,
+      "endTime": 1603277999,
       "tagState": "ACT_MISSION_IMG",
       "periodList": [
         {
-          "missionGroupId": "daily_g_3",
-          "rewardGroupId": "reward_daily_g_3",
+          "missionGroupId": "daily_g_24",
+          "rewardGroupId": "reward_daily_g_24",
           "period": [
             1,
             2,
@@ -23556,8 +27144,8 @@
           ]
         },
         {
-          "missionGroupId": "daily_g_4",
-          "rewardGroupId": "reward_daily_g_4",
+          "missionGroupId": "daily_g_25",
+          "rewardGroupId": "reward_daily_g_25",
           "period": [
             6,
             7
@@ -23566,39 +27154,13 @@
       ]
     },
     {
-      "startTime": 1588158000,
-      "endTime": 1588244399,
-      "tagState": "",
-      "periodList": [
-        {
-          "missionGroupId": "daily_g_1",
-          "rewardGroupId": "reward_daily_g_1",
-          "period": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ]
-        },
-        {
-          "missionGroupId": "daily_g_6",
-          "rewardGroupId": "reward_daily_g_6",
-          "period": [
-            6,
-            7
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": 1588244400,
-      "endTime": 1589367599,
+      "startTime": 1603278000,
+      "endTime": 1603882799,
       "tagState": "ACT_MISSION_IMG",
       "periodList": [
         {
-          "missionGroupId": "daily_g_7",
-          "rewardGroupId": "reward_daily_g_7",
+          "missionGroupId": "daily_g_26",
+          "rewardGroupId": "reward_daily_g_26",
           "period": [
             1,
             2,
@@ -23608,17 +27170,25 @@
             6,
             7
           ]
+        },
+        {
+          "missionGroupId": "daily_g_27",
+          "rewardGroupId": "reward_daily_g_27",
+          "period": [
+            6,
+            7
+          ]
         }
       ]
     },
     {
-      "startTime": 1589367600,
-      "endTime": 1594897199,
+      "startTime": 1603882800,
+      "endTime": 1635418799,
       "tagState": null,
       "periodList": [
         {
-          "missionGroupId": "daily_g_8",
-          "rewardGroupId": "reward_daily_g_8",
+          "missionGroupId": "daily_g_28",
+          "rewardGroupId": "reward_daily_g_28",
           "period": [
             1,
             2,
@@ -23628,8 +27198,8 @@
           ]
         },
         {
-          "missionGroupId": "daily_g_9",
-          "rewardGroupId": "reward_daily_g_9",
+          "missionGroupId": "daily_g_29",
+          "rewardGroupId": "reward_daily_g_29",
           "period": [
             6,
             7
