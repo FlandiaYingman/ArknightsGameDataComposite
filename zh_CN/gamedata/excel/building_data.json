@@ -7435,6 +7435,125 @@
           ]
         }
       ]
+    },
+    "char_391_rosmon": {
+      "charId": "char_391_rosmon",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_bd_n1[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_bd[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "manu_prod_spd_bd[010]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_311_mudrok": {
+      "charId": "char_311_mudrok",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost4[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_device[050]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_436_whispr": {
+      "charId": "char_436_whispr",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "hire_spd_bd_n1_n1[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "hire_spd_bd_n1[000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_347_jaksel": {
+      "charId": "char_347_jaksel",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_single&oneself[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd[0010]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -10365,6 +10484,90 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "进驻制造站时，生产<@cc.kw>作战记录</>类配方时，仓库容量上限<@cc.vup>+12</>"
+    },
+    "manu_prod_spd_bd_n1[000]": {
+      "buffId": "manu_prod_spd_bd_n1[000]",
+      "buffName": "超感",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_bd_n1",
+      "sortId": 3610,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "进驻制造站时，宿舍内每有<@cc.kw>1</>名干员则<@cc.rem>感知信息</><@cc.vup>+1</>，同时每<@cc.vup>1</>点<@cc.rem>感知信息</>转化为<@cc.vup>1</>点<@cc.rem>思维链环</>"
+    },
+    "manu_prod_spd_bd[000]": {
+      "buffId": "manu_prod_spd_bd[000]",
+      "buffName": "念力",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_bd1",
+      "sortId": 3610,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "进驻制造站时，每<@cc.vup>2</>点<@cc.rem>思维链环</><@cc.vup>+1%</>生产力"
+    },
+    "manu_prod_spd_bd[010]": {
+      "buffId": "manu_prod_spd_bd[010]",
+      "buffName": "意识实体",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_bd2",
+      "sortId": 3610,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "进驻制造站时，每<@cc.vup>1</>点<@cc.rem>思维链环</><@cc.vup>+1%</>生产力"
+    },
+    "workshop_formula_cost4[000]": {
+      "buffId": "workshop_formula_cost4[000]",
+      "buffName": "执著",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_constant",
+      "sortId": 7546,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工<@cc.kw>精英材料</>时，相应配方的心情消耗恒定为<@cc.vup>2</>"
+    },
+    "workshop_formula_device[050]": {
+      "buffId": "workshop_formula_device[050]",
+      "buffName": "DIY·源岩",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_orirock",
+      "sortId": 7546,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工<@cc.kw>源岩</>类材料时，副产品的产出概率提升<@cc.vup>90%</>"
+    },
+    "hire_spd_bd_n1_n1[000]": {
+      "buffId": "hire_spd_bd_n1_n1[000]",
+      "buffName": "巡游",
+      "buffIcon": "hire",
+      "skillIcon": "bskill_hire_spd_bd_n1_n1",
+      "sortId": 8051,
+      "buffColor": "#565656",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "HIRE",
+      "description": "进驻人力办公室时，人脉资源的联络速度<@cc.vup>+20%</>，同时每个招募位（不包含初始招募位）<@cc.vup>+10</>点<@cc.rem>记忆碎片</>"
+    },
+    "hire_spd_bd_n1[000]": {
+      "buffId": "hire_spd_bd_n1[000]",
+      "buffName": "追忆",
+      "buffIcon": "hire",
+      "skillIcon": "bskill_hire_spd_memento",
+      "sortId": 8051,
+      "buffColor": "#565656",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "HIRE",
+      "description": "进驻人力办公室时，每<@cc.vup>1</>点<@cc.rem>记忆碎片</>转化为<@cc.vup>1</>点<@cc.rem>感知信息</>，心情耗尽时清空所有<@cc.rem>记忆碎片</>和<@cc.rem>感知信息</>"
     }
   },
   "customData": {
