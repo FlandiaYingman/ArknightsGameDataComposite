@@ -2956,7 +2956,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_formula_spd[201]",
+              "buffId": "manu_formula_spd[210]",
               "cond": {
                 "phase": 1,
                 "level": 1
@@ -3600,7 +3600,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_formula_spd[210]",
+              "buffId": "manu_formula_spd[211]",
               "cond": {
                 "phase": 1,
                 "level": 1
@@ -4935,7 +4935,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_formula_spd[211]",
+              "buffId": "manu_formula_spd[213]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -5570,7 +5570,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_formula_spd[220]",
+              "buffId": "manu_formula_spd[212]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -6525,7 +6525,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_formula_limit[000]",
+              "buffId": "manu_formula_limit[010]",
               "cond": {
                 "phase": 1,
                 "level": 1
@@ -6580,7 +6580,62 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_limit&cost[010]",
+              "buffId": "manu_prod_limit&cost[020]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_344_beewax": {
+      "charId": "char_344_beewax",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[050]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd&profession[051]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_349_chiave": {
+      "charId": "char_349_chiave",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost3[110]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_device[000]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -6602,7 +6657,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "制御中枢配置時、全貿易所の受注効率<@cc.vup>+7%</>（同種の効果は高いほうのみ適応）",
-      "sortId": 1302
+      "sortId": 1303
     },
     "control_mp_cost[000]": {
       "buffId": "control_mp_cost[000]",
@@ -6710,7 +6765,7 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "製造所配置時、製造効率<@cc.vup>+15%</>",
-      "sortId": 3502
+      "sortId": 3531
     },
     "manu_prod_spd[001]": {
       "buffId": "manu_prod_spd[001]",
@@ -6722,7 +6777,7 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "製造所配置時、製造効率<@cc.vup>+25%</>",
-      "sortId": 3533
+      "sortId": 3553
     },
     "manu_prod_spd[010]": {
       "buffId": "manu_prod_spd[010]",
@@ -6734,7 +6789,7 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "製造所配置時、製造効率<@cc.vup>+15%</>",
-      "sortId": 3503
+      "sortId": 3532
     },
     "manu_prod_spd[011]": {
       "buffId": "manu_prod_spd[011]",
@@ -6746,7 +6801,7 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "製造所配置時、製造効率<@cc.vup>+25%</>",
-      "sortId": 3534
+      "sortId": 3554
     },
     "manu_prod_spd[020]": {
       "buffId": "manu_prod_spd[020]",
@@ -6758,7 +6813,7 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "製造所配置時、製造効率<@cc.vup>+30%</>",
-      "sortId": 3541
+      "sortId": 3561
     },
     "manu_prod_spd_addition[030]": {
       "buffId": "manu_prod_spd_addition[030]",
@@ -6770,7 +6825,7 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "製造所配置時、最初の1時間製造効率<@cc.vup>+20%</>、その後まで1時間ごと更に<@cc.vup>+1%</>、最終的に<@cc.vup>+25%</>になる",
-      "sortId": 3513
+      "sortId": 3541
     },
     "manu_prod_spd_addition[040]": {
       "buffId": "manu_prod_spd_addition[040]",
@@ -6782,7 +6837,7 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "製造所配置時、最初の1時間製造効率<@cc.vup>+15%</>、その後まで1時間ごと更に<@cc.vup>+2%</>、最終的に<@cc.vup>+25%</>になる",
-      "sortId": 3511
+      "sortId": 3534
     },
     "manu_prod_spd&limit[000]": {
       "buffId": "manu_prod_spd&limit[000]",
@@ -6906,7 +6961,7 @@
     },
     "manu_formula_spd[210]": {
       "buffId": "manu_formula_spd[210]",
-      "buffName": "地質学者",
+      "buffName": "源石工芸β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_originium2",
       "buffColor": "#ffd800",
@@ -6914,11 +6969,11 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>",
-      "sortId": 3004
+      "sortId": 3003
     },
     "manu_formula_spd[211]": {
       "buffId": "manu_formula_spd[211]",
-      "buffName": "火山学者",
+      "buffName": "地質学β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_originium2",
       "buffColor": "#ffd800",
@@ -6926,7 +6981,7 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>",
-      "sortId": 3006
+      "sortId": 3022
     },
     "trade_ord_spd[000]": {
       "buffId": "trade_ord_spd[000]",
@@ -7022,7 +7077,7 @@
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
       "description": "貿易所配置時、受注効率<@cc.vup>+15%</>、注文上限<@cc.vup>+2</>",
-      "sortId": 4201
+      "sortId": 4102
     },
     "trade_ord_spd&limit[021]": {
       "buffId": "trade_ord_spd&limit[021]",
@@ -7214,7 +7269,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+70%</>",
-      "sortId": 7501
+      "sortId": 7511
     },
     "workshop_formula_probability[110]": {
       "buffId": "workshop_formula_probability[110]",
@@ -7226,7 +7281,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+75%</>",
-      "sortId": 7511
+      "sortId": 7521
     },
     "workshop_formula_probability[120]": {
       "buffId": "workshop_formula_probability[120]",
@@ -7238,7 +7293,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+75%</>",
-      "sortId": 7512
+      "sortId": 7522
     },
     "workshop_formula_probability[121]": {
       "buffId": "workshop_formula_probability[121]",
@@ -7250,7 +7305,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>",
-      "sortId": 7522
+      "sortId": 7532
     },
     "workshop_formula_probability[130]": {
       "buffId": "workshop_formula_probability[130]",
@@ -7262,7 +7317,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+75%</>",
-      "sortId": 7513
+      "sortId": 7523
     },
     "workshop_formula_probability[131]": {
       "buffId": "workshop_formula_probability[131]",
@@ -7274,7 +7329,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>",
-      "sortId": 7523
+      "sortId": 7533
     },
     "workshop_formula_probability[200]": {
       "buffId": "workshop_formula_probability[200]",
@@ -7526,7 +7581,7 @@
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.7</>",
-      "sortId": 5002
+      "sortId": 5001
     },
     "dorm_rec_oneself[010]": {
       "buffId": "dorm_rec_oneself[010]",
@@ -7742,7 +7797,7 @@
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vdown>-0.1</>。配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.2</>（同種の効果は高いほうのみ適応）",
-      "sortId": 5403
+      "sortId": 5401
     },
     "dorm_rec_all&oneself[001]": {
       "buffId": "dorm_rec_all&oneself[001]",
@@ -7873,7 +7928,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ライン生命</>の手がかりを入手しやすい",
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ライン生命</>の手がかりを入手しやすい（勤務時間が確率に影響する）",
       "sortId": 6121
     },
     "meet_spd&team[030]": {
@@ -7885,7 +7940,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>BSW</>の手がかりを入手しやすい",
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>BSW</>の手がかりを入手しやすい（勤務時間が確率に影響する）",
       "sortId": 6321
     },
     "meet_spd&team[040]": {
@@ -7897,7 +7952,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>カランド貿易</>の手がかりを入手しやすい",
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>カランド貿易</>の手がかりを入手しやすい（勤務時間が確率に影響する）",
       "sortId": 6621
     },
     "meet_spd&team[050]": {
@@ -7909,7 +7964,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ウルサス学生自治団</>の手がかりを入手しやすい",
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ウルサス学生自治団</>の手がかりを入手しやすい（勤務時間が確率に影響する）",
       "sortId": 6421
     },
     "meet_spd&team[060]": {
@@ -7921,7 +7976,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ロドス製薬</>の手がかりを入手しやすい",
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ロドス製薬</>の手がかりを入手しやすい（勤務時間が確率に影響する）",
       "sortId": 6721
     },
     "meet_spd&team[070]": {
@@ -7933,7 +7988,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>グラスゴー</>の手がかりを入手しやすい",
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>グラスゴー</>の手がかりを入手しやすい（勤務時間が確率に影響する）",
       "sortId": 6522
     },
     "manu_formula_spd[200]": {
@@ -7970,7 +8025,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "制御中枢配置時、全貿易所の受注効率<@cc.vup>+7%</>（同種の効果は高いほうのみ適応）",
-      "sortId": 1301
+      "sortId": 1302
     },
     "control_mp_cost&faction[000]": {
       "buffId": "control_mp_cost&faction[000]",
@@ -8006,7 +8061,7 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "製造所配置時、製造効率<@cc.vup>+25%</>、保管上限<@cc.vdown>-12</>、体力消費が1時間ごと<@cc.vdown>+0.25</>",
-      "sortId": 3531
+      "sortId": 3551
     },
     "dorm_rec_single&oneself[020]": {
       "buffId": "dorm_rec_single&oneself[020]",
@@ -8113,7 +8168,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.55</>",
+      "description": "宿舎休養時、自身の体力回復速度が1時間ごと<@cc.vup>+0.55</>（同種の効果は高いほうのみ適応）",
       "sortId": 5001
     },
     "dorm_rec_all&oneself[011]": {
@@ -8125,7 +8180,7 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.1</>（同種の効果は高いほうのみ適応）",
+      "description": "宿舎休養時、配置宿舎内、全員の体力回復速度が1時間ごと<@cc.vup>+0.1</>（同種の効果は高いほうのみ適応）",
       "sortId": 5302
     },
     "dorm_rec_all&oneself[012]": {
@@ -8198,7 +8253,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>",
-      "sortId": 7524
+      "sortId": 7534
     },
     "workshop_formula_probability[111]": {
       "buffId": "workshop_formula_probability[111]",
@@ -8210,7 +8265,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "加工所で<@cc.kw>昇進素材</>を加工時、副産物の入手確率<@cc.vup>+80%</>",
-      "sortId": 7521
+      "sortId": 7531
     },
     "train_spd&profession[140]": {
       "buffId": "train_spd&profession[140]",
@@ -8233,8 +8288,8 @@
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
-      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.55</>。対象が<@cc.kw>セイロン</>の場合、更に<@cc.vup>+0.45</>（同種の効果は高いほうのみ適応）",
-      "sortId": 5202
+      "description": "配置宿舎内、自身以外のオペレーター1人の体力回復速度が1時間ごと<@cc.vup>+0.55</>（同種の効果は高いほうのみ適応）。対象が<@cc.kw>セイロン</>の場合、更に<@cc.vup>+0.45</>",
+      "sortId": 5203
     },
     "control_mp_cost[002]": {
       "buffId": "control_mp_cost[002]",
@@ -8270,7 +8325,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
       "description": "事務室配置時、事務連絡速度<@cc.vup>+40%</>",
-      "sortId": 8032
+      "sortId": 8033
     },
     "meet_spd&team[071]": {
       "buffId": "meet_spd&team[071]",
@@ -8281,7 +8336,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>グラスゴー</>の手がかりを入手しやすい",
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>グラスゴー</>の手がかりを入手しやすい（勤務時間が確率に影響する）",
       "sortId": 6521
     },
     "manu_prod_limit&cost[0000]": {
@@ -8366,7 +8421,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、<@cc.kw>ペンギン急便</>の手がかりを入手しやすい"
+      "description": "応接室配置時、<@cc.kw>ペンギン急便</>の手がかりを入手しやすい（勤務時間が確率に影響する）"
     },
     "meet_spd&team[020]": {
       "buffId": "meet_spd&team[020]",
@@ -8378,7 +8433,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ペンギン急便</>の手がかりを入手しやすい"
+      "description": "応接室配置時、手がかり捜索速度<@cc.vup>+10%</>、<@cc.kw>ペンギン急便</>の手がかりを入手しやすい（勤務時間が確率に影響する）"
     },
     "control_mp_cost[005]": {
       "buffId": "control_mp_cost[005]",
@@ -8589,7 +8644,7 @@
       "buffName": "工業設計",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_evolve2",
-      "sortId": 7514,
+      "sortId": 7524,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -8774,7 +8829,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、<@cc.kw>ウルサス学生自治団</>の手がかりを入手しやすい"
+      "description": "応接室配置時、<@cc.kw>ウルサス学生自治団</>の手がかりを入手しやすい（勤務時間が確率に影響する）"
     },
     "meet_flag[050]": {
       "buffId": "meet_flag[050]",
@@ -8786,11 +8841,11 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "応接室配置時、捜索で入手した手がかりが<@cc.kw>ウルサス学生自治団</>でない時、<@cc.kw>ウルサス学生自治団</>の手がかりを入手する確率が更に増加"
+      "description": "応接室配置時、捜索で入手した手がかりが<@cc.kw>ウルサス学生自治団</>でない時、<@cc.kw>ウルサス学生自治団</>の手がかりを入手する確率が更に増加（勤務時間が確率に影響する）"
     },
     "manu_formula_cost[000]": {
       "buffId": "manu_formula_cost[000]",
-      "buffName": "vlog",
+      "buffName": "Vlog",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_exp&cost",
       "sortId": 3101,
@@ -8817,7 +8872,7 @@
       "buffName": "一意専心",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_evolve_cost",
-      "sortId": 7512,
+      "sortId": 7522,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -8870,7 +8925,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "訓練室で協力者として配置時、<@cc.kw>狙撃</>の訓練速度<@cc.vup>+30%</>。特化ランク<@cc.vup>3</>への訓練を協力する場合、訓練速度がさらに<@cc.vup>+65%</>"
+      "description": "訓練室で協力者として配置時、<@cc.kw>狙撃</>の訓練速度<@cc.vup>+30%</>。特化ランク<@cc.vup>3</>への訓練をサポートする場合、訓練速度がさらに<@cc.vup>+65%</>"
     },
     "train_cost&profession[040]": {
       "buffId": "train_cost&profession[040]",
@@ -8901,7 +8956,7 @@
       "buffName": "自主独往",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd&limit&cost3",
-      "sortId": 3532,
+      "sortId": 3552,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -8931,6 +8986,78 @@
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
       "description": "事務室配置時、事務連絡速度<@cc.vup>+30%</>。公開求人の最大同時求人可能数が2より1多いごとに、応接室の手がかり捜索速度<@cc.vup>+5%</>"
+    },
+    "manu_prod_limit&cost[020]": {
+      "buffId": "manu_prod_limit&cost[020]",
+      "buffName": "探険者",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_limit&cost3",
+      "sortId": 3552,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所配置時、保管上限<@cc.vup>+16</>、体力消費が1時間ごと<@cc.vup>-0.25</>"
+    },
+    "manu_formula_limit[010]": {
+      "buffId": "manu_formula_limit[010]",
+      "buffName": "映像編集β",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_exp&limit",
+      "sortId": 3535,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所で<@cc.kw>作戦記録</>を製造時、保管上限<@cc.vup>+15</>、"
+    },
+    "manu_formula_spd[212]": {
+      "buffId": "manu_formula_spd[212]",
+      "buffName": "源石研究",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_originium2",
+      "sortId": 3023,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>"
+    },
+    "manu_formula_spd[213]": {
+      "buffId": "manu_formula_spd[213]",
+      "buffName": "火山学者",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_originium2",
+      "sortId": 3024,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所配置時、<@cc.kw>源石</>製造の製造効率<@cc.vup>+35%</>"
+    },
+    "workshop_formula_cost3[110]": {
+      "buffId": "workshop_formula_cost3[110]",
+      "buffName": "ひらめき",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve_cost1",
+      "sortId": 7541,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "加工所で<@cc.kw>昇進素材</>を加工時、体力消費が<@cc.kw>4</>の素材の体力消費<@cc.vup>-1</>"
+    },
+    "workshop_formula_device[000]": {
+      "buffId": "workshop_formula_device[000]",
+      "buffName": "DIY・装置",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_device",
+      "sortId": 7541,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "加工所で<@cc.kw>装置</>類素材を加工時、副産物の入手確率<@cc.vup>+90%</>"
     }
   },
   "customData": {
@@ -12199,7 +12326,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 3
+        "isOnly": 4
       },
       "furni_pizza_noticeWall_01": {
         "id": "furni_pizza_noticeWall_01",
@@ -12314,7 +12441,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 3
+        "isOnly": 4
       },
       "furni_pizza_exitIndicator_01": {
         "id": "furni_pizza_exitIndicator_01",
@@ -19627,7 +19754,7 @@
         "height": 2,
         "comfort": 75,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "「この世が千変万化しようとも、朝陽と暮夜からは逃れられない。天秤がすでに傾き始めた今、貴方の手にある分銅は一体どちらに置かれるのか？」",
+        "description": "「 この世が千変万化しようとも、朝陽と暮夜からは逃れられない。天秤がすでに傾き始めた今、貴方の手にある分銅は一体どちらに置かれるのか？」",
         "obtainApproach": "SV-7強襲作戦初回クリア",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -20087,7 +20214,7 @@
         "height": 4,
         "comfort": 75,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "とある栄えている移動都市の市旗。不幸にも天災によって壊滅したが、自分たちの街を忘れないようにするため、旗は生存者たちの手で復元された。",
+        "description": "とある栄えていた移動都市の市旗。天災での不幸で一度壊滅寸前になったが、旗は生存者たちによって復興記念に復元された。",
         "obtainApproach": "危機契約限定報酬",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -20110,7 +20237,7 @@
         "height": 4,
         "comfort": 75,
         "usage": "宿舎に飾れば、雰囲気を良くする。",
-        "description": "とある伝説の傭兵隊が使用していた隊旗。この傭兵隊は危機契約の任務で全滅したが、彼らをわすれないようにするために、天災トランスポーターたちが彼らの旗を復元した。",
+        "description": "とある伝説の傭兵隊が使用していた隊旗。この傭兵隊は危機契約の任務で全滅したが、彼らの旗は天災トランスポーターたちによって記念に復元された。",
         "obtainApproach": "危機契約限定報酬",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -21006,7 +21133,12 @@
           },
           {
             "furnitureId": "furni_pizza_ceilingLights_01",
-            "pos0": 26,
+            "pos0": 21,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_pizza_ceilingLights_01",
+            "pos0": 27,
             "pos1": 2
           },
           {
@@ -21031,12 +21163,17 @@
           },
           {
             "furnitureId": "furni_pizza_barStool_01",
-            "pos0": 13,
+            "pos0": 12,
             "pos1": 3
           },
           {
             "furnitureId": "furni_pizza_barStool_01",
-            "pos0": 17,
+            "pos0": 15,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_pizza_barStool_01",
+            "pos0": 18,
             "pos1": 3
           },
           {
@@ -21506,7 +21643,7 @@
       },
       "furni_set_beach": {
         "id": "furni_set_beach",
-        "name": "シエスタ風コテージ",
+        "name": "シエスタ風\nコテージ",
         "desc": "内海の町・シエスタでのバカンスがテーマ。パーティの始まりだ！",
         "quickSetup": [
           {
@@ -21608,7 +21745,7 @@
       },
       "furni_set_guitar": {
         "id": "furni_set_guitar",
-        "name": "ロドス音楽スタジオ",
+        "name": "ロドス音楽\nスタジオ",
         "desc": "ロドスの現代音楽スタジオがテーマ。ギター無料貸出中。",
         "quickSetup": [
           {
@@ -22305,7 +22442,7 @@
       },
       "furni_set_community": {
         "id": "furni_set_community",
-        "name": "ウルサス自治団本部",
+        "name": "ウルサス自治団\n活動室",
         "desc": "5名のウルサスの学生が給料で購入した活動拠点の部屋。握手は友達の始まり。",
         "quickSetup": [
           {
