@@ -73,6 +73,24 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_player_joingame_02",
+      "medalName": "「1年間の血戦と哨戒」",
+      "medalType": "playerMedal",
+      "slotId": 5,
+      "preMedalIdList": [],
+      "rarity": 4,
+      "template": "JoinGameDays",
+      "unlockParam": [
+        "365"
+      ],
+      "getMethod": "目を覚ましてから365日が経つ。",
+      "description": "貴殿が目を覚まして365日の記念章。\nこの1年、貴殿の戦いは終わることなく、そしてこれからも続いていく。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_player_charnum_01",
       "medalName": "雇用人脈勲章・Ⅰ",
       "medalType": "playerMedal",
@@ -178,7 +196,19 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
-      "medalRewardGroup": []
+      "medalRewardGroup": [
+        {
+          "groupId": "default",
+          "slotId": -1,
+          "itemList": [
+            {
+              "id": "voucher_recruitR5_pick2",
+              "count": 1,
+              "type": "VOUCHER_PICK"
+            }
+          ]
+        }
+      ]
     },
     {
       "medalId": "medal_player_recruitcount_03",
@@ -226,14 +256,37 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
-      "medalRewardGroup": []
+      "medalRewardGroup": [
+        {
+          "groupId": "default",
+          "slotId": -1,
+          "itemList": [
+            {
+              "id": "voucher_recruitR5_pick2",
+              "count": 1,
+              "type": "VOUCHER_PICK"
+            }
+          ]
+        }
+      ]
     },
     {
       "medalId": "medal_player_recruitcount_05",
       "medalName": "公開求人勲章・Ⅴ",
       "medalType": "playerMedal",
       "slotId": 14,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 4,
       "template": "RecruitCount",
       "unlockParam": [
@@ -259,6 +312,419 @@
       ]
     },
     {
+      "medalId": "medal_growth_evolve1_01",
+      "medalName": "昇進推進勲章・Ⅰ",
+      "medalType": "growthMedal",
+      "slotId": 1,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharEvolveCount",
+      "unlockParam": [
+        "1",
+        "1",
+        "1",
+        "8"
+      ],
+      "getMethod": "1人のオペレーターを昇進段階1にする。",
+      "description": "貴殿は昇進資質試験を通過するオペレーターを1名育成した。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_evolve1_02",
+      "medalName": "昇進推進勲章・Ⅱ",
+      "medalType": "growthMedal",
+      "slotId": 2,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharEvolveCount",
+      "unlockParam": [
+        "20",
+        "1",
+        "1",
+        "16"
+      ],
+      "getMethod": "20人のオペレーターを昇進段階1にする。",
+      "description": "多くのオペレーターが昇進資質試験を通過した。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_evolve1_03",
+      "medalName": "昇進推進勲章・Ⅲ",
+      "medalType": "growthMedal",
+      "slotId": 3,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharEvolveCount",
+      "unlockParam": [
+        "50",
+        "1",
+        "1606244399"
+      ],
+      "getMethod": "50人のオペレーターを昇進段階1にする。",
+      "description": "昇進資質試験はオペレーターが自身の能力を測る指針となりつつある。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_evolve1_04",
+      "medalName": "昇進推進勲章・Ⅳ",
+      "medalType": "growthMedal",
+      "slotId": 4,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharEvolveCount",
+      "unlockParam": [
+        "80",
+        "1",
+        "10",
+        "5"
+      ],
+      "getMethod": "80人のオペレーターを昇進段階1にする。",
+      "description": "昇進資質試験はオペレーターが自らを完璧に仕上げるための基礎試験となった。\n昇進後、オペレーターが更なる高みを求めて成長することがあるかもしれない。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_evolve2_01",
+      "medalName": "昇進精進勲章・Ⅰ",
+      "medalType": "growthMedal",
+      "slotId": 5,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharEvolveCount",
+      "unlockParam": [
+        "1",
+        "2",
+        "1"
+      ],
+      "getMethod": "1人のオペレーターを昇進段階2にする。",
+      "description": "貴殿の指導の下、1名のオペレーターがチームにおける自身の独自の価値を悟った。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_evolve2_02",
+      "medalName": "昇進精進勲章・Ⅱ",
+      "medalType": "growthMedal",
+      "slotId": 6,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharEvolveCount",
+      "unlockParam": [
+        "10",
+        "2",
+        "8"
+      ],
+      "getMethod": "10人のオペレーターを昇進段階2にする。",
+      "description": "持ち場で重要な働きを発揮するオペレーターが増え始めた。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_evolve2_03",
+      "medalName": "昇進精進勲章・Ⅲ",
+      "medalType": "growthMedal",
+      "slotId": 7,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharEvolveCount",
+      "unlockParam": [
+        "25",
+        "2",
+        "4"
+      ],
+      "getMethod": "25人のオペレーターを昇進段階2にする。",
+      "description": "多くのオペレーターが積極的に自身のネックを克服しようとしている。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_evolve2_04",
+      "medalName": "昇進精進勲章・Ⅳ",
+      "medalType": "growthMedal",
+      "slotId": 8,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharEvolveCount",
+      "unlockParam": [
+        "40",
+        "2",
+        "1",
+        "8"
+      ],
+      "getMethod": "40人のオペレーターを昇進段階2にする。",
+      "description": "既に一定のオペレーターがその分野の指標たる人物になっている。\nロドスは今、絶えず各分野の人材を充実させている。招致できない場合は、自分で育成すればいい。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_skill_01",
+      "medalName": "技能向上勲章・Ⅰ",
+      "medalType": "growthMedal",
+      "slotId": 9,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharSkillCount",
+      "unlockParam": [
+        "1",
+        "7"
+      ],
+      "getMethod": "1人のオペレーターのスキルランクを7にする。",
+      "description": "貴殿のオペレーターの1名は既に自身の戦場における戦闘スキルに熟達した。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_skill_02",
+      "medalName": "技能向上勲章・Ⅱ",
+      "medalType": "growthMedal",
+      "slotId": 10,
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
+      "rarity": 0,
+      "template": "CharSkillCount",
+      "unlockParam": [
+        "25",
+        "7"
+      ],
+      "getMethod": "25人のオペレーターのスキルランクを7にする。",
+      "description": "貴殿のオペレーター達はスキルをものにした後、互いに息を合わせられないか挑戦し始めた。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_skill_03",
+      "medalName": "技能向上勲章・Ⅲ",
+      "medalType": "growthMedal",
+      "slotId": 11,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharSkillCount",
+      "unlockParam": [
+        "60",
+        "7",
+        "8"
+      ],
+      "getMethod": "60人のオペレーターのスキルランクを7にする。",
+      "description": "貴殿のオペレーター達は効果的な連携作戦の可能性を模索している。\n複数の小隊による連携作戦で試されるのは、指揮官の才能だけではない。オペレーター同士の連携も重要であり、中でもスキル運用は基本のひとつだ。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_specskill_01",
+      "medalName": "技能熟達勲章・Ⅰ",
+      "medalType": "growthMedal",
+      "slotId": 12,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharSkillSpecCount",
+      "unlockParam": [
+        "1",
+        "3",
+        "trap_014_tower",
+        "4"
+      ],
+      "getMethod": "1個のスキルの特化ランクを3にする。",
+      "description": "貴殿のオペレーターの1名は既に戦闘スキルを最大限に磨き抜いている。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_specskill_02",
+      "medalName": "技能熟達勲章・Ⅱ",
+      "medalType": "growthMedal",
+      "slotId": 13,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharSkillSpecCount",
+      "unlockParam": [
+        "5",
+        "3",
+        "2"
+      ],
+      "getMethod": "5個のスキルの特化ランクを3にする。",
+      "description": "貴殿のオペレーターの何名かは既に戦場で自身の能力を最大限に発揮できている。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_specskill_03",
+      "medalName": "技能熟達勲章・Ⅲ",
+      "medalType": "growthMedal",
+      "slotId": 14,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharSkillSpecCount",
+      "unlockParam": [
+        "10",
+        "3",
+        "trap_014_tower",
+        "5"
+      ],
+      "getMethod": "10個のスキルの特化ランクを3にする。",
+      "description": "貴殿の複数のオペレーターは既に自身の戦場でのポジションを十分に理解している。\n自身を鍛え上げるのは容易なことではない。だがそれよりも難しいことは、どのようにして他者と協力し目標を達成するかを学ぶことだ。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_char_01",
+      "medalName": "「友誼の証明」",
+      "medalType": "growthMedal",
+      "slotId": 15,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "GotChars",
+      "unlockParam": [
+        "char_198_blackd;char_187_ccheal;char_260_durnar",
+        "act11d0_ex01#f#;act11d0_ex02#f#;act11d0_ex03#f#;act11d0_ex04#f#;act11d0_ex05#f#;act11d0_ex06#f#;act11d0_ex07#f#;act11d0_ex08#f#",
+        "8"
+      ],
+      "getMethod": "クーリエ、ガヴィル、ジュナ―を雇用する。",
+      "description": "貴殿の人助けが好きな性分は、多くのオペレーターが加入した要因のひとつである。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_potential_01",
+      "medalName": "「書簡、医療、教導」",
+      "medalType": "growthMedal",
+      "slotId": 16,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharPotential",
+      "unlockParam": [
+        "char_198_blackd;char_187_ccheal;char_260_durnar",
+        "5",
+        "1",
+        "3"
+      ],
+      "getMethod": "クーリエ、ガヴィル、ジュナ―を雇用し、潜在能力を最大まで解放する。",
+      "description": "貴殿はクーリエ、戦場医師及び教官に認められた。\n彼らと貴殿はみな信じている。信頼は必要不可欠であると。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_char_02",
+      "medalName": "「努力の証明」",
+      "medalType": "growthMedal",
+      "slotId": 17,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "GotChars",
+      "unlockParam": [
+        "char_355_ethan;char_275_breeze",
+        "1605639599"
+      ],
+      "getMethod": "イーサン、ブリーズを雇用する。",
+      "description": "貴殿の刻苦奮闘の資質は、多くのオペレーターが加入した要因のひとつである。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_potential_02",
+      "medalName": "「不可視の治癒」",
+      "medalType": "growthMedal",
+      "slotId": 18,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharPotential",
+      "unlockParam": [
+        "char_355_ethan;char_275_breeze",
+        "5",
+        "4000"
+      ],
+      "getMethod": "イーサン、ブリーズを雇用し、潜在能力を最大まで解放する。",
+      "description": "貴殿は姿を消す名手と没落医師に認められた。\n彼らと貴殿はみな信じている。努力は必ず報われると。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_char_03",
+      "medalName": "「クロージャチームα」",
+      "medalType": "growthMedal",
+      "slotId": 19,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "GotChars",
+      "unlockParam": [
+        "char_285_medic2;char_286_cast3",
+        "1"
+      ],
+      "getMethod": "Lancet-2、Castle-3を雇用する。",
+      "description": "クロージャのロボットの何台かは既に貴殿の身辺に配備されている。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_potential_03",
+      "medalName": "“L2＆C3”",
+      "medalType": "growthMedal",
+      "slotId": 20,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharPotential",
+      "unlockParam": [
+        "char_285_medic2;char_286_cast3",
+        "5"
+      ],
+      "getMethod": "Lancet-2、Castle-3を雇用し、潜在能力を最大まで解放する。",
+      "description": "貴殿は前衛ロボットと医療ロボットの承認を得た。\n有機的な体を持たないという以外には、ロボットと我々との間に何も異なる点など無いようだ。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609304400,
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_activity_10d0_01",
       "medalName": "黄鉄改鋳勲章",
       "medalType": "activityMedal",
@@ -272,8 +738,7 @@
         "medal_activity_10d0_07",
         "medal_activity_10d0_08",
         "medal_activity_10d0_09",
-        "medal_activity_10d0_10",
-        "medal_activity_11d0_11"
+        "medal_activity_10d0_10"
       ],
       "rarity": 4,
       "template": null,
@@ -360,8 +825,7 @@
       "unlockParam": [
         "rune_season_1_1",
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
-        "10",
-        "5"
+        "10"
       ],
       "getMethod": "作戦コード「黄鉄」で、日替作戦区域で全ての任務を達成して報酬を受け取る。（累計10回）",
       "description": "作戦コード「黄鉄」において、防衛ラインを守り抜いた者に贈られる勲章。\n貴殿にはハイレベルな陣地戦を指揮する能力が備わっている。",
@@ -381,7 +845,8 @@
       "unlockParam": [
         "rune_season_1_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "1"
+        "1",
+        "1605639599"
       ],
       "getMethod": "作戦コード「黄鉄」で、通常作戦区域で契約内容指定の任務を1個達成し報酬を受け取る。",
       "description": "作戦コード「黄鉄」において、臨機応変に対応した者に贈られる勲章。",
@@ -401,7 +866,8 @@
       "unlockParam": [
         "rune_season_1_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "8"
+        "8",
+        "3"
       ],
       "getMethod": "作戦コード「黄鉄」で、通常作戦区域で契約内容指定の任務を8個達成し報酬を受け取る。",
       "description": "作戦コード「黄鉄」において、当機立断した者に贈られる勲章。\n貴殿には多種多様な緊急事態に対応できる実力が備わっている。",
@@ -489,10 +955,7 @@
       ],
       "rarity": 4,
       "template": null,
-      "unlockParam": [
-        "11D0Activity_1;11D0Activity_2;11D0Activity_3;11D0Activity_4;11D0Activity_5;11D0Activity_6;11D0Activity_7;11D0Activity_8;11D0Activity_9;11D0Activity_10;11D0Activity_11;11D0Activity_12;11D0Activity_13;11D0Activity_14;11D0Activity_15;11D0Activity_16;11D0Activity_17;11D0Activity_18;11D0Activity_19;11D0Activity_20;11D0Activity_21;11D0Activity_22;11D0Activity_23;11D0Activity_24;11D0Activity_25;11D0Activity_s1;11D0Activity_s2;11D0Activity_s3;11D0Activity_s4;11D0Activity_s5",
-        "30"
-      ],
+      "unlockParam": [],
       "getMethod": null,
       "description": "貴殿は全てを目撃した。\n容疑者は既に死亡し、手がかりも絶えた。真犯人は巨大な動乱に身を隠し、真実は既に闇の中。ばら撒かれた憎しみの種は静かに根を張り巡らせ、再び大地を覆うチャンスをうかがう。",
       "advancedMedal": null,
@@ -613,8 +1076,7 @@
       "unlockParam": [
         "3",
         "act11d0_mo01",
-        "1",
-        "3"
+        "1"
       ],
       "getMethod": "TW‐MO‐1を★3評価でクリア。",
       "description": "貴殿は最終的に騒乱を解決した。\n問題を根本から解決できるのは暴力ではない。我々に必要なのは秩序だ。",
