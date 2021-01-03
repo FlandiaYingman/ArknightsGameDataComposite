@@ -848,6 +848,28 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_camp_rotate_02",
+      "medalName": "北原冰封废城行动奖章",
+      "medalType": "campMedal",
+      "slotId": 6,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CampaignsComplete",
+      "unlockParam": [
+        "camp_r_02",
+        "1",
+        "8",
+        "1",
+        "5"
+      ],
+      "getMethod": "完全通关剿灭作战北原冰封废城，并领取全部奖励",
+      "description": "代表您完成北原冰封废城剿灭委托或模拟战的蚀刻章。\n无论模拟还是实践，这片死地终究无法吞噬所有生命。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_growth_evolve1_01",
       "medalName": "干员晋升奖章·I",
       "medalType": "growthMedal",
@@ -859,8 +881,7 @@
         "1",
         "1",
         "8",
-        "1",
-        "5"
+        "1591646399"
       ],
       "getMethod": "拥有1名精英阶段1的干员",
       "description": "您已培养出一位通过晋升资质测试的干员。",
@@ -881,7 +902,7 @@
         "20",
         "1",
         "8",
-        "1591646399"
+        "3"
       ],
       "getMethod": "拥有20名精英阶段1的干员",
       "description": "许多干员已通过晋升资质测试。",
@@ -901,8 +922,9 @@
       "unlockParam": [
         "50",
         "1",
-        "8",
-        "3"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "拥有50名精英阶段1的干员",
       "description": "晋升资质测试已逐渐成为干员衡量自身能力的标志。",
@@ -922,9 +944,9 @@
       "unlockParam": [
         "80",
         "1",
-        "trap_016_peon",
-        "0",
-        "2"
+        "4000",
+        "1",
+        "7"
       ],
       "getMethod": "拥有80名精英阶段1的干员",
       "description": "晋升资质测试将成为干员完善自我的基础测试。\n在完成晋升后，干员是否会追求更高一层的提升呢？",
@@ -938,28 +960,6 @@
       "medalName": "干员精进奖章·I",
       "medalType": "growthMedal",
       "slotId": 5,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharEvolveCount",
-      "unlockParam": [
-        "1",
-        "2",
-        "4000",
-        "1",
-        "7"
-      ],
-      "getMethod": "拥有1名精英阶段2的干员",
-      "description": "在您的指导下，一位干员已领悟到了自己在团队中的独特价值。",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1598947200,
-      "medalRewardGroup": []
-    },
-    {
-      "medalId": "medal_growth_evolve2_02",
-      "medalName": "干员精进奖章·Ⅱ",
-      "medalType": "growthMedal",
-      "slotId": 6,
       "preMedalIdList": [
         "medal_activity_12d0_01",
         "medal_activity_12d0_02",
@@ -974,21 +974,21 @@
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
-        "10",
+        "1",
         "2"
       ],
-      "getMethod": "拥有10名精英阶段2的干员",
-      "description": "多位干员已在岗位上起到重要作用。",
+      "getMethod": "拥有1名精英阶段2的干员",
+      "description": "在您的指导下，一位干员已领悟到了自己在团队中的独特价值。",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1598947200,
       "medalRewardGroup": []
     },
     {
-      "medalId": "medal_growth_evolve2_03",
-      "medalName": "干员精进奖章·Ⅲ",
+      "medalId": "medal_growth_evolve2_02",
+      "medalName": "干员精进奖章·Ⅱ",
       "medalType": "growthMedal",
-      "slotId": 7,
+      "slotId": 6,
       "preMedalIdList": [
         "medal_activity_10d0_02",
         "medal_activity_10d0_03",
@@ -1003,10 +1003,31 @@
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
-        "25",
+        "10",
         "2",
         "100",
         "8"
+      ],
+      "getMethod": "拥有10名精英阶段2的干员",
+      "description": "多位干员已在岗位上起到重要作用。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1598947200,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_growth_evolve2_03",
+      "medalName": "干员精进奖章·Ⅲ",
+      "medalType": "growthMedal",
+      "slotId": 7,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharEvolveCount",
+      "unlockParam": [
+        "25",
+        "2",
+        "1",
+        "16"
       ],
       "getMethod": "拥有25名精英阶段2的干员",
       "description": "许多干员正在积极超越自己的瓶颈。",
@@ -1026,7 +1047,7 @@
       "unlockParam": [
         "40",
         "2",
-        "1",
+        "4000",
         "16"
       ],
       "getMethod": "拥有40名精英阶段2的干员",
@@ -1047,8 +1068,7 @@
       "unlockParam": [
         "1",
         "7",
-        "4000",
-        "16"
+        "9"
       ],
       "getMethod": "拥有1名技能等级Rank7的干员",
       "description": "您的一位干员已熟练掌握自己的战场作战技能。",
@@ -1068,7 +1088,9 @@
       "unlockParam": [
         "25",
         "7",
-        "9"
+        "trap_016_peon",
+        "1",
+        "5"
       ],
       "getMethod": "拥有25名技能等级Rank7的干员",
       "description": "您的干员们已在掌握技能后开始尝试互相配合。",
@@ -1088,9 +1110,8 @@
       "unlockParam": [
         "60",
         "7",
-        "trap_016_peon",
-        "1",
-        "5"
+        "8",
+        "1591646399"
       ],
       "getMethod": "拥有60名技能等级Rank7的干员",
       "description": "您的干员们正在探索有效联合作战的可能性。\n多小队联合作战不仅考验指挥者的才能，也考验着干员间的配合能力，熟练使用技能只是其中基础的一环。",
@@ -1110,8 +1131,8 @@
       "unlockParam": [
         "1",
         "3",
-        "8",
-        "1591646399"
+        "4",
+        "3"
       ],
       "getMethod": "拥有1个专精等级3级的干员技能",
       "description": "您的一位干员已将作战技能磨练的炉火纯青。",
@@ -1131,8 +1152,9 @@
       "unlockParam": [
         "5",
         "3",
-        "4",
-        "3"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "拥有5个专精等级3级的干员技能",
       "description": "您有多位干员已可在战场上最大化自己的能力。",
@@ -1153,8 +1175,8 @@
         "10",
         "3",
         "trap_016_peon",
-        "0",
-        "2"
+        "1",
+        "7"
       ],
       "getMethod": "拥有10个专精等级3级的干员技能",
       "description": "您的部分干员已充分了解自己在战场上的定位。\n磨炼自身实属不易，但更困难的，是学习如何与他人共同完成目标。",
@@ -1168,15 +1190,23 @@
       "medalName": "“友谊的证明”",
       "medalType": "growthMedal",
       "slotId": 15,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "GotChars",
       "unlockParam": [
         "char_198_blackd;char_187_ccheal;char_260_durnar",
-        "act12d0_ex08",
-        "trap_016_peon",
-        "1",
-        "7"
+        "5"
       ],
       "getMethod": "拥有干员讯使、嘉维尔、坚雷",
       "description": "您乐于助人的品质是这些干员加入的原因之一。",
@@ -1190,23 +1220,14 @@
       "medalName": "“信件、医疗、教导”",
       "medalType": "growthMedal",
       "slotId": 16,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10",
-        "medal_activity_11d0_11"
-      ],
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
       "unlockParam": [
         "char_198_blackd;char_187_ccheal;char_260_durnar",
-        "5"
+        "5",
+        "1",
+        "8"
       ],
       "getMethod": "拥有干员讯使、嘉维尔、坚雷，并提升潜能至满级",
       "description": "您获得了信使、战医与教官的认可。\n您与这些干员都相信：信赖不可或缺。",
@@ -1225,9 +1246,9 @@
       "template": "GotChars",
       "unlockParam": [
         "char_355_ethan;char_275_breeze",
-        "level_rune_04-01",
+        "5",
         "1",
-        "8"
+        "16"
       ],
       "getMethod": "拥有干员伊桑、微风",
       "description": "您艰苦奋斗的品质是这些干员加入的原因之一。",
@@ -1247,8 +1268,7 @@
       "unlockParam": [
         "char_355_ethan;char_275_breeze",
         "5",
-        "1",
-        "16"
+        "2"
       ],
       "getMethod": "拥有干员伊桑、微风，并提升潜能至满级",
       "description": "您获得了匿踪能手与没落医师的认可。\n您与这些干员都相信：努力终有回报。",
@@ -1267,8 +1287,9 @@
       "template": "GotChars",
       "unlockParam": [
         "char_285_medic2;char_286_cast3",
-        "1597089599",
-        "2"
+        "5",
+        "10",
+        "5"
       ],
       "getMethod": "拥有干员Lancet-2、Castle-3",
       "description": "可露希尔的部分机器人已部署在您身边。",
@@ -1282,14 +1303,23 @@
       "medalName": "“L2＆C3”",
       "medalType": "growthMedal",
       "slotId": 20,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_14d5_02",
+        "medal_activity_14d5_03",
+        "medal_activity_14d5_04",
+        "medal_activity_14d5_05",
+        "medal_activity_14d5_06",
+        "medal_activity_14d5_07",
+        "medal_activity_14d5_08",
+        "medal_activity_14d5_09",
+        "medal_activity_14d5_10"
+      ],
       "rarity": 2,
       "template": "CharPotential",
       "unlockParam": [
         "char_285_medic2;char_286_cast3",
         "5",
-        "10",
-        "5"
+        "1"
       ],
       "getMethod": "拥有干员Lancet-2、Castle-3，并提升潜能至满级",
       "description": "您获得了近卫与医疗机器人的认可。\n除了没有碳基躯体，机器人和我们似乎并没有什么不同。",
@@ -1303,23 +1333,14 @@
       "medalName": "“一些选择”",
       "medalType": "storyMedal",
       "slotId": 1,
-      "preMedalIdList": [
-        "medal_activity_14d5_02",
-        "medal_activity_14d5_03",
-        "medal_activity_14d5_04",
-        "medal_activity_14d5_05",
-        "medal_activity_14d5_06",
-        "medal_activity_14d5_07",
-        "medal_activity_14d5_08",
-        "medal_activity_14d5_09",
-        "medal_activity_14d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_009_12fce",
         "story_12fce_set_1",
-        "1"
+        "1",
+        "8"
       ],
       "getMethod": "解锁干员12F的干员密录《一些选择》",
       "description": "身份从名字开始，到名字结束。\n身份、开始、结束，如何定义？",
@@ -1340,7 +1361,7 @@
         "char_124_kroos",
         "story_kroos_set_1",
         "1",
-        "8"
+        "16"
       ],
       "getMethod": "解锁干员克洛丝的干员密录《苹果》",
       "description": "是食物，也是射手们最爱的靶子。\n如果克洛丝把吸盘箭射在了苹果以外的地方，那只是因为她想。",
@@ -1360,8 +1381,8 @@
       "unlockParam": [
         "char_236_rope",
         "story_rope_set_1",
-        "1",
-        "16"
+        "1606593599",
+        "4"
       ],
       "getMethod": "解锁干员暗索的干员密录《鲜花香水》",
       "description": "既不名贵也不特殊的香型，正适合龙门街头长大的女孩。\n暗索很宝贝她的这些香水，从前只是隔着橱窗看看的东西，现在有人为她特制了。",
@@ -1381,8 +1402,9 @@
       "unlockParam": [
         "char_118_yuki",
         "story_yuki_set_1",
-        "1606593599",
-        "4"
+        "10",
+        "3",
+        "0"
       ],
       "getMethod": "解锁干员白雪的干员密录《忍者之道》",
       "description": "所谓忍者之道，就是不走寻常路。\n可露希尔总工程师指出，让白雪来检查管道问题或许是个不错的选择。",
@@ -1396,28 +1418,6 @@
       "medalName": "“信任的第一步”",
       "medalType": "storyMedal",
       "slotId": 5,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_356_broca",
-        "story_broca_set_1",
-        "10",
-        "3",
-        "0"
-      ],
-      "getMethod": "解锁干员布洛卡的干员密录《信任的第一步》",
-      "description": "没有什么组织能让人第一眼就喜欢上。\n我们能做的，只有通过实际行动告诉每一个人，我们的信念并非空口白话。",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": -1,
-      "medalRewardGroup": []
-    },
-    {
-      "medalId": "medal_story_prove_1",
-      "medalName": "“同事们”",
-      "medalType": "storyMedal",
-      "slotId": 6,
       "preMedalIdList": [
         "medal_activity_11d0_02",
         "medal_activity_11d0_03",
@@ -1433,22 +1433,22 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_145_prove",
-        "story_prove_set_1",
+        "char_356_broca",
+        "story_broca_set_1",
         "1"
       ],
-      "getMethod": "解锁干员普罗旺斯的干员密录《同事们》",
-      "description": "在你忧心他人时，身边也有人在担心你。 \n根据好心同事月禾小姐临出发前的发信提示，医疗部干员一举将试图隐瞒自己行动的普罗旺斯抓获于舰船入口。",
+      "getMethod": "解锁干员布洛卡的干员密录《信任的第一步》",
+      "description": "没有什么组织能让人第一眼就喜欢上。\n我们能做的，只有通过实际行动告诉每一个人，我们的信念并非空口白话。",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
       "medalRewardGroup": []
     },
     {
-      "medalId": "medal_story_milu_1",
-      "medalName": "“在路上”",
+      "medalId": "medal_story_prove_1",
+      "medalName": "“同事们”",
       "medalType": "storyMedal",
-      "slotId": 7,
+      "slotId": 6,
       "preMedalIdList": [
         "medal_activity_10d0_02",
         "medal_activity_10d0_03",
@@ -1463,9 +1463,30 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
+        "char_145_prove",
+        "story_prove_set_1",
+        "8"
+      ],
+      "getMethod": "解锁干员普罗旺斯的干员密录《同事们》",
+      "description": "在你忧心他人时，身边也有人在担心你。 \n根据好心同事月禾小姐临出发前的发信提示，医疗部干员一举将试图隐瞒自己行动的普罗旺斯抓获于舰船入口。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_story_milu_1",
+      "medalName": "“在路上”",
+      "medalType": "storyMedal",
+      "slotId": 7,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
         "char_158_milu",
         "story_milu_set_1",
-        "8"
+        "4",
+        "4"
       ],
       "getMethod": "解锁干员守林人的干员密录《在路上》",
       "description": "守林人认为未来只有一条路，名为复仇的路。 \n或许是顺路，又或许拐了个弯，她遇到了罗德岛。",
@@ -1485,8 +1506,8 @@
       "unlockParam": [
         "char_2013_cerber",
         "story_cerber_set_1",
-        "4",
-        "4"
+        "1",
+        "8"
       ],
       "getMethod": "解锁干员刻俄柏的干员密录《特大号烤饼》",
       "description": "火神做的烤饼蚀刻章，刻俄柏表现好的时候，就给一个。\n其实和普通蚀刻章一样大，只是名字上带了“特大号”三个字，她很喜欢。",
@@ -1506,8 +1527,8 @@
       "unlockParam": [
         "char_180_amgoat",
         "story_amgoat_set_1",
-        "1",
-        "8"
+        "4000",
+        "5"
       ],
       "getMethod": "解锁干员艾雅法拉的干员密录《学者之心》",
       "description": "学者之心，不在所见所闻，在所思所想。 \n千万别被脆弱的表象蒙蔽双眼。",
@@ -1521,14 +1542,23 @@
       "medalName": "“火山”",
       "medalType": "storyMedal",
       "slotId": 10,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
+      ],
       "rarity": 2,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_180_amgoat",
         "story_amgoat_set_2",
-        "4000",
-        "5"
+        "8"
       ],
       "getMethod": "解锁干员艾雅法拉的干员密录《火山》",
       "description": "艾雅法拉心里有一座火山。\n经火烧过的是真理，亦是永恒。",
@@ -1543,22 +1573,22 @@
       "medalType": "storyMedal",
       "slotId": 11,
       "preMedalIdList": [
-        "medal_activity_13d5_02",
-        "medal_activity_13d5_03",
-        "medal_activity_13d5_04",
-        "medal_activity_13d5_05",
-        "medal_activity_13d5_06",
-        "medal_activity_13d5_07",
-        "medal_activity_13d5_08",
-        "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
+        "medal_activity_15d0_02",
+        "medal_activity_15d0_03",
+        "medal_activity_15d0_04",
+        "medal_activity_15d0_05",
+        "medal_activity_15d0_06",
+        "medal_activity_15d0_07",
+        "medal_activity_15d0_08",
+        "medal_activity_15d0_09",
+        "medal_activity_15d0_10"
       ],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_250_phatom",
         "story_phatom_set_1",
-        "8"
+        "100"
       ],
       "getMethod": "解锁干员傀影的干员密录《合作》",
       "description": "孤身一人办不到的事情太多了，所以我们需要合作。 \n学会如何与古怪的队友搭配完成任务，是罗德岛干员的必修课。",
@@ -1586,8 +1616,8 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act13d5",
-        "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
+        "act15d0",
+        "trap_025_prison",
         "100"
       ],
       "getMethod": null,
@@ -1608,7 +1638,8 @@
       "unlockParam": [
         "act15d0",
         "trap_025_prison",
-        "100"
+        "100",
+        "4"
       ],
       "getMethod": "活动期间，累计禁锢100次囚犯",
       "description": "您在囚犯之中建立了威信。\n您精湛的战斗技巧甚至传到了狱警队长巴顿的耳中，他当众为您颁发了这枚奖章。",
@@ -1628,8 +1659,8 @@
       "unlockParam": [
         "char_451_robin",
         "1609963199",
-        "enemy_1105_tyokai",
-        "4"
+        "4000",
+        "3"
       ],
       "getMethod": "活动期间，获得干员罗宾",
       "description": "您帮助了这个对未来感到迷茫的女孩。\n我们很难说她险些误入歧途。只不过，另一条道路虽然未必错误，但恐怕绝不正确。",
@@ -1650,7 +1681,8 @@
         "act15d0",
         "act15d0_token_ironSheet",
         "4000",
-        "3"
+        "1",
+        "5"
       ],
       "getMethod": "活动期间，在[秘密渠道]内消耗4000个工厂铁片",
       "description": "您通过囚犯们之间的特殊渠道获得了大量的资源。\n虽然您不知道他们从哪里获得的这些，您也不知道这些在监狱中有什么用处。",
@@ -1664,15 +1696,23 @@
       "medalName": "曼斯菲尔德纪念章",
       "medalType": "activityMedal",
       "slotId": 5,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "15D0Activity_1;15D0Activity_2;15D0Activity_3;15D0Activity_4;15D0Activity_5;15D0Activity_6;15D0Activity_7;15D0Activity_8;15D0Activity_9;15D0Activity_10;15D0Activity_11;15D0Activity_12;15D0Activity_13;15D0Activity_14;15D0Activity_15;15D0Activity_16;15D0Activity_17;15D0Activity_18;15D0Activity_19;15D0Activity_20;15D0Activity_21;15D0Activity_22;15D0Activity_23;15D0Activity_24;15D0Activity_25",
         "25",
-        "8",
-        "1",
-        "5"
+        "8"
       ],
       "getMethod": "完成[越狱准备]中全部内容，并领取奖励",
       "description": "您完整参与了策划这场越狱行动。\n在执行过程中，米娜偶尔发现了这枚勋章，似乎是典狱长赠送给那些前来监狱做客的达官贵人的纪念品。",
@@ -1686,23 +1726,14 @@
       "medalName": "“越狱”",
       "medalType": "activityMedal",
       "slotId": 6,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act15d0_01;act15d0_02;act15d0_03;act15d0_04;act15d0_05;act15d0_06;act15d0_07;act15d0_08",
-        "8"
+        "8",
+        "4"
       ],
       "getMethod": "以3星评价完成[越狱计划]内全部关卡（不包含教学关）",
       "description": "您成功协助安东尼完成了越狱。\n监狱外的空气浑浊但却饱含自由。接下来，才是开始。",
@@ -1723,7 +1754,8 @@
         "3",
         "act15d0_ex01",
         "trap_025_prison",
-        "4"
+        "4",
+        "2"
       ],
       "getMethod": "以3星评价完成MB-EX-1，且通关时存在4个禁锢装置",
       "description": "您保证了大部分装置的正常运行。\n您发现，这些装置中的某些型号上能看到莱茵生命的标志。",
@@ -1744,8 +1776,8 @@
         "3",
         "act15d0_ex01#f#;act15d0_ex02#f#;act15d0_ex03#f#;act15d0_ex04#f#;act15d0_ex05#f#;act15d0_ex06#f#;act15d0_ex07#f#;act15d0_ex08#f#",
         "8",
-        "0",
-        "2"
+        "4",
+        "7"
       ],
       "getMethod": "完成[狱中生活]内全部关卡的突袭模式",
       "description": "您完全适应了囚犯们之间的冲突，甚至有些乐在其中。\n或许安东尼应当把他的位置让给您。",
@@ -1759,15 +1791,24 @@
       "medalName": "“最有力的囚犯”",
       "medalType": "activityMedal",
       "slotId": 9,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
       "rarity": 2,
       "template": "PassStageWithTrapSurvived",
       "unlockParam": [
         "3",
         "act15d0_08",
         "trap_025_prison",
-        "4",
-        "7"
+        "4"
       ],
       "getMethod": "以3星评价完成MB-8，且通关时存在4个禁锢装置",
       "description": "许多囚犯都屈服于您的“力量”。\n机械与智慧的结合不是蛮力所能对抗的。",
@@ -1782,15 +1823,15 @@
       "medalType": "activityMedal",
       "slotId": 10,
       "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
+        "medal_activity_14d5_02",
+        "medal_activity_14d5_03",
+        "medal_activity_14d5_04",
+        "medal_activity_14d5_05",
+        "medal_activity_14d5_06",
+        "medal_activity_14d5_07",
+        "medal_activity_14d5_08",
+        "medal_activity_14d5_09",
+        "medal_activity_14d5_10"
       ],
       "rarity": 2,
       "template": "PassStageWithTrapSurvived",
@@ -1826,9 +1867,9 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act12d0",
-        "trap_016_peon",
-        "100",
+        "rune_season_3_1",
+        "level_rune_05-01",
+        "1",
         "8"
       ],
       "getMethod": null,
@@ -1871,7 +1912,8 @@
         "rune_season_3_1",
         "level_rune_05-01",
         "1",
-        "16"
+        "16",
+        "0"
       ],
       "getMethod": "在燃灰行动中，常驻行动地点达到SSS评价",
       "description": "燃灰行动中颁发给战胜绝境之人的蚀刻章。\n您已克服了诸多挑战。",
@@ -1892,8 +1934,8 @@
         "1",
         "char_222_bpipe@race#1",
         "1606593599",
-        "8",
-        "0"
+        "1",
+        "5"
       ],
       "getMethod": "在燃灰行动中，购买皇后一号·风笛专属时装",
       "description": "燃灰行动中随时装附送的蚀刻章。\n赛车经过风笛时都会避让致意。",
@@ -1914,8 +1956,8 @@
         "rune_season_3_1",
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
         "10",
-        "1",
-        "5"
+        "0",
+        "0"
       ],
       "getMethod": "在燃灰行动中，完成全部轮替挑战任务（包括每日合约挑战与每日危机等级达到8）并领取奖励，累计10天",
       "description": "燃灰行动中颁发给坚守阵线之人的蚀刻章。\n您已具备了指挥高强度阵地战的能力。",
@@ -1935,9 +1977,7 @@
       "unlockParam": [
         "rune_season_3_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "1",
-        "0",
-        "0"
+        "1"
       ],
       "getMethod": "在燃灰行动中，完成常驻行动地点的1个合约挑战任务并领取奖励",
       "description": "燃灰行动中颁发给随机应变之人的蚀刻章。",
@@ -1957,7 +1997,9 @@
       "unlockParam": [
         "rune_season_3_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "8"
+        "8",
+        "0",
+        "2"
       ],
       "getMethod": "在燃灰行动中，完成常驻行动地点的8个合约挑战任务并领取奖励",
       "description": "燃灰行动中颁发给当机立断之人的蚀刻章。\n您已具备了响应多种紧急事态的实力。",
@@ -1978,8 +2020,8 @@
         "rune_season_3_1",
         "enemy_dscout_3;enemy_hp_3;enemy_dbskar_3;char_atkatkspeed_3;enemy_atk_3;enemy_dmgswd_3;char_hp_3;global_forbidloc_3",
         "4",
-        "0",
-        "2"
+        "8",
+        "7"
       ],
       "getMethod": "在燃灰行动中，常驻行动地点解锁4个3级合约",
       "description": "燃灰行动中颁发给遍历战场之人的蚀刻章。",
@@ -1993,15 +2035,25 @@
       "medalName": "燃灰演习奖章",
       "medalType": "activityMedal",
       "slotId": 19,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
         "rune_season_3_1",
         "level_rune_02-02;level_rune_02-04;level_rune_02-05;level_rune_03-02;level_rune_03-01;level_rune_04-01;level_rune_05-02",
         "1",
-        "8",
-        "7"
+        "8"
       ],
       "getMethod": "在燃灰行动中，在任意一个轮换行动地点获得S评价",
       "description": "燃灰行动中颁发给深思熟虑之人的蚀刻章。",
@@ -2016,22 +2068,23 @@
       "medalType": "activityMedal",
       "slotId": 20,
       "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10",
-        "medal_activity_11d0_11"
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
       ],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_3_1",
-        "5"
+        "5",
+        "1",
+        "8"
       ],
       "getMethod": "在燃灰行动中，使用助战并通关任意行动地点不小于5次",
       "description": "燃灰行动中颁发给互帮互助之人的蚀刻章。",
@@ -2059,10 +2112,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "rune_season_2_1",
-        "level_rune_04-01",
-        "1",
-        "8"
+        "act13d5",
+        "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
+        "100",
+        "16"
       ],
       "getMethod": null,
       "description": "您已目睹了骑士如今的模样。您也将见证骑士未落的余晖。\n在这个万劫不复的时代，哪怕前路注定徒劳，光芒也依旧闪耀。",
@@ -2083,7 +2136,7 @@
         "act13d5",
         "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
         "100",
-        "16"
+        "1591646399"
       ],
       "getMethod": "活动期间，累计击落赞助、豪华赞助或斗志昂扬无人机共计100架",
       "description": "您充分利用了规则。\n有时候为了让战况更利于己方骑士，教练和赞助商们会想尽办法让那些奢华观展室里的高级会员们口袋里掏钱。",
@@ -2104,7 +2157,7 @@
         "3",
         "act13d5_01;act13d5_02;act13d5_03;act13d5_04;act13d5_05;act13d5_06;act13d5_07;act13d5_08",
         "8",
-        "1591646399"
+        "4"
       ],
       "getMethod": "以3星评价完成[大竞技场]内的全部关卡（不包含教学关）",
       "description": "您在骑士竞技中成功晋级。\n大骑士领随处可见的特锦赛纪念章，价格很便宜。其中第一届、第七届、第十八届和第二十二届的纪念章在收藏市场额外昂贵。",
@@ -2146,7 +2199,8 @@
         "3",
         "act13d5_ex08",
         "enemy_1105_tyokai",
-        "3"
+        "3",
+        "0"
       ],
       "getMethod": "以3星评价完成MN-EX-8，且通关时至少击落3架赞助无人机",
       "description": "您利用场外援助击败了强敌。\n过去，自傲的骑士们绝不会依赖除了武艺外的其他东西，但随着第一个骑士为了胜利，为了观众，为了名誉和财富而捡起无人机丢下的蓝色饮料后，一切都变了。",
@@ -2167,7 +2221,7 @@
         "2",
         "act13d5_ex01#f#;act13d5_ex02#f#;act13d5_ex03#f#;act13d5_ex04#f#;act13d5_ex05#f#;act13d5_ex06#f#;act13d5_ex07#f#;act13d5_ex08#f#",
         "8",
-        "0",
+        "8",
         "0"
       ],
       "getMethod": "完成[钳兽牢笼]内全部关卡的突袭模式",
@@ -2188,9 +2242,8 @@
       "unlockParam": [
         "13D5Activity_1;13D5Activity_2;13D5Activity_3;13D5Activity_4;13D5Activity_5;13D5Activity_6;13D5Activity_7;13D5Activity_8;13D5Activity_9;13D5Activity_10;13D5Activity_11;13D5Activity_12;13D5Activity_13;13D5Activity_14;13D5Activity_15;13D5Activity_16;13D5Activity_17;13D5Activity_18;13D5Activity_19;13D5Activity_20;13D5Activity_21;13D5Activity_22;13D5Activity_23;13D5Activity_24;13D5Activity_25",
         "25",
-        "4",
-        "8",
-        "0"
+        "1",
+        "8"
       ],
       "getMethod": "完成[场外活动专区]中全部内容，并领取奖励",
       "description": "您参与了全部的场外活动。\n据悉，如果人一天有十二个小时用来玩乐，那么要在卡西米尔待上一百年，才能充分享受这个国家的方方面面。",
@@ -2209,9 +2262,7 @@
       "template": "ActivityCasimirReadNews",
       "unlockParam": [
         "act13d5",
-        "15",
-        "1",
-        "8"
+        "15"
       ],
       "getMethod": "阅读玛莉娅·临光活动中的15条新闻",
       "description": "您阅览了许多媒体的表面功夫，辛苦您了。\n消磨骑士意义的并非只有骑士，每一个欢呼的观众都有责任，每一个制造欢呼的商人都在触犯信条。",
@@ -2225,12 +2276,24 @@
       "medalName": "“鞭刃骑士”",
       "medalType": "activityMedal",
       "slotId": 29,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_265_sophia",
-        "1604519999"
+        "1604519999",
+        "4000"
       ],
       "getMethod": "活动期间，获得干员鞭刃",
       "description": "佐菲娅参赛时为自己设计的纹章。\n纹章的意义在如今已被消解殆尽，不复当初。但佐菲娅还是花了三个下午去认真雕琢。",
@@ -2245,16 +2308,15 @@
       "medalType": "activityMedal",
       "slotId": 30,
       "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
       ],
       "rarity": 2,
       "template": "ActivityCoinCost",
@@ -2289,9 +2351,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "3",
-        "act11d0_01;act11d0_02;act11d0_03;act11d0_04;act11d0_05;act11d0_06;act11d0_07;act11d0_08",
-        "8"
+        "act12d0",
+        "trap_016_peon",
+        "100",
+        "4"
       ],
       "getMethod": null,
       "description": "您度过了一个惊险刺激的假日。\n吵闹、放纵、力量至上、不去思考未来，在文明尚未触及的地方，您发现，没有科技的生活也可以很快乐。",
@@ -2312,7 +2375,7 @@
         "act12d0",
         "trap_016_peon",
         "100",
-        "4"
+        "16"
       ],
       "getMethod": "活动期间，累计清理100次巨蕈",
       "description": "您对蘑菇的热爱令人赞叹。\n不过，为了您的身体着想，请至少在烤熟后食用。",
@@ -2332,8 +2395,8 @@
       "unlockParam": [
         "char_411_tomimi",
         "1600113599",
-        "2",
-        "16"
+        "4000",
+        "5"
       ],
       "getMethod": "活动期间，获得干员特米米",
       "description": "您的智慧折服了这个女孩。\n我们有理由相信，等她开阔眼界后，她会做得更好。",
@@ -2353,8 +2416,7 @@
       "unlockParam": [
         "act12d0",
         "act12d0_token_components",
-        "4000",
-        "5"
+        "4000"
       ],
       "getMethod": "活动期间，在[依娜姆商会]内消耗4000个机械零件",
       "description": "您在依娜姆的商店中一掷千金。\n没有商人会讨厌您这样的顾客。",
@@ -2374,7 +2436,9 @@
       "unlockParam": [
         "3",
         "act12d0_01;act12d0_02;act12d0_03;act12d0_04;act12d0_05;act12d0_06;act12d0_07;act12d0_08;act12d0_09",
-        "9"
+        "9",
+        "1",
+        "5"
       ],
       "getMethod": "以3星评价完成[大酋长之路]内全部关卡（不包含教学关）",
       "description": "您的假日结束了。\n想必这段欢乐的经历会在您的记忆中留下痕迹，我们都知道，这片大地上不只有伤痛——虽然我们偶尔会忘记这一点。",
@@ -2436,7 +2500,9 @@
       "unlockParam": [
         "12D0Activity_1;12D0Activity_2;12D0Activity_3;12D0Activity_4;12D0Activity_5;12D0Activity_6;12D0Activity_7;12D0Activity_8;12D0Activity_9;12D0Activity_10;12D0Activity_11;12D0Activity_12;12D0Activity_13;12D0Activity_14;12D0Activity_15;12D0Activity_16;12D0Activity_17;12D0Activity_18;12D0Activity_19;12D0Activity_20;12D0Activity_21;12D0Activity_22;12D0Activity_23;12D0Activity_24;12D0Activity_25",
         "25",
-        "4000"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "完成[勇士试炼]中全部内容，并领取奖励",
       "description": "您充分享受了这场冒险。\n祖玛玛为您亲手打造了这枚奖章。",
@@ -2472,7 +2538,17 @@
       "medalName": "狂战士奖章",
       "medalType": "activityMedal",
       "slotId": 40,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
+      ],
       "rarity": 2,
       "template": "PassStageWithCutTree",
       "unlockParam": [
@@ -2508,7 +2584,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act13d0"
+        "rune_season_2_1",
+        "level_rune_04-01",
+        "1",
+        "8"
       ],
       "getMethod": null,
       "description": "以某个失落武器印记为蓝本铸造的蚀刻章。\n曾经的武器无法再现，但其意志与精神却永存世间。",
@@ -2570,7 +2649,7 @@
       "unlockParam": [
         "char_336_folivo",
         "1597089599",
-        "1592251199"
+        "10"
       ],
       "getMethod": "在利刃行动中，换取干员稀音",
       "description": "利刃行动中证明干员加入的蚀刻章。\n不完美，并不代表着一无是处。",
@@ -2630,7 +2709,8 @@
       "unlockParam": [
         "rune_season_2_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "8"
+        "8",
+        "1591646399"
       ],
       "getMethod": "在利刃行动中，完成常驻行动地点的8个合约挑战任务并领取奖励",
       "description": "利刃行动中颁发给当机立断之人的蚀刻章。\n您已具备了响应多种紧急事态的实力。",
@@ -2651,7 +2731,7 @@
         "rune_season_2_1",
         "enemy_hp_3;enemy_faust_atkmod_3;enemy_faust_trapmod_3;enemy_reveng_spdmod_3;enemy_reveng_atkmod_3;char_atk_3;enemy_atk_3",
         "4",
-        "1591646399"
+        "8"
       ],
       "getMethod": "在利刃行动中，常驻行动地点解锁4个3级合约",
       "description": "利刃行动中颁发给遍历战场之人的蚀刻章。",
@@ -2686,14 +2766,26 @@
       "medalName": "利刃合作奖章",
       "medalType": "activityMedal",
       "slotId": 50,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_2_1",
         "5",
-        "18",
-        "1596484799"
+        "trap_016_peon",
+        "0",
+        "0"
       ],
       "getMethod": "在利刃行动中，使用助战并通关任意行动地点不小于5次",
       "description": "利刃行动中颁发给互帮互助之人的蚀刻章。",
@@ -2722,10 +2814,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act13d0",
-        "act12d0_08",
-        "trap_016_peon",
-        "0",
+        "3",
+        "act11d0_01;act11d0_02;act11d0_03;act11d0_04;act11d0_05;act11d0_06;act11d0_07;act11d0_08",
+        "8",
+        "8",
         "0"
       ],
       "getMethod": null,
@@ -2747,8 +2839,7 @@
         "3",
         "act11d0_01;act11d0_02;act11d0_03;act11d0_04;act11d0_05;act11d0_06;act11d0_07;act11d0_08",
         "8",
-        "8",
-        "0"
+        "4"
       ],
       "getMethod": "以3星评价完成[议事高塔]内除沦陷区内容外的全部关卡（不包含教学关）",
       "description": "您解决了发生在莱塔尼亚边陲城镇的一起案件。\n并非所有人都怀揣恶意，但它依旧滑向深渊。",
@@ -2789,7 +2880,8 @@
       "unlockParam": [
         "2",
         "act11d0_s01#f#;act11d0_s02#f#",
-        "2"
+        "2",
+        "5"
       ],
       "getMethod": "完成[议事高塔]中沦陷区内全部关卡的遭遇作战模式",
       "description": "您学会了这首诗歌。\n作为唯一一个知晓老人最后那段人生经历的人，您通过重重考验拼凑出了足够多的真相。请不要忘记他。",
@@ -2850,7 +2942,8 @@
       "unlockParam": [
         "3",
         "act11d0_mo01",
-        "1"
+        "1",
+        "1591646399"
       ],
       "getMethod": "以3星评价完成TW-MO-1",
       "description": "您解决了暴乱的根源。\n暴力不能一直解决问题，我们需要秩序。",
@@ -2870,8 +2963,8 @@
       "unlockParam": [
         "char_345_folnic",
         "1596052799",
-        "18",
-        "1591646399"
+        "4000",
+        "3"
       ],
       "getMethod": "活动期间，获得干员亚叶",
       "description": "亚叶制作的手工奖章。\n并非所有人都能和自己的过去达成和解，我们也不该要求如此。",
@@ -2892,7 +2985,7 @@
         "act11d0",
         "act11d0_token_currency",
         "4000",
-        "3"
+        "1596484799"
       ],
       "getMethod": "活动期间，在[八月集市]内消费4000老旧贵族领铸币",
       "description": "您在沃伦姆德一掷千金。\n人人都为商业行为的复苏欢呼雀跃。",
@@ -2912,8 +3005,9 @@
       "unlockParam": [
         "11D0Activity_s1;11D0Activity_s2;11D0Activity_s3;11D0Activity_s4;11D0Activity_s5",
         "1",
-        "18",
-        "1596484799"
+        "trap_016_peon",
+        "0",
+        "0"
       ],
       "getMethod": "破译任意1项古旧日记中的谜题，并领取奖励",
       "description": "您通过破译谜题得知了部分真相。\n这位老人是他傲慢历史的国王。",
@@ -2927,14 +3021,24 @@
       "medalName": "十二音纪念章",
       "medalType": "activityMedal",
       "slotId": 61,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "11D0Activity_1;11D0Activity_2;11D0Activity_3;11D0Activity_4;11D0Activity_5;11D0Activity_6;11D0Activity_7;11D0Activity_8;11D0Activity_9;11D0Activity_10;11D0Activity_11;11D0Activity_12;11D0Activity_13;11D0Activity_14;11D0Activity_15;11D0Activity_16;11D0Activity_17;11D0Activity_18;11D0Activity_19;11D0Activity_20;11D0Activity_21;11D0Activity_22;11D0Activity_23;11D0Activity_24;11D0Activity_25;11D0Activity_s1;11D0Activity_s2;11D0Activity_s3;11D0Activity_s4;11D0Activity_s5",
         "30",
-        "trap_016_peon",
-        "0",
+        "enemy_1105_tyokai",
+        "8",
         "0"
       ],
       "getMethod": "完成[焦朽事记]中全部内容，并领取奖励",
@@ -2963,11 +3067,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "3",
-        "act13d5_08",
-        "enemy_1105_tyokai",
-        "8",
-        "0"
+        "rune_season_1_1",
+        "level_rune_03-01",
+        "1",
+        "8"
       ],
       "getMethod": null,
       "description": "以某支传奇雇佣兵队伍所使用的标志为蓝本铸造的蚀刻章。\n成就他人未成之事。",
@@ -3109,7 +3212,8 @@
       "unlockParam": [
         "rune_season_1_1",
         "char_atk_3;enemy_hp_3;enemy_crowns_3;enemy_ghost_3;char_def_3;global_costrecovery_3",
-        "4"
+        "4",
+        "8"
       ],
       "getMethod": "在黄铁行动中，常驻行动地点解锁4个3级合约",
       "description": "黄铁行动中颁发给遍历战场之人的蚀刻章。",
@@ -3167,7 +3271,8 @@
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act13d0"
+        "act13d0",
+        "1601755199"
       ],
       "getMethod": "解锁踏寻往昔之风的全部故事",
       "description": "一位干员在甲板乘凉时灵光一闪制作的蚀刻章。\n听说人从初生到消亡，吹拂在身边的总是同一股风。",
@@ -3204,7 +3309,9 @@
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act10d5"
+        "act10d5",
+        "p_char_405_absin",
+        "1593287999"
       ],
       "getMethod": "解锁乌萨斯的孩子们的全部故事",
       "description": "按照彼得海姆中学校徽打造的蚀刻章。\n她们还没有准备好，但她们想要走向明天。",
@@ -3278,7 +3385,10 @@
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act7d5"
+        "act7d5",
+        "level_rune_03-01",
+        "18",
+        "1591646399"
       ],
       "getMethod": "解锁午间逸话的全部故事",
       "description": "根据下午茶集换贴纸制作的蚀刻章，不可以拿去兑换下午茶奖励。\n还有更多故事等待着讲述与倾听。",
@@ -3341,7 +3451,8 @@
         "rune_season_2_1",
         "level_rune_04-01",
         "18",
-        "1596484799"
+        "1596484799",
+        "0"
       ],
       "getMethod": "在利刃行动中，常驻行动地点达到18危机等级，且在利刃行动开始一周内完成(2020-08-04 03:59:59前)",
       "description": null,
