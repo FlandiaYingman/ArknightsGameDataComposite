@@ -3263,6 +3263,45 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_activity_15d5_01",
+      "medalName": "外勤记录确认章",
+      "medalType": "activityMedal",
+      "slotId": 72,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "UnlockStoryGroup",
+      "unlockParam": [
+        "act15d5",
+        "1601755199"
+      ],
+      "getMethod": "解锁此地之外的全部故事",
+      "description": "以罗德岛干员外勤任务地点记录图为原型制作的蚀刻章，星星点点的足迹见证干员们一路走来的所见所闻。\n每时每刻，都有不同的故事发生在大地上的各个角落。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_15d5_02",
+      "medalName": "外勤服饰纪念章",
+      "medalType": "activityMedal",
+      "slotId": 73,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "GotItemBeforeTime",
+      "unlockParam": [
+        "1",
+        "char_108_silent@winter#2",
+        "1610654399"
+      ],
+      "getMethod": "在此地之外活动中，获得时装霜息",
+      "description": "购入外勤服装时附赠的纪念章。\n这件衣服舒适又温暖，赫默很久以前就预定好了。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_activity_13d0_01",
       "medalName": "风回大地纪念章",
       "medalType": "activityMedal",
@@ -3272,7 +3311,8 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act13d0",
-        "1601755199"
+        "p_char_405_absin",
+        "1593287999"
       ],
       "getMethod": "解锁踏寻往昔之风的全部故事",
       "description": "一位干员在甲板乘凉时灵光一闪制作的蚀刻章。\n听说人从初生到消亡，吹拂在身边的总是同一股风。",
@@ -3291,7 +3331,8 @@
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_388_mint",
-        "1601755199"
+        "1601755199",
+        "1593287999"
       ],
       "getMethod": "在踏寻往昔之风活动中，获得干员薄绿",
       "description": "根据干员薄绿的描述，这枚刻章描绘了书本啃咬后的牙齿印。\n书也会咬人吗？书有牙齿吗？等等，书会动？",
@@ -3309,9 +3350,7 @@
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act10d5",
-        "p_char_405_absin",
-        "1593287999"
+        "act10d5"
       ],
       "getMethod": "解锁乌萨斯的孩子们的全部故事",
       "description": "按照彼得海姆中学校徽打造的蚀刻章。\n她们还没有准备好，但她们想要走向明天。",
@@ -3349,7 +3388,10 @@
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act4d0"
+        "act4d0",
+        "level_rune_03-01",
+        "18",
+        "1591646399"
       ],
       "getMethod": "解锁战地秘闻的全部故事",
       "description": "以档案室用来确认情报已归档时使用的公章为模板制作的蚀刻章。\n总有情报会遗漏，我们能做的只是尽力去记录。",
@@ -3367,7 +3409,10 @@
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act6d5"
+        "act6d5",
+        "level_rune_03-01",
+        "18",
+        "1591646399"
       ],
       "getMethod": "解锁洪炉示岁的全部故事",
       "description": "以象征年的标志为基底制作的蚀刻章。\n还是没有厨师能够做出年想要的辣味。",
@@ -3386,9 +3431,9 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act7d5",
-        "level_rune_03-01",
-        "18",
-        "1591646399"
+        "act11d0_mo01",
+        "trap_014_tower",
+        "3"
       ],
       "getMethod": "解锁午间逸话的全部故事",
       "description": "根据下午茶集换贴纸制作的蚀刻章，不可以拿去兑换下午茶奖励。\n还有更多故事等待着讲述与倾听。",
@@ -3409,7 +3454,8 @@
         "rune_season_1_1",
         "level_rune_03-01",
         "18",
-        "1591646399"
+        "1591646399",
+        "0"
       ],
       "getMethod": "在黄铁行动中，常驻行动地点达到18危机等级，且在黄铁行动开始一周内完成(2020-06-09 03:59:59前)",
       "description": null,
@@ -3430,7 +3476,8 @@
         "3",
         "act11d0_mo01",
         "trap_014_tower",
-        "3"
+        "3",
+        "0"
       ],
       "getMethod": "以3星评价完成TW-MO-1，且战斗结束时至少掌握了3台留声机的控制权",
       "description": null,
