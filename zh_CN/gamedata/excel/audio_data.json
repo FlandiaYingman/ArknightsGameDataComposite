@@ -34062,6 +34062,27 @@
     {
       "sounds": [
         {
+          "asset": "Audio/Sound_Beta_2/Battle/b_char/b_char_defboost",
+          "weight": 1,
+          "important": true,
+          "is2D": true,
+          "delay": 0,
+          "minPitch": 1,
+          "maxPitch": 1,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        }
+      ],
+      "maxSoundAllowed": 0,
+      "popOldest": false,
+      "customMixerGroup": "Battle_UI_Boost",
+      "loop": false,
+      "name": "battle.ON_SKILL_START.skchr_mudrok_1"
+    },
+    {
+      "sounds": [
+        {
           "asset": "Audio/Sound_Beta_2/Player/p_imp/p_imp_bighammer_h",
           "weight": 1,
           "important": false,
@@ -34261,6 +34282,18 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Ambience/a_bat/a_bat_buildingshaking_2",
+          "weight": 50,
+          "important": true,
+          "is2D": true,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         }
       ],
       "maxSoundAllowed": 2,
@@ -34276,18 +34309,6 @@
           "weight": 1,
           "important": false,
           "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "Audio/Sound_Beta_2/Ambience/a_bat/a_bat_buildingshaking_2",
-          "weight": 50,
-          "important": true,
-          "is2D": true,
           "delay": 0,
           "minPitch": 0.8,
           "maxPitch": 1.2,
@@ -34685,6 +34706,18 @@
         {
           "asset": "Audio/Sound_Beta_2/Enemy/e_imp/e_imp_reinforcement",
           "weight": 1,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 0.4,
           "important": false,
           "is2D": false,
           "delay": 0,
@@ -36088,6 +36121,18 @@
           "delay": 0,
           "minPitch": 1,
           "maxPitch": 1,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Ambience/a_bat/a_bat_buildingshaking_2",
+          "weight": 50,
+          "important": true,
+          "is2D": true,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
