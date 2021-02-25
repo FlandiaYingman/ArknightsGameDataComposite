@@ -419,6 +419,36 @@
       "templateShopId": null,
       "medalGroupId": null,
       "isReplicate": false
+    },
+    "act12d6": {
+      "id": "act12d6",
+      "type": "ROGUELIKE",
+      "name": "케오베의 버섯 안개 미궁",
+      "startTime": 1614229200,
+      "endTime": 1616007599,
+      "rewardEndTime": 1616612399,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "isReplicate": false
+    },
+    "act12d0": {
+      "id": "act12d0",
+      "type": "TYPE_ACT9D0",
+      "name": "위대한 족장 가비알 리턴즈",
+      "startTime": 1614229200,
+      "endTime": 1615402799,
+      "rewardEndTime": 1616007599,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": "shop_act12d0",
+      "medalGroupId": "medalGroupActivity12d0",
+      "isReplicate": false
     }
   },
   "zoneToActivity": {
@@ -440,9 +470,708 @@
     "act9d0_zone3": "act9d0",
     "act11d7_zone1": "act11d7",
     "act11d7_zone2": "act11d7",
-    "act11d7_zone3": "act11d7"
+    "act11d7_zone3": "act11d7",
+    "act12d0_zone1": "act12d0",
+    "act12d0_zone2": "act12d0"
   },
   "missionData": [
+    {
+      "id": "12D0Activity_1",
+      "sortId": 1,
+      "description": "RI-1 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_01",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 20
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_2",
+      "sortId": 2,
+      "description": "RI-2 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_02",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 20
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_3",
+      "sortId": 3,
+      "description": "RI-3 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_03",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 20
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_4",
+      "sortId": 4,
+      "description": "3★ 평가로 RI-3 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_03",
+        "3",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_sofa_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_5",
+      "sortId": 5,
+      "description": "RI-4 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_04",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 40
+        },
+        {
+          "type": "CHAR",
+          "id": "char_411_tomimi",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_6",
+      "sortId": 6,
+      "description": "RI-5 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_05",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 40
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_7",
+      "sortId": 7,
+      "description": "3★ 평가로 RI-5 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_05",
+        "3",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_soundSystem_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_8",
+      "sortId": 8,
+      "description": "RI-6 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_06",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 40
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_9",
+      "sortId": 9,
+      "description": "3★ 평가로 RI-6 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_06",
+        "3",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_10",
+      "sortId": 10,
+      "description": "RI-7 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_07",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_11",
+      "sortId": 11,
+      "description": "3★ 평가로 RI-7 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_07",
+        "3",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_wall_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_12",
+      "sortId": 12,
+      "description": "RI-8 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_08",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_13",
+      "sortId": 13,
+      "description": "3★ 평가로 RI-8 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_act12d0_throne_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_14",
+      "sortId": 14,
+      "description": "RI-EX-1 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_15",
+      "sortId": 15,
+      "description": "RI-EX-2 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_ceilinglamp_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_16",
+      "sortId": 16,
+      "description": "RI-EX-3 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_17",
+      "sortId": 17,
+      "description": "RI-EX-4 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_curtain_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_18",
+      "sortId": 18,
+      "description": "RI-EX-5 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_19",
+      "sortId": 19,
+      "description": "RI-EX-6 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_20",
+      "sortId": 20,
+      "description": "RI-EX-7 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        },
+        {
+          "type": "CHAR",
+          "id": "char_345_folnic",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_21",
+      "sortId": 21,
+      "description": "RI-EX-8 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_22",
+      "sortId": 22,
+      "description": "RI-EX-8 하드 모드 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex08#f#",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dropS009_fantaisieOp49_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_23",
+      "sortId": 23,
+      "description": "이벤트 스테이지에서 적 800명 격파",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "EnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_01^act12d0_02^act12d0_tr01^act12d0_03^act12d0_04^act12d0_05^act12d0_06^act12d0_07^act12d0_08^act12d0_09^act12d0_ex01^act12d0_ex01#f#^act12d0_ex02^act12d0_ex02#f#^act12d0_ex03^act12d0_ex03#f#^act12d0_ex04^act12d0_ex04#f#^act12d0_ex05^act12d0_ex05#f#^act12d0_ex06^act12d0_ex06#f#^act12d0_ex07^act12d0_ex07#f#^act12d0_ex08^act12d0_ex08#f#",
+        "800"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_24",
+      "sortId": 24,
+      "description": "이벤트 스테이지에서 적 3000명 격파",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "EnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_01^act12d0_02^act12d0_tr01^act12d0_03^act12d0_04^act12d0_05^act12d0_06^act12d0_07^act12d0_08^act12d0_09^act12d0_ex01^act12d0_ex01#f#^act12d0_ex02^act12d0_ex02#f#^act12d0_ex03^act12d0_ex03#f#^act12d0_ex04^act12d0_ex04#f#^act12d0_ex05^act12d0_ex05#f#^act12d0_ex06^act12d0_ex06#f#^act12d0_ex07^act12d0_ex07#f#^act12d0_ex08^act12d0_ex08#f#",
+        "3000"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 80
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_25",
+      "sortId": 25,
+      "description": "이벤트 스테이지에서 적 6000명 격파",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "EnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_01^act12d0_02^act12d0_tr01^act12d0_03^act12d0_04^act12d0_05^act12d0_06^act12d0_07^act12d0_08^act12d0_09^act12d0_ex01^act12d0_ex01#f#^act12d0_ex02^act12d0_ex02#f#^act12d0_ex03^act12d0_ex03#f#^act12d0_ex04^act12d0_ex04#f#^act12d0_ex05^act12d0_ex05#f#^act12d0_ex06^act12d0_ex06#f#^act12d0_ex07^act12d0_ex07#f#^act12d0_ex08^act12d0_ex08#f#",
+        "6000"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 100
+        }
+      ],
+      "backImagePath": null
+    },
     {
       "id": "9D0Activity_1",
       "sortId": 1,
@@ -455,7 +1184,8 @@
         "0",
         "act9d0_01",
         "2",
-        "3"
+        "3",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -483,7 +1213,8 @@
         "0",
         "act9d0_01",
         "3",
-        "3"
+        "3",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -795,7 +1526,9 @@
       "param": [
         "0",
         "act9d0_07",
-        "3"
+        "3",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -849,7 +1582,9 @@
       "param": [
         "0",
         "act9d0_08",
-        "3"
+        "3",
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -876,7 +1611,9 @@
       "param": [
         "0",
         "act9d0_ex01",
-        "2"
+        "2",
+        "trap_014_tower",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -903,7 +1640,9 @@
       "param": [
         "0",
         "act9d0_ex02",
-        "2"
+        "2",
+        "trap_014_tower",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -957,6 +1696,8 @@
       "param": [
         "0",
         "act9d0_ex04",
+        "2",
+        "6",
         "2"
       ],
       "unlockCondition": null,
@@ -984,7 +1725,9 @@
       "param": [
         "0",
         "act9d0_ex05",
-        "2"
+        "2",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1097,7 +1840,9 @@
       "param": [
         "0",
         "act9d0_01^act9d0_02^act9d0_03^act9d0_04^act9d0_05^act9d0_06^act9d0_07^act9d0_08^act9d0_ex01^act9d0_ex01#f#^act9d0_ex02^act9d0_ex02#f#^act9d0_ex03^act9d0_ex03#f#^act9d0_ex04^act9d0_ex04#f#^act9d0_ex05^act9d0_ex05#f#^act9d0_ex06^act9d0_ex06#f#^act9d0_mo01",
-        "5000"
+        "5000",
+        "sktok_farm",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1124,7 +1869,9 @@
       "param": [
         "0",
         "act9d0_01^act9d0_02^act9d0_03^act9d0_04^act9d0_05^act9d0_06^act9d0_07^act9d0_08^act9d0_ex01^act9d0_ex01#f#^act9d0_ex02^act9d0_ex02#f#^act9d0_ex03^act9d0_ex03#f#^act9d0_ex04^act9d0_ex04#f#^act9d0_ex05^act9d0_ex05#f#^act9d0_ex06^act9d0_ex06#f#^act9d0_mo01",
-        "10000"
+        "10000",
+        "trap_009_battery",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1152,8 +1899,7 @@
         "1",
         "a001_01",
         "1",
-        "3",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1181,8 +1927,7 @@
         "1",
         "a001_02",
         "1",
-        "3",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1489,9 +2234,7 @@
       "param": [
         "0",
         "a001_01^a001_02^a001_03^a001_ex01^a001_ex02^a001_ex03^a001_04^a001_05^a001_06^a001_ex04^a001_ex05^a001_ex06^a001_ex04#f#^a001_ex05#f#^a001_ex06#f#",
-        "200",
-        "trap_009_battery",
-        "1"
+        "200"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1545,9 +2288,7 @@
       "param": [
         "0",
         "a001_01^a001_02^a001_03^a001_ex01^a001_ex02^a001_ex03^a001_04^a001_05^a001_06^a001_ex04^a001_ex05^a001_ex06^a001_ex04#f#^a001_ex05#f#^a001_ex06#f#",
-        "2000",
-        "sktok_farm",
-        "2"
+        "2000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1632,7 +2373,9 @@
       "param": [
         "0",
         "act11d0_03",
-        "2"
+        "2",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1660,8 +2403,7 @@
         "0",
         "act11d0_03",
         "3",
-        "6",
-        "2"
+        "6"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1689,8 +2431,8 @@
         "0",
         "act11d0_04",
         "2",
-        "trap_009_battery",
-        "1"
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1749,7 +2491,9 @@
       "param": [
         "0",
         "act11d0_05",
-        "3"
+        "3",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1805,7 +2549,7 @@
         "act11d0_06",
         "3",
         "sktok_farm",
-        "0"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1834,7 +2578,7 @@
         "act11d0_07",
         "2",
         "trap_009_battery",
-        "0"
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1942,7 +2686,9 @@
       "param": [
         "0",
         "act11d0_ex01",
-        "2"
+        "2",
+        "sktok_farm",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1969,7 +2715,9 @@
       "param": [
         "0",
         "act11d0_ex02",
-        "2"
+        "2",
+        "trap_009_battery",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2050,7 +2798,9 @@
       "param": [
         "0",
         "act11d0_ex05",
-        "2"
+        "2",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2104,6 +2854,8 @@
       "param": [
         "0",
         "act11d0_ex07",
+        "2",
+        "sktok_farm",
         "2"
       ],
       "unlockCondition": null,
@@ -2158,7 +2910,9 @@
       "param": [
         "0",
         "act11d0_ex08#f#",
-        "3"
+        "3",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2212,7 +2966,9 @@
       "param": [
         "0",
         "act11d0_01^act11d0_02^act11d0_03^act11d0_04^act11d0_05^act11d0_06^act11d0_07^act11d0_08^act11d0_ex01^act11d0_ex01#f#^act11d0_ex02^act11d0_ex02#f#^act11d0_ex03^act11d0_ex03#f#^act11d0_ex04^act11d0_ex04#f#^act11d0_ex05^act11d0_ex05#f#^act11d0_ex06^act11d0_ex06#f#^act11d0_ex07^act11d0_ex07#f#^act11d0_ex08^act11d0_ex08#f#^act11d0_s01^act11d0_s01#f#^act11d0_s02^act11d0_s02#f#^act11d0_mo01",
-        "4000"
+        "4000",
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2239,7 +2995,9 @@
       "param": [
         "0",
         "act11d0_01^act11d0_02^act11d0_03^act11d0_04^act11d0_05^act11d0_06^act11d0_07^act11d0_08^act11d0_ex01^act11d0_ex01#f#^act11d0_ex02^act11d0_ex02#f#^act11d0_ex03^act11d0_ex03#f#^act11d0_ex04^act11d0_ex04#f#^act11d0_ex05^act11d0_ex05#f#^act11d0_ex06^act11d0_ex06#f#^act11d0_ex07^act11d0_ex07#f#^act11d0_ex08^act11d0_ex08#f#^act11d0_s01^act11d0_s01#f#^act11d0_s02^act11d0_s02#f#^act11d0_mo01",
-        "8000"
+        "8000",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2324,9 +3082,7 @@
       "param": [
         "2",
         "20",
-        "enemy_1092_mdgint^enemy_1092_mdgint_2",
-        "trap_009_battery",
-        "1"
+        "enemy_1092_mdgint^enemy_1092_mdgint_2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2354,7 +3110,8 @@
         "5",
         "3",
         "act11d0_08",
-        "6"
+        "6",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2382,8 +3139,8 @@
         "0",
         "act11d0_s01#f#",
         "1",
-        "sktok_farm",
-        "2"
+        "trap_009_battery",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2437,9 +3194,7 @@
       "param": [
         "0",
         "a001_02",
-        "3",
-        "trap_009_battery",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2493,9 +3248,7 @@
       "param": [
         "0",
         "a001_04",
-        "3",
-        "sktok_farm",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2522,9 +3275,7 @@
       "param": [
         "0",
         "a001_05",
-        "3",
-        "trap_009_battery",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2632,9 +3383,7 @@
       "param": [
         "0",
         "a001_ex03",
-        "3",
-        "sktok_farm",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2661,9 +3410,7 @@
       "param": [
         "0",
         "a001_ex04",
-        "3",
-        "trap_009_battery",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3135,7 +3882,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "150000"
+        "150000",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3161,7 +3909,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "10000"
+        "10000",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3187,7 +3936,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "20000"
+        "20000",
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3214,7 +3964,7 @@
       "param": [
         "2",
         "50000",
-        "20"
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3821,8 +4571,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "600",
-        "25"
+        "600"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3848,8 +4597,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "1200",
-        "40"
+        "1200"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3956,7 +4704,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "100000"
+        "100000",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3982,7 +4731,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "60000"
+        "60000",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4034,8 +4784,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "200000",
-        "3003"
+        "200000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4061,8 +4810,7 @@
       "templateType": "3",
       "param": [
         "3",
-        "800",
-        "3003"
+        "800"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4088,8 +4836,7 @@
       "templateType": "3",
       "param": [
         "3",
-        "1600",
-        "3003"
+        "1600"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4196,7 +4943,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "12"
+        "12",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4222,7 +4970,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "1000"
+        "1000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4622,7 +5371,7 @@
       "param": [
         "0",
         "100",
-        "25"
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4648,8 +5397,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "200",
-        "40"
+        "200"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4861,7 +5609,7 @@
       "param": [
         "1",
         "1",
-        "3003"
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4888,7 +5636,7 @@
       "param": [
         "1",
         "2",
-        "3003"
+        "60"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4914,7 +5662,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "3"
+        "3",
+        "8"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4940,7 +5689,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "60"
+        "60",
+        "16"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4966,7 +5716,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "120"
+        "120",
+        "24"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5073,7 +5824,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "1800"
+        "1800",
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5099,7 +5851,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "35000"
+        "35000",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5125,7 +5878,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "70000"
+        "70000",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5310,7 +6064,8 @@
       "templateType": "3",
       "param": [
         "3",
-        "2400"
+        "2400",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5336,7 +6091,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "4"
+        "4",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5362,7 +6118,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "8"
+        "8",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5654,8 +6411,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "3000",
-        "10"
+        "3000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5681,8 +6437,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "6000",
-        "25"
+        "6000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5708,8 +6463,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "10000",
-        "40"
+        "10000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5894,8 +6648,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "50",
-        "3003"
+        "50"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5921,8 +6674,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "100",
-        "3003"
+        "100"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5948,8 +6700,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "150",
-        "3003"
+        "150"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6186,7 +6937,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "200"
+        "200",
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6212,7 +6964,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "800"
+        "800",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6238,7 +6991,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "1600"
+        "1600",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6420,7 +7174,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "250000"
+        "250000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6446,7 +7201,8 @@
       "templateType": "3",
       "param": [
         "3",
-        "1000"
+        "1000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6472,7 +7228,8 @@
       "templateType": "3",
       "param": [
         "3",
-        "2000"
+        "2000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7225,12 +7982,60 @@
   ],
   "missionGroup": [
     {
-      "id": "act9d0",
+      "id": "act12d0",
       "title": null,
       "type": "ACTIVITY",
       "preMissionGroup": null,
       "period": null,
       "rewards": [],
+      "missionIds": [
+        "12D0Activity_1",
+        "12D0Activity_2",
+        "12D0Activity_3",
+        "12D0Activity_4",
+        "12D0Activity_5",
+        "12D0Activity_6",
+        "12D0Activity_7",
+        "12D0Activity_8",
+        "12D0Activity_9",
+        "12D0Activity_10",
+        "12D0Activity_11",
+        "12D0Activity_12",
+        "12D0Activity_13",
+        "12D0Activity_14",
+        "12D0Activity_15",
+        "12D0Activity_16",
+        "12D0Activity_17",
+        "12D0Activity_18",
+        "12D0Activity_19",
+        "12D0Activity_20",
+        "12D0Activity_21",
+        "12D0Activity_22",
+        "12D0Activity_23",
+        "12D0Activity_24",
+        "12D0Activity_25",
+        "11D0Activity_s1",
+        "11D0Activity_s2",
+        "11D0Activity_s3",
+        "11D0Activity_s4",
+        "11D0Activity_s5"
+      ],
+      "startTs": 1614229200,
+      "endTs": 1616007599
+    },
+    {
+      "id": "act9d0",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [
+        {
+          "type": "CHAR_SKIN",
+          "id": "char_002_amiya@winter#1",
+          "count": 1
+        }
+      ],
       "missionIds": [
         "9D0Activity_1",
         "9D0Activity_2",
@@ -7309,7 +8114,16 @@
         "11D0Activity_s2",
         "11D0Activity_s3",
         "11D0Activity_s4",
-        "11D0Activity_s5"
+        "11D0Activity_s5",
+        "3D5Activity_31",
+        "3D5Activity_32",
+        "3D5Activity_33",
+        "3D5Activity_34",
+        "3D5Activity_35",
+        "3D5Activity_36",
+        "3D5Activity_37",
+        "3D5Activity_38",
+        "3D5Activity_39"
       ],
       "startTs": 1606366800,
       "endTs": 1607540399
@@ -7358,15 +8172,21 @@
         "11D0Activity_s3",
         "11D0Activity_s4",
         "11D0Activity_s5",
-        "3D5Activity_31",
-        "3D5Activity_32",
-        "3D5Activity_33",
-        "3D5Activity_34",
-        "3D5Activity_35",
-        "3D5Activity_36",
-        "3D5Activity_37",
-        "3D5Activity_38",
-        "3D5Activity_39"
+        "6D8Activity_31",
+        "6D8Activity_32",
+        "6D8Activity_33",
+        "6D8Activity_34",
+        "6D8Activity_35",
+        "6D8Activity_36",
+        "6D8Activity_37",
+        "6D8Activity_38",
+        "6D8Activity_39",
+        "6D8Activity_40",
+        "6D8Activity_41",
+        "6D8Activity_42",
+        "6D8Activity_43",
+        "6D8Activity_44",
+        "6D8Activity_45"
       ],
       "startTs": 1603861200,
       "endTs": 1605639599
@@ -7525,31 +8345,31 @@
         "5D0Activity_18",
         "5D0Activity_19",
         "5D0Activity_20",
-        "6D8Activity_21",
-        "6D8Activity_22",
-        "6D8Activity_23",
-        "6D8Activity_24",
-        "6D8Activity_25",
-        "6D8Activity_26",
-        "6D8Activity_27",
-        "6D8Activity_28",
-        "6D8Activity_29",
-        "6D8Activity_30",
-        "6D8Activity_31",
-        "6D8Activity_32",
-        "6D8Activity_33",
-        "6D8Activity_34",
-        "6D8Activity_35",
-        "6D8Activity_36",
-        "6D8Activity_37",
-        "6D8Activity_38",
-        "6D8Activity_39",
-        "6D8Activity_40",
-        "6D8Activity_41",
-        "6D8Activity_42",
-        "6D8Activity_43",
-        "6D8Activity_44",
-        "6D8Activity_45"
+        "9D4Activity_21",
+        "9D4Activity_22",
+        "9D4Activity_23",
+        "9D4Activity_24",
+        "9D4Activity_25",
+        "9D4Activity_26",
+        "9D4Activity_27",
+        "9D4Activity_28",
+        "9D4Activity_29",
+        "9D4Activity_30",
+        "9D4Activity_31",
+        "9D4Activity_32",
+        "9D4Activity_33",
+        "9D4Activity_34",
+        "9D4Activity_35",
+        "9D4Activity_36",
+        "9D4Activity_37",
+        "9D4Activity_38",
+        "9D4Activity_39",
+        "9D4Activity_40",
+        "9D4Activity_41",
+        "9D4Activity_42",
+        "9D4Activity_43",
+        "9D4Activity_44",
+        "9D4Activity_45"
       ],
       "startTs": 1590544800,
       "endTs": 1592333999
@@ -21108,6 +21928,29 @@
         "newsInfoList": null,
         "newsServerInfoList": null,
         "miscHub": {}
+      },
+      "act12d0": {
+        "tokenItemId": "act12d0_token_components",
+        "keyItemId": null,
+        "zoneDescList": {
+          "act12d0_zone1": {
+            "zoneId": "act12d0_zone1",
+            "unlockText": "아직 개방되지 않음",
+            "displayStartTime": 1614229200
+          },
+          "act12d0_zone2": {
+            "zoneId": "act12d0_zone2",
+            "unlockText": "[대족장의 길] 클리어 후 개방",
+            "displayStartTime": 1614229200
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {}
       }
     },
     "LOGIN_ONLY": {
@@ -21155,7 +21998,834 @@
         ]
       }
     },
-    "ROGUELIKE": {}
+    "ROGUELIKE": {
+      "act12d6": {
+        "outBuffInfos": {
+          "outbuff_gold": {
+            "buffId": "outbuff_gold",
+            "buffUnlockInfos": {
+              "0": {
+                "buffLevel": 0,
+                "name": "더 많은 돈!",
+                "iconId": "outbuff_gold",
+                "description": "부는 사회 자원에 대한 지배 능력을 의미합니다. 케오베는 사회가 뭔지는 잘 모르지만, 자원이 뭔지는 알고 있답니다. 자원은 바로 맛있는 것이란 걸요.",
+                "usage": "초기 오리지늄각뿔+0",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 0
+              },
+              "1": {
+                "buffLevel": 1,
+                "name": "더 많은 돈!",
+                "iconId": "outbuff_gold",
+                "description": "외출할 때 오리지늄각뿔을 조금 챙겨가면 사탕을 사 먹기엔 충분할 겁니다.",
+                "usage": "초기 오리지늄각뿔+1",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 10
+              },
+              "2": {
+                "buffLevel": 2,
+                "name": "더 많은 돈!",
+                "iconId": "outbuff_gold",
+                "description": "외출할 때 오리지늄각뿔을 몇 개 챙겨가면 빵을 사 먹기엔 충분할 겁니다.",
+                "usage": "초기 오리지늄각뿔+2",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 25
+              },
+              "3": {
+                "buffLevel": 3,
+                "name": "더 많은 돈!",
+                "iconId": "outbuff_gold",
+                "description": "외출할 때 오리지늄각뿔을 많이 챙겨가면 고기를 사 먹기엔 충분할 겁니다.",
+                "usage": "초기 오리지늄각뿔+3",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 40
+              },
+              "4": {
+                "buffLevel": 4,
+                "name": "더 많은 돈!",
+                "iconId": "outbuff_gold",
+                "description": "외출할 때 오리지늄각뿔을 아주 많이 챙겨가면 식당을 사고도 남겠죠?",
+                "usage": "초기 오리지늄각뿔+4",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 80
+              },
+              "5": {
+                "buffLevel": 5,
+                "name": "더 많은 돈!",
+                "iconId": "outbuff_gold",
+                "description": "외출할 때 오리지늄각뿔을 몇 상자… 잠깐, 뭐하려는 거죠? 전쟁이라도 일으키려고?",
+                "usage": "초기 오리지늄각뿔+5",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 150
+              }
+            }
+          },
+          "outbuff_hp": {
+            "buffId": "outbuff_hp",
+            "buffUnlockInfos": {
+              "0": {
+                "buffLevel": 0,
+                "name": "더 많은 사람!",
+                "iconId": "outbuff_hp",
+                "description": "인적자원과 지원 물품은 원정의 토대를 다지는 기본입니다. 하지만 케오베는 이런 것들보단, 꿈속에서 친구들과 노는 게 더 신난다고 하는군요.",
+                "usage": "초기 목표 HP+0",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 0
+              },
+              "1": {
+                "buffLevel": 1,
+                "name": "더 많은 사람!",
+                "iconId": "outbuff_hp",
+                "description": "친구들과 함께 놀아볼까요! 즐겁고! 안전하게!",
+                "usage": "초기 목표 HP+1",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 40
+              },
+              "2": {
+                "buffLevel": 2,
+                "name": "더 많은 사람!",
+                "iconId": "outbuff_hp",
+                "description": "꿈에서 깨어나기 전에 임시로 로도스 아일랜드호의 이름을 케오베호로 바꾸었습니다!",
+                "usage": "초기 목표 HP+2",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 120
+              }
+            }
+          },
+          "outbuff_atk": {
+            "buffId": "outbuff_atk",
+            "buffUnlockInfos": {
+              "0": {
+                "buffLevel": 0,
+                "name": "나쁜 놈들 때려눕혀!",
+                "iconId": "outbuff_atk",
+                "description": "꿈속에선 무서운 적이나 몽마를 만나도, 기억 속 친구들의 멋진 자태를 떠올리면 전부 물리칠 수 있답니다! 하나, 둘, 셋! 빠르고 정확하게!",
+                "usage": "모든 아군 유닛 공격력+0%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 0
+              },
+              "1": {
+                "buffLevel": 1,
+                "name": "나쁜 놈들 때려눕혀!",
+                "iconId": "outbuff_atk",
+                "description": "지금의 케오베는 적을 더 거세게 공격할 수 있어요!",
+                "usage": "모든 아군 유닛 공격력+1%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 10
+              },
+              "2": {
+                "buffLevel": 2,
+                "name": "나쁜 놈들 때려눕혀!",
+                "iconId": "outbuff_atk",
+                "description": "날뛰는 원석충을 떼거리로 상대해도, 케오베는 하나도 두려워하지 않아요!",
+                "usage": "모든 아군 유닛 공격력+2%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 25
+              },
+              "3": {
+                "buffLevel": 3,
+                "name": "나쁜 놈들 때려눕혀!",
+                "iconId": "outbuff_atk",
+                "description": "열심히 훈련한 오퍼레이터들도 케오베의 적수는 되지 못할 겁니다! 케오베를 찬양하라!",
+                "usage": "모든 아군 유닛 공격력+3%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 40
+              },
+              "4": {
+                "buffLevel": 4,
+                "name": "나쁜 놈들 때려눕혀!",
+                "iconId": "outbuff_atk",
+                "description": "케오베는 한 부대를 통째로 상대해도 용맹히 출격한답니다! 케오는 정말 멋져!",
+                "usage": "모든 아군 유닛 공격력+4%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 80
+              },
+              "5": {
+                "buffLevel": 5,
+                "name": "나쁜 놈들 때려눕혀!",
+                "iconId": "outbuff_atk",
+                "description": "재앙 구름도 케오가 무서워서 도망갔죠. 무엇이 그녀를 막을 수 있을까요?",
+                "usage": "모든 아군 유닛 공격력+5%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 150
+              }
+            }
+          },
+          "outbuff_def": {
+            "buffId": "outbuff_def",
+            "buffUnlockInfos": {
+              "0": {
+                "buffLevel": 0,
+                "name": "단련해!",
+                "iconId": "outbuff_def",
+                "description": "고독한 케오베가 상대하는 건 고독한 황야… 야수와 굶주림에 지지 않기 위해서는 굳건한 몸을 만들어야 합니다. 꿈속에서의 케오베는 도시도 부술 수 있다고요.",
+                "usage": "모든 아군 유닛 방어력+0%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 0
+              },
+              "1": {
+                "buffLevel": 1,
+                "name": "단련해!",
+                "iconId": "outbuff_def",
+                "description": "케오베의 장비는 매우 튼튼해서, 케오베는 다치지 않아요!",
+                "usage": "모든 아군 유닛 방어력+1%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 10
+              },
+              "2": {
+                "buffLevel": 2,
+                "name": "단련해!",
+                "iconId": "outbuff_def",
+                "description": "오퍼레이터들도 이젠 두 손 두 발 다 들었습니다. 주방으로 돌진하는 케오를 막을 수 있는 사람은 아무도 없습니다!",
+                "usage": "모든 아군 유닛 방어력+2%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 25
+              },
+              "3": {
+                "buffLevel": 3,
+                "name": "단련해!",
+                "iconId": "outbuff_def",
+                "description": "케오가 적을 지치게 하는 방법으로 적을 이기기 시작했습니다! 화살도 아츠도 아무런 효과가 없어요!",
+                "usage": "모든 아군 유닛 방어력+3%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 40
+              },
+              "4": {
+                "buffLevel": 4,
+                "name": "단련해!",
+                "iconId": "outbuff_def",
+                "description": "함선의 장갑을 테스트하기 위한 폭발물도 케오를 다치게 할 순 없습니다! 이젠 어떻게 테스트해야 할까요?",
+                "usage": "모든 아군 유닛 방어력+4%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 80
+              },
+              "5": {
+                "buffLevel": 5,
+                "name": "단련해!",
+                "iconId": "outbuff_def",
+                "description": "산이 무너지고 땅이 갈라져도 케오베는 고통을 느끼지 않습니다. 대지를 파괴하는 운석 앞에서도 케오는 아주 편히 잠들 수 있죠!",
+                "usage": "모든 아군 유닛 방어력+5%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 150
+              }
+            }
+          },
+          "outbuff_maxhp": {
+            "buffId": "outbuff_maxhp",
+            "buffUnlockInfos": {
+              "0": {
+                "buffLevel": 0,
+                "name": "벌꿀 쿠키 먹어!",
+                "iconId": "outbuff_maxhp",
+                "description": "케오베의 머릿속엔 절대 쓰러지지 않는 로도스 아일랜드 오퍼레이터들이 있습니다. 케오베는 잘 먹고 잘 자면 그들처럼 될 수 있다고 믿고 있죠. 그러니 일단은 벌꿀 쿠키를 좀 먹어야… (와그작!)",
+                "usage": "모든 아군 유닛 HP+0%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 0
+              },
+              "1": {
+                "buffLevel": 1,
+                "name": "벌꿀 쿠키 먹어!",
+                "iconId": "outbuff_maxhp",
+                "description": "케오베, 건강하게만 자라다오!",
+                "usage": "모든 아군 유닛 HP+1%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 10
+              },
+              "2": {
+                "buffLevel": 2,
+                "name": "벌꿀 쿠키 먹어!",
+                "iconId": "outbuff_maxhp",
+                "description": "잘 먹고 잘 자면서 케오베는 매우 뛰어난 지구력을 갖게 되었습니다. 마을에서 짐을 나르는 버든비스트들도 모두 부러워한다니까요!",
+                "usage": "모든 아군 유닛 HP+2%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 25
+              },
+              "3": {
+                "buffLevel": 3,
+                "name": "벌꿀 쿠키 먹어!",
+                "iconId": "outbuff_maxhp",
+                "description": "케오베의 사전에 피곤이란 없습니다. 벌꿀 쿠키 하나만 있으면 일주일 내내 밤낮으로 싸울 수 있죠!",
+                "usage": "모든 아군 유닛 HP+3%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 40
+              },
+              "4": {
+                "buffLevel": 4,
+                "name": "벌꿀 쿠키 먹어!",
+                "iconId": "outbuff_maxhp",
+                "description": "케오의 열량 섭취와 소모는 정비례하지 않습니다. 케오, 질량 보존의 법칙을 무너뜨려버려!",
+                "usage": "모든 아군 유닛 HP+4%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 80
+              },
+              "5": {
+                "buffLevel": 5,
+                "name": "벌꿀 쿠키 먹어!",
+                "iconId": "outbuff_maxhp",
+                "description": "케오의 사전에 휴식이란 없죠. 그래서 케오의 벌꿀 쿠키가 미지의 고에너지 연료가 아닌지 의심하는 오퍼레이터도 있다니까요!",
+                "usage": "모든 아군 유닛 HP+5%",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 150
+              }
+            }
+          }
+        },
+        "apSupplyOutOfDateDict": {},
+        "outerBuffToken": "act12d6_token_mushroom",
+        "shopToken": "act12d6_token_pancake",
+        "relicUnlockTime": 1615446000,
+        "milestoneTokenRatio": 1,
+        "outerBuffTokenRatio": 0.1,
+        "relicTokenRatio": 10,
+        "relicOuterBuffTokenRatio": 10,
+        "reOpenCoolDown": 60,
+        "tokenItem": {
+          "id": "act12d6_token_pancake",
+          "count": 0,
+          "type": "ACTIVITY_ITEM"
+        },
+        "charStoneId": "mileStone_12d6_18",
+        "milestone": [
+          {
+            "mileStoneId": "mileStone_12d6_01",
+            "orderId": 1,
+            "tokenNum": 80,
+            "item": {
+              "id": "4001",
+              "count": 5000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_02",
+            "orderId": 2,
+            "tokenNum": 160,
+            "item": {
+              "id": "2002",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_03",
+            "orderId": 3,
+            "tokenNum": 240,
+            "item": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_04",
+            "orderId": 4,
+            "tokenNum": 320,
+            "item": {
+              "id": "30023",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_05",
+            "orderId": 5,
+            "tokenNum": 400,
+            "item": {
+              "id": "4001",
+              "count": 8000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_06",
+            "orderId": 6,
+            "tokenNum": 480,
+            "item": {
+              "id": "2002",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_07",
+            "orderId": 7,
+            "tokenNum": 560,
+            "item": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_08",
+            "orderId": 8,
+            "tokenNum": 640,
+            "item": {
+              "id": "31013",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_09",
+            "orderId": 9,
+            "tokenNum": 720,
+            "item": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_10",
+            "orderId": 10,
+            "tokenNum": 800,
+            "item": {
+              "id": "2002",
+              "count": 15,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_11",
+            "orderId": 11,
+            "tokenNum": 880,
+            "item": {
+              "id": "4006",
+              "count": 40,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_12",
+            "orderId": 12,
+            "tokenNum": 960,
+            "item": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_13",
+            "orderId": 13,
+            "tokenNum": 1040,
+            "item": {
+              "id": "30023",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_14",
+            "orderId": 14,
+            "tokenNum": 1120,
+            "item": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_15",
+            "orderId": 15,
+            "tokenNum": 1200,
+            "item": {
+              "id": "4001",
+              "count": 12000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_16",
+            "orderId": 16,
+            "tokenNum": 1280,
+            "item": {
+              "id": "2002",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_17",
+            "orderId": 17,
+            "tokenNum": 1360,
+            "item": {
+              "id": "31013",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_18",
+            "orderId": 18,
+            "tokenNum": 1440,
+            "item": {
+              "id": "char_337_utage@summer#4",
+              "count": 1,
+              "type": "CHAR_SKIN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_19",
+            "orderId": 19,
+            "tokenNum": 1520,
+            "item": {
+              "id": "4001",
+              "count": 15000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_20",
+            "orderId": 20,
+            "tokenNum": 1600,
+            "item": {
+              "id": "30074",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_21",
+            "orderId": 21,
+            "tokenNum": 1680,
+            "item": {
+              "id": "30023",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_22",
+            "orderId": 22,
+            "tokenNum": 1760,
+            "item": {
+              "id": "31013",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_23",
+            "orderId": 23,
+            "tokenNum": 1840,
+            "item": {
+              "id": "4006",
+              "count": 40,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_24",
+            "orderId": 24,
+            "tokenNum": 1920,
+            "item": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_25",
+            "orderId": 25,
+            "tokenNum": 2000,
+            "item": {
+              "id": "31024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_26",
+            "orderId": 26,
+            "tokenNum": 2080,
+            "item": {
+              "id": "30023",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_27",
+            "orderId": 27,
+            "tokenNum": 2160,
+            "item": {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_28",
+            "orderId": 28,
+            "tokenNum": 2240,
+            "item": {
+              "id": "31013",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_29",
+            "orderId": 29,
+            "tokenNum": 2320,
+            "item": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_30",
+            "orderId": 30,
+            "tokenNum": 2400,
+            "item": {
+              "id": "30044",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_31",
+            "orderId": 31,
+            "tokenNum": 2480,
+            "item": {
+              "id": "4001",
+              "count": 20000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_32",
+            "orderId": 32,
+            "tokenNum": 2560,
+            "item": {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_33",
+            "orderId": 33,
+            "tokenNum": 2640,
+            "item": {
+              "id": "30023",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_34",
+            "orderId": 34,
+            "tokenNum": 2720,
+            "item": {
+              "id": "30024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_35",
+            "orderId": 35,
+            "tokenNum": 2800,
+            "item": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_36",
+            "orderId": 36,
+            "tokenNum": 2880,
+            "item": {
+              "id": "30034",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_37",
+            "orderId": 37,
+            "tokenNum": 2960,
+            "item": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_38",
+            "orderId": 38,
+            "tokenNum": 3040,
+            "item": {
+              "id": "31013",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_39",
+            "orderId": 39,
+            "tokenNum": 3120,
+            "item": {
+              "id": "4006",
+              "count": 60,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_40",
+            "orderId": 40,
+            "tokenNum": 3200,
+            "item": {
+              "id": "30074",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_41",
+            "orderId": 41,
+            "tokenNum": 3280,
+            "item": {
+              "id": "4001",
+              "count": 30000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_42",
+            "orderId": 42,
+            "tokenNum": 3360,
+            "item": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_43",
+            "orderId": 43,
+            "tokenNum": 3440,
+            "item": {
+              "id": "31024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_44",
+            "orderId": 44,
+            "tokenNum": 3520,
+            "item": {
+              "id": "4006",
+              "count": 60,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_45",
+            "orderId": 45,
+            "tokenNum": 3600,
+            "item": {
+              "id": "2004",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_46",
+            "orderId": 46,
+            "tokenNum": 3680,
+            "item": {
+              "id": "30024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_47",
+            "orderId": 47,
+            "tokenNum": 3760,
+            "item": {
+              "id": "30125",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_48",
+            "orderId": 48,
+            "tokenNum": 3840,
+            "item": {
+              "id": "30115",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_49",
+            "orderId": 49,
+            "tokenNum": 3920,
+            "item": {
+              "id": "2004",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_50",
+            "orderId": 50,
+            "tokenNum": 4000,
+            "item": {
+              "id": "30135",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          }
+        ],
+        "unlockConds": [
+          {
+            "actId": "act12d0",
+            "stageId": "act12d0_01"
+          },
+          {
+            "actId": null,
+            "stageId": "main_03-08"
+          }
+        ]
+      }
+    }
   },
   "activityItems": {
     "act4d0": [
@@ -21235,6 +22905,13 @@
       "clue_Rap_3_rep_1",
       "clue_Rap_4_rep_1",
       "clue_Rap_5_rep_1"
+    ],
+    "act12d6": [
+      "act12d6_token_mushroom",
+      "act12d6_token_pancake"
+    ],
+    "act12d0": [
+      "act12d0_token_components"
     ]
   },
   "syncPoints": {
@@ -21257,6 +22934,10 @@
     "act11d7": [
       1611118800,
       1611946799
+    ],
+    "act12d0": [
+      1614229200,
+      1615402799
     ]
   }
 }
