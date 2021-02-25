@@ -419,6 +419,36 @@
       "templateShopId": null,
       "medalGroupId": null,
       "isReplicate": false
+    },
+    "act12d6": {
+      "id": "act12d6",
+      "type": "ROGUELIKE",
+      "name": "Ceobe's Fungimist",
+      "startTime": 1614265200,
+      "endTime": 1616065199,
+      "rewardEndTime": 1616669999,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "isReplicate": false
+    },
+    "act12d0": {
+      "id": "act12d0",
+      "type": "TYPE_ACT9D0",
+      "name": "The Great Chief Returns ",
+      "startTime": 1614265200,
+      "endTime": 1615460399,
+      "rewardEndTime": 1616065199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": "shop_act12d0",
+      "medalGroupId": "medalGroupActivity12d0",
+      "isReplicate": false
     }
   },
   "zoneToActivity": {
@@ -440,9 +470,708 @@
     "act9d0_zone3": "act9d0",
     "act11d7_zone1": "act11d7",
     "act11d7_zone2": "act11d7",
-    "act11d7_zone3": "act11d7"
+    "act11d7_zone3": "act11d7",
+    "act12d0_zone1": "act12d0",
+    "act12d0_zone2": "act12d0"
   },
   "missionData": [
+    {
+      "id": "12D0Activity_1",
+      "sortId": 1,
+      "description": "Clear RI-1.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_01",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 20
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_2",
+      "sortId": 2,
+      "description": "Clear RI-2.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_02",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 20
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_3",
+      "sortId": 3,
+      "description": "Clear RI-3.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_03",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 20
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_4",
+      "sortId": 4,
+      "description": "Clear RI-3 with a 3-star rating.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_03",
+        "3",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_sofa_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_5",
+      "sortId": 5,
+      "description": "Clear RI-4.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_04",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 40
+        },
+        {
+          "type": "CHAR",
+          "id": "char_411_tomimi",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_6",
+      "sortId": 6,
+      "description": "Clear RI-5.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_05",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 40
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_7",
+      "sortId": 7,
+      "description": "Clear RI-5 with a 3-star rating.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_05",
+        "3",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_soundSystem_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_8",
+      "sortId": 8,
+      "description": "Clear RI-6.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_06",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 40
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_9",
+      "sortId": 9,
+      "description": "Clear RI-6 with a 3-star rating.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_06",
+        "3",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_10",
+      "sortId": 10,
+      "description": "Clear RI-7.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_07",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_11",
+      "sortId": 11,
+      "description": "Clear RI-7 with a 3-star rating.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_07",
+        "3",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_wall_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_12",
+      "sortId": 12,
+      "description": "Clear RI-8.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_08",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_13",
+      "sortId": 13,
+      "description": "Clear RI-8 with a 3-star rating.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_act12d0_throne_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_14",
+      "sortId": 14,
+      "description": "Clear RI-EX-1.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_15",
+      "sortId": 15,
+      "description": "Clear RI-EX-2.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_ceilinglamp_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_16",
+      "sortId": 16,
+      "description": "Clear RI-EX-3.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_17",
+      "sortId": 17,
+      "description": "Clear RI-EX-4.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_bolivar_curtain_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_18",
+      "sortId": 18,
+      "description": "Clear RI-EX-5.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_19",
+      "sortId": 19,
+      "description": "Clear RI-EX-6.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_20",
+      "sortId": 20,
+      "description": "Clear RI-EX-7.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        },
+        {
+          "type": "CHAR",
+          "id": "char_345_folnic",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_21",
+      "sortId": 21,
+      "description": "Clear RI-EX-8.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_22",
+      "sortId": 22,
+      "description": "Clear RI-EX-8 Challenge Mode",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex08#f#",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dropS009_fantaisieOp49_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_23",
+      "sortId": 23,
+      "description": "Defeat 800 enemies in Event Stages.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "EnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_01^act12d0_02^act12d0_tr01^act12d0_03^act12d0_04^act12d0_05^act12d0_06^act12d0_07^act12d0_08^act12d0_09^act12d0_ex01^act12d0_ex01#f#^act12d0_ex02^act12d0_ex02#f#^act12d0_ex03^act12d0_ex03#f#^act12d0_ex04^act12d0_ex04#f#^act12d0_ex05^act12d0_ex05#f#^act12d0_ex06^act12d0_ex06#f#^act12d0_ex07^act12d0_ex07#f#^act12d0_ex08^act12d0_ex08#f#",
+        "800"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_24",
+      "sortId": 24,
+      "description": "Defeat 3,000 enemies in Event Stages.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "EnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_01^act12d0_02^act12d0_tr01^act12d0_03^act12d0_04^act12d0_05^act12d0_06^act12d0_07^act12d0_08^act12d0_09^act12d0_ex01^act12d0_ex01#f#^act12d0_ex02^act12d0_ex02#f#^act12d0_ex03^act12d0_ex03#f#^act12d0_ex04^act12d0_ex04#f#^act12d0_ex05^act12d0_ex05#f#^act12d0_ex06^act12d0_ex06#f#^act12d0_ex07^act12d0_ex07#f#^act12d0_ex08^act12d0_ex08#f#",
+        "3000"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 80
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "12D0Activity_25",
+      "sortId": 25,
+      "description": "Defeat 6,000 enemies in Event Stages.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "EnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_01^act12d0_02^act12d0_tr01^act12d0_03^act12d0_04^act12d0_05^act12d0_06^act12d0_07^act12d0_08^act12d0_09^act12d0_ex01^act12d0_ex01#f#^act12d0_ex02^act12d0_ex02#f#^act12d0_ex03^act12d0_ex03#f#^act12d0_ex04^act12d0_ex04#f#^act12d0_ex05^act12d0_ex05#f#^act12d0_ex06^act12d0_ex06#f#^act12d0_ex07^act12d0_ex07#f#^act12d0_ex08^act12d0_ex08#f#",
+        "6000"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 100
+        }
+      ],
+      "backImagePath": null
+    },
     {
       "id": "9D0Activity_1",
       "sortId": 1,
@@ -455,7 +1184,8 @@
         "0",
         "act9d0_01",
         "2",
-        "3"
+        "3",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -483,7 +1213,8 @@
         "0",
         "act9d0_01",
         "3",
-        "3"
+        "3",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -795,7 +1526,9 @@
       "param": [
         "0",
         "act9d0_07",
-        "3"
+        "3",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -849,7 +1582,9 @@
       "param": [
         "0",
         "act9d0_08",
-        "3"
+        "3",
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -876,7 +1611,9 @@
       "param": [
         "0",
         "act9d0_ex01",
-        "2"
+        "2",
+        "trap_014_tower",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -903,7 +1640,9 @@
       "param": [
         "0",
         "act9d0_ex02",
-        "2"
+        "2",
+        "trap_014_tower",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -957,6 +1696,8 @@
       "param": [
         "0",
         "act9d0_ex04",
+        "2",
+        "6",
         "2"
       ],
       "unlockCondition": null,
@@ -984,7 +1725,9 @@
       "param": [
         "0",
         "act9d0_ex05",
-        "2"
+        "2",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1097,7 +1840,9 @@
       "param": [
         "0",
         "act9d0_01^act9d0_02^act9d0_03^act9d0_04^act9d0_05^act9d0_06^act9d0_07^act9d0_08^act9d0_ex01^act9d0_ex01#f#^act9d0_ex02^act9d0_ex02#f#^act9d0_ex03^act9d0_ex03#f#^act9d0_ex04^act9d0_ex04#f#^act9d0_ex05^act9d0_ex05#f#^act9d0_ex06^act9d0_ex06#f#^act9d0_mo01",
-        "5000"
+        "5000",
+        "sktok_farm",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1124,7 +1869,9 @@
       "param": [
         "0",
         "act9d0_01^act9d0_02^act9d0_03^act9d0_04^act9d0_05^act9d0_06^act9d0_07^act9d0_08^act9d0_ex01^act9d0_ex01#f#^act9d0_ex02^act9d0_ex02#f#^act9d0_ex03^act9d0_ex03#f#^act9d0_ex04^act9d0_ex04#f#^act9d0_ex05^act9d0_ex05#f#^act9d0_ex06^act9d0_ex06#f#^act9d0_mo01",
-        "10000"
+        "10000",
+        "trap_009_battery",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1152,8 +1899,7 @@
         "1",
         "a001_01",
         "1",
-        "3",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1181,8 +1927,7 @@
         "1",
         "a001_02",
         "1",
-        "3",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1489,9 +2234,7 @@
       "param": [
         "0",
         "a001_01^a001_02^a001_03^a001_ex01^a001_ex02^a001_ex03^a001_04^a001_05^a001_06^a001_ex04^a001_ex05^a001_ex06^a001_ex04#f#^a001_ex05#f#^a001_ex06#f#",
-        "200",
-        "trap_009_battery",
-        "1"
+        "200"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1545,9 +2288,7 @@
       "param": [
         "0",
         "a001_01^a001_02^a001_03^a001_ex01^a001_ex02^a001_ex03^a001_04^a001_05^a001_06^a001_ex04^a001_ex05^a001_ex06^a001_ex04#f#^a001_ex05#f#^a001_ex06#f#",
-        "2000",
-        "sktok_farm",
-        "2"
+        "2000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1632,7 +2373,9 @@
       "param": [
         "0",
         "act11d0_03",
-        "2"
+        "2",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1660,8 +2403,7 @@
         "0",
         "act11d0_03",
         "3",
-        "6",
-        "2"
+        "6"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1689,8 +2431,8 @@
         "0",
         "act11d0_04",
         "2",
-        "trap_009_battery",
-        "1"
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1749,7 +2491,9 @@
       "param": [
         "0",
         "act11d0_05",
-        "3"
+        "3",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1805,7 +2549,7 @@
         "act11d0_06",
         "3",
         "sktok_farm",
-        "0"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1834,7 +2578,7 @@
         "act11d0_07",
         "2",
         "trap_009_battery",
-        "0"
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1942,7 +2686,9 @@
       "param": [
         "0",
         "act11d0_ex01",
-        "2"
+        "2",
+        "sktok_farm",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1969,7 +2715,9 @@
       "param": [
         "0",
         "act11d0_ex02",
-        "2"
+        "2",
+        "trap_009_battery",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2050,7 +2798,9 @@
       "param": [
         "0",
         "act11d0_ex05",
-        "2"
+        "2",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2104,6 +2854,8 @@
       "param": [
         "0",
         "act11d0_ex07",
+        "2",
+        "sktok_farm",
         "2"
       ],
       "unlockCondition": null,
@@ -2158,7 +2910,9 @@
       "param": [
         "0",
         "act11d0_ex08#f#",
-        "3"
+        "3",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2212,7 +2966,9 @@
       "param": [
         "0",
         "act11d0_01^act11d0_02^act11d0_03^act11d0_04^act11d0_05^act11d0_06^act11d0_07^act11d0_08^act11d0_ex01^act11d0_ex01#f#^act11d0_ex02^act11d0_ex02#f#^act11d0_ex03^act11d0_ex03#f#^act11d0_ex04^act11d0_ex04#f#^act11d0_ex05^act11d0_ex05#f#^act11d0_ex06^act11d0_ex06#f#^act11d0_ex07^act11d0_ex07#f#^act11d0_ex08^act11d0_ex08#f#^act11d0_s01^act11d0_s01#f#^act11d0_s02^act11d0_s02#f#^act11d0_mo01",
-        "4000"
+        "4000",
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2239,7 +2995,9 @@
       "param": [
         "0",
         "act11d0_01^act11d0_02^act11d0_03^act11d0_04^act11d0_05^act11d0_06^act11d0_07^act11d0_08^act11d0_ex01^act11d0_ex01#f#^act11d0_ex02^act11d0_ex02#f#^act11d0_ex03^act11d0_ex03#f#^act11d0_ex04^act11d0_ex04#f#^act11d0_ex05^act11d0_ex05#f#^act11d0_ex06^act11d0_ex06#f#^act11d0_ex07^act11d0_ex07#f#^act11d0_ex08^act11d0_ex08#f#^act11d0_s01^act11d0_s01#f#^act11d0_s02^act11d0_s02#f#^act11d0_mo01",
-        "8000"
+        "8000",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2324,9 +3082,7 @@
       "param": [
         "2",
         "20",
-        "enemy_1092_mdgint^enemy_1092_mdgint_2",
-        "trap_009_battery",
-        "1"
+        "enemy_1092_mdgint^enemy_1092_mdgint_2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2354,7 +3110,8 @@
         "5",
         "3",
         "act11d0_08",
-        "6"
+        "6",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2382,8 +3139,8 @@
         "0",
         "act11d0_s01#f#",
         "1",
-        "sktok_farm",
-        "2"
+        "trap_009_battery",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2437,9 +3194,7 @@
       "param": [
         "0",
         "a001_02",
-        "3",
-        "trap_009_battery",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2493,9 +3248,7 @@
       "param": [
         "0",
         "a001_04",
-        "3",
-        "sktok_farm",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2522,9 +3275,7 @@
       "param": [
         "0",
         "a001_05",
-        "3",
-        "trap_009_battery",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2632,9 +3383,7 @@
       "param": [
         "0",
         "a001_ex03",
-        "3",
-        "sktok_farm",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2661,9 +3410,7 @@
       "param": [
         "0",
         "a001_ex04",
-        "3",
-        "trap_009_battery",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3135,7 +3882,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "150000"
+        "150000",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3161,7 +3909,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "10000"
+        "10000",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3187,7 +3936,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "20000"
+        "20000",
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3214,7 +3964,7 @@
       "param": [
         "2",
         "50000",
-        "20"
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3821,8 +4571,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "600",
-        "25"
+        "600"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3848,8 +4597,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "1200",
-        "40"
+        "1200"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3956,7 +4704,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "100000"
+        "100000",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3982,7 +4731,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "60000"
+        "60000",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4034,8 +4784,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "200000",
-        "3003"
+        "200000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4061,8 +4810,7 @@
       "templateType": "3",
       "param": [
         "3",
-        "800",
-        "3003"
+        "800"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4088,8 +4836,7 @@
       "templateType": "3",
       "param": [
         "3",
-        "1600",
-        "3003"
+        "1600"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4196,7 +4943,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "12"
+        "12",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4222,7 +4970,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "1000"
+        "1000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4622,7 +5371,7 @@
       "param": [
         "0",
         "100",
-        "25"
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4648,8 +5397,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "200",
-        "40"
+        "200"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4861,7 +5609,7 @@
       "param": [
         "1",
         "1",
-        "3003"
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4888,7 +5636,7 @@
       "param": [
         "1",
         "2",
-        "3003"
+        "60"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4914,7 +5662,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "3"
+        "3",
+        "8"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4940,7 +5689,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "60"
+        "60",
+        "16"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4966,7 +5716,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "120"
+        "120",
+        "24"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5073,7 +5824,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "1800"
+        "1800",
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5099,7 +5851,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "35000"
+        "35000",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5125,7 +5878,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "70000"
+        "70000",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5310,7 +6064,8 @@
       "templateType": "3",
       "param": [
         "3",
-        "2400"
+        "2400",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5336,7 +6091,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "4"
+        "4",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5362,7 +6118,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "8"
+        "8",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5654,8 +6411,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "3000",
-        "10"
+        "3000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5681,8 +6437,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "6000",
-        "25"
+        "6000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5708,8 +6463,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "10000",
-        "40"
+        "10000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5894,8 +6648,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "50",
-        "3003"
+        "50"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5921,8 +6674,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "100",
-        "3003"
+        "100"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5948,8 +6700,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "150",
-        "3003"
+        "150"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6186,7 +6937,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "200"
+        "200",
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6212,7 +6964,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "800"
+        "800",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6238,7 +6991,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "1600"
+        "1600",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6420,7 +7174,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "250000"
+        "250000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6446,7 +7201,8 @@
       "templateType": "3",
       "param": [
         "3",
-        "1000"
+        "1000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6472,7 +7228,8 @@
       "templateType": "3",
       "param": [
         "3",
-        "2000"
+        "2000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7225,12 +7982,60 @@
   ],
   "missionGroup": [
     {
-      "id": "act9d0",
+      "id": "act12d0",
       "title": null,
       "type": "ACTIVITY",
       "preMissionGroup": null,
       "period": null,
       "rewards": [],
+      "missionIds": [
+        "12D0Activity_1",
+        "12D0Activity_2",
+        "12D0Activity_3",
+        "12D0Activity_4",
+        "12D0Activity_5",
+        "12D0Activity_6",
+        "12D0Activity_7",
+        "12D0Activity_8",
+        "12D0Activity_9",
+        "12D0Activity_10",
+        "12D0Activity_11",
+        "12D0Activity_12",
+        "12D0Activity_13",
+        "12D0Activity_14",
+        "12D0Activity_15",
+        "12D0Activity_16",
+        "12D0Activity_17",
+        "12D0Activity_18",
+        "12D0Activity_19",
+        "12D0Activity_20",
+        "12D0Activity_21",
+        "12D0Activity_22",
+        "12D0Activity_23",
+        "12D0Activity_24",
+        "12D0Activity_25",
+        "11D0Activity_s1",
+        "11D0Activity_s2",
+        "11D0Activity_s3",
+        "11D0Activity_s4",
+        "11D0Activity_s5"
+      ],
+      "startTs": 1614265200,
+      "endTs": 1616065199
+    },
+    {
+      "id": "act9d0",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [
+        {
+          "type": "CHAR_SKIN",
+          "id": "char_002_amiya@winter#1",
+          "count": 1
+        }
+      ],
       "missionIds": [
         "9D0Activity_1",
         "9D0Activity_2",
@@ -7309,7 +8114,16 @@
         "11D0Activity_s2",
         "11D0Activity_s3",
         "11D0Activity_s4",
-        "11D0Activity_s5"
+        "11D0Activity_s5",
+        "3D5Activity_31",
+        "3D5Activity_32",
+        "3D5Activity_33",
+        "3D5Activity_34",
+        "3D5Activity_35",
+        "3D5Activity_36",
+        "3D5Activity_37",
+        "3D5Activity_38",
+        "3D5Activity_39"
       ],
       "startTs": 1606402800,
       "endTs": 1607597999
@@ -7358,15 +8172,21 @@
         "11D0Activity_s3",
         "11D0Activity_s4",
         "11D0Activity_s5",
-        "3D5Activity_31",
-        "3D5Activity_32",
-        "3D5Activity_33",
-        "3D5Activity_34",
-        "3D5Activity_35",
-        "3D5Activity_36",
-        "3D5Activity_37",
-        "3D5Activity_38",
-        "3D5Activity_39"
+        "6D8Activity_31",
+        "6D8Activity_32",
+        "6D8Activity_33",
+        "6D8Activity_34",
+        "6D8Activity_35",
+        "6D8Activity_36",
+        "6D8Activity_37",
+        "6D8Activity_38",
+        "6D8Activity_39",
+        "6D8Activity_40",
+        "6D8Activity_41",
+        "6D8Activity_42",
+        "6D8Activity_43",
+        "6D8Activity_44",
+        "6D8Activity_45"
       ],
       "startTs": 1603897200,
       "endTs": 1605697199
@@ -7525,31 +8345,31 @@
         "5D0Activity_18",
         "5D0Activity_19",
         "5D0Activity_20",
-        "6D8Activity_21",
-        "6D8Activity_22",
-        "6D8Activity_23",
-        "6D8Activity_24",
-        "6D8Activity_25",
-        "6D8Activity_26",
-        "6D8Activity_27",
-        "6D8Activity_28",
-        "6D8Activity_29",
-        "6D8Activity_30",
-        "6D8Activity_31",
-        "6D8Activity_32",
-        "6D8Activity_33",
-        "6D8Activity_34",
-        "6D8Activity_35",
-        "6D8Activity_36",
-        "6D8Activity_37",
-        "6D8Activity_38",
-        "6D8Activity_39",
-        "6D8Activity_40",
-        "6D8Activity_41",
-        "6D8Activity_42",
-        "6D8Activity_43",
-        "6D8Activity_44",
-        "6D8Activity_45"
+        "9D4Activity_21",
+        "9D4Activity_22",
+        "9D4Activity_23",
+        "9D4Activity_24",
+        "9D4Activity_25",
+        "9D4Activity_26",
+        "9D4Activity_27",
+        "9D4Activity_28",
+        "9D4Activity_29",
+        "9D4Activity_30",
+        "9D4Activity_31",
+        "9D4Activity_32",
+        "9D4Activity_33",
+        "9D4Activity_34",
+        "9D4Activity_35",
+        "9D4Activity_36",
+        "9D4Activity_37",
+        "9D4Activity_38",
+        "9D4Activity_39",
+        "9D4Activity_40",
+        "9D4Activity_41",
+        "9D4Activity_42",
+        "9D4Activity_43",
+        "9D4Activity_44",
+        "9D4Activity_45"
       ],
       "startTs": 1590602400,
       "endTs": 1592391599
@@ -21108,6 +21928,29 @@
         "newsInfoList": null,
         "newsServerInfoList": null,
         "miscHub": {}
+      },
+      "act12d0": {
+        "tokenItemId": "act12d0_token_components",
+        "keyItemId": null,
+        "zoneDescList": {
+          "act12d0_zone1": {
+            "zoneId": "act12d0_zone1",
+            "unlockText": "Locked",
+            "displayStartTime": 1614265200
+          },
+          "act12d0_zone2": {
+            "zoneId": "act12d0_zone2",
+            "unlockText": "Unlocked after completing [Great Chief’s Path]",
+            "displayStartTime": 1614265200
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {}
       }
     },
     "LOGIN_ONLY": {
@@ -21155,7 +21998,834 @@
         ]
       }
     },
-    "ROGUELIKE": {}
+    "ROGUELIKE": {
+      "act12d6": {
+        "outBuffInfos": {
+          "outbuff_gold": {
+            "buffId": "outbuff_gold",
+            "buffUnlockInfos": {
+              "0": {
+                "buffLevel": 0,
+                "name": "Lovely money!",
+                "iconId": "outbuff_gold",
+                "description": "Wealth is the ability to control society's resources. Ceobe doesn't know much about society, but knows what resources are — delicious.",
+                "usage": "Starting Originium Ingot +0",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 0
+              },
+              "1": {
+                "buffLevel": 1,
+                "name": "Lovely money!",
+                "iconId": "outbuff_gold",
+                "description": "You left with a small Originium ingot. It should be enough to buy some sugar.",
+                "usage": "Starting Originium Ingot +1",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 10
+              },
+              "2": {
+                "buffLevel": 2,
+                "name": "Lovely money!",
+                "iconId": "outbuff_gold",
+                "description": "You left with a few Originium ingots. It's definitely enough for a loaf of bread.",
+                "usage": "Starting Originium Ingot +2",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 25
+              },
+              "3": {
+                "buffLevel": 3,
+                "name": "Lovely money!",
+                "iconId": "outbuff_gold",
+                "description": "You left with a pouch of Originium ingots. Meat will be on the menu today.",
+                "usage": "Starting Originium Ingot +3",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 40
+              },
+              "4": {
+                "buffLevel": 4,
+                "name": "Lovely money!",
+                "iconId": "outbuff_gold",
+                "description": "You left with a huge case of Originium ingots. You could buy a diner and still have some left over.",
+                "usage": "Starting Originium Ingot +4",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 80
+              },
+              "5": {
+                "buffLevel": 5,
+                "name": "Lovely money!",
+                "iconId": "outbuff_gold",
+                "description": "You left with several chests of… Wait, what are you even going to do with all this? Start a war?",
+                "usage": "Starting Originium Ingot +5",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 150
+              }
+            }
+          },
+          "outbuff_hp": {
+            "buffId": "outbuff_hp",
+            "buffUnlockInfos": {
+              "0": {
+                "buffLevel": 0,
+                "name": "More people!",
+                "iconId": "outbuff_hp",
+                "description": "A proper expedition requires a solid foundation of personnel and logistics. But, wouldn't you rather go on an exciting adventure with your friends in the land of dreams?",
+                "usage": "Starting Objective HP +0",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 0
+              },
+              "1": {
+                "buffLevel": 1,
+                "name": "More people!",
+                "iconId": "outbuff_hp",
+                "description": "Time to play with friends! Super happy! Super safe!",
+                "usage": "Starting Objective HP +1",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 40
+              },
+              "2": {
+                "buffLevel": 2,
+                "name": "More people!",
+                "iconId": "outbuff_hp",
+                "description": "Before waking up from that long dream, Rhodes Island IDs got renamed into Ceobe IDs!",
+                "usage": "Starting Objective HP +2",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 120
+              }
+            }
+          },
+          "outbuff_atk": {
+            "buffId": "outbuff_atk",
+            "buffUnlockInfos": {
+              "0": {
+                "buffLevel": 0,
+                "name": "Beat 'em up!",
+                "iconId": "outbuff_atk",
+                "description": "Even if you meet a terrible foe in a nightmare, just focus on the memories of your mighty companions, and the nightmare will be able to do nothing except retreat.",
+                "usage": "All friendly units gain +0% ATK",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 0
+              },
+              "1": {
+                "buffLevel": 1,
+                "name": "Beat 'em up!",
+                "iconId": "outbuff_atk",
+                "description": "Ceobe will smack the enemies around even harder now!",
+                "usage": "All friendly units gain +1% ATK",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 10
+              },
+              "2": {
+                "buffLevel": 2,
+                "name": "Beat 'em up!",
+                "iconId": "outbuff_atk",
+                "description": "Ceobe is fearless, no matter how large that pack of crazy Originium slugs!",
+                "usage": "All friendly units gain +2% ATK",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 25
+              },
+              "3": {
+                "buffLevel": 3,
+                "name": "Beat 'em up!",
+                "iconId": "outbuff_atk",
+                "description": "Even well-trained operators sigh to themselves that they're not as good as Ceobe! Praise me, praise me!",
+                "usage": "All friendly units gain +3% ATK",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 40
+              },
+              "4": {
+                "buffLevel": 4,
+                "name": "Beat 'em up!",
+                "iconId": "outbuff_atk",
+                "description": "Ceobe can charge fearlessly, even in the face of an entire army! Kay is awesome!",
+                "usage": "All friendly units gain +4% ATK",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 80
+              },
+              "5": {
+                "buffLevel": 5,
+                "name": "Beat 'em up!",
+                "iconId": "outbuff_atk",
+                "description": "Kay scared away that spooky Catastrophe cloud! What can't she do?",
+                "usage": "All friendly units gain +5% ATK",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 150
+              }
+            }
+          },
+          "outbuff_def": {
+            "buffId": "outbuff_def",
+            "buffUnlockInfos": {
+              "0": {
+                "buffLevel": 0,
+                "name": "Go train!",
+                "iconId": "outbuff_def",
+                "description": "The lonely Ceobe faces a lonely wilderness. In order to not be defeated by wild beasts and hunger, I'll need to get stronger! In a dream, Ceobe can even crush a city!",
+                "usage": "All friendly units gain +0% DEF",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 0
+              },
+              "1": {
+                "buffLevel": 1,
+                "name": "Go train!",
+                "iconId": "outbuff_def",
+                "description": "Ceobe's armor is super strong! She won't get hurt!",
+                "usage": "All friendly units gain +1% DEF",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 10
+              },
+              "2": {
+                "buffLevel": 2,
+                "name": "Go train!",
+                "iconId": "outbuff_def",
+                "description": "The other operators have all given up. Now, there's nobody to keep Kay out of the kitchen!",
+                "usage": "All friendly units gain +2% DEF",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 25
+              },
+              "3": {
+                "buffLevel": 3,
+                "name": "Go train!",
+                "iconId": "outbuff_def",
+                "description": "Kay is going to defeat the enemies by exhausting them! Arrows and arts can't hurt her!",
+                "usage": "All friendly units gain +3% DEF",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 40
+              },
+              "4": {
+                "buffLevel": 4,
+                "name": "Go train!",
+                "iconId": "outbuff_def",
+                "description": "Even the explosives used to test the ship's armor can't hurt Kay now! How are we supposed to test now?",
+                "usage": "All friendly units gain +4% DEF",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 80
+              },
+              "5": {
+                "buffLevel": 5,
+                "name": "Go train!",
+                "iconId": "outbuff_def",
+                "description": "Even landslides and earthquakes can't make Ceobe feel pain! She will sleep peacefully even if meteors are destroying Terra!",
+                "usage": "All friendly units gain +5% DEF",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 150
+              }
+            }
+          },
+          "outbuff_maxhp": {
+            "buffId": "outbuff_maxhp",
+            "buffUnlockInfos": {
+              "0": {
+                "buffLevel": 0,
+                "name": "Eat honey biscuits!",
+                "iconId": "outbuff_maxhp",
+                "description": "If Ceobe remembers properly, there are some Rhodes Island Operators who'll never get knocked down! Ceobe believes that she can just like them with enough food and sleep, so it's time for honey biscuits! *Chomp*",
+                "usage": "All friendly units gain +0% Max HP",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 0
+              },
+              "1": {
+                "buffLevel": 1,
+                "name": "Eat honey biscuits!",
+                "iconId": "outbuff_maxhp",
+                "description": "Ceobe is growing big and strong!",
+                "usage": "All friendly units gain +1% Max HP",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 10
+              },
+              "2": {
+                "buffLevel": 2,
+                "name": "Eat honey biscuits!",
+                "iconId": "outbuff_maxhp",
+                "description": "Eating and sleeping well makes Ceobe super healthy and strong! Even wild pack beasts can't compare to her endurance!",
+                "usage": "All friendly units gain +2% Max HP",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 25
+              },
+              "3": {
+                "buffLevel": 3,
+                "name": "Eat honey biscuits!",
+                "iconId": "outbuff_maxhp",
+                "description": "Ceobe is tireless! Give her a honey biscuit and she can fight for seven days and nights!",
+                "usage": "All friendly units gain +3% Max HP",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 40
+              },
+              "4": {
+                "buffLevel": 4,
+                "name": "Eat honey biscuits!",
+                "iconId": "outbuff_maxhp",
+                "description": "Kay's calories and food consumed don't match up! Kay has broken the law of conservation!",
+                "usage": "All friendly units gain +4% Max HP",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 80
+              },
+              "5": {
+                "buffLevel": 5,
+                "name": "Eat honey biscuits!",
+                "iconId": "outbuff_maxhp",
+                "description": "\"Rest\" has disappeared from Kay's dictionary! An operator suspects that her honey biscuits are actually some unknown high-energy fuel!",
+                "usage": "All friendly units gain +5% Max HP",
+                "itemId": "act12d6_token_mushroom",
+                "itemType": "ACTIVITY_ITEM",
+                "cost": 150
+              }
+            }
+          }
+        },
+        "apSupplyOutOfDateDict": {},
+        "outerBuffToken": "act12d6_token_mushroom",
+        "shopToken": "act12d6_token_pancake",
+        "relicUnlockTime": 1615503600,
+        "milestoneTokenRatio": 1,
+        "outerBuffTokenRatio": 0.1,
+        "relicTokenRatio": 10,
+        "relicOuterBuffTokenRatio": 10,
+        "reOpenCoolDown": 60,
+        "tokenItem": {
+          "id": "act12d6_token_pancake",
+          "count": 0,
+          "type": "ACTIVITY_ITEM"
+        },
+        "charStoneId": "mileStone_12d6_18",
+        "milestone": [
+          {
+            "mileStoneId": "mileStone_12d6_01",
+            "orderId": 1,
+            "tokenNum": 80,
+            "item": {
+              "id": "4001",
+              "count": 5000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_02",
+            "orderId": 2,
+            "tokenNum": 160,
+            "item": {
+              "id": "2002",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_03",
+            "orderId": 3,
+            "tokenNum": 240,
+            "item": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_04",
+            "orderId": 4,
+            "tokenNum": 320,
+            "item": {
+              "id": "30023",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_05",
+            "orderId": 5,
+            "tokenNum": 400,
+            "item": {
+              "id": "4001",
+              "count": 8000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_06",
+            "orderId": 6,
+            "tokenNum": 480,
+            "item": {
+              "id": "2002",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_07",
+            "orderId": 7,
+            "tokenNum": 560,
+            "item": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_08",
+            "orderId": 8,
+            "tokenNum": 640,
+            "item": {
+              "id": "31013",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_09",
+            "orderId": 9,
+            "tokenNum": 720,
+            "item": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_10",
+            "orderId": 10,
+            "tokenNum": 800,
+            "item": {
+              "id": "2002",
+              "count": 15,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_11",
+            "orderId": 11,
+            "tokenNum": 880,
+            "item": {
+              "id": "4006",
+              "count": 40,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_12",
+            "orderId": 12,
+            "tokenNum": 960,
+            "item": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_13",
+            "orderId": 13,
+            "tokenNum": 1040,
+            "item": {
+              "id": "30023",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_14",
+            "orderId": 14,
+            "tokenNum": 1120,
+            "item": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_15",
+            "orderId": 15,
+            "tokenNum": 1200,
+            "item": {
+              "id": "4001",
+              "count": 12000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_16",
+            "orderId": 16,
+            "tokenNum": 1280,
+            "item": {
+              "id": "2002",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_17",
+            "orderId": 17,
+            "tokenNum": 1360,
+            "item": {
+              "id": "31013",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_18",
+            "orderId": 18,
+            "tokenNum": 1440,
+            "item": {
+              "id": "char_337_utage@summer#4",
+              "count": 1,
+              "type": "CHAR_SKIN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_19",
+            "orderId": 19,
+            "tokenNum": 1520,
+            "item": {
+              "id": "4001",
+              "count": 15000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_20",
+            "orderId": 20,
+            "tokenNum": 1600,
+            "item": {
+              "id": "30074",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_21",
+            "orderId": 21,
+            "tokenNum": 1680,
+            "item": {
+              "id": "30023",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_22",
+            "orderId": 22,
+            "tokenNum": 1760,
+            "item": {
+              "id": "31013",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_23",
+            "orderId": 23,
+            "tokenNum": 1840,
+            "item": {
+              "id": "4006",
+              "count": 40,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_24",
+            "orderId": 24,
+            "tokenNum": 1920,
+            "item": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_25",
+            "orderId": 25,
+            "tokenNum": 2000,
+            "item": {
+              "id": "31024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_26",
+            "orderId": 26,
+            "tokenNum": 2080,
+            "item": {
+              "id": "30023",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_27",
+            "orderId": 27,
+            "tokenNum": 2160,
+            "item": {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_28",
+            "orderId": 28,
+            "tokenNum": 2240,
+            "item": {
+              "id": "31013",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_29",
+            "orderId": 29,
+            "tokenNum": 2320,
+            "item": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_30",
+            "orderId": 30,
+            "tokenNum": 2400,
+            "item": {
+              "id": "30044",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_31",
+            "orderId": 31,
+            "tokenNum": 2480,
+            "item": {
+              "id": "4001",
+              "count": 20000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_32",
+            "orderId": 32,
+            "tokenNum": 2560,
+            "item": {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_33",
+            "orderId": 33,
+            "tokenNum": 2640,
+            "item": {
+              "id": "30023",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_34",
+            "orderId": 34,
+            "tokenNum": 2720,
+            "item": {
+              "id": "30024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_35",
+            "orderId": 35,
+            "tokenNum": 2800,
+            "item": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_36",
+            "orderId": 36,
+            "tokenNum": 2880,
+            "item": {
+              "id": "30034",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_37",
+            "orderId": 37,
+            "tokenNum": 2960,
+            "item": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_38",
+            "orderId": 38,
+            "tokenNum": 3040,
+            "item": {
+              "id": "31013",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_39",
+            "orderId": 39,
+            "tokenNum": 3120,
+            "item": {
+              "id": "4006",
+              "count": 60,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_40",
+            "orderId": 40,
+            "tokenNum": 3200,
+            "item": {
+              "id": "30074",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_41",
+            "orderId": 41,
+            "tokenNum": 3280,
+            "item": {
+              "id": "4001",
+              "count": 30000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_42",
+            "orderId": 42,
+            "tokenNum": 3360,
+            "item": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_43",
+            "orderId": 43,
+            "tokenNum": 3440,
+            "item": {
+              "id": "31024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_44",
+            "orderId": 44,
+            "tokenNum": 3520,
+            "item": {
+              "id": "4006",
+              "count": 60,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_45",
+            "orderId": 45,
+            "tokenNum": 3600,
+            "item": {
+              "id": "2004",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_46",
+            "orderId": 46,
+            "tokenNum": 3680,
+            "item": {
+              "id": "30024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_47",
+            "orderId": 47,
+            "tokenNum": 3760,
+            "item": {
+              "id": "30125",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_48",
+            "orderId": 48,
+            "tokenNum": 3840,
+            "item": {
+              "id": "30115",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_49",
+            "orderId": 49,
+            "tokenNum": 3920,
+            "item": {
+              "id": "2004",
+              "count": 10,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12d6_50",
+            "orderId": 50,
+            "tokenNum": 4000,
+            "item": {
+              "id": "30135",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          }
+        ],
+        "unlockConds": [
+          {
+            "actId": "act12d0",
+            "stageId": "act12d0_01"
+          },
+          {
+            "actId": null,
+            "stageId": "main_03-08"
+          }
+        ]
+      }
+    }
   },
   "activityItems": {
     "act4d0": [
@@ -21235,6 +22905,13 @@
       "clue_Rap_3_rep_1",
       "clue_Rap_4_rep_1",
       "clue_Rap_5_rep_1"
+    ],
+    "act12d6": [
+      "act12d6_token_mushroom",
+      "act12d6_token_pancake"
+    ],
+    "act12d0": [
+      "act12d0_token_components"
     ]
   },
   "syncPoints": {
@@ -21257,6 +22934,10 @@
     "act11d7": [
       1611154800,
       1612004399
+    ],
+    "act12d0": [
+      1614265200,
+      1615460399
     ]
   }
 }
