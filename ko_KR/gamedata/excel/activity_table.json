@@ -449,6 +449,21 @@
       "templateShopId": "shop_act12d0",
       "medalGroupId": "medalGroupActivity12d0",
       "isReplicate": false
+    },
+    "act13d0": {
+      "id": "act13d0",
+      "type": "MINISTORY",
+      "name": "리와인딩 브리즈",
+      "startTime": 1616637600,
+      "endTime": 1617217199,
+      "rewardEndTime": 1617476399,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": "shop_act13d0",
+      "medalGroupId": null,
+      "isReplicate": false
     }
   },
   "zoneToActivity": {
@@ -472,7 +487,8 @@
     "act11d7_zone2": "act11d7",
     "act11d7_zone3": "act11d7",
     "act12d0_zone1": "act12d0",
-    "act12d0_zone2": "act12d0"
+    "act12d0_zone2": "act12d0",
+    "act13d0_zone1": "act13d0"
   },
   "missionData": [
     {
@@ -9668,7 +9684,7 @@
           }
         },
         "apSupplyOutOfDateDict": {
-          "ap_supply_lt_100": 1608490799
+          "ap_supply_lt_100": 1614538799
         }
       },
       "act9d1d1": {
@@ -21996,6 +22012,36 @@
           "weekly_9",
           "act10d5_zone1"
         ]
+      },
+      "act13d0": {
+        "tokenItemId": "act13d0_token_dial",
+        "zoneDescList": {
+          "act13d0_zone1": {
+            "zoneId": "act13d0_zone1",
+            "unlockText": "메인 에피소드 1-10 클리어 후 개방"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "act13d0_zone1"
+        ]
       }
     },
     "ROGUELIKE": {
@@ -22912,6 +22958,9 @@
     ],
     "act12d0": [
       "act12d0_token_components"
+    ],
+    "act13d0": [
+      "act13d0_token_dial"
     ]
   },
   "syncPoints": {
@@ -22938,6 +22987,10 @@
     "act12d0": [
       1614229200,
       1615402799
+    ],
+    "act13d0": [
+      1616637600,
+      1617217199
     ]
   }
 }
