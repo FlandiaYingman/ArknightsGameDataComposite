@@ -8,7 +8,7 @@
       "iconId": "sprite_exp_card_t1",
       "overrideBkg": null,
       "stackIconId": "sprite_exp_card_stack_t1",
-      "sortId": 20004,
+      "sortId": 70004,
       "usage": "작전 영상을 기록한 정보 기억장치. 오퍼레이터의 경험치를 아주 조금 증가시킨다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -42,7 +42,7 @@
       "iconId": "sprite_exp_card_t2",
       "overrideBkg": null,
       "stackIconId": "sprite_exp_card_stack_t2",
-      "sortId": 20003,
+      "sortId": 70003,
       "usage": "작전 영상을 기록한 정보 기억장치. 오퍼레이터의 경험치를 조금 증가시킨다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -76,7 +76,7 @@
       "iconId": "sprite_exp_card_t3",
       "overrideBkg": null,
       "stackIconId": "sprite_exp_card_stack_t3",
-      "sortId": 20002,
+      "sortId": 70002,
       "usage": "작전 영상을 기록한 정보 기억장치. 오퍼레이터의 경험치를 많이 증가시킨다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -92,6 +92,10 @@
         },
         {
           "stageId": "main_07-11",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_08-06",
           "occPer": "ALWAYS"
         },
         {
@@ -122,7 +126,7 @@
       "iconId": "sprite_exp_card_t4",
       "overrideBkg": null,
       "stackIconId": "sprite_exp_card_stack_t4",
-      "sortId": 20001,
+      "sortId": 70001,
       "usage": "작전 영상을 기록한 정보 기억장치. 오퍼레이터의 경험치를 아주 많이 증가시킨다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -341,7 +345,7 @@
       "iconId": "MTL_ASC_PIO1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400004,
+      "sortId": 400018,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩. 조건을 달성한 뱅가드 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -367,7 +371,7 @@
       "iconId": "MTL_ASC_PIO2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400003,
+      "sortId": 400010,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩셋. 조건을 달성한 뱅가드 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -414,7 +418,7 @@
       "iconId": "MTL_ASC_GRD1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400007,
+      "sortId": 400019,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩. 조건을 달성한 가드 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -440,7 +444,7 @@
       "iconId": "MTL_ASC_GRD2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400006,
+      "sortId": 400011,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩셋. 조건을 달성한 가드 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -466,7 +470,7 @@
       "iconId": "MTL_ASC_GRD3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400005,
+      "sortId": 400003,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 듀얼 메모리 칩. 조건을 달성한 가드 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -487,7 +491,7 @@
       "iconId": "MTL_ASC_TNK1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400010,
+      "sortId": 400021,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩. 조건을 달성한 디펜더 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -513,7 +517,7 @@
       "iconId": "MTL_ASC_TNK2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400009,
+      "sortId": 400013,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩셋. 조건을 달성한 디펜더 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -539,7 +543,7 @@
       "iconId": "MTL_ASC_TNK3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400008,
+      "sortId": 400005,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 듀얼 메모리 칩. 조건을 달성한 디펜더 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -560,7 +564,7 @@
       "iconId": "MTL_ASC_SNP1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400013,
+      "sortId": 400020,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩. 조건을 달성한 스나이퍼 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -612,7 +616,7 @@
       "iconId": "MTL_ASC_SNP3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400011,
+      "sortId": 400004,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 듀얼 메모리 칩. 조건을 달성한 스나이퍼 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -633,7 +637,7 @@
       "iconId": "MTL_ASC_CST1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400016,
+      "sortId": 400024,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩. 조건을 달성한 캐스터 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -659,7 +663,7 @@
       "iconId": "MTL_ASC_CST2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400015,
+      "sortId": 400016,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩셋. 조건을 달성한 캐스터 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -685,7 +689,7 @@
       "iconId": "MTL_ASC_CST3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400014,
+      "sortId": 400008,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 듀얼 메모리 칩. 조건을 달성한 캐스터 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -706,7 +710,7 @@
       "iconId": "MTL_ASC_MED1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400019,
+      "sortId": 400022,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩. 조건을 달성한 메딕 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -732,7 +736,7 @@
       "iconId": "MTL_ASC_MED2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400018,
+      "sortId": 400014,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩셋. 조건을 달성한 메딕 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -758,7 +762,7 @@
       "iconId": "MTL_ASC_MED3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400017,
+      "sortId": 400006,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 듀얼 메모리 칩. 조건을 달성한 메딕 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -779,7 +783,7 @@
       "iconId": "MTL_ASC_SUP1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400022,
+      "sortId": 400023,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩. 조건을 달성한 서포터 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -805,7 +809,7 @@
       "iconId": "MTL_ASC_SUP2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400021,
+      "sortId": 400015,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩셋. 조건을 달성한 서포터 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -831,7 +835,7 @@
       "iconId": "MTL_ASC_SUP3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400020,
+      "sortId": 400007,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 듀얼 메모리 칩. 조건을 달성한 서포터 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -878,7 +882,7 @@
       "iconId": "MTL_ASC_SPC2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400024,
+      "sortId": 400017,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩셋. 조건을 달성한 스페셜리스트 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -904,7 +908,7 @@
       "iconId": "MTL_ASC_SPC3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400023,
+      "sortId": 400009,
       "usage": "특별 훈련 기록을 통해 획득할 수 있는 듀얼 메모리 칩. 조건을 달성한 스페셜리스트 오퍼레이터의 정예화에 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -925,7 +929,7 @@
       "iconId": "MTL_SKILL1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 300003,
+      "sortId": 80003,
       "usage": "입문용 스킬을 기록한 서적. 오퍼레이터의 능력을 향상시킬 때 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -950,7 +954,7 @@
       "iconId": "MTL_SKILL2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 300002,
+      "sortId": 80002,
       "usage": "스킬에 대한 이해도를 높일 수 있는 서적. 오퍼레이터의 능력을 향상시킬 때 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -976,7 +980,7 @@
       "iconId": "MTL_SKILL3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 300001,
+      "sortId": 80001,
       "usage": "스킬에 대한 전문 지식을 습득할 수 있는 서적. 오퍼레이터의 능력을 향상시킬 때 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -1059,6 +1063,10 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "main_08-01",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "sub_06-2-2",
           "occPer": "ALWAYS"
         },
@@ -1117,6 +1125,10 @@
         },
         {
           "stageId": "camp_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "camp_r_01",
           "occPer": "ALWAYS"
         }
       ],
@@ -1215,7 +1227,7 @@
       "iconId": "TKT_RECRUIT",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10016,
+      "sortId": 40012,
       "usage": "로도스 아일랜드 인사팀이 발행한 허가증. 공개모집을 통해 오퍼레이터를 1명 채용할 수 있다.",
       "obtainApproach": "구매센터, 임무 보상",
       "classifyType": "NORMAL",
@@ -1231,7 +1243,7 @@
       "iconId": "TKT_INST_FIN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10017,
+      "sortId": 40013,
       "usage": "로도스 아일랜드 인사팀이 발행한 긴급 허가증. 특수한 경로를 통해 신입 오퍼레이터를 1명 채용할 수 있다.",
       "obtainApproach": "구매센터, 임무 보상",
       "classifyType": "NORMAL",
@@ -1247,7 +1259,7 @@
       "iconId": "TKT_GACHA",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10015,
+      "sortId": 40011,
       "usage": "로도스 아일랜드 인사팀이 발행한 허가증. 헤드헌팅 회사를 통해 오퍼레이터를 1명 채용할 수 있다.",
       "obtainApproach": "구매센터, 임무 보상",
       "classifyType": "NORMAL",
@@ -1263,7 +1275,7 @@
       "iconId": "TKT_GACHA_10",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10013,
+      "sortId": 40001,
       "usage": "로도스 아일랜드 인사팀이 발행한 허가증. 헤드헌팅 회사를 통해 오퍼레이터를 일괄 채용이 가능하다. 1회 모집으로 10명을 채용할 수 있다.",
       "obtainApproach": "상점",
       "classifyType": "NORMAL",
@@ -1383,6 +1395,10 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "sub_03-3-2",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "sub_05-1-1",
           "occPer": "ALWAYS"
         }
@@ -1435,6 +1451,10 @@
         {
           "stageId": "main_07-05",
           "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_08-03",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [
@@ -1464,6 +1484,10 @@
         },
         {
           "stageId": "main_07-01",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_08-03",
           "occPer": "SOMETIMES"
         }
       ],
@@ -1578,6 +1602,10 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_08-05",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "sub_03-1-1",
           "occPer": "ALWAYS"
         },
@@ -1634,6 +1662,10 @@
         {
           "stageId": "main_07-10",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-12",
+          "occPer": "USUAL"
         }
       ],
       "buildingProductList": [
@@ -1766,6 +1798,10 @@
         },
         {
           "stageId": "main_06-08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_08-04",
           "occPer": "ALWAYS"
         },
         {
@@ -1972,6 +2008,10 @@
           "occPer": "ALMOST"
         },
         {
+          "stageId": "main_08-12",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "sub_03-2-1",
           "occPer": "ALWAYS"
         }
@@ -2163,6 +2203,10 @@
           "occPer": "USUAL"
         },
         {
+          "stageId": "main_08-08",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "sub_06-2-1",
           "occPer": "ALMOST"
         },
@@ -2222,6 +2266,10 @@
         },
         {
           "stageId": "main_07-12",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-17",
           "occPer": "OFTEN"
         }
       ],
@@ -2362,6 +2410,10 @@
           "occPer": "USUAL"
         },
         {
+          "stageId": "main_08-09",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "sub_03-2-2",
           "occPer": "ALMOST"
         },
@@ -2413,6 +2465,10 @@
         },
         {
           "stageId": "main_07-13",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-14",
           "occPer": "OFTEN"
         }
       ],
@@ -2506,6 +2562,10 @@
         {
           "stageId": "main_07-04",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-02",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": []
@@ -2530,6 +2590,10 @@
         },
         {
           "stageId": "main_07-04",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_08-02",
           "occPer": "SOMETIMES"
         }
       ],
@@ -2577,6 +2641,10 @@
         {
           "stageId": "main_07-14",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-11",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": []
@@ -2601,6 +2669,10 @@
         },
         {
           "stageId": "main_06-02",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_08-11",
           "occPer": "SOMETIMES"
         }
       ],
@@ -2727,6 +2799,10 @@
         {
           "stageId": "main_07-08",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-10",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": []
@@ -2824,6 +2900,27 @@
         }
       ]
     },
+    "30145": {
+      "itemId": "30145",
+      "name": "결정 전자 장치",
+      "description": "테라의 공업 현대화를 대표하는 오리지늄 과학기술의 결정체. 오리지늄 아츠 유닛과 도시 네트워크 서버 제조에 필수로 쓰인다.",
+      "rarity": 4,
+      "iconId": "MTL_SL_OEU",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100040,
+      "usage": "값비싼 오리지늄 공산품. 중요한 강화 용도로 쓰인다.",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "57"
+        }
+      ]
+    },
     "31013": {
       "itemId": "31013",
       "name": "젤",
@@ -2848,6 +2945,14 @@
         },
         {
           "stageId": "main_07-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-16",
           "occPer": "OFTEN"
         },
         {
@@ -2877,6 +2982,10 @@
       "stageDropList": [
         {
           "stageId": "main_07-06",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_08-16",
           "occPer": "SOMETIMES"
         },
         {
@@ -2918,6 +3027,10 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_08-07",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "sub_03-3-1",
           "occPer": "OFTEN"
         },
@@ -2947,6 +3060,10 @@
           "occPer": "SOMETIMES"
         },
         {
+          "stageId": "main_08-07",
+          "occPer": "SOMETIMES"
+        },
+        {
           "stageId": "sub_05-4-2",
           "occPer": "SOMETIMES"
         }
@@ -2955,6 +3072,65 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "55"
+        }
+      ]
+    },
+    "31033": {
+      "itemId": "31033",
+      "name": "결정 부품",
+      "description": "오리지늄 결정 케이스로 제작한 공업 원자재. 현대 오리지늄 전자 공업의 기초 제품이다.",
+      "rarity": 2,
+      "iconId": "MTL_SL_OC3",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100042,
+      "usage": "중요한 오리지늄 공업 재료. 다양한 강화 용도로 사용할 수 있으며 보다 고급스러운 오리지늄 전자 부속품을 제작 및 합성할 수 있다.",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_08-13",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "sub_03-3-2",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_05-4-3",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "31034": {
+      "itemId": "31034",
+      "name": "결정 회로",
+      "description": "현대 오리지늄 전자 산업의 핵심 제품. 테라상의 많은 나라에서 사용하는 많은 전자제품에서 흔히 볼 수 있다. 결정 회로의 대량 사용은 테라의 공업 현대화를 의미한다.",
+      "rarity": 3,
+      "iconId": "MTL_SL_OC4",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100041,
+      "usage": "중요한 오리지늄 공업 재료. 다양한 강화 용도로 사용할 수 있으며 오리지늄 결정 유닛을 제작하는 기본 부속품이다.",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_08-13",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "sub_05-4-3",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "58"
         }
       ]
     },
@@ -5302,7 +5478,7 @@
       "iconId": "ap_supply_lt_60",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 50003,
+      "sortId": 30003,
       "usage": "일시적으로 이성을 회복시켜주는 응급약. 정신을 맑게 해준다.",
       "obtainApproach": "먼슬리 카드, 증정",
       "classifyType": "CONSUME",
@@ -5318,7 +5494,7 @@
       "iconId": "ap_supply_lt_100",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 50002,
+      "sortId": 30002,
       "usage": "일시적으로 이성을 회복시켜주는 대량의 응급약. 머릿속에 남아있는 불순물을 전부 없애주지만, 편두통을 유발할 수 있다.",
       "obtainApproach": "주간 임무 보상, 증정",
       "classifyType": "CONSUME",
@@ -5334,7 +5510,7 @@
       "iconId": "voucher_item_4pick1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30004,
+      "sortId": 50001,
       "usage": "오퍼레이터 1명과 교환할 수 있다.",
       "obtainApproach": "선물",
       "classifyType": "CONSUME",
@@ -6384,7 +6560,7 @@
       "iconId": "CRISIS_SHOP_COIN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10004,
+      "sortId": 10021,
       "usage": "위기 협약을 완료한 후 획득하는 보수. 보급품으로 교환할 수 있다.",
       "obtainApproach": "위기 협약 보상",
       "classifyType": "NORMAL",
@@ -6464,7 +6640,7 @@
       "iconId": "ap_supply_lt_10",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 50004,
+      "sortId": 30004,
       "usage": "일시적으로 이성을 유지시켜주는 응급 이성 회복제. 휴대하기 간편한 샘플용으로 나왔다.",
       "obtainApproach": "이벤트 기간 동안 스테이지 한정 드랍",
       "classifyType": "CONSUME",
@@ -6480,7 +6656,7 @@
       "iconId": "randomMaterial_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60101,
       "usage": "각종 보급 물자가 들어있다. 다양한 재료를 랜덤으로 획득할 수 있다.",
       "obtainApproach": "이벤트 기간 동안 스테이지 한정 드랍, 이벤트 획득",
       "classifyType": "CONSUME",
@@ -6528,7 +6704,7 @@
       "iconId": "2020recruitment10_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30001,
+      "sortId": 50005,
       "usage": "로도스 아일랜드 인사팀이 특별 발행한 허가증. 헤드헌팅 회사에 약간의 특별한 요구를 할 수 있다. 1회 모집으로 10명을 채용할 수 있다.",
       "obtainApproach": "상점",
       "classifyType": "CONSUME",
@@ -6544,7 +6720,7 @@
       "iconId": "2020recruitment10_2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30001,
+      "sortId": 50006,
       "usage": "로도스 아일랜드 인사팀이 특별 발행한 허가증. 헤드헌팅 회사에 약간의 특별한 요구를 할 수 있다. 1회 모집으로 10명을 채용할 수 있다.",
       "obtainApproach": "상점",
       "classifyType": "CONSUME",
@@ -6560,7 +6736,7 @@
       "iconId": "2020recruitment10_3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30001,
+      "sortId": 50007,
       "usage": "로도스 아일랜드 인사팀이 특별 발행한 허가증. 헤드헌팅 회사에 약간의 특별한 요구를 할 수 있다. 1회 모집으로 10명을 채용할 수 있다.",
       "obtainApproach": "상점",
       "classifyType": "CONSUME",
@@ -6576,7 +6752,7 @@
       "iconId": "randomDiamondShd_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30006,
+      "sortId": 60105,
       "usage": "로도스 아일랜드의 모두에게 나눠주는 세뱃돈. 안에는 랜덤한 액수의 재화와 축복이 담겨있다.",
       "obtainApproach": "선물",
       "classifyType": "CONSUME",
@@ -6705,7 +6881,7 @@
       "iconId": "voucher_recruitR3_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30003,
+      "sortId": 50104,
       "usage": "오퍼레이터 1명과 교환할 수 있다.",
       "obtainApproach": "상점",
       "classifyType": "CONSUME",
@@ -6721,7 +6897,7 @@
       "iconId": "voucher_recruitR4_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30002,
+      "sortId": 50103,
       "usage": "오퍼레이터 1명과 교환할 수 있다.",
       "obtainApproach": "상점",
       "classifyType": "CONSUME",
@@ -6737,7 +6913,7 @@
       "iconId": "randomMaterial_2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60102,
       "usage": "특정 스테이지 클리어 후 수집 가능한 보급 물자. 다양한 재료를 랜덤으로 획득할 수 있다.",
       "obtainApproach": "이벤트 스테이지 드랍",
       "classifyType": "CONSUME",
@@ -6849,7 +7025,7 @@
       "iconId": "randomMaterialRune_0",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60001,
       "usage": "각종 보급 물자가 들어있다. 다양한 재료를 랜덤으로 획득할 수 있다.",
       "obtainApproach": "위기 협약 보상",
       "classifyType": "CONSUME",
@@ -6974,7 +7150,7 @@
       "iconId": "voucher_recruitR5_pick2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30001,
+      "sortId": 50002,
       "usage": "오퍼레이터 1명과 교환할 수 있다.",
       "obtainApproach": "훈장을 수집하여 획득",
       "classifyType": "CONSUME",
@@ -6990,7 +7166,7 @@
       "iconId": "randomMaterialRune_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60002,
       "usage": "각종 보급 물자가 들어있다. 다양한 재료를 랜덤으로 획득할 수 있다.",
       "obtainApproach": "위기 협약 보상",
       "classifyType": "CONSUME",
@@ -7006,7 +7182,7 @@
       "iconId": "STORY_REVIEW_COIN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10011,
+      "sortId": 10022,
       "usage": "유효 정보의 토폴로지 모델. 과거의 사건을 재구성하는 데 쓰인다.",
       "obtainApproach": "이벤트 기간 내 상점에서 구매",
       "classifyType": "NORMAL",
@@ -7481,7 +7657,7 @@
       "iconId": "voucher_item_pick601",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30001,
+      "sortId": 50003,
       "usage": "로도스 아일랜드 인사부가 발행한 고급 특별 채용 허가증. 100% 도움을 받을 수 있도록 물밑 작업을 충분히 해두는 건 결코 쉬운 일이 아니다.",
       "obtainApproach": "상점",
       "classifyType": "CONSUME",
@@ -7497,7 +7673,7 @@
       "iconId": "randomMaterial_3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60103,
       "usage": "박사의 입사 일주년을 기념하는 물자 배급. 다양한 재료들이 랜덤으로 포함되어 있다.",
       "obtainApproach": "이벤트 기간 동안 스테이지 한정 드랍",
       "classifyType": "CONSUME",
@@ -7529,7 +7705,7 @@
       "iconId": "EPGS_COIN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10010,
+      "sortId": 10011,
       "usage": "신형 모집 협약에서 정한 기간 초과 계약의 처리 수단. 각종 자원으로 교환할 수 있다.",
       "obtainApproach": "헤드헌팅 데이터 계약 기간 만료 후 자동 교환",
       "classifyType": "NORMAL",
@@ -7545,7 +7721,7 @@
       "iconId": "LIMITED_TKT_GACHA_10_903",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10014,
+      "sortId": 40002,
       "usage": "로도스 아일랜드 인사부에서 특별 발행한 허가증. 특정 시간 동안 특수한 인재를 모집하는 데 쓰인다. 1회 모집으로 10명을 채용할 수 있다.",
       "obtainApproach": "선물",
       "classifyType": "NORMAL",
@@ -7980,7 +8156,7 @@
       "iconId": "randomMaterialRune_2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60003,
       "usage": "각종 보급 물자가 들어있다. 다양한 재료를 랜덤으로 획득할 수 있다.",
       "obtainApproach": "위기 협약 보상",
       "classifyType": "CONSUME",
@@ -8357,6 +8533,150 @@
           "occPer": "ALWAYS"
         }
       ],
+      "buildingProductList": []
+    },
+    "LMTGS_COIN_1401": {
+      "itemId": "LMTGS_COIN_1401",
+      "name": "헤드헌팅 데이터 계약",
+      "description": "헤드헌팅 회사와 장기적이고 안정적인 협력 관계를 유지한 보답. 효과적으로 지출을 조절할 수 있지만, 매번 이와 같은 수단을 써야 하는 것은 아니다.",
+      "rarity": 4,
+      "iconId": "LMTGS_COIN_1401",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 10010,
+      "usage": "신형 모집 협약에서 정한 일종의 기간 한정 화폐. 일정 수량을 누적하여 지정된 기간 동안 지정된 오퍼레이터를 채용할 수 있다.",
+      "obtainApproach": "캐릭터 입사 시 획득",
+      "classifyType": "NORMAL",
+      "itemType": "LMTGS_COIN",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "LIMITED_TKT_GACHA_10_1401": {
+      "itemId": "LIMITED_TKT_GACHA_10_1401",
+      "name": "감사 축제 헤드헌팅 10회 허가증",
+      "description": "인재 확보를 위해 박사가 준비해달라 요구했던 긴급수단. 해당 헤드헌팅 항목은 타겟팅과 타임 리미트가 적용되었으며, 그리고 아주 작은 리스크가 존재한다.",
+      "rarity": 4,
+      "iconId": "LIMITED_TKT_GACHA_10_1401",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 40003,
+      "usage": "로도스 아일랜드 인사부에서 특별 발행한 허가증. 특정 시간 동안 특수한 인재를 모집하는 데 쓰인다. 1회 모집으로 10명을 채용할 수 있다.",
+      "obtainApproach": "선물",
+      "classifyType": "NORMAL",
+      "itemType": "LIMITED_TKT_GACHA_10",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "voucher_item_pick1401": {
+      "itemId": "voucher_item_pick1401",
+      "name": "감사 축제 오퍼레이터 허가증",
+      "description": "일정 범위 내에서 6★ 오퍼레이터 1명을 선택할 수 있다. 범위에는 [패스트 일루전]과 이전의 헤드헌팅 오퍼레이터 리스트가 포함된다.",
+      "rarity": 4,
+      "iconId": "voucher_recruitR6_g",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 50004,
+      "usage": "로도스 아일랜드 인사부가 발행한 고급 특별 채용 허가증. 100% 도움을 받을 수 있도록 물밑 작업을 충분히 해두는 건 결코 쉬운 일이 아니다.",
+      "obtainApproach": "상점",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_PICK",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "randomMaterial_4": {
+      "itemId": "randomMaterial_4",
+      "name": "감사 축제 보급 물자",
+      "description": "로도스 아일랜드가 방방곡곡에서 조달하여 준비한 보급 상자. 하지만 시스템적으로 정리 수납이 잘 되지 않아, 상자에는 각기 다른 자재가 들어가 있다.",
+      "rarity": 4,
+      "iconId": "randomMaterial_4",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 60104,
+      "usage": "각종 보급 물자가 들어있다. 다양한 재료를 랜덤으로 획득할 수 있다.",
+      "obtainApproach": "이벤트 기간 동안 스테이지 한정 드랍",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_MGACHA",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "randomDiamondShd_2": {
+      "itemId": "randomDiamondShd_2",
+      "name": "감사 축제 선물 상자",
+      "description": "누가 꺼낸건지 알 수 없는 돈봉투. 하지만 로도스 아일랜드의 모두에게 희망이 가득하길 바라는 마음만은 진심이다.",
+      "rarity": 4,
+      "iconId": "randomDiamondShd_2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 60106,
+      "usage": "로도스 아일랜드의 모두에게 나눠주는 선물 상자. 안에는 랜덤한 액수의 재화와 축제의 기쁨이 담겨있다.",
+      "obtainApproach": "선물",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_MGACHA",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_347_jaksel": {
+      "itemId": "p_char_347_jaksel",
+      "name": "재키의 증표",
+      "description": "새 운동화 한 켤레. 그녀는 당신과 함께 몸을 단련하게 될 순간을 매우 기대하고 있다.",
+      "rarity": 3,
+      "iconId": "p_char_347_jaksel",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 800043,
+      "usage": "재키의 잠재능력 향상에 쓰인다.",
+      "obtainApproach": "캐릭터 입사 시 획득",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_436_whispr": {
+      "itemId": "p_char_436_whispr",
+      "name": "위스퍼레인의 증표",
+      "description": "아주 오래된 영화표의 일부분. 영화표의 겉면은 누렇게 바래 흐릿하고, 프린트된 잉크도 군데군데 벗겨져 있다.",
+      "rarity": 4,
+      "iconId": "p_char_436_whispr",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700067,
+      "usage": "위스퍼레인의 잠재능력 향상에 쓰인다.",
+      "obtainApproach": "캐릭터 입사 시 획득",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_391_rosmon": {
+      "itemId": "p_char_391_rosmon",
+      "name": "로즈몬티스의 증표",
+      "description": "정성껏 만들었지만 아직 아마추어 수준인 식물 표본. 그녀는 당신이 그녀를 대신해 이것들을 기억해주길 바랄 것이다.",
+      "rarity": 5,
+      "iconId": "p_char_391_rosmon",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600031,
+      "usage": "로즈몬티스의 잠재능력 향상에 쓰인다.",
+      "obtainApproach": "캐릭터 입사 시 획득",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_311_mudrok": {
+      "itemId": "p_char_311_mudrok",
+      "name": "머드락의 증표",
+      "description": "아주 작은 암석 조각상 하나. 마치 호기심 어린 '눈빛'으로 당신을 쳐다보고 있는 것만 같다.",
+      "rarity": 5,
+      "iconId": "p_char_311_mudrok",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600032,
+      "usage": "머드락의 잠재능력 향상에 쓰인다.",
+      "obtainApproach": "캐릭터 입사 시 획득",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
       "buildingProductList": []
     }
   },
@@ -8759,6 +9079,30 @@
     "char_250_phatom@ghost#1": 1,
     "char_242_otter@ghost#1": 1,
     "char_326_glacus@ghost#1": 1,
-    "char_277_sqrrel@ghost#1": 1
+    "char_277_sqrrel@ghost#1": 1,
+    "furni_prison_device_01": 1,
+    "furni_prison_waitingArea_01": 1,
+    "furni_prison_partition1_01": 1,
+    "furni_prison_ceilingLight_01": 1,
+    "furni_prison_vent_01": 1,
+    "furni_prison_chair_01": 1,
+    "furni_prison_washbasin_01": 1,
+    "furni_prison_mirror_01": 1,
+    "furni_prison_sink_01": 1,
+    "furni_prison_toilet_01": 1,
+    "furni_prison_pipeline_01": 1,
+    "furni_prison_ceiling_01": 1,
+    "furni_prison_bed_01": 1,
+    "furni_prison_partition2_01": 1,
+    "furni_prison_thermos_01": 1,
+    "furni_prison_wallpaper_01": 1,
+    "furni_prison_floor_01": 1,
+    "furni_act14d0_arcadegame_01": 1,
+    "furni_dropS009_faust_01": 1,
+    "furni_dropS009_siegfried_01": 1,
+    "char_113_cqbw@epoque#7": 1,
+    "char_102_texas@epoque#7": 1,
+    "char_130_doberm@epoque#7": 1,
+    "char_355_ethan@epoque#7": 1
   }
 }
