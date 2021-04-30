@@ -8,7 +8,7 @@
       "iconId": "sprite_exp_card_t1",
       "overrideBkg": null,
       "stackIconId": "sprite_exp_card_stack_t1",
-      "sortId": 20004,
+      "sortId": 70004,
       "usage": "作戦映像を記録した情報記憶装置。使用するとオペレーターの経験値がわずかに増加する。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -42,7 +42,7 @@
       "iconId": "sprite_exp_card_t2",
       "overrideBkg": null,
       "stackIconId": "sprite_exp_card_stack_t2",
-      "sortId": 20003,
+      "sortId": 70003,
       "usage": "作戦映像を記録した情報記憶装置。使用するとオペレーターの経験値が少し増加する。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -76,7 +76,7 @@
       "iconId": "sprite_exp_card_t3",
       "overrideBkg": null,
       "stackIconId": "sprite_exp_card_stack_t3",
-      "sortId": 20002,
+      "sortId": 70002,
       "usage": "作戦映像を記録した情報記憶装置。使用するとオペレーターの経験値が大幅に増加する。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -92,6 +92,10 @@
         },
         {
           "stageId": "main_07-11",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_08-06",
           "occPer": "ALWAYS"
         },
         {
@@ -122,7 +126,7 @@
       "iconId": "sprite_exp_card_t4",
       "overrideBkg": null,
       "stackIconId": "sprite_exp_card_stack_t4",
-      "sortId": 20001,
+      "sortId": 70001,
       "usage": "作戦映像を記録した情報記憶装置。使用するとオペレーターの経験値が飛躍的に増加する。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -341,7 +345,7 @@
       "iconId": "MTL_ASC_PIO1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400004,
+      "sortId": 400018,
       "usage": "基本訓練プログラムを記録した集積回路。先鋒オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -367,7 +371,7 @@
       "iconId": "MTL_ASC_PIO2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400003,
+      "sortId": 400010,
       "usage": "応用訓練プログラムを記録した集積回路。先鋒オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -414,7 +418,7 @@
       "iconId": "MTL_ASC_GRD1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400007,
+      "sortId": 400019,
       "usage": "基本訓練プログラムを記録した集積回路。前衛オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -440,7 +444,7 @@
       "iconId": "MTL_ASC_GRD2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400006,
+      "sortId": 400011,
       "usage": "応用訓練プログラムを記録した集積回路。前衛オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -466,7 +470,7 @@
       "iconId": "MTL_ASC_GRD3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400005,
+      "sortId": 400003,
       "usage": "特殊訓練プログラムを記録した集積回路。前衛オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -487,7 +491,7 @@
       "iconId": "MTL_ASC_TNK1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400010,
+      "sortId": 400021,
       "usage": "基本訓練プログラムを記録した集積回路。重装オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -513,7 +517,7 @@
       "iconId": "MTL_ASC_TNK2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400009,
+      "sortId": 400013,
       "usage": "応用訓練プログラムを記録した集積回路。重装オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -539,7 +543,7 @@
       "iconId": "MTL_ASC_TNK3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400008,
+      "sortId": 400005,
       "usage": "特殊訓練プログラムを記録した集積回路。重装オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -560,7 +564,7 @@
       "iconId": "MTL_ASC_SNP1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400013,
+      "sortId": 400020,
       "usage": "基本訓練プログラムを記録した集積回路。狙撃オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -612,7 +616,7 @@
       "iconId": "MTL_ASC_SNP3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400011,
+      "sortId": 400004,
       "usage": "特殊訓練プログラムを記録した集積回路。狙撃オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -633,7 +637,7 @@
       "iconId": "MTL_ASC_CST1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400016,
+      "sortId": 400024,
       "usage": "基本訓練プログラムを記録した集積回路。術師オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -659,7 +663,7 @@
       "iconId": "MTL_ASC_CST2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400015,
+      "sortId": 400016,
       "usage": "応用訓練プログラムを記録した集積回路。術師オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -685,7 +689,7 @@
       "iconId": "MTL_ASC_CST3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400014,
+      "sortId": 400008,
       "usage": "特殊訓練プログラムを記録した集積回路。術師オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -706,7 +710,7 @@
       "iconId": "MTL_ASC_MED1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400019,
+      "sortId": 400022,
       "usage": "基本訓練プログラムを記録した集積回路。医療オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -732,7 +736,7 @@
       "iconId": "MTL_ASC_MED2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400018,
+      "sortId": 400014,
       "usage": "応用訓練プログラムを記録した集積回路。医療オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -758,7 +762,7 @@
       "iconId": "MTL_ASC_MED3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400017,
+      "sortId": 400006,
       "usage": "特殊訓練プログラムを記録した集積回路。医療オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -779,7 +783,7 @@
       "iconId": "MTL_ASC_SUP1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400022,
+      "sortId": 400023,
       "usage": "基本訓練プログラムを記録した集積回路。補助オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -805,7 +809,7 @@
       "iconId": "MTL_ASC_SUP2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400021,
+      "sortId": 400015,
       "usage": "応用訓練プログラムを記録した集積回路。補助オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -831,7 +835,7 @@
       "iconId": "MTL_ASC_SUP3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400020,
+      "sortId": 400007,
       "usage": "特殊訓練プログラムを記録した集積回路。補助オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -878,7 +882,7 @@
       "iconId": "MTL_ASC_SPC2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400024,
+      "sortId": 400017,
       "usage": "応用訓練プログラムを記録した集積回路。特殊オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -904,7 +908,7 @@
       "iconId": "MTL_ASC_SPC3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 400023,
+      "sortId": 400009,
       "usage": "特殊訓練プログラムを記録した集積回路。特殊オペレーターの昇進に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -925,7 +929,7 @@
       "iconId": "MTL_SKILL1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 300003,
+      "sortId": 80003,
       "usage": "アーツ理論の初級教科書。スキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -950,7 +954,7 @@
       "iconId": "MTL_SKILL2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 300002,
+      "sortId": 80002,
       "usage": "アーツ理論の中級教科書。スキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -976,7 +980,7 @@
       "iconId": "MTL_SKILL3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 300001,
+      "sortId": 80001,
       "usage": "アーツ理論の高級教科書。スキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -1059,6 +1063,10 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "main_08-01",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "sub_06-2-2",
           "occPer": "ALWAYS"
         },
@@ -1117,6 +1125,10 @@
         },
         {
           "stageId": "camp_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "camp_r_01",
           "occPer": "ALWAYS"
         }
       ],
@@ -1215,7 +1227,7 @@
       "iconId": "TKT_RECRUIT",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10016,
+      "sortId": 40012,
       "usage": "ロドス人事部が発行した許可証。公募ルートからオペレーターを採用できる。",
       "obtainApproach": "購買部、任務報酬",
       "classifyType": "NORMAL",
@@ -1231,7 +1243,7 @@
       "iconId": "TKT_INST_FIN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10017,
+      "sortId": 40013,
       "usage": "ロドス人事部が発行した緊急許可証。特殊なルーツを用いてすぐにオペレーターを1人招集できる。",
       "obtainApproach": "購買部、任務報酬",
       "classifyType": "NORMAL",
@@ -1247,7 +1259,7 @@
       "iconId": "TKT_GACHA",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10015,
+      "sortId": 40011,
       "usage": "ロドス人事部が発行した許可証。人材紹介会社からオペレーターを1人採用できる。",
       "obtainApproach": "購買部、任務報酬",
       "classifyType": "NORMAL",
@@ -1263,7 +1275,7 @@
       "iconId": "TKT_GACHA_10",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10013,
+      "sortId": 40001,
       "usage": "ロドス人事部が発行した許可証。人材紹介会社からオペレーターを1回で10人採用できる。",
       "obtainApproach": "購買部",
       "classifyType": "NORMAL",
@@ -1383,6 +1395,10 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "sub_03-3-2",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "sub_05-1-1",
           "occPer": "ALWAYS"
         }
@@ -1435,6 +1451,10 @@
         {
           "stageId": "main_07-05",
           "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_08-03",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [
@@ -1464,6 +1484,10 @@
         },
         {
           "stageId": "main_07-01",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_08-03",
           "occPer": "SOMETIMES"
         }
       ],
@@ -1578,6 +1602,10 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_08-05",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "sub_03-1-1",
           "occPer": "ALWAYS"
         },
@@ -1634,6 +1662,10 @@
         {
           "stageId": "main_07-10",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-12",
+          "occPer": "USUAL"
         }
       ],
       "buildingProductList": [
@@ -1766,6 +1798,10 @@
         },
         {
           "stageId": "main_06-08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_08-04",
           "occPer": "ALWAYS"
         },
         {
@@ -1972,6 +2008,10 @@
           "occPer": "ALMOST"
         },
         {
+          "stageId": "main_08-12",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "sub_03-2-1",
           "occPer": "ALWAYS"
         }
@@ -2163,6 +2203,10 @@
           "occPer": "USUAL"
         },
         {
+          "stageId": "main_08-08",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "sub_06-2-1",
           "occPer": "ALMOST"
         },
@@ -2222,6 +2266,10 @@
         },
         {
           "stageId": "main_07-12",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-17",
           "occPer": "OFTEN"
         }
       ],
@@ -2362,6 +2410,10 @@
           "occPer": "USUAL"
         },
         {
+          "stageId": "main_08-09",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "sub_03-2-2",
           "occPer": "ALMOST"
         },
@@ -2413,6 +2465,10 @@
         },
         {
           "stageId": "main_07-13",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-14",
           "occPer": "OFTEN"
         }
       ],
@@ -2506,6 +2562,10 @@
         {
           "stageId": "main_07-04",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-02",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": []
@@ -2530,6 +2590,10 @@
         },
         {
           "stageId": "main_07-04",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_08-02",
           "occPer": "SOMETIMES"
         }
       ],
@@ -2577,6 +2641,10 @@
         {
           "stageId": "main_07-14",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-11",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": []
@@ -2601,6 +2669,10 @@
         },
         {
           "stageId": "main_06-02",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_08-11",
           "occPer": "SOMETIMES"
         }
       ],
@@ -2727,6 +2799,10 @@
         {
           "stageId": "main_07-08",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-10",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": []
@@ -2824,6 +2900,27 @@
         }
       ]
     },
+    "30145": {
+      "itemId": "30145",
+      "name": "結晶制御装置",
+      "description": "テラの源石科学技術の粋であり、テラの工業化、現代化の象徴。アーツユニットと都市間ネットワークの製造には欠かすことができない科学技術製品。",
+      "rarity": 4,
+      "iconId": "MTL_SL_OEU",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100040,
+      "usage": "高価な源石工業製品。昇進やスキル強化に必要な高ランク素材。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "57"
+        }
+      ]
+    },
     "31013": {
       "itemId": "31013",
       "name": "人工ゲル",
@@ -2848,6 +2945,14 @@
         },
         {
           "stageId": "main_07-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-16",
           "occPer": "OFTEN"
         },
         {
@@ -2877,6 +2982,10 @@
       "stageDropList": [
         {
           "stageId": "main_07-06",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_08-16",
           "occPer": "SOMETIMES"
         },
         {
@@ -2918,6 +3027,10 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_08-07",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "sub_03-3-1",
           "occPer": "OFTEN"
         },
@@ -2947,6 +3060,10 @@
           "occPer": "SOMETIMES"
         },
         {
+          "stageId": "main_08-07",
+          "occPer": "SOMETIMES"
+        },
+        {
           "stageId": "sub_05-4-2",
           "occPer": "SOMETIMES"
         }
@@ -2955,6 +3072,65 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "55"
+        }
+      ]
+    },
+    "31033": {
+      "itemId": "31033",
+      "name": "素子結晶",
+      "description": "源石結晶の外殻を用いて製作された工業用素材。現代の源石電子工業における基礎的な製品。",
+      "rarity": 2,
+      "iconId": "MTL_SL_OC3",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100042,
+      "usage": "源石工業において重要な部品。昇進やスキル強化に必要な素材。上級の源石電子部品の製作または合成のために用いることができる。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_08-13",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "sub_03-3-2",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_05-4-3",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "31034": {
+      "itemId": "31034",
+      "name": "結晶回路",
+      "description": "現代の源石電子工業の要となる装置。テラの諸国で使用される電子機器の大部分に組み込まれている。結晶回路を大量に使用していることも、テラにおける工業の現代化が進んでいることを示している。",
+      "rarity": 3,
+      "iconId": "MTL_SL_OC4",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100041,
+      "usage": "源石工業において重要な部品。昇進やスキル強化に必要な素材。結晶制御装置を製作する際に使用される。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_08-13",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "sub_05-4-3",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "58"
         }
       ]
     },
@@ -5302,7 +5478,7 @@
       "iconId": "ap_supply_lt_60",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 50003,
+      "sortId": 30003,
       "usage": "一時的に理性を維持させるための応急処置用薬剤。脳をすっきりさせる。",
       "obtainApproach": "月パス、プレゼント",
       "classifyType": "CONSUME",
@@ -5318,7 +5494,7 @@
       "iconId": "ap_supply_lt_100",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 50002,
+      "sortId": 30002,
       "usage": "一時的に理性を維持させるための高用量の応急処置用薬剤。一切の雑念がなくなるが、片頭痛を引き起こす。",
       "obtainApproach": "週間任務、プレゼント",
       "classifyType": "CONSUME",
@@ -5334,7 +5510,7 @@
       "iconId": "voucher_item_4pick1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30004,
+      "sortId": 50001,
       "usage": "対象オペレーターを1名スカウトできる。",
       "obtainApproach": "プレゼント",
       "classifyType": "CONSUME",
@@ -6384,7 +6560,7 @@
       "iconId": "CRISIS_SHOP_COIN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10004,
+      "sortId": 10021,
       "usage": "危機契約達成で得られる報酬。補給品との交換に用いられる。",
       "obtainApproach": "危機契約報酬",
       "classifyType": "NORMAL",
@@ -6464,7 +6640,7 @@
       "iconId": "ap_supply_lt_10",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 50004,
+      "sortId": 30004,
       "usage": "一時的に理性を維持させるための応急処置用薬剤。携帯に便利な試供品。",
       "obtainApproach": "期間限定ドロップ",
       "classifyType": "CONSUME",
@@ -6480,7 +6656,7 @@
       "iconId": "randomMaterial_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60101,
       "usage": "補給物資としてランダムに様々な素材が入っている。",
       "obtainApproach": "期間限定ドロップ、イベント報酬",
       "classifyType": "CONSUME",
@@ -6528,7 +6704,7 @@
       "iconId": "2020recruitment10_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30001,
+      "sortId": 50005,
       "usage": "ロドス人事部が特別に発行した許可証。 人材紹介会社に対して特殊なリクエストをしており、オペレーターを1回で10人採用できる。",
       "obtainApproach": "購買部",
       "classifyType": "CONSUME",
@@ -6544,7 +6720,7 @@
       "iconId": "2020recruitment10_2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30001,
+      "sortId": 50006,
       "usage": "ロドス人事部が特別に発行した許可証。 人材紹介会社に対して特殊なリクエストをしており、オペレーターを1回で10人採用できる。",
       "obtainApproach": "購買部",
       "classifyType": "CONSUME",
@@ -6560,7 +6736,7 @@
       "iconId": "2020recruitment10_3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30001,
+      "sortId": 50007,
       "usage": "ロドス人事部が特別に発行した許可証。 人材紹介会社に対して特殊なリクエストをしており、オペレーターを1回で10人採用できる。",
       "obtainApproach": "購買部",
       "classifyType": "CONSUME",
@@ -6576,7 +6752,7 @@
       "iconId": "randomDiamondShd_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30006,
+      "sortId": 60105,
       "usage": "ロドスの全員に贈られる特別ボーナスが入ったぽち袋。金額はバラバラだが、どの袋にもお祝いの気持ちがたっぷり詰まっている。",
       "obtainApproach": "プレゼント",
       "classifyType": "CONSUME",
@@ -6705,7 +6881,7 @@
       "iconId": "voucher_recruitR3_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30003,
+      "sortId": 50104,
       "usage": "対象オペレーターを1名スカウトできる。",
       "obtainApproach": "購買部",
       "classifyType": "CONSUME",
@@ -6721,7 +6897,7 @@
       "iconId": "voucher_recruitR4_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30002,
+      "sortId": 50103,
       "usage": "対象オペレーターを1名スカウトできる。",
       "obtainApproach": "購買部",
       "classifyType": "CONSUME",
@@ -6737,7 +6913,7 @@
       "iconId": "randomMaterial_2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60102,
       "usage": "年関後夜祭で集めた補給物資。ランダムに様々な素材が入っている。",
       "obtainApproach": "イベントドロップ",
       "classifyType": "CONSUME",
@@ -6849,7 +7025,7 @@
       "iconId": "randomMaterialRune_0",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60001,
       "usage": "補給物資としてランダムに様々な素材が入っている。",
       "obtainApproach": "危機契約報酬",
       "classifyType": "CONSUME",
@@ -6974,7 +7150,7 @@
       "iconId": "voucher_recruitR5_pick2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30001,
+      "sortId": 50002,
       "usage": "対象オペレーターを1名スカウトできる。",
       "obtainApproach": "功績勲章収集",
       "classifyType": "CONSUME",
@@ -6990,7 +7166,7 @@
       "iconId": "randomMaterialRune_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60002,
       "usage": "補給物資としてランダムに様々な素材が入っている。",
       "obtainApproach": "危機契約報酬",
       "classifyType": "CONSUME",
@@ -7006,7 +7182,7 @@
       "iconId": "STORY_REVIEW_COIN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10011,
+      "sortId": 10022,
       "usage": "有効データのトポロジモデル。過去の事件を再構築するのに使う。",
       "obtainApproach": "期間限定購入",
       "classifyType": "NORMAL",
@@ -7481,7 +7657,7 @@
       "iconId": "voucher_item_pick601",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30001,
+      "sortId": 50003,
       "usage": "ロドス人事部発行のエリートオペレーター招聘用指名券。強力な助っ人を100パーセント確実に得るためには、事前に数多くの綿密な根回しが必要だ。",
       "obtainApproach": "購買部",
       "classifyType": "CONSUME",
@@ -7497,7 +7673,7 @@
       "iconId": "randomMaterial_3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60103,
       "usage": "ドクターが着任して1周年の支給物資。ランダムに様々な素材が入っている。",
       "obtainApproach": "期間限定ドロップ",
       "classifyType": "CONSUME",
@@ -7529,7 +7705,7 @@
       "iconId": "EPGS_COIN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10010,
+      "sortId": 10011,
       "usage": "新型採用契約で期限切れになったポイントの処理手段。各種資源と交換できる。",
       "obtainApproach": "限定契約証期限切れ後自動変換",
       "classifyType": "NORMAL",
@@ -7545,7 +7721,7 @@
       "iconId": "LIMITED_TKT_GACHA_10_903",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 10014,
+      "sortId": 40002,
       "usage": "ロドス人事部が発行した特殊人材用ヘッドハンティング許可証。節目のタイミングで行われる人材発掘にのみ使用できる。一回で10名のオペレーターをスカウトできる。",
       "obtainApproach": "プレゼント",
       "classifyType": "NORMAL",
@@ -7980,7 +8156,7 @@
       "iconId": "randomMaterialRune_2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 30005,
+      "sortId": 60003,
       "usage": "補給物資としてランダムに様々な素材が入っている。",
       "obtainApproach": "危機契約報酬",
       "classifyType": "CONSUME",
@@ -8357,6 +8533,150 @@
           "occPer": "ALWAYS"
         }
       ],
+      "buildingProductList": []
+    },
+    "LMTGS_COIN_1401": {
+      "itemId": "LMTGS_COIN_1401",
+      "name": "限定契約証",
+      "description": "人材派遣会社との長期的かつ安定的な協力態勢の賜物。支出のコントロールに効果が期待できる。しかし、毎回この手段を使わざるを得ないような状況にはなってほしくないものだ。",
+      "rarity": 4,
+      "iconId": "LMTGS_COIN_1401",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 10010,
+      "usage": "新型採用契約による期限付きポイント。一定数溜まると対象スカウトのオペレーターを指名できる。",
+      "obtainApproach": "オペレーター入職時獲得",
+      "classifyType": "NORMAL",
+      "itemType": "LMTGS_COIN",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "LIMITED_TKT_GACHA_10_1401": {
+      "itemId": "LIMITED_TKT_GACHA_10_1401",
+      "name": "感謝祭記念スカウト券",
+      "description": "人材を広く確保するためにドクターの要求に応じて準備した応急手段。このようなスカウトは一定の方向性と時限性及び少々のリスクが伴う。",
+      "rarity": 4,
+      "iconId": "LIMITED_TKT_GACHA_10_1401",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 40003,
+      "usage": "ロドス人事部が発行した特殊人材用ヘッドハンティング許可証。節目のタイミングで行われる人材発掘にのみ使用できる。一回で10名のオペレーターをスカウトできる。",
+      "obtainApproach": "プレゼント",
+      "classifyType": "NORMAL",
+      "itemType": "LIMITED_TKT_GACHA_10",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "voucher_item_pick1401": {
+      "itemId": "voucher_item_pick1401",
+      "name": "感謝祭記念★6招聘指名券",
+      "description": "イベントスカウト「在りし日の幻影」までに登場した非限定★6オペレーターのうち一名を指名できる。",
+      "rarity": 4,
+      "iconId": "voucher_recruitR6_g",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 50004,
+      "usage": "ロドス人事部発行のエリートオペレーター招聘用指名券。強力な助っ人を100パーセント確実に得るためには、事前に数多くの綿密な根回しが必要だ。",
+      "obtainApproach": "購買部",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_PICK",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "randomMaterial_4": {
+      "itemId": "randomMaterial_4",
+      "name": "補給物資・「感謝祭」",
+      "description": "ロドスが各地から買い集め、貯蔵した素材の補給箱。しかし整理整頓ができていないためか、どの箱になんの素材が入っているのか誰にもわからない。",
+      "rarity": 4,
+      "iconId": "randomMaterial_4",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 60104,
+      "usage": "補給物資としてランダムに様々な素材が入っている。",
+      "obtainApproach": "期間限定ドロップ",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_MGACHA",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "randomDiamondShd_2": {
+      "itemId": "randomDiamondShd_2",
+      "name": "感謝祭ギフトボックス",
+      "description": "一体誰が自腹を切ったのかはわからないが、贈り主がロドスに溢れんばかりの希望を持っているのは明らかだ。",
+      "rarity": 4,
+      "iconId": "randomDiamondShd_2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 60106,
+      "usage": "ロドスの全員に贈られるギフトボックス。入れられた数はランダムだが、それ以上にどの箱にも感謝の気持ちがこれでもかと詰められている。",
+      "obtainApproach": "プレゼント",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_MGACHA",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_347_jaksel": {
+      "itemId": "p_char_347_jaksel",
+      "name": "ジャッキーの印",
+      "description": "一足の真新しい運動靴。共に訓練を行える日を期待しているようにみえる。",
+      "rarity": 3,
+      "iconId": "p_char_347_jaksel",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 800043,
+      "usage": "ジャッキーの潜在能力強化に用いられる。",
+      "obtainApproach": "オペレーター入職時獲得",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_436_whispr": {
+      "itemId": "p_char_436_whispr",
+      "name": "ウィスパーレインの印",
+      "description": "古びた映画の半券。確かにあの日々があった証し。日焼けして黄ばみ、表面のインクが所々消えていて文字は読み取れない。",
+      "rarity": 4,
+      "iconId": "p_char_436_whispr",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700067,
+      "usage": "ウィスパーレインの潜在能力強化に用いられる。",
+      "obtainApproach": "オペレーター入職時獲得",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_391_rosmon": {
+      "itemId": "p_char_391_rosmon",
+      "name": "ロスモンティスの印",
+      "description": "丹精込めて製作されているが、まだ拙いところが残る植物標本。彼女は、この植物たちがあなたの記憶に留められることを、心から願っている。",
+      "rarity": 5,
+      "iconId": "p_char_391_rosmon",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600031,
+      "usage": "ロスモンティスの潜在能力強化に用いられる。",
+      "obtainApproach": "オペレーター入職時獲得",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_311_mudrok": {
+      "itemId": "p_char_311_mudrok",
+      "name": "マドロックの印",
+      "description": "小さな小さな岩の彫像。好奇の“眼差し”をこちらに向けているようにもみえる。",
+      "rarity": 5,
+      "iconId": "p_char_311_mudrok",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600032,
+      "usage": "マドロックの潜在能力強化に用いられる。",
+      "obtainApproach": "オペレーター入職時獲得",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
       "buildingProductList": []
     }
   },
@@ -8759,6 +9079,30 @@
     "char_250_phatom@ghost#1": 1,
     "char_242_otter@ghost#1": 1,
     "char_326_glacus@ghost#1": 1,
-    "char_277_sqrrel@ghost#1": 1
+    "char_277_sqrrel@ghost#1": 1,
+    "furni_prison_device_01": 1,
+    "furni_prison_waitingArea_01": 1,
+    "furni_prison_partition1_01": 1,
+    "furni_prison_ceilingLight_01": 1,
+    "furni_prison_vent_01": 1,
+    "furni_prison_chair_01": 1,
+    "furni_prison_washbasin_01": 1,
+    "furni_prison_mirror_01": 1,
+    "furni_prison_sink_01": 1,
+    "furni_prison_toilet_01": 1,
+    "furni_prison_pipeline_01": 1,
+    "furni_prison_ceiling_01": 1,
+    "furni_prison_bed_01": 1,
+    "furni_prison_partition2_01": 1,
+    "furni_prison_thermos_01": 1,
+    "furni_prison_wallpaper_01": 1,
+    "furni_prison_floor_01": 1,
+    "furni_act14d0_arcadegame_01": 1,
+    "furni_dropS009_faust_01": 1,
+    "furni_dropS009_siegfried_01": 1,
+    "char_113_cqbw@epoque#7": 1,
+    "char_102_texas@epoque#7": 1,
+    "char_130_doberm@epoque#7": 1,
+    "char_355_ethan@epoque#7": 1
   }
 }
