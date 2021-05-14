@@ -7526,6 +7526,34 @@
           ]
         }
       ]
+    },
+    "char_385_finlpp": {
+      "charId": "char_385_finlpp",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "power_rec_spd[011]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd&trade[000]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -10564,6 +10592,30 @@
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
       "description": "事務室配置時、<@cc.vup>1</>の<@cc.rem>記憶の欠片</>が<@cc.vup>1</>の<@cc.rem>知覚情報</>に転化される。体力が0になる時、<@cc.rem>記憶の欠片</>と<@cc.rem>知覚情報</>も０になる"
+    },
+    "power_rec_spd[011]": {
+      "buffId": "power_rec_spd[011]",
+      "buffName": "クリーンエネルギー",
+      "buffIcon": "power",
+      "skillIcon": "bskill_pow_spd2",
+      "sortId": 2101,
+      "buffColor": "#8fc31f",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "POWER",
+      "description": "発電所配置時、ドローンの回復速度が1時間ごと<@cc.vup>+15%</>"
+    },
+    "manu_prod_spd&trade[000]": {
+      "buffId": "manu_prod_spd&trade[000]",
+      "buffName": "再生エネルギー",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd&trade",
+      "sortId": 3701,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "製造所配置時、<@cc.kw>貿易所</>1か所につき、配置中の製造所のみ<@cc.kw>金属</>製造の製造効率<@cc.vup>+20%</>"
     }
   },
   "customData": {
