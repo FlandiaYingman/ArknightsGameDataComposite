@@ -23218,6 +23218,69 @@
     {
       "sounds": [
         {
+          "asset": "Audio/Sound_Beta_2/Player/p_atk/p_atk_heal_water",
+          "weight": 1,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        }
+      ],
+      "maxSoundAllowed": 2,
+      "popOldest": true,
+      "customMixerGroup": "Battle_P_NAtk",
+      "loop": false,
+      "name": "battle.ON_ABILITY_ON.char_385_finlpp.attack"
+    },
+    {
+      "sounds": [
+        {
+          "asset": "Audio/Sound_Beta_2/Battle/b_char/b_char_healboost",
+          "weight": 1,
+          "important": true,
+          "is2D": true,
+          "delay": 0,
+          "minPitch": 1,
+          "maxPitch": 1,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        }
+      ],
+      "maxSoundAllowed": 0,
+      "popOldest": false,
+      "customMixerGroup": "Battle_UI_Boost",
+      "loop": false,
+      "name": "battle.ON_SKILL_START.skchr_finlpp_2"
+    },
+    {
+      "sounds": [
+        {
+          "asset": "Audio/Sound_Beta_2/Battle/b_char/b_char_healboost",
+          "weight": 1,
+          "important": true,
+          "is2D": true,
+          "delay": 0,
+          "minPitch": 1,
+          "maxPitch": 1,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        }
+      ],
+      "maxSoundAllowed": 0,
+      "popOldest": false,
+      "customMixerGroup": "Battle_UI_Boost",
+      "loop": false,
+      "name": "battle.ON_SKILL_START.skchr_finlpp_1"
+    },
+    {
+      "sounds": [
+        {
           "asset": "Audio/Sound_Beta_2/Player/p_atk/p_atk_grenade2_n",
           "weight": 1,
           "important": false,
@@ -23690,6 +23753,30 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "",
+          "weight": 80,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         }
       ],
       "maxSoundAllowed": 2,
@@ -23732,27 +23819,6 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
-        }
-      ],
-      "maxSoundAllowed": 2,
-      "popOldest": true,
-      "customMixerGroup": "Battle_E_NImp",
-      "loop": false,
-      "name": "battle.ON_ABILITY_START.enemy_1075_dmgswd_2.combat"
-    },
-    {
-      "sounds": [
-        {
-          "asset": "Audio/Sound_Beta_2/Enemy/e_imp/e_imp_bigaxe_h",
-          "weight": 1,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
         },
         {
           "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
@@ -23769,6 +23835,27 @@
         {
           "asset": "",
           "weight": 80,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 1,
+          "maxPitch": 1,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        }
+      ],
+      "maxSoundAllowed": 2,
+      "popOldest": true,
+      "customMixerGroup": "Battle_E_NImp",
+      "loop": false,
+      "name": "battle.ON_ABILITY_START.enemy_1075_dmgswd_2.combat"
+    },
+    {
+      "sounds": [
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_imp/e_imp_bigaxe_h",
+          "weight": 1,
           "important": false,
           "is2D": false,
           "delay": 0,
@@ -23816,30 +23903,6 @@
           "delay": 0,
           "minPitch": 0.8,
           "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
-          "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "",
-          "weight": 80,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 1,
-          "maxPitch": 1,
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
@@ -23927,6 +23990,30 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "",
+          "weight": 80,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         }
       ],
       "maxSoundAllowed": 2,
@@ -23969,6 +24056,30 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "",
+          "weight": 80,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 1,
+          "maxPitch": 1,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         }
       ],
       "maxSoundAllowed": 0,
@@ -23989,30 +24100,6 @@
           "maxPitch": 1,
           "minVolume": 0.7,
           "maxVolume": 0.7,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
-          "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "",
-          "weight": 80,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
           "ignoreTimeScale": false
         }
       ],
@@ -24053,30 +24140,6 @@
           "delay": 0,
           "minPitch": 0.8,
           "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
-          "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "",
-          "weight": 80,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 1,
-          "maxPitch": 1,
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
@@ -24689,6 +24752,30 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "",
+          "weight": 80,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         }
       ],
       "maxSoundAllowed": 2,
@@ -24725,6 +24812,30 @@
           "weight": 1,
           "important": true,
           "is2D": true,
+          "delay": 0,
+          "minPitch": 1,
+          "maxPitch": 1,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "",
+          "weight": 80,
+          "important": false,
+          "is2D": false,
           "delay": 0,
           "minPitch": 1,
           "maxPitch": 1,
@@ -25730,6 +25841,30 @@
           "minVolume": 0.6,
           "maxVolume": 0.6,
           "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         }
       ],
       "maxSoundAllowed": 2,
@@ -25790,30 +25925,6 @@
           "delay": 0,
           "minPitch": 1,
           "maxPitch": 1,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
-          "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
-          "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
@@ -25985,6 +26096,30 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         }
       ],
       "maxSoundAllowed": 2,
@@ -26045,30 +26180,6 @@
           "delay": 0,
           "minPitch": 1,
           "maxPitch": 1,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
-          "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
-          "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
@@ -26555,6 +26666,30 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         }
       ],
       "maxSoundAllowed": 2,
@@ -26618,6 +26753,27 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        }
+      ],
+      "maxSoundAllowed": 0,
+      "popOldest": false,
+      "customMixerGroup": "Battle_UI_Boost",
+      "loop": false,
+      "name": "battle.ON_SKILL_START.skchr_absin_2"
+    },
+    {
+      "sounds": [
+        {
+          "asset": "Audio/Sound_Beta_2/Player/p_atk/p_atk_handgun_s",
+          "weight": 1,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         },
         {
           "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
@@ -26634,27 +26790,6 @@
         {
           "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
           "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        }
-      ],
-      "maxSoundAllowed": 0,
-      "popOldest": false,
-      "customMixerGroup": "Battle_UI_Boost",
-      "loop": false,
-      "name": "battle.ON_SKILL_START.skchr_absin_2"
-    },
-    {
-      "sounds": [
-        {
-          "asset": "Audio/Sound_Beta_2/Player/p_atk/p_atk_handgun_s",
-          "weight": 1,
           "important": false,
           "is2D": false,
           "delay": 0,
@@ -26726,6 +26861,27 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        }
+      ],
+      "maxSoundAllowed": 1,
+      "popOldest": true,
+      "customMixerGroup": "Battle_Skill_Important",
+      "loop": false,
+      "name": "battle.ON_ABILITY_ON.skchr_lionhd_2"
+    },
+    {
+      "sounds": [
+        {
+          "asset": "Audio/Sound_Beta_2/Player/p_atk/p_atk_magbell",
+          "weight": 1,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         },
         {
           "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
@@ -26742,27 +26898,6 @@
         {
           "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
           "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        }
-      ],
-      "maxSoundAllowed": 1,
-      "popOldest": true,
-      "customMixerGroup": "Battle_Skill_Important",
-      "loop": false,
-      "name": "battle.ON_ABILITY_ON.skchr_lionhd_2"
-    },
-    {
-      "sounds": [
-        {
-          "asset": "Audio/Sound_Beta_2/Player/p_atk/p_atk_magbell",
-          "weight": 1,
           "important": false,
           "is2D": false,
           "delay": 0,
@@ -26831,30 +26966,6 @@
           "delay": 0,
           "minPitch": 1,
           "maxPitch": 1,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
-          "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        },
-        {
-          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
-          "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
@@ -27803,6 +27914,30 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 10,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         }
       ],
       "maxSoundAllowed": 2,
@@ -27866,6 +28001,27 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        }
+      ],
+      "maxSoundAllowed": 1,
+      "popOldest": true,
+      "customMixerGroup": "Battle_Skill_Important",
+      "loop": false,
+      "name": "battle.ON_ABILITY_START.skchr_ayer_1"
+    },
+    {
+      "sounds": [
+        {
+          "asset": "Audio/Sound_Beta_2/Player/p_skill/p_skill_lightningchain_hit",
+          "weight": 1,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         },
         {
           "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_1",
@@ -27882,27 +28038,6 @@
         {
           "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
           "weight": 10,
-          "important": false,
-          "is2D": false,
-          "delay": 0,
-          "minPitch": 0.8,
-          "maxPitch": 1.2,
-          "minVolume": 1,
-          "maxVolume": 1,
-          "ignoreTimeScale": false
-        }
-      ],
-      "maxSoundAllowed": 1,
-      "popOldest": true,
-      "customMixerGroup": "Battle_Skill_Important",
-      "loop": false,
-      "name": "battle.ON_ABILITY_START.skchr_ayer_1"
-    },
-    {
-      "sounds": [
-        {
-          "asset": "Audio/Sound_Beta_2/Player/p_skill/p_skill_lightningchain_hit",
-          "weight": 1,
           "important": false,
           "is2D": false,
           "delay": 0,
@@ -34448,6 +34583,18 @@
           "minVolume": 1,
           "maxVolume": 1,
           "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Enemy/e_atk/e_atk_gopro_2",
+          "weight": 0.4,
+          "important": false,
+          "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
         }
       ],
       "maxSoundAllowed": 2,
@@ -35840,6 +35987,18 @@
           "weight": 1,
           "important": false,
           "is2D": false,
+          "delay": 0,
+          "minPitch": 0.8,
+          "maxPitch": 1.2,
+          "minVolume": 1,
+          "maxVolume": 1,
+          "ignoreTimeScale": false
+        },
+        {
+          "asset": "Audio/Sound_Beta_2/Ambience/a_bat/a_bat_buildingshaking_2",
+          "weight": 50,
+          "important": true,
+          "is2D": true,
           "delay": 0,
           "minPitch": 0.8,
           "maxPitch": 1.2,
