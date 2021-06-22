@@ -21,7 +21,7 @@
       "position": "MELEE",
       "tagList": [
         "딜러",
-        "서포트"
+        "지원"
       ],
       "displayLogo": "logo_rhodes",
       "itemUsage": "로도스 아일랜드 공개적인 리더인 아미야는 당신과 함께 싸울 것입니다.",
@@ -419,7 +419,7 @@
               "requiredPotentialRank": 0,
               "prefabKey": "1",
               "name": "푸른 분노",
-              "description": "전장에 있을 때 모든 아군 유닛의 공격력 및 방어력+4%, 스킬 발동 중에는 효과 2배",
+              "description": "전장에 있을 때 모든 아군 유닛의 공격력 및 방어력 +4%, 스킬 발동 중에는 효과 2배",
               "rangeId": null,
               "blackboard": [
                 {
@@ -734,7 +734,11 @@
             }
           ]
         }
-      ]
+      ],
+      "nationId": "rhodes",
+      "groupId": null,
+      "teamId": null,
+      "isSpChar": false
     }
   },
   "unlockConds": {
