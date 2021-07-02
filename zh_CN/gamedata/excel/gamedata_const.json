@@ -951,7 +951,8 @@
     "ba.xf": "<color=#0291FF>{0}</color>",
     "ba.xg": "<color=#FF00FF>{0}</color>",
     "linkagega.charname": "<color=#FFF6A9>{0}</color>",
-    "linkagega.title": "<color=#FF8A00>{0}</color>"
+    "linkagega.title": "<color=#FF8A00>{0}</color>",
+    "tu.ht": "<color=#ff8d00>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1291,6 +1292,11 @@
       "termId": "cc.t.line_gold",
       "termName": "赤金生产线",
       "description": "每有<@cc.kw>1</>间<@cc.kw>制造站</>生产<@cc.kw>赤金</>，则赤金生产线<@cc.kw>+1</>"
+    },
+    "ba.strong": {
+      "termId": "ba.strong",
+      "termName": "精力充沛",
+      "description": "生命值高于一定比例时攻击力加成提升相应比例（同名效果攻击力加成取最高）"
     }
   }
 }
