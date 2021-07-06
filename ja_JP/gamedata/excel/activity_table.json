@@ -554,6 +554,21 @@
       "templateShopId": "shop_act15d0",
       "medalGroupId": "medalGroupActivity15d0",
       "isReplicate": false
+    },
+    "act15d5": {
+      "id": "act15d5",
+      "type": "MINISTORY",
+      "name": "彼方を望む",
+      "startTime": 1625547600,
+      "endTime": 1626116399,
+      "rewardEndTime": 1626375599,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": "shop_act15d5",
+      "medalGroupId": null,
+      "isReplicate": false
     }
   },
   "zoneToActivity": {
@@ -584,7 +599,8 @@
     "act14d7_zone1": "act14d7",
     "act14d7_zone2": "act14d7",
     "act15d0_zone1": "act15d0",
-    "act15d0_zone2": "act15d0"
+    "act15d0_zone2": "act15d0",
+    "act15d5_zone1": "act15d5"
   },
   "missionData": [
     {
@@ -26197,6 +26213,37 @@
           "weekly_9",
           "act13d0_zone1"
         ]
+      },
+      "act15d5": {
+        "tokenItemId": "act15d5_token_postcard",
+        "zoneDescList": {
+          "act15d5_zone1": {
+            "zoneId": "act15d5_zone1",
+            "unlockText": "メインストーリー1‐10クリアで開放"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "main_8",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "act15d5_zone1"
+        ]
       }
     },
     "ROGUELIKE": {
@@ -27125,6 +27172,9 @@
     ],
     "act15d0": [
       "act15d0_token_ironSheet"
+    ],
+    "act15d5": [
+      "act15d5_token_postcard"
     ]
   },
   "syncPoints": {
@@ -27163,6 +27213,10 @@
     "act15d0": [
       1624327200,
       1625511599
+    ],
+    "act15d5": [
+      1625547600,
+      1626116399
     ]
   },
   "dynActs": {}
