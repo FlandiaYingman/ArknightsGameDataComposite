@@ -3308,6 +3308,46 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_activity_15d5_01",
+      "medalName": "외근 기록 확인 도장",
+      "medalType": "activityMedal",
+      "slotId": 82,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "UnlockStoryGroup",
+      "unlockParam": [
+        "act15d5"
+      ],
+      "getMethod": "비욘드 히어의 모든 스토리 개방",
+      "description": "로도스 아일랜드 오퍼레이터 파견 임무의 지점 기록도를 모티브로 제작한 훈장, 드문드문 있는 발자국이 오퍼레이터들의 견문을 증명합니다.\n대륙 각지에서는 늘 새로운 이야기가 생겨납니다.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1625547600,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_15d5_02",
+      "medalName": "외근 복장 기념 훈장",
+      "medalType": "activityMedal",
+      "slotId": 83,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "GotItemBeforeTime",
+      "unlockParam": [
+        "1",
+        "char_108_silent@winter#2",
+        "1626375599"
+      ],
+      "getMethod": "비욘드 히어 이벤트에서 컬렉션 프로스트 브레스 획득",
+      "description": "파견 복장에 동봉된 기념 훈장.\n이 옷은 편하고 따뜻해서 사일런스가 한참 전부터 예약을 해뒀다는군요.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1625547600,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_activity_13d0_01",
       "medalName": "돌아오는 바람의 땅 훈장",
       "medalType": "activityMedal",
@@ -3336,7 +3376,8 @@
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_388_mint",
-        "1617476399"
+        "1617476399",
+        "1602529199"
       ],
       "getMethod": "리와인딩 브리즈 이벤트 중 오퍼레이터 민트 획득",
       "description": "오퍼레이터 민트의 묘사에 따라, 책이 물어뜯은 후의 잇자국을 그려넣었습니다.\n책이 사람을 무나? 책엔 이빨이 안 달려있잖아? 잠깐, 방금 책이 움직인 거 같은데?",
@@ -3414,7 +3455,10 @@
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act6d5"
+        "act6d5",
+        "act11d0_mo01",
+        "trap_014_tower",
+        "3"
       ],
       "getMethod": "에인션트 포지의 모든 스토리 개방",
       "description": "니엔을 상징하는 표식을 베이스로 제작한 훈장.\n니엔이 원하는 매운맛을 구현해낼 수 있는 요리사는 아직도 없다고 합니다.",
@@ -3433,7 +3477,10 @@
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act7d5"
+        "act7d5",
+        "level_rune_03-01",
+        "18",
+        "1605639599"
       ],
       "getMethod": "오후의 일화의 모든 스토리 개방",
       "description": "애프터눈 티 컬렉팅 스티커를 기반으로 제작된 훈장. 가져가서 애프터눈 티 보상으로 교환할 순 없다.\n아직 많은 이야기가 박사님을 기다리고 있다고 합니다.",
@@ -3477,7 +3524,8 @@
         "rune_season_1_1",
         "level_rune_03-01",
         "18",
-        "1605639599"
+        "1605639599",
+        "0"
       ],
       "getMethod": "파이라이트 작전에서, 칼날 작전 개시 1주 전까지(2020-11-18 03:59:59 전까지) 상주작전지점의 위기 레벨을 18까지 달성",
       "description": null,
@@ -3499,7 +3547,8 @@
         "rune_season_2_1",
         "level_rune_04-01",
         "18",
-        "1612983599"
+        "1612983599",
+        "0"
       ],
       "getMethod": "칼날 작전에서, 칼날 작전 개시 1주 전까지(2021-02-11 03:59:59 전까지) 상주작전지점의 위기 레벨을 18까지 달성",
       "description": null,
