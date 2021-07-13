@@ -930,6 +930,26 @@
         "medal_activity_1lock_01"
       ],
       "isReplicate": false
+    },
+    "act8mini": {
+      "id": "act8mini",
+      "type": "MINISTORY",
+      "displayType": "MINISTORY",
+      "name": "如我所见",
+      "startTime": 1626163200,
+      "endTime": 1626724799,
+      "rewardEndTime": 1626983999,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": "shop_act8mini",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_8mini_01",
+        "medal_activity_8mini_02"
+      ],
+      "isReplicate": false
     }
   },
   "zoneToActivity": {
@@ -978,7 +998,8 @@
     "act5sre_zone1": "act5sre",
     "act5sre_zone2": "act5sre",
     "act5sre_zone3": "act5sre",
-    "act1lock_zone1": "act1lock"
+    "act1lock_zone1": "act1lock",
+    "act8mini_zone1": "act8mini"
   },
   "missionData": [
     {
@@ -35918,6 +35939,37 @@
           "weekly_9",
           "act7mini_zone1"
         ]
+      },
+      "act8mini": {
+        "tokenItemId": "act8mini_token_vigilo",
+        "zoneDescList": {
+          "act8mini_zone1": {
+            "zoneId": "act8mini_zone1",
+            "unlockText": "完成主线关卡1-10解锁"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "main_8",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "act8mini_zone1"
+        ]
       }
     },
     "ROGUELIKE": {
@@ -37881,6 +37933,9 @@
     ],
     "act1lock": [
       "act1lock_point_reward"
+    ],
+    "act8mini": [
+      "act8mini_token_vigilo"
     ]
   },
   "syncPoints": {
@@ -37953,7 +38008,8 @@
     "act5sre": [
       1623916800,
       1624737599
-    ]
+    ],
+    "act8mini": []
   },
   "dynActs": {
     "act16d5d2": {
