@@ -7747,6 +7747,33 @@
           ]
         }
       ]
+    },
+    "char_402_tuye": {
+      "charId": "char_402_tuye",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "trade_ord_spd&gold[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "trade_ord_spd&gold[010]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
     }
   },
   "buffs": {
@@ -10941,6 +10968,30 @@
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "When this Operator is assigned to a Dormitory, every <@cc.vup>1</> level(s) of <@cc.rem>Dreamland</> is converted into <@cc.vup>1</> point(s) of <@cc.rem>Perception Information</>"
+    },
+    "trade_ord_spd&gold[000]": {
+      "buffId": "trade_ord_spd&gold[000]",
+      "buffName": "Logistics Planning α",
+      "buffIcon": "trading",
+      "skillIcon": "trade_ord_spd&gold1",
+      "sortId": 4311,
+      "buffColor": "#0075a9",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "TRADING",
+      "description": "When this Operator is assigned to a Trading Post, order acquisition efficiency <@cc.vup>+5%</>; Furthermore, increase order acquisition efficiency by an additional <@cc.vup>+15%</> for every <@cc.kw>4</> <@cc.kw>Factories</> producing <@cc.kw>Pure Gold</>"
+    },
+    "trade_ord_spd&gold[010]": {
+      "buffId": "trade_ord_spd&gold[010]",
+      "buffName": "Logistics Planning β",
+      "buffIcon": "trading",
+      "skillIcon": "trade_ord_spd&gold2",
+      "sortId": 4312,
+      "buffColor": "#0075a9",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "TRADING",
+      "description": "When this Operator is assigned to a Trading Post, order acquisition efficiency <@cc.vup>+5%</>; Furthermore, increase order acquisition efficiency by an additional <@cc.vup>+15%</> for every <@cc.kw>2</> <@cc.kw>Factories</> producing <@cc.kw>Pure Gold</>"
     }
   },
   "customData": {
@@ -26607,6 +26658,29 @@
         "usage": "Can be used to decorate the dorm and improve the ambience.",
         "description": "\"The tragedies of this world almost always spring from the same bloodline. I have seen father and brother murder one another, and I have seen mother and son fall in love. By the time the world ends, I shall see much more.\"",
         "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_contract_s4_01": {
+        "id": "furni_contract_s4_01",
+        "name": "Lead Seal Pennant",
+        "iconId": "furni_contract_s4_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 4,
+        "comfort": 75,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A pennant depicting the mark of a certain lead seal. Hidden deep inside the core of an abandoned, Catastrophe-stricken independent city, it should never have been uncovered by man.",
+        "obtainApproach": "Contingency Contract season reward",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
