@@ -25584,6 +25584,50 @@
     "weekly_605": {
       "id": "weekly_605",
       "sortId": 605,
+      "description": "通关任意关卡75次，不含危机合约和部分活动中0理智关卡",
+      "type": "WEEKLY",
+      "preMissionIds": [
+        "weekly_604"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "75"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "weekly_g_6",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "weekly_606": {
+      "id": "weekly_606",
+      "sortId": 606,
+      "description": "通关任意关卡100次，不含危机合约和部分活动中0理智关卡",
+      "type": "WEEKLY",
+      "preMissionIds": [
+        "weekly_605"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "100"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "weekly_g_6",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "weekly_607": {
+      "id": "weekly_607",
+      "sortId": 607,
       "description": "在主线关卡中歼灭5次敌方领袖",
       "type": "WEEKLY",
       "preMissionIds": null,
@@ -25601,9 +25645,9 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_606": {
-      "id": "weekly_606",
-      "sortId": 606,
+    "weekly_608": {
+      "id": "weekly_608",
+      "sortId": 608,
       "description": "累计歼灭任意1000名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "WEEKLY",
       "preMissionIds": null,
@@ -25621,13 +25665,13 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_607": {
-      "id": "weekly_607",
-      "sortId": 607,
+    "weekly_609": {
+      "id": "weekly_609",
+      "sortId": 609,
       "description": "累计歼灭任意2000名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "WEEKLY",
       "preMissionIds": [
-        "weekly_606"
+        "weekly_608"
       ],
       "template": "StageWithEnemyKill",
       "templateType": "4",
@@ -25643,19 +25687,20 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_608": {
-      "id": "weekly_608",
-      "sortId": 608,
+    "weekly_610": {
+      "id": "weekly_610",
+      "sortId": 610,
       "description": "累计歼灭任意3000名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "WEEKLY",
       "preMissionIds": [
-        "weekly_607"
+        "weekly_609"
       ],
       "template": "StageWithEnemyKill",
       "templateType": "4",
       "param": [
         "4",
-        "3000"
+        "3000",
+        "5"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -25665,13 +25710,35 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_609": {
-      "id": "weekly_609",
-      "sortId": 609,
+    "weekly_611": {
+      "id": "weekly_611",
+      "sortId": 611,
+      "description": "累计歼灭任意4000名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "WEEKLY",
+      "preMissionIds": [
+        "weekly_610"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "4000"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "weekly_g_6",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "weekly_612": {
+      "id": "weekly_612",
+      "sortId": 612,
       "description": "累计歼灭任意5000名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "WEEKLY",
       "preMissionIds": [
-        "weekly_608"
+        "weekly_611"
       ],
       "template": "StageWithEnemyKill",
       "templateType": "4",
@@ -25687,9 +25754,9 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_610": {
-      "id": "weekly_610",
-      "sortId": 610,
+    "weekly_613": {
+      "id": "weekly_613",
+      "sortId": 613,
       "description": "使用好友助战干员完成任意关卡5次",
       "type": "WEEKLY",
       "preMissionIds": null,
@@ -25708,9 +25775,9 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_611": {
-      "id": "weekly_611",
-      "sortId": 611,
+    "weekly_614": {
+      "id": "weekly_614",
+      "sortId": 614,
       "description": "进行5次干员强化",
       "type": "WEEKLY",
       "preMissionIds": null,
@@ -25718,7 +25785,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "5"
+        "5",
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -25728,9 +25796,9 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_612": {
-      "id": "weekly_612",
-      "sortId": 612,
+    "weekly_615": {
+      "id": "weekly_615",
+      "sortId": 615,
       "description": "从信用商店收取5次信用",
       "type": "WEEKLY",
       "preMissionIds": null,
@@ -25748,9 +25816,9 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_613": {
-      "id": "weekly_613",
-      "sortId": 613,
+    "weekly_616": {
+      "id": "weekly_616",
+      "sortId": 616,
       "description": "在信用商店中购买任意商品5次",
       "type": "WEEKLY",
       "preMissionIds": null,
@@ -25768,10 +25836,32 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_614": {
-      "id": "weekly_614",
-      "sortId": 614,
-      "description": "使用公开招募10次",
+    "weekly_617": {
+      "id": "weekly_617",
+      "sortId": 617,
+      "description": "在信用商店中购买任意商品20次",
+      "type": "WEEKLY",
+      "preMissionIds": [
+        "weekly_616"
+      ],
+      "template": "BuyShopItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "20"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "weekly_g_6",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "weekly_618": {
+      "id": "weekly_618",
+      "sortId": 618,
+      "description": "完成10次公开招募",
       "type": "WEEKLY",
       "preMissionIds": null,
       "template": "NormalGacha",
@@ -25789,9 +25879,32 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_615": {
-      "id": "weekly_615",
-      "sortId": 615,
+    "weekly_619": {
+      "id": "weekly_619",
+      "sortId": 619,
+      "description": "完成20次公开招募",
+      "type": "WEEKLY",
+      "preMissionIds": [
+        "weekly_618"
+      ],
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "20"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "weekly_g_6",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "weekly_620": {
+      "id": "weekly_620",
+      "sortId": 620,
       "description": "在基建内与干员进行40次增加信赖的互动",
       "type": "WEEKLY",
       "preMissionIds": null,
@@ -25809,13 +25922,13 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_616": {
-      "id": "weekly_616",
-      "sortId": 616,
+    "weekly_621": {
+      "id": "weekly_621",
+      "sortId": 621,
       "description": "在基建内与干员进行60次增加信赖的互动",
       "type": "WEEKLY",
       "preMissionIds": [
-        "weekly_615"
+        "weekly_620"
       ],
       "template": "GainIntimacy",
       "templateType": "0",
@@ -25831,9 +25944,1261 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_617": {
-      "id": "weekly_617",
-      "sortId": 617,
+    "weekly_622": {
+      "id": "weekly_622",
+      "sortId": 622,
+      "description": "在基建内与干员进行100次增加信赖的互动",
+      "type": "WEEKLY",
+      "preMissionIds": [
+        "weekly_621"
+      ],
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "100"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "weekly_g_6",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4601": {
+      "id": "daily_4601",
+      "sortId": 4601,
+      "description": "通关任意关卡1次，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4602": {
+      "id": "daily_4602",
+      "sortId": 4602,
+      "description": "通关任意关卡2次，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4601"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4603": {
+      "id": "daily_4603",
+      "sortId": 4603,
+      "description": "通关任意关卡4次，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4602"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4604": {
+      "id": "daily_4604",
+      "sortId": 4604,
+      "description": "通关任意关卡6次，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4603"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "6"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4605": {
+      "id": "daily_4605",
+      "sortId": 4605,
+      "description": "通关任意关卡8次，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4604"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "8"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4606": {
+      "id": "daily_4606",
+      "sortId": 4606,
+      "description": "在主线关卡中歼灭1次敌方领袖",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "3",
+      "param": [
+        "3",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4607": {
+      "id": "daily_4607",
+      "sortId": 4607,
+      "description": "在主线关卡中歼灭3次敌方领袖",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4606"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "3",
+      "param": [
+        "3",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4608": {
+      "id": "daily_4608",
+      "sortId": 4608,
+      "description": "累计歼灭任意100名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "100"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4609": {
+      "id": "daily_4609",
+      "sortId": 4609,
+      "description": "累计歼灭任意200名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4608"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4610": {
+      "id": "daily_4610",
+      "sortId": 4610,
+      "description": "累计歼灭任意300名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4609"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "300"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4611": {
+      "id": "daily_4611",
+      "sortId": 4611,
+      "description": "累计歼灭任意400名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4610"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4612": {
+      "id": "daily_4612",
+      "sortId": 4612,
+      "description": "累计歼灭任意500名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4611"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "500"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4613": {
+      "id": "daily_4613",
+      "sortId": 4613,
+      "description": "在使用好友助战的情况下完成任意关卡1次",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithAssistChar",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4614": {
+      "id": "daily_4614",
+      "sortId": 4614,
+      "description": "进行1次干员强化",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "UpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4615": {
+      "id": "daily_4615",
+      "sortId": 4615,
+      "description": "从信用商店收取1次信用",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ReceiveSocialPoint",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4616": {
+      "id": "daily_4616",
+      "sortId": 4616,
+      "description": "在信用商店中购买任意商品1次",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4617": {
+      "id": "daily_4617",
+      "sortId": 4617,
+      "description": "完成1次公开招募",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4618": {
+      "id": "daily_4618",
+      "sortId": 4618,
+      "description": "完成3次公开招募",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4617"
+      ],
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4619": {
+      "id": "daily_4619",
+      "sortId": 4619,
+      "description": "在基建内与干员进行5次增加信赖的互动",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4620": {
+      "id": "daily_4620",
+      "sortId": 4620,
+      "description": "在基建内与干员进行10次增加信赖的互动",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4619"
+      ],
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4621": {
+      "id": "daily_4621",
+      "sortId": 4621,
+      "description": "累计收取1次制造站的制造产物",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ManufactureItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4622": {
+      "id": "daily_4622",
+      "sortId": 4622,
+      "description": "完成1笔订单",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4623": {
+      "id": "daily_4623",
+      "sortId": 4623,
+      "description": "完成5笔订单",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4622"
+      ],
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4624": {
+      "id": "daily_4624",
+      "sortId": 4624,
+      "description": "完成10笔订单",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4623"
+      ],
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4625": {
+      "id": "daily_4625",
+      "sortId": 4625,
+      "description": "完成20笔订单",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4624"
+      ],
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "20"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4626": {
+      "id": "daily_4626",
+      "sortId": 4626,
+      "description": "让1名干员在宿舍中恢复心情",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4627": {
+      "id": "daily_4627",
+      "sortId": 4627,
+      "description": "让5名干员在宿舍中恢复心情",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4626"
+      ],
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4628": {
+      "id": "daily_4628",
+      "sortId": 4628,
+      "description": "让10名干员在宿舍中恢复心情",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4627"
+      ],
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4629": {
+      "id": "daily_4629",
+      "sortId": 4629,
+      "description": "访问1次好友的基建",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "VisitBuilding",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_46",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4701": {
+      "id": "daily_4701",
+      "sortId": 4701,
+      "description": "通关任意关卡1次，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4702": {
+      "id": "daily_4702",
+      "sortId": 4702,
+      "description": "通关任意关卡2次，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4701"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4703": {
+      "id": "daily_4703",
+      "sortId": 4703,
+      "description": "通关任意关卡4次，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4702"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4704": {
+      "id": "daily_4704",
+      "sortId": 4704,
+      "description": "通关任意关卡6次，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4703"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "6"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4705": {
+      "id": "daily_4705",
+      "sortId": 4705,
+      "description": "通关任意关卡8次，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4704"
+      ],
+      "template": "CompleteStageOrCampaign",
+      "templateType": "0",
+      "param": [
+        "0",
+        "8"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4706": {
+      "id": "daily_4706",
+      "sortId": 4706,
+      "description": "在主线关卡中歼灭1次敌方领袖",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "3",
+      "param": [
+        "3",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4707": {
+      "id": "daily_4707",
+      "sortId": 4707,
+      "description": "在主线关卡中歼灭3次敌方领袖",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4706"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "3",
+      "param": [
+        "3",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4708": {
+      "id": "daily_4708",
+      "sortId": 4708,
+      "description": "累计歼灭任意100名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "100"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4709": {
+      "id": "daily_4709",
+      "sortId": 4709,
+      "description": "累计歼灭任意200名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4708"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4710": {
+      "id": "daily_4710",
+      "sortId": 4710,
+      "description": "累计歼灭任意300名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4709"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "300"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4711": {
+      "id": "daily_4711",
+      "sortId": 4711,
+      "description": "累计歼灭任意400名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4710"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4712": {
+      "id": "daily_4712",
+      "sortId": 4712,
+      "description": "累计歼灭任意500名敌兵，不含危机合约和部分活动中0理智关卡",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4711"
+      ],
+      "template": "StageWithEnemyKill",
+      "templateType": "4",
+      "param": [
+        "4",
+        "500"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4713": {
+      "id": "daily_4713",
+      "sortId": 4713,
+      "description": "在使用好友助战的情况下完成任意关卡1次",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "StageWithAssistChar",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4714": {
+      "id": "daily_4714",
+      "sortId": 4714,
+      "description": "进行1次干员强化",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "UpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4715": {
+      "id": "daily_4715",
+      "sortId": 4715,
+      "description": "从信用商店收取1次信用",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ReceiveSocialPoint",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4716": {
+      "id": "daily_4716",
+      "sortId": 4716,
+      "description": "在信用商店中购买任意商品1次",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "BuyShopItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4717": {
+      "id": "daily_4717",
+      "sortId": 4717,
+      "description": "完成1次公开招募",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4718": {
+      "id": "daily_4718",
+      "sortId": 4718,
+      "description": "完成3次公开招募",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4717"
+      ],
+      "template": "NormalGacha",
+      "templateType": "0",
+      "param": [
+        "0",
+        "-1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4719": {
+      "id": "daily_4719",
+      "sortId": 4719,
+      "description": "在基建内与干员进行5次增加信赖的互动",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4720": {
+      "id": "daily_4720",
+      "sortId": 4720,
+      "description": "在基建内与干员进行10次增加信赖的互动",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4719"
+      ],
+      "template": "GainIntimacy",
+      "templateType": "0",
+      "param": [
+        "0",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4721": {
+      "id": "daily_4721",
+      "sortId": 4721,
+      "description": "累计收取1次制造站的制造产物",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "ManufactureItem",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4722": {
+      "id": "daily_4722",
+      "sortId": 4722,
+      "description": "完成1笔订单",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4723": {
+      "id": "daily_4723",
+      "sortId": 4723,
+      "description": "完成5笔订单",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4722"
+      ],
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4724": {
+      "id": "daily_4724",
+      "sortId": 4724,
+      "description": "完成10笔订单",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4723"
+      ],
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4725": {
+      "id": "daily_4725",
+      "sortId": 4725,
+      "description": "完成20笔订单",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4724"
+      ],
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "20"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4726": {
+      "id": "daily_4726",
+      "sortId": 4726,
+      "description": "让1名干员在宿舍中恢复心情",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4727": {
+      "id": "daily_4727",
+      "sortId": 4727,
+      "description": "让5名干员在宿舍中恢复心情",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4726"
+      ],
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4728": {
+      "id": "daily_4728",
+      "sortId": 4728,
+      "description": "让10名干员在宿舍中恢复心情",
+      "type": "DAILY",
+      "preMissionIds": [
+        "daily_4727"
+      ],
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "daily_4729": {
+      "id": "daily_4729",
+      "sortId": 4729,
+      "description": "访问1次好友的基建",
+      "type": "DAILY",
+      "preMissionIds": null,
+      "template": "VisitBuilding",
+      "templateType": "0",
+      "param": [
+        "0",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "daily_g_47",
+      "toPage": null,
+      "periodicalPoint": 1,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "weekly_623": {
+      "id": "weekly_623",
+      "sortId": 623,
       "description": "累计收取10次制造站的制造产物",
       "type": "WEEKLY",
       "preMissionIds": null,
@@ -25851,13 +27216,13 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_618": {
-      "id": "weekly_618",
-      "sortId": 618,
+    "weekly_624": {
+      "id": "weekly_624",
+      "sortId": 624,
       "description": "累计收取20次制造站的制造产物",
       "type": "WEEKLY",
       "preMissionIds": [
-        "weekly_617"
+        "weekly_623"
       ],
       "template": "ManufactureItem",
       "templateType": "1",
@@ -25873,9 +27238,9 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_619": {
-      "id": "weekly_619",
-      "sortId": 619,
+    "weekly_625": {
+      "id": "weekly_625",
+      "sortId": 625,
       "description": "完成15笔订单",
       "type": "WEEKLY",
       "preMissionIds": null,
@@ -25893,13 +27258,13 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_620": {
-      "id": "weekly_620",
-      "sortId": 620,
+    "weekly_626": {
+      "id": "weekly_626",
+      "sortId": 626,
       "description": "完成30笔订单",
       "type": "WEEKLY",
       "preMissionIds": [
-        "weekly_619"
+        "weekly_625"
       ],
       "template": "DeliveryOrder",
       "templateType": "1",
@@ -25915,9 +27280,53 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_621": {
-      "id": "weekly_621",
-      "sortId": 621,
+    "weekly_627": {
+      "id": "weekly_627",
+      "sortId": 627,
+      "description": "完成50笔订单",
+      "type": "WEEKLY",
+      "preMissionIds": [
+        "weekly_626"
+      ],
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "weekly_g_6",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "weekly_628": {
+      "id": "weekly_628",
+      "sortId": 628,
+      "description": "完成80笔订单",
+      "type": "WEEKLY",
+      "preMissionIds": [
+        "weekly_627"
+      ],
+      "template": "DeliveryOrder",
+      "templateType": "1",
+      "param": [
+        "1",
+        "80"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "weekly_g_6",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "weekly_629": {
+      "id": "weekly_629",
+      "sortId": 629,
       "description": "让20名干员在宿舍中恢复心情",
       "type": "WEEKLY",
       "preMissionIds": null,
@@ -25935,13 +27344,13 @@
       "rewards": null,
       "backImagePath": null
     },
-    "weekly_622": {
-      "id": "weekly_622",
-      "sortId": 622,
+    "weekly_630": {
+      "id": "weekly_630",
+      "sortId": 630,
       "description": "让40名干员在宿舍中恢复心情",
       "type": "WEEKLY",
       "preMissionIds": [
-        "weekly_621"
+        "weekly_629"
       ],
       "template": "RecoverCharBaseAp",
       "templateType": "0",
@@ -25954,6 +27363,48 @@
       "missionGroup": "weekly_g_6",
       "toPage": null,
       "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "weekly_631": {
+      "id": "weekly_631",
+      "sortId": 631,
+      "description": "让80名干员在宿舍中恢复心情",
+      "type": "WEEKLY",
+      "preMissionIds": [
+        "weekly_630"
+      ],
+      "template": "RecoverCharBaseAp",
+      "templateType": "0",
+      "param": [
+        "0",
+        "80"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "weekly_g_6",
+      "toPage": null,
+      "periodicalPoint": 2,
+      "rewards": null,
+      "backImagePath": null
+    },
+    "weekly_632": {
+      "id": "weekly_632",
+      "sortId": 632,
+      "description": "访问5次好友的基建",
+      "type": "WEEKLY",
+      "preMissionIds": null,
+      "template": "VisitBuilding",
+      "templateType": "0",
+      "param": [
+        "0",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "weekly_g_6",
+      "toPage": null,
+      "periodicalPoint": 1,
       "rewards": null,
       "backImagePath": null
     }
@@ -28951,7 +30402,7 @@
         "weekly_522"
       ],
       "startTs": 1615147200,
-      "endTs": 1877284799
+      "endTs": 1627847999
     },
     "guide_g_8": {
       "id": "guide_g_8",
@@ -29203,10 +30654,102 @@
         "weekly_619",
         "weekly_620",
         "weekly_621",
-        "weekly_622"
+        "weekly_622",
+        "weekly_623",
+        "weekly_624",
+        "weekly_625",
+        "weekly_626",
+        "weekly_627",
+        "weekly_628",
+        "weekly_629",
+        "weekly_630",
+        "weekly_631",
+        "weekly_632"
       ],
-      "startTs": 1877284800,
-      "endTs": 1878494399
+      "startTs": 1627848000,
+      "endTs": 1663617599
+    },
+    "daily_g_46": {
+      "id": "daily_g_46",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "daily_4601",
+        "daily_4602",
+        "daily_4603",
+        "daily_4604",
+        "daily_4605",
+        "daily_4606",
+        "daily_4607",
+        "daily_4608",
+        "daily_4609",
+        "daily_4610",
+        "daily_4611",
+        "daily_4612",
+        "daily_4613",
+        "daily_4614",
+        "daily_4615",
+        "daily_4616",
+        "daily_4617",
+        "daily_4618",
+        "daily_4619",
+        "daily_4620",
+        "daily_4621",
+        "daily_4622",
+        "daily_4623",
+        "daily_4624",
+        "daily_4625",
+        "daily_4626",
+        "daily_4627",
+        "daily_4628",
+        "daily_4629"
+      ],
+      "startTs": -1,
+      "endTs": -1
+    },
+    "daily_g_47": {
+      "id": "daily_g_47",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "daily_4701",
+        "daily_4702",
+        "daily_4703",
+        "daily_4704",
+        "daily_4705",
+        "daily_4706",
+        "daily_4707",
+        "daily_4708",
+        "daily_4709",
+        "daily_4710",
+        "daily_4711",
+        "daily_4712",
+        "daily_4713",
+        "daily_4714",
+        "daily_4715",
+        "daily_4716",
+        "daily_4717",
+        "daily_4718",
+        "daily_4719",
+        "daily_4720",
+        "daily_4721",
+        "daily_4722",
+        "daily_4723",
+        "daily_4724",
+        "daily_4725",
+        "daily_4726",
+        "daily_4727",
+        "daily_4728",
+        "daily_4729"
+      ],
+      "startTs": -1,
+      "endTs": -1
     }
   },
   "periodicalRewards": {
@@ -34637,6 +36180,280 @@
           "count": 60
         }
       ]
+    },
+    "reward_daily_420": {
+      "groupId": "reward_daily_g_46",
+      "id": "reward_daily_420",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 1,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 500
+        }
+      ]
+    },
+    "reward_daily_421": {
+      "groupId": "reward_daily_g_46",
+      "id": "reward_daily_421",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 2,
+      "rewards": [
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_422": {
+      "groupId": "reward_daily_g_46",
+      "id": "reward_daily_422",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 3,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 1000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3301",
+          "count": 2
+        }
+      ]
+    },
+    "reward_daily_423": {
+      "groupId": "reward_daily_g_46",
+      "id": "reward_daily_423",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 4,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_424": {
+      "groupId": "reward_daily_g_46",
+      "id": "reward_daily_424",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 5,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 2000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3112",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_425": {
+      "groupId": "reward_daily_g_46",
+      "id": "reward_daily_425",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 6,
+      "rewards": [
+        {
+          "type": "TKT_INST_FIN",
+          "id": "7002",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2002",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_426": {
+      "groupId": "reward_daily_g_46",
+      "id": "reward_daily_426",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 7,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 100
+        }
+      ]
+    },
+    "reward_daily_427": {
+      "groupId": "reward_daily_g_46",
+      "id": "reward_daily_427",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 8,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 5
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 60
+        }
+      ]
+    },
+    "reward_daily_428": {
+      "groupId": "reward_daily_g_47",
+      "id": "reward_daily_428",
+      "periodicalPointCost": 1,
+      "type": "DAILY",
+      "sortIndex": 1,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 500
+        }
+      ]
+    },
+    "reward_daily_429": {
+      "groupId": "reward_daily_g_47",
+      "id": "reward_daily_429",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 2,
+      "rewards": [
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_430": {
+      "groupId": "reward_daily_g_47",
+      "id": "reward_daily_430",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 3,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 1000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3301",
+          "count": 2
+        }
+      ]
+    },
+    "reward_daily_431": {
+      "groupId": "reward_daily_g_47",
+      "id": "reward_daily_431",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 4,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_432": {
+      "groupId": "reward_daily_g_47",
+      "id": "reward_daily_432",
+      "periodicalPointCost": 2,
+      "type": "DAILY",
+      "sortIndex": 5,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 2000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3112",
+          "count": 3
+        }
+      ]
+    },
+    "reward_daily_433": {
+      "groupId": "reward_daily_g_47",
+      "id": "reward_daily_433",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 6,
+      "rewards": [
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2002",
+          "count": 5
+        }
+      ]
+    },
+    "reward_daily_434": {
+      "groupId": "reward_daily_g_47",
+      "id": "reward_daily_434",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 7,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 100
+        }
+      ]
+    },
+    "reward_daily_435": {
+      "groupId": "reward_daily_g_47",
+      "id": "reward_daily_435",
+      "periodicalPointCost": 3,
+      "type": "DAILY",
+      "sortIndex": 8,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 5
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 60
+        }
+      ]
     }
   },
   "weeklyRewards": {
@@ -34645,7 +36462,7 @@
       "id": "reward_weekly_101",
       "periodicalPointCost": 1,
       "beginTime": 1563134400,
-      "endTime": 1909684799,
+      "endTime": 1627847999,
       "type": "WEEKLY",
       "sortIndex": 1,
       "rewards": [
@@ -34666,7 +36483,7 @@
       "id": "reward_weekly_102",
       "periodicalPointCost": 2,
       "beginTime": 1563134400,
-      "endTime": 1909684799,
+      "endTime": 1627847999,
       "type": "WEEKLY",
       "sortIndex": 2,
       "rewards": [
@@ -34687,7 +36504,7 @@
       "id": "reward_weekly_103",
       "periodicalPointCost": 2,
       "beginTime": 1563134400,
-      "endTime": 1909684799,
+      "endTime": 1627847999,
       "type": "WEEKLY",
       "sortIndex": 3,
       "rewards": [
@@ -34708,7 +36525,7 @@
       "id": "reward_weekly_104",
       "periodicalPointCost": 2,
       "beginTime": 1563134400,
-      "endTime": 1909684799,
+      "endTime": 1627847999,
       "type": "WEEKLY",
       "sortIndex": 4,
       "rewards": [
@@ -34729,7 +36546,7 @@
       "id": "reward_weekly_105",
       "periodicalPointCost": 2,
       "beginTime": 1563134400,
-      "endTime": 1909684799,
+      "endTime": 1627847999,
       "type": "WEEKLY",
       "sortIndex": 5,
       "rewards": [
@@ -34750,7 +36567,7 @@
       "id": "reward_weekly_106",
       "periodicalPointCost": 2,
       "beginTime": 1563134400,
-      "endTime": 1909684799,
+      "endTime": 1627847999,
       "type": "WEEKLY",
       "sortIndex": 6,
       "rewards": [
@@ -34771,7 +36588,7 @@
       "id": "reward_weekly_107",
       "periodicalPointCost": 2,
       "beginTime": 1563134400,
-      "endTime": 1909684799,
+      "endTime": 1627847999,
       "type": "WEEKLY",
       "sortIndex": 7,
       "rewards": [
@@ -34792,7 +36609,7 @@
       "id": "reward_weekly_108",
       "periodicalPointCost": 2,
       "beginTime": 1563134400,
-      "endTime": 1909684799,
+      "endTime": 1627847999,
       "type": "WEEKLY",
       "sortIndex": 8,
       "rewards": [
@@ -34813,7 +36630,7 @@
       "id": "reward_weekly_109",
       "periodicalPointCost": 2,
       "beginTime": 1563134400,
-      "endTime": 1909684799,
+      "endTime": 1627847999,
       "type": "WEEKLY",
       "sortIndex": 9,
       "rewards": [
@@ -34829,7 +36646,7 @@
       "id": "reward_weekly_110",
       "periodicalPointCost": 3,
       "beginTime": 1563134400,
-      "endTime": 1909684799,
+      "endTime": 1627847999,
       "type": "WEEKLY",
       "sortIndex": 10,
       "rewards": [
@@ -34850,6 +36667,232 @@
       "id": "reward_weekly_111",
       "periodicalPointCost": 3,
       "beginTime": 1563134400,
+      "endTime": 1627847999,
+      "type": "WEEKLY",
+      "sortIndex": 11,
+      "rewards": [
+        {
+          "type": "AP_SUPPLY",
+          "id": "ap_supply_lt_100",
+          "count": 1
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2003",
+          "count": 4
+        }
+      ]
+    },
+    "reward_weekly_301": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_301",
+      "periodicalPointCost": 1,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 1,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 1000
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2001",
+          "count": 4
+        }
+      ]
+    },
+    "reward_weekly_302": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_302",
+      "periodicalPointCost": 2,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 2,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "3003",
+          "count": 4
+        },
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 2
+        }
+      ]
+    },
+    "reward_weekly_303": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_303",
+      "periodicalPointCost": 2,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 3,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 2000
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 50
+        }
+      ]
+    },
+    "reward_weekly_304": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_304",
+      "periodicalPointCost": 2,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 4,
+      "rewards": [
+        {
+          "type": "CARD_EXP",
+          "id": "2002",
+          "count": 4
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3301",
+          "count": 5
+        }
+      ]
+    },
+    "reward_weekly_305": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_305",
+      "periodicalPointCost": 2,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 5,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 4000
+        },
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 3
+        }
+      ]
+    },
+    "reward_weekly_306": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_306",
+      "periodicalPointCost": 2,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 6,
+      "rewards": [
+        {
+          "type": "AP_SUPPLY",
+          "id": "ap_supply_lt_100",
+          "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3003",
+          "count": 10
+        }
+      ]
+    },
+    "reward_weekly_307": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_307",
+      "periodicalPointCost": 2,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 7,
+      "rewards": [
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 6000
+        },
+        {
+          "type": "TKT_RECRUIT",
+          "id": "7001",
+          "count": 5
+        }
+      ]
+    },
+    "reward_weekly_308": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_308",
+      "periodicalPointCost": 2,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 8,
+      "rewards": [
+        {
+          "type": "CARD_EXP",
+          "id": "2004",
+          "count": 4
+        },
+        {
+          "type": "MATERIAL",
+          "id": "3401",
+          "count": 200
+        }
+      ]
+    },
+    "reward_weekly_309": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_309",
+      "periodicalPointCost": 2,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 9,
+      "rewards": [
+        {
+          "type": "DIAMOND_SHD",
+          "id": "4003",
+          "count": 500
+        }
+      ]
+    },
+    "reward_weekly_310": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_310",
+      "periodicalPointCost": 3,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 10,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "4006",
+          "count": 30
+        },
+        {
+          "type": "LGG_SHD",
+          "id": "4005",
+          "count": 20
+        }
+      ]
+    },
+    "reward_weekly_311": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_311",
+      "periodicalPointCost": 3,
+      "beginTime": 1627848000,
       "endTime": 1909684799,
       "type": "WEEKLY",
       "sortIndex": 11,
@@ -34865,17 +36908,33 @@
           "count": 4
         }
       ]
+    },
+    "reward_weekly_312": {
+      "groupId": "reward_weekly_g_3",
+      "id": "reward_weekly_312",
+      "periodicalPointCost": 3,
+      "beginTime": 1627848000,
+      "endTime": 1909684799,
+      "type": "WEEKLY",
+      "sortIndex": 12,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ]
     }
   },
   "dailyMissionPeriodInfo": [
     {
-      "startTime": 1586116800,
-      "endTime": 1586721599,
-      "tagState": "ACT_MISSION_IMG",
+      "startTime": 1615147200,
+      "endTime": 1624823999,
+      "tagState": null,
       "periodList": [
         {
-          "missionGroupId": "daily_g_30",
-          "rewardGroupId": "reward_daily_g_30",
+          "missionGroupId": "daily_g_42",
+          "rewardGroupId": "reward_daily_g_42",
           "period": [
             1,
             2,
@@ -34885,8 +36944,8 @@
           ]
         },
         {
-          "missionGroupId": "daily_g_31",
-          "rewardGroupId": "reward_daily_g_31",
+          "missionGroupId": "daily_g_43",
+          "rewardGroupId": "reward_daily_g_43",
           "period": [
             6,
             7
@@ -34895,41 +36954,13 @@
       ]
     },
     {
-      "startTime": 1586721600,
-      "endTime": 1587326399,
-      "tagState": "ACT_MISSION_IMG",
-      "periodList": [
-        {
-          "missionGroupId": "daily_g_32",
-          "rewardGroupId": "reward_daily_g_32",
-          "period": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-          ]
-        },
-        {
-          "missionGroupId": "daily_g_33",
-          "rewardGroupId": "reward_daily_g_33",
-          "period": [
-            6,
-            7
-          ]
-        }
-      ]
-    },
-    {
-      "startTime": 1587326400,
-      "endTime": 1589486399,
+      "startTime": 1624824000,
+      "endTime": 1627847999,
       "tagState": null,
       "periodList": [
         {
-          "missionGroupId": "daily_g_34",
-          "rewardGroupId": "reward_daily_g_34",
+          "missionGroupId": "daily_g_44",
+          "rewardGroupId": "reward_daily_g_44",
           "period": [
             1,
             2,
@@ -34941,8 +36972,36 @@
           ]
         },
         {
-          "missionGroupId": "daily_g_35",
-          "rewardGroupId": "reward_daily_g_35",
+          "missionGroupId": "daily_g_45",
+          "rewardGroupId": "reward_daily_g_45",
+          "period": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 1627848000,
+      "endTime": 1663617599,
+      "tagState": null,
+      "periodList": [
+        {
+          "missionGroupId": "daily_g_46",
+          "rewardGroupId": "reward_daily_g_46",
+          "period": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "missionGroupId": "daily_g_47",
+          "rewardGroupId": "reward_daily_g_47",
           "period": [
             6,
             7
