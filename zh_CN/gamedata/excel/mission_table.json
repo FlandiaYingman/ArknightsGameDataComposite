@@ -25648,7 +25648,7 @@
     "weekly_608": {
       "id": "weekly_608",
       "sortId": 608,
-      "description": "累计歼灭任意1000名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意1000名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "WEEKLY",
       "preMissionIds": null,
       "template": "StageWithEnemyKill",
@@ -25668,7 +25668,7 @@
     "weekly_609": {
       "id": "weekly_609",
       "sortId": 609,
-      "description": "累计歼灭任意2000名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意2000名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "WEEKLY",
       "preMissionIds": [
         "weekly_608"
@@ -25690,7 +25690,7 @@
     "weekly_610": {
       "id": "weekly_610",
       "sortId": 610,
-      "description": "累计歼灭任意3000名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意3000名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "WEEKLY",
       "preMissionIds": [
         "weekly_609"
@@ -25713,7 +25713,7 @@
     "weekly_611": {
       "id": "weekly_611",
       "sortId": 611,
-      "description": "累计歼灭任意4000名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意4000名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "WEEKLY",
       "preMissionIds": [
         "weekly_610"
@@ -25735,7 +25735,7 @@
     "weekly_612": {
       "id": "weekly_612",
       "sortId": 612,
-      "description": "累计歼灭任意5000名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意5000名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "WEEKLY",
       "preMissionIds": [
         "weekly_611"
@@ -26077,13 +26077,13 @@
     "daily_4606": {
       "id": "daily_4606",
       "sortId": 4606,
-      "description": "在主线关卡中歼灭1次敌方领袖",
+      "description": "在主线关卡中击败1次敌方领袖",
       "type": "DAILY",
       "preMissionIds": null,
       "template": "StageWithEnemyKill",
-      "templateType": "3",
+      "templateType": "0",
       "param": [
-        "3",
+        "0",
         "1"
       ],
       "unlockCondition": null,
@@ -26097,15 +26097,15 @@
     "daily_4607": {
       "id": "daily_4607",
       "sortId": 4607,
-      "description": "在主线关卡中歼灭3次敌方领袖",
+      "description": "在主线关卡中击败3次敌方领袖",
       "type": "DAILY",
       "preMissionIds": [
         "daily_4606"
       ],
       "template": "StageWithEnemyKill",
-      "templateType": "3",
+      "templateType": "0",
       "param": [
-        "3",
+        "0",
         "3"
       ],
       "unlockCondition": null,
@@ -26119,13 +26119,13 @@
     "daily_4608": {
       "id": "daily_4608",
       "sortId": 4608,
-      "description": "累计歼灭任意100名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意100名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "DAILY",
       "preMissionIds": null,
       "template": "StageWithEnemyKill",
-      "templateType": "4",
+      "templateType": "1",
       "param": [
-        "4",
+        "1",
         "100"
       ],
       "unlockCondition": null,
@@ -26139,15 +26139,15 @@
     "daily_4609": {
       "id": "daily_4609",
       "sortId": 4609,
-      "description": "累计歼灭任意200名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意200名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "DAILY",
       "preMissionIds": [
         "daily_4608"
       ],
       "template": "StageWithEnemyKill",
-      "templateType": "4",
+      "templateType": "1",
       "param": [
-        "4",
+        "1",
         "200"
       ],
       "unlockCondition": null,
@@ -26161,15 +26161,15 @@
     "daily_4610": {
       "id": "daily_4610",
       "sortId": 4610,
-      "description": "累计歼灭任意300名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意300名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "DAILY",
       "preMissionIds": [
         "daily_4609"
       ],
       "template": "StageWithEnemyKill",
-      "templateType": "4",
+      "templateType": "1",
       "param": [
-        "4",
+        "1",
         "300"
       ],
       "unlockCondition": null,
@@ -26183,15 +26183,15 @@
     "daily_4611": {
       "id": "daily_4611",
       "sortId": 4611,
-      "description": "累计歼灭任意400名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意400名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "DAILY",
       "preMissionIds": [
         "daily_4610"
       ],
       "template": "StageWithEnemyKill",
-      "templateType": "4",
+      "templateType": "1",
       "param": [
-        "4",
+        "1",
         "400"
       ],
       "unlockCondition": null,
@@ -26205,15 +26205,15 @@
     "daily_4612": {
       "id": "daily_4612",
       "sortId": 4612,
-      "description": "累计歼灭任意500名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意500名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "DAILY",
       "preMissionIds": [
         "daily_4611"
       ],
       "template": "StageWithEnemyKill",
-      "templateType": "4",
+      "templateType": "1",
       "param": [
-        "4",
+        "1",
         "500"
       ],
       "unlockCondition": null,
@@ -26692,13 +26692,13 @@
     "daily_4706": {
       "id": "daily_4706",
       "sortId": 4706,
-      "description": "在主线关卡中歼灭1次敌方领袖",
+      "description": "在主线关卡中击败1次敌方领袖",
       "type": "DAILY",
       "preMissionIds": null,
       "template": "StageWithEnemyKill",
-      "templateType": "3",
+      "templateType": "0",
       "param": [
-        "3",
+        "0",
         "1"
       ],
       "unlockCondition": null,
@@ -26712,15 +26712,15 @@
     "daily_4707": {
       "id": "daily_4707",
       "sortId": 4707,
-      "description": "在主线关卡中歼灭3次敌方领袖",
+      "description": "在主线关卡中击败3次敌方领袖",
       "type": "DAILY",
       "preMissionIds": [
         "daily_4706"
       ],
       "template": "StageWithEnemyKill",
-      "templateType": "3",
+      "templateType": "0",
       "param": [
-        "3",
+        "0",
         "3"
       ],
       "unlockCondition": null,
@@ -26734,13 +26734,13 @@
     "daily_4708": {
       "id": "daily_4708",
       "sortId": 4708,
-      "description": "累计歼灭任意100名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意100名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "DAILY",
       "preMissionIds": null,
       "template": "StageWithEnemyKill",
-      "templateType": "4",
+      "templateType": "1",
       "param": [
-        "4",
+        "1",
         "100"
       ],
       "unlockCondition": null,
@@ -26754,15 +26754,15 @@
     "daily_4709": {
       "id": "daily_4709",
       "sortId": 4709,
-      "description": "累计歼灭任意200名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意200名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "DAILY",
       "preMissionIds": [
         "daily_4708"
       ],
       "template": "StageWithEnemyKill",
-      "templateType": "4",
+      "templateType": "1",
       "param": [
-        "4",
+        "1",
         "200"
       ],
       "unlockCondition": null,
@@ -26776,15 +26776,15 @@
     "daily_4710": {
       "id": "daily_4710",
       "sortId": 4710,
-      "description": "累计歼灭任意300名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意300名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "DAILY",
       "preMissionIds": [
         "daily_4709"
       ],
       "template": "StageWithEnemyKill",
-      "templateType": "4",
+      "templateType": "1",
       "param": [
-        "4",
+        "1",
         "300"
       ],
       "unlockCondition": null,
@@ -26798,15 +26798,15 @@
     "daily_4711": {
       "id": "daily_4711",
       "sortId": 4711,
-      "description": "累计歼灭任意400名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意400名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "DAILY",
       "preMissionIds": [
         "daily_4710"
       ],
       "template": "StageWithEnemyKill",
-      "templateType": "4",
+      "templateType": "1",
       "param": [
-        "4",
+        "1",
         "400"
       ],
       "unlockCondition": null,
@@ -26820,15 +26820,15 @@
     "daily_4712": {
       "id": "daily_4712",
       "sortId": 4712,
-      "description": "累计歼灭任意500名敌兵，不含危机合约和部分活动中0理智关卡",
+      "description": "累计击败任意500名敌兵，不含危机合约和部分活动中0理智关卡",
       "type": "DAILY",
       "preMissionIds": [
         "daily_4711"
       ],
       "template": "StageWithEnemyKill",
-      "templateType": "4",
+      "templateType": "1",
       "param": [
-        "4",
+        "1",
         "500"
       ],
       "unlockCondition": null,
@@ -30667,7 +30667,7 @@
         "weekly_632"
       ],
       "startTs": 1627848000,
-      "endTs": 1663617599
+      "endTs": 1659383999
     },
     "daily_g_46": {
       "id": "daily_g_46",
@@ -36983,7 +36983,7 @@
     },
     {
       "startTime": 1627848000,
-      "endTime": 1663617599,
+      "endTime": 1659383999,
       "tagState": null,
       "periodList": [
         {
