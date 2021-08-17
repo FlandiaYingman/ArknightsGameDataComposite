@@ -1770,6 +1770,25 @@
       }
     },
     {
+      "gachaPoolId": "NORM_21_0_3",
+      "gachaIndex": 2,
+      "openTime": 1629316800,
+      "endTime": 1630526399,
+      "gachaPoolName": "适合多种场合的强力干员",
+      "gachaPoolSummary": "结束于9月2日03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "LMTGSID": null,
+      "gachaRuleType": "NORMAL",
+      "linkageRuleId": "LINKAGE_R6_01",
+      "linkageParam": {
+        "guaranteeTarget6Count": 120
+      }
+    },
+    {
       "gachaPoolId": "LIMITED_9_0_3",
       "gachaIndex": 1,
       "openTime": 1588316400,
@@ -1820,11 +1839,7 @@
       "CDPrimColor": "FF5A27",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_601",
-      "gachaRuleType": "LIMITED",
-      "linkageRuleId": "LINKAGE_R6_01",
-      "linkageParam": {
-        "guaranteeTarget6Count": 120
-      }
+      "gachaRuleType": "LIMITED"
     },
     {
       "gachaPoolId": "LIMITED_16_0_4",
@@ -1839,7 +1854,11 @@
       "CDPrimColor": "39B47A",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_1601",
-      "gachaRuleType": "LIMITED"
+      "gachaRuleType": "LIMITED",
+      "linkageRuleId": "LINKAGE_R6_01",
+      "linkageParam": {
+        "guaranteeTarget6Count": 120
+      }
     },
     {
       "gachaPoolId": "LIMITED_18_0_3",
@@ -1853,12 +1872,9 @@
       "guarantee5Count": 10,
       "CDPrimColor": "1DCBDB",
       "CDSecColor": "FFFFFF",
+      "storeTextColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_1803",
-      "gachaRuleType": "LIMITED",
-      "linkageRuleId": "LINKAGE_R6_01",
-      "linkageParam": {
-        "guaranteeTarget6Count": 120
-      }
+      "gachaRuleType": "LIMITED"
     },
     {
       "gachaPoolId": "LIMITED_21_0_1",
@@ -1872,9 +1888,13 @@
       "guarantee5Count": 10,
       "CDPrimColor": "1D33E1",
       "CDSecColor": "FFFFFF",
-      "storeTextColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_2101",
-      "gachaRuleType": "LIMITED"
+      "gachaRuleType": "LIMITED",
+      "linkageRuleId": "LINKAGE_R6_01",
+      "linkageParam": {
+        "guaranteeTarget6Count": 120
+      },
+      "storeTextColor": "FFFFFF"
     },
     {
       "gachaPoolId": "LINKAGE_17_0_1",
@@ -3209,6 +3229,13 @@
       "startTime": 1628107200,
       "endTime": 1629316799,
       "spriteId": "picNorm_21_0_2"
+    },
+    {
+      "poolId": "NORM_21_0_3",
+      "index": 2,
+      "startTime": 1629316800,
+      "endTime": 1630526399,
+      "spriteId": "picNorm_21_0_3"
     }
   ],
   "freeGacha": [
