@@ -904,6 +904,28 @@
       "getTime": 1625425200
     },
     {
+      "medalId": "medal_camp_rotate_03",
+      "medalName": "廃棄鉱区作戦行動勲章",
+      "medalType": "campMedal",
+      "slotId": 7,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CampaignsComplete",
+      "unlockParam": [
+        "camp_r_03",
+        "1",
+        "8",
+        "3"
+      ],
+      "getMethod": "廃棄鉱区を完全クリアし、報酬をすべて獲得する。",
+      "description": "ウルサス廃棄鉱区殲滅依頼又は模擬戦を完了したことを象徴する勲章。\n模擬戦であろうと実戦であろうと、これで坑道に閉じ込められた亡魂は安らかに眠れる。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": -1,
+      "medalRewardGroup": [],
+      "getTime": 1630868400
+    },
+    {
       "medalId": "medal_growth_evolve1_01",
       "medalName": "昇進推進勲章・Ⅰ",
       "medalType": "growthMedal",
@@ -914,8 +936,7 @@
       "unlockParam": [
         "1",
         "1",
-        "8",
-        "3"
+        "4"
       ],
       "getMethod": "1人のオペレーターを昇進段階1にする。",
       "description": "貴殿は昇進資質試験を通過するオペレーターを1名育成した。",
@@ -936,7 +957,9 @@
       "unlockParam": [
         "20",
         "1",
-        "4"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "20人のオペレーターを昇進段階1にする。",
       "description": "多くのオペレーターが昇進資質試験を通過した。",
@@ -957,9 +980,9 @@
       "unlockParam": [
         "50",
         "1",
-        "trap_016_peon",
-        "0",
-        "2"
+        "4000",
+        "1",
+        "7"
       ],
       "getMethod": "50人のオペレーターを昇進段階1にする。",
       "description": "昇進資質試験はオペレーターが自身の能力を測る指針となりつつある。",
@@ -974,15 +997,23 @@
       "medalName": "昇進推進勲章・Ⅳ",
       "medalType": "growthMedal",
       "slotId": 4,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 2,
       "template": "CharEvolveCount",
       "unlockParam": [
         "80",
-        "1",
-        "4000",
-        "1",
-        "7"
+        "1"
       ],
       "getMethod": "80人のオペレーターを昇進段階1にする。",
       "description": "昇進資質試験はオペレーターが自らを完璧に仕上げるための基礎試験となった。\n昇進後、オペレーターが更なる高みを求めて成長することがあるかもしれない。",
@@ -997,23 +1028,14 @@
       "medalName": "昇進精進勲章・Ⅰ",
       "medalType": "growthMedal",
       "slotId": 5,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09",
-        "medal_activity_11d0_11"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
         "1",
-        "2"
+        "2",
+        "100",
+        "8"
       ],
       "getMethod": "1人のオペレーターを昇進段階2にする。",
       "description": "貴殿の指導の下、1名のオペレーターがチームにおける自身の独自の価値を悟った。",
@@ -1034,8 +1056,8 @@
       "unlockParam": [
         "10",
         "2",
-        "100",
-        "8"
+        "1",
+        "16"
       ],
       "getMethod": "10人のオペレーターを昇進段階2にする。",
       "description": "持ち場で重要な働きを発揮するオペレーターが増え始めた。",
@@ -1056,8 +1078,7 @@
       "unlockParam": [
         "25",
         "2",
-        "1",
-        "16"
+        "4000"
       ],
       "getMethod": "25人のオペレーターを昇進段階2にする。",
       "description": "多くのオペレーターが積極的に自身のネックを克服しようとしている。",
@@ -1078,7 +1099,8 @@
       "unlockParam": [
         "40",
         "2",
-        "4000"
+        "9",
+        "5"
       ],
       "getMethod": "40人のオペレーターを昇進段階2にする。",
       "description": "既に一定のオペレーターがその分野の指標たる人物になっている。\nロドスは今、絶えず各分野の人材を充実させている。招致できない場合は、自分で育成すればいい。",
@@ -1099,7 +1121,8 @@
       "unlockParam": [
         "1",
         "7",
-        "9",
+        "trap_016_peon",
+        "1",
         "5"
       ],
       "getMethod": "1人のオペレーターのスキルランクを7にする。",
@@ -1121,9 +1144,7 @@
       "unlockParam": [
         "25",
         "7",
-        "trap_016_peon",
-        "1",
-        "5"
+        "8"
       ],
       "getMethod": "25人のオペレーターのスキルランクを7にする。",
       "description": "貴殿のオペレーター達はスキルをものにした後、互いに息を合わせられないか挑戦し始めた。",
@@ -1144,7 +1165,7 @@
       "unlockParam": [
         "60",
         "7",
-        "8"
+        "4"
       ],
       "getMethod": "60人のオペレーターのスキルランクを7にする。",
       "description": "貴殿のオペレーター達は効果的な連携作戦の可能性を模索している。\n複数の小隊による連携作戦で試されるのは、指揮官の才能だけではない。オペレーター同士の連携も重要であり、中でもスキル運用は基本のひとつだ。",
@@ -1165,7 +1186,9 @@
       "unlockParam": [
         "1",
         "3",
-        "4"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "1個のスキルの特化ランクを3にする。",
       "description": "貴殿のオペレーターの1名は既に戦闘スキルを最大限に磨き抜いている。",
@@ -1187,8 +1210,8 @@
         "5",
         "3",
         "trap_016_peon",
-        "0",
-        "2"
+        "1",
+        "7"
       ],
       "getMethod": "5個のスキルの特化ランクを3にする。",
       "description": "貴殿のオペレーターの何名かは既に戦場で自身の能力を最大限に発揮できている。",
@@ -1203,15 +1226,23 @@
       "medalName": "技能熟達勲章・Ⅲ",
       "medalType": "growthMedal",
       "slotId": 14,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 2,
       "template": "CharSkillSpecCount",
       "unlockParam": [
         "10",
-        "3",
-        "trap_016_peon",
-        "1",
-        "7"
+        "3"
       ],
       "getMethod": "10個のスキルの特化ランクを3にする。",
       "description": "貴殿の複数のオペレーターは既に自身の戦場でのポジションを十分に理解している。\n自身を鍛え上げるのは容易なことではない。だがそれよりも難しいことは、どのようにして他者と協力し目標を達成するかを学ぶことだ。",
@@ -1226,23 +1257,14 @@
       "medalName": "結伴同行勲章・Ⅰ",
       "medalType": "growthMedal",
       "slotId": 15,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10",
-        "medal_activity_11d0_11"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
       "unlockParam": [
         "1",
-        "100"
+        "100",
+        "1",
+        "8"
       ],
       "getMethod": "1人のオペレーターを信頼度を100に到達。",
       "description": "一名のオペレーターが貴殿の良き友となった。",
@@ -1264,7 +1286,7 @@
         "20",
         "100",
         "1",
-        "8"
+        "16"
       ],
       "getMethod": "20人のオペレーターを信頼度を100に到達。",
       "description": "数名のオペレーターが貴殿の良き友となった。",
@@ -1285,8 +1307,7 @@
       "unlockParam": [
         "50",
         "100",
-        "1",
-        "16"
+        "1606244399"
       ],
       "getMethod": "50人のオペレーターを信頼度を100に到達。",
       "description": "多くのオペレーターが貴殿の良き友となった。",
@@ -1307,7 +1328,8 @@
       "unlockParam": [
         "100",
         "100",
-        "1606244399"
+        "10",
+        "5"
       ],
       "getMethod": "100人のオペレーターを信頼度を100に到達。",
       "description": "貴殿の良き友であるオペレーターを、数で表すのはもはや無粋だろう。\n艦内を歩くたびに誰かしらに声を掛けられ談笑しているくらいなのだから。",
@@ -1322,28 +1344,6 @@
       "medalName": "一蓮托生勲章・Ⅰ",
       "medalType": "growthMedal",
       "slotId": 19,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharFavorCount",
-      "unlockParam": [
-        "1",
-        "200",
-        "10",
-        "5"
-      ],
-      "getMethod": "1人のオペレーターを信頼度を200に到達。",
-      "description": "貴殿は命を預けるに足る相手を一人見つけた。",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_growth_favormax_02",
-      "medalName": "一蓮托生勲章・Ⅱ",
-      "medalType": "growthMedal",
-      "slotId": 20,
       "preMedalIdList": [
         "medal_activity_14d5_02",
         "medal_activity_14d5_03",
@@ -1358,9 +1358,31 @@
       "rarity": 0,
       "template": "CharFavorCount",
       "unlockParam": [
-        "20",
+        "1",
         "200",
         "1"
+      ],
+      "getMethod": "1人のオペレーターを信頼度を200に到達。",
+      "description": "貴殿は命を預けるに足る相手を一人見つけた。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1622178000,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_growth_favormax_02",
+      "medalName": "一蓮托生勲章・Ⅱ",
+      "medalType": "growthMedal",
+      "slotId": 20,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "20",
+        "200",
+        "1",
+        "8"
       ],
       "getMethod": "20人のオペレーターを信頼度を200に到達。",
       "description": "貴殿は命を預けるに足る相手を数名見つけた。",
@@ -1382,7 +1404,7 @@
         "40",
         "200",
         "1",
-        "8"
+        "16"
       ],
       "getMethod": "40人のオペレーターを信頼度を200に到達。",
       "description": "貴殿は命を預けるに足る相手を数多く見つけた。",
@@ -1403,8 +1425,8 @@
       "unlockParam": [
         "60",
         "200",
-        "1",
-        "16"
+        "1623351599",
+        "4"
       ],
       "getMethod": "60人のオペレーターを信頼度を200に到達。",
       "description": "貴殿は背中を預け合う相手には事欠かないようだ。\n貴殿は一体どうやって、これほど多くのオペレーターとの信頼を保ち続けているのだろう。",
@@ -1424,9 +1446,9 @@
       "template": "GotChars",
       "unlockParam": [
         "char_198_blackd;char_187_ccheal;char_260_durnar",
-        "story_rope_set_1",
-        "1623351599",
-        "4"
+        "5",
+        "10",
+        "3"
       ],
       "getMethod": "クーリエ、ガヴィル、ジュナ―を雇用する。",
       "description": "貴殿の人助けが好きな性分は、多くのオペレーターが加入した要因のひとつである。",
@@ -1441,14 +1463,24 @@
       "medalName": "「書簡、医療、教導」",
       "medalType": "growthMedal",
       "slotId": 24,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 2,
       "template": "CharPotential",
       "unlockParam": [
         "char_198_blackd;char_187_ccheal;char_260_durnar",
         "5",
-        "10",
-        "3"
+        "1"
       ],
       "getMethod": "クーリエ、ガヴィル、ジュナ―を雇用し、潜在能力を最大まで解放する。",
       "description": "貴殿はクーリエ、戦場医師及び教官に認められた。\n彼らと貴殿はみな信じている。信頼は必要不可欠であると。",
@@ -1463,24 +1495,14 @@
       "medalName": "「努力の証明」",
       "medalType": "growthMedal",
       "slotId": 25,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
       "unlockParam": [
         "char_355_ethan;char_275_breeze",
-        "story_broca_set_1",
-        "1"
+        "5",
+        "8",
+        "8"
       ],
       "getMethod": "イーサン、ブリーズを雇用する。",
       "description": "貴殿の刻苦奮闘の資質は、多くのオペレーターが加入した要因のひとつである。",
@@ -1501,8 +1523,8 @@
       "unlockParam": [
         "char_355_ethan;char_275_breeze",
         "5",
-        "8",
-        "8"
+        "4",
+        "16"
       ],
       "getMethod": "イーサン、ブリーズを雇用し、潜在能力を最大まで解放する。",
       "description": "貴殿は姿を消す名手と没落医師に認められた。\n彼らと貴殿はみな信じている。努力は必ず報われると。",
@@ -1522,9 +1544,9 @@
       "template": "GotChars",
       "unlockParam": [
         "char_285_medic2;char_286_cast3",
-        "story_milu_set_1",
-        "4",
-        "16"
+        "5",
+        "1",
+        "8"
       ],
       "getMethod": "Lancet-2、Castle-3を雇用する。",
       "description": "クロージャのロボットの何台かは既に貴殿の身辺に配備されている。",
@@ -1545,8 +1567,8 @@
       "unlockParam": [
         "char_285_medic2;char_286_cast3",
         "5",
-        "1",
-        "8"
+        "4000",
+        "5"
       ],
       "getMethod": "Lancet-2、Castle-3を雇用し、潜在能力を最大まで解放する。",
       "description": "貴殿は前衛ロボットと医療ロボットの承認を得た。\n有機的な体を持たないという以外には、ロボットと我々との間に何も異なる点など無いようだ。",
@@ -1561,28 +1583,6 @@
       "medalName": "「ある選択」",
       "medalType": "storyMedal",
       "slotId": 1,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_009_12fce",
-        "story_12fce_set_1",
-        "4000",
-        "5"
-      ],
-      "getMethod": "12Fの回想秘録《ある選択》を解放。",
-      "description": "身分は名前によって始まり、名前によって終わる。\n身分、始まり、終わり、どう定義する？",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_kroos_1",
-      "medalName": "「林檎」",
-      "medalType": "storyMedal",
-      "slotId": 2,
       "preMedalIdList": [
         "medal_activity_13d5_02",
         "medal_activity_13d5_03",
@@ -1597,9 +1597,31 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
+        "char_009_12fce",
+        "story_12fce_set_1",
+        "1"
+      ],
+      "getMethod": "12Fの回想秘録《ある選択》を解放。",
+      "description": "身分は名前によって始まり、名前によって終わる。\n身分、始まり、終わり、どう定義する？",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1624327200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_kroos_1",
+      "medalName": "「林檎」",
+      "medalType": "storyMedal",
+      "slotId": 2,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
         "char_124_kroos",
         "story_kroos_set_1",
-        "1"
+        "100",
+        "1612983599"
       ],
       "getMethod": "クルースの回想秘録《林檎》を解放。",
       "description": "食べ物であり、射手たちが最も愛する的でもある。\nクルースの吸盤が付いた矢が林檎以外のものに当たったのであれば、それは彼女がそう狙ったからだ。",
@@ -1614,28 +1636,6 @@
       "medalName": "「フラワーパフューム」",
       "medalType": "storyMedal",
       "slotId": 3,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_236_rope",
-        "story_rope_set_1",
-        "100",
-        "1612983599"
-      ],
-      "getMethod": "ロープの回想秘録《フラワーパフューム》を解放。",
-      "description": "特に高価でもなく、いたってありふれた香りの香水。龍門で育った女の子にぴったり。\nロープはこれらの香水をとても大事にしている。以前は窓越しに眺めていたものだが、今は彼女のために作ってくれる人がいる。",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_yuki_1",
-      "medalName": "「忍びの道」",
-      "medalType": "storyMedal",
-      "slotId": 4,
       "preMedalIdList": [
         "medal_activity_15d0_02",
         "medal_activity_15d0_03",
@@ -1650,10 +1650,32 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_118_yuki",
-        "story_yuki_set_1",
+        "char_236_rope",
+        "story_rope_set_1",
         "8",
         "1605639599"
+      ],
+      "getMethod": "ロープの回想秘録《フラワーパフューム》を解放。",
+      "description": "特に高価でもなく、いたってありふれた香りの香水。龍門で育った女の子にぴったり。\nロープはこれらの香水をとても大事にしている。以前は窓越しに眺めていたものだが、今は彼女のために作ってくれる人がいる。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1624327200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_yuki_1",
+      "medalName": "「忍びの道」",
+      "medalType": "storyMedal",
+      "slotId": 4,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_118_yuki",
+        "story_yuki_set_1",
+        "100",
+        "4"
       ],
       "getMethod": "シラユキの回想秘録《忍びの道》を解放。",
       "description": "いわゆる忍びの道とは、日の当たる大通りを歩かないということだ。\nクロージャが、シラユキにダクトの検査を任せようとしているのは、なかなかよい選択かもしれない。",
@@ -1674,8 +1696,8 @@
       "unlockParam": [
         "char_356_broca",
         "story_broca_set_1",
-        "100",
-        "4"
+        "enemy_1105_tyokai",
+        "3"
       ],
       "getMethod": "ブローカの回想秘録《信頼への第一歩》を解放。",
       "description": "どんな組織も、一眼見ただけで好かれるということはない。\n我々ができることは、実際の行動を通して、一人ひとりに、我々の信念は決して口だけのものではないと伝えることだ。",
@@ -1690,28 +1712,6 @@
       "medalName": "「カンパニー」",
       "medalType": "storyMedal",
       "slotId": 6,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_145_prove",
-        "story_prove_set_1",
-        "enemy_1105_tyokai",
-        "3"
-      ],
-      "getMethod": "プロヴァンスの回想秘録《カンパニー》を解放。",
-      "description": "あなたが誰かを心配しているとき、あなたの側にいる人もまたあなたを心配している。 \n親切な同僚ツキノギが出発前に出した知らせによって、医療オペレーターたちは隠れて外に出ようと試みていたプロヴァンスを艦艇の出口で確保した。",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_milu_1",
-      "medalName": "「途上」",
-      "medalType": "storyMedal",
-      "slotId": 7,
       "preMedalIdList": [
         "medal_activity_11d0_02",
         "medal_activity_11d0_03",
@@ -1727,11 +1727,32 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_158_milu",
-        "story_milu_set_1",
+        "char_145_prove",
+        "story_prove_set_1",
         "4000",
         "1",
         "5"
+      ],
+      "getMethod": "プロヴァンスの回想秘録《カンパニー》を解放。",
+      "description": "あなたが誰かを心配しているとき、あなたの側にいる人もまたあなたを心配している。 \n親切な同僚ツキノギが出発前に出した知らせによって、医療オペレーターたちは隠れて外に出ようと試みていたプロヴァンスを艦艇の出口で確保した。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1624327200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_milu_1",
+      "medalName": "「途上」",
+      "medalType": "storyMedal",
+      "slotId": 7,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_158_milu",
+        "story_milu_set_1",
+        "8"
       ],
       "getMethod": "ファイヤーウォッチの回想秘録《途上》を解放。",
       "description": "ファイヤーウォッチは、未来は、復讐という名の一つの道しかないと思っていた。 \n順当な通り道であったか、あるいは寄り道かもしれないが、彼女はロドスと出会った。",
@@ -1752,7 +1773,8 @@
       "unlockParam": [
         "char_2013_cerber",
         "story_cerber_set_1",
-        "8"
+        "8",
+        "4"
       ],
       "getMethod": "ケオベの回想秘録《特大クッキー》を解放。",
       "description": "ヴァルカン製のクッキーの勲章。ケオベが良い子にしているときにあげるご褒美。\n普通の勲章と同じ大きさだが、「特大」と頭につけると彼女はとても喜ぶのだ。",
@@ -1773,8 +1795,9 @@
       "unlockParam": [
         "char_180_amgoat",
         "story_amgoat_set_1",
-        "8",
-        "4"
+        "trap_025_prison",
+        "4",
+        "2"
       ],
       "getMethod": "エイヤフィヤトラの回想秘録《学者の心》を解放。",
       "description": "学者の心、それは耳によっても目によっても知ることはできない。思考と想いの中にこそあるものだ。\nくれぐれも見た目のか弱さに惑わされないように。",
@@ -1795,9 +1818,9 @@
       "unlockParam": [
         "char_180_amgoat",
         "story_amgoat_set_2",
-        "trap_025_prison",
-        "4",
-        "2"
+        "8",
+        "1",
+        "7"
       ],
       "getMethod": "エイヤフィヤトラの回想秘録《火山》を解放。",
       "description": "エイヤフィヤトラの心の中には、聳える火山がある。\n炎に燃やされたものは真理であり、また永遠である。",
@@ -1812,29 +1835,6 @@
       "medalName": "「協力」",
       "medalType": "storyMedal",
       "slotId": 11,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_250_phatom",
-        "story_phatom_set_1",
-        "8",
-        "1",
-        "7"
-      ],
-      "getMethod": "ファントムの回想秘録《協力》を解放。",
-      "description": "一人では成し遂げられないことは多い。だからこそ我々は協力を必要とする。 \nどのように変人奇人のチームメイトと呼吸を合わせて任務を完了するかは、オペレーターの必修課題である。",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_medic2_1",
-      "medalName": "「ある落書き」",
-      "medalType": "storyMedal",
-      "slotId": 12,
       "preMedalIdList": [
         "medal_activity_12d0_01",
         "medal_activity_12d0_02",
@@ -1849,10 +1849,32 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
+        "char_250_phatom",
+        "story_phatom_set_1",
+        "trap_025_prison",
+        "4"
+      ],
+      "getMethod": "ファントムの回想秘録《協力》を解放。",
+      "description": "一人では成し遂げられないことは多い。だからこそ我々は協力を必要とする。 \nどのように変人奇人のチームメイトと呼吸を合わせて任務を完了するかは、オペレーターの必修課題である。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1624327200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_medic2_1",
+      "medalName": "「ある落書き」",
+      "medalType": "storyMedal",
+      "slotId": 12,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
         "char_285_medic2",
         "story_medic2_set_1",
         "trap_025_prison",
-        "4"
+        "2"
       ],
       "getMethod": "Lancet-2の回想秘録《ある落書き》を解放。",
       "description": "クルビア語の一文らしい。\nLancet-2は自分がこの落書きが好きかどうかは分からない。彼女はただ機械であるから。だけれど、Lancet-2はこの文字がとても綺麗だと感じている。",
@@ -1867,28 +1889,6 @@
       "medalName": "「小隊長」",
       "medalType": "storyMedal",
       "slotId": 13,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_208_melan",
-        "story_melan_set_1",
-        "trap_025_prison",
-        "2"
-      ],
-      "getMethod": "メランサの回想秘録《小隊長》を解放。",
-      "description": "行動予備隊A4の編成は、決して万事順調だったわけではない。\n教官はメランサならば優秀な隊長になれるというが、優秀な隊長に最も求められるのは一体どのような資質だろうか？",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1626152400,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_lava_1",
-      "medalName": "「姉妹」",
-      "medalType": "storyMedal",
-      "slotId": 14,
       "preMedalIdList": [
         "medal_activity_14d5_02",
         "medal_activity_14d5_03",
@@ -1903,10 +1903,33 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
+        "char_208_melan",
+        "story_melan_set_1",
+        "1",
+        "16"
+      ],
+      "getMethod": "メランサの回想秘録《小隊長》を解放。",
+      "description": "行動予備隊A4の編成は、決して万事順調だったわけではない。\n教官はメランサならば優秀な隊長になれるというが、優秀な隊長に最も求められるのは一体どのような資質だろうか？",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1626152400,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_lava_1",
+      "medalName": "「姉妹」",
+      "medalType": "storyMedal",
+      "slotId": 14,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
         "char_121_lava",
         "story_lava_set_1",
         "1",
-        "16"
+        "8",
+        "0"
       ],
       "getMethod": "ラヴァの回想秘録《姉妹》を解放。",
       "description": "これは他人にあげられるものじゃない！\nラヴァが認めなくとも、この姉妹の仲を誰も疑ったことはない。",
@@ -1921,14 +1944,24 @@
       "medalName": "「看病」",
       "medalType": "storyMedal",
       "slotId": 15,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_16d0_02",
+        "medal_activity_16d0_03",
+        "medal_activity_16d0_04",
+        "medal_activity_16d0_05",
+        "medal_activity_16d0_06",
+        "medal_activity_16d0_07",
+        "medal_activity_16d0_08",
+        "medal_activity_16d0_09",
+        "medal_activity_16d0_10"
+      ],
       "rarity": 2,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_121_lava",
         "story_lava_set_2",
         "1",
-        "8",
+        "16",
         "0"
       ],
       "getMethod": "ラヴァの回想秘録《看病》を解放。",
@@ -1944,25 +1977,15 @@
       "medalName": "「すべきこと」",
       "medalType": "storyMedal",
       "slotId": 16,
-      "preMedalIdList": [
-        "medal_activity_16d0_02",
-        "medal_activity_16d0_03",
-        "medal_activity_16d0_04",
-        "medal_activity_16d0_05",
-        "medal_activity_16d0_06",
-        "medal_activity_16d0_07",
-        "medal_activity_16d0_08",
-        "medal_activity_16d0_09",
-        "medal_activity_16d0_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_290_vigna",
         "story_vigna_set_1",
         "1",
-        "16",
-        "0"
+        "8",
+        "5"
       ],
       "getMethod": "ヴィグナの回想秘録《すべきこと》を解放。",
       "description": "ヴィグナにとって、ロックは彼女の命の一番大事な一部である。\nだが、全部ではない。",
@@ -1984,8 +2007,7 @@
         "char_109_fmout",
         "story_fmout_set_1",
         "1",
-        "8",
-        "5"
+        "16"
       ],
       "getMethod": "ギターノの回想秘録《占い》を解放。",
       "description": "何事にも代価が必要であり、代価はすべて異なる。\n占いも同じ。報酬を支払い、結果を得る。",
@@ -2006,8 +2028,7 @@
       "unlockParam": [
         "char_242_otter",
         "story_otter_set_1",
-        "1",
-        "16"
+        "1"
       ],
       "getMethod": "メイヤーの回想秘録《仕事三昧》を解放。",
       "description": "メイヤーは忙しくて死にそうだ。\nもちろん任務の大部分は彼女が自らやると買って出たものである。その理由も明快だ。メイヤーがそれを好んでいるからだ。",
@@ -2028,7 +2049,9 @@
       "unlockParam": [
         "char_171_bldsk",
         "story_bldsk_set_1",
-        "1"
+        "10",
+        "0",
+        "2"
       ],
       "getMethod": "ワルファリンの回想秘録《モンスター》を解放。",
       "description": "自分がブラッドブルードであることをワルファリンが隠したことはない。\nうろたえる必要はない、恐れても無意味なのだから。",
@@ -2043,15 +2066,25 @@
       "medalName": "「受取人のない荷物」",
       "medalType": "storyMedal",
       "slotId": 20,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_16d5_02",
+        "medal_activity_16d5_03",
+        "medal_activity_16d5_04",
+        "medal_activity_16d5_05",
+        "medal_activity_16d5_06",
+        "medal_activity_16d5_07",
+        "medal_activity_16d5_08",
+        "medal_activity_16d5_09",
+        "medal_activity_16d5_10"
+      ],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_291_aglina",
         "story_aglina_set_1",
-        "10",
-        "0",
-        "2"
+        "1",
+        "1",
+        "7"
       ],
       "getMethod": "アンジェリーナの回想秘録《受取人のない荷物》を解放。",
       "description": "何かの手違い？\n自分にプレゼントを送ってくれる人なんてここにはいるはずがないとアンジェリーナは思っている。",
@@ -2067,24 +2100,23 @@
       "medalType": "storyMedal",
       "slotId": 21,
       "preMedalIdList": [
-        "medal_activity_16d5_02",
-        "medal_activity_16d5_03",
-        "medal_activity_16d5_04",
-        "medal_activity_16d5_05",
-        "medal_activity_16d5_06",
-        "medal_activity_16d5_07",
-        "medal_activity_16d5_08",
-        "medal_activity_16d5_09",
-        "medal_activity_16d5_10"
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
       ],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_355_ethan",
         "story_ethan_set_1",
-        "1",
-        "1",
-        "7"
+        "8",
+        "8"
       ],
       "getMethod": "イーサンの回想秘録《異郷の旧友》を解放。",
       "description": "「俺にはある友達がいてな。随分と会ってねぇんだ。あれからあいつがうまくやってたってことしか知らねぇ。」",
@@ -2099,23 +2131,13 @@
       "medalName": "「改装計画」",
       "medalType": "storyMedal",
       "slotId": 22,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_181_flower",
         "story_flower_set_1",
-        "8",
+        "10",
         "8"
       ],
       "getMethod": "パフューマーの回想秘録《改装計画》を解放。",
@@ -2131,14 +2153,24 @@
       "medalName": "「リンゴパーティー準備中！」",
       "medalType": "storyMedal",
       "slotId": 23,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
+      ],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_107_liskam",
         "story_liskam_set_1",
-        "10",
-        "8"
+        "trap_026_inverter",
+        "4"
       ],
       "getMethod": "リスカムの回想秘録《リンゴパーティー準備中！》を解放。",
       "description": "「皆さんは先に料理しておいてください。わたしはちょっとあいつの所に行ってきます。」",
@@ -2153,24 +2185,15 @@
       "medalName": "「待つ」",
       "medalType": "storyMedal",
       "slotId": 24,
-      "preMedalIdList": [
-        "medal_activity_13d5_02",
-        "medal_activity_13d5_03",
-        "medal_activity_13d5_04",
-        "medal_activity_13d5_05",
-        "medal_activity_13d5_06",
-        "medal_activity_13d5_07",
-        "medal_activity_13d5_08",
-        "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_107_liskam",
         "story_liskam_set_2",
-        "trap_026_inverter",
-        "4"
+        "trap_001_crate",
+        "8",
+        "0"
       ],
       "getMethod": "リスカムの回想秘録《待つ》を解放。",
       "description": "現実は小説のように美しくはない。\nしかし、その憧れと幻想は現実主義者に道を切り開くはずだ。もう少し彼女を待ってみるとしよう。",
@@ -2185,14 +2208,24 @@
       "medalName": "「故郷を去る日」",
       "medalType": "storyMedal",
       "slotId": 25,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_16d5_02",
+        "medal_activity_16d5_03",
+        "medal_activity_16d5_04",
+        "medal_activity_16d5_05",
+        "medal_activity_16d5_06",
+        "medal_activity_16d5_07",
+        "medal_activity_16d5_08",
+        "medal_activity_16d5_09",
+        "medal_activity_16d5_10"
+      ],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_340_shwaz",
         "story_shwaz_set_1",
-        "trap_001_crate",
         "8",
+        "0",
         "0"
       ],
       "getMethod": "シュヴァルツの回想秘録《故郷を去る日》を解放。",
@@ -2222,11 +2255,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "3",
-        "act16d5_ex08",
+        "act16d5",
+        "300",
         "8",
-        "0",
-        "0"
+        "4"
       ],
       "getMethod": null,
       "description": "貴殿はシーの視線を感じた。\n彼女は言った、自分も画中人にすぎないと。彼女は正しいのかもしれない。しかし彼女は何もするつもりはない。なら貴殿は？",
@@ -2247,8 +2279,8 @@
       "unlockParam": [
         "act16d5",
         "300",
-        "8",
-        "4"
+        "10",
+        "3"
       ],
       "getMethod": "期間中に、晦明の印に累計300回味方ユニットを配置する。",
       "description": "貴殿は手始めにシーの絵画の道を探究した。\n次会う時、論理をはるかに超えた美学を彼女は貴殿にもたらすことだろう。",
@@ -2270,7 +2302,7 @@
         "3",
         "act16d5_01;act16d5_02;act16d5_03;act16d5_04;act16d5_05;act16d5_06;act16d5_07;act16d5_08;act16d5_09;act16d5_10",
         "10",
-        "3"
+        "4"
       ],
       "getMethod": "★3で「入画」の全ステージをクリア。（チュートリアルを除く）",
       "description": "貴殿はあの記憶の中の故郷を去った。\nあの場所の民俗や服装、建築物は炎国のどの移動都市とも違う。その記憶が曖昧になった故か、それとも画家が作り出した幻なのだろうか？",
@@ -2307,7 +2339,17 @@
       "medalName": "最優秀墨魎勲章",
       "medalType": "activityMedal",
       "slotId": 5,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_16d0_02",
+        "medal_activity_16d0_03",
+        "medal_activity_16d0_04",
+        "medal_activity_16d0_05",
+        "medal_activity_16d0_06",
+        "medal_activity_16d0_07",
+        "medal_activity_16d0_08",
+        "medal_activity_16d0_09",
+        "medal_activity_16d0_10"
+      ],
       "rarity": 0,
       "template": "PassStageWithLessDeploy",
       "unlockParam": [
@@ -2330,21 +2372,23 @@
       "medalType": "activityMedal",
       "slotId": 6,
       "preMedalIdList": [
-        "medal_activity_16d0_02",
-        "medal_activity_16d0_03",
-        "medal_activity_16d0_04",
-        "medal_activity_16d0_05",
-        "medal_activity_16d0_06",
-        "medal_activity_16d0_07",
-        "medal_activity_16d0_08",
-        "medal_activity_16d0_09",
-        "medal_activity_16d0_10"
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10",
+        "medal_activity_11d0_11"
       ],
       "rarity": 2,
       "template": "PassStageWithoutBossShield",
       "unlockParam": [
         "3",
         "act16d5_ex08",
+        "8",
         "8"
       ],
       "getMethod": "★3かつ、「ジザイ」の「桎梏打破」によるシールドを破壊せずWR-EX-8をクリア。",
@@ -2360,25 +2404,14 @@
       "medalName": "「己を知る」",
       "medalType": "activityMedal",
       "slotId": 7,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act16d5_ex01#f#;act16d5_ex02#f#;act16d5_ex03#f#;act16d5_ex04#f#;act16d5_ex05#f#;act16d5_ex06#f#;act16d5_ex07#f#;act16d5_ex08#f#",
         "8",
-        "8"
+        "16"
       ],
       "getMethod": "「出画」の全てのステージの強襲作戦をクリア。",
       "description": "貴殿は強大な雑念に勝利した。\nサガは彼らを一括りで墨魎と名付けたけど、だが実際彼らはそれぞれ自分の名前がある。中にはかわいいものもある。これは本当にあのぶっきらぼうなシーが付けた名前なのだろうか？",
@@ -2393,14 +2426,24 @@
       "medalName": "「画中を行く者」",
       "medalType": "activityMedal",
       "slotId": 8,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "16D5Activity_1;16D5Activity_2;16D5Activity_3;16D5Activity_4;16D5Activity_5;16D5Activity_6;16D5Activity_7;16D5Activity_8;16D5Activity_9;16D5Activity_10;16D5Activity_11;16D5Activity_12;16D5Activity_13;16D5Activity_14;16D5Activity_15;16D5Activity_16;16D5Activity_17;16D5Activity_18;16D5Activity_19;16D5Activity_20;16D5Activity_21;16D5Activity_22;16D5Activity_23;16D5Activity_24;16D5Activity_25;16D5Activity_26;16D5Activity_27;16D5Activity_28;16D5Activity_29",
         "29",
-        "1",
-        "16"
+        "trap_025_prison",
+        "4"
       ],
       "getMethod": "「自問」を全てクリアし、報酬を獲得する。",
       "description": "貴殿はシーの山河の絵巻を旅した、サガのように。\nサガが自分で絵の中から出てきたことを、シーはいまだに引きずっている。サガはまだこんなに若いのだから、これはシーの名折れではないか？",
@@ -2415,24 +2458,14 @@
       "medalName": "炎獄勲章",
       "medalType": "activityMedal",
       "slotId": 9,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_1011_lava2",
         "1629399599",
-        "trap_025_prison",
-        "4"
+        "4000",
+        "2"
       ],
       "getMethod": "期間中に、炎獄ラヴァを雇用する。",
       "description": "貴殿はあるオペレーターの未来を見た。\nラヴァはすでに成長し、随分と大人びた。だが彼女はいまだにその呼び名「炎獄」に酔いしれている。少しくどくはあるが。",
@@ -2447,14 +2480,24 @@
       "medalName": "墨と硯勲章",
       "medalType": "activityMedal",
       "slotId": 10,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_16d0_02",
+        "medal_activity_16d0_03",
+        "medal_activity_16d0_04",
+        "medal_activity_16d0_05",
+        "medal_activity_16d0_06",
+        "medal_activity_16d0_07",
+        "medal_activity_16d0_08",
+        "medal_activity_16d0_09",
+        "medal_activity_16d0_10"
+      ],
       "rarity": 2,
       "template": "ActivityCoinCost",
       "unlockParam": [
         "act16d5",
         "act16d5_token_inker",
         "4000",
-        "2"
+        "5"
       ],
       "getMethod": "期間中に、「自答」で夕墨を4000個消費する。",
       "description": "貴殿はシーが愛する多くのものを集めた。\nささいな疑問だが、シーの絵巻から持ち出したものは、本当に安心して加工所に持って行けるのだろうか？",
@@ -2484,9 +2527,9 @@
       "template": null,
       "unlockParam": [
         "rune_season_4_1",
-        "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
+        "level_rune_06-01",
         "1",
-        "5"
+        "8"
       ],
       "getMethod": null,
       "description": "とある鉛封の刻印を基に鋳造された勲章。\nいかに注意深く隠しても、秘密はいずれは大地の上に現れるのだ。",
@@ -2530,7 +2573,8 @@
         "rune_season_4_1",
         "level_rune_06-01",
         "1",
-        "16"
+        "16",
+        "5"
       ],
       "getMethod": "作戦コード「鉛封」で、通常作戦地域でSSS評価を得る。",
       "description": "作戦コード「鉛封」において、窮境に打ち勝った者に贈られる勲章。\n貴殿は数々の試練を乗り越えた。",
@@ -2551,9 +2595,8 @@
       "unlockParam": [
         "char_402_tuye",
         "1627325999",
-        "1",
-        "8",
-        "5"
+        "10",
+        "8"
       ],
       "getMethod": "作戦コード「鉛封」で、トゥイエを雇用する。",
       "description": "作戦コード「鉛封」でのオペレーター着任を証明する勲章。\nサルゴンの黄色い砂漠は果てしないが、トゥイエは帰路を見つけることができるだろう。",
@@ -2568,14 +2611,23 @@
       "medalName": "鉛封防衛勲章",
       "medalType": "activityMedal",
       "slotId": 15,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_15d0_02",
+        "medal_activity_15d0_03",
+        "medal_activity_15d0_04",
+        "medal_activity_15d0_05",
+        "medal_activity_15d0_06",
+        "medal_activity_15d0_07",
+        "medal_activity_15d0_08",
+        "medal_activity_15d0_09",
+        "medal_activity_15d0_10"
+      ],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
         "rune_season_4_1",
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
-        "10",
-        "8"
+        "10"
       ],
       "getMethod": "作戦コード「鉛封」で、緊急作戦地域で全ての任務を達成して報酬を受け取る。（累計10回）",
       "description": "作戦コード「鉛封」において、防衛ラインを守り抜いた者に贈られる勲章。\n貴殿にはハイレベルな陣地戦を指揮する能力が備わっている。",
@@ -2591,22 +2643,25 @@
       "medalType": "activityMedal",
       "slotId": 16,
       "preMedalIdList": [
-        "medal_activity_15d0_02",
-        "medal_activity_15d0_03",
-        "medal_activity_15d0_04",
-        "medal_activity_15d0_05",
-        "medal_activity_15d0_06",
-        "medal_activity_15d0_07",
-        "medal_activity_15d0_08",
-        "medal_activity_15d0_09",
-        "medal_activity_15d0_10"
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
       ],
       "rarity": 0,
       "template": "CrisisTaskSome",
       "unlockParam": [
         "rune_season_4_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "1"
+        "1",
+        "0",
+        "2"
       ],
       "getMethod": "作戦コード「鉛封」で、通常作戦地域で契約内容指定の任務を1個達成し報酬を受け取る。",
       "description": "作戦コード「鉛封」において、臨機応変に対応した者に贈られる勲章。",
@@ -2621,26 +2676,15 @@
       "medalName": "鉛封機才勲章・Ⅱ",
       "medalType": "activityMedal",
       "slotId": 17,
-      "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
       "unlockParam": [
         "rune_season_4_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "0",
-        "2"
+        "1",
+        "7"
       ],
       "getMethod": "作戦コード「鉛封」で、通常作戦地域で契約内容指定の任務を8個達成し報酬を受け取る。",
       "description": "作戦コード「鉛封」において、当機立断した者に贈られる勲章。\n貴殿には多種多様な緊急事態に対応できる実力が備わっている。",
@@ -2655,15 +2699,24 @@
       "medalName": "鉛封跋渉勲章",
       "medalType": "activityMedal",
       "slotId": 18,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
+      ],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
       "unlockParam": [
         "rune_season_4_1",
         "char_hp_3;enemy_bigbomdrock_3;enemy_hp_3;enemy_mdgint_amod_3;enemy_mdgint_bmod_3;enemy_atk_3;char_atk_3",
         "4",
-        "1",
-        "7"
+        "8"
       ],
       "getMethod": "作戦コード「鉛封」で、通常作戦地域で等級3の契約を4つ解禁する。",
       "description": "作戦コード「鉛封」において、戦場を隅々まで駆け抜けた者に贈られる勲章。",
@@ -2678,17 +2731,7 @@
       "medalName": "鉛封演習勲章",
       "medalType": "activityMedal",
       "slotId": 19,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
@@ -2710,14 +2753,24 @@
       "medalName": "鉛封共闘勲章",
       "medalType": "activityMedal",
       "slotId": 20,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_15d0_02",
+        "medal_activity_15d0_03",
+        "medal_activity_15d0_04",
+        "medal_activity_15d0_05",
+        "medal_activity_15d0_06",
+        "medal_activity_15d0_07",
+        "medal_activity_15d0_08",
+        "medal_activity_15d0_09",
+        "medal_activity_15d0_10"
+      ],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_4_1",
         "5",
-        "1",
-        "8"
+        "8",
+        "16"
       ],
       "getMethod": "作戦コード「鉛封」で、戦友サポートを5回以上使用し任意の作戦地域を突破する。",
       "description": "作戦コード「鉛封」において、戦友と共闘した者に贈られる勲章。",
@@ -2746,10 +2799,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "3",
-        "act15d0_01;act15d0_02;act15d0_03;act15d0_04;act15d0_05;act15d0_06;act15d0_07;act15d0_08",
-        "8",
-        "16"
+        "act15d0",
+        "trap_025_prison",
+        "100",
+        "4"
       ],
       "getMethod": null,
       "description": "貴殿は脱獄作戦の表も裏も全て把握した。\n規則、規範が様々な要素により移ろうとき、我々は何を確固たる動かざるものとして信じるのか、これは一つの問題である。",
@@ -2770,8 +2823,7 @@
       "unlockParam": [
         "act15d0",
         "trap_025_prison",
-        "100",
-        "4"
+        "100"
       ],
       "getMethod": "期間中に、100回囚人を禁固する。",
       "description": "囚人の中で名声を高めた。\n貴殿の素晴らしい戦闘技術は、バートン隊長の耳に入るほどで、彼は皆の前で貴殿にこの勲章を与えた。",
@@ -2792,7 +2844,8 @@
       "unlockParam": [
         "char_451_robin",
         "1626116399",
-        "8"
+        "4000",
+        "4"
       ],
       "getMethod": "期間中に、ロビンを雇用する。",
       "description": "貴殿は、未来に対して迷いを抱える女の子を助けた。\n彼女が選びかけた道が誤りであるとはいえない。しかし、必ずしも誤りといえないにしろ、決して正しいものではないのは間違いない。",
@@ -2814,7 +2867,7 @@
         "act15d0",
         "act15d0_token_ironSheet",
         "4000",
-        "4"
+        "2"
       ],
       "getMethod": "期間中に、「裏取引先」で工場の鉄片を4000個消費する。",
       "description": "貴殿は囚人間の闇ルートを通じて多量の物資を獲得した。\n彼らがどこからこの物資を持ってきたかも、これらの物を監獄でどのように使うのかも貴殿は知らない。",
@@ -2829,14 +2882,24 @@
       "medalName": "マンスフィールド記念勲章",
       "medalType": "activityMedal",
       "slotId": 25,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_14d5_02",
+        "medal_activity_14d5_03",
+        "medal_activity_14d5_04",
+        "medal_activity_14d5_05",
+        "medal_activity_14d5_06",
+        "medal_activity_14d5_07",
+        "medal_activity_14d5_08",
+        "medal_activity_14d5_09",
+        "medal_activity_14d5_10"
+      ],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "15D0Activity_1;15D0Activity_2;15D0Activity_3;15D0Activity_4;15D0Activity_5;15D0Activity_6;15D0Activity_7;15D0Activity_8;15D0Activity_9;15D0Activity_10;15D0Activity_11;15D0Activity_12;15D0Activity_13;15D0Activity_14;15D0Activity_15;15D0Activity_16;15D0Activity_17;15D0Activity_18;15D0Activity_19;15D0Activity_20;15D0Activity_21;15D0Activity_22;15D0Activity_23;15D0Activity_24;15D0Activity_25",
         "25",
-        "trap_025_prison",
-        "2"
+        "8",
+        "1605639599"
       ],
       "getMethod": "「脱獄準備」を全てクリアし、報酬を獲得する。",
       "description": "貴殿は脱獄作戦の策定に初めから終わりまで関わった。\nこの勲章は作戦行動中にミナが発見したものである。どうやらレンデル獄長が監獄にやってきた賓客に渡していた記念品のようだ。",
@@ -2851,24 +2914,14 @@
       "medalName": "「脱獄」",
       "medalType": "activityMedal",
       "slotId": 26,
-      "preMedalIdList": [
-        "medal_activity_14d5_02",
-        "medal_activity_14d5_03",
-        "medal_activity_14d5_04",
-        "medal_activity_14d5_05",
-        "medal_activity_14d5_06",
-        "medal_activity_14d5_07",
-        "medal_activity_14d5_08",
-        "medal_activity_14d5_09",
-        "medal_activity_14d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act15d0_01;act15d0_02;act15d0_03;act15d0_04;act15d0_05;act15d0_06;act15d0_07;act15d0_08",
         "8",
-        "1605639599"
+        "4"
       ],
       "getMethod": "★3で「脱獄計画」の全てのステージをクリア。（チュートリアルを除く）",
       "description": "貴殿はアンソニーをたすけて脱獄作戦を完了した。\n監獄の外の空気は濁ってはいるが、自由も含んでいる。ここからが、始まりだ。",
@@ -2890,7 +2943,8 @@
         "3",
         "act15d0_ex01",
         "trap_025_prison",
-        "4"
+        "4",
+        "0"
       ],
       "getMethod": "★3かつ禁固装置を4つ残してMB-EX-1をクリア。",
       "description": "貴殿は多くの装置の正常な動作を保証した。\n貴殿はこれらの装置の中の、いくつかの上にライン生命のロゴがあることを発見した。",
@@ -2905,14 +2959,24 @@
       "medalName": "「最も自由な囚人」",
       "medalType": "activityMedal",
       "slotId": 28,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act15d0_ex01#f#;act15d0_ex02#f#;act15d0_ex03#f#;act15d0_ex04#f#;act15d0_ex05#f#;act15d0_ex06#f#;act15d0_ex07#f#;act15d0_ex08#f#",
         "8",
-        "16",
+        "4",
         "0"
       ],
       "getMethod": "「獄中生活」の全てのステージの強襲作戦をクリア。",
@@ -2928,25 +2992,14 @@
       "medalName": "「最も力のある囚人」",
       "medalType": "activityMedal",
       "slotId": 29,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithTrapSurvived",
       "unlockParam": [
         "3",
         "act15d0_08",
         "trap_025_prison",
-        "4",
-        "0"
+        "4"
       ],
       "getMethod": "★3かつ禁固装置を4つ残してMB-8をクリア。",
       "description": "囚人たちは貴殿の「力」の前に膝を折った。\n機械と頭脳のコンビネーションは腕っ節だけで対抗できるものではない。",
@@ -2961,7 +3014,17 @@
       "medalName": "「知勇双全」",
       "medalType": "activityMedal",
       "slotId": 30,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_14d5_02",
+        "medal_activity_14d5_03",
+        "medal_activity_14d5_04",
+        "medal_activity_14d5_05",
+        "medal_activity_14d5_06",
+        "medal_activity_14d5_07",
+        "medal_activity_14d5_08",
+        "medal_activity_14d5_09",
+        "medal_activity_14d5_10"
+      ],
       "rarity": 2,
       "template": "PassStageWithTrapSurvived",
       "unlockParam": [
@@ -2998,9 +3061,9 @@
       "template": null,
       "unlockParam": [
         "rune_season_3_1",
-        "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
+        "level_rune_05-01",
         "1",
-        "16"
+        "8"
       ],
       "getMethod": null,
       "description": "とある天災トランスポーターのロゴをベースに製作された勲章。\n全ては、より多くの生命を救うために。",
@@ -3066,7 +3129,7 @@
         "1",
         "char_222_bpipe@race#1",
         "1623351599",
-        "8"
+        "3"
       ],
       "getMethod": "作戦コード「灰燼」で、バグパイプ専用コーデを購入する。",
       "description": "作戦コード「灰燼」において、コーデのおまけについてくる勲章。\nどのレースカーもバグパイプには行き合うと彼女を避けて敬意を示す。",
@@ -3081,14 +3144,25 @@
       "medalName": "灰燼防衛勲章",
       "medalType": "activityMedal",
       "slotId": 35,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
+      ],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
         "rune_season_3_1",
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
         "10",
-        "3"
+        "1",
+        "5"
       ],
       "getMethod": "作戦コード「灰燼」で、緊急作戦地域で全ての任務を達成して報酬を受け取る。（累計10回）",
       "description": "作戦コード「灰燼」において、防衛ラインを守り抜いた者に贈られる勲章。\n貴殿にはハイレベルな陣地戦を指揮する能力が備わっている。",
@@ -3103,25 +3177,14 @@
       "medalName": "灰燼機才勲章",
       "medalType": "activityMedal",
       "slotId": 36,
-      "preMedalIdList": [
-        "medal_activity_13d5_02",
-        "medal_activity_13d5_03",
-        "medal_activity_13d5_04",
-        "medal_activity_13d5_05",
-        "medal_activity_13d5_06",
-        "medal_activity_13d5_07",
-        "medal_activity_13d5_08",
-        "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
       "unlockParam": [
         "rune_season_3_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "1",
-        "1",
-        "5"
+        "8"
       ],
       "getMethod": "作戦コード「灰燼」で、通常作戦地域で契約内容指定の任務を1個達成し報酬を受け取る。",
       "description": "作戦コード「灰燼」において、臨機応変に対応した者に贈られる勲章。",
@@ -3143,7 +3206,8 @@
         "rune_season_3_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "8"
+        "0",
+        "0"
       ],
       "getMethod": "作戦コード「灰燼」で、通常作戦地域で契約内容指定の任務を8個達成し報酬を受け取る。",
       "description": "作戦コード「灰燼」において、当機立断した者に贈られる勲章。\n貴殿には多種多様な緊急事態に対応できる実力が備わっている。",
@@ -3158,15 +3222,26 @@
       "medalName": "灰燼跋渉勲章",
       "medalType": "activityMedal",
       "slotId": 38,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
       "unlockParam": [
         "rune_season_3_1",
         "enemy_dscout_3;enemy_hp_3;enemy_dbskar_3;char_atkatkspeed_3;enemy_atk_3;enemy_dmgswd_3;char_hp_3;global_forbidloc_3",
         "4",
-        "0",
-        "0"
+        "8",
+        "2"
       ],
       "getMethod": "作戦コード「灰燼」で、通常作戦地域で等級3の契約を4つ解禁する。",
       "description": "作戦コード「灰燼」において、戦場を隅々まで駆け抜けた者に贈られる勲章。",
@@ -3181,18 +3256,7 @@
       "medalName": "灰燼演習勲章",
       "medalType": "activityMedal",
       "slotId": 39,
-      "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
@@ -3200,7 +3264,7 @@
         "level_rune_02-02;level_rune_02-04;level_rune_02-05;level_rune_03-02;level_rune_03-01;level_rune_04-01;level_rune_05-02",
         "1",
         "8",
-        "2"
+        "7"
       ],
       "getMethod": "作戦コード「灰燼」で、任意の緊急作戦地域でS評価を得る。",
       "description": "作戦コード「灰燼」において、熟慮を重ねた者に贈られる勲章。",
@@ -3215,23 +3279,32 @@
       "medalName": "灰燼共闘勲章",
       "medalType": "activityMedal",
       "slotId": 40,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
+      ],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_3_1",
         "5",
-        "enemy_1105_tyokai",
-        "3",
-        "7"
+        "8",
+        "4"
       ],
       "getMethod": "作戦コード「燃灰」で、戦友サポートを5回以上使用し任意の作戦地域を突破する。",
       "description": "作戦コード「灰燼」において、戦友と共闘した者に贈られる勲章。",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_13d5_01",
@@ -3252,10 +3325,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "2",
-        "act13d5_ex01#f#;act13d5_ex02#f#;act13d5_ex03#f#;act13d5_ex04#f#;act13d5_ex05#f#;act13d5_ex06#f#;act13d5_ex07#f#;act13d5_ex08#f#",
-        "8",
-        "4"
+        "act13d5",
+        "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
+        "100",
+        "8"
       ],
       "getMethod": null,
       "description": "貴殿は騎士の現在の境遇を目の当たりにし、騎士の途絶えぬ残光も見届けた。\n決して元に戻ることのないこの時代、たとえ進んだ先で徒労に終わる運命だとしても、光芒は依然まばゆく放たれ続けるだろう。",
@@ -3277,7 +3350,7 @@
         "act13d5",
         "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
         "100",
-        "8"
+        "16"
       ],
       "getMethod": "期間中に、協賛、豪華協賛、闘志高揚ドローンを累計100体撃破する。",
       "description": "貴殿は規則を十分に利用した。\n時には、自分たちの陣営の騎士の戦況を良くするために、コーチとスポンサーたちがあの豪華なVIP席の高級会員たちのポケットから金を出させる方法を考え倒すこともある。",
@@ -3299,7 +3372,7 @@
         "3",
         "act13d5_01;act13d5_02;act13d5_03;act13d5_04;act13d5_05;act13d5_06;act13d5_07;act13d5_08",
         "8",
-        "16"
+        "4"
       ],
       "getMethod": "★3で「大競技場」の全てのステージをクリア。（チュートリアルを除く）",
       "description": "貴殿は騎士競技で見事勝ち上がった。\n大騎士領の至る所で目にするメジャー記念章は、価格もとてもお手頃。だが、その中でも第1回、第7回、第18回と第22回の記念章にはプレミアがついている。",
@@ -3336,7 +3409,17 @@
       "medalName": "MVP騎士勲章",
       "medalType": "activityMedal",
       "slotId": 45,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
       "rarity": 0,
       "template": "PassStageKilled",
       "unlockParam": [
@@ -3358,17 +3441,7 @@
       "medalName": "「敗者復活戦の伝説」",
       "medalType": "activityMedal",
       "slotId": 46,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
-      ],
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
@@ -3395,7 +3468,7 @@
       "unlockParam": [
         "13D5Activity_1;13D5Activity_2;13D5Activity_3;13D5Activity_4;13D5Activity_5;13D5Activity_6;13D5Activity_7;13D5Activity_8;13D5Activity_9;13D5Activity_10;13D5Activity_11;13D5Activity_12;13D5Activity_13;13D5Activity_14;13D5Activity_15;13D5Activity_16;13D5Activity_17;13D5Activity_18;13D5Activity_19;13D5Activity_20;13D5Activity_21;13D5Activity_22;13D5Activity_23;13D5Activity_24;13D5Activity_25",
         "25",
-        "100"
+        "4"
       ],
       "getMethod": "「場外イベント」を全てクリアし、報酬を獲得する。",
       "description": "貴殿は全ての場外イベントに参加した。\n知るところでは、もしカジミエーシュの隅々まで十分に楽しみたいなら、たとえ遊べる時間が一日に12時間あったとしても、百年は滞在する必要があるという。",
@@ -3416,7 +3489,8 @@
       "unlockParam": [
         "act13d5",
         "15",
-        "4"
+        "4000",
+        "8"
       ],
       "getMethod": "「マリア・ニアール」で、15本のニュースを閲覧する。",
       "description": "貴殿は数多のメディアの外面的な言葉を閲覧した。その労を讃える。\n騎士の意義がすり減っていくのは、決して騎士だけのせいではない。歓声をあげる観衆一人一人に責任があり、歓声を生み出す商人一人一人が信条を傷付けているのである。",
@@ -3437,8 +3511,7 @@
       "unlockParam": [
         "char_265_sophia",
         "1619636399",
-        "4000",
-        "8"
+        "4000"
       ],
       "getMethod": "期間中に、ウィスラッシュを雇用する。",
       "description": "ゾフィアがメジャー参戦時に自分でデザインした紋章。\n今となっては紋章の意義は消え失せており、当初の頃に戻ることはない。しかし、ゾフィアはそれでも何日もかけて真摯に彫刻した。",
@@ -3453,13 +3526,25 @@
       "medalName": "消費至上主義勲章",
       "medalType": "activityMedal",
       "slotId": 50,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
       "rarity": 2,
       "template": "ActivityCoinCost",
       "unlockParam": [
         "act13d5",
         "act13d5_token_securities",
-        "4000"
+        "4000",
+        "1",
+        "5"
       ],
       "getMethod": "期間中に、「免税ショップ」でミェシュコ競技証券を4000個消費する。",
       "description": "貴殿はスタジアム周辺の免税店で買いに買いまくった。\n商業連合会への納税が無いため、ここの商品は相対的にかなり安くなっている。消費主義の落とし穴だ。",
@@ -3488,11 +3573,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "3",
-        "act12d0_ex06",
+        "act12d0",
         "trap_016_peon",
-        "1",
-        "5"
+        "100",
+        "8"
       ],
       "getMethod": null,
       "description": "貴殿はスリリングで刺激的な休日を過ごした。\n喧騒、やりたい放題、実力主義、先々のことを考えない。文明の光の届かない場所で、貴殿は科学技術の無い生活も悪くないと気付いた。",
@@ -3514,7 +3598,7 @@
         "act12d0",
         "trap_016_peon",
         "100",
-        "8"
+        "16"
       ],
       "getMethod": "期間中に、おばけ茸を累計100個伐採する。",
       "description": "貴殿の茸への愛は人々を感嘆させた。\nしかし、貴殿の身体のことを考えると、少なくとも食べるのは加熱してからにしていただきたい。",
@@ -3535,8 +3619,9 @@
       "unlockParam": [
         "char_411_tomimi",
         "1616007599",
-        "1",
-        "16"
+        "4000",
+        "0",
+        "2"
       ],
       "getMethod": "期間中に、トミミを雇用する。",
       "description": "貴殿の知恵はこの少女を心服させた。\n我々には信じる理由がある。彼女が視野を広げれば、彼女は更に成長するであろうことを。",
@@ -3558,8 +3643,8 @@
         "act12d0",
         "act12d0_token_components",
         "4000",
-        "0",
-        "2"
+        "1",
+        "7"
       ],
       "getMethod": "期間中に、「イナム商会」で機械のパーツを4000個消費する。",
       "description": "貴殿はイナム商店で景気よく大枚をはたいた。\n貴殿のような上客を嫌う商人はいない。",
@@ -3574,7 +3659,17 @@
       "medalName": "アカフラ記念勲章",
       "medalType": "activityMedal",
       "slotId": 55,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
+      ],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
@@ -3582,7 +3677,7 @@
         "act12d0_01;act12d0_02;act12d0_03;act12d0_04;act12d0_05;act12d0_06;act12d0_07;act12d0_08;act12d0_09",
         "9",
         "1",
-        "7"
+        "5"
       ],
       "getMethod": "★3で「大族長への道」の全てのステージをクリア。（チュートリアルを除く）",
       "description": "貴殿の休日が幕を閉じた。\nおそらくこの心躍った体験は貴殿の記憶の中に爪痕を残すだろう。我々は知っている。この大地にあるのは傷や痛みだけではないことを――時折このことを忘れてしまうだろうが。",
@@ -3597,17 +3692,7 @@
       "medalName": "勇士の試練踏破勲章",
       "medalType": "activityMedal",
       "slotId": 56,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithCutTree",
       "unlockParam": [
@@ -3637,7 +3722,7 @@
         "3",
         "act12d0_ex01#f#;act12d0_ex02#f#;act12d0_ex03#f#;act12d0_ex04#f#;act12d0_ex05#f#;act12d0_ex06#f#;act12d0_ex07#f#;act12d0_ex08#f#",
         "8",
-        "8"
+        "16"
       ],
       "getMethod": "「ガヴィルの軌跡」の全てのステージの強襲作戦をクリア。",
       "description": "貴殿は更なる苦難に満ちた任務を成し遂げた。\nガヴィルは貴殿の勇敢さを心から喜び称えている。",
@@ -3658,8 +3743,9 @@
       "unlockParam": [
         "12D0Activity_1;12D0Activity_2;12D0Activity_3;12D0Activity_4;12D0Activity_5;12D0Activity_6;12D0Activity_7;12D0Activity_8;12D0Activity_9;12D0Activity_10;12D0Activity_11;12D0Activity_12;12D0Activity_13;12D0Activity_14;12D0Activity_15;12D0Activity_16;12D0Activity_17;12D0Activity_18;12D0Activity_19;12D0Activity_20;12D0Activity_21;12D0Activity_22;12D0Activity_23;12D0Activity_24;12D0Activity_25",
         "25",
-        "1",
-        "16"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "「勇士の試練」を全てクリアし、報酬を獲得する。",
       "description": "貴殿はこの冒険を心行くまで楽しんだ。\nズゥママは貴殿の為にこの勲章を手作りした。",
@@ -3697,7 +3783,18 @@
       "medalName": "狂戦士勲章",
       "medalType": "activityMedal",
       "slotId": 60,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 2,
       "template": "PassStageWithCutTree",
       "unlockParam": [
@@ -3729,16 +3826,15 @@
         "medal_activity_11d5_07",
         "medal_activity_11d5_08",
         "medal_activity_11d5_09",
-        "medal_activity_11d5_10",
-        "medal_activity_11d0_11"
+        "medal_activity_11d5_10"
       ],
       "rarity": 4,
       "template": null,
       "unlockParam": [
         "rune_season_2_1",
-        "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
+        "level_rune_04-01",
         "1",
-        "1612983599",
+        "8",
         "0"
       ],
       "getMethod": null,
@@ -3784,8 +3880,7 @@
         "rune_season_2_1",
         "level_rune_04-01",
         "1",
-        "16",
-        "0"
+        "16"
       ],
       "getMethod": "作戦コード「利刃」で、通常作戦地域でSSS評価を得る。",
       "description": "作戦コード「利刃」において、窮境に打ち勝った者に贈られる勲章。\n貴殿は数々の試練を乗り越えた。",
@@ -3806,8 +3901,8 @@
       "unlockParam": [
         "char_336_folivo",
         "1613588399",
-        "1",
-        "8"
+        "10",
+        "5"
       ],
       "getMethod": "作戦コード「利刃」で、シーンを雇用する。",
       "description": "作戦コード「利刃」でのオペレーター着任を証明する勲章。\n不完全とは、決して良い所が無いというわけではない。",
@@ -3822,14 +3917,23 @@
       "medalName": "利刃防衛勲章",
       "medalType": "activityMedal",
       "slotId": 65,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
         "rune_season_2_1",
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
-        "10",
-        "5"
+        "10"
       ],
       "getMethod": "作戦コード「利刃」で、緊急作戦地域で全ての任務を達成して報酬を受け取る。（累計10回）",
       "description": "作戦コード「利刃」において、防衛ラインを守り抜いた者に贈られる勲章。\n貴殿にはハイレベルな陣地戦を指揮する能力が備わっている。",
@@ -3844,23 +3948,14 @@
       "medalName": "利刃機才勲章",
       "medalType": "activityMedal",
       "slotId": 66,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
       "unlockParam": [
         "rune_season_2_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "1"
+        "1",
+        "8"
       ],
       "getMethod": "作戦コード「利刃」で、通常作戦地域で契約内容指定の任務を1個達成し報酬を受け取る。",
       "description": "作戦コード「利刃」において、臨機応変に対応した者に贈られる勲章。",
@@ -3882,7 +3977,7 @@
         "rune_season_2_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "8"
+        "16"
       ],
       "getMethod": "作戦コード「利刃」で、通常作戦地域で契約内容指定の任務を8個達成し報酬を受け取る。",
       "description": "作戦コード「利刃」において、当機立断した者に贈られる勲章。\n貴殿には多種多様な緊急事態に対応できる実力が備わっている。",
@@ -3904,7 +3999,7 @@
         "rune_season_2_1",
         "enemy_hp_3;enemy_faust_atkmod_3;enemy_faust_trapmod_3;enemy_reveng_spdmod_3;enemy_reveng_atkmod_3;char_atk_3;enemy_atk_3",
         "4",
-        "16"
+        "8"
       ],
       "getMethod": "作戦コード「利刃」で、通常作戦地域で等級3の契約を4つ解禁する。",
       "description": "作戦コード「利刃」において、戦場を隅々まで駆け抜けた者に贈られる勲章。",
@@ -3941,13 +4036,23 @@
       "medalName": "利刃共闘勲章",
       "medalType": "activityMedal",
       "slotId": 70,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_2_1",
         "5",
-        "10"
+        "1"
       ],
       "getMethod": "作戦コード「利刃」で、戦友サポートを5回以上使用し任意の作戦地域を突破する。",
       "description": "作戦コード「利刃」において、戦友と共闘した者に贈られる勲章。",
@@ -3977,8 +4082,9 @@
       "template": null,
       "unlockParam": [
         "rune_season_1_1",
-        "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "1"
+        "level_rune_03-01",
+        "1",
+        "8"
       ],
       "getMethod": null,
       "description": "ある伝説の傭兵隊が使用していたシンボルを基に鋳造された勲章。\n前人未到の偉業を成し遂げた。",
@@ -4043,8 +4149,7 @@
       "unlockParam": [
         "1",
         "char_215_mantic@epoque#4",
-        "1606244399",
-        "8"
+        "1606244399"
       ],
       "getMethod": "作戦コード「黄鉄」で、マンティコアの専用コーデを購入する。",
       "description": "作戦コード「黄鉄」において、コーデのおまけについてくる勲章。\nマンティコアはこの装いの意味をわかっていないかもしれんがいが、貴殿はよくわかっているだろう。",
@@ -4059,7 +4164,18 @@
       "medalName": "黄鉄防衛勲章",
       "medalType": "activityMedal",
       "slotId": 75,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
@@ -4080,18 +4196,7 @@
       "medalName": "黄鉄機才勲章",
       "medalType": "activityMedal",
       "slotId": 76,
-      "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
       "unlockParam": [
@@ -4118,7 +4223,8 @@
       "unlockParam": [
         "rune_season_1_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "8"
+        "8",
+        "4"
       ],
       "getMethod": "作戦コード「黄鉄」で、通常作戦地域で契約内容指定の任務を8個達成し報酬を受け取る。",
       "description": "作戦コード「黄鉄」において、当機立断した者に贈られる勲章。\n貴殿には多種多様な緊急事態に対応できる実力が備わっている。",
@@ -4140,7 +4246,7 @@
         "rune_season_1_1",
         "char_atk_3;enemy_hp_3;enemy_crowns_3;enemy_ghost_3;char_def_3;global_costrecovery_3",
         "4",
-        "4"
+        "8"
       ],
       "getMethod": "作戦コード「黄鉄」で、通常作戦地域で等級3の契約を4つ解禁する。",
       "description": "作戦コード「黄鉄」において、戦場を隅々まで駆け抜けた者に贈られる勲章。",
@@ -4177,14 +4283,25 @@
       "medalName": "黄鉄共闘勲章",
       "medalType": "activityMedal",
       "slotId": 80,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_1_1",
         "5",
-        "trap_014_tower",
-        "5"
+        "8",
+        "3"
       ],
       "getMethod": "作戦コード「黄鉄」で、戦友サポートを5回以上使用し任意の作戦地域を突破する。",
       "description": "作戦コード「黄鉄」において、戦友と共闘した者に贈られる勲章。",
@@ -4214,10 +4331,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "2",
-        "act11d0_ex01#f#;act11d0_ex02#f#;act11d0_ex03#f#;act11d0_ex04#f#;act11d0_ex05#f#;act11d0_ex06#f#;act11d0_ex07#f#;act11d0_ex08#f#",
+        "3",
+        "act11d0_01;act11d0_02;act11d0_03;act11d0_04;act11d0_05;act11d0_06;act11d0_07;act11d0_08",
         "8",
-        "3"
+        "1605639599"
       ],
       "getMethod": null,
       "description": "貴殿は全てを目撃した。\n容疑者は既に死亡し、手がかりも絶えた。真犯人は巨大な動乱に身を隠し、真実は既に闇の中。ばら撒かれた憎しみの種は静かに根を張り巡らせ、再び大地を覆うチャンスをうかがう。",
@@ -4239,7 +4356,7 @@
         "3",
         "act11d0_01;act11d0_02;act11d0_03;act11d0_04;act11d0_05;act11d0_06;act11d0_07;act11d0_08",
         "8",
-        "1605639599"
+        "4"
       ],
       "getMethod": "★3で「大議事塔」のうち、被占領地以外の全てのステージをクリア。（チュートリアルを除く）",
       "description": "貴殿はリターニアの辺境の町で起こった事件を解決した。\n全ての人が悪意を胸に秘めているわけではないが、依然としてこの事件は深淵に向けて加速してゆく。",
@@ -4261,7 +4378,8 @@
         "3",
         "act11d0_08",
         "trap_014_tower",
-        "4"
+        "4",
+        "0"
       ],
       "getMethod": "全ての「蓄音機」を支配下に置いた状態で、TW‐8を★3評価でクリア。",
       "description": "貴殿は全ての「蓄音機」を支配下に置き敵のトップを撃破した。\nL-44型「蓄音機」というのはただの型番と製品名にすぎず、実際は蓄音機の機能をなにひとつ備えていない。岩石を叩くガンガンという響きは、新しい音楽になりうるかもしれないが。",
@@ -4283,7 +4401,7 @@
         "2",
         "act11d0_s01#f#;act11d0_s02#f#",
         "2",
-        "0",
+        "5",
         "0"
       ],
       "getMethod": "「大議事塔」のうち、被占領地の全てのステージの遭遇戦を★3評価でクリア。",
@@ -4306,8 +4424,7 @@
         "3",
         "act11d0_ex06",
         "trap_014_tower",
-        "5",
-        "0"
+        "5"
       ],
       "getMethod": "全ての「蓄音機」を支配下に置いた状態で、TW‐EX‐6を★3評価でクリア。",
       "description": "貴殿は最難関の任務において全ての「蓄音機」を支配下に置いた。\n貴殿もこのアーツ防衛システムの導入を考えてみるべきではないだろうか？",
@@ -4329,7 +4446,7 @@
         "2",
         "act11d0_ex01#f#;act11d0_ex02#f#;act11d0_ex03#f#;act11d0_ex04#f#;act11d0_ex05#f#;act11d0_ex06#f#;act11d0_ex07#f#;act11d0_ex08#f#",
         "8",
-        "1622746799"
+        "3"
       ],
       "getMethod": "「沈黙の辺陬」全ステージの強襲作戦をクリア。",
       "description": "貴殿は更に困難な任務に打ち勝った。\n勝利はウォルモンドに団結と生きる希望、そして未来をもたらした。",
@@ -4351,7 +4468,7 @@
         "3",
         "act11d0_mo01",
         "1",
-        "3"
+        "1626721199"
       ],
       "getMethod": "TW‐MO‐1を★3評価でクリア。",
       "description": "貴殿は最終的に騒乱を解決した。\n問題を根本から解決できるのは暴力ではない。我々に必要なのは秩序だ。",
@@ -4372,8 +4489,7 @@
       "unlockParam": [
         "char_345_folnic",
         "1605639599",
-        "1626375599",
-        "1626721199"
+        "4000"
       ],
       "getMethod": "イベント期間中に、フォリニックを雇用する。",
       "description": "フォリニックが作ったハンドメイドの勲章。\n全ての人が自分の過去の行いと和解できるというわけではないし、我々もそれを求めるべきではない。",
@@ -4434,7 +4550,8 @@
       "template": "MissionCompleteSome",
       "unlockParam": [
         "11D0Activity_1;11D0Activity_2;11D0Activity_3;11D0Activity_4;11D0Activity_5;11D0Activity_6;11D0Activity_7;11D0Activity_8;11D0Activity_9;11D0Activity_10;11D0Activity_11;11D0Activity_12;11D0Activity_13;11D0Activity_14;11D0Activity_15;11D0Activity_16;11D0Activity_17;11D0Activity_18;11D0Activity_19;11D0Activity_20;11D0Activity_21;11D0Activity_22;11D0Activity_23;11D0Activity_24;11D0Activity_25;11D0Activity_s1;11D0Activity_s2;11D0Activity_s3;11D0Activity_s4;11D0Activity_s5",
-        "30"
+        "30",
+        "1602529199"
       ],
       "getMethod": "「焦げ朽ちた記録」を全て達成し、報酬を受け取る。",
       "description": "この都市は永遠に貴殿の献身を記録する。\nこの悲劇は一度は手の施しようもないほどだったが、結果は決して酷いものではない。",
@@ -4454,8 +4571,8 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act15d5",
-        "p_char_405_absin",
-        "1602529199"
+        "char_108_silent@winter#2",
+        "1626375599"
       ],
       "getMethod": "「彼方を望む」で、全てのストーリーを解禁する。",
       "description": "ロドスオペレーターの外勤任務地点を記録した地図をモチーフに製造した勲章。星のように散らばる足跡は、オペレーターたちのこれまでの様々な経験を物語る。\n今この時にも、異なる物語が大地のどこかで同時に繰り広げられている。",
@@ -4495,7 +4612,8 @@
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act13d0"
+        "act13d0",
+        "1617476399"
       ],
       "getMethod": "「在りし日の風を求めて」で、全てのストーリーを解禁する。",
       "description": "あるオペレーターが甲板で涼んでいた時に閃いて製作した勲章。\n人が生まれてから死ぬまで、自分の周りに吹いているのはいつも同じ風らしい。",
@@ -4515,7 +4633,9 @@
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_388_mint",
-        "1617476399"
+        "1617476399",
+        "trap_014_tower",
+        "3"
       ],
       "getMethod": "「在りし日の風を求めて」で、ミントを雇用する。",
       "description": "ミントの言葉によると、この勲章は本が噛みついた歯形を描いたものらしい。\n本も人を噛むのか？ 本に歯なんてあったかな？ 待てよ、本が動くって？",
@@ -4535,9 +4655,9 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act10d5",
-        "act11d0_mo01",
-        "trap_014_tower",
-        "3"
+        "p_char_405_absin",
+        "1602529199",
+        "1605639599"
       ],
       "getMethod": "「ウルサスの子供たち」で、全てのストーリーを解禁する。",
       "description": "ぺテルヘイム高等学校の校章を模造して作られた勲章。\n心の整理はこれからだが、彼女たちは明日に向けて走り出そうとしている。",
@@ -4559,7 +4679,7 @@
         "1",
         "p_char_405_absin",
         "1602529199",
-        "1605639599"
+        "1612983599"
       ],
       "getMethod": "「ウルサスの子供たち」で、「アブサントの印」を1回交換する。",
       "description": "アブサントが大切にしていたチェルノボーグ警察章で復元した勲章。\n苦渋、哀傷、それでも生活は続けなければならない。",
@@ -4579,9 +4699,10 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act4d0",
-        "level_rune_04-01",
-        "18",
-        "1612983599"
+        "act12d0_08",
+        "trap_016_peon",
+        "0",
+        "0"
       ],
       "getMethod": "「戦地の逸話」で、全てのストーリーを解禁する。",
       "description": "資料室で情報を確認し整理する時に用いられる印章を型取りして作られた勲章。\nどの情報にも記載漏れはあるだろうが、我々にできることはただ記録に精を尽くすことだけだ。",
@@ -4601,9 +4722,9 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act6d5",
-        "act12d0_08",
-        "trap_016_peon",
-        "0",
+        "act13d5_08",
+        "enemy_1105_tyokai",
+        "8",
         "0"
       ],
       "getMethod": "「洪炉示歳」で、全てのストーリーを解禁する。",
@@ -4624,10 +4745,9 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act7d5",
-        "act13d5_08",
-        "enemy_1105_tyokai",
-        "8",
-        "0"
+        "act11d0_mo01",
+        "trap_014_tower",
+        "3"
       ],
       "getMethod": "「午後の逸話」で、全てのストーリーを解禁する。",
       "description": "アフタヌーンティートレーディングステッカーを基に作られた勲章。アフタヌーンティーの報酬との交換はできない。\nまだ多くの物語が紐解かれ語り聞かれるのを待っている。",
@@ -4693,7 +4813,8 @@
         "rune_season_2_1",
         "level_rune_04-01",
         "18",
-        "1612983599"
+        "1612983599",
+        "0"
       ],
       "getMethod": "作戦コード「利刃」で、作戦開始1週間以内（2021年2月11日3:59まで）に通常作戦区域での危機等級を18にする。",
       "description": null,
