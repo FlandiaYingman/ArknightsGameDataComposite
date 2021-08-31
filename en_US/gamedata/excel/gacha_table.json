@@ -1314,6 +1314,22 @@
       "gachaRuleType": "NORMAL"
     },
     {
+      "gachaPoolId": "NORM_EN_9_2_3",
+      "gachaIndex": 3,
+      "openTime": 1630666800,
+      "endTime": 1631876399,
+      "gachaPoolName": "Rare Operators useful in all kinds of stages",
+      "gachaPoolSummary": "Ends September 17 at 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "LimitedGacha21_g_wup",
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "LMTGSID": null,
+      "gachaRuleType": "NORMAL"
+    },
+    {
       "gachaPoolId": "LIMITED_EN_4_3_1",
       "gachaIndex": 1,
       "openTime": 1609340400,
@@ -1323,7 +1339,6 @@
       "gachaPoolDetail": null,
       "guarantee5Avail": 1,
       "guarantee5Count": 10,
-      "gachaPoolType": "LimitedGacha21_g_wup",
       "CDPrimColor": "FF1200",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_903",
@@ -1372,7 +1387,11 @@
       "CDPrimColor": "39B47A",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_1601",
-      "gachaRuleType": "LIMITED"
+      "gachaRuleType": "LIMITED",
+      "linkageRuleId": "LINKAGE_R6_01",
+      "linkageParam": {
+        "guaranteeTarget6Count": 120
+      }
     },
     {
       "gachaPoolId": "LINKAGE_EN_9_2_1",
@@ -2511,6 +2530,13 @@
       "startTime": 1629457200,
       "endTime": 1630666799,
       "spriteId": "picNorm_en_9_2_2"
+    },
+    {
+      "poolId": "NORM_EN_9_2_3",
+      "index": 3,
+      "startTime": 1630666800,
+      "endTime": 1631876399,
+      "spriteId": "picNorm_en_9_2_3"
     }
   ],
   "freeGacha": [
