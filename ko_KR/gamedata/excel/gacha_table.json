@@ -1330,6 +1330,36 @@
       "gachaRuleType": "NORMAL"
     },
     {
+      "gachaPoolId": "NORM_KR_9_3_1",
+      "gachaIndex": 2,
+      "openTime": 1630990800,
+      "endTime": 1632164399,
+      "gachaPoolName": "패스트 일루전",
+      "gachaPoolSummary": "9월 21일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "LMTGSID": null,
+      "gachaRuleType": "NORMAL"
+    },
+    {
+      "gachaPoolId": "NORM_KR_9_3_2",
+      "gachaIndex": 1,
+      "openTime": 1631818800,
+      "endTime": 1633028399,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "10월 1일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "LMTGSID": null,
+      "gachaRuleType": "NORMAL"
+    },
+    {
       "gachaPoolId": "LIMITED_KR_4_3_1",
       "gachaIndex": 1,
       "openTime": 1609304400,
@@ -1357,7 +1387,11 @@
       "CDPrimColor": "4F74F9",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_1401",
-      "gachaRuleType": "LIMITED"
+      "gachaRuleType": "LIMITED",
+      "linkageRuleId": "LINKAGE_R6_01",
+      "linkageParam": {
+        "guaranteeTarget6Count": 120
+      }
     },
     {
       "gachaPoolId": "LIMITED_KR_8_3_1",
@@ -1372,7 +1406,11 @@
       "CDPrimColor": "FF5A27",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_601",
-      "gachaRuleType": "LIMITED"
+      "gachaRuleType": "LIMITED",
+      "linkageRuleId": "LINKAGE_R6_01",
+      "linkageParam": {
+        "guaranteeTarget6Count": 120
+      }
     },
     {
       "gachaPoolId": "LIMITED_KR_9_1_1",
@@ -1387,11 +1425,7 @@
       "CDPrimColor": "39B47A",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_1601",
-      "gachaRuleType": "LIMITED",
-      "linkageRuleId": "LINKAGE_R6_01",
-      "linkageParam": {
-        "guaranteeTarget6Count": 120
-      }
+      "gachaRuleType": "LIMITED"
     },
     {
       "gachaPoolId": "LINKAGE_KR_9_2_1",
@@ -2537,6 +2571,20 @@
       "startTime": 1630609200,
       "endTime": 1631818799,
       "spriteId": "picNorm_kr_9_2_3"
+    },
+    {
+      "poolId": "NORM_KR_9_3_1",
+      "index": 2,
+      "startTime": 1630990800,
+      "endTime": 1632164399,
+      "spriteId": "picNorm_kr_9_3_1"
+    },
+    {
+      "poolId": "NORM_KR_9_3_2",
+      "index": 1,
+      "startTime": 1631818800,
+      "endTime": 1633028399,
+      "spriteId": "picNorm_kr_9_3_2"
     }
   ],
   "freeGacha": [
