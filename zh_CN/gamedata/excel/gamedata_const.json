@@ -1146,7 +1146,7 @@
     "cc.bd_b1": {
       "termId": "cc.bd_b1",
       "termName": "人间烟火",
-      "description": "由以下干员提供\n夕、乌有"
+      "description": "由以下干员提供\n夕、乌有、桑葚"
     },
     "cc.bd_ash": {
       "termId": "cc.bd_ash",
@@ -1307,7 +1307,29 @@
       "termId": "cc.sk.manu1",
       "termName": "标准化类技能",
       "description": "包含以下技能\n标准化·α、标准化·β"
+    },
+    "ba.dt.burning": {
+      "termId": "ba.dt.burning",
+      "termName": "灼燃损伤",
+      "description": "灼燃损伤累计至1000时，10秒内降低20法术抗性并受到1200点法术伤害"
+    },
+    "ba.float": {
+      "termId": "ba.float",
+      "termName": "近地悬浮",
+      "description": "无法被阻挡或近战攻击"
+    },
+    "ba.refraction": {
+      "termId": "ba.refraction",
+      "termName": "折射",
+      "description": "生效时，法术抗性+70"
+    },
+    "ba.dt.element": {
+      "termId": "ba.dt.element",
+      "termName": "元素损伤",
+      "description": "包括<$ba.dt.neural>神经损伤</>、<$ba.dt.erosion>侵蚀损伤</>、<$ba.dt.burning>灼燃损伤</>"
     }
   },
-  "charmEquipCount": 5
+  "charmEquipCount": 5,
+  "storyReviewUnlockItemLackTip": "事相碎片数量不足，请在活动期间商店获取",
+  "isVoiceLangSettingEnabled": true
 }
