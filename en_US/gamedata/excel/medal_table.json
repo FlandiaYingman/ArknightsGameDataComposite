@@ -2,7 +2,7 @@
   "medalList": [
     {
       "medalId": "medal_player_lv_01",
-      "medalName": "Veteran’s Medal I",
+      "medalName": "Veteran's Medal I",
       "medalType": "playerMedal",
       "slotId": 1,
       "preMedalIdList": [],
@@ -21,7 +21,7 @@
     },
     {
       "medalId": "medal_player_lv_02",
-      "medalName": "Veteran’s Medal II",
+      "medalName": "Veteran's Medal II",
       "medalType": "playerMedal",
       "slotId": 2,
       "preMedalIdList": [],
@@ -40,7 +40,7 @@
     },
     {
       "medalId": "medal_player_lv_03",
-      "medalName": "Veteran’s Medal III",
+      "medalName": "Veteran's Medal III",
       "medalType": "playerMedal",
       "slotId": 3,
       "preMedalIdList": [],
@@ -69,7 +69,7 @@
         "100"
       ],
       "getMethod": "Obtained 100 days after waking up",
-      "description": "A trimmed medal issued to commemorate the 100th day since your awakening.\nSince the first day of your hundred days, you’ve never stopped fighting for us.",
+      "description": "A trimmed medal issued to commemorate the 100th day since your awakening.\nSince the first day of your hundred days, you've never stopped fighting for us.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
@@ -97,7 +97,7 @@
     },
     {
       "medalId": "medal_player_charnum_01",
-      "medalName": "Liaison’s Medal I",
+      "medalName": "Liaison's Medal I",
       "medalType": "playerMedal",
       "slotId": 6,
       "preMedalIdList": [],
@@ -107,7 +107,7 @@
         "30"
       ],
       "getMethod": "Hire a total of 30 unique Operators",
-      "description": "You’ve met some Operators for the first time.",
+      "description": "You've met some Operators for the first time.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
@@ -116,7 +116,7 @@
     },
     {
       "medalId": "medal_player_charnum_02",
-      "medalName": "Liaison’s Medal II",
+      "medalName": "Liaison's Medal II",
       "medalType": "playerMedal",
       "slotId": 7,
       "preMedalIdList": [],
@@ -126,7 +126,7 @@
         "60"
       ],
       "getMethod": "Hire a total of 60 unique Operators",
-      "description": "You’ve developed a mutual understanding with quite a few Operators.\nThe growing group of Operators is sure to pose new challenges, but the benefit to Rhodes Island will be much greater in time.",
+      "description": "You've developed a mutual understanding with quite a few Operators.\nThe growing group of Operators is sure to pose new challenges, but the benefit to Rhodes Island will be much greater in time.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
@@ -135,7 +135,7 @@
     },
     {
       "medalId": "medal_player_charnum_03",
-      "medalName": "Liaison’s Medal III",
+      "medalName": "Liaison's Medal III",
       "medalType": "playerMedal",
       "slotId": 8,
       "preMedalIdList": [],
@@ -145,7 +145,7 @@
         "90"
       ],
       "getMethod": "Hire a total of 90 unique Operators",
-      "description": "You’ve brought together many Operators under the same banner.\nMaintaining interpersonal relationships between such a large number of Operators requires immense dedication.",
+      "description": "You've brought together many Operators under the same banner.\nMaintaining interpersonal relationships between such a large number of Operators requires immense dedication.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
@@ -154,7 +154,7 @@
     },
     {
       "medalId": "medal_player_charnum_04",
-      "medalName": "Liaison’s Medal IV",
+      "medalName": "Liaison's Medal IV",
       "medalType": "playerMedal",
       "slotId": 9,
       "preMedalIdList": [],
@@ -164,7 +164,7 @@
         "130"
       ],
       "getMethod": "Hire a total of 130 unique Operators",
-      "description": "You’ve touched the hearts and minds of countless Operators, developing trusting relationships.\nThe Crown cannot win a war, and reins are unable to steer an army. What you need is not a scepter, but rather sincerity.",
+      "description": "You've touched the hearts and minds of countless Operators, developing trusting relationships.\nThe Crown cannot win a war, and reins are unable to steer an army. What you need is not a scepter, but rather sincerity.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
@@ -172,10 +172,29 @@
       "getTime": -1
     },
     {
-      "medalId": "medal_player_recruitcount_01",
-      "medalName": "Recruiter’s Medal I",
+      "medalId": "medal_player_charnum_05",
+      "medalName": "Liaison's Medal V",
       "medalType": "playerMedal",
       "slotId": 10,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharNum",
+      "unlockParam": [
+        "160"
+      ],
+      "getMethod": "Hire a total of 160 unique Operators",
+      "description": "'You are attempting to build your own network of operators.\nColumbia has already developed effective personnel management programs, but you still insist on sticking to the tried-and-true methods of meet-and-greet.'",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1634828400,
+      "medalRewardGroup": [],
+      "getTime": 1634828400
+    },
+    {
+      "medalId": "medal_player_recruitcount_01",
+      "medalName": "Recruiter's Medal I",
+      "medalType": "playerMedal",
+      "slotId": 11,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "RecruitCount",
@@ -187,14 +206,26 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
-      "medalRewardGroup": [],
+      "medalRewardGroup": [
+        {
+          "groupId": "default",
+          "slotId": -1,
+          "itemList": [
+            {
+              "id": "voucher_recruitR5_pick2",
+              "count": 1,
+              "type": "VOUCHER_PICK"
+            }
+          ]
+        }
+      ],
       "getTime": -1
     },
     {
       "medalId": "medal_player_recruitcount_02",
-      "medalName": "Recruiter’s Medal II",
+      "medalName": "Recruiter's Medal II",
       "medalType": "playerMedal",
-      "slotId": 11,
+      "slotId": 12,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "RecruitCount",
@@ -202,7 +233,7 @@
         "100"
       ],
       "getMethod": "Conduct Recruitment 100 times",
-      "description": "You’ve developed your method of recruiting.",
+      "description": "You've developed your method of recruiting.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
@@ -223,9 +254,9 @@
     },
     {
       "medalId": "medal_player_recruitcount_03",
-      "medalName": "Recruiter’s Medal III",
+      "medalName": "Recruiter's Medal III",
       "medalType": "playerMedal",
-      "slotId": 12,
+      "slotId": 13,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "RecruitCount",
@@ -233,7 +264,7 @@
         "300"
       ],
       "getMethod": "Conduct Recruitment 300 times",
-      "description": "You’ve developed a keen eye for talent.\nBy starting with developing strong relationships, you’ve paved the way for many more people to become Operators.",
+      "description": "You've developed a keen eye for talent.\nBy starting with developing strong relationships, you've paved the way for many more people to become Operators.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
@@ -254,10 +285,21 @@
     },
     {
       "medalId": "medal_player_recruitcount_04",
-      "medalName": "Recruiter’s Medal IV",
+      "medalName": "Recruiter's Medal IV",
       "medalType": "playerMedal",
-      "slotId": 13,
-      "preMedalIdList": [],
+      "slotId": 14,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 2,
       "template": "RecruitCount",
       "unlockParam": [
@@ -285,25 +327,17 @@
     },
     {
       "medalId": "medal_player_recruitcount_05",
-      "medalName": "Recruiter’s Medal V",
+      "medalName": "Recruiter's Medal V",
       "medalType": "playerMedal",
-      "slotId": 14,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 15,
+      "preMedalIdList": [],
       "rarity": 4,
       "template": "RecruitCount",
       "unlockParam": [
-        "1000"
+        "1000",
+        "main_03-08",
+        "1",
+        "8"
       ],
       "getMethod": "Conduct Recruitment 1000 times",
       "description": "The search for talent is of paramount importance to you.\nWhereas other people find but sand in the desert, you will uncover secrets, wealth, and even new Operators.",
@@ -329,7 +363,7 @@
       "medalId": "medal_stage_normal_01",
       "medalName": "Dead End",
       "medalType": "stageMedal",
-      "slotId": 1,
+      "slotId": 2,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -337,10 +371,10 @@
         "2",
         "main_03-08",
         "1",
-        "8"
+        "16"
       ],
       "getMethod": "Complete Stage 3-8",
-      "description": "You’ve witnessed a series of tragedies.",
+      "description": "You've witnessed a series of tragedies.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -351,18 +385,17 @@
       "medalId": "medal_stage_fourstar_01",
       "medalName": "First Encounter Challenger's Medal",
       "medalType": "stageMedal",
-      "slotId": 2,
+      "slotId": 3,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_00-01#f#;main_00-02#f#;main_00-03#f#;main_00-04#f#;main_00-05#f#;main_00-06#f#;main_00-07#f#;main_00-08#f#;main_00-09#f#;main_00-10#f#;main_00-11#f#;main_01-01#f#;main_01-03#f#;main_01-04#f#;main_01-05#f#;main_01-06#f#;main_01-07#f#;main_01-08#f#;main_01-09#f#;main_01-10#f#;main_01-12#f#;main_02-01#f#;main_02-02#f#;main_02-03#f#;main_02-04#f#;main_02-05#f#;main_02-06#f#;main_02-07#f#;main_02-08#f#;main_02-09#f#;main_02-10#f#;main_03-01#f#;main_03-02#f#;main_03-03#f#;main_03-04#f#;main_03-05#f#;main_03-06#f#;main_03-07#f#;main_03-08#f#",
-        "39",
-        "16"
+        "39"
       ],
       "getMethod": "Complete all stages from the Prologue to Episode 3 on Challenge Mode",
-      "description": "You’ve fought off the enemies under excruciating conditions.\nIt seems you make a good team with the Rhodes Island squad.",
+      "description": "You've fought off the enemies under excruciating conditions.\nIt seems you make a good team with the Rhodes Island squad.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -373,14 +406,15 @@
       "medalId": "medal_stage_normal_02",
       "medalName": "Winter is Coming",
       "medalType": "stageMedal",
-      "slotId": 3,
+      "slotId": 4,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_04-10",
-        "1"
+        "1",
+        "5"
       ],
       "getMethod": "Complete Stage 4-10",
       "description": "Your squad has survived a battle against FrostNova.",
@@ -394,18 +428,17 @@
       "medalId": "medal_stage_fourstar_02",
       "medalName": "Resistance Challenger's Medal",
       "medalType": "stageMedal",
-      "slotId": 4,
+      "slotId": 5,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_04-01#f#;main_04-02#f#;main_04-03#f#;main_04-04#f#;main_04-05#f#;main_04-06#f#;main_04-07#f#;main_04-08#f#;main_04-09#f#;main_04-10#f#",
-        "10",
-        "5"
+        "10"
       ],
       "getMethod": "Complete all stages in Episode 4 on Challenge Mode",
-      "description": "You’ve become an expert of challenges.\nYour operatives can now carry out your instructions with exact precision.",
+      "description": "You've become an expert of challenges.\nYour operatives can now carry out your instructions with exact precision.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -416,7 +449,7 @@
       "medalId": "medal_stage_normal_03",
       "medalName": "Unity",
       "medalType": "stageMedal",
-      "slotId": 5,
+      "slotId": 6,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -437,7 +470,7 @@
       "medalId": "medal_stage_fourstar_03",
       "medalName": "City Challenger's Medal",
       "medalType": "stageMedal",
-      "slotId": 6,
+      "slotId": 7,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -458,17 +491,18 @@
       "medalId": "medal_stage_hard_01",
       "medalName": "Inferno Desperation Medal",
       "medalType": "stageMedal",
-      "slotId": 7,
+      "slotId": 8,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "hard_05-01;hard_05-02;hard_05-03;hard_05-04",
-        "4"
+        "4",
+        "8"
       ],
       "getMethod": "Complete all Extreme Mode stages in Episode 5 with 3-star ratings",
-      "description": "Fortunately, you’ve escaped unscathed.\nThe arrows of Inferno just barely missed you.",
+      "description": "Fortunately, you've escaped unscathed.\nThe arrows of Inferno just barely missed you.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -479,15 +513,14 @@
       "medalId": "medal_stage_normal_04",
       "medalName": "Sacrifice",
       "medalType": "stageMedal",
-      "slotId": 8,
+      "slotId": 9,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_06-06",
-        "1",
-        "8"
+        "1"
       ],
       "getMethod": "Complete Stage 6-7",
       "description": "Your operators have retrieved Faust's crossbow.",
@@ -500,27 +533,6 @@
     {
       "medalId": "medal_stage_normal_05",
       "medalName": "Acquaintances",
-      "medalType": "stageMedal",
-      "slotId": 9,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "PassStageSome",
-      "unlockParam": [
-        "2",
-        "main_06-15",
-        "1"
-      ],
-      "getMethod": "Complete Stage 6-17",
-      "description": "You’ve become friends with FrostNova.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1619784000,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_stage_fourstar_04",
-      "medalName": "Cold Winds Challenger's Medal",
       "medalType": "stageMedal",
       "slotId": 10,
       "preMedalIdList": [
@@ -535,6 +547,27 @@
         "medal_activity_11d0_10",
         "medal_activity_11d0_11"
       ],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "2",
+        "main_06-15",
+        "1"
+      ],
+      "getMethod": "Complete Stage 6-17",
+      "description": "You've become friends with FrostNova.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1619784000,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_stage_fourstar_04",
+      "medalName": "Cold Winds Challenger's Medal",
+      "medalType": "stageMedal",
+      "slotId": 11,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
@@ -554,17 +587,18 @@
       "medalId": "medal_stage_hard_02",
       "medalName": "Cocytus Desperation Medal",
       "medalType": "stageMedal",
-      "slotId": 11,
+      "slotId": 12,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "hard_06-01;hard_06-02;hard_06-03;hard_06-04",
+        "4",
         "4"
       ],
       "getMethod": "Complete all Extreme Mode stages in Episode 6 with 3-star ratings",
-      "description": "You haven’t become an ice sculpture.\nThe icy feats of Cocytus are now evaporating away.",
+      "description": "You haven't become an ice sculpture.\nThe icy feats of Cocytus are now evaporating away.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -575,15 +609,14 @@
       "medalId": "medal_stage_normal_06",
       "medalName": "Determination",
       "medalType": "stageMedal",
-      "slotId": 12,
+      "slotId": 13,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_07-01",
-        "1",
-        "4"
+        "1"
       ],
       "getMethod": "Complete Stage 7-2",
       "description": "Ch'en Hui-chieh has chosen her own path.",
@@ -597,17 +630,18 @@
       "medalId": "medal_stage_normal_07",
       "medalName": "A Warrior's Life",
       "medalType": "stageMedal",
-      "slotId": 13,
+      "slotId": 14,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_07-16",
-        "1"
+        "1",
+        "5"
       ],
       "getMethod": "Complete Stage 7-18",
-      "description": "News of Patriot’s death echoed throughout Chernobog Core City.",
+      "description": "News of Patriot's death echoed throughout Chernobog Core City.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -618,15 +652,14 @@
       "medalId": "medal_stage_fourstar_05",
       "medalName": "Formation Challenger's Medal",
       "medalType": "stageMedal",
-      "slotId": 14,
+      "slotId": 15,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_07-01#f#;main_07-02#f#;main_07-03#f#;main_07-04#f#;main_07-05#f#;main_07-06#f#;main_07-07#f#;main_07-08#f#;main_07-09#f#;main_07-10#f#;main_07-11#f#;main_07-12#f#;main_07-13#f#;main_07-14#f#;main_07-15#f#;main_07-16#f#",
-        "16",
-        "5"
+        "16"
       ],
       "getMethod": "Complete all stages in Episode 7 on Challenge Mode",
       "description": "You now possess the ability to carry out assaults during stealthy infiltrations.\nAs long as you remain unseen by the enemy's mainstay, all methods are fair game.",
@@ -640,17 +673,18 @@
       "medalId": "medal_stage_hard_03",
       "medalName": "Starfire Desperation Medal",
       "medalType": "stageMedal",
-      "slotId": 15,
+      "slotId": 16,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "hard_07-01;hard_07-02;hard_07-03;hard_07-04",
-        "4"
+        "4",
+        "3"
       ],
       "getMethod": "Complete all Extreme Mode stages in Episode 7 with 3-star ratings",
-      "description": "Congratulations, you haven’t been crushed into pieces.\nThe Starfire-like halberd has merely smashed into the ground.",
+      "description": "Congratulations, you haven't been crushed into pieces.\nThe Starfire-like halberd has merely smashed into the ground.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -661,15 +695,14 @@
       "medalId": "medal_stage_normal_08",
       "medalName": "Chokehold",
       "medalType": "stageMedal",
-      "slotId": 16,
+      "slotId": 17,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_08-13",
-        "1",
-        "3"
+        "1"
       ],
       "getMethod": "Complete Stage R8-11",
       "description": "The Emperors' Blades have splintered Talulah's Infected faction.",
@@ -683,7 +716,7 @@
       "medalId": "medal_stage_normal_09",
       "medalName": "Silence",
       "medalType": "stageMedal",
-      "slotId": 17,
+      "slotId": 18,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -693,7 +726,7 @@
         "1"
       ],
       "getMethod": "Complete Stage M8-8",
-      "description": "You’ve dealt with the Class II Infection Threat at the sarcophagus with Kal’tsit, and that took you on a trip down memory lane.",
+      "description": "You've dealt with the Class II Infection Threat at the sarcophagus with Kal'tsit, and that took you on a trip down memory lane.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -704,7 +737,7 @@
       "medalId": "medal_stage_normal_10",
       "medalName": "The Dust Has Settled",
       "medalType": "stageMedal",
-      "slotId": 18,
+      "slotId": 19,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -725,7 +758,7 @@
       "medalId": "medal_stage_fourstar_06",
       "medalName": "Ruins Challenger's Medal",
       "medalType": "stageMedal",
-      "slotId": 19,
+      "slotId": 20,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -746,8 +779,18 @@
       "medalId": "medal_stage_hard_04",
       "medalName": "Lingering Warmth Desperation Medal",
       "medalType": "stageMedal",
-      "slotId": 20,
-      "preMedalIdList": [],
+      "slotId": 21,
+      "preMedalIdList": [
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
+      ],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
@@ -768,21 +811,14 @@
       "medalName": "War-hardened Medal",
       "medalType": "campMedal",
       "slotId": 1,
-      "preMedalIdList": [
-        "medal_activity_13d5_02",
-        "medal_activity_13d5_03",
-        "medal_activity_13d5_04",
-        "medal_activity_13d5_05",
-        "medal_activity_13d5_06",
-        "medal_activity_13d5_07",
-        "medal_activity_13d5_08",
-        "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 4,
       "template": "CampaignsDiamondLimit",
       "unlockParam": [
-        "1800"
+        "1800",
+        "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
+        "100",
+        "8"
       ],
       "getMethod": "Reach weekly reward limit 1800",
       "description": "An engraved medal awarded for successfully honing your skills during the Annihilation period.\nYou have proved that a high intensity, prolonged command only makes you all the stronger.",
@@ -802,12 +838,12 @@
       "template": "CampaignsComplete",
       "unlockParam": [
         "camp_01",
-        "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
-        "100",
-        "8"
+        "act13d5_01;act13d5_02;act13d5_03;act13d5_04;act13d5_05;act13d5_06;act13d5_07;act13d5_08",
+        "8",
+        "16"
       ],
       "getMethod": "Completely clear Annihilation Operation Chernobog and claim all the rewards",
-      "description": "An engraved medal awarded for successfully completing the Chernobog Annihilation mission.\nChernobog’s refugees are now being escorted out of the city by Rhodes Island.",
+      "description": "An engraved medal awarded for successfully completing the Chernobog Annihilation mission.\nChernobog's refugees are now being escorted out of the city by Rhodes Island.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -824,12 +860,12 @@
       "template": "CampaignsComplete",
       "unlockParam": [
         "camp_02",
-        "act13d5_01;act13d5_02;act13d5_03;act13d5_04;act13d5_05;act13d5_06;act13d5_07;act13d5_08",
-        "8",
-        "16"
+        "act13d5_08",
+        "enemy_1105_tyokai",
+        "4"
       ],
       "getMethod": "Completely clear Annihilation Operation Lungmen Outskirts and claim all the rewards",
-      "description": "An engraved medal awarded for successfully completing the Lungmen Outskirts Annihilation mission.\nLungmen’s citizens now recognize Rhodes Island's professionalism and trustworthiness.",
+      "description": "An engraved medal awarded for successfully completing the Lungmen Outskirts Annihilation mission.\nLungmen's citizens now recognize Rhodes Island's professionalism and trustworthiness.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -846,12 +882,12 @@
       "template": "CampaignsComplete",
       "unlockParam": [
         "camp_03",
-        "act13d5_08",
+        "act13d5_ex08",
         "enemy_1105_tyokai",
-        "4"
+        "3"
       ],
       "getMethod": "Completely clear Annihilation Operation Lungmen Downtown and claim all the rewards",
-      "description": "An engraved medal awarded for successfully completing the Lungmen Downtown Annihilation mission.\nLungmen’s citizens now hold Rhodes Island in high esteem.",
+      "description": "An engraved medal awarded for successfully completing the Lungmen Downtown Annihilation mission.\nLungmen's citizens now hold Rhodes Island in high esteem.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -868,12 +904,13 @@
       "template": "CampaignsComplete",
       "unlockParam": [
         "camp_r_01",
-        "act13d5_ex08",
-        "enemy_1105_tyokai",
-        "3"
+        "1",
+        "8",
+        "1",
+        "5"
       ],
       "getMethod": "Completely clear Annihilation Operation The Grand Knight Territory Outskirts and claim all the rewards",
-      "description": "An engraved medal awarded for successfully completing the Grand Knight Territory Outskirts Annihilation mission or practice.\nNo matter how the mission was completed, Rhodes Island is now highly appraised in the Kazimierz merchants’ eyes.",
+      "description": "An engraved medal awarded for successfully completing the Grand Knight Territory Outskirts Annihilation mission or practice.\nNo matter how the mission was completed, Rhodes Island is now highly appraised in the Kazimierz merchants' eyes.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1619784000,
@@ -892,8 +929,7 @@
         "camp_r_02",
         "1",
         "8",
-        "1",
-        "5"
+        "3"
       ],
       "getMethod": "Completely clear Annihilation Operation Frozen Abandoned City and claim all the rewards",
       "description": "An engraved medal awarded for successfully completing the Frozen Abandoned City Annihilation mission or practice.\nBe it training or actual combat, this land of death will never engulf all that walks upon it.",
@@ -914,8 +950,7 @@
       "unlockParam": [
         "camp_r_03",
         "1",
-        "8",
-        "3"
+        "4"
       ],
       "getMethod": "Completely clear Annihilation Operation Abandoned Mine and claim all the rewards",
       "description": "An engraved medal awarded for successfully completing the Ursus Abandoned Mine Annihilation mission or simulation.\nNo matter whether simulated or put into practice, the departed souls once trapped in those mines will rest in peace.",
@@ -936,7 +971,9 @@
       "unlockParam": [
         "1",
         "1",
-        "4"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "Raise 1 Operator(s) to Elite 1",
       "description": "Under your guidance, one of your Operators has passed the Promotion Qualification Exam.",
@@ -957,9 +994,9 @@
       "unlockParam": [
         "20",
         "1",
-        "trap_016_peon",
-        "0",
-        "2"
+        "4000",
+        "1",
+        "7"
       ],
       "getMethod": "Raise 20 Operator(s) to Elite 1",
       "description": "Several of your Operators have passed the Promotion Qualification Exam.",
@@ -974,15 +1011,23 @@
       "medalName": "Promotion Medal III",
       "medalType": "growthMedal",
       "slotId": 3,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
         "50",
-        "1",
-        "4000",
-        "1",
-        "7"
+        "1"
       ],
       "getMethod": "Raise 50 Operator(s) to Elite 1",
       "description": "The Promotion Qualification Exam has gradually turned into just another way for your Operators to gauge their personal growth.",
@@ -997,23 +1042,14 @@
       "medalName": "Promotion Medal IV",
       "medalType": "growthMedal",
       "slotId": 4,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09",
-        "medal_activity_11d0_11"
-      ],
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CharEvolveCount",
       "unlockParam": [
         "80",
-        "1"
+        "1",
+        "100",
+        "8"
       ],
       "getMethod": "Raise 80 Operator(s) to Elite 1",
       "description": "The Promotion Qualification Exam is no more than a basic test for your Operators to improve themselves.\nAfter being promoted, will they continue to strive for greater heights?",
@@ -1027,15 +1063,15 @@
       "medalId": "medal_growth_evolve2_01",
       "medalName": "Elite Excellence Medal I",
       "medalType": "growthMedal",
-      "slotId": 5,
+      "slotId": 6,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
         "1",
         "2",
-        "100",
-        "8"
+        "1",
+        "16"
       ],
       "getMethod": "Raise 1 Operator(s) to Elite 2",
       "description": "Under your leadership, an Operator has discovered their unique value to the team.",
@@ -1049,15 +1085,14 @@
       "medalId": "medal_growth_evolve2_02",
       "medalName": "Elite Excellence Medal II",
       "medalType": "growthMedal",
-      "slotId": 6,
+      "slotId": 7,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
         "10",
         "2",
-        "1",
-        "16"
+        "4000"
       ],
       "getMethod": "Raise 10 Operator(s) to Elite 2",
       "description": "Several of your Operators have taken on important roles within their respective posts.",
@@ -1071,14 +1106,15 @@
       "medalId": "medal_growth_evolve2_03",
       "medalName": "Elite Excellence Medal III",
       "medalType": "growthMedal",
-      "slotId": 7,
+      "slotId": 8,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
         "25",
         "2",
-        "4000"
+        "9",
+        "5"
       ],
       "getMethod": "Raise 25 Operator(s) to Elite 2",
       "description": "Many of your Operators have gone above and beyond the call of duty.",
@@ -1092,18 +1128,19 @@
       "medalId": "medal_growth_evolve2_04",
       "medalName": "Elite Excellence Medal IV",
       "medalType": "growthMedal",
-      "slotId": 8,
+      "slotId": 9,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharEvolveCount",
       "unlockParam": [
         "40",
         "2",
-        "9",
+        "trap_016_peon",
+        "1",
         "5"
       ],
       "getMethod": "Raise 40 Operator(s) to Elite 2",
-      "description": "A few of your Operators have become role models within their fields.\nRhodes Island constantly seeks to expand its talent pool. If there’s a position you can’t fill, you sometimes have to cultivate that talent yourself.",
+      "description": "A few of your Operators have become role models within their fields.\nRhodes Island constantly seeks to expand its talent pool. If there's a position you can't fill, you sometimes have to cultivate that talent yourself.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1609340400,
@@ -1114,16 +1151,14 @@
       "medalId": "medal_growth_skill_01",
       "medalName": "Skill Improvement Medal I",
       "medalType": "growthMedal",
-      "slotId": 9,
+      "slotId": 11,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharSkillCount",
       "unlockParam": [
         "1",
         "7",
-        "trap_016_peon",
-        "1",
-        "5"
+        "8"
       ],
       "getMethod": "Train 1 Operator(s) to Skill Level 7",
       "description": "One of your Operators has mastered their techniques upon the battlefield.",
@@ -1137,14 +1172,14 @@
       "medalId": "medal_growth_skill_02",
       "medalName": "Skill Improvement Medal II",
       "medalType": "growthMedal",
-      "slotId": 10,
+      "slotId": 12,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharSkillCount",
       "unlockParam": [
         "25",
         "7",
-        "8"
+        "4"
       ],
       "getMethod": "Train 25 Operator(s) to Skill Level 7",
       "description": "After mastering their individual abilities, your Operators seek to develop synergies.",
@@ -1158,14 +1193,16 @@
       "medalId": "medal_growth_skill_03",
       "medalName": "Skill Improvement Medal III",
       "medalType": "growthMedal",
-      "slotId": 11,
+      "slotId": 13,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharSkillCount",
       "unlockParam": [
         "60",
         "7",
-        "4"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "Train 60 Operator(s) to Skill Level 7",
       "description": "Your Operators are exploring the possibility of effective joint operations.\nCombined-squad operations not only test the capabilities of the commander, but also test the ability of Operators to work together - the effective use of their skills only first step towards enabling that.",
@@ -1179,7 +1216,7 @@
       "medalId": "medal_growth_specskill_01",
       "medalName": "Skill Mastery Medal I",
       "medalType": "growthMedal",
-      "slotId": 12,
+      "slotId": 15,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharSkillSpecCount",
@@ -1187,8 +1224,8 @@
         "1",
         "3",
         "trap_016_peon",
-        "0",
-        "2"
+        "1",
+        "7"
       ],
       "getMethod": "Train 1 Operator(s) to Skill Specialization 3",
       "description": "One of your Operators has honed their combat skills to perfection.",
@@ -1202,16 +1239,24 @@
       "medalId": "medal_growth_specskill_02",
       "medalName": "Skill Mastery Medal II",
       "medalType": "growthMedal",
-      "slotId": 13,
-      "preMedalIdList": [],
+      "slotId": 16,
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CharSkillSpecCount",
       "unlockParam": [
         "5",
-        "3",
-        "trap_016_peon",
-        "1",
-        "7"
+        "3"
       ],
       "getMethod": "Train 5 Operator(s) to Skill Specialization 3",
       "description": "Several of your Operators have fully developed their skills on the battlefield.",
@@ -1225,24 +1270,15 @@
       "medalId": "medal_growth_specskill_03",
       "medalName": "Skill Mastery Medal III",
       "medalType": "growthMedal",
-      "slotId": 14,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 17,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CharSkillSpecCount",
       "unlockParam": [
         "10",
-        "3"
+        "3",
+        "1",
+        "8"
       ],
       "getMethod": "Train 10 Operator(s) to Skill Specialization 3",
       "description": "Many of your Operators have fully grasped how to leverage their position on the battlefield.\nWhile tempering oneself is no easy feat, learning to work towards a common goal with others can be more difficult.",
@@ -1256,7 +1292,7 @@
       "medalId": "medal_growth_favor_01",
       "medalName": "Friendship Medal I",
       "medalType": "growthMedal",
-      "slotId": 15,
+      "slotId": 19,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1264,9 +1300,9 @@
         "1",
         "100",
         "1",
-        "8"
+        "16"
       ],
-      "getMethod": "Raise 1 Operators to Elite 100",
+      "getMethod": "Raise 1 Operators to Trust 100",
       "description": "You have become good friends with one of your Operators.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1278,17 +1314,16 @@
       "medalId": "medal_growth_favor_02",
       "medalName": "Friendship Medal II",
       "medalType": "growthMedal",
-      "slotId": 16,
+      "slotId": 20,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
       "unlockParam": [
         "20",
         "100",
-        "1",
-        "16"
+        "1606301999"
       ],
-      "getMethod": "Raise 20 Operators to Elite 100",
+      "getMethod": "Raise 20 Operators to Trust 100",
       "description": "You have become good friends with several of your Operators.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1300,16 +1335,17 @@
       "medalId": "medal_growth_favor_03",
       "medalName": "Friendship Medal III",
       "medalType": "growthMedal",
-      "slotId": 17,
+      "slotId": 21,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
       "unlockParam": [
         "50",
         "100",
-        "1606301999"
+        "10",
+        "5"
       ],
-      "getMethod": "Raise 50 Operators to Elite 100",
+      "getMethod": "Raise 50 Operators to Trust 100",
       "description": "You have become good friends with many of your Operators.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1321,29 +1357,7 @@
       "medalId": "medal_growth_favor_04",
       "medalName": "Friendship Medal IV",
       "medalType": "growthMedal",
-      "slotId": 18,
-      "preMedalIdList": [],
-      "rarity": 2,
-      "template": "CharFavorCount",
-      "unlockParam": [
-        "100",
-        "100",
-        "10",
-        "5"
-      ],
-      "getMethod": "Raise 100 Operators to Elite 100",
-      "description": "You have become good friends with a significant amount of your Operators.\nSomeone is bound to say hi and make conversation every time you walk down the hallway.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1622214000,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_growth_favormax_01",
-      "medalName": "Companionship Medal I",
-      "medalType": "growthMedal",
-      "slotId": 19,
+      "slotId": 22,
       "preMedalIdList": [
         "medal_activity_14d5_02",
         "medal_activity_14d5_03",
@@ -1355,14 +1369,36 @@
         "medal_activity_14d5_09",
         "medal_activity_14d5_10"
       ],
+      "rarity": 2,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "100",
+        "100",
+        "1"
+      ],
+      "getMethod": "Raise 100 Operators to Trust 100",
+      "description": "You have become good friends with a significant amount of your Operators.\nSomeone is bound to say hi and make conversation every time you walk down the hallway.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1622214000,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_growth_favormax_01",
+      "medalName": "Companionship Medal I",
+      "medalType": "growthMedal",
+      "slotId": 23,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
       "unlockParam": [
         "1",
         "200",
-        "1"
+        "1",
+        "8"
       ],
-      "getMethod": "Raise 1 Operators to Elite 200",
+      "getMethod": "Raise 1 Operators to Trust 200",
       "description": "One of your Operators is now willing to trust you with their life.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1374,7 +1410,7 @@
       "medalId": "medal_growth_favormax_02",
       "medalName": "Companionship Medal II",
       "medalType": "growthMedal",
-      "slotId": 20,
+      "slotId": 24,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1382,9 +1418,9 @@
         "20",
         "200",
         "1",
-        "8"
+        "16"
       ],
-      "getMethod": "Raise 20 Operators to Elite 200",
+      "getMethod": "Raise 20 Operators to Trust 200",
       "description": "Several of your Operators are now willing to trust you with their lives.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1396,17 +1432,17 @@
       "medalId": "medal_growth_favormax_03",
       "medalName": "Companionship Medal III",
       "medalType": "growthMedal",
-      "slotId": 21,
+      "slotId": 25,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
       "unlockParam": [
         "40",
         "200",
-        "1",
-        "16"
+        "1623409199",
+        "4"
       ],
-      "getMethod": "Raise 40 Operators to Elite 200",
+      "getMethod": "Raise 40 Operators to Trust 200",
       "description": "Many of your Operators are now willing to trust you with their lives.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1418,17 +1454,17 @@
       "medalId": "medal_growth_favormax_04",
       "medalName": "Companionship Medal IV",
       "medalType": "growthMedal",
-      "slotId": 22,
+      "slotId": 26,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharFavorCount",
       "unlockParam": [
         "60",
         "200",
-        "1623409199",
-        "4"
+        "10",
+        "3"
       ],
-      "getMethod": "Raise 60 Operators to Elite 200",
+      "getMethod": "Raise 60 Operators to Trust 200",
       "description": "A significant number of your Operators are now willing to trust you with their lives. \nHow in the world are you able to keep such close relationships with so many operators?",
       "advancedMedal": null,
       "originMedal": null,
@@ -1440,15 +1476,25 @@
       "medalId": "medal_growth_char_01",
       "medalName": "'Proof of Camaraderie'",
       "medalType": "growthMedal",
-      "slotId": 23,
-      "preMedalIdList": [],
+      "slotId": 27,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "GotChars",
       "unlockParam": [
         "char_198_blackd;char_187_ccheal;char_260_durnar",
         "5",
-        "10",
-        "3"
+        "1"
       ],
       "getMethod": "Obtain Courier, Gavial, and Dur-nar",
       "description": "Your willingness to help others is a major reason why many Operators have joined us.",
@@ -1462,25 +1508,15 @@
       "medalId": "medal_growth_potential_01",
       "medalName": "'Correspondence, Medicine, and Education'",
       "medalType": "growthMedal",
-      "slotId": 24,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 28,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
       "unlockParam": [
         "char_198_blackd;char_187_ccheal;char_260_durnar",
         "5",
-        "1"
+        "8",
+        "8"
       ],
       "getMethod": "Obtain Courier, Gavial, and Dur-nar, and raise them to Max Potential",
       "description": "You have gained the recognition of messengers, combat medics, and instructors.\nYou all share the same view, that trust is indispensable.",
@@ -1494,15 +1530,15 @@
       "medalId": "medal_growth_char_02",
       "medalName": "'Proof of Dedication'",
       "medalType": "growthMedal",
-      "slotId": 25,
+      "slotId": 29,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
       "unlockParam": [
         "char_355_ethan;char_275_breeze",
         "5",
-        "8",
-        "8"
+        "4",
+        "16"
       ],
       "getMethod": "Obtain Ethan and Breeze",
       "description": "Your hard work and dedication is a reason why many Operators have joined us.",
@@ -1516,15 +1552,15 @@
       "medalId": "medal_growth_potential_02",
       "medalName": "'The Invisible Healing Hand'",
       "medalType": "growthMedal",
-      "slotId": 26,
+      "slotId": 30,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
       "unlockParam": [
         "char_355_ethan;char_275_breeze",
         "5",
-        "4",
-        "16"
+        "1",
+        "8"
       ],
       "getMethod": "Obtain Ethan and Breeze, and raise them to Max Potential",
       "description": "You have gained the recognition of a master of stealth and a declining physician.\nYou all share the same view, that hard work will inevitably pay off.",
@@ -1538,18 +1574,18 @@
       "medalId": "medal_growth_char_03",
       "medalName": "'Closure Crew α'",
       "medalType": "growthMedal",
-      "slotId": 27,
+      "slotId": 31,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
       "unlockParam": [
         "char_285_medic2;char_286_cast3",
         "5",
-        "1",
-        "8"
+        "4000",
+        "5"
       ],
       "getMethod": "Obtain Lancet-2 and Castle-3",
-      "description": "Some of Closure’s robots have already been dispatched to your side.",
+      "description": "Some of Closure's robots have already been dispatched to your side.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1609340400,
@@ -1560,29 +1596,7 @@
       "medalId": "medal_growth_potential_03",
       "medalName": "“L2＆C3”",
       "medalType": "growthMedal",
-      "slotId": 28,
-      "preMedalIdList": [],
-      "rarity": 2,
-      "template": "CharPotential",
-      "unlockParam": [
-        "char_285_medic2;char_286_cast3",
-        "5",
-        "4000",
-        "5"
-      ],
-      "getMethod": "Obtain Lancet-2 and Castle-3, and get them to Max Potential",
-      "description": "You’ve gained the approval of Guard and Medic Robots.\nIf not for their lack of a carbon-based body, they’re really just like us.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1609340400,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_12fce_1",
-      "medalName": "Certain Choices",
-      "medalType": "storyMedal",
-      "slotId": 1,
+      "slotId": 32,
       "preMedalIdList": [
         "medal_activity_13d5_02",
         "medal_activity_13d5_03",
@@ -1594,12 +1608,34 @@
         "medal_activity_13d5_09",
         "medal_activity_13d5_10"
       ],
+      "rarity": 2,
+      "template": "CharPotential",
+      "unlockParam": [
+        "char_285_medic2;char_286_cast3",
+        "5",
+        "1"
+      ],
+      "getMethod": "Obtain Lancet-2 and Castle-3, and get them to Max Potential",
+      "description": "You've gained the approval of Guard and Medic Robots.\nIf not for their lack of a carbon-based body, they're really just like us.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1609340400,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_12fce_1",
+      "medalName": "Certain Choices",
+      "medalType": "storyMedal",
+      "slotId": 1,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_009_12fce",
         "story_12fce_set_1",
-        "1"
+        "100",
+        "1613041199"
       ],
       "getMethod": "Unlock 12F's Operator Record 'Certain Choices'",
       "description": "A person's identity begins and ends with their name.\nHow are our identities, our beginnings, and our ends defined?",
@@ -1614,28 +1650,6 @@
       "medalName": "Apples",
       "medalType": "storyMedal",
       "slotId": 2,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_124_kroos",
-        "story_kroos_set_1",
-        "100",
-        "1613041199"
-      ],
-      "getMethod": "Unlock Kroos's Operator Record 'Apples'",
-      "description": "A kind of food and also the marksmen's favorite target.\nIf you ever find Kroos's toy arrows stuck anywhere that's not an apple, that's because she never intended to shoot the apple in the first place.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_rope_1",
-      "medalName": "Floral Perfume",
-      "medalType": "storyMedal",
-      "slotId": 3,
       "preMedalIdList": [
         "medal_activity_15d0_02",
         "medal_activity_15d0_03",
@@ -1650,10 +1664,32 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_236_rope",
-        "story_rope_set_1",
+        "char_124_kroos",
+        "story_kroos_set_1",
         "8",
         "1605697199"
+      ],
+      "getMethod": "Unlock Kroos's Operator Record 'Apples'",
+      "description": "A kind of food and also the marksmen's favorite target.\nIf you ever find Kroos's toy arrows stuck anywhere that's not an apple, that's because she never intended to shoot the apple in the first place.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1624363200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_rope_1",
+      "medalName": "Floral Perfume",
+      "medalType": "storyMedal",
+      "slotId": 3,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_236_rope",
+        "story_rope_set_1",
+        "100",
+        "4"
       ],
       "getMethod": "Unlock Rope's Operator Record 'Floral Perfume'",
       "description": "A fragrance neither luxuriant nor special; just perfect for a girl who grew up on the streets of Lungmen.\nRope holds this perfume dear to her heart. It was something she could only ever look at through the shops' windows, and now she has one specially made for her.",
@@ -1674,11 +1710,11 @@
       "unlockParam": [
         "char_118_yuki",
         "story_yuki_set_1",
-        "100",
-        "4"
+        "enemy_1105_tyokai",
+        "3"
       ],
       "getMethod": "Unlock Shirayuki's Operator Record 'The Way of Shinobi'",
-      "description": "The way of the shinobi is a strange, poorly traveled road.\nAs Chief Engineer Closure can attest, having ShiraYuki inspect pipes is perhaps a fine decision indeed.",
+      "description": "The way of the shinobi is a strange, poorly traveled road.\nAs Chief Engineer Closure can attest, having Shirayuki inspect pipes is perhaps a fine decision indeed.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624363200,
@@ -1690,28 +1726,6 @@
       "medalName": "The First Step Towards Trust",
       "medalType": "storyMedal",
       "slotId": 5,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_356_broca",
-        "story_broca_set_1",
-        "enemy_1105_tyokai",
-        "3"
-      ],
-      "getMethod": "Unlock Broca's Operator Record 'The First Step Towards Trust'",
-      "description": "There exists no organizations that we can come to like at first glance.\nAll we can do is to convince everyone through our actions that our ideals are far from empty promises.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_prove_1",
-      "medalName": "Coworkers",
-      "medalType": "storyMedal",
-      "slotId": 6,
       "preMedalIdList": [
         "medal_activity_11d0_02",
         "medal_activity_11d0_03",
@@ -1727,11 +1741,32 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_145_prove",
-        "story_prove_set_1",
+        "char_356_broca",
+        "story_broca_set_1",
         "4000",
         "1",
         "5"
+      ],
+      "getMethod": "Unlock Broca's Operator Record 'The First Step Towards Trust'",
+      "description": "There exists no organizations that we can come to like at first glance.\nAll we can do is to convince everyone through our actions that our ideals are far from empty promises.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1624363200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_prove_1",
+      "medalName": "Coworkers",
+      "medalType": "storyMedal",
+      "slotId": 6,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_145_prove",
+        "story_prove_set_1",
+        "8"
       ],
       "getMethod": "Unlock Provence's Operator Record 'Coworkers'",
       "description": "While you are worried about others, there are bound to be others who are concerned about you.\nThanks to Tsukinogi's thoughtful advice, our Medical operators stand ready to keep Provence from sneaking out through the landship's entrance.",
@@ -1752,7 +1787,8 @@
       "unlockParam": [
         "char_158_milu",
         "story_milu_set_1",
-        "8"
+        "8",
+        "4"
       ],
       "getMethod": "Unlock Firewatch's Operator Record 'On My Way'",
       "description": "Firewatch believes the future holds naught but a path of revenge.\nPerhaps it was a pitstop, or perhaps it was a detour, but, by chance, she came upon Rhodes Island.",
@@ -1773,8 +1809,9 @@
       "unlockParam": [
         "char_2013_cerber",
         "story_cerber_set_1",
-        "8",
-        "4"
+        "trap_025_prison",
+        "4",
+        "2"
       ],
       "getMethod": "Unlock Ceobe's Operator Record 'XXL Honey Biscuit'",
       "description": "An engraved medal handcrafted by Vulcan. Modeled after a honey biscuit, these medals are given to Ceobe as a reward for her performance.\nThough Ceobe is particularly fond of these medals, they are actually the same size as all other medals; the only difference being the letters 'XXL' emblazoned on them.",
@@ -1795,9 +1832,9 @@
       "unlockParam": [
         "char_180_amgoat",
         "story_amgoat_set_1",
-        "trap_025_prison",
-        "4",
-        "2"
+        "8",
+        "1",
+        "7"
       ],
       "getMethod": "Unlock Eyjafjalla's Operator Record 'Heart of a Scholar'",
       "description": "The heart of a scholar is an abstract concept. It is something that cannot be quantified, and can only be conceptualized in our hearts.\nBe careful not to let mere representations cloud your judgment.",
@@ -1812,15 +1849,24 @@
       "medalName": "Volcano",
       "medalType": "storyMedal",
       "slotId": 10,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
       "rarity": 2,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_180_amgoat",
         "story_amgoat_set_2",
-        "8",
-        "1",
-        "7"
+        "trap_025_prison",
+        "4"
       ],
       "getMethod": "Unlock Eyjafjalla's Operator Record 'Volcano'",
       "description": "There is a volcano is Eyjafjalla's mind.\nThat once burned away is truth, and eternity.",
@@ -1835,24 +1881,14 @@
       "medalName": "Cooperation",
       "medalType": "storyMedal",
       "slotId": 11,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_250_phatom",
         "story_phatom_set_1",
         "trap_025_prison",
-        "4"
+        "2"
       ],
       "getMethod": "Unlock Phantom's Operator Record 'Cooperation'",
       "description": "There is much that we cannot accomplish alone. Therefore, we must work together.\nIt is part of a Rhodes Island operator's required studies to learn how to work with our many peculiar teammates to bring our missions to a successful conclusion.",
@@ -1867,28 +1903,6 @@
       "medalName": "'A Piece of Graffiti'",
       "medalType": "storyMedal",
       "slotId": 12,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_285_medic2",
-        "story_medic2_set_1",
-        "trap_025_prison",
-        "2"
-      ],
-      "getMethod": "Unlock Lancet-2's Operator Record 'A Piece of Graffiti'",
-      "description": "It is said to be a piece of Columbian slang. \nLancet-2 is not certain about whether she is fond of it since she is a robot, yet she appreciate its prettiness.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1626188400,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_melan_1",
-      "medalName": "'Team Captain'",
-      "medalType": "storyMedal",
-      "slotId": 13,
       "preMedalIdList": [
         "medal_activity_14d5_02",
         "medal_activity_14d5_03",
@@ -1903,10 +1917,33 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
+        "char_285_medic2",
+        "story_medic2_set_1",
+        "1",
+        "16"
+      ],
+      "getMethod": "Unlock Lancet-2's Operator Record 'A Piece of Graffiti'",
+      "description": "It is said to be a piece of Columbian slang. \nLancet-2 is not certain about whether she is fond of it since she is a robot, yet she appreciate its prettiness.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1626188400,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_melan_1",
+      "medalName": "'Team Captain'",
+      "medalType": "storyMedal",
+      "slotId": 13,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
         "char_208_melan",
         "story_melan_set_1",
         "1",
-        "16"
+        "8",
+        "0"
       ],
       "getMethod": "Unlock Melantha's Operator Record 'Team Captain'",
       "description": "The formation of Reserve Op team A4 is not without twists and turns. \nThe instructor believes that Melantha will become a good captain. But what does it take to become one?",
@@ -1921,14 +1958,24 @@
       "medalName": "'Sisters'",
       "medalType": "storyMedal",
       "slotId": 14,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_16d0_02",
+        "medal_activity_16d0_03",
+        "medal_activity_16d0_04",
+        "medal_activity_16d0_05",
+        "medal_activity_16d0_06",
+        "medal_activity_16d0_07",
+        "medal_activity_16d0_08",
+        "medal_activity_16d0_09",
+        "medal_activity_16d0_10"
+      ],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_121_lava",
         "story_lava_set_1",
         "1",
-        "8",
+        "16",
         "0"
       ],
       "getMethod": "Unlock Lava's Operator Record ''Sisters''",
@@ -1944,25 +1991,15 @@
       "medalName": "'Caring'",
       "medalType": "storyMedal",
       "slotId": 15,
-      "preMedalIdList": [
-        "medal_activity_16d0_02",
-        "medal_activity_16d0_03",
-        "medal_activity_16d0_04",
-        "medal_activity_16d0_05",
-        "medal_activity_16d0_06",
-        "medal_activity_16d0_07",
-        "medal_activity_16d0_08",
-        "medal_activity_16d0_09",
-        "medal_activity_16d0_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_121_lava",
         "story_lava_set_2",
         "1",
-        "16",
-        "0"
+        "8",
+        "5"
       ],
       "getMethod": "Unlock Lava's Operator Record ''Caring''",
       "description": "Hibiscus is sick?!\nThis would be Hibiscus's first time ill, and Lava's first time tending to her big sister... right?",
@@ -1984,11 +2021,10 @@
         "char_290_vigna",
         "story_vigna_set_1",
         "1",
-        "8",
-        "5"
+        "16"
       ],
       "getMethod": "Unlock Vigna's Operator Record 'What You've Gotta Do'",
-      "description": "For Vigna, rock 'n' roll is her whole hobby.\nBut it’s not her whole life.",
+      "description": "For Vigna, rock 'n' roll is her whole hobby.\nBut it's not her whole life.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626188400,
@@ -2006,8 +2042,7 @@
       "unlockParam": [
         "char_109_fmout",
         "story_fmout_set_1",
-        "1",
-        "16"
+        "1"
       ],
       "getMethod": "Unlock Gitano's Operator Record ''Divination''",
       "description": "Everything has a price, and no price is ever the same.\nDivination is much the same: pay their terms, obtain your results.",
@@ -2028,7 +2063,9 @@
       "unlockParam": [
         "char_242_otter",
         "story_otter_set_1",
-        "1"
+        "10",
+        "0",
+        "2"
       ],
       "getMethod": "Unlock Mayer's Operator Record 'One Packed Daily Schedule'",
       "description": "Mayer always works around the clock.\nOf course, she asked for that herself, since she likes it.",
@@ -2043,15 +2080,25 @@
       "medalName": "'Monster'",
       "medalType": "storyMedal",
       "slotId": 19,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_16d5_02",
+        "medal_activity_16d5_03",
+        "medal_activity_16d5_04",
+        "medal_activity_16d5_05",
+        "medal_activity_16d5_06",
+        "medal_activity_16d5_07",
+        "medal_activity_16d5_08",
+        "medal_activity_16d5_09",
+        "medal_activity_16d5_10"
+      ],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_171_bldsk",
         "story_bldsk_set_1",
-        "10",
-        "0",
-        "2"
+        "1",
+        "1",
+        "7"
       ],
       "getMethod": "Unlock Warfarin's Operator Record ''Monster''",
       "description": "Warfarin never hides that she's a Vampire.\nNo need to panic, and no use for fear.",
@@ -2067,24 +2114,23 @@
       "medalType": "storyMedal",
       "slotId": 20,
       "preMedalIdList": [
-        "medal_activity_16d5_02",
-        "medal_activity_16d5_03",
-        "medal_activity_16d5_04",
-        "medal_activity_16d5_05",
-        "medal_activity_16d5_06",
-        "medal_activity_16d5_07",
-        "medal_activity_16d5_08",
-        "medal_activity_16d5_09",
-        "medal_activity_16d5_10"
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
       ],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_291_aglina",
         "story_aglina_set_1",
-        "1",
-        "1",
-        "7"
+        "8",
+        "8"
       ],
       "getMethod": "Unlock Angelina's Operator Record ''Package with No Recipient''",
       "description": "A work slip-up?\nAngelina sure doesn't feel like anyone here would send her a present.",
@@ -2099,23 +2145,13 @@
       "medalName": "'Old Friends in Foreign Places'",
       "medalType": "storyMedal",
       "slotId": 21,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_355_ethan",
         "story_ethan_set_1",
-        "8",
+        "10",
         "8"
       ],
       "getMethod": "Unlock Ethan's Operator Record ''Old Friends in Foreign Places''",
@@ -2131,28 +2167,6 @@
       "medalName": "'Refurbishment Plans'",
       "medalType": "storyMedal",
       "slotId": 22,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_181_flower",
-        "story_flower_set_1",
-        "10",
-        "8"
-      ],
-      "getMethod": "Unlock Perfumer's Operator Record ''Refurbishment Plans''",
-      "description": "The Convalescent Garden needs a refresh to keep up with the times.\nTo this end, there's a great deal Perfumer needs to do, just like when she first established the Garden.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1629298800,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_liskam_1",
-      "medalName": "'Apple Pie Party, Now Preparing!'",
-      "medalType": "storyMedal",
-      "slotId": 23,
       "preMedalIdList": [
         "medal_activity_13d5_02",
         "medal_activity_13d5_03",
@@ -2167,10 +2181,33 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_107_liskam",
-        "story_liskam_set_1",
+        "char_181_flower",
+        "story_flower_set_1",
         "trap_026_inverter",
         "4"
+      ],
+      "getMethod": "Unlock Perfumer's Operator Record ''Refurbishment Plans''",
+      "description": "The Convalescent Garden needs a refresh to keep up with the times.\nTo this end, there's a great deal Perfumer needs to do, just like when she first established the Garden.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1629298800,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_liskam_1",
+      "medalName": "'Apple Pie Party, Now Preparing!'",
+      "medalType": "storyMedal",
+      "slotId": 23,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_107_liskam",
+        "story_liskam_set_1",
+        "trap_001_crate",
+        "8",
+        "0"
       ],
       "getMethod": "Unlock Liskarm's Operator Record ''Apple Pie Party, Now Preparing!''",
       "description": "'You guys can cook. I've still got a bill I need to settle.'",
@@ -2185,14 +2222,24 @@
       "medalName": "'Still Waiting'",
       "medalType": "storyMedal",
       "slotId": 24,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_16d5_02",
+        "medal_activity_16d5_03",
+        "medal_activity_16d5_04",
+        "medal_activity_16d5_05",
+        "medal_activity_16d5_06",
+        "medal_activity_16d5_07",
+        "medal_activity_16d5_08",
+        "medal_activity_16d5_09",
+        "medal_activity_16d5_10"
+      ],
       "rarity": 2,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_107_liskam",
         "story_liskam_set_2",
-        "trap_001_crate",
         "8",
+        "0",
         "0"
       ],
       "getMethod": "Unlock Liskarm's Operator Record ''Still Waiting''",
@@ -2225,8 +2272,7 @@
         "char_340_shwaz",
         "story_shwaz_set_1",
         "8",
-        "0",
-        "0"
+        "4"
       ],
       "getMethod": "Unlock Schwarz's Operator Record ''The Day We Left Home''",
       "description": "In the past, Schwarz's life was always very simple.\nBut now, things have gotten complicated.",
@@ -2237,10 +2283,490 @@
       "getTime": -1
     },
     {
+      "medalId": "medal_story_noirc_1",
+      "medalName": "'The Other Side of the Deck'",
+      "medalType": "storyMedal",
+      "slotId": 26,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_500_noirc",
+        "story_noirc_set_1",
+        "10",
+        "3"
+      ],
+      "getMethod": "Unlock Noir Corne's Operator Record 'The Other Side of the Deck'",
+      "description": "Get off work earlier, kick back and relax.\nAt the bar, you may expose yourself to some new perspectives you've previously overlooked.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_tiger_1",
+      "medalName": "'The Guide to Mutual Learning'",
+      "medalType": "storyMedal",
+      "slotId": 27,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_155_tiger",
+        "story_tiger_set_1",
+        "10",
+        "4"
+      ],
+      "getMethod": "Unlock Indra's Operator Record 'The Guide to Mutual Learning'",
+      "description": "Tailored for Operator Indra.\nThe purpose of this is not to teach her to knock down her opponents faster, but to teach her to help them back up after knocking them down.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_sidero_1",
+      "medalName": "'Diligent'",
+      "medalType": "storyMedal",
+      "slotId": 28,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_333_sidero",
+        "story_sidero_set_1",
+        "trap_026_inverter",
+        "4"
+      ],
+      "getMethod": "Unlock Sideroca's Operator Record 'Diligent'",
+      "description": "Nobody has the resolve to tell Sideroca that her intense focus can be rather troublesome.\nSo, everyone's always trying to divert her attention towards somebody else.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_angel_1",
+      "medalName": "'Incoming Mail'",
+      "medalType": "storyMedal",
+      "slotId": 29,
+      "preMedalIdList": [
+        "medal_activity_16d0_02",
+        "medal_activity_16d0_03",
+        "medal_activity_16d0_04",
+        "medal_activity_16d0_05",
+        "medal_activity_16d0_06",
+        "medal_activity_16d0_07",
+        "medal_activity_16d0_08",
+        "medal_activity_16d0_09",
+        "medal_activity_16d0_10"
+      ],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_103_angel",
+        "story_angel_set_1",
+        "trap_001_crate",
+        "8"
+      ],
+      "getMethod": "Unlock Exusiai's Operator Record 'Incoming Mail'",
+      "description": "A letter from one's hometown.\nWhen traveling afar, is there anybody who doesn't get homesick at all?",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_nights_1",
+      "medalName": "'Kitties'",
+      "medalType": "storyMedal",
+      "slotId": 30,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10",
+        "medal_activity_11d0_11"
+      ],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_141_nights",
+        "story_nights_set_1",
+        "8",
+        "8"
+      ],
+      "getMethod": "Unlock Haze's Operator Record ''Kitties''",
+      "description": "The 'Kitty Fanciers' Association' is now recruiting. Prospective applicants should report to Operator Haze.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_ghost_1",
+      "medalName": "Merry Christmas!",
+      "medalType": "storyMedal",
+      "slotId": 31,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_143_ghost",
+        "story_ghost_set_1",
+        "8",
+        "16"
+      ],
+      "getMethod": "Unlock Specter's Operator Record 'Merry Christmas!'",
+      "description": "A precious music box. Its mysterious melody exudes elegance.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_texas_1",
+      "medalName": "Guaranteed Success",
+      "medalType": "storyMedal",
+      "slotId": 32,
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_102_texas",
+        "story_texas_set_1",
+        "trap_025_prison",
+        "4"
+      ],
+      "getMethod": "Unlock Texas's Operator Record 'Guaranteed Success'",
+      "description": "You can't go wrong with Texas's expedited delivery service.\nIf there is an issue, it's definitely something on the recipient's side.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_helage_1",
+      "medalName": "Fate",
+      "medalType": "storyMedal",
+      "slotId": 33,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_188_helage",
+        "story_helage_set_1",
+        "4000",
+        "2"
+      ],
+      "getMethod": "Unlock Hellagur's Operator Record 'Fate'",
+      "description": "The general is distancing himself from the land he once believed in.\nBeneath the burning sky, he leaves behind his arrogance, his glory, and his entire past.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_01",
+      "medalName": "'A Walk in the Dust'",
+      "medalType": "activityMedal",
+      "slotId": 21,
+      "preMedalIdList": [
+        "medal_activity_18d0_02",
+        "medal_activity_18d0_03",
+        "medal_activity_18d0_04",
+        "medal_activity_18d0_05",
+        "medal_activity_18d0_06",
+        "medal_activity_18d0_07",
+        "medal_activity_18d0_08",
+        "medal_activity_18d0_09",
+        "medal_activity_18d0_10"
+      ],
+      "rarity": 4,
+      "template": null,
+      "unlockParam": [
+        "act16d5",
+        "act16d5_token_inker",
+        "4000",
+        "5"
+      ],
+      "getMethod": null,
+      "description": "You have witnessed a very small portion of her tortuous journey.\nInscribed within her eyes are a great land and an entire epoch. Just as we cannot condense the rise and fall of civilizations in a single word, we scarcely have the words to describe her.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_02",
+      "medalName": "Consultant of the Year Medal",
+      "medalType": "activityMedal",
+      "slotId": 22,
+      "preMedalIdList": [
+        "medal_activity_16d0_02",
+        "medal_activity_16d0_03",
+        "medal_activity_16d0_04",
+        "medal_activity_16d0_05",
+        "medal_activity_16d0_06",
+        "medal_activity_16d0_07",
+        "medal_activity_16d0_08",
+        "medal_activity_16d0_09",
+        "medal_activity_16d0_10"
+      ],
+      "rarity": 0,
+      "template": "PassStageKilledTotal",
+      "unlockParam": [
+        "2",
+        "act18d0_01;act18d0_02;act18d0_03;act18d0_04;act18d0_05;act18d0_06;act18d0_07;act18d0_08;act18d0_ex01;act18d0_ex02;act18d0_ex03;act18d0_ex04;act18d0_ex05;act18d0_ex06;act18d0_ex07;act18d0_ex08;act18d0_ex01#f#;act18d0_ex02#f#;act18d0_ex03#f#;act18d0_ex04#f#;act18d0_ex05#f#;act18d0_ex06#f#;act18d0_ex07#f#;act18d0_ex08#f#",
+        "enemy_1145_atkspd;enemy_1145_atkspd_2;enemy_1146_defspd;enemy_1146_defspd_2",
+        "100"
+      ],
+      "getMethod": "During the 'A Walk in the Dust' event, destroy a total of 100 Air Support Drones (includes Scrap, Scrap Model-U, Anvil, and Anvil Model-B, tutorial stages do not count).",
+      "description": "You cleverly handled the mercenary offensive.\nSimilar three-dimensional warfare solutions are expensive, and many mercenary companies find that annual drone expenditures are their most pressing problem.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_03",
+      "medalName": "'Heavyrain's Coming'",
+      "medalType": "activityMedal",
+      "slotId": 23,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "GotCharsBeforeTime",
+      "unlockParam": [
+        "char_304_zebra",
+        "1634813999",
+        "1",
+        "8"
+      ],
+      "getMethod": "During the 'A Walk in the Dust' event, obtain Operator Heavyrain.",
+      "description": "Heavyrain is coming.\nThough she may look like a weak and timid girl, the weapon in her hand will sometimes move faster than her thoughts.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_04",
+      "medalName": "Archive Organizer Medal",
+      "medalType": "activityMedal",
+      "slotId": 24,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "ActivityCoinCost",
+      "unlockParam": [
+        "act18d0",
+        "act18d0_token_page",
+        "4000",
+        "16",
+        "5"
+      ],
+      "getMethod": "During the 'A Walk in the Dust' event, spend at least 4,000 Scattered Sketches in the Reefsteep Black Market.",
+      "description": "You've carefully sorted out old files for a certain operator. Will she thank you?\nThe knowledge and lost images within may not be the most memorable, but even through these fragments, you can feel a hint of a lonely romance and a noble mission.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_05",
+      "medalName": "'Taqsim of the Land'",
+      "medalType": "activityMedal",
+      "slotId": 25,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "MissionCompleteSome",
+      "unlockParam": [
+        "18D0Activity_1;18D0Activity_2;18D0Activity_3;18D0Activity_4;18D0Activity_5;18D0Activity_6;18D0Activity_7;18D0Activity_8;18D0Activity_9;18D0Activity_10;18D0Activity_11;18D0Activity_12;18D0Activity_13;18D0Activity_14;18D0Activity_15;18D0Activity_16;18D0Activity_17;18D0Activity_18;18D0Activity_19;18D0Activity_20;18D0Activity_21;18D0Activity_22;18D0Activity_23;18D0Activity_24",
+        "24",
+        "10",
+        "8"
+      ],
+      "getMethod": "Complete all the content in [Song of Dust] and collect the rewards",
+      "description": "You've heard many anecdotes about her.\nShe's getting closer to becoming a flesh-and-blood 'human.' Only this way can she find her final destination.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_06",
+      "medalName": "'Wanderer of Terra'",
+      "medalType": "activityMedal",
+      "slotId": 26,
+      "preMedalIdList": [
+        "medal_activity_15d0_02",
+        "medal_activity_15d0_03",
+        "medal_activity_15d0_04",
+        "medal_activity_15d0_05",
+        "medal_activity_15d0_06",
+        "medal_activity_15d0_07",
+        "medal_activity_15d0_08",
+        "medal_activity_15d0_09",
+        "medal_activity_15d0_10"
+      ],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "act18d0_01;act18d0_02;act18d0_03;act18d0_04;act18d0_05;act18d0_06;act18d0_07;act18d0_08",
+        "8"
+      ],
+      "getMethod": "Complete all stages in [Walk Alone] with 3-star ratings (excluding tutorials).",
+      "description": "You've watched her travel down many paths.\nThese are but small threads in the lengthy tapestry of civilization.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_07",
+      "medalName": "Deadly Air Support Medal",
+      "medalType": "activityMedal",
+      "slotId": 27,
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
+      "rarity": 0,
+      "template": "PassStageKilled",
+      "unlockParam": [
+        "3",
+        "act18d0_ex06",
+        "enemy_1145_atkspd;enemy_1145_atkspd_2;enemy_1146_defspd;enemy_1146_defspd_2",
+        "8",
+        "2"
+      ],
+      "getMethod": "Clear WD-EX-6 with a 3-star rating while destroying at least 8 Air Support Drones (includes Scrap, Scrap Model-U, Anvil, and Anvil Model-B).",
+      "description": "You've displayed excellence in neutralizing enemy drones.\nMercenaries hate fighting those who insist on shooting down their drones more than anything else. It gets too expensive.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_08",
+      "medalName": "Endless Wandering Medal",
+      "medalType": "activityMedal",
+      "slotId": 28,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "act18d0_ex01#f#;act18d0_ex02#f#;act18d0_ex03#f#;act18d0_ex04#f#;act18d0_ex05#f#;act18d0_ex06#f#;act18d0_ex07#f#;act18d0_ex08#f#",
+        "8",
+        "1",
+        "7"
+      ],
+      "getMethod": "Complete all stages in [The Endless Road] on Challenge Mode",
+      "description": "You watched over her, and she watched over the land.\nIn this lifetime, she tried repeatedly to prevent humans from ushering in their own ruination. But her power is too diffuse, and she requires true followers.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_09",
+      "medalName": "'Drone Buffet'",
+      "medalType": "activityMedal",
+      "slotId": 29,
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
+      ],
+      "rarity": 2,
+      "template": "PassStageKilledLess",
+      "unlockParam": [
+        "3",
+        "act18d0_ex05",
+        "enemy_1145_atkspd;enemy_1145_atkspd_2;enemy_1146_defspd;enemy_1146_defspd_2",
+        "0"
+      ],
+      "getMethod": "Clear WD-EX-5 with a 3-star rating without destroying any Air Support Drones (includes Scrap, Scrap Model-U, Anvil, and Anvil Model-B).",
+      "description": "You've recovered a fair number of air support drones.\n'Why break 'em? Think about how much money we save by waiting for them to run out of fuel, then picking 'em up.'",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_10",
+      "medalName": "'The Second Contact'",
+      "medalType": "activityMedal",
+      "slotId": 30,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageWithDeadInLess",
+      "unlockParam": [
+        "3",
+        "act18d0_08",
+        "4",
+        "8"
+      ],
+      "getMethod": "Clear WD-8 with at least a 3-star rating while being hit by [Collapsing Fear] in [Dominion] no more than 4 times.",
+      "description": "You tried your hardest to avoid getting entangled in foreign affairs.\nThe Dominion of Demons has long been a fanciful notion, having nothing to do the traces of any existing civilization, its principles inscrutable to any Arts or scientific research. However, it is by no means the only unknown existence in this world. After all, what do the civilizations of Terra have to show for all their development?",
+      "advancedMedal": "medal_activity_18d0_105",
+      "originMedal": null,
+      "activeTime": 1633003200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
       "medalId": "medal_activity_16d5_01",
       "medalName": "'Who is Real'",
       "medalType": "activityMedal",
-      "slotId": 1,
+      "slotId": 31,
       "preMedalIdList": [
         "medal_activity_16d5_02",
         "medal_activity_16d5_03",
@@ -2255,10 +2781,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act16d5",
-        "300",
+        "rune_season_4_1",
+        "5",
         "8",
-        "4"
+        "16"
       ],
       "getMethod": null,
       "description": "You sensed through to Dusk's field of view.\nOnce, she said she was merely a habitant of a painting. Perhaps she truly landed her guess. But she doesn't plan on doing anything about it. What about you, then?",
@@ -2272,15 +2798,25 @@
       "medalId": "medal_activity_16d5_02",
       "medalName": "'Turner of Hui and Ming'",
       "medalType": "activityMedal",
-      "slotId": 2,
-      "preMedalIdList": [],
+      "slotId": 32,
+      "preMedalIdList": [
+        "medal_activity_15d0_02",
+        "medal_activity_15d0_03",
+        "medal_activity_15d0_04",
+        "medal_activity_15d0_05",
+        "medal_activity_15d0_06",
+        "medal_activity_15d0_07",
+        "medal_activity_15d0_08",
+        "medal_activity_15d0_09",
+        "medal_activity_15d0_10"
+      ],
       "rarity": 0,
       "template": "ActivityHoldTaichi",
       "unlockParam": [
         "act16d5",
         "300",
-        "10",
-        "3"
+        "100",
+        "4"
       ],
       "getMethod": "During the event, deploy allied units on Marks of Hui and Ming a total of 300 times",
       "description": "You made your first delve into Dusk's way of the painting.\nThe next time you meet, she'll bring you aesthetics from a place far above logic.",
@@ -2294,15 +2830,14 @@
       "medalId": "medal_activity_16d5_03",
       "medalName": "'First Waking'",
       "medalType": "activityMedal",
-      "slotId": 3,
+      "slotId": 33,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act16d5_01;act16d5_02;act16d5_03;act16d5_04;act16d5_05;act16d5_06;act16d5_07;act16d5_08;act16d5_09;act16d5_10",
-        "10",
-        "4"
+        "10"
       ],
       "getMethod": "Complete all stages in [Leave From Yourself] with 3-star ratings (excluding tutorials)",
       "description": "From that home in a memory, you departed.\nThis place's customs, clothing and buildings were wholly unlike the nomadic cities of Yen in style. Was it someone's faint recollection of their hometown, or a phantasmagoria brought about by the wielder of a brush?",
@@ -2316,7 +2851,7 @@
       "medalId": "medal_activity_16d5_04",
       "medalName": "Conservation Medal",
       "medalType": "activityMedal",
-      "slotId": 4,
+      "slotId": 34,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithLessDeploy",
@@ -2338,18 +2873,8 @@
       "medalId": "medal_activity_16d5_05",
       "medalName": "Gold-Winner Ink Spirit Medal",
       "medalType": "activityMedal",
-      "slotId": 5,
-      "preMedalIdList": [
-        "medal_activity_16d0_02",
-        "medal_activity_16d0_03",
-        "medal_activity_16d0_04",
-        "medal_activity_16d0_05",
-        "medal_activity_16d0_06",
-        "medal_activity_16d0_07",
-        "medal_activity_16d0_08",
-        "medal_activity_16d0_09",
-        "medal_activity_16d0_10"
-      ],
+      "slotId": 35,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithLessDeploy",
       "unlockParam": [
@@ -2370,18 +2895,17 @@
       "medalId": "medal_activity_16d5_06",
       "medalName": "Freeling Medal",
       "medalType": "activityMedal",
-      "slotId": 6,
+      "slotId": 36,
       "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10",
-        "medal_activity_11d0_11"
+        "medal_activity_14d5_02",
+        "medal_activity_14d5_03",
+        "medal_activity_14d5_04",
+        "medal_activity_14d5_05",
+        "medal_activity_14d5_06",
+        "medal_activity_14d5_07",
+        "medal_activity_14d5_08",
+        "medal_activity_14d5_09",
+        "medal_activity_14d5_10"
       ],
       "rarity": 2,
       "template": "PassStageWithoutBossShield",
@@ -2389,7 +2913,7 @@
         "3",
         "act16d5_ex08",
         "8",
-        "8"
+        "1605697199"
       ],
       "getMethod": "Clear WR-EX-8 with a 3-star rating without destroying [Free]'s shield [Break the Chains]",
       "description": "You turned a blind eye as it broke its own shackles. This was your mercy.\n'Free' had never been truly free to be before, and had actually rarely experienced situations like this. For a moment, it even sympathized with you.",
@@ -2403,7 +2927,7 @@
       "medalId": "medal_activity_16d5_07",
       "medalName": "'Know Yourself, Illuminate Yourself'",
       "medalType": "activityMedal",
-      "slotId": 7,
+      "slotId": 37,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -2411,7 +2935,7 @@
         "3",
         "act16d5_ex01#f#;act16d5_ex02#f#;act16d5_ex03#f#;act16d5_ex04#f#;act16d5_ex05#f#;act16d5_ex06#f#;act16d5_ex07#f#;act16d5_ex08#f#",
         "8",
-        "16"
+        "4"
       ],
       "getMethod": "Complete all stages in [Come To Yourself] on Challenge Mode",
       "description": "You prevailed over formidable musings.\nThe name 'Ink Spirit' was one Saga chose. Before that, they all actually had their own names. Er, some of them were pretty adorable—did Dusk really pick them out? That immovable object?",
@@ -2425,25 +2949,16 @@
       "medalId": "medal_activity_16d5_08",
       "medalName": "'Itinerant in the Painting'",
       "medalType": "activityMedal",
-      "slotId": 8,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
-      ],
+      "slotId": 38,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "16D5Activity_1;16D5Activity_2;16D5Activity_3;16D5Activity_4;16D5Activity_5;16D5Activity_6;16D5Activity_7;16D5Activity_8;16D5Activity_9;16D5Activity_10;16D5Activity_11;16D5Activity_12;16D5Activity_13;16D5Activity_14;16D5Activity_15;16D5Activity_16;16D5Activity_17;16D5Activity_18;16D5Activity_19;16D5Activity_20;16D5Activity_21;16D5Activity_22;16D5Activity_23;16D5Activity_24;16D5Activity_25;16D5Activity_26;16D5Activity_27;16D5Activity_28;16D5Activity_29",
         "29",
         "trap_025_prison",
-        "4"
+        "4",
+        "0"
       ],
       "getMethod": "Complete all the content in [Ask Yourself] and collect the rewards",
       "description": "You traveled the landscapes of Dusk's scrolls, just as Saga did.\nThe fact Saga escaped by herself is something Dusk has taken to heart even now. After all, Saga's far too young a being. Doesn't it come off as degrading of Dusk's standing?",
@@ -2457,15 +2972,26 @@
       "medalId": "medal_activity_16d5_09",
       "medalName": "Purgatory Medal",
       "medalType": "activityMedal",
-      "slotId": 9,
-      "preMedalIdList": [],
+      "slotId": 39,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_1011_lava2",
         "1629457199",
-        "4000",
-        "2"
+        "8",
+        "4",
+        "0"
       ],
       "getMethod": "During the event, obtain Operator Lava the Purgatory",
       "description": "You bore witness to an Operator's future.\nLava's already greatly grown, and become quite maturely steady, but she still revels in her additionally earned title of 'Purgatory,' despite it seeming a little redundant at that point.",
@@ -2479,25 +3005,15 @@
       "medalId": "medal_activity_16d5_10",
       "medalName": "Ink and Stone Medal",
       "medalType": "activityMedal",
-      "slotId": 10,
-      "preMedalIdList": [
-        "medal_activity_16d0_02",
-        "medal_activity_16d0_03",
-        "medal_activity_16d0_04",
-        "medal_activity_16d0_05",
-        "medal_activity_16d0_06",
-        "medal_activity_16d0_07",
-        "medal_activity_16d0_08",
-        "medal_activity_16d0_09",
-        "medal_activity_16d0_10"
-      ],
+      "slotId": 40,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
       "unlockParam": [
         "act16d5",
         "act16d5_token_inker",
         "4000",
-        "5"
+        "4"
       ],
       "getMethod": "During the event, consume 4000 Dusk Inkstones in [Answer Yourself]",
       "description": "You collected a great deal of Dusk's beloved objects.\nThere's just one tiny little concern. Can you really take what you brought out of Dusk's scrolls, and throw them into a workshop rest assured?",
@@ -2511,7 +3027,7 @@
       "medalId": "medal_activity_16d0_01",
       "medalName": "Lead Seal Asunder Medal",
       "medalType": "activityMedal",
-      "slotId": 11,
+      "slotId": 41,
       "preMedalIdList": [
         "medal_activity_16d0_02",
         "medal_activity_16d0_03",
@@ -2526,10 +3042,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "rune_season_4_1",
-        "level_rune_06-01",
-        "1",
-        "8"
+        "3",
+        "act15d0_ex08",
+        "trap_025_prison",
+        "2"
       ],
       "getMethod": null,
       "description": "An engraved medal based upon a certain lead seal.\nNo matter how deep into the abyss the secrets are hidden, they will surely all emerge into the world someday.",
@@ -2543,8 +3059,18 @@
       "medalId": "medal_activity_16d0_02",
       "medalName": "Lead Seal: Commemorative Contract Medal",
       "medalType": "activityMedal",
-      "slotId": 12,
-      "preMedalIdList": [],
+      "slotId": 42,
+      "preMedalIdList": [
+        "medal_activity_14d5_02",
+        "medal_activity_14d5_03",
+        "medal_activity_14d5_04",
+        "medal_activity_14d5_05",
+        "medal_activity_14d5_06",
+        "medal_activity_14d5_07",
+        "medal_activity_14d5_08",
+        "medal_activity_14d5_09",
+        "medal_activity_14d5_10"
+      ],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
@@ -2565,7 +3091,7 @@
       "medalId": "medal_activity_16d0_03",
       "medalName": "Lead Seal: Commemorative Contract Medal II",
       "medalType": "activityMedal",
-      "slotId": 13,
+      "slotId": 43,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -2573,8 +3099,7 @@
         "rune_season_4_1",
         "level_rune_06-01",
         "1",
-        "16",
-        "5"
+        "16"
       ],
       "getMethod": "During Operation Lead Seal, reach a rating of SSS in the Permanent operation site",
       "description": "An engraved medal awarded to those who conquered desperation during Operation Lead Seal.\nYou have overcome many challenges.",
@@ -2588,15 +3113,15 @@
       "medalId": "medal_activity_16d0_04",
       "medalName": "Lead Seal: Operator Medal",
       "medalType": "activityMedal",
-      "slotId": 14,
+      "slotId": 44,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_402_tuye",
         "1627383599",
-        "10",
-        "8"
+        "1",
+        "16"
       ],
       "getMethod": "During Operation Lead Seal, obtain Operator Tuye",
       "description": "An engraved medal proving your recruitment of an Operator during Operation Lead Seal.\nThe deserts of Sargon are vast and endless, yet Tuye will always find her way back.",
@@ -2610,24 +3135,15 @@
       "medalId": "medal_activity_16d0_05",
       "medalName": "Lead Seal: Trailblazer Medal",
       "medalType": "activityMedal",
-      "slotId": 15,
-      "preMedalIdList": [
-        "medal_activity_15d0_02",
-        "medal_activity_15d0_03",
-        "medal_activity_15d0_04",
-        "medal_activity_15d0_05",
-        "medal_activity_15d0_06",
-        "medal_activity_15d0_07",
-        "medal_activity_15d0_08",
-        "medal_activity_15d0_09",
-        "medal_activity_15d0_10"
-      ],
+      "slotId": 45,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
         "rune_season_4_1",
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
-        "10"
+        "10",
+        "3"
       ],
       "getMethod": "During Operation Lead Seal, complete all rotating challenges (including daily Challenge Contracts and clearing Contingency 8) and collect the rewards for a total of 10 days.",
       "description": "An engraved medal awarded to those who stood on the front lines during Operation Lead Seal.\nYou have proven your ability to command high-intensity battles, making effective use of the terrain.",
@@ -2641,18 +3157,17 @@
       "medalId": "medal_activity_16d0_06",
       "medalName": "Lead Seal: Call to Arms Medal",
       "medalType": "activityMedal",
-      "slotId": 16,
+      "slotId": 46,
       "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
       ],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -2660,8 +3175,8 @@
         "rune_season_4_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "1",
-        "0",
-        "2"
+        "1",
+        "5"
       ],
       "getMethod": "During Operation Lead Seal, complete 1 Challenge Contract at the Permanent operation site and collect the rewards",
       "description": "An engraved medal awarded to those who responded to the shifting demands of Operation Lead Seal.",
@@ -2675,7 +3190,7 @@
       "medalId": "medal_activity_16d0_07",
       "medalName": "Lead Seal: Call to Arms Medal II",
       "medalType": "activityMedal",
-      "slotId": 17,
+      "slotId": 47,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -2683,8 +3198,7 @@
         "rune_season_4_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "1",
-        "7"
+        "8"
       ],
       "getMethod": "During Operation Lead Seal, complete 8 Challenge Contracts at the Permanent operation site and collect the rewards",
       "description": "An engraved medal awarded to those who acted decisively during Operation Lead Seal.\nYou have proven your ability to respond to various emergencies.",
@@ -2698,25 +3212,16 @@
       "medalId": "medal_activity_16d0_08",
       "medalName": "Lead Seal: Victorious Fronts Medal",
       "medalType": "activityMedal",
-      "slotId": 18,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10"
-      ],
+      "slotId": 48,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
       "unlockParam": [
         "rune_season_4_1",
         "char_hp_3;enemy_bigbomdrock_3;enemy_hp_3;enemy_mdgint_amod_3;enemy_mdgint_bmod_3;enemy_atk_3;char_atk_3",
         "4",
-        "8"
+        "0",
+        "0"
       ],
       "getMethod": "During Operation Lead Seal, unlock 4 Rank-3 Contracts for the Permanent operation site",
       "description": "An engraved medal awarded to those who crossed many battlefields during Operation Lead Seal.",
@@ -2728,17 +3233,29 @@
     },
     {
       "medalId": "medal_activity_16d0_09",
-      "medalName": "Lead Seal: Trainer’s Medal",
+      "medalName": "Lead Seal: Trainer's Medal",
       "medalType": "activityMedal",
-      "slotId": 19,
-      "preMedalIdList": [],
+      "slotId": 49,
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
         "rune_season_4_1",
         "level_rune_02-04;level_rune_03-01;level_rune_03-02;level_rune_04-01;level_rune_05-01;level_rune_05-02;level_rune_06-02",
         "1",
-        "8"
+        "8",
+        "2"
       ],
       "getMethod": "During Operation Lead Seal, reach a rating of S at any Rotating operation site",
       "description": "An engraved medal awarded to those who approached their missions with careful deliberation during Operation Lead Seal.",
@@ -2752,25 +3269,16 @@
       "medalId": "medal_activity_16d0_10",
       "medalName": "Lead Seal: Medal of Cooperation",
       "medalType": "activityMedal",
-      "slotId": 20,
-      "preMedalIdList": [
-        "medal_activity_15d0_02",
-        "medal_activity_15d0_03",
-        "medal_activity_15d0_04",
-        "medal_activity_15d0_05",
-        "medal_activity_15d0_06",
-        "medal_activity_15d0_07",
-        "medal_activity_15d0_08",
-        "medal_activity_15d0_09",
-        "medal_activity_15d0_10"
-      ],
+      "slotId": 50,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_4_1",
         "5",
+        "1",
         "8",
-        "16"
+        "7"
       ],
       "getMethod": "During Operation Lead Seal, use Friend Support to clear stages at any operation site no fewer than 5 times",
       "description": "An engraved medal awarded to those who helped each other during Operation Lead Seal.",
@@ -2784,7 +3292,7 @@
       "medalId": "medal_activity_15d0_01",
       "medalName": "Books and Spoon",
       "medalType": "activityMedal",
-      "slotId": 21,
+      "slotId": 51,
       "preMedalIdList": [
         "medal_activity_15d0_02",
         "medal_activity_15d0_03",
@@ -2799,9 +3307,9 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act15d0",
-        "trap_025_prison",
-        "100",
+        "rune_season_3_1",
+        "5",
+        "8",
         "4"
       ],
       "getMethod": null,
@@ -2809,57 +3317,68 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_02",
       "medalName": "Outstanding Prisoner Medal",
       "medalType": "activityMedal",
-      "slotId": 22,
-      "preMedalIdList": [],
+      "slotId": 52,
+      "preMedalIdList": [
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
+      ],
       "rarity": 0,
       "template": "ActivityConfinementTotal",
       "unlockParam": [
         "act15d0",
         "trap_025_prison",
-        "100"
+        "100",
+        "8"
       ],
       "getMethod": "During the event, imprison prisoners a total of 100 times",
       "description": "You have built a reputation among the prisoners.\nYour exquisite combat skills have even reached Warden Barton's ears, resulting in the bestowal of this medal.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_03",
       "medalName": "Making Amends",
       "medalType": "activityMedal",
-      "slotId": 23,
+      "slotId": 53,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_451_robin",
         "1626173999",
-        "4000",
-        "4"
+        "100",
+        "16"
       ],
       "getMethod": "During the event, obtain Operator Robin",
       "description": "You have assisted a girl who is lost about the future.\nIt is hard to say she had almost fallen into the wrong path. The other path open to her may not be one full of missteps, though it is certainly not faultless either.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_04",
       "medalName": "Prisoner of Extravagance",
       "medalType": "activityMedal",
-      "slotId": 24,
+      "slotId": 54,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCoinCost",
@@ -2867,75 +3386,75 @@
         "act15d0",
         "act15d0_token_ironSheet",
         "4000",
-        "2"
+        "4"
       ],
       "getMethod": "During the event, consume 4000 Factory Steel in [Secret Channel]",
       "description": "You have amassed a large amount of resources via the prisoners' special channels.\nYou have no idea where they obtained these resources, and you have no idea what their uses are inside the prison.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_05",
       "medalName": "Mansfield Commemorative Medal",
       "medalType": "activityMedal",
-      "slotId": 25,
-      "preMedalIdList": [
-        "medal_activity_14d5_02",
-        "medal_activity_14d5_03",
-        "medal_activity_14d5_04",
-        "medal_activity_14d5_05",
-        "medal_activity_14d5_06",
-        "medal_activity_14d5_07",
-        "medal_activity_14d5_08",
-        "medal_activity_14d5_09",
-        "medal_activity_14d5_10"
-      ],
+      "slotId": 55,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "15D0Activity_1;15D0Activity_2;15D0Activity_3;15D0Activity_4;15D0Activity_5;15D0Activity_6;15D0Activity_7;15D0Activity_8;15D0Activity_9;15D0Activity_10;15D0Activity_11;15D0Activity_12;15D0Activity_13;15D0Activity_14;15D0Activity_15;15D0Activity_16;15D0Activity_17;15D0Activity_18;15D0Activity_19;15D0Activity_20;15D0Activity_21;15D0Activity_22;15D0Activity_23;15D0Activity_24;15D0Activity_25",
         "25",
-        "8",
-        "1605697199"
+        "enemy_1105_tyokai",
+        "4"
       ],
       "getMethod": "Complete all the content in [Be Prepared!] and collect the rewards",
       "description": "You have finished plotting out your prison break.\nDuring the process, Mina discovered this medal by chance. It seems to be the warden's go-to gift for the dignitaries who visit the prison.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_06",
       "medalName": "Prison Break",
       "medalType": "activityMedal",
-      "slotId": 26,
-      "preMedalIdList": [],
+      "slotId": 56,
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act15d0_01;act15d0_02;act15d0_03;act15d0_04;act15d0_05;act15d0_06;act15d0_07;act15d0_08",
         "8",
-        "4"
+        "3"
       ],
       "getMethod": "Complete all stages in [Escape Plan] with 3-star ratings (excluding tutorials)",
       "description": "You have successfully assisted Anthony's escape from the prison.\nThough smog looms in the air outside, the air here also signifies freedom. This is where it all begins.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_07",
       "medalName": "Prisoner of Smarts",
       "medalType": "activityMedal",
-      "slotId": 27,
+      "slotId": 57,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTrapSurvived",
@@ -2943,55 +3462,42 @@
         "3",
         "act15d0_ex01",
         "trap_025_prison",
-        "4",
-        "0"
+        "4"
       ],
       "getMethod": "Complete MB-EX-1 with a 3-star rating with at least 4 Imprisonment Devices remaining",
       "description": "You have ensured the functionality of the majority of the devices here.\nYou have also discovered that certain models of these devices bear the Rhine Lab mark.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_08",
       "medalName": "Prisoner of Freedom",
       "medalType": "activityMedal",
-      "slotId": 28,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10"
-      ],
+      "slotId": 58,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act15d0_ex01#f#;act15d0_ex02#f#;act15d0_ex03#f#;act15d0_ex04#f#;act15d0_ex05#f#;act15d0_ex06#f#;act15d0_ex07#f#;act15d0_ex08#f#",
-        "8",
-        "4",
-        "0"
+        "8"
       ],
       "getMethod": "Complete all stages in [Mansfield Daily Life] on Challenge Mode",
       "description": "You have grown accustomed to the clashes between prisoners here. You are even enjoying it to some degree.\nPerhaps Anthony should hand his position over to you.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_09",
       "medalName": "Prisoner of Might",
       "medalType": "activityMedal",
-      "slotId": 29,
+      "slotId": 59,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithTrapSurvived",
@@ -3006,25 +3512,15 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_10",
       "medalName": "Brains and Brawn",
       "medalType": "activityMedal",
-      "slotId": 30,
-      "preMedalIdList": [
-        "medal_activity_14d5_02",
-        "medal_activity_14d5_03",
-        "medal_activity_14d5_04",
-        "medal_activity_14d5_05",
-        "medal_activity_14d5_06",
-        "medal_activity_14d5_07",
-        "medal_activity_14d5_08",
-        "medal_activity_14d5_09",
-        "medal_activity_14d5_10"
-      ],
+      "slotId": 60,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithTrapSurvived",
       "unlockParam": [
@@ -3038,14 +3534,14 @@
       "advancedMedal": "medal_activity_15d0_105",
       "originMedal": null,
       "activeTime": 1624363200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_01",
       "medalName": "Everlasting Cinder Medal",
       "medalType": "activityMedal",
-      "slotId": 31,
+      "slotId": 61,
       "preMedalIdList": [
         "medal_activity_14d5_02",
         "medal_activity_14d5_03",
@@ -3060,25 +3556,36 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "rune_season_3_1",
-        "level_rune_05-01",
+        "act13d5",
+        "act13d5_token_securities",
+        "4000",
         "1",
-        "8"
+        "5"
       ],
       "getMethod": null,
       "description": "A medal engraved based on the personal seal of a Catastrophe Messenger.\nAll in the name of saving even more lives.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622214000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_02",
       "medalName": "Cinder: Commemorative Contract Medal",
       "medalType": "activityMedal",
-      "slotId": 32,
-      "preMedalIdList": [],
+      "slotId": 62,
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
@@ -3092,14 +3599,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622214000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_03",
       "medalName": "Cinder: Commemorative Contract Medal II",
       "medalType": "activityMedal",
-      "slotId": 33,
+      "slotId": 63,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -3114,14 +3621,14 @@
       "advancedMedal": "medal_activity_14d5_035",
       "originMedal": null,
       "activeTime": 1622214000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_04",
       "medalName": "Cinder: Combat Attire Medal",
       "medalType": "activityMedal",
-      "slotId": 34,
+      "slotId": 64,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -3129,32 +3636,23 @@
         "1",
         "char_222_bpipe@race#1",
         "1623409199",
-        "3"
+        "0",
+        "2"
       ],
       "getMethod": "During Operation Cinder, purchase Bagpipe's outfit - Queen, No. 1",
       "description": "An engraved medal that was bundled with a casual outfit obtained from Operation Cinder.\nEven race cars give way to Bagpipe out of respect.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622214000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_05",
       "medalName": "Cinder: Trailblazer Medal",
       "medalType": "activityMedal",
-      "slotId": 35,
-      "preMedalIdList": [
-        "medal_activity_13d5_02",
-        "medal_activity_13d5_03",
-        "medal_activity_13d5_04",
-        "medal_activity_13d5_05",
-        "medal_activity_13d5_06",
-        "medal_activity_13d5_07",
-        "medal_activity_13d5_08",
-        "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
-      ],
+      "slotId": 65,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
@@ -3162,43 +3660,54 @@
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
         "10",
         "1",
-        "5"
+        "7"
       ],
       "getMethod": "During Operation Cinder, complete all rotating challenges (including daily Challenge Contracts and clearing Contingency 8) and collect the rewards for a total of 10 days.",
       "description": "An engraved medal awarded to those who stood on the front lines during Operation Cinder.\nYou have proven your ability to command high-intensity battles in unfamiliar terrain.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622214000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_06",
       "medalName": "Cinder: Call to Arms Medal",
       "medalType": "activityMedal",
-      "slotId": 36,
-      "preMedalIdList": [],
+      "slotId": 66,
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
+      ],
       "rarity": 0,
       "template": "CrisisTaskSome",
       "unlockParam": [
         "rune_season_3_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "1",
-        "8"
+        "1",
+        "5"
       ],
       "getMethod": "During Operation Cinder, complete 1 Challenge Contract at the Permanent operation site and collect the rewards",
       "description": "An engraved medal awarded to those who responded to the shifting demands of Operation Cinder.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622214000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_07",
       "medalName": "Cinder: Call to Arms Medal II",
       "medalType": "activityMedal",
-      "slotId": 37,
+      "slotId": 67,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -3206,56 +3715,44 @@
         "rune_season_3_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "0",
-        "0"
+        "1",
+        "5"
       ],
       "getMethod": "During Operation Cinder, complete 8 Challenge Contracts at the Permanent operation site and collect the rewards",
       "description": "An engraved medal awarded to those who acted decisively during Operation Cinder.\nYou have proven your ability to respond to various emergencies.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622214000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_08",
       "medalName": "Cinder: Victorious Fronts Medal",
       "medalType": "activityMedal",
-      "slotId": 38,
-      "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 68,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
       "unlockParam": [
         "rune_season_3_1",
         "enemy_dscout_3;enemy_hp_3;enemy_dbskar_3;char_atkatkspeed_3;enemy_atk_3;enemy_dmgswd_3;char_hp_3;global_forbidloc_3",
         "4",
-        "8",
-        "2"
+        "16"
       ],
       "getMethod": "During Operation Cinder, unlock 4 Rank-3 Contracts for the Permanent operation site",
       "description": "An engraved medal awarded to those who crossed many battlefields during Operation Cinder.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622214000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_09",
       "medalName": "Cinder: Trainer's Medal",
       "medalType": "activityMedal",
-      "slotId": 39,
+      "slotId": 69,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -3264,39 +3761,30 @@
         "level_rune_02-02;level_rune_02-04;level_rune_02-05;level_rune_03-02;level_rune_03-01;level_rune_04-01;level_rune_05-02",
         "1",
         "8",
-        "7"
+        "2"
       ],
       "getMethod": "During Operation Cinder, reach a rating of S at any Rotating operation site",
       "description": "An engraved medal awarded to those who approached their missions with careful deliberation during Operation Cinder.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622214000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_10",
       "medalName": "Cinder: Medal of Cooperation",
       "medalType": "activityMedal",
-      "slotId": 40,
-      "preMedalIdList": [
-        "medal_activity_13d5_02",
-        "medal_activity_13d5_03",
-        "medal_activity_13d5_04",
-        "medal_activity_13d5_05",
-        "medal_activity_13d5_06",
-        "medal_activity_13d5_07",
-        "medal_activity_13d5_08",
-        "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
-      ],
+      "slotId": 70,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_3_1",
         "5",
-        "8",
-        "4"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "During Operation Cinder, use Friend Support to clear stages at any operation site no fewer than 5 times",
       "description": "An engraved medal awarded to those who helped each other during Operation Cinder.",
@@ -3310,7 +3798,7 @@
       "medalId": "medal_activity_13d5_01",
       "medalName": "'Fear Neither Hardship Nor Darkness'",
       "medalType": "activityMedal",
-      "slotId": 41,
+      "slotId": 71,
       "preMedalIdList": [
         "medal_activity_13d5_02",
         "medal_activity_13d5_03",
@@ -3320,15 +3808,17 @@
         "medal_activity_13d5_07",
         "medal_activity_13d5_08",
         "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
+        "medal_activity_13d5_10",
+        "medal_activity_11d0_11"
       ],
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act13d5",
-        "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
-        "100",
-        "8"
+        "3",
+        "act12d0_ex08",
+        "trap_016_peon",
+        "1",
+        "7"
       ],
       "getMethod": null,
       "description": "You witnessed a knight's modern form. You soon witness a knight's fading afterglow.\nIn this era doomed beyond reproach, even if the road's futility is set in stone, the radiance still shines on.",
@@ -3342,15 +3832,26 @@
       "medalId": "medal_activity_13d5_02",
       "medalName": "Arena Veteran Medal",
       "medalType": "activityMedal",
-      "slotId": 42,
-      "preMedalIdList": [],
+      "slotId": 72,
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
+      ],
       "rarity": 0,
       "template": "ActivityKilledTotal",
       "unlockParam": [
         "act13d5",
         "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
         "100",
-        "16"
+        "8",
+        "0"
       ],
       "getMethod": "During the event, shoot down a total of 100 Sponsor Drones, Luxury Sponsor Drones or Cheering Sponsor Drones",
       "description": "You took full advantage of the rules.\nAt times, for the benefit of their own knights, coaches and sponsors will think of every trick in the book to shake out those luxury-lined VIP pockets wandering the exhibition room.",
@@ -3364,7 +3865,7 @@
       "medalId": "medal_activity_13d5_03",
       "medalName": "Major Commemorative Medal",
       "medalType": "activityMedal",
-      "slotId": 43,
+      "slotId": 73,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -3372,7 +3873,8 @@
         "3",
         "act13d5_01;act13d5_02;act13d5_03;act13d5_04;act13d5_05;act13d5_06;act13d5_07;act13d5_08",
         "8",
-        "4"
+        "8",
+        "0"
       ],
       "getMethod": "Complete all stages in [Jousting Arena] with 3-star ratings (excluding tutorials)",
       "description": "You successfully rose in rank in the Major.\nYou'll find these commemorative medals all over the Grand Knight Territory, and they're very cheap. The 1st, 7th, 18th and 22nd medals within the series fetch the highest prices on the collectors' market.",
@@ -3386,7 +3888,7 @@
       "medalId": "medal_activity_13d5_04",
       "medalName": "Down-and-Out Executioner's Medal",
       "medalType": "activityMedal",
-      "slotId": 44,
+      "slotId": 74,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageKilled",
@@ -3408,18 +3910,8 @@
       "medalId": "medal_activity_13d5_05",
       "medalName": "Most Valuable Knight Medal",
       "medalType": "activityMedal",
-      "slotId": 45,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
-      ],
+      "slotId": 75,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageKilled",
       "unlockParam": [
@@ -3438,10 +3930,20 @@
     },
     {
       "medalId": "medal_activity_13d5_06",
-      "medalName": "'Legend of the Losers''",
+      "medalName": "'Legend of the Losers'",
       "medalType": "activityMedal",
-      "slotId": 46,
-      "preMedalIdList": [],
+      "slotId": 76,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
@@ -3461,14 +3963,15 @@
       "medalId": "medal_activity_13d5_07",
       "medalName": "Knight Lovers' Medal",
       "medalType": "activityMedal",
-      "slotId": 47,
+      "slotId": 77,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "13D5Activity_1;13D5Activity_2;13D5Activity_3;13D5Activity_4;13D5Activity_5;13D5Activity_6;13D5Activity_7;13D5Activity_8;13D5Activity_9;13D5Activity_10;13D5Activity_11;13D5Activity_12;13D5Activity_13;13D5Activity_14;13D5Activity_15;13D5Activity_16;13D5Activity_17;13D5Activity_18;13D5Activity_19;13D5Activity_20;13D5Activity_21;13D5Activity_22;13D5Activity_23;13D5Activity_24;13D5Activity_25",
         "25",
-        "4"
+        "1",
+        "8"
       ],
       "getMethod": "Complete all the content in [Offsite Activity Venue] and collect the rewards",
       "description": "You participated in all off-site events.\nThey say that if a person had twelve hours in the day to play, they'd still need a hundred years before they enjoyed every corner Kazimierz has to offer.",
@@ -3482,15 +3985,15 @@
       "medalId": "medal_activity_13d5_08",
       "medalName": "'Silence is Golden'",
       "medalType": "activityMedal",
-      "slotId": 48,
+      "slotId": 78,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCasimirReadNews",
       "unlockParam": [
         "act13d5",
         "15",
-        "4000",
-        "8"
+        "8",
+        "16"
       ],
       "getMethod": "Read 15 piece(s) of news in Maria Nearl",
       "description": "You read a deluge of skin-deep media reports. We're sorry you had to.\nWhat destroys the meaning of knights isn't just knights themselves. Every spectator who cheers has a responsibility, and every suit who manufactures those cheers is offending a creed.",
@@ -3504,14 +4007,15 @@
       "medalId": "medal_activity_13d5_09",
       "medalName": "'The Whislash Knight'",
       "medalType": "activityMedal",
-      "slotId": 49,
+      "slotId": 79,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_265_sophia",
         "1619693999",
-        "4000"
+        "4",
+        "8"
       ],
       "getMethod": "During the event, obtain Operator Whislash",
       "description": "The coat of arms Zofia made for herself when she participated.\nA coat of arms' significance has nowadays been worn bare, the original idea lost. But even so, Zofia still spent three of her afternoons carving away in earnest.",
@@ -3525,26 +4029,15 @@
       "medalId": "medal_activity_13d5_10",
       "medalName": "Supreme Consumerism Medal",
       "medalType": "activityMedal",
-      "slotId": 50,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
-      ],
+      "slotId": 80,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
       "unlockParam": [
         "act13d5",
         "act13d5_token_securities",
         "4000",
-        "1",
-        "5"
+        "8"
       ],
       "getMethod": "During the event, spend 4000 Mieszko Comp Securities in the Duty-Free Shop",
       "description": "You went on a shopping spree in the duty-free shop outside the arena.\nSince it doesn't pay tax to the General Chamber of Commerce, it can sell its goods cheap, and an 'alarming' amount at that. A trap laid by consumerism.",
@@ -3558,7 +4051,7 @@
       "medalId": "medal_activity_12d0_10",
       "medalName": "'Gift of the High Priest'",
       "medalType": "activityMedal",
-      "slotId": 51,
+      "slotId": 81,
       "preMedalIdList": [
         "medal_activity_12d0_01",
         "medal_activity_12d0_02",
@@ -3573,10 +4066,9 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act12d0",
-        "trap_016_peon",
-        "100",
-        "8"
+        "rune_season_2_1",
+        "5",
+        "1"
       ],
       "getMethod": null,
       "description": "You endured a breathtakingly dangerous vacation. \nBrawls, indulgence, survival of the strongest, and little regard for the future. In places yet untouched by civilization, you found that life without technology can be quite wonderful indeed.",
@@ -3588,17 +4080,27 @@
     },
     {
       "medalId": "medal_activity_12d0_01",
-      "medalName": "Mushroom Fanatic’s Medal",
+      "medalName": "Mushroom Fanatic's Medal",
       "medalType": "activityMedal",
-      "slotId": 52,
-      "preMedalIdList": [],
+      "slotId": 82,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 0,
       "template": "ActivityCutTree",
       "unlockParam": [
         "act12d0",
         "trap_016_peon",
         "100",
-        "16"
+        "8"
       ],
       "getMethod": "During the event, clear a total of 100 Giant Mushrooms",
       "description": "Your profound love for mushrooms is admirable. However, for the sake of your health, please roast them before consumption.",
@@ -3610,18 +4112,17 @@
     },
     {
       "medalId": "medal_activity_12d0_02",
-      "medalName": "'Tomimi’s Respect'",
+      "medalName": "'Tomimi's Respect'",
       "medalType": "activityMedal",
-      "slotId": 53,
+      "slotId": 83,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_411_tomimi",
         "1616065199",
-        "4000",
-        "0",
-        "2"
+        "1",
+        "8"
       ],
       "getMethod": "During the event, obtain Operator Tomimi",
       "description": "Your wisdom has convinced this girl. \nWe have reason to believe that upon learning to expand her horizons, she will do even better.",
@@ -3633,9 +4134,9 @@
     },
     {
       "medalId": "medal_activity_12d0_03",
-      "medalName": "Inam’s Collection",
+      "medalName": "Inam's Collection",
       "medalType": "activityMedal",
-      "slotId": 54,
+      "slotId": 84,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCoinCost",
@@ -3643,11 +4144,10 @@
         "act12d0",
         "act12d0_token_components",
         "4000",
-        "1",
-        "7"
+        "16"
       ],
       "getMethod": "During the event, spend 4000 Mechanical Parts in the Inam Committee",
-      "description": "You spent a lot of money in Inam’s shop. \nNo merchant can hate a customer like you.",
+      "description": "You spent a lot of money in Inam's shop. \nNo merchant can hate a customer like you.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1614265200,
@@ -3658,28 +4158,16 @@
       "medalId": "medal_activity_12d0_04",
       "medalName": "Acahualla Memorial Medal",
       "medalType": "activityMedal",
-      "slotId": 55,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10"
-      ],
+      "slotId": 85,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act12d0_01;act12d0_02;act12d0_03;act12d0_04;act12d0_05;act12d0_06;act12d0_07;act12d0_08;act12d0_09",
-        "9",
-        "1",
-        "5"
+        "9"
       ],
-      "getMethod": "Complete all stages in [Great Chief’s Path] with 3-star ratings (excluding tutorials)",
+      "getMethod": "Complete all stages in [Great Chief's Path] with 3-star ratings (excluding tutorials)",
       "description": "Your vacation has come to an end. \nPresumably, this joyous experience will leave a mark within your memories. We all know that there is much more on Terra than pain and suffering— though this is occasionally forgotten.",
       "advancedMedal": null,
       "originMedal": null,
@@ -3691,8 +4179,19 @@
       "medalId": "medal_activity_12d0_05",
       "medalName": "Tribal Warrior Medal",
       "medalType": "activityMedal",
-      "slotId": 56,
-      "preMedalIdList": [],
+      "slotId": 86,
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "PassStageWithCutTree",
       "unlockParam": [
@@ -3712,19 +4211,18 @@
     },
     {
       "medalId": "medal_activity_12d0_06",
-      "medalName": "'Gavial’s Appreciation'",
+      "medalName": "'Gavial's Appreciation'",
       "medalType": "activityMedal",
-      "slotId": 57,
+      "slotId": 87,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act12d0_ex01#f#;act12d0_ex02#f#;act12d0_ex03#f#;act12d0_ex04#f#;act12d0_ex05#f#;act12d0_ex06#f#;act12d0_ex07#f#;act12d0_ex08#f#",
-        "8",
-        "16"
+        "8"
       ],
-      "getMethod": "Complete all stages in [Gavial’s Footprints] on Challenge Mode",
+      "getMethod": "Complete all stages in [Gavial's Footprints] on Challenge Mode",
       "description": "You overcame difficult missions. \nGavial whole-heartedly commends your bravery.",
       "advancedMedal": null,
       "originMedal": null,
@@ -3734,18 +4232,17 @@
     },
     {
       "medalId": "medal_activity_12d0_07",
-      "medalName": "'Zumama’s Affirmation'",
+      "medalName": "'Zumama's Affirmation'",
       "medalType": "activityMedal",
-      "slotId": 58,
+      "slotId": 88,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "12D0Activity_1;12D0Activity_2;12D0Activity_3;12D0Activity_4;12D0Activity_5;12D0Activity_6;12D0Activity_7;12D0Activity_8;12D0Activity_9;12D0Activity_10;12D0Activity_11;12D0Activity_12;12D0Activity_13;12D0Activity_14;12D0Activity_15;12D0Activity_16;12D0Activity_17;12D0Activity_18;12D0Activity_19;12D0Activity_20;12D0Activity_21;12D0Activity_22;12D0Activity_23;12D0Activity_24;12D0Activity_25",
         "25",
-        "trap_016_peon",
-        "0",
-        "2"
+        "8",
+        "4"
       ],
       "getMethod": "Complete all the content in [The Brave's Trials] and collect the rewards",
       "description": "You thoroughly enjoyed your adventure. \nZumama created this medal just for you.",
@@ -3759,7 +4256,7 @@
       "medalId": "medal_activity_12d0_08",
       "medalName": "Sightseeing Medal",
       "medalType": "activityMedal",
-      "slotId": 59,
+      "slotId": 89,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithCutTree",
@@ -3771,7 +4268,7 @@
         "2"
       ],
       "getMethod": "Complete RI-8 with a 3-star rating while clearing Giant Mushrooms no more than 2 times",
-      "description": "You maintained the self-control that symbolizes your status as a civilized person. \nBut sometimes, giving in to indulgence isn’t such a bad thing.",
+      "description": "You maintained the self-control that symbolizes your status as a civilized person. \nBut sometimes, giving in to indulgence isn't such a bad thing.",
       "advancedMedal": "medal_activity_12d0_085",
       "originMedal": null,
       "activeTime": 1614265200,
@@ -3782,7 +4279,30 @@
       "medalId": "medal_activity_12d0_09",
       "medalName": "Berserker Medal",
       "medalType": "activityMedal",
-      "slotId": 60,
+      "slotId": 90,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageWithCutTree",
+      "unlockParam": [
+        "3",
+        "act12d0_ex08",
+        "trap_016_peon",
+        "1",
+        "7"
+      ],
+      "getMethod": "Complete RI-EX-8 with a 3-star rating while clearing Giant Mushrooms at least 7 times",
+      "description": "You have completely integrated into life here. \nTrusting in the power afforded to you by your own two hands is quite refreshing, isn't it?",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1614265200,
+      "getTime": -1,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_11d5_01",
+      "medalName": "Unsheathed Blade Medal",
+      "medalType": "activityMedal",
+      "slotId": 91,
       "preMedalIdList": [
         "medal_activity_11d5_02",
         "medal_activity_11d5_03",
@@ -3795,47 +4315,13 @@
         "medal_activity_11d5_10",
         "medal_activity_11d0_11"
       ],
-      "rarity": 2,
-      "template": "PassStageWithCutTree",
-      "unlockParam": [
-        "3",
-        "act12d0_ex08",
-        "trap_016_peon",
-        "1",
-        "7"
-      ],
-      "getMethod": "Complete RI-EX-8 with a 3-star rating while clearing Giant Mushrooms at least 7 times",
-      "description": "You have completely integrated into life here. \nTrusting in the power afforded to you by your own two hands is quite refreshing, isn’t it?",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1614265200,
-      "getTime": -1,
-      "medalRewardGroup": []
-    },
-    {
-      "medalId": "medal_activity_11d5_01",
-      "medalName": "Unsheathed Blade Medal",
-      "medalType": "activityMedal",
-      "slotId": 61,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10"
-      ],
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "rune_season_2_1",
-        "level_rune_04-01",
-        "1",
+        "rune_season_1_1",
+        "5",
         "8",
-        "0"
+        "3"
       ],
       "getMethod": null,
       "description": "A medal engraved with the blueprint of a certain lost weapon.\nThe weapons of the past cannot be reforged, but their will and spirit will remain in the world forever.",
@@ -3849,16 +4335,26 @@
       "medalId": "medal_activity_11d5_02",
       "medalName": "Blade: Commemorative Contract Medal",
       "medalType": "activityMedal",
-      "slotId": 62,
-      "preMedalIdList": [],
+      "slotId": 92,
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
         "rune_season_2_1",
         "level_rune_04-01",
         "1",
-        "8",
-        "0"
+        "8"
       ],
       "getMethod": "During Operation Blade, reach a rating of S in the Permanent operation site",
       "description": "An engraved medal awarded to those who faced adversity during Operation Blade.",
@@ -3872,7 +4368,7 @@
       "medalId": "medal_activity_11d5_03",
       "medalName": "Blade: Commemorative Contract Medal II",
       "medalType": "activityMedal",
-      "slotId": 63,
+      "slotId": 93,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -3894,15 +4390,16 @@
       "medalId": "medal_activity_11d5_04",
       "medalName": "Blade: Operator Medal",
       "medalType": "activityMedal",
-      "slotId": 64,
+      "slotId": 94,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_336_folivo",
         "1613645999",
-        "10",
-        "5"
+        "trap_014_tower",
+        "4",
+        "0"
       ],
       "getMethod": "During Operation Blade, obtain Operator Scene",
       "description": "An engraved medal proving your recruitment of an Operator during Operation Blade.\nImperfection does not mean that all is lost.",
@@ -3916,24 +4413,16 @@
       "medalId": "medal_activity_11d5_05",
       "medalName": "Blade: Trailblazer Medal",
       "medalType": "activityMedal",
-      "slotId": 65,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10"
-      ],
+      "slotId": 95,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
         "rune_season_2_1",
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
-        "10"
+        "10",
+        "5",
+        "0"
       ],
       "getMethod": "During Operation Blade, complete all rotating challenges (including daily Challenge Contracts and clearing Contingency 8) and collect the rewards for a total of 10 days.",
       "description": "An engraved medal awarded to those who stood on the front lines during Operation Blade.\nYou have proven your ability to command high-intensity battles in unfamiliar terrain.",
@@ -3947,7 +4436,7 @@
       "medalId": "medal_activity_11d5_06",
       "medalName": "Blade: Call to Arms Medal",
       "medalType": "activityMedal",
-      "slotId": 66,
+      "slotId": 96,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -3955,7 +4444,7 @@
         "rune_season_2_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "1",
-        "8"
+        "5"
       ],
       "getMethod": "During Operation Blade, complete 1 Challenge Contract at the Permanent operation site and collect the rewards",
       "description": "An engraved medal awarded to those who responded to the shifting demands of Operation Blade.",
@@ -3969,7 +4458,7 @@
       "medalId": "medal_activity_11d5_07",
       "medalName": "Blade: Call to Arms Medal II",
       "medalType": "activityMedal",
-      "slotId": 67,
+      "slotId": 97,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -3977,7 +4466,7 @@
         "rune_season_2_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "16"
+        "3"
       ],
       "getMethod": "During Operation Blade, complete 8 Challenge Contracts at the Permanent operation site and collect the rewards",
       "description": "An engraved medal awarded to those who acted decisively during Operation Blade.\nYou have proven your ability to respond to various emergencies.",
@@ -3991,7 +4480,7 @@
       "medalId": "medal_activity_11d5_08",
       "medalName": "Blade: Victorious Fronts Medal",
       "medalType": "activityMedal",
-      "slotId": 68,
+      "slotId": 98,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -3999,7 +4488,7 @@
         "rune_season_2_1",
         "enemy_hp_3;enemy_faust_atkmod_3;enemy_faust_trapmod_3;enemy_reveng_spdmod_3;enemy_reveng_atkmod_3;char_atk_3;enemy_atk_3",
         "4",
-        "8"
+        "1626778799"
       ],
       "getMethod": "During Operation Blade, unlock 4 Rank-3 Contracts for the Permanent operation site",
       "description": "An engraved medal awarded to those who crossed many battlefields during Operation Blade.",
@@ -4011,9 +4500,9 @@
     },
     {
       "medalId": "medal_activity_11d5_09",
-      "medalName": "Blade: Trainer’s Medal",
+      "medalName": "Blade: Trainer's Medal",
       "medalType": "activityMedal",
-      "slotId": 69,
+      "slotId": 99,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -4035,24 +4524,14 @@
       "medalId": "medal_activity_11d5_10",
       "medalName": "Blade: Medal of Cooperation",
       "medalType": "activityMedal",
-      "slotId": 70,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10"
-      ],
+      "slotId": 100,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_2_1",
         "5",
-        "1"
+        "4000"
       ],
       "getMethod": "During Operation Blade, use Friend Support to clear stages at any operation site no fewer than 5 times",
       "description": "An engraved medal awarded to those who helped each other during Operation Blade.",
@@ -4066,7 +4545,7 @@
       "medalId": "medal_activity_10d0_01",
       "medalName": "Reforged Pyrite Medal",
       "medalType": "activityMedal",
-      "slotId": 71,
+      "slotId": 101,
       "preMedalIdList": [
         "medal_activity_10d0_02",
         "medal_activity_10d0_03",
@@ -4081,10 +4560,8 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "rune_season_1_1",
-        "level_rune_03-01",
-        "1",
-        "8"
+        "11D0Activity_s1;11D0Activity_s2;11D0Activity_s3;11D0Activity_s4;11D0Activity_s5",
+        "1"
       ],
       "getMethod": null,
       "description": "An engraved medal based on the insignia of a legendary mercenary time.\nAccomplish what others have never done.",
@@ -4098,7 +4575,7 @@
       "medalId": "medal_activity_10d0_02",
       "medalName": "Pyrite: Commemorative Contract Medal",
       "medalType": "activityMedal",
-      "slotId": 72,
+      "slotId": 102,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -4120,7 +4597,7 @@
       "medalId": "medal_activity_10d0_03",
       "medalName": "Pyrite: Commemorative Contract Medal II",
       "medalType": "activityMedal",
-      "slotId": 73,
+      "slotId": 103,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -4142,7 +4619,7 @@
       "medalId": "medal_activity_10d0_04",
       "medalName": "Pyrite: Combat Attire Medal",
       "medalType": "activityMedal",
-      "slotId": 74,
+      "slotId": 104,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -4151,7 +4628,7 @@
         "char_215_mantic@epoque#4",
         "1606301999"
       ],
-      "getMethod": "During Operation Pyrite, purchase Manticore’s outfit - Invisible Dirge",
+      "getMethod": "During Operation Pyrite, purchase Manticore's outfit - Invisible Dirge",
       "description": "An engraved medal that was bundled with a casual outfit obtained from Operation Pyrite.\nManticore might not understand the purpose of this, but you certainly do.",
       "advancedMedal": null,
       "originMedal": null,
@@ -4163,19 +4640,8 @@
       "medalId": "medal_activity_10d0_05",
       "medalName": "Pyrite: Trailblazer Medal",
       "medalType": "activityMedal",
-      "slotId": 75,
-      "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 105,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
@@ -4195,14 +4661,15 @@
       "medalId": "medal_activity_10d0_06",
       "medalName": "Pyrite: Call to Arms Medal",
       "medalType": "activityMedal",
-      "slotId": 76,
+      "slotId": 106,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
       "unlockParam": [
         "rune_season_1_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "1"
+        "1",
+        "3"
       ],
       "getMethod": "During Operation Pyrite, complete 1 Challenge Contract at the Permanent operation site and collect the rewards",
       "description": "An engraved medal awarded to those who responded to the shifting demands of Operation Pyrite.",
@@ -4216,7 +4683,7 @@
       "medalId": "medal_activity_10d0_07",
       "medalName": "Pyrite: Call to Arms Medal II",
       "medalType": "activityMedal",
-      "slotId": 77,
+      "slotId": 107,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -4224,7 +4691,7 @@
         "rune_season_1_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "4"
+        "1605697199"
       ],
       "getMethod": "During Operation Pyrite, complete 8 Challenge Contracts at the Permanent operation site and collect the rewards",
       "description": "An engraved medal awarded to those who acted decisively during Operation Pyrite.\nYou have proven your ability to respond to various emergencies.",
@@ -4238,7 +4705,7 @@
       "medalId": "medal_activity_10d0_08",
       "medalName": "Pyrite: Victorious Fronts Medal",
       "medalType": "activityMedal",
-      "slotId": 78,
+      "slotId": 108,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -4246,7 +4713,7 @@
         "rune_season_1_1",
         "char_atk_3;enemy_hp_3;enemy_crowns_3;enemy_ghost_3;char_def_3;global_costrecovery_3",
         "4",
-        "8"
+        "1613041199"
       ],
       "getMethod": "During Operation Pyrite, unlock 4 Rank-3 Contracts for the Permanent operation site",
       "description": "An engraved medal awarded to those who crossed many battlefields during Operation Pyrite.",
@@ -4258,9 +4725,9 @@
     },
     {
       "medalId": "medal_activity_10d0_09",
-      "medalName": "Pyrite: Trainer’s Medal",
+      "medalName": "Pyrite: Trainer's Medal",
       "medalType": "activityMedal",
-      "slotId": 79,
+      "slotId": 109,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -4268,7 +4735,8 @@
         "rune_season_1_1",
         "level_rune_03-02;level_rune_01-03;level_rune_02-01;level_rune_02-02;level_rune_02-03;level_rune_02-04;level_rune_02-05",
         "1",
-        "8"
+        "8",
+        "0"
       ],
       "getMethod": "During Operation Pyrite, reach a rating of S at any Rotating operation site",
       "description": "An engraved medal awarded to those who approached their missions with careful deliberation during Operation Pyrite.",
@@ -4282,26 +4750,16 @@
       "medalId": "medal_activity_10d0_10",
       "medalName": "Pyrite: Medal of Cooperation",
       "medalType": "activityMedal",
-      "slotId": 80,
-      "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 110,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_1_1",
         "5",
+        "enemy_1105_tyokai",
         "8",
-        "3"
+        "0"
       ],
       "getMethod": "During Operation Pyrite, use Friend Support to clear stages at any operation site no fewer than 5 times",
       "description": "An engraved medal awarded to those who helped each other during Operation Pyrite.",
@@ -4315,7 +4773,7 @@
       "medalId": "medal_activity_11d0_01",
       "medalName": "'A Tragedy Without Drama'",
       "medalType": "activityMedal",
-      "slotId": 81,
+      "slotId": 111,
       "preMedalIdList": [
         "medal_activity_11d0_02",
         "medal_activity_11d0_03",
@@ -4331,10 +4789,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "3",
-        "act11d0_01;act11d0_02;act11d0_03;act11d0_04;act11d0_05;act11d0_06;act11d0_07;act11d0_08",
-        "8",
-        "1605697199"
+        "act7d5",
+        "act11d0_mo01",
+        "trap_014_tower",
+        "3"
       ],
       "getMethod": null,
       "description": "You have witnessed everything.\nThe suspect is dead, the trail has gone cold, and the murderer has disappeared into the tempest of unrest. Only hatred remains to spring the trap, waiting for this side of Terra to fall into the net of law.",
@@ -4348,7 +4806,7 @@
       "medalId": "medal_activity_11d0_02",
       "medalName": "'The Eighth Moon'",
       "medalType": "activityMedal",
-      "slotId": 82,
+      "slotId": 112,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -4356,7 +4814,7 @@
         "3",
         "act11d0_01;act11d0_02;act11d0_03;act11d0_04;act11d0_05;act11d0_06;act11d0_07;act11d0_08",
         "8",
-        "4"
+        "3"
       ],
       "getMethod": "Complete all stages in [Capitol Spire] with a 3-star rating, not including stages in the Occupied Zone (excluding tutorials)",
       "description": "You resolved a case within a remote town in Leithanien.\nNot everyone bears malice, but 'it' continues to slide deeper into the abyss.",
@@ -4370,7 +4828,7 @@
       "medalId": "medal_activity_11d0_03",
       "medalName": "Rock Musician Medal",
       "medalType": "activityMedal",
-      "slotId": 83,
+      "slotId": 113,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTower",
@@ -4378,8 +4836,7 @@
         "3",
         "act11d0_08",
         "trap_014_tower",
-        "4",
-        "0"
+        "4"
       ],
       "getMethod": "Complete TW-8 with a 3-star rating while controlling all Gramophones at the time of victory",
       "description": "You took control of all 'Gramophones' and defeated the enemy leader.\nThe L-44 'Gramophone' is merely an industrial code and product name; the object itself actually does not have any of the functionalities of a gramophone. The rhythmic melody of a rock being struck can perhaps become a new form of music.",
@@ -4391,9 +4848,9 @@
     },
     {
       "medalId": "medal_activity_11d0_04",
-      "medalName": "'Winterwisp’s Poem'",
+      "medalName": "'Winterwisp's Poem'",
       "medalType": "activityMedal",
-      "slotId": 84,
+      "slotId": 114,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -4401,11 +4858,11 @@
         "2",
         "act11d0_s01#f#;act11d0_s02#f#",
         "2",
-        "5",
+        "1613041199",
         "0"
       ],
       "getMethod": "Complete all stages in the Occupied Area of [Capitol Spire] on Tribulation Mode",
-      "description": "You have learned this poem.\nAs the only person who knows the final chapter of this old man’s life experience, you have pieced together the truth after weathering trials and tribulations. Please do not forget him.",
+      "description": "You have learned this poem.\nAs the only person who knows the final chapter of this old man's life experience, you have pieced together the truth after weathering trials and tribulations. Please do not forget him.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1603897200,
@@ -4416,7 +4873,7 @@
       "medalId": "medal_activity_11d0_05",
       "medalName": "Soloist Medal",
       "medalType": "activityMedal",
-      "slotId": 85,
+      "slotId": 115,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTower",
@@ -4424,7 +4881,8 @@
         "3",
         "act11d0_ex06",
         "trap_014_tower",
-        "5"
+        "5",
+        "0"
       ],
       "getMethod": "Complete TW-EX-6 with a 3-star rating while controlling all Gramophones at the time of victory",
       "description": "During the most perilous operation, you held onto control of the 'Gramophones.'\nPerhaps you should also consider installing an Arts defense system like this?",
@@ -4438,7 +4896,7 @@
       "medalId": "medal_activity_11d0_06",
       "medalName": "Wolumonde Medal of Honor",
       "medalType": "activityMedal",
-      "slotId": 86,
+      "slotId": 116,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -4446,7 +4904,8 @@
         "2",
         "act11d0_ex01#f#;act11d0_ex02#f#;act11d0_ex03#f#;act11d0_ex04#f#;act11d0_ex05#f#;act11d0_ex06#f#;act11d0_ex07#f#;act11d0_ex08#f#",
         "8",
-        "3"
+        "8",
+        "0"
       ],
       "getMethod": "Complete all stages in [Silent Frontier] on Challenge Mode",
       "description": "You have overcome more challenging missions.\nVictory brings the hope of unity and survival, giving Wolumonde a path forward.",
@@ -4460,7 +4919,7 @@
       "medalId": "medal_activity_11d0_07",
       "medalName": "Gendarmerie Offensive Medal",
       "medalType": "activityMedal",
-      "slotId": 87,
+      "slotId": 117,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -4468,7 +4927,7 @@
         "3",
         "act11d0_mo01",
         "1",
-        "1626778799"
+        "1622804399"
       ],
       "getMethod": "Complete TW-MO-1 with a 3-star rating",
       "description": "You resolved the underlying reason for the riots.\nViolence is not the answer to everything - order must be achieved.",
@@ -4480,16 +4939,17 @@
     },
     {
       "medalId": "medal_activity_11d0_08",
-      "medalName": "Folinic’s Handmade Medal",
+      "medalName": "Folinic's Handmade Medal",
       "medalType": "activityMedal",
-      "slotId": 88,
+      "slotId": 118,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_345_folnic",
         "1605697199",
-        "4000"
+        "trap_025_prison",
+        "3"
       ],
       "getMethod": "During the event, obtain Operator Folinic",
       "description": "A medal made by Folinic.\nNot everyone is ready to come to terms with their past, nor should we ask for that.",
@@ -4503,16 +4963,17 @@
       "medalId": "medal_activity_11d0_09",
       "medalName": "Town Restoration Medal",
       "medalType": "activityMedal",
-      "slotId": 89,
+      "slotId": 119,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
       "unlockParam": [
         "act11d0",
         "act11d0_token_currency",
-        "4000"
+        "4000",
+        "1626778799"
       ],
-      "getMethod": "During the event, spend 4000 [Aristocrat’s Antique Aureus] in the August Fair",
+      "getMethod": "During the event, spend 4000 [Aristocrat's Antique Aureus] in the August Fair",
       "description": "You spent a lot of money in Wolumonde.\nEveryone is cheering because of the revitalized economy.",
       "advancedMedal": null,
       "originMedal": null,
@@ -4524,12 +4985,14 @@
       "medalId": "medal_activity_11d0_10",
       "medalName": "Peacekeeper Medal",
       "medalType": "activityMedal",
-      "slotId": 90,
+      "slotId": 120,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "11D0Activity_s1;11D0Activity_s2;11D0Activity_s3;11D0Activity_s4;11D0Activity_s5",
+        "1",
+        "trap_026_inverter",
         "1"
       ],
       "getMethod": "Decipher any puzzle in the Antique Diary and collect the rewards",
@@ -4544,14 +5007,13 @@
       "medalId": "medal_activity_11d0_11",
       "medalName": "Twelve-Tone Medal",
       "medalType": "activityMedal",
-      "slotId": 91,
+      "slotId": 121,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "11D0Activity_1;11D0Activity_2;11D0Activity_3;11D0Activity_4;11D0Activity_5;11D0Activity_6;11D0Activity_7;11D0Activity_8;11D0Activity_9;11D0Activity_10;11D0Activity_11;11D0Activity_12;11D0Activity_13;11D0Activity_14;11D0Activity_15;11D0Activity_16;11D0Activity_17;11D0Activity_18;11D0Activity_19;11D0Activity_20;11D0Activity_21;11D0Activity_22;11D0Activity_23;11D0Activity_24;11D0Activity_25;11D0Activity_s1;11D0Activity_s2;11D0Activity_s3;11D0Activity_s4;11D0Activity_s5",
-        "30",
-        "1602586799"
+        "30"
       ],
       "getMethod": "Complete all the content in [Burnt Offerings] and collect the rewards",
       "description": "This town will forever remember your contributions.\nThis tragedy may have been unpreventable, but the outcome could have been worse.",
@@ -4565,14 +5027,12 @@
       "medalId": "medal_activity_15d5_01",
       "medalName": "Field Ops Records Verification Medal",
       "medalType": "activityMedal",
-      "slotId": 92,
+      "slotId": 122,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act15d5",
-        "char_108_silent@winter#2",
-        "1626433199"
+        "act15d5"
       ],
       "getMethod": "Unlock all the stories in Beyond Here",
       "description": "An engraved medal based upon the field operation records of Rhodes Island's operators. Each and every footstep bears witness to the experiences the operators encountered.\nEach and every moment, a story unfolds in a corner of the world.",
@@ -4586,7 +5046,7 @@
       "medalId": "medal_activity_15d5_02",
       "medalName": "Field Attire Commemorative Medal",
       "medalType": "activityMedal",
-      "slotId": 93,
+      "slotId": 123,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -4607,13 +5067,12 @@
       "medalId": "medal_activity_13d0_01",
       "medalName": "Earthbound Breeze Medal",
       "medalType": "activityMedal",
-      "slotId": 94,
+      "slotId": 124,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act13d0",
-        "1617533999"
+        "act13d0"
       ],
       "getMethod": "Unlock all the stories in Rewinding Breeze",
       "description": "A stamp, carved by an operator, of the radiant light that struck them while they cooled out on the deck.\nIt's said that from birth to death, it's always the same breeze blowing by your side.",
@@ -4627,15 +5086,13 @@
       "medalId": "medal_activity_13d0_02",
       "medalName": "'A Book's Teethmarks'",
       "medalType": "activityMedal",
-      "slotId": 95,
+      "slotId": 125,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_388_mint",
-        "1617533999",
-        "trap_014_tower",
-        "3"
+        "1617533999"
       ],
       "getMethod": "During the Rewinding Breeze event, obtain Operator Mint",
       "description": "In accordance with Operator Mint's description, this engraved seal depicts the teethmarks left after a book bites.\nBooks can bite people? Do books have teeth? Wait, can books even move?",
@@ -4649,21 +5106,18 @@
       "medalId": "medal_activity_10d5_01",
       "medalName": "Peterheim Middle School Emblem",
       "medalType": "activityMedal",
-      "slotId": 96,
+      "slotId": 126,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act10d5",
-        "p_char_405_absin",
-        "1602586799",
-        "1605697199"
+        "act10d5"
       ],
       "getMethod": "Unlock all the stories in Children of Ursus",
-      "description": "An engraved medal based upon the emblem of Peterheim Middle School.\nEven though they’re still not ready for it, they wish to walk towards tomorrow.",
+      "description": "An engraved medal based upon the emblem of Peterheim Middle School.\nEven though they're still not ready for it, they wish to walk towards tomorrow.",
       "advancedMedal": null,
       "originMedal": null,
-      "activeTime": 1616673600,
+      "activeTime": 1601380800,
       "getTime": -1,
       "medalRewardGroup": []
     },
@@ -4671,21 +5125,20 @@
       "medalId": "medal_activity_10d5_02",
       "medalName": "Damaged Chernobog Badge",
       "medalType": "activityMedal",
-      "slotId": 97,
+      "slotId": 127,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
       "unlockParam": [
         "1",
         "p_char_405_absin",
-        "1602586799",
-        "1613041199"
+        "1602586799"
       ],
-      "getMethod": "During the Children of Ursus event, purchase Absinthe’s Token 1 time.",
-      "description": "An engraved medal restored using a police badge from Absinthe’s collection.\nThrough bitterness and sorrow, life must continue.",
+      "getMethod": "During the Children of Ursus event, purchase Absinthe's Token 1 time.",
+      "description": "An engraved medal restored using a police badge from Absinthe's collection.\nThrough bitterness and sorrow, life must continue.",
       "advancedMedal": null,
       "originMedal": null,
-      "activeTime": 1616673600,
+      "activeTime": 1601380800,
       "getTime": -1,
       "medalRewardGroup": []
     },
@@ -4693,16 +5146,12 @@
       "medalId": "medal_activity_4d0_01",
       "medalName": "Intelligence Archives Verification Medal",
       "medalType": "activityMedal",
-      "slotId": 98,
+      "slotId": 128,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act4d0",
-        "act12d0_08",
-        "trap_016_peon",
-        "0",
-        "0"
+        "act4d0"
       ],
       "getMethod": "Unlock all the stories in Operational Intelligence",
       "description": "A template-made engraved medal based upon the emblem used by Intelligence Certification in their archival work.\nOur intelligence records will never be complete. The best we can do is to get as close as we can.",
@@ -4714,21 +5163,17 @@
     },
     {
       "medalId": "medal_activity_6d5_01",
-      "medalName": "Nian’s Seal",
+      "medalName": "Nian's Seal",
       "medalType": "activityMedal",
-      "slotId": 99,
+      "slotId": 129,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act6d5",
-        "act13d5_08",
-        "enemy_1105_tyokai",
-        "8",
-        "0"
+        "act6d5"
       ],
       "getMethod": "Unlock all the stories in Ancient Forge",
-      "description": "An engraved medal made for the Base, bearing Nian’s insignia.\nThere has yet to be a chef who can craft the kind of spiciness that Nian craves.",
+      "description": "An engraved medal made for the Base, bearing Nian's insignia.\nThere has yet to be a chef who can craft the kind of spiciness that Nian craves.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
@@ -4739,15 +5184,12 @@
       "medalId": "medal_activity_7d5_01",
       "medalName": "Afternoon Cafeteria Voucher",
       "medalType": "activityMedal",
-      "slotId": 100,
+      "slotId": 130,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act7d5",
-        "act11d0_mo01",
-        "trap_014_tower",
-        "3"
+        "act7d5"
       ],
       "getMethod": "Unlock all the stories in Stories of Afternoon",
       "description": "An engraved medal designed from leftover cafeteria vouchers. No cash value, cannot be exchanged for Stories of Afternoon rewards.\nThere are more stories waiting to be told, and heard.",
@@ -4761,7 +5203,7 @@
       "medalId": "medal_activity_11d0_075",
       "medalName": "Gendarmerie Offensive Medal",
       "medalType": "activityMedal",
-      "slotId": 87,
+      "slotId": 117,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithTower",
@@ -4783,7 +5225,7 @@
       "medalId": "medal_activity_10d0_035",
       "medalName": "Pyrite: Commemorative Contract Medal II",
       "medalType": "activityMedal",
-      "slotId": 73,
+      "slotId": 103,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -4793,7 +5235,7 @@
         "18",
         "1605697199"
       ],
-      "getMethod": "During Operation Pyrite, complete Contingency 18 in the Permanent operation site within a week of the start of Operation Pyrite (before 11/18/2020 03:59:59 AM)",
+      "getMethod": "During Operation Pyrite, complete Contingency 18 in the Permanent operation site within a week of the start of Operation Pyrite (before 11/18/2020 03:59:59 A.M.)",
       "description": null,
       "advancedMedal": null,
       "originMedal": "medal_activity_10d0_03",
@@ -4805,7 +5247,7 @@
       "medalId": "medal_activity_11d5_035",
       "medalName": "Blade: Commemorative Contract Medal II",
       "medalType": "activityMedal",
-      "slotId": 63,
+      "slotId": 93,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -4813,10 +5255,9 @@
         "rune_season_2_1",
         "level_rune_04-01",
         "18",
-        "1613041199",
-        "0"
+        "1613041199"
       ],
-      "getMethod": "During Operation Blade, complete Contingency 18 in the Permanent operation site within a week of the start of Operation Blade (before 2/11/2020 03:59:59 AM)",
+      "getMethod": "During Operation Blade, complete Contingency 18 in the Permanent operation site within a week of the start of Operation Blade (before 2/11/2020 03:59:59 A.M.)",
       "description": null,
       "advancedMedal": null,
       "originMedal": "medal_activity_11d5_03",
@@ -4828,7 +5269,7 @@
       "medalId": "medal_activity_12d0_085",
       "medalName": "Sightseeing Medal",
       "medalType": "activityMedal",
-      "slotId": 59,
+      "slotId": 89,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithCutTree",
@@ -4851,7 +5292,7 @@
       "medalId": "medal_activity_13d5_045",
       "medalName": "Down-and-Out Executioner's Medal",
       "medalType": "activityMedal",
-      "slotId": 44,
+      "slotId": 74,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageKilled",
@@ -4874,7 +5315,7 @@
       "medalId": "medal_activity_14d5_035",
       "medalName": "Cinder: Commemorative Contract Medal II",
       "medalType": "activityMedal",
-      "slotId": 33,
+      "slotId": 63,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -4884,7 +5325,7 @@
         "18",
         "1622804399"
       ],
-      "getMethod": "During Operation Cinder, complete Contingency 18 in the Permanent operation site within a week of the start of Operation Cinder (before 6/4/2021 03:59:59 AM)",
+      "getMethod": "During Operation Cinder, complete Contingency 18 in the Permanent operation site within a week of the start of Operation Cinder (before 6/4/2021 03:59:59 A.M.)",
       "description": null,
       "advancedMedal": null,
       "originMedal": "medal_activity_14d5_03",
@@ -4896,7 +5337,7 @@
       "medalId": "medal_activity_15d0_105",
       "medalName": "Brains and Brawn",
       "medalType": "activityMedal",
-      "slotId": 30,
+      "slotId": 60,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithTrapSurvived",
@@ -4918,7 +5359,7 @@
       "medalId": "medal_activity_16d0_035",
       "medalName": "Lead Seal: Commemorative Contract Medal II",
       "medalType": "activityMedal",
-      "slotId": 13,
+      "slotId": 43,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -4928,7 +5369,7 @@
         "18",
         "1626778799"
       ],
-      "getMethod": "During Operation Lead Seal, complete Contingency 18 in the Permanent operation site within a week of the start of Operation Lead Seal (before 7/20/2021 03:59:59 AM)",
+      "getMethod": "During Operation Lead Seal, complete Contingency 18 in the Permanent operation site within a week of the start of Operation Lead Seal (before 7/20/2021 03:59:59 A.M.)",
       "description": null,
       "advancedMedal": null,
       "originMedal": "medal_activity_16d0_03",
@@ -4940,7 +5381,7 @@
       "medalId": "medal_activity_16d5_045",
       "medalName": "Conservation Medal",
       "medalType": "activityMedal",
-      "slotId": 4,
+      "slotId": 34,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithLessDeploy",
@@ -4954,6 +5395,27 @@
       "description": null,
       "advancedMedal": null,
       "originMedal": "medal_activity_16d5_04",
+      "activeTime": 0,
+      "getTime": 0,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_18d0_105",
+      "medalName": "'The Second Contact'",
+      "medalType": "activityMedal",
+      "slotId": 30,
+      "preMedalIdList": null,
+      "rarity": 3,
+      "template": "PassStageWithDeadInLess",
+      "unlockParam": [
+        "3",
+        "act18d0_08",
+        "2"
+      ],
+      "getMethod": "Clear WD-8 with at least a 3-star rating while being hit by [Collapsing Fear] in [Dominion] no more than 2 times.",
+      "description": null,
+      "advancedMedal": null,
+      "originMedal": "medal_activity_18d0_10",
       "activeTime": 0,
       "getTime": 0,
       "medalRewardGroup": []
@@ -5022,7 +5484,7 @@
         {
           "groupId": "medalGroupActivityRune02",
           "groupName": "Operation Blade Engraved Medal Set",
-          "groupDesc": "A set of engraved medals commemorating the completion of Contingency Contracts during Operation Blade.\nEach medal bears witness to the contributions you made during Operation Blade.\nBroken by the flames of war, and reforged within your soul; if your heart’s desire is true, then the blade is yours to draw.",
+          "groupDesc": "A set of engraved medals commemorating the completion of Contingency Contracts during Operation Blade.\nEach medal bears witness to the contributions you made during Operation Blade.\nBroken by the flames of war, and reforged within your soul; if your heart's desire is true, then the blade is yours to draw.",
           "medalId": [
             "medal_activity_11d5_01",
             "medal_activity_11d5_02",
@@ -5042,8 +5504,8 @@
         },
         {
           "groupId": "medalGroupActivity12d0",
-          "groupName": "The Great Chief Returns Medal Set",
-          "groupDesc": "A set of etched medals that record information about Acahualla, Gavial’s hometown. \nConservatism versus modernization. A typical conflict is resolved here in an atypical manner, and everything ends comically. \nAnd in the end we find ourselves thinking: Just which is the better way of life?",
+          "groupName": "The Great Chief Returns Engraved Medal Set",
+          "groupDesc": "A set of engraved medals that record information about Acahualla, Gavial's hometown. \nConservatism versus modernization. A typical conflict is resolved here in an atypical manner, and everything ends comically. \nAnd in the end we find ourselves thinking: Just which is the better way of life?",
           "medalId": [
             "medal_activity_12d0_01",
             "medal_activity_12d0_02",
@@ -5063,7 +5525,7 @@
         },
         {
           "groupId": "medalGroupActivity13d5",
-          "groupName": "The Grand Knight Territory Medal Set",
+          "groupName": "The Grand Knight Territory Engraved Medal Set",
           "groupDesc": "A set of engraved medals that record Maria Nearl's journey of knighthood.\nFinding your meaning in life and affirming it is not an act for knights alone.\nWhere each end is a beginning in turn, a truest journey of knighthood is about to commence.",
           "medalId": [
             "medal_activity_13d5_01",
@@ -5161,6 +5623,26 @@
           "sortId": 9,
           "groupBackColor": "7f9190",
           "groupGetTime": 1627646400
+        },
+        {
+          "groupId": "medalGroupActivity18d0",
+          "groupName": "A Walk in the Dust Engraved Medal Set",
+          "groupDesc": "A set of engraved medals that recollects a lengthy journey.\nCivilization has transformed in every way, and she has been wandering for a long time.\nJust like countless souls.",
+          "medalId": [
+            "medal_activity_18d0_01",
+            "medal_activity_18d0_02",
+            "medal_activity_18d0_03",
+            "medal_activity_18d0_04",
+            "medal_activity_18d0_05",
+            "medal_activity_18d0_06",
+            "medal_activity_18d0_07",
+            "medal_activity_18d0_08",
+            "medal_activity_18d0_09",
+            "medal_activity_18d0_10"
+          ],
+          "sortId": 10,
+          "groupBackColor": "27323e",
+          "groupGetTime": 1633003200
         }
       ]
     },
