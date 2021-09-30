@@ -172,10 +172,29 @@
       "getTime": -1
     },
     {
+      "medalId": "medal_player_charnum_05",
+      "medalName": "오퍼레이터 연락 훈장·Ｖ",
+      "medalType": "playerMedal",
+      "slotId": 10,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "CharNum",
+      "unlockParam": [
+        "160"
+      ],
+      "getMethod": "오퍼레이터 160명 누적 획득",
+      "description": "당신은 지금 자신만의 오퍼레이터 관계망을 구축하려 하고 있습니다. \n컬럼비아에 이미 실행 가능한 인력 관리 방안이 나왔는데도, 당신은 여전히 기존 방식인 대면 협의를 고집하고 있군요.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1634792400,
+      "medalRewardGroup": [],
+      "getTime": 1634792400
+    },
+    {
       "medalId": "medal_player_recruitcount_01",
       "medalName": "공개모집 훈장·I",
       "medalType": "playerMedal",
-      "slotId": 10,
+      "slotId": 11,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "RecruitCount",
@@ -187,14 +206,26 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
-      "medalRewardGroup": [],
+      "medalRewardGroup": [
+        {
+          "groupId": "default",
+          "slotId": -1,
+          "itemList": [
+            {
+              "id": "voucher_recruitR5_pick2",
+              "count": 1,
+              "type": "VOUCHER_PICK"
+            }
+          ]
+        }
+      ],
       "getTime": -1
     },
     {
       "medalId": "medal_player_recruitcount_02",
       "medalName": "공개모집 훈장·II",
       "medalType": "playerMedal",
-      "slotId": 11,
+      "slotId": 12,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "RecruitCount",
@@ -225,7 +256,7 @@
       "medalId": "medal_player_recruitcount_03",
       "medalName": "공개모집 훈장·III",
       "medalType": "playerMedal",
-      "slotId": 12,
+      "slotId": 13,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "RecruitCount",
@@ -256,8 +287,19 @@
       "medalId": "medal_player_recruitcount_04",
       "medalName": "공개모집 훈장·IV",
       "medalType": "playerMedal",
-      "slotId": 13,
-      "preMedalIdList": [],
+      "slotId": 14,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 2,
       "template": "RecruitCount",
       "unlockParam": [
@@ -287,23 +329,15 @@
       "medalId": "medal_player_recruitcount_05",
       "medalName": "공개모집 훈장·V",
       "medalType": "playerMedal",
-      "slotId": 14,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 15,
+      "preMedalIdList": [],
       "rarity": 4,
       "template": "RecruitCount",
       "unlockParam": [
-        "1000"
+        "1000",
+        "main_03-08",
+        "1",
+        "8"
       ],
       "getMethod": "공개모집 1000회 진행",
       "description": "인재들을 목숨과도 같이 아끼시는군요.\n사막에는 황금 뿐만 아니라, 비밀과, 금은보화와, 오퍼레이터가 숨겨져 있습니다.",
@@ -329,7 +363,7 @@
       "medalId": "medal_stage_normal_01",
       "medalName": "《만회할 수 없는 국면》",
       "medalType": "stageMedal",
-      "slotId": 1,
+      "slotId": 2,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -337,7 +371,7 @@
         "2",
         "main_03-08",
         "1",
-        "8"
+        "16"
       ],
       "getMethod": "스테이지 3-8 클리어",
       "description": "당신은 일련의 비극을 겪었습니다.",
@@ -351,15 +385,14 @@
       "medalId": "medal_stage_fourstar_01",
       "medalName": "하드 모드 훈장 - 시작",
       "medalType": "stageMedal",
-      "slotId": 2,
+      "slotId": 3,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_00-01#f#;main_00-02#f#;main_00-03#f#;main_00-04#f#;main_00-05#f#;main_00-06#f#;main_00-07#f#;main_00-08#f#;main_00-09#f#;main_00-10#f#;main_00-11#f#;main_01-01#f#;main_01-03#f#;main_01-04#f#;main_01-05#f#;main_01-06#f#;main_01-07#f#;main_01-08#f#;main_01-09#f#;main_01-10#f#;main_01-12#f#;main_02-01#f#;main_02-02#f#;main_02-03#f#;main_02-04#f#;main_02-05#f#;main_02-06#f#;main_02-07#f#;main_02-08#f#;main_02-09#f#;main_02-10#f#;main_03-01#f#;main_03-02#f#;main_03-03#f#;main_03-04#f#;main_03-05#f#;main_03-06#f#;main_03-07#f#;main_03-08#f#",
-        "39",
-        "16"
+        "39"
       ],
       "getMethod": "프롤로그부터 에피소드 3까지의 모든 스테이지 하드 모드 클리어",
       "description": "제한된 조건으로 적을 물리쳤습니다.\n로도스 아일랜드와의 좋은 협력이 이루어낸 결과입니다. ",
@@ -373,14 +406,15 @@
       "medalId": "medal_stage_normal_02",
       "medalName": "《입동》",
       "medalType": "stageMedal",
-      "slotId": 3,
+      "slotId": 4,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_04-10",
-        "1"
+        "1",
+        "5"
       ],
       "getMethod": "스테이지 4-10 클리어",
       "description": "프로스트노바와의 전투에서 살아남았습니다.",
@@ -394,15 +428,14 @@
       "medalId": "medal_stage_fourstar_02",
       "medalName": "하드 모드 훈장 - 방어",
       "medalType": "stageMedal",
-      "slotId": 4,
+      "slotId": 5,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_04-01#f#;main_04-02#f#;main_04-03#f#;main_04-04#f#;main_04-05#f#;main_04-06#f#;main_04-07#f#;main_04-08#f#;main_04-09#f#;main_04-10#f#",
-        "10",
-        "5"
+        "10"
       ],
       "getMethod": "에피소드 4의 모든 스테이지 하드 모드 클리어",
       "description": "적의 기습에도 능숙하게 대응하는 방법을 터득했습니다.\n작전 소대가 당신의 명령을 정확히 이행할 수 있게 되었습니다.",
@@ -416,7 +449,7 @@
       "medalId": "medal_stage_normal_03",
       "medalName": "《한마음》",
       "medalType": "stageMedal",
-      "slotId": 5,
+      "slotId": 6,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -437,7 +470,7 @@
       "medalId": "medal_stage_fourstar_03",
       "medalName": "하드 모드 훈장 - 도시",
       "medalType": "stageMedal",
-      "slotId": 6,
+      "slotId": 7,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -458,14 +491,15 @@
       "medalId": "medal_stage_hard_01",
       "medalName": "익스트림 훈장 - 연옥",
       "medalType": "stageMedal",
-      "slotId": 7,
+      "slotId": 8,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "hard_05-01;hard_05-02;hard_05-03;hard_05-04",
-        "4"
+        "4",
+        "8"
       ],
       "getMethod": "에피소드 5의 모든 익스트림 모드 스테이지를 3★ 평가로 클리어",
       "description": "다행히도 다치지 않았군요.\n연옥의 화살이 당신을 비껴갔습니다.",
@@ -479,15 +513,14 @@
       "medalId": "medal_stage_normal_04",
       "medalName": "《희생》",
       "medalType": "stageMedal",
-      "slotId": 8,
+      "slotId": 9,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_06-06",
-        "1",
-        "8"
+        "1"
       ],
       "getMethod": "스테이지 6-7 클리어",
       "description": "당신의 오퍼레이터가 파우스트의 석궁을 회수했습니다.",
@@ -501,8 +534,19 @@
       "medalId": "medal_stage_normal_05",
       "medalName": "《구면》",
       "medalType": "stageMedal",
-      "slotId": 9,
-      "preMedalIdList": [],
+      "slotId": 10,
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
@@ -522,19 +566,8 @@
       "medalId": "medal_stage_fourstar_04",
       "medalName": "하드 모드 훈장 - 한풍",
       "medalType": "stageMedal",
-      "slotId": 10,
-      "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 11,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
@@ -554,13 +587,14 @@
       "medalId": "medal_stage_hard_02",
       "medalName": "익스트림 훈장 - 얼음 감옥",
       "medalType": "stageMedal",
-      "slotId": 11,
+      "slotId": 12,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "hard_06-01;hard_06-02;hard_06-03;hard_06-04",
+        "4",
         "4"
       ],
       "getMethod": "에피소드 6의 모든 익스트림 모드 스테이지를 3★ 평가로 클리어",
@@ -575,15 +609,14 @@
       "medalId": "medal_stage_normal_06",
       "medalName": "《결심》",
       "medalType": "stageMedal",
-      "slotId": 12,
+      "slotId": 13,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_07-01",
-        "1",
-        "4"
+        "1"
       ],
       "getMethod": "스테이지 7-2 클리어",
       "description": "첸 훼이지에는 자신의 길을 선택했습니다.",
@@ -597,14 +630,15 @@
       "medalId": "medal_stage_normal_07",
       "medalName": "《전사의 일생》",
       "medalType": "stageMedal",
-      "slotId": 13,
+      "slotId": 14,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_07-16",
-        "1"
+        "1",
+        "5"
       ],
       "getMethod": "스테이지 7-18 클리어",
       "description": "패트리어트의 전사 소식이 체르노보그 코어에 울려 퍼졌습니다.",
@@ -618,15 +652,14 @@
       "medalId": "medal_stage_fourstar_05",
       "medalName": "하드 모드 훈장 - 대열",
       "medalType": "stageMedal",
-      "slotId": 14,
+      "slotId": 15,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_07-01#f#;main_07-02#f#;main_07-03#f#;main_07-04#f#;main_07-05#f#;main_07-06#f#;main_07-07#f#;main_07-08#f#;main_07-09#f#;main_07-10#f#;main_07-11#f#;main_07-12#f#;main_07-13#f#;main_07-14#f#;main_07-15#f#;main_07-16#f#",
-        "16",
-        "5"
+        "16"
       ],
       "getMethod": "에피소드 7의 모든 스테이지 하드 모드 클리어",
       "description": "복잡한 잠입 조건 하에 공격을 펼치는 능력을 터득하였습니다.\n적의 주요 병력에게 발각되지만 않는다면, 무슨 수를 써도 된답니다.",
@@ -640,14 +673,15 @@
       "medalId": "medal_stage_hard_03",
       "medalName": "익스트림 훈장 - 스타파이어",
       "medalType": "stageMedal",
-      "slotId": 15,
+      "slotId": 16,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "hard_07-01;hard_07-02;hard_07-03;hard_07-04",
-        "4"
+        "4",
+        "3"
       ],
       "getMethod": "에피소드 7의 모든 익스트림 모드 스테이지를 3★ 평가로 클리어",
       "description": "축하합니다. 당신은 산산조각 나지 않았습니다.\n성화 같은 중창이 대지를 내리쳤을 뿐.",
@@ -661,15 +695,14 @@
       "medalId": "medal_stage_normal_08",
       "medalName": "《목을 조르다》",
       "medalType": "stageMedal",
-      "slotId": 16,
+      "slotId": 17,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "2",
         "main_08-13",
-        "1",
-        "3"
+        "1"
       ],
       "getMethod": "스테이지 R8-11 클리어",
       "description": "황제의 칼날이 탈룰라와 감염자 대열의 갈등을 빚어냈습니다.",
@@ -683,7 +716,7 @@
       "medalId": "medal_stage_normal_09",
       "medalName": "《숨소리》",
       "medalType": "stageMedal",
-      "slotId": 17,
+      "slotId": 18,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -704,7 +737,7 @@
       "medalId": "medal_stage_normal_10",
       "medalName": "《일단락》",
       "medalType": "stageMedal",
-      "slotId": 18,
+      "slotId": 19,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -725,7 +758,7 @@
       "medalId": "medal_stage_fourstar_06",
       "medalName": "하드 모드 훈장 - 폐허",
       "medalType": "stageMedal",
-      "slotId": 19,
+      "slotId": 20,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -746,8 +779,18 @@
       "medalId": "medal_stage_hard_04",
       "medalName": "익스트림 훈장 - 잔열",
       "medalType": "stageMedal",
-      "slotId": 20,
-      "preMedalIdList": [],
+      "slotId": 21,
+      "preMedalIdList": [
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
+      ],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
@@ -768,21 +811,14 @@
       "medalName": "단련의 훈장",
       "medalType": "campMedal",
       "slotId": 1,
-      "preMedalIdList": [
-        "medal_activity_13d5_02",
-        "medal_activity_13d5_03",
-        "medal_activity_13d5_04",
-        "medal_activity_13d5_05",
-        "medal_activity_13d5_06",
-        "medal_activity_13d5_07",
-        "medal_activity_13d5_08",
-        "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 4,
       "template": "CampaignsDiamondLimit",
       "unlockParam": [
-        "1800"
+        "1800",
+        "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
+        "100",
+        "8"
       ],
       "getMethod": "합성옥 주간 보수 리미트 1800 도달",
       "description": "섬멸 임무 기간 동안 단련을 완료했음을 기리기 위해 주어진 훈장.\n장시간의 고강도 지휘는 당신을 더 강하게 만들 뿐이란 걸 증명해냈습니다.",
@@ -802,9 +838,9 @@
       "template": "CampaignsComplete",
       "unlockParam": [
         "camp_01",
-        "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
-        "100",
-        "8"
+        "act13d5_01;act13d5_02;act13d5_03;act13d5_04;act13d5_05;act13d5_06;act13d5_07;act13d5_08",
+        "8",
+        "16"
       ],
       "getMethod": "섬멸 작전 체르노보그 퍼펙트 클리어 및 모든 보상 획득",
       "description": "체르노보그 섬멸 임무를 완료했음을 기리는 훈장.\n체르노보그의 난민들은 로도스 아일랜드의 호송 아래 안전하게 도시를 떠났습니다.",
@@ -824,9 +860,9 @@
       "template": "CampaignsComplete",
       "unlockParam": [
         "camp_02",
-        "act13d5_01;act13d5_02;act13d5_03;act13d5_04;act13d5_05;act13d5_06;act13d5_07;act13d5_08",
-        "8",
-        "16"
+        "act13d5_08",
+        "enemy_1105_tyokai",
+        "4"
       ],
       "getMethod": "섬멸 작전 용문 외곽 퍼펙트 클리어 및 모든 보상 획득",
       "description": "용문 외곽 섬멸 임무를 완료했음을 기리는 훈장.\n용문 시민들은 로도스 아일랜드의 전문성과 신뢰성을 인지하게 되었습니다.",
@@ -846,9 +882,9 @@
       "template": "CampaignsComplete",
       "unlockParam": [
         "camp_03",
-        "act13d5_08",
+        "act13d5_ex08",
         "enemy_1105_tyokai",
-        "4"
+        "3"
       ],
       "getMethod": "섬멸 작전 용문 시내 퍼펙트 클리어 및 모든 보상 획득",
       "description": "용문 시내 섬멸 임무를 완료했음을 기리는 훈장.\n로도스 아일랜드를 향한 용문 시민들의 칭찬이 끊이지 않는군요.",
@@ -868,9 +904,10 @@
       "template": "CampaignsComplete",
       "unlockParam": [
         "camp_r_01",
-        "act13d5_ex08",
-        "enemy_1105_tyokai",
-        "3"
+        "1",
+        "8",
+        "1",
+        "5"
       ],
       "getMethod": "섬멸 작전 그랜드 나이트 영지 교외 퍼펙트 클리어 및 모든 보상 획득",
       "description": "그랜드 나이트 영지 교외 섬멸 의뢰 또는 모의 전투를 완료했음을 기리는 훈장.\n의뢰가 어떤 방식으로 완수되었든, 카시미어의 상인들은 모두 로도스 아일랜드의 가치를 인정했습니다.",
@@ -892,11 +929,10 @@
         "camp_r_02",
         "1",
         "8",
-        "1",
-        "5"
+        "3"
       ],
       "getMethod": "섬멸 작전 북툰드라 얼어붙은 유령 도시 퍼펙트 클리어 및 모든 보상 획득",
-      "description": "북툰드라 얼어붙은 유령 도시의 섬멸 임무 또는 모의 전투를 완료했음을 기리는 훈장.\n모의 전투든 실전이든, 이 죽음의 땅은 결국 모든 생명을 앗아가진 못 할 겁니다.",
+      "description": "북툰드라 얼어붙은 유령도시의 섬멸 임무 또는 모의 전투를 완료했음을 기리는 훈장.\n모의 전투든 실전이든, 이 죽음의 땅은 결국 모든 생명을 앗아가진 못할 겁니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
@@ -914,11 +950,10 @@
       "unlockParam": [
         "camp_r_03",
         "1",
-        "8",
-        "3"
+        "4"
       ],
       "getMethod": "섬멸 작전 버려진 광산 구역 퍼펙트 클리어 및 모든 보상 획득",
-      "description": "우르수스 버려진 광산 구역의 섬멸 임무 또는 모의 전투를 완료했음을 기리는 훈장.\n모의 전투든 실전이든, 이 죽음의 땅은 결국 모든 생명을 앗아가진 못 할 겁니다.",
+      "description": "우르수스 버려진 광산 구역의 섬멸 의뢰 또는 모의 전투를 완료했음을 기리는 훈장.\n모의 전투든 실전이든, 광산에 갇힌 망령들은 모두 고이 잠들게 될 겁니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": -1,
@@ -936,7 +971,9 @@
       "unlockParam": [
         "1",
         "1",
-        "4"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "1차 정예화 달성 오퍼레이터 1명 보유",
       "description": "승진 자격 테스트를 통과한 오퍼레이터를 1명 키워내셨습니다.",
@@ -957,9 +994,9 @@
       "unlockParam": [
         "20",
         "1",
-        "trap_016_peon",
-        "0",
-        "2"
+        "4000",
+        "1",
+        "7"
       ],
       "getMethod": "1차 정예화 달성 오퍼레이터 20명 보유",
       "description": "많은 오퍼레이터들이 승진 자격 테스트를 통과했습니다.",
@@ -974,15 +1011,23 @@
       "medalName": "오퍼레이터 승진 훈장·Ⅲ",
       "medalType": "growthMedal",
       "slotId": 3,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
         "50",
-        "1",
-        "4000",
-        "1",
-        "7"
+        "1"
       ],
       "getMethod": "1차 정예화 달성 오퍼레이터 50명 보유",
       "description": "승진 자격 테스트가 점차 오퍼레이터들 사이에서 자신의 능력을 판가름하는 주요 기준이 되어가고 있습니다.",
@@ -997,23 +1042,14 @@
       "medalName": "오퍼레이터 승진 훈장·Ⅳ",
       "medalType": "growthMedal",
       "slotId": 4,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09",
-        "medal_activity_11d0_11"
-      ],
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CharEvolveCount",
       "unlockParam": [
         "80",
-        "1"
+        "1",
+        "100",
+        "8"
       ],
       "getMethod": "1차 정예화 달성 오퍼레이터 80명 보유",
       "description": "승진 자격 테스트가 자신을 개선시키는 기초 테스트가 되었습니다.\n승진을 한 오퍼레이터는 더 높은 요구사항을 들고 오게 되지 않을까요?",
@@ -1027,15 +1063,15 @@
       "medalId": "medal_growth_evolve2_01",
       "medalName": "오퍼레이터 정진 훈장·I",
       "medalType": "growthMedal",
-      "slotId": 5,
+      "slotId": 6,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
         "1",
         "2",
-        "100",
-        "8"
+        "1",
+        "16"
       ],
       "getMethod": "2차 정예화 달성 오퍼레이터 1명 보유",
       "description": "당신의 지도 아래 한 명의 오퍼레이터가 자신이 속한 팀에서 자신만의 가치를 찾게 되었습니다.",
@@ -1049,15 +1085,14 @@
       "medalId": "medal_growth_evolve2_02",
       "medalName": "오퍼레이터 정진 훈장·Ⅱ",
       "medalType": "growthMedal",
-      "slotId": 6,
+      "slotId": 7,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
         "10",
         "2",
-        "1",
-        "16"
+        "4000"
       ],
       "getMethod": "2차 정예화 달성 오퍼레이터 10명 보유",
       "description": "여러 오퍼레이터들이 직장에서 중요한 역할을 맡게 되었습니다.",
@@ -1071,14 +1106,15 @@
       "medalId": "medal_growth_evolve2_03",
       "medalName": "오퍼레이터 정진 훈장·Ⅲ",
       "medalType": "growthMedal",
-      "slotId": 7,
+      "slotId": 8,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharEvolveCount",
       "unlockParam": [
         "25",
         "2",
-        "4000"
+        "9",
+        "5"
       ],
       "getMethod": "2차 정예화 달성 오퍼레이터 25명 보유",
       "description": "많은 오퍼레이터들이 적극적으로 자신의 슬럼프를 극복하고 있습니다.",
@@ -1092,14 +1128,15 @@
       "medalId": "medal_growth_evolve2_04",
       "medalName": "오퍼레이터 정진 훈장·Ⅳ",
       "medalType": "growthMedal",
-      "slotId": 8,
+      "slotId": 9,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharEvolveCount",
       "unlockParam": [
         "40",
         "2",
-        "9",
+        "trap_016_peon",
+        "1",
         "5"
       ],
       "getMethod": "2차 정예화 달성 오퍼레이터 40명 보유",
@@ -1114,16 +1151,14 @@
       "medalId": "medal_growth_skill_01",
       "medalName": "스킬 상승 훈장·I",
       "medalType": "growthMedal",
-      "slotId": 9,
+      "slotId": 11,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharSkillCount",
       "unlockParam": [
         "1",
         "7",
-        "trap_016_peon",
-        "1",
-        "5"
+        "8"
       ],
       "getMethod": "스킬 레벨 랭크 7  달성 오퍼레이터 1명 보유",
       "description": "한 명의 오퍼레이터가 능숙하게 자신의 전장 작전 스킬을 익혔습니다.",
@@ -1137,14 +1172,14 @@
       "medalId": "medal_growth_skill_02",
       "medalName": "스킬 상승 훈장·Ⅱ",
       "medalType": "growthMedal",
-      "slotId": 10,
+      "slotId": 12,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharSkillCount",
       "unlockParam": [
         "25",
         "7",
-        "8"
+        "4"
       ],
       "getMethod": "스킬 레벨 랭크 7  달성 오퍼레이터 25명 보유",
       "description": "스킬을 익힌 오퍼레이터들이 서로 연계를 시도하게 되었습니다.",
@@ -1158,14 +1193,16 @@
       "medalId": "medal_growth_skill_03",
       "medalName": "스킬 상승 훈장·Ⅲ",
       "medalType": "growthMedal",
-      "slotId": 11,
+      "slotId": 13,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharSkillCount",
       "unlockParam": [
         "60",
         "7",
-        "4"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "스킬 레벨 랭크 7  달성 오퍼레이터 60명 보유",
       "description": "오퍼레이터들이 효율적으로 연합 작전을 진행할 방법들을 모색하고 있습니다.\n다소대 연합 작전은 지휘자의 재능을 시험할 수 있을 뿐만 아니라, 오퍼레이터 간의 협력 능력도 시험할 수 있습니다. 스킬의 능숙한 활용은, 그중에서도 가장 기초적인 일환이라 할 수 있겠습니다.",
@@ -1179,7 +1216,7 @@
       "medalId": "medal_growth_specskill_01",
       "medalName": "스킬 숙련 훈장·I",
       "medalType": "growthMedal",
-      "slotId": 12,
+      "slotId": 15,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharSkillSpecCount",
@@ -1187,8 +1224,8 @@
         "1",
         "3",
         "trap_016_peon",
-        "0",
-        "2"
+        "1",
+        "7"
       ],
       "getMethod": "마스터리 랭크를 3 달성한 오퍼레이터 스킬 1개 보유",
       "description": "한 명의 오퍼레이터가 작전 스킬을 최고 수준까지 단련하였습니다.",
@@ -1202,16 +1239,24 @@
       "medalId": "medal_growth_specskill_02",
       "medalName": "스킬 숙련 훈장·Ⅱ",
       "medalType": "growthMedal",
-      "slotId": 13,
-      "preMedalIdList": [],
+      "slotId": 16,
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CharSkillSpecCount",
       "unlockParam": [
         "5",
-        "3",
-        "trap_016_peon",
-        "1",
-        "7"
+        "3"
       ],
       "getMethod": "마스터리 랭크를 3 달성한 오퍼레이터 스킬 5개 보유",
       "description": "많은 오퍼레이터들이 전장에서 자신의 능력을 최대한으로 발휘하고 있습니다.",
@@ -1225,24 +1270,15 @@
       "medalId": "medal_growth_specskill_03",
       "medalName": "스킬 숙련 훈장·Ⅲ",
       "medalType": "growthMedal",
-      "slotId": 14,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 17,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CharSkillSpecCount",
       "unlockParam": [
         "10",
-        "3"
+        "3",
+        "1",
+        "8"
       ],
       "getMethod": "마스터리 랭크를 3 달성한 오퍼레이터 스킬 10개 보유",
       "description": "일부 오퍼레이터들은 이미 자신이 전장에서 어떤 역할을 맡아야 하는지 충분히 이해하고 있습니다. \n자신을 단련시키는 건 쉬운 일이 아니지만, 더 어려운 일은 어떻게 타인과 함께 목표를 완수하는지 배우는 일입니다.",
@@ -1256,7 +1292,7 @@
       "medalId": "medal_growth_favor_01",
       "medalName": "동행 훈장·I",
       "medalType": "growthMedal",
-      "slotId": 15,
+      "slotId": 19,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1264,7 +1300,7 @@
         "1",
         "100",
         "1",
-        "8"
+        "16"
       ],
       "getMethod": "신뢰도가 100에 도달한 오퍼레이터 1명 보유",
       "description": "한 명의 오퍼레이터가 친구로 등록되었습니다.",
@@ -1278,15 +1314,14 @@
       "medalId": "medal_growth_favor_02",
       "medalName": "동행 훈장·Ⅱ",
       "medalType": "growthMedal",
-      "slotId": 16,
+      "slotId": 20,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
       "unlockParam": [
         "20",
         "100",
-        "1",
-        "16"
+        "1606244399"
       ],
       "getMethod": "신뢰도가 100에 도달한 오퍼레이터 20명 보유",
       "description": "여러 명의 오퍼레이터가 친구로 등록되었습니다.",
@@ -1300,14 +1335,15 @@
       "medalId": "medal_growth_favor_03",
       "medalName": "동행 훈장·Ⅲ",
       "medalType": "growthMedal",
-      "slotId": 17,
+      "slotId": 21,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
       "unlockParam": [
         "50",
         "100",
-        "1606244399"
+        "10",
+        "5"
       ],
       "getMethod": "신뢰도가 100에 도달한 오퍼레이터 50명 보유",
       "description": "수많은 오퍼레이터가 친구로 등록되었습니다.",
@@ -1321,29 +1357,7 @@
       "medalId": "medal_growth_favor_04",
       "medalName": "동행 훈장·Ⅳ",
       "medalType": "growthMedal",
-      "slotId": 18,
-      "preMedalIdList": [],
-      "rarity": 2,
-      "template": "CharFavorCount",
-      "unlockParam": [
-        "100",
-        "100",
-        "10",
-        "5"
-      ],
-      "getMethod": "신뢰도가 100에 도달한 오퍼레이터 100명 보유",
-      "description": "대량의 오퍼레이터가 친구로 등록되었습니다. \n복도를 지나갈 때마다 누군가가 당신께 인사를 건네고 몇 마디 이야기를 나누게 될 겁니다.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_growth_favormax_01",
-      "medalName": "두터운 정의 훈장 I",
-      "medalType": "growthMedal",
-      "slotId": 19,
+      "slotId": 22,
       "preMedalIdList": [
         "medal_activity_14d5_02",
         "medal_activity_14d5_03",
@@ -1355,12 +1369,34 @@
         "medal_activity_14d5_09",
         "medal_activity_14d5_10"
       ],
+      "rarity": 2,
+      "template": "CharFavorCount",
+      "unlockParam": [
+        "100",
+        "100",
+        "1"
+      ],
+      "getMethod": "신뢰도가 100에 도달한 오퍼레이터 100명 보유",
+      "description": "대량의 오퍼레이터가 친구로 등록되었습니다.\n복도를 지나갈 때마다 누군가가 당신께 인사를 건네고 몇 마디 이야기를 나누게 될 겁니다.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1622178000,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_growth_favormax_01",
+      "medalName": "두터운 정의 훈장 I",
+      "medalType": "growthMedal",
+      "slotId": 23,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
       "unlockParam": [
         "1",
         "200",
-        "1"
+        "1",
+        "8"
       ],
       "getMethod": "신뢰도가 200에 도달한 오퍼레이터 1명 보유",
       "description": "목숨까지 내걸 수 있는 한 명의 동료를 사귀었습니다.",
@@ -1374,7 +1410,7 @@
       "medalId": "medal_growth_favormax_02",
       "medalName": "두터운 정의 훈장 Ⅱ",
       "medalType": "growthMedal",
-      "slotId": 20,
+      "slotId": 24,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
@@ -1382,7 +1418,7 @@
         "20",
         "200",
         "1",
-        "8"
+        "16"
       ],
       "getMethod": "신뢰도가 200에 도달한 오퍼레이터 20명 보유",
       "description": "목숨까지 내걸 수 있는 여러 명의 동료를 사귀었습니다.",
@@ -1396,15 +1432,15 @@
       "medalId": "medal_growth_favormax_03",
       "medalName": "두터운 정의 훈장 Ⅲ",
       "medalType": "growthMedal",
-      "slotId": 21,
+      "slotId": 25,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CharFavorCount",
       "unlockParam": [
         "40",
         "200",
-        "1",
-        "16"
+        "1623351599",
+        "4"
       ],
       "getMethod": "신뢰도가 200에 도달한 오퍼레이터 40명 보유",
       "description": "목숨까지 내걸 수 있는 수많은 동료를 사귀었습니다.",
@@ -1418,15 +1454,15 @@
       "medalId": "medal_growth_favormax_04",
       "medalName": "두터운 정의 훈장 Ⅳ",
       "medalType": "growthMedal",
-      "slotId": 22,
+      "slotId": 26,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharFavorCount",
       "unlockParam": [
         "60",
         "200",
-        "1623351599",
-        "4"
+        "10",
+        "3"
       ],
       "getMethod": "신뢰도가 200에 도달한 오퍼레이터 60명 보유",
       "description": "목숨까지 내걸 수 있는 수많은 동료를 사귀었습니다.\n대체 어떻게 수많은 오퍼레이터와 친밀한 관계를 유지할 수 있는 거죠?",
@@ -1440,15 +1476,25 @@
       "medalId": "medal_growth_char_01",
       "medalName": "《우정의 증명》",
       "medalType": "growthMedal",
-      "slotId": 23,
-      "preMedalIdList": [],
+      "slotId": 27,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "GotChars",
       "unlockParam": [
         "char_198_blackd;char_187_ccheal;char_260_durnar",
         "5",
-        "10",
-        "3"
+        "1"
       ],
       "getMethod": "오퍼레이터 쿠리어, 가비알, 듀나 보유",
       "description": "당신의 기꺼이 남을 도와주는 그 기품은, 이 오퍼레이터들이 당신과 함께하게 된 이유 중 하나입니다.",
@@ -1462,25 +1508,15 @@
       "medalId": "medal_growth_potential_01",
       "medalName": "《증표, 의료, 교육》",
       "medalType": "growthMedal",
-      "slotId": 24,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 28,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
       "unlockParam": [
         "char_198_blackd;char_187_ccheal;char_260_durnar",
         "5",
-        "1"
+        "8",
+        "8"
       ],
       "getMethod": "오퍼레이터 쿠리어, 가비알, 듀나를 보유하고, 잠재능력 최고 레벨 달성",
       "description": "전달자, 메딕, 그리고 교관의 인정을 받았습니다.\n당신과 이 오퍼레이터들은 모두 신뢰는 부족해선 안 된다는 점을 잘 알고 있습니다.",
@@ -1494,15 +1530,15 @@
       "medalId": "medal_growth_char_02",
       "medalName": "《노력의 증명》",
       "medalType": "growthMedal",
-      "slotId": 25,
+      "slotId": 29,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
       "unlockParam": [
         "char_355_ethan;char_275_breeze",
         "5",
-        "8",
-        "8"
+        "4",
+        "16"
       ],
       "getMethod": "오퍼레이터 에단, 브리즈 보유",
       "description": "늘 고군분투하는 당신의 모습은 이 오퍼레이터들이 당신과 함께하게 된 이유 중 하나입니다.",
@@ -1516,15 +1552,15 @@
       "medalId": "medal_growth_potential_02",
       "medalName": "《보이지 않는 치료》",
       "medalType": "growthMedal",
-      "slotId": 26,
+      "slotId": 30,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CharPotential",
       "unlockParam": [
         "char_355_ethan;char_275_breeze",
         "5",
-        "4",
-        "16"
+        "1",
+        "8"
       ],
       "getMethod": "오퍼레이터 에단, 브리즈를 보유하고, 잠재능력 최고 레벨 달성",
       "description": "은신의 고수와 몰락한 의사의 인정을 받았습니다.\n당신과 이 오퍼레이터들은 모두 노력엔 보상이 따른다는 점을 잘 알고 있습니다.",
@@ -1538,15 +1574,15 @@
       "medalId": "medal_growth_char_03",
       "medalName": "《클로저 스쿼드 α》",
       "medalType": "growthMedal",
-      "slotId": 27,
+      "slotId": 31,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotChars",
       "unlockParam": [
         "char_285_medic2;char_286_cast3",
         "5",
-        "1",
-        "8"
+        "4000",
+        "5"
       ],
       "getMethod": "오퍼레이터 Lancet-2, Castle-3 보유",
       "description": "클로저의 일부 로봇이 당신의 곁에 배치되었습니다.",
@@ -1560,15 +1596,24 @@
       "medalId": "medal_growth_potential_03",
       "medalName": "“L2＆C3”",
       "medalType": "growthMedal",
-      "slotId": 28,
-      "preMedalIdList": [],
+      "slotId": 32,
+      "preMedalIdList": [
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
+      ],
       "rarity": 2,
       "template": "CharPotential",
       "unlockParam": [
         "char_285_medic2;char_286_cast3",
         "5",
-        "4000",
-        "5"
+        "1"
       ],
       "getMethod": "오퍼레이터 Lancet-2, Castle-3를 보유하고, 잠재능력 최고 레벨 달성",
       "description": "가드 및 메딕 로봇의 인정을 받았습니다.\n몸체가 카본으로 이뤄져 있다는 점 말고, 사실 로봇과 우리는 별 차이가 없습니다.",
@@ -1583,25 +1628,16 @@
       "medalName": "'어떤 선택'",
       "medalType": "storyMedal",
       "slotId": 1,
-      "preMedalIdList": [
-        "medal_activity_13d5_02",
-        "medal_activity_13d5_03",
-        "medal_activity_13d5_04",
-        "medal_activity_13d5_05",
-        "medal_activity_13d5_06",
-        "medal_activity_13d5_07",
-        "medal_activity_13d5_08",
-        "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_009_12fce",
         "story_12fce_set_1",
-        "1"
+        "100",
+        "1612983599"
       ],
-      "getMethod": "오퍼레이터 12F의 오퍼레이터 레코드《어떤 선택》개방하기",
+      "getMethod": "오퍼레이터 12F의 오퍼레이터 레코드 《어떤 선택》개방하기",
       "description": "신분은 이름으로 시작해 이름으로 끝납니다. \n신분의 시작과 끝을 어떻게 정의해야 할까요?",
       "advancedMedal": null,
       "originMedal": null,
@@ -1614,28 +1650,6 @@
       "medalName": "'사과'",
       "medalType": "storyMedal",
       "slotId": 2,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_124_kroos",
-        "story_kroos_set_1",
-        "100",
-        "1612983599"
-      ],
-      "getMethod": "오퍼레이터 크루스의 오퍼레이터 레코드《사과》개방하기",
-      "description": "식량이자, 석궁을 쓰는 자들이 가장 좋아하는 과녁. \n만약 크루스가 흡착 화살을 사과 밖의 다른 곳에 적중시켰다면, 그건 크루스가 그냥 그렇게 하고 싶어서 그런 거라고 생각해 주십시오.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_rope_1",
-      "medalName": "'꽃 향수'",
-      "medalType": "storyMedal",
-      "slotId": 3,
       "preMedalIdList": [
         "medal_activity_15d0_02",
         "medal_activity_15d0_03",
@@ -1650,12 +1664,34 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_236_rope",
-        "story_rope_set_1",
+        "char_124_kroos",
+        "story_kroos_set_1",
         "8",
         "1605639599"
       ],
-      "getMethod": "오퍼레이터 로프의 오퍼레이터 레코드《꽃 향수》개방하기",
+      "getMethod": "오퍼레이터 크루스의 오퍼레이터 레코드 《사과》개방하기",
+      "description": "식량이자, 석궁을 쓰는 자들이 가장 좋아하는 과녁. \n만약 크루스가 흡착 화살을 사과 밖의 다른 곳에 적중시켰다면, 그건 크루스가 그냥 그렇게 하고 싶어서 그런 거라고 생각해 주십시오.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1624327200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_rope_1",
+      "medalName": "'꽃 향수'",
+      "medalType": "storyMedal",
+      "slotId": 3,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_236_rope",
+        "story_rope_set_1",
+        "100",
+        "4"
+      ],
+      "getMethod": "오퍼레이터 로프의 오퍼레이터 레코드 《꽃 향수》개방하기",
       "description": "귀하거나 향이 특별하지도 않은 향수, 용문 거리에서 자란 여성들에게 딱 어울립니다.\n로프는 자기의 향수를 끔찍하게 아낍니다. 전에는 향수 진열장을 바라보기만 했으나, 지금은 누군가 로프를 위해 특별히 만들어주게 되었기 때문입니다.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1674,10 +1710,10 @@
       "unlockParam": [
         "char_118_yuki",
         "story_yuki_set_1",
-        "100",
-        "4"
+        "enemy_1105_tyokai",
+        "3"
       ],
-      "getMethod": "오퍼레이터 시라유키의 오퍼레이터 레코드《닌자의 길》개방하기",
+      "getMethod": "오퍼레이터 시라유키의 오퍼레이터 레코드 《닌자의 길》개방하기",
       "description": "닌자의 길이란 일반적인 길을 가지 않는 것.\n엔지니어 클로저는 시라유키에게 배관 점검을 시키는 게 딱이겠다 생각하고 있다는군요.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1690,28 +1726,6 @@
       "medalName": "'신뢰의 첫걸음'",
       "medalType": "storyMedal",
       "slotId": 5,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_356_broca",
-        "story_broca_set_1",
-        "enemy_1105_tyokai",
-        "3"
-      ],
-      "getMethod": "오퍼레이터 브로카의 오퍼레이터 레코드《신뢰의 첫걸음》개방하기",
-      "description": "그 어떤 조직도 첫눈에 마음에 들 순 없습니다.\n우리가 할 수 있는 건 입에 발린 말이 아닌, 실제 행동으로 모두에게 보여주는 것이죠.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_prove_1",
-      "medalName": "'동료들'",
-      "medalType": "storyMedal",
-      "slotId": 6,
       "preMedalIdList": [
         "medal_activity_11d0_02",
         "medal_activity_11d0_03",
@@ -1727,13 +1741,34 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_145_prove",
-        "story_prove_set_1",
+        "char_356_broca",
+        "story_broca_set_1",
         "4000",
         "1",
         "5"
       ],
-      "getMethod": "오퍼레이터 프로방스의 오퍼레이터 레코드《동료들》개방하기",
+      "getMethod": "오퍼레이터 브로카의 오퍼레이터 레코드 《신뢰의 첫걸음》개방하기",
+      "description": "그 어떤 조직도 첫눈에 마음에 들 순 없습니다.\n우리가 할 수 있는 건 입에 발린 말이 아닌, 실제 행동으로 모두에게 보여주는 것이죠.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1624327200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_prove_1",
+      "medalName": "'동료들'",
+      "medalType": "storyMedal",
+      "slotId": 6,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_145_prove",
+        "story_prove_set_1",
+        "8"
+      ],
+      "getMethod": "오퍼레이터 프로방스의 오퍼레이터 레코드 《동료들》개방하기",
       "description": "남을 걱정하고 있을 때, 곁에 누군가도 당신을 걱정하고 있습니다.\n친절한 츠키노기 씨가 출발 전에 보낸 편지를 보고, 메딕 오퍼레이터들은 행적을 숨기려 했던 프로방스를 함선 입구에서 일거에 포획했습니다.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1752,9 +1787,10 @@
       "unlockParam": [
         "char_158_milu",
         "story_milu_set_1",
-        "8"
+        "8",
+        "4"
       ],
-      "getMethod": "오퍼레이터 파이어워치의 오퍼레이터 레코드《길 위에서》개방하기",
+      "getMethod": "오퍼레이터 파이어워치의 오퍼레이터 레코드 《길 위에서》개방하기",
       "description": "파이어워치는 자기에게 '복수의 길'만이 남았다고 생각합니다.\n그 길을 따라갔는지 돌아갔는지는 모르지만, 어쨌든 로도스 아일랜드를 만나게 되었습니다.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1773,10 +1809,11 @@
       "unlockParam": [
         "char_2013_cerber",
         "story_cerber_set_1",
-        "8",
-        "4"
+        "trap_025_prison",
+        "4",
+        "2"
       ],
-      "getMethod": "오퍼레이터 케오베의 오퍼레이터 레코드《특대 쿠키》개방하기",
+      "getMethod": "오퍼레이터 케오베의 오퍼레이터 레코드 《특대 쿠키》개방하기",
       "description": "벌컨이 만든 쿠키 훈장, 케오베가 좋은 활약을 보였을 때 하나씩 줍니다.\n사실 크기는 일반 훈장과 비슷하지만, 단지 이름에 '특대'라고 쓰여 있어 케오베가 더 좋아했을 뿐이죠.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1795,11 +1832,11 @@
       "unlockParam": [
         "char_180_amgoat",
         "story_amgoat_set_1",
-        "trap_025_prison",
-        "4",
-        "2"
+        "8",
+        "1",
+        "7"
       ],
-      "getMethod": "오퍼레이터 에이야퍄들라의 오퍼레이터 레코드《학자의 마음》개방하기",
+      "getMethod": "오퍼레이터 에이야퍄들라의 오퍼레이터 레코드 《학자의 마음》개방하기",
       "description": "배움의 길은 보고 듣는 것이 아니라 생각에 달렸습니다.\n겉모습이 약하다고 속지 마십시오.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1812,17 +1849,26 @@
       "medalName": "'화산'",
       "medalType": "storyMedal",
       "slotId": 10,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
       "rarity": 2,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_180_amgoat",
         "story_amgoat_set_2",
-        "8",
-        "1",
-        "7"
+        "trap_025_prison",
+        "4"
       ],
-      "getMethod": "오퍼레이터 에이야퍄들라의 오퍼레이터 레코드《화산》개방하기",
+      "getMethod": "오퍼레이터 에이야퍄들라의 오퍼레이터 레코드 《화산》개방하기",
       "description": "에이야퍄들라의 마음속엔 화산이 있습니다.\n불에 단련된 것은 진리이자, 곧 영원입니다.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1835,26 +1881,16 @@
       "medalName": "'협력'",
       "medalType": "storyMedal",
       "slotId": 11,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
-      ],
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_250_phatom",
         "story_phatom_set_1",
         "trap_025_prison",
-        "4"
+        "2"
       ],
-      "getMethod": "오퍼레이터 팬텀의 오퍼레이터 레코드《협력》개방하기",
+      "getMethod": "오퍼레이터 팬텀의 오퍼레이터 레코드 《협력》개방하기",
       "description": "혼자서 할 수 있는 건 너무 적습니다. 그래서 협력이 필요한 것이죠.\n괴팍스러운 팀원이라도 잘 협력하여 임무를 완수하는 것이, 로도스 아일랜드 오퍼레이터에게 있어선 필수 과제라 할 수 있을 겁니다.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1867,28 +1903,6 @@
       "medalName": "'어느 낙서'",
       "medalType": "storyMedal",
       "slotId": 12,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_285_medic2",
-        "story_medic2_set_1",
-        "trap_025_prison",
-        "2"
-      ],
-      "getMethod": "오퍼레이터 Lancet-2의 오퍼레이터 레코드《어느 낙서》개방하기",
-      "description": "컬럼비아 비속어라고 합니다.\n좋아하는지 싫어하는지는 모르겠지만, Lancet-2는 그 낙서가 굉장히 예쁘다고 생각하고 있습니다. 아무렴 어떤가요, 어차피 로봇인데. ",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1626152400,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_melan_1",
-      "medalName": "'팀장'",
-      "medalType": "storyMedal",
-      "slotId": 13,
       "preMedalIdList": [
         "medal_activity_14d5_02",
         "medal_activity_14d5_03",
@@ -1903,12 +1917,35 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_208_melan",
-        "story_melan_set_1",
+        "char_285_medic2",
+        "story_medic2_set_1",
         "1",
         "16"
       ],
-      "getMethod": "오퍼레이터 멜란사의 오퍼레이터 레코드《팀장》개방하기",
+      "getMethod": "오퍼레이터 Lancet-2의 오퍼레이터 레코드 《어느 낙서》개방하기",
+      "description": "컬럼비아 비속어라고 합니다.\n좋아하는지 싫어하는지는 모르겠지만, Lancet-2는 그 낙서가 굉장히 예쁘다고 생각하고 있습니다. 아무렴 어떤가요, 어차피 로봇인데.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1626152400,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_melan_1",
+      "medalName": "'팀장'",
+      "medalType": "storyMedal",
+      "slotId": 13,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_208_melan",
+        "story_melan_set_1",
+        "1",
+        "8",
+        "0"
+      ],
+      "getMethod": "오퍼레이터 멜란사의 오퍼레이터 레코드 《팀장》개방하기",
       "description": "예비작전팀 A4의 결성은 순탄치만은 않았습니다.\n교관은 멜란사가 훌륭한 팀장이 될 거라고 했지만, 훌륭한 팀장이 갖춰야 할 소양은 과연 무엇일까요?",
       "advancedMedal": null,
       "originMedal": null,
@@ -1918,32 +1955,9 @@
     },
     {
       "medalId": "medal_story_lava_1",
-      "medalName": " '자매'",
+      "medalName": "'자매'",
       "medalType": "storyMedal",
       "slotId": 14,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_121_lava",
-        "story_lava_set_1",
-        "1",
-        "8",
-        "0"
-      ],
-      "getMethod": "오퍼레이터 라바의 오퍼레이터 레코드《자매》개방하기",
-      "description": "이건 남에게 양보할 수 있는 게 아닙니다!\n그들 자매의 사이를 의심하는 사람은 아무도 없다고 합니다. 라바는 인정하기 싫어하지만요.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1627610400,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_lava_2",
-      "medalName": " '간호'",
-      "medalType": "storyMedal",
-      "slotId": 15,
       "preMedalIdList": [
         "medal_activity_16d0_02",
         "medal_activity_16d0_03",
@@ -1955,16 +1969,39 @@
         "medal_activity_16d0_09",
         "medal_activity_16d0_10"
       ],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_121_lava",
+        "story_lava_set_1",
+        "1",
+        "16",
+        "0"
+      ],
+      "getMethod": "오퍼레이터 라바의 오퍼레이터 레코드 《자매》개방하기",
+      "description": "이건 남에게 양보할 수 있는 게 아닙니다!\n그들 자매의 사이를 의심하는 사람은 아무도 없다고 합니다. 라바는 인정하기 싫어하지만요.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1627610400,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_lava_2",
+      "medalName": "'간호'",
+      "medalType": "storyMedal",
+      "slotId": 15,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_121_lava",
         "story_lava_set_2",
         "1",
-        "16",
-        "0"
+        "8",
+        "5"
       ],
-      "getMethod": "오퍼레이터 라바의 오퍼레이터 레코드《간호》개방하기",
+      "getMethod": "오퍼레이터 라바의 오퍼레이터 레코드 《간호》개방하기",
       "description": "히비스커스가 아프다고요?!\n히비스커스가 쓰러진 것도 처음이고, 라바도 언니를 돌보는 게 처…… 음인가요?",
       "advancedMedal": null,
       "originMedal": null,
@@ -1984,10 +2021,9 @@
         "char_290_vigna",
         "story_vigna_set_1",
         "1",
-        "8",
-        "5"
+        "16"
       ],
-      "getMethod": "오퍼레이터 비그나의 오퍼레이터 레코드《해야 하는 일》개방하기",
+      "getMethod": "오퍼레이터 비그나의 오퍼레이터 레코드 《해야 하는 일》개방하기",
       "description": "록은 비그나의 삶에 있어 중요한 부분입니다.\n그렇다고 록이 전부는 아니죠.",
       "advancedMedal": null,
       "originMedal": null,
@@ -1997,7 +2033,7 @@
     },
     {
       "medalId": "medal_story_fmout_1",
-      "medalName": " '점괘'",
+      "medalName": "'점괘'",
       "medalType": "storyMedal",
       "slotId": 17,
       "preMedalIdList": [],
@@ -2006,10 +2042,9 @@
       "unlockParam": [
         "char_109_fmout",
         "story_fmout_set_1",
-        "1",
-        "16"
+        "1"
       ],
-      "getMethod": "오퍼레이터 기타노의 오퍼레이터 레코드《점괘》개방하기",
+      "getMethod": "오퍼레이터 기타노의 오퍼레이터 레코드 《점괘》개방하기",
       "description": "모든 일은 대가가 따른 법, 그 대가 또한 다양합니다.\n점괘도 마찬가지죠. 돈을 주고 결과를 보면 됩니다.",
       "advancedMedal": null,
       "originMedal": null,
@@ -2028,9 +2063,11 @@
       "unlockParam": [
         "char_242_otter",
         "story_otter_set_1",
-        "1"
+        "10",
+        "0",
+        "2"
       ],
-      "getMethod": "오퍼레이터 메이어의 오퍼레이터 레코드《꽉 찬 스케줄》개방하기",
+      "getMethod": "오퍼레이터 메이어의 오퍼레이터 레코드 《꽉 찬 스케줄》개방하기",
       "description": "메이어는 바빠서 정신이 없습니다.\n물론 대다수의 임무는 메이어 스스로 받은 것입니다. 메이어는 원래 그런 걸 좋아하거든요.",
       "advancedMedal": null,
       "originMedal": null,
@@ -2040,32 +2077,9 @@
     },
     {
       "medalId": "medal_story_bldsk_1",
-      "medalName": " '괴물'",
+      "medalName": "'괴물'",
       "medalType": "storyMedal",
       "slotId": 19,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_171_bldsk",
-        "story_bldsk_set_1",
-        "10",
-        "0",
-        "2"
-      ],
-      "getMethod": "오퍼레이터 와파린의 오퍼레이터 레코드《괴물》개방하기",
-      "description": "와파린은 자신이 뱀파이어라는 점을 전혀 감추지 않습니다.\n그렇다고 당황할 필요는 없습니다. 어차피 두려워해도 소용없으니깐요.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1627610400,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_aglina_1",
-      "medalName": " '수취인 불명 소포''",
-      "medalType": "storyMedal",
-      "slotId": 20,
       "preMedalIdList": [
         "medal_activity_16d5_02",
         "medal_activity_16d5_03",
@@ -2080,14 +2094,14 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_291_aglina",
-        "story_aglina_set_1",
+        "char_171_bldsk",
+        "story_bldsk_set_1",
         "1",
         "1",
         "7"
       ],
-      "getMethod": "오퍼레이터 안젤리나의 오퍼레이터 레코드《수취인 불명 소포》개방하기",
-      "description": "업무 실수인 걸까요?\n아무 이유 없이 자기한테 선물 줄 사람이 없다고 안젤리나는 생각합니다.",
+      "getMethod": "오퍼레이터 와파린의 오퍼레이터 레코드 《괴물》개방하기",
+      "description": "와파린은 자신이 뱀파이어라는 점을 전혀 감추지 않습니다.\n그렇다고 당황할 필요는 없습니다. 어차피 두려워해도 소용없으니깐요.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1627610400,
@@ -2095,10 +2109,10 @@
       "getTime": -1
     },
     {
-      "medalId": "medal_story_ethan_1",
-      "medalName": " '타향의 옛 친구'",
+      "medalId": "medal_story_aglina_1",
+      "medalName": "'수취인 불명 소포'",
       "medalType": "storyMedal",
-      "slotId": 21,
+      "slotId": 20,
       "preMedalIdList": [
         "medal_activity_11d5_02",
         "medal_activity_11d5_03",
@@ -2113,12 +2127,34 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_355_ethan",
-        "story_ethan_set_1",
+        "char_291_aglina",
+        "story_aglina_set_1",
         "8",
         "8"
       ],
-      "getMethod": "오퍼레이터 에단의 오퍼레이터 레코드《타향의 옛 친구》개방하기",
+      "getMethod": "오퍼레이터 안젤리나의 오퍼레이터 레코드 《수취인 불명 소포》개방하기",
+      "description": "업무 실수인 걸까요?\n아무 이유 없이 자기한테 선물 줄 사람이 없다고 안젤리나는 생각합니다.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1627610400,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_ethan_1",
+      "medalName": "'타향의 옛 친구'",
+      "medalType": "storyMedal",
+      "slotId": 21,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_355_ethan",
+        "story_ethan_set_1",
+        "10",
+        "8"
+      ],
+      "getMethod": "오퍼레이터 에단의 오퍼레이터 레코드 《타향의 옛 친구》개방하기",
       "description": "“오랫동안 못 만난 친구가 한 명 있거든. 뭐, 들어보니까 잘 지낸다는 거 같더라고.”",
       "advancedMedal": null,
       "originMedal": null,
@@ -2128,31 +2164,9 @@
     },
     {
       "medalId": "medal_story_flower_1",
-      "medalName": " '개조계획'",
+      "medalName": "'개조 계획'",
       "medalType": "storyMedal",
       "slotId": 22,
-      "preMedalIdList": [],
-      "rarity": 0,
-      "template": "CharStoryUnlock",
-      "unlockParam": [
-        "char_181_flower",
-        "story_flower_set_1",
-        "10",
-        "8"
-      ],
-      "getMethod": "오퍼레이터 퍼퓨머의 오퍼레이터 레코드《개조 계획》개방하기",
-      "description": "요양 정원도 업그레이드가 필요합니다.\n이로 인해 퍼퓨머는 많은 일을 해야 합니다. 마치 맨 처음 이 요양 정원을 지을 때처럼 말이죠.",
-      "advancedMedal": null,
-      "originMedal": null,
-      "activeTime": 1629262800,
-      "medalRewardGroup": [],
-      "getTime": -1
-    },
-    {
-      "medalId": "medal_story_liskam_1",
-      "medalName": " '사과 파티 준비 중!'",
-      "medalType": "storyMedal",
-      "slotId": 23,
       "preMedalIdList": [
         "medal_activity_13d5_02",
         "medal_activity_13d5_03",
@@ -2167,12 +2181,35 @@
       "rarity": 0,
       "template": "CharStoryUnlock",
       "unlockParam": [
-        "char_107_liskam",
-        "story_liskam_set_1",
+        "char_181_flower",
+        "story_flower_set_1",
         "trap_026_inverter",
         "4"
       ],
-      "getMethod": "오퍼레이터 리스캄의 오퍼레이터 레코드《사과 파티 준비 중!》개방하기",
+      "getMethod": "오퍼레이터 퍼퓨머의 오퍼레이터 레코드 《개조 계획》개방하기",
+      "description": "요양 정원도 업그레이드가 필요합니다.\n이로 인해 퍼퓨머는 많은 일을 해야 합니다. 마치 맨 처음 이 요양 정원을 지을 때처럼 말이죠.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1629262800,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_liskam_1",
+      "medalName": "'사과 파티 준비 중!'",
+      "medalType": "storyMedal",
+      "slotId": 23,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_107_liskam",
+        "story_liskam_set_1",
+        "trap_001_crate",
+        "8",
+        "0"
+      ],
+      "getMethod": "오퍼레이터 리스캄의 오퍼레이터 레코드 《사과 파티 준비 중!》개방하기",
       "description": "“요리는 먼저 시작하고 있어. 난 장부 계산이 좀 남아서.”",
       "advancedMedal": null,
       "originMedal": null,
@@ -2182,20 +2219,30 @@
     },
     {
       "medalId": "medal_story_liskam_2",
-      "medalName": " '시기상조'",
+      "medalName": "'시기상조'",
       "medalType": "storyMedal",
       "slotId": 24,
-      "preMedalIdList": [],
+      "preMedalIdList": [
+        "medal_activity_16d5_02",
+        "medal_activity_16d5_03",
+        "medal_activity_16d5_04",
+        "medal_activity_16d5_05",
+        "medal_activity_16d5_06",
+        "medal_activity_16d5_07",
+        "medal_activity_16d5_08",
+        "medal_activity_16d5_09",
+        "medal_activity_16d5_10"
+      ],
       "rarity": 2,
       "template": "CharStoryUnlock",
       "unlockParam": [
         "char_107_liskam",
         "story_liskam_set_2",
-        "trap_001_crate",
         "8",
+        "0",
         "0"
       ],
-      "getMethod": "오퍼레이터 리스캄의 오퍼레이터 레코드《시기상조》개방하기",
+      "getMethod": "오퍼레이터 리스캄의 오퍼레이터 레코드 《시기상조》개방하기",
       "description": "현실은 소설처럼 마냥 아름답진 않습니다.\n하지만 그런 동경과 환상을 위해 현실주의자들이 길을 닦아줍니다. 좀 더 기다려보죠.",
       "advancedMedal": null,
       "originMedal": null,
@@ -2205,7 +2252,7 @@
     },
     {
       "medalId": "medal_story_shwaz_1",
-      "medalName": " '고향을 떠난 날'",
+      "medalName": "'고향을 떠난 날'",
       "medalType": "storyMedal",
       "slotId": 25,
       "preMedalIdList": [
@@ -2225,10 +2272,9 @@
         "char_340_shwaz",
         "story_shwaz_set_1",
         "8",
-        "0",
-        "0"
+        "4"
       ],
-      "getMethod": "오퍼레이터 슈바르츠의 오퍼레이터 레코드《고향을 떠난 날》개방하기",
+      "getMethod": "오퍼레이터 슈바르츠의 오퍼레이터 레코드 《고향을 떠난 날》개방하기",
       "description": "과거엔 슈바르츠의 삶이 아주 단조로웠습니다.\n하지만 지금은 골치가 아파졌군요.",
       "advancedMedal": null,
       "originMedal": null,
@@ -2237,10 +2283,490 @@
       "getTime": -1
     },
     {
-      "medalId": "medal_activity_16d5_01",
-      "medalName": " '화중인'",
+      "medalId": "medal_story_noirc_1",
+      "medalName": "'갑판 반대편'",
+      "medalType": "storyMedal",
+      "slotId": 26,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_500_noirc",
+        "story_noirc_set_1",
+        "10",
+        "3"
+      ],
+      "getMethod": "오퍼레이터 느와르 코르네의 오퍼레이터 레코드 《갑판 반대편》개방하기",
+      "description": "일찍 퇴근하고 여가를 즐깁시다.\n바에서 평소에는 안 보이던 게 보일지도 모릅니다.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_tiger_1",
+      "medalName": "'오퍼레이터 대련 지침'",
+      "medalType": "storyMedal",
+      "slotId": 27,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_155_tiger",
+        "story_tiger_set_1",
+        "10",
+        "4"
+      ],
+      "getMethod": "오퍼레이터 인드라의 오퍼레이터 레코드 《오퍼레이터 대련 지침》개방하기",
+      "description": "인드라를 위한 커스터마이징입니다.\n상대를 빨리 쓰러뜨리는 게 아니라 쓰러뜨린 뒤 일으켜 세우는 법을 배우게 하기 위해서죠.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_sidero_1",
+      "medalName": "'근면한 사람'",
+      "medalType": "storyMedal",
+      "slotId": 28,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_333_sidero",
+        "story_sidero_set_1",
+        "trap_026_inverter",
+        "4"
+      ],
+      "getMethod": "오퍼레이터 시데로카의 오퍼레이터 레코드 《근면한 사람》개방하기",
+      "description": "아무도 시데로카의 집중력이 타인을 곤란하게 한다는 것을 차마 말할 수 없었습니다.\n그래서 모두 약속이나 한 듯이 시데로카의 주의력을 다른 사람에게 돌리려는 것이죠.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_angel_1",
+      "medalName": "'보내온 편지'",
+      "medalType": "storyMedal",
+      "slotId": 29,
+      "preMedalIdList": [
+        "medal_activity_16d0_02",
+        "medal_activity_16d0_03",
+        "medal_activity_16d0_04",
+        "medal_activity_16d0_05",
+        "medal_activity_16d0_06",
+        "medal_activity_16d0_07",
+        "medal_activity_16d0_08",
+        "medal_activity_16d0_09",
+        "medal_activity_16d0_10"
+      ],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_103_angel",
+        "story_angel_set_1",
+        "trap_001_crate",
+        "8"
+      ],
+      "getMethod": "오퍼레이터 엑시아의 오퍼레이터 레코드 《보내온 편지》개방하기",
+      "description": "고향에서 온 편지 한 통.\n타지에서 고향이 전혀 안 그리운 사람이 과연 있을까요?",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_nights_1",
+      "medalName": "'야옹이'",
+      "medalType": "storyMedal",
+      "slotId": 30,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10",
+        "medal_activity_11d0_11"
+      ],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_141_nights",
+        "story_nights_set_1",
+        "8",
+        "8"
+      ],
+      "getMethod": "오퍼레이터 헤이즈의 오퍼레이터 레코드 《“야옹이”》개방하기",
+      "description": "'야옹이 사랑 협회'에서 회원을 모집하고 있습니다. 관심이 있으시면 오퍼레이터 헤이즈를 찾아 신청하여 주십시오.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_ghost_1",
+      "medalName": "메리 크리스마스!",
+      "medalType": "storyMedal",
+      "slotId": 31,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_143_ghost",
+        "story_ghost_set_1",
+        "8",
+        "16"
+      ],
+      "getMethod": "오퍼레이터 스펙터의 오퍼레이터 레코드 《메리 크리스마스!》개방하기",
+      "description": "진귀한 오르골. 멜로디가 신비롭지만 아주 우아합니다.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_texas_1",
+      "medalName": "완수해야 할 사명",
+      "medalType": "storyMedal",
+      "slotId": 32,
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_102_texas",
+        "story_texas_set_1",
+        "trap_025_prison",
+        "4"
+      ],
+      "getMethod": "오퍼레이터 텍사스의 오퍼레이터 레코드 《완수해야 할 사명》개방하기",
+      "description": "텍사스의 배송은 절대 착오가 없습니다.\n착오가 생겼다면, 그건 틀림없이 받는 사람의 문제일 겁니다.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_story_helage_1",
+      "medalName": "운명의 길",
+      "medalType": "storyMedal",
+      "slotId": 33,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_188_helage",
+        "story_helage_set_1",
+        "4000",
+        "2"
+      ],
+      "getMethod": "오퍼레이터 헬라그의 오퍼레이터 레코드 《운명의 길》개방하기",
+      "description": "장군은 그토록 믿었던 나라를 점점 멀리하고 있습니다.\n자신의 오만, 영광, 그리고 모든 과거를 그 불타는 하늘 아래 버린 채.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_01",
+      "medalName": "'먼지 속을 걷다'",
       "medalType": "activityMedal",
-      "slotId": 1,
+      "slotId": 21,
+      "preMedalIdList": [
+        "medal_activity_18d0_02",
+        "medal_activity_18d0_03",
+        "medal_activity_18d0_04",
+        "medal_activity_18d0_05",
+        "medal_activity_18d0_06",
+        "medal_activity_18d0_07",
+        "medal_activity_18d0_08",
+        "medal_activity_18d0_09",
+        "medal_activity_18d0_10"
+      ],
+      "rarity": 4,
+      "template": null,
+      "unlockParam": [
+        "act16d5",
+        "act16d5_token_inker",
+        "4000",
+        "5"
+      ],
+      "getMethod": null,
+      "description": "당신은 그녀의 기나긴 여정 중에 지극히 일부를 경험했습니다.\n그녀의 눈에는 마치 대지와 시대가 담겨 있는 것 같았습니다. 그녀에 대해 어떤 사람이라고 딱히 설명하기 어려운 것처럼, 우리는 그 어느 한 적절한 단어로 문명과 삶의 흥망성쇠에 대해 요약하기 어렵습니다.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_02",
+      "medalName": "연간 고문 훈장",
+      "medalType": "activityMedal",
+      "slotId": 22,
+      "preMedalIdList": [
+        "medal_activity_16d0_02",
+        "medal_activity_16d0_03",
+        "medal_activity_16d0_04",
+        "medal_activity_16d0_05",
+        "medal_activity_16d0_06",
+        "medal_activity_16d0_07",
+        "medal_activity_16d0_08",
+        "medal_activity_16d0_09",
+        "medal_activity_16d0_10"
+      ],
+      "rarity": 0,
+      "template": "PassStageKilledTotal",
+      "unlockParam": [
+        "2",
+        "act18d0_01;act18d0_02;act18d0_03;act18d0_04;act18d0_05;act18d0_06;act18d0_07;act18d0_08;act18d0_ex01;act18d0_ex02;act18d0_ex03;act18d0_ex04;act18d0_ex05;act18d0_ex06;act18d0_ex07;act18d0_ex08;act18d0_ex01#f#;act18d0_ex02#f#;act18d0_ex03#f#;act18d0_ex04#f#;act18d0_ex05#f#;act18d0_ex06#f#;act18d0_ex07#f#;act18d0_ex08#f#",
+        "enemy_1145_atkspd;enemy_1145_atkspd_2;enemy_1146_defspd;enemy_1146_defspd_2",
+        "100"
+      ],
+      "getMethod": "워크 인 더 더스트 이벤트 기간 동안 공중 지원 드론('파편', '파편' U타입, '모루', '모루' B타입 포함) 누적 100회 격추(튜토리얼 스테이지 제외)",
+      "description": "당신은 용병의 공격에 교묘하게 잘 대처했습니다.\n이러한 입체적인 작전 방안에 드는 경비는 어마어마했으며, 매년 드론에 들어가는 비용은 여러 용병회사에서 가장 골치 아파하는 문제입니다.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_03",
+      "medalName": "'다가오는 폭풍우'",
+      "medalType": "activityMedal",
+      "slotId": 23,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "GotCharsBeforeTime",
+      "unlockParam": [
+        "char_304_zebra",
+        "1634756399",
+        "1",
+        "8"
+      ],
+      "getMethod": "워크 인 더 더스트 이벤트 기간 동안 오퍼레이터 헤비레인 획득",
+      "description": "폭풍우가 다가옵니다.\n겉보기엔 가냘프고 수줍은 소녀지만, 가끔 손에 든 무기가 생각보다 앞서는 때가 있지요.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_04",
+      "medalName": "파일링 전문가",
+      "medalType": "activityMedal",
+      "slotId": 24,
+      "preMedalIdList": [],
+      "rarity": 0,
+      "template": "ActivityCoinCost",
+      "unlockParam": [
+        "act18d0",
+        "act18d0_token_page",
+        "4000",
+        "16",
+        "5"
+      ],
+      "getMethod": "워크 인 더 더스트 이벤트 기간 동안 [리프스팁 암시장]에서 흐트러진 표본 스케치 4000장 소모",
+      "description": "당신은 어느 한 오퍼레이터를 도와 바닥에 흩어진 오래된 서류를 열심히 정리했습니다. 과연 그녀가 칭찬이라도 해줄까요?\n사실 서류 속 지식과 사라진 그림들이 가장 인상적인 것은 아닙니다. 오히려 그 흔적을 통해 당신은 이름 모를 외로운 낭만과, 숭고한 사명감을 느꼈기 때문이죠.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_05",
+      "medalName": "'대지의 옛 노래'",
+      "medalType": "activityMedal",
+      "slotId": 25,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "MissionCompleteSome",
+      "unlockParam": [
+        "18D0Activity_1;18D0Activity_2;18D0Activity_3;18D0Activity_4;18D0Activity_5;18D0Activity_6;18D0Activity_7;18D0Activity_8;18D0Activity_9;18D0Activity_10;18D0Activity_11;18D0Activity_12;18D0Activity_13;18D0Activity_14;18D0Activity_15;18D0Activity_16;18D0Activity_17;18D0Activity_18;18D0Activity_19;18D0Activity_20;18D0Activity_21;18D0Activity_22;18D0Activity_23;18D0Activity_24",
+        "24",
+        "10",
+        "8"
+      ],
+      "getMethod": "[남겨진 옛 노래]의 모든 내용을 완료하고 보상 수령",
+      "description": "당신은 그녀에 관한 여러 일화를 들었습니다.\n그녀는 더욱 피와 살이 있는 진정한 '인간'처럼 들렸습니다. 그래야만 그녀도 자신의 종착지를 찾을 수 있기 때문이죠.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_06",
+      "medalName": "'테라의 방랑자'",
+      "medalType": "activityMedal",
+      "slotId": 26,
+      "preMedalIdList": [
+        "medal_activity_15d0_02",
+        "medal_activity_15d0_03",
+        "medal_activity_15d0_04",
+        "medal_activity_15d0_05",
+        "medal_activity_15d0_06",
+        "medal_activity_15d0_07",
+        "medal_activity_15d0_08",
+        "medal_activity_15d0_09",
+        "medal_activity_15d0_10"
+      ],
+      "rarity": 0,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "act18d0_01;act18d0_02;act18d0_03;act18d0_04;act18d0_05;act18d0_06;act18d0_07;act18d0_08",
+        "8"
+      ],
+      "getMethod": "[끝없는 독행]의 모든 스테이지를 3★ 평가로 클리어(튜토리얼 스테이지 제외)",
+      "description": "당신은 그녀가 걸어온 수많은 길을 지켜보았습니다.\n이는 기나긴 문명 발전에 있어 아주 작은 구간일 뿐입니다.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_07",
+      "medalName": "공중 지원 킬러 훈장",
+      "medalType": "activityMedal",
+      "slotId": 27,
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
+      "rarity": 0,
+      "template": "PassStageKilled",
+      "unlockParam": [
+        "3",
+        "act18d0_ex06",
+        "enemy_1145_atkspd;enemy_1145_atkspd_2;enemy_1146_defspd;enemy_1146_defspd_2",
+        "8",
+        "2"
+      ],
+      "getMethod": "3★ 평가로 WD-EX-6 클리어, 공중 지원 드론('파편', '파편' U타입, '모루', '모루' B타입 포함) 최소 8대 격추",
+      "description": "당신은 적군의 공중 지원 전술을 훌륭하게 막아냈습니다.\n용병들은 끈질기게 공중 지원 드론만을 공격하는 사람을 가장 싫어합니다. 비용이 너무 많이 드니깐요.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_08",
+      "medalName": "끝없는 방랑의 훈장",
+      "medalType": "activityMedal",
+      "slotId": 28,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "act18d0_ex01#f#;act18d0_ex02#f#;act18d0_ex03#f#;act18d0_ex04#f#;act18d0_ex05#f#;act18d0_ex06#f#;act18d0_ex07#f#;act18d0_ex08#f#",
+        "8",
+        "1",
+        "7"
+      ],
+      "getMethod": "[끝없는 여정] 내 모든 스테이지의 하드 모드를 클리어",
+      "description": "당신은 그녀를 바라봤고, 그녀는 대지를 바라봤습니다.\n이번 생에 그녀는 인류가 멸망을 자초하는 행위를 저지하려고 수도 없이 노력했습니다. 하지만 그녀 혼자로서는 힘이 미약하니, 진정한 지지자가 필요합니다.",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_09",
+      "medalName": "'드론 뷔페'",
+      "medalType": "activityMedal",
+      "slotId": 29,
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
+      ],
+      "rarity": 2,
+      "template": "PassStageKilledLess",
+      "unlockParam": [
+        "3",
+        "act18d0_ex05",
+        "enemy_1145_atkspd;enemy_1145_atkspd_2;enemy_1146_defspd;enemy_1146_defspd_2",
+        "0"
+      ],
+      "getMethod": "3★ 평가로 WD-EX-5 클리어, 공중 지원 드론('파편', '파편' U타입, '모루', '모루' B타입 포함) 미격추",
+      "description": "당신은 적지 않은 공중 지원 드론을 주웠습니다.\n“왜 굳이 파괴하지? 그들이 연료를 소진한 후에 다시 회수하면 많은 지출을 절약할 수 있는데.”",
+      "advancedMedal": null,
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_18d0_10",
+      "medalName": "'제2종 조우'",
+      "medalType": "activityMedal",
+      "slotId": 30,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStageWithDeadInLess",
+      "unlockParam": [
+        "3",
+        "act18d0_08",
+        "4",
+        "8"
+      ],
+      "getMethod": "3★ 평가로 WD-8 클리어, [국가]에서 [붕괴의 공포] 적 적중 횟수 4회 미만",
+      "description": "당신은 이국 영토에 관여된 상황을 최대한 피했습니다.\n사악한 국가는 여전히 수식어였고, 현존하는 그 어떤 문명의 흔적과도 아무런 상관이 없습니다. 그 어떤 아츠와 과학 연구도 모두 그의 핵심 원리를 탐구할 수 없습니다. 하지만 그것들은 절대 이 대지에서 유일한 미지의 존재가 아닙니다. 그렇다면, 테라 문명이 지금까지 발전하면서 알게 된 건 대체 또 무엇일까요?",
+      "advancedMedal": "medal_activity_18d0_105",
+      "originMedal": null,
+      "activeTime": 1632967200,
+      "medalRewardGroup": [],
+      "getTime": -1
+    },
+    {
+      "medalId": "medal_activity_16d5_01",
+      "medalName": "'화중인'",
+      "medalType": "activityMedal",
+      "slotId": 31,
       "preMedalIdList": [
         "medal_activity_16d5_02",
         "medal_activity_16d5_03",
@@ -2255,10 +2781,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act16d5",
-        "300",
+        "rune_season_4_1",
+        "5",
         "8",
-        "4"
+        "16"
       ],
       "getMethod": null,
       "description": "당신은 시의 시선을 느꼈습니다.\n시는 자신도 '화중인', 단지 그림 속의 사람일 뿐이라고 했습니다. 그 말이 맞을지는 모르겠지만, 시는 아무것도 하려 하지 않는군요. 그렇다면 당신은?",
@@ -2270,17 +2796,27 @@
     },
     {
       "medalId": "medal_activity_16d5_02",
-      "medalName": " '명과 암의 변화자'",
+      "medalName": "'명과 암의 변화자'",
       "medalType": "activityMedal",
-      "slotId": 2,
-      "preMedalIdList": [],
+      "slotId": 32,
+      "preMedalIdList": [
+        "medal_activity_15d0_02",
+        "medal_activity_15d0_03",
+        "medal_activity_15d0_04",
+        "medal_activity_15d0_05",
+        "medal_activity_15d0_06",
+        "medal_activity_15d0_07",
+        "medal_activity_15d0_08",
+        "medal_activity_15d0_09",
+        "medal_activity_15d0_10"
+      ],
       "rarity": 0,
       "template": "ActivityHoldTaichi",
       "unlockParam": [
         "act16d5",
         "300",
-        "10",
-        "3"
+        "100",
+        "4"
       ],
       "getMethod": "이벤트 기간 동안 명암 인장에 아군 유닛 누적 300회 배치",
       "description": "당신은 시의 '그림의 도'에 대해 연구해봤습니다.\n다음에 만나면, 시는 논리 그 이상의 미학을 가르쳐 줄 것입니다.",
@@ -2292,17 +2828,16 @@
     },
     {
       "medalId": "medal_activity_16d5_03",
-      "medalName": " '깨어남'",
+      "medalName": "'깨어남'",
       "medalType": "activityMedal",
-      "slotId": 3,
+      "slotId": 33,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act16d5_01;act16d5_02;act16d5_03;act16d5_04;act16d5_05;act16d5_06;act16d5_07;act16d5_08;act16d5_09;act16d5_10",
-        "10",
-        "4"
+        "10"
       ],
       "getMethod": "[그림 속으로]의 모든 스테이지를 3★ 평가로 클리어(튜토리얼 스테이지 제외)",
       "description": "당신은 기억 속의 고향에서 떠났습니다.\n이곳의 풍속, 의복, 건물은 염국의 모든 이동도시와는 다릅니다. 그렇다면, 누군가의 기억이 고향의 모습을 흐렸을까요? 아니면 붓을 든 자가 만들어 낸 허상뿐일까요?",
@@ -2316,7 +2851,7 @@
       "medalId": "medal_activity_16d5_04",
       "medalName": "특별 환경보호 훈장",
       "medalType": "activityMedal",
-      "slotId": 4,
+      "slotId": 34,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithLessDeploy",
@@ -2326,7 +2861,7 @@
         "trap_026_inverter",
         "4"
       ],
-      "getMethod": "3★ 평가로 WR-10을 클리어, 클리어 시 [개량형 양자폭죽] 4개 이하 사용",
+      "getMethod": "3★ 평가로 WR-10 클리어, 클리어 시 [개량형 양자폭죽] 4개 이하 사용",
       "description": "당신은 최대한 니엔의 도구에 의지하지 않기로 했습니다. 현명한 선택이군요.\n이 폭탄이 뭔지는 모르겠지만, 절대 일반적인 오리지늄 폭탄은 아닐 것입니다. 조심해서 나쁠 건 없죠.",
       "advancedMedal": "medal_activity_16d5_045",
       "originMedal": null,
@@ -2336,20 +2871,10 @@
     },
     {
       "medalId": "medal_activity_16d5_05",
-      "medalName": "황금 묵량 훈장",
+      "medalName": "금메달 묵량 훈장",
       "medalType": "activityMedal",
-      "slotId": 5,
-      "preMedalIdList": [
-        "medal_activity_16d0_02",
-        "medal_activity_16d0_03",
-        "medal_activity_16d0_04",
-        "medal_activity_16d0_05",
-        "medal_activity_16d0_06",
-        "medal_activity_16d0_07",
-        "medal_activity_16d0_08",
-        "medal_activity_16d0_09",
-        "medal_activity_16d0_10"
-      ],
+      "slotId": 35,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithLessDeploy",
       "unlockParam": [
@@ -2370,18 +2895,17 @@
       "medalId": "medal_activity_16d5_06",
       "medalName": "즈자이의 훈장",
       "medalType": "activityMedal",
-      "slotId": 6,
+      "slotId": 36,
       "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10",
-        "medal_activity_11d0_11"
+        "medal_activity_14d5_02",
+        "medal_activity_14d5_03",
+        "medal_activity_14d5_04",
+        "medal_activity_14d5_05",
+        "medal_activity_14d5_06",
+        "medal_activity_14d5_07",
+        "medal_activity_14d5_08",
+        "medal_activity_14d5_09",
+        "medal_activity_14d5_10"
       ],
       "rarity": 2,
       "template": "PassStageWithoutBossShield",
@@ -2389,7 +2913,7 @@
         "3",
         "act16d5_ex08",
         "8",
-        "8"
+        "1605639599"
       ],
       "getMethod": "3★ 평가로 WR-EX-8 클리어, 클리어 시 [즈자이]의 실드 [파질이출]을 격파하지 않음",
       "description": "당신은 녀석이 스스로 '속박'을 부수게 내버려 뒀습니다. 이건 당신의 연민입니다.\n'즈자이'는 진정한 자유를 맛본 적이 없습니다. '즈자이'는 사실 이런 경험이 적다보니 당신과 사이좋게 지내고 싶어 했을 뿐입니다.",
@@ -2401,9 +2925,9 @@
     },
     {
       "medalId": "medal_activity_16d5_07",
-      "medalName": " '스스로 깨닫다'",
+      "medalName": "'스스로 깨닫다'",
       "medalType": "activityMedal",
-      "slotId": 7,
+      "slotId": 37,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -2411,7 +2935,7 @@
         "3",
         "act16d5_ex01#f#;act16d5_ex02#f#;act16d5_ex03#f#;act16d5_ex04#f#;act16d5_ex05#f#;act16d5_ex06#f#;act16d5_ex07#f#;act16d5_ex08#f#",
         "8",
-        "16"
+        "4"
       ],
       "getMethod": "[그림 밖으로] 내 모든 스테이지의 하드 모드를 클리어",
       "description": "당신은 강력한 잡념을 이겨냈습니다.\n묵량이라는 이름은 사가가 지은 겁니다. 사실 예전에는 그들도 자신의 이름이 있었죠. 음, 심지어 꽤 귀여운 것도 있었습니다. 그게 정말 무뚝뚝한 시가 지은 게 맞을까요?",
@@ -2423,27 +2947,18 @@
     },
     {
       "medalId": "medal_activity_16d5_08",
-      "medalName": " '그림 속 행자'",
+      "medalName": "'그림 속 행자'",
       "medalType": "activityMedal",
-      "slotId": 8,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
-      ],
+      "slotId": 38,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "16D5Activity_1;16D5Activity_2;16D5Activity_3;16D5Activity_4;16D5Activity_5;16D5Activity_6;16D5Activity_7;16D5Activity_8;16D5Activity_9;16D5Activity_10;16D5Activity_11;16D5Activity_12;16D5Activity_13;16D5Activity_14;16D5Activity_15;16D5Activity_16;16D5Activity_17;16D5Activity_18;16D5Activity_19;16D5Activity_20;16D5Activity_21;16D5Activity_22;16D5Activity_23;16D5Activity_24;16D5Activity_25;16D5Activity_26;16D5Activity_27;16D5Activity_28;16D5Activity_29",
         "29",
         "trap_025_prison",
-        "4"
+        "4",
+        "0"
       ],
       "getMethod": "[자문]의 모든 내용을 완료하고 보상 수령",
       "description": "당신도 사가처럼 시의 그림 속을 유람했습니다.\n사실 사가가 탈출해 나온 일을 시는 아직도 마음에 담고 있습니다. 사가가 너무 젊다 보니, 시의 체면이 깎였다고 생각하는 걸까요?",
@@ -2457,15 +2972,26 @@
       "medalId": "medal_activity_16d5_09",
       "medalName": "염옥 훈장",
       "medalType": "activityMedal",
-      "slotId": 9,
-      "preMedalIdList": [],
+      "slotId": 39,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_1011_lava2",
         "1629399599",
-        "4000",
-        "2"
+        "8",
+        "4",
+        "0"
       ],
       "getMethod": "이벤트 기간 동안 오퍼레이터 라바 더 퍼거토리 획득",
       "description": "당신은 한 오퍼레이터의 미래를 확인했습니다.\n라바는 많이 성장해서 성숙하고 점잖아졌지만, 그래도 자신이 추가로 얻은 '퍼거토리'라는 칭호를 마음에 들어 하고 있다는군요. 조금 중복된 느낌이 있긴 하지만요.",
@@ -2479,25 +3005,15 @@
       "medalId": "medal_activity_16d5_10",
       "medalName": "먹과 벼루 훈장",
       "medalType": "activityMedal",
-      "slotId": 10,
-      "preMedalIdList": [
-        "medal_activity_16d0_02",
-        "medal_activity_16d0_03",
-        "medal_activity_16d0_04",
-        "medal_activity_16d0_05",
-        "medal_activity_16d0_06",
-        "medal_activity_16d0_07",
-        "medal_activity_16d0_08",
-        "medal_activity_16d0_09",
-        "medal_activity_16d0_10"
-      ],
+      "slotId": 40,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
       "unlockParam": [
         "act16d5",
         "act16d5_token_inker",
         "4000",
-        "5"
+        "4"
       ],
       "getMethod": "이벤트 기간 동안 [자답]에서 시의 먹 4000개 소모",
       "description": "당신은 시가 좋아하는 물건을 많이 수집했습니다.\n그런데 과연, 시의 그림 속에서 가져온 물건들을 정말로 마음 놓고 가공소에 넣을 수 있을까요?",
@@ -2511,7 +3027,7 @@
       "medalId": "medal_activity_16d0_01",
       "medalName": "리드씰 분열 훈장",
       "medalType": "activityMedal",
-      "slotId": 11,
+      "slotId": 41,
       "preMedalIdList": [
         "medal_activity_16d0_02",
         "medal_activity_16d0_03",
@@ -2526,10 +3042,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "rune_season_4_1",
-        "level_rune_06-01",
-        "1",
-        "8"
+        "3",
+        "act15d0_ex08",
+        "trap_025_prison",
+        "2"
       ],
       "getMethod": null,
       "description": "어느 리드씰 훈장을 모티브로 만든 훈장.\n비밀은 아무리 깊숙이 숨겨도 언젠가는 세상에 드러나게 됩니다.",
@@ -2543,8 +3059,18 @@
       "medalId": "medal_activity_16d0_02",
       "medalName": "리드씰 협약 훈장",
       "medalType": "activityMedal",
-      "slotId": 12,
-      "preMedalIdList": [],
+      "slotId": 42,
+      "preMedalIdList": [
+        "medal_activity_14d5_02",
+        "medal_activity_14d5_03",
+        "medal_activity_14d5_04",
+        "medal_activity_14d5_05",
+        "medal_activity_14d5_06",
+        "medal_activity_14d5_07",
+        "medal_activity_14d5_08",
+        "medal_activity_14d5_09",
+        "medal_activity_14d5_10"
+      ],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
@@ -2554,7 +3080,7 @@
         "8"
       ],
       "getMethod": "리드씰 작전에서, 상주작전지점의 S평가 획득",
-      "description": "리드씰 작전에서 역경을 마주한 자에게 주는 훈장.",
+      "description": "리드씰 작전에서 역경을 마주한 자에게 주어지는 훈장.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1626152400,
@@ -2565,7 +3091,7 @@
       "medalId": "medal_activity_16d0_03",
       "medalName": "리드씰 협약 훈장·II",
       "medalType": "activityMedal",
-      "slotId": 13,
+      "slotId": 43,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -2573,8 +3099,7 @@
         "rune_season_4_1",
         "level_rune_06-01",
         "1",
-        "16",
-        "5"
+        "16"
       ],
       "getMethod": "리드씰 작전에서, 상주작전지점의 SSS평가 획득",
       "description": "리드씰 작전에서 역경을 헤쳐 나온 자에게 주는 훈장. \n당신은 많은 도전을 극복해냈습니다.",
@@ -2588,15 +3113,15 @@
       "medalId": "medal_activity_16d0_04",
       "medalName": "리드씰 오퍼레이터 훈장",
       "medalType": "activityMedal",
-      "slotId": 14,
+      "slotId": 44,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_402_tuye",
         "1627325999",
-        "10",
-        "8"
+        "1",
+        "16"
       ],
       "getMethod": "리드씰 작전에서, 오퍼레이터 투예 획득",
       "description": "리드씰 작전에서 오퍼레이터의 가입을 증명한 훈장.\n사르곤의 황사는 끝없이 펼쳐졌지만, 투예는 기필코 돌아가는 길을 찾게 될 겁니다.",
@@ -2608,26 +3133,17 @@
     },
     {
       "medalId": "medal_activity_16d0_05",
-      "medalName": "리드씰 진지 훈장",
+      "medalName": "리드씰 전장 훈장",
       "medalType": "activityMedal",
-      "slotId": 15,
-      "preMedalIdList": [
-        "medal_activity_15d0_02",
-        "medal_activity_15d0_03",
-        "medal_activity_15d0_04",
-        "medal_activity_15d0_05",
-        "medal_activity_15d0_06",
-        "medal_activity_15d0_07",
-        "medal_activity_15d0_08",
-        "medal_activity_15d0_09",
-        "medal_activity_15d0_10"
-      ],
+      "slotId": 45,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
         "rune_season_4_1",
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
-        "10"
+        "10",
+        "3"
       ],
       "getMethod": "리드씰 작전에서, 모든 로테이션 도전 임무를 완료하고 (일일 협약 도전 및 일일 위기 레벨 8 달성 필요) 보상 수령 (누적 10일)",
       "description": "리드씰 작전에서 방어선을 지켜낸 자에게 주는 훈장.\n당신은 고강도 전지전 능력을 갖추었습니다.",
@@ -2641,18 +3157,17 @@
       "medalId": "medal_activity_16d0_06",
       "medalName": "리드씰 호응 훈장",
       "medalType": "activityMedal",
-      "slotId": 16,
+      "slotId": 46,
       "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
       ],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -2660,8 +3175,8 @@
         "rune_season_4_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "1",
-        "0",
-        "2"
+        "1",
+        "5"
       ],
       "getMethod": "리드씰 작전에서, 상주작전지점의 협약 도전 임무를 1개 완료하고 보상 수령",
       "description": "리드씰 작전에서 임기응변을 발휘한 자에게 주는 훈장.",
@@ -2675,7 +3190,7 @@
       "medalId": "medal_activity_16d0_07",
       "medalName": "리드씰 호응 훈장·II",
       "medalType": "activityMedal",
-      "slotId": 17,
+      "slotId": 47,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -2683,8 +3198,7 @@
         "rune_season_4_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "1",
-        "7"
+        "8"
       ],
       "getMethod": "리드씰 작전에서, 상주작전지점의 협약 도전 임무를 8개 완료하고 보상 수령",
       "description": "리드씰 작전에서 훌륭한 결단을 내린 자에게 주는 훈장.\n당신은 다양한 긴급사태에도 대처할 수 있는 실력을 갖추었습니다.",
@@ -2698,25 +3212,16 @@
       "medalId": "medal_activity_16d0_08",
       "medalName": "리드씰 고행 훈장",
       "medalType": "activityMedal",
-      "slotId": 18,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10"
-      ],
+      "slotId": 48,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
       "unlockParam": [
         "rune_season_4_1",
         "char_hp_3;enemy_bigbomdrock_3;enemy_hp_3;enemy_mdgint_amod_3;enemy_mdgint_bmod_3;enemy_atk_3;char_atk_3",
         "4",
-        "8"
+        "0",
+        "0"
       ],
       "getMethod": "리드씰 작전에서, 상주작전지점의 3레벨 협약을 4개 개방",
       "description": "리드씰 작전에서 전장을 누비고 다닌 자에게 주는 훈장.",
@@ -2728,17 +3233,29 @@
     },
     {
       "medalId": "medal_activity_16d0_09",
-      "medalName": "리드씰 연습전 훈장",
+      "medalName": "리드씰 훈련 훈장",
       "medalType": "activityMedal",
-      "slotId": 19,
-      "preMedalIdList": [],
+      "slotId": 49,
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
         "rune_season_4_1",
         "level_rune_02-04;level_rune_03-01;level_rune_03-02;level_rune_04-01;level_rune_05-01;level_rune_05-02;level_rune_06-02",
         "1",
-        "8"
+        "8",
+        "2"
       ],
       "getMethod": "리드씰 작전에서, 임의의 1개 로테이션 작전지점에서 S평가 획득",
       "description": "리드씰 작전에서 심사숙고를 한 자에게 주는 훈장.",
@@ -2752,25 +3269,16 @@
       "medalId": "medal_activity_16d0_10",
       "medalName": "리드씰 협력 훈장",
       "medalType": "activityMedal",
-      "slotId": 20,
-      "preMedalIdList": [
-        "medal_activity_15d0_02",
-        "medal_activity_15d0_03",
-        "medal_activity_15d0_04",
-        "medal_activity_15d0_05",
-        "medal_activity_15d0_06",
-        "medal_activity_15d0_07",
-        "medal_activity_15d0_08",
-        "medal_activity_15d0_09",
-        "medal_activity_15d0_10"
-      ],
+      "slotId": 50,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_4_1",
         "5",
+        "1",
         "8",
-        "16"
+        "7"
       ],
       "getMethod": "리드씰 작전에서 지원을 사용하고 임의의 작전지점을 5회 이상 클리어",
       "description": "리드씰 작전에서 서로에게 도움을 준 자에게 주는 훈장.",
@@ -2784,7 +3292,7 @@
       "medalId": "medal_activity_15d0_01",
       "medalName": "'책과 국자'",
       "medalType": "activityMedal",
-      "slotId": 21,
+      "slotId": 51,
       "preMedalIdList": [
         "medal_activity_15d0_02",
         "medal_activity_15d0_03",
@@ -2799,9 +3307,9 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act15d0",
-        "trap_025_prison",
-        "100",
+        "rune_season_3_1",
+        "5",
+        "8",
         "4"
       ],
       "getMethod": null,
@@ -2809,57 +3317,68 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_02",
       "medalName": "10대 죄수 훈장",
       "medalType": "activityMedal",
-      "slotId": 22,
-      "preMedalIdList": [],
+      "slotId": 52,
+      "preMedalIdList": [
+        "medal_activity_13d5_02",
+        "medal_activity_13d5_03",
+        "medal_activity_13d5_04",
+        "medal_activity_13d5_05",
+        "medal_activity_13d5_06",
+        "medal_activity_13d5_07",
+        "medal_activity_13d5_08",
+        "medal_activity_13d5_09",
+        "medal_activity_13d5_10"
+      ],
       "rarity": 0,
       "template": "ActivityConfinementTotal",
       "unlockParam": [
         "act15d0",
         "trap_025_prison",
-        "100"
+        "100",
+        "8"
       ],
       "getMethod": "이벤트 기간 동안 죄수 누적 100회 구속",
       "description": "죄수들 사이에서 위신을 확립했습니다.\n당신의 정교한 전투 기술은 이미 발톤 대장에게까지 알려져, 발톤이 모두 앞에서 직접 이 훈장을 수여했습니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_03",
       "medalName": "'개과천선'",
       "medalType": "activityMedal",
-      "slotId": 23,
+      "slotId": 53,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_451_robin",
         "1626116399",
-        "4000",
-        "4"
+        "100",
+        "16"
       ],
       "getMethod": "이벤트 기간 동안 오퍼레이터 로빈 획득",
       "description": "미래가 막연해 보이는 소녀를 도와줬습니다.\n소녀가 잘못된 길로 빠지게 될 뻔했다고 말하기는 어렵습니다. 다만, 다른 길은 틀리지는 않을지 몰라도, 절대 옳지는 않았을 겁니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_04",
       "medalName": "'가장 사치스런 죄수'",
       "medalType": "activityMedal",
-      "slotId": 24,
+      "slotId": 54,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCoinCost",
@@ -2867,75 +3386,75 @@
         "act15d0",
         "act15d0_token_ironSheet",
         "4000",
-        "2"
+        "4"
       ],
-      "getMethod": "이벤트 기간 동안 [비밀 통로]에서 공장 쇳조각 4000개 소모",
+      "getMethod": "이벤트 기간 동안 [비밀 루트]에서 공장 쇳조각 4000개 소모",
       "description": "죄수들의 특별한 수단을 통해 대량의 자원을 확보했습니다.\n당신은 이 물건들이 어떻게 들어왔는지 모르지만, 이 감옥에서 도대체 어떤 쓸모가 있는지도 알 수 없을 겁니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_05",
       "medalName": "맨스필드 기념 훈장",
       "medalType": "activityMedal",
-      "slotId": 25,
-      "preMedalIdList": [
-        "medal_activity_14d5_02",
-        "medal_activity_14d5_03",
-        "medal_activity_14d5_04",
-        "medal_activity_14d5_05",
-        "medal_activity_14d5_06",
-        "medal_activity_14d5_07",
-        "medal_activity_14d5_08",
-        "medal_activity_14d5_09",
-        "medal_activity_14d5_10"
-      ],
+      "slotId": 55,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "15D0Activity_1;15D0Activity_2;15D0Activity_3;15D0Activity_4;15D0Activity_5;15D0Activity_6;15D0Activity_7;15D0Activity_8;15D0Activity_9;15D0Activity_10;15D0Activity_11;15D0Activity_12;15D0Activity_13;15D0Activity_14;15D0Activity_15;15D0Activity_16;15D0Activity_17;15D0Activity_18;15D0Activity_19;15D0Activity_20;15D0Activity_21;15D0Activity_22;15D0Activity_23;15D0Activity_24;15D0Activity_25",
         "25",
-        "8",
-        "1605639599"
+        "enemy_1105_tyokai",
+        "4"
       ],
       "getMethod": "[탈옥 준비]의 모든 내용을 완료하고 보상 수령",
       "description": "처음부터 끝까지 이번 탈옥 작전에 참여했습니다.\n작전 도중 미나가 우연히 이 훈장을 발견했는데, 아마 교도소장이 감옥을 방문한 귀한 분들에게 주는 기념품인 것 같습니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_06",
       "medalName": "'탈옥'",
       "medalType": "activityMedal",
-      "slotId": 26,
-      "preMedalIdList": [],
+      "slotId": 56,
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act15d0_01;act15d0_02;act15d0_03;act15d0_04;act15d0_05;act15d0_06;act15d0_07;act15d0_08",
         "8",
-        "4"
+        "3"
       ],
       "getMethod": "[탈옥 계획]의 모든 스테이지를 3★ 평가로 클리어(튜토리얼 스테이지 제외)",
       "description": "앤소니를 도와 탈옥에 성공했습니다.\n밖의 공기는 탁하지만 자유로웠습니다. 자, 이제부터 시작입니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_07",
       "medalName": "'가장 똑똑한 죄수'",
       "medalType": "activityMedal",
-      "slotId": 27,
+      "slotId": 57,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTrapSurvived",
@@ -2943,55 +3462,42 @@
         "3",
         "act15d0_ex01",
         "trap_025_prison",
-        "4",
-        "0"
+        "4"
       ],
       "getMethod": "3★ 평가로 MB-EX-1 클리어, 클리어 시 4개의 구속 장치 존재",
       "description": "대부분의 장치를 정상적으로 작동시켰습니다.\n당신은 이 장치들의 일부 모델에서 라인 생명연구소의 표식을 발견했습니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_08",
       "medalName": "'가장 자유로운 죄수'",
       "medalType": "activityMedal",
-      "slotId": 28,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10"
-      ],
+      "slotId": 58,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act15d0_ex01#f#;act15d0_ex02#f#;act15d0_ex03#f#;act15d0_ex04#f#;act15d0_ex05#f#;act15d0_ex06#f#;act15d0_ex07#f#;act15d0_ex08#f#",
-        "8",
-        "4",
-        "0"
+        "8"
       ],
       "getMethod": "[옥중생활] 내 모든 스테이지의 하드 모드 클리어",
       "description": "당신은 죄수들의 충돌에 완전히 적응했고, 심지어 즐기기까지 했습니다.\n어쩌면, 앤소니가 자기 자리를 당신에게 넘겨줘야 할지도 모르겠군요.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_09",
       "medalName": "'가장 힘 센 죄수'",
       "medalType": "activityMedal",
-      "slotId": 29,
+      "slotId": 59,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithTrapSurvived",
@@ -3006,25 +3512,15 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_15d0_10",
       "medalName": "'문무겸비'",
       "medalType": "activityMedal",
-      "slotId": 30,
-      "preMedalIdList": [
-        "medal_activity_14d5_02",
-        "medal_activity_14d5_03",
-        "medal_activity_14d5_04",
-        "medal_activity_14d5_05",
-        "medal_activity_14d5_06",
-        "medal_activity_14d5_07",
-        "medal_activity_14d5_08",
-        "medal_activity_14d5_09",
-        "medal_activity_14d5_10"
-      ],
+      "slotId": 60,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithTrapSurvived",
       "unlockParam": [
@@ -3038,14 +3534,14 @@
       "advancedMedal": "medal_activity_15d0_105",
       "originMedal": null,
       "activeTime": 1624327200,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_01",
       "medalName": "꺼지지 않는 잿불 훈장",
       "medalType": "activityMedal",
-      "slotId": 31,
+      "slotId": 61,
       "preMedalIdList": [
         "medal_activity_14d5_02",
         "medal_activity_14d5_03",
@@ -3060,25 +3556,36 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "rune_season_3_1",
-        "level_rune_05-01",
+        "act13d5",
+        "act13d5_token_securities",
+        "4000",
         "1",
-        "8"
+        "5"
       ],
       "getMethod": null,
       "description": "어떤 재앙정보전달자의 기호를 토대로 만든 훈장.\n모든 것은, 더 많은 생명을 위해.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_02",
       "medalName": "잿불 협약 훈장",
       "medalType": "activityMedal",
-      "slotId": 32,
-      "preMedalIdList": [],
+      "slotId": 62,
+      "preMedalIdList": [
+        "medal_activity_12d0_01",
+        "medal_activity_12d0_02",
+        "medal_activity_12d0_03",
+        "medal_activity_12d0_04",
+        "medal_activity_12d0_05",
+        "medal_activity_12d0_06",
+        "medal_activity_12d0_07",
+        "medal_activity_12d0_08",
+        "medal_activity_12d0_09"
+      ],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
@@ -3092,14 +3599,14 @@
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_03",
       "medalName": "잿불 협약 훈장 II",
       "medalType": "activityMedal",
-      "slotId": 33,
+      "slotId": 63,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -3114,14 +3621,14 @@
       "advancedMedal": "medal_activity_14d5_035",
       "originMedal": null,
       "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_04",
       "medalName": "잿불 전투복 훈장",
       "medalType": "activityMedal",
-      "slotId": 34,
+      "slotId": 64,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -3129,32 +3636,23 @@
         "1",
         "char_222_bpipe@race#1",
         "1623351599",
-        "3"
+        "0",
+        "2"
       ],
       "getMethod": "잿불 작전에서 백파이프 전용 컬렉션 '퀸 1호' 구매",
       "description": "잿불 작전에서 컬렉션에 동봉된 훈장.\n레이싱카들은 모두 백파이프가 있는 곳을 피해 지나가며 경의를 표하는군요.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_05",
       "medalName": "잿불 진지 훈장",
       "medalType": "activityMedal",
-      "slotId": 35,
-      "preMedalIdList": [
-        "medal_activity_13d5_02",
-        "medal_activity_13d5_03",
-        "medal_activity_13d5_04",
-        "medal_activity_13d5_05",
-        "medal_activity_13d5_06",
-        "medal_activity_13d5_07",
-        "medal_activity_13d5_08",
-        "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
-      ],
+      "slotId": 65,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
@@ -3162,43 +3660,54 @@
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
         "10",
         "1",
-        "5"
+        "7"
       ],
       "getMethod": "잿불 작전에서 모든 로테이션 도전 임무(일일 협약 도전 및 일일 위기 레벨 8 달성 포함)를 완료 및 보상 수령 (누적 10일)",
       "description": "잿불 작전에서 방어선을 지켜낸 자에게 주는 훈장.\n당신은 이미 고강도 진지전을 지휘할 능력을 터득하였습니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_06",
       "medalName": "잿불 호응 훈장",
       "medalType": "activityMedal",
-      "slotId": 36,
-      "preMedalIdList": [],
+      "slotId": 66,
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
+      ],
       "rarity": 0,
       "template": "CrisisTaskSome",
       "unlockParam": [
         "rune_season_3_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "1",
-        "8"
+        "1",
+        "5"
       ],
       "getMethod": "잿불 작전에서 상주 작전 지점의 협약 도전 임무 1개 완료 및 보상 수령",
       "description": "잿불 작전에서 임기응변을 발휘한 자에게 주는 훈장.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_07",
       "medalName": "잿불 호응 훈장 II",
       "medalType": "activityMedal",
-      "slotId": 37,
+      "slotId": 67,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -3206,56 +3715,44 @@
         "rune_season_3_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "0",
-        "0"
+        "1",
+        "5"
       ],
       "getMethod": "잿불 작전에서 상주 작전 지점의 협약 도전 임무 8개 완료 및 보상 수령",
       "description": "잿불 작전에서 결단력이 있는 자에게 주는 훈장.\n당신은 이미 여러 긴급 상황에 대처할 실력을 갖췄습니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_08",
       "medalName": "잿불 고행 훈장",
       "medalType": "activityMedal",
-      "slotId": 38,
-      "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 68,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
       "unlockParam": [
         "rune_season_3_1",
         "enemy_dscout_3;enemy_hp_3;enemy_dbskar_3;char_atkatkspeed_3;enemy_atk_3;enemy_dmgswd_3;char_hp_3;global_forbidloc_3",
         "4",
-        "8",
-        "2"
+        "16"
       ],
       "getMethod": "잿불 작전에서 상주 작전 지점의 3레벨 협약 4개 개방",
       "description": "잿불 작전에서 전장을 누비고 다닌 자에게 주는 훈장.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_09",
       "medalName": "잿불 연습전 훈장",
       "medalType": "activityMedal",
-      "slotId": 39,
+      "slotId": 69,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -3264,39 +3761,30 @@
         "level_rune_02-02;level_rune_02-04;level_rune_02-05;level_rune_03-02;level_rune_03-01;level_rune_04-01;level_rune_05-02",
         "1",
         "8",
-        "7"
+        "2"
       ],
       "getMethod": "잿불 작전에서 1개의 로테이션 작전 지점에서 S평가 달성",
       "description": "잿불 작전에서 심사숙고를 한 자에게 주는 훈장.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1622178000,
-      "medalRewardGroup": [],
-      "getTime": -1
+      "getTime": -1,
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_14d5_10",
       "medalName": "잿불 협력 훈장",
       "medalType": "activityMedal",
-      "slotId": 40,
-      "preMedalIdList": [
-        "medal_activity_13d5_02",
-        "medal_activity_13d5_03",
-        "medal_activity_13d5_04",
-        "medal_activity_13d5_05",
-        "medal_activity_13d5_06",
-        "medal_activity_13d5_07",
-        "medal_activity_13d5_08",
-        "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
-      ],
+      "slotId": 70,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_3_1",
         "5",
-        "8",
-        "4"
+        "trap_016_peon",
+        "0",
+        "2"
       ],
       "getMethod": "잿불 작전에서 지원을 사용하고 임의의 작전지점을 5회 이상 클리어",
       "description": "잿불 작전에서 서로에게 도움을 준 자에게 주는 훈장.",
@@ -3310,7 +3798,7 @@
       "medalId": "medal_activity_13d5_01",
       "medalName": "'고난과 어둠을 두려워 말라!'",
       "medalType": "activityMedal",
-      "slotId": 41,
+      "slotId": 71,
       "preMedalIdList": [
         "medal_activity_13d5_02",
         "medal_activity_13d5_03",
@@ -3320,15 +3808,17 @@
         "medal_activity_13d5_07",
         "medal_activity_13d5_08",
         "medal_activity_13d5_09",
-        "medal_activity_13d5_10"
+        "medal_activity_13d5_10",
+        "medal_activity_11d0_11"
       ],
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act13d5",
-        "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
-        "100",
-        "8"
+        "3",
+        "act12d0_ex08",
+        "trap_016_peon",
+        "1",
+        "7"
       ],
       "getMethod": null,
       "description": "현재의 기사가 어떤 모습인지를 두 눈으로 확인했습니다. 당신은 아직 지지 않은 기사의 빛을 눈에 담게 되었습니다. \n다신 돌아오지 않을 이 시대, 설령 나아가는 길 위에서 넘어졌다 하더라도, 빛은 여전히 당신을 비출 것입니다.",
@@ -3342,15 +3832,26 @@
       "medalId": "medal_activity_13d5_02",
       "medalName": "아레나의 베테랑 훈장",
       "medalType": "activityMedal",
-      "slotId": 42,
-      "preMedalIdList": [],
+      "slotId": 72,
+      "preMedalIdList": [
+        "medal_activity_11d5_02",
+        "medal_activity_11d5_03",
+        "medal_activity_11d5_04",
+        "medal_activity_11d5_05",
+        "medal_activity_11d5_06",
+        "medal_activity_11d5_07",
+        "medal_activity_11d5_08",
+        "medal_activity_11d5_09",
+        "medal_activity_11d5_10"
+      ],
       "rarity": 0,
       "template": "ActivityKilledTotal",
       "unlockParam": [
         "act13d5",
         "enemy_1105_tyokai;enemy_1105_tyokai_2;enemy_1106_byokai",
         "100",
-        "16"
+        "8",
+        "0"
       ],
       "getMethod": "이벤트 기간 동안 협찬, 호화 협찬, 투지 상승용 드론을 누적 100대 격추",
       "description": "규칙을 잘 활용하셨군요.\n전황을 유리하게 이끌기 위해, 가끔은 코치와 스폰서도 경기장 VIP 룸에 있는 VIP들이 호주머니에서 돈을 꺼내도록 수단과 방법을 가리지 않습니다.",
@@ -3364,7 +3865,7 @@
       "medalId": "medal_activity_13d5_03",
       "medalName": "토너먼트 기념 훈장",
       "medalType": "activityMedal",
-      "slotId": 43,
+      "slotId": 73,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -3372,7 +3873,8 @@
         "3",
         "act13d5_01;act13d5_02;act13d5_03;act13d5_04;act13d5_05;act13d5_06;act13d5_07;act13d5_08",
         "8",
-        "4"
+        "8",
+        "0"
       ],
       "getMethod": "[아레나]의 모든 스테이지를 3★ 평가로 클리어(튜토리얼 스테이지 제외)",
       "description": "기사 스포츠 경기에서 프로모션에 성공했습니다.\n그랜드 나이트 영지에선 이 훈장을 자주 볼 수 있습니다, 가격도 저렴하거든요. 다만 제1회, 제7회, 제17회와 제22회 기념 훈장은 수집가들 사이에서 높은 값에 거래된다고 합니다.",
@@ -3386,7 +3888,7 @@
       "medalId": "medal_activity_13d5_04",
       "medalName": "초라한 처형자의 훈장",
       "medalType": "activityMedal",
-      "slotId": 44,
+      "slotId": 74,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageKilled",
@@ -3408,18 +3910,8 @@
       "medalId": "medal_activity_13d5_05",
       "medalName": "브릴리언트 기사 훈장",
       "medalType": "activityMedal",
-      "slotId": 45,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
-      ],
+      "slotId": 75,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageKilled",
       "unlockParam": [
@@ -3440,8 +3932,18 @@
       "medalId": "medal_activity_13d5_06",
       "medalName": "'그들은 전설이다'",
       "medalType": "activityMedal",
-      "slotId": 46,
-      "preMedalIdList": [],
+      "slotId": 76,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
@@ -3461,14 +3963,15 @@
       "medalId": "medal_activity_13d5_07",
       "medalName": "나이트 러버 훈장",
       "medalType": "activityMedal",
-      "slotId": 47,
+      "slotId": 77,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "13D5Activity_1;13D5Activity_2;13D5Activity_3;13D5Activity_4;13D5Activity_5;13D5Activity_6;13D5Activity_7;13D5Activity_8;13D5Activity_9;13D5Activity_10;13D5Activity_11;13D5Activity_12;13D5Activity_13;13D5Activity_14;13D5Activity_15;13D5Activity_16;13D5Activity_17;13D5Activity_18;13D5Activity_19;13D5Activity_20;13D5Activity_21;13D5Activity_22;13D5Activity_23;13D5Activity_24;13D5Activity_25",
         "25",
-        "4"
+        "1",
+        "8"
       ],
       "getMethod": "[장외 이벤트 구역] 내 모든 내용을 완료하고 보상을 수령",
       "description": "모든 장외 이벤트에 참여하였습니다.\n사람이 하루에 열두 시간씩 논다고 가정했을 때, 카시미어의 모든 곳을 즐기기 위해선 약 백 년 가까이 걸린다는 말이 있다는군요.",
@@ -3482,17 +3985,17 @@
       "medalId": "medal_activity_13d5_08",
       "medalName": "'침묵은 금이다'",
       "medalType": "activityMedal",
-      "slotId": 48,
+      "slotId": 78,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCasimirReadNews",
       "unlockParam": [
         "act13d5",
         "15",
-        "4000",
-        "8"
+        "8",
+        "16"
       ],
-      "getMethod": "마리아 니어 이벤트 내 신문 기사 15개 열람",
+      "getMethod": "마리아 니어 이벤트 내 신문 기사 15개 열람",
       "description": "많은 미디어의 기사를 수박 겉핥기식으로 읽으셨군요, 수고하셨습니다.\n기사의 의미가 퇴색되는 것은, 비단 기사뿐만이 아니라, 환호하는 모든 관중에게도, 신조를 어기고 환호성을 만들어내고 있는 상인들에게도 있습니다.",
       "advancedMedal": null,
       "originMedal": null,
@@ -3504,14 +4007,15 @@
       "medalId": "medal_activity_13d5_09",
       "medalName": "'채찍의 기사'",
       "medalType": "activityMedal",
-      "slotId": 49,
+      "slotId": 79,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_265_sophia",
         "1619636399",
-        "4000"
+        "4",
+        "8"
       ],
       "getMethod": "이벤트 기간 동안 오퍼레이터 위슬래시 획득",
       "description": "조피아가 경기 참가를 위해 직접 디자인 한 문장입니다.\n문장의 의미는 이제 거의 사라져 예전 같지는 않겠지만, 그래도 조피아는 사흘 내내 오후 동안 이것을 열심히 조각했다는군요.",
@@ -3525,26 +4029,15 @@
       "medalId": "medal_activity_13d5_10",
       "medalName": "소비의 극치 훈장",
       "medalType": "activityMedal",
-      "slotId": 50,
-      "preMedalIdList": [
-        "medal_activity_12d0_01",
-        "medal_activity_12d0_02",
-        "medal_activity_12d0_03",
-        "medal_activity_12d0_04",
-        "medal_activity_12d0_05",
-        "medal_activity_12d0_06",
-        "medal_activity_12d0_07",
-        "medal_activity_12d0_08",
-        "medal_activity_12d0_09"
-      ],
+      "slotId": 80,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
       "unlockParam": [
         "act13d5",
         "act13d5_token_securities",
         "4000",
-        "1",
-        "5"
+        "8"
       ],
       "getMethod": "이벤트 기간 동안 [면세기념품점]에서 미에슈코 스포츠 증권 4000장 소비",
       "description": "아레나 근처의 면세점에서 미친 듯이 물건을 쓸어담으셨군요.\n상업연합회에 세금을 낼 필요가 없기 때문에 이곳의 상품은 상대적으로 '많이' 저렴해 보이지만… 이게 바로 소비주의의 함정이죠.",
@@ -3558,7 +4051,7 @@
       "medalId": "medal_activity_12d0_10",
       "medalName": "'대제사장의 선물'",
       "medalType": "activityMedal",
-      "slotId": 51,
+      "slotId": 81,
       "preMedalIdList": [
         "medal_activity_12d0_01",
         "medal_activity_12d0_02",
@@ -3573,10 +4066,9 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "act12d0",
-        "trap_016_peon",
-        "100",
-        "8"
+        "rune_season_2_1",
+        "5",
+        "1"
       ],
       "getMethod": null,
       "description": "굉장히 스릴 넘치고 짜릿한 휴일을 보냈습니다.\n문명의 손이 닿지 않은 곳에서 소란과, 자제력을 잃는 모습과, 주먹으로 하는 대화와, 뒷일은 신경 쓰지 않는 모습을 보다 보면, 과학이 없는 생활도 나름 즐겁다는 걸 알게 될 겁니다.",
@@ -3590,15 +4082,25 @@
       "medalId": "medal_activity_12d0_01",
       "medalName": "버섯 매니아 훈장",
       "medalType": "activityMedal",
-      "slotId": 52,
-      "preMedalIdList": [],
+      "slotId": 82,
+      "preMedalIdList": [
+        "medal_activity_10d0_02",
+        "medal_activity_10d0_03",
+        "medal_activity_10d0_04",
+        "medal_activity_10d0_05",
+        "medal_activity_10d0_06",
+        "medal_activity_10d0_07",
+        "medal_activity_10d0_08",
+        "medal_activity_10d0_09",
+        "medal_activity_10d0_10"
+      ],
       "rarity": 0,
       "template": "ActivityCutTree",
       "unlockParam": [
         "act12d0",
         "trap_016_peon",
         "100",
-        "16"
+        "8"
       ],
       "getMethod": "이벤트 기간 동안 거대 버섯 100회 정리",
       "description": "당신의 버섯에 대한 사랑은 정말 놀랍군요.\n하지만 건강을 생각해서라도, 드실 땐 잘 익혀 드시기 바랍니다.",
@@ -3612,16 +4114,15 @@
       "medalId": "medal_activity_12d0_02",
       "medalName": "'토미미의 존경'",
       "medalType": "activityMedal",
-      "slotId": 53,
+      "slotId": 83,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_411_tomimi",
         "1616007599",
-        "4000",
-        "0",
-        "2"
+        "1",
+        "8"
       ],
       "getMethod": "이벤트 기간 동안 오퍼레이터 토미미 획득",
       "description": "이 소녀는 당신의 지혜에 탄복했습니다.\n그녀가 바깥세상을 접하게 되면 분명 더 잘할 수 있을 거라고 믿는 데는, 다 그만한 이유가 있습니다.",
@@ -3635,7 +4136,7 @@
       "medalId": "medal_activity_12d0_03",
       "medalName": "'이남의 소장품'",
       "medalType": "activityMedal",
-      "slotId": 54,
+      "slotId": 84,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "ActivityCoinCost",
@@ -3643,8 +4144,7 @@
         "act12d0",
         "act12d0_token_components",
         "4000",
-        "1",
-        "7"
+        "16"
       ],
       "getMethod": "이벤트 기간 동안 [이남 상회]에서 4,000 기계 부품 소모",
       "description": "이남 상회에서 돈을 물쓰듯 썼습니다.\n당신 같은 고객을 싫어할 상인이 과연 어디 있을까요?",
@@ -3658,26 +4158,14 @@
       "medalId": "medal_activity_12d0_04",
       "medalName": "아카후알라 기념 훈장",
       "medalType": "activityMedal",
-      "slotId": 55,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10"
-      ],
+      "slotId": 85,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act12d0_01;act12d0_02;act12d0_03;act12d0_04;act12d0_05;act12d0_06;act12d0_07;act12d0_08;act12d0_09",
-        "9",
-        "1",
-        "5"
+        "9"
       ],
       "getMethod": "[대족장의 길]의 모든 스테이지를 3★ 평가로 클리어(튜토리얼 스테이지 제외)",
       "description": "휴일이 끝났습니다.\n이 즐거운 경험은 분명 당신의 기억 속에 오래도록 남게 되겠죠. 이 세상은 아픔만으로 가득 차지 않았다는 걸 우리는 잘 알고 있습니다, 가끔 이 점을 까먹기도 하지만요.",
@@ -3691,8 +4179,19 @@
       "medalId": "medal_activity_12d0_05",
       "medalName": "부족 용사 훈장",
       "medalType": "activityMedal",
-      "slotId": 56,
-      "preMedalIdList": [],
+      "slotId": 86,
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "PassStageWithCutTree",
       "unlockParam": [
@@ -3714,15 +4213,14 @@
       "medalId": "medal_activity_12d0_06",
       "medalName": "'가비알의 칭찬'",
       "medalType": "activityMedal",
-      "slotId": 57,
+      "slotId": 87,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
       "unlockParam": [
         "3",
         "act12d0_ex01#f#;act12d0_ex02#f#;act12d0_ex03#f#;act12d0_ex04#f#;act12d0_ex05#f#;act12d0_ex06#f#;act12d0_ex07#f#;act12d0_ex08#f#",
-        "8",
-        "16"
+        "8"
       ],
       "getMethod": "[가비알의 족적] 내 모든 스테이지의 하드 모드를 클리어",
       "description": "더욱 어려운 임무를 이겨냈습니다.\n가비알이 당신의 용감함을 높이 샀습니다.",
@@ -3736,16 +4234,15 @@
       "medalId": "medal_activity_12d0_07",
       "medalName": "'주마마의 긍정'",
       "medalType": "activityMedal",
-      "slotId": 58,
+      "slotId": 88,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "12D0Activity_1;12D0Activity_2;12D0Activity_3;12D0Activity_4;12D0Activity_5;12D0Activity_6;12D0Activity_7;12D0Activity_8;12D0Activity_9;12D0Activity_10;12D0Activity_11;12D0Activity_12;12D0Activity_13;12D0Activity_14;12D0Activity_15;12D0Activity_16;12D0Activity_17;12D0Activity_18;12D0Activity_19;12D0Activity_20;12D0Activity_21;12D0Activity_22;12D0Activity_23;12D0Activity_24;12D0Activity_25",
         "25",
-        "trap_016_peon",
-        "0",
-        "2"
+        "8",
+        "4"
       ],
       "getMethod": "[용사의 시련] 내 모든 내용을 완료하고 보상 수령",
       "description": "이번 모험을 잔뜩 즐겨주셨군요.\n주마마가 당신을 위해 이 훈장을 손수 제작했습니다.",
@@ -3759,7 +4256,7 @@
       "medalId": "medal_activity_12d0_08",
       "medalName": "관광객 훈장",
       "medalType": "activityMedal",
-      "slotId": 59,
+      "slotId": 89,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithCutTree",
@@ -3782,19 +4279,8 @@
       "medalId": "medal_activity_12d0_09",
       "medalName": "버서커의 훈장",
       "medalType": "activityMedal",
-      "slotId": 60,
-      "preMedalIdList": [
-        "medal_activity_11d5_02",
-        "medal_activity_11d5_03",
-        "medal_activity_11d5_04",
-        "medal_activity_11d5_05",
-        "medal_activity_11d5_06",
-        "medal_activity_11d5_07",
-        "medal_activity_11d5_08",
-        "medal_activity_11d5_09",
-        "medal_activity_11d5_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 90,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageWithCutTree",
       "unlockParam": [
@@ -3816,7 +4302,7 @@
       "medalId": "medal_activity_11d5_01",
       "medalName": "칼날 발도 훈장",
       "medalType": "activityMedal",
-      "slotId": 61,
+      "slotId": 91,
       "preMedalIdList": [
         "medal_activity_11d5_02",
         "medal_activity_11d5_03",
@@ -3826,16 +4312,16 @@
         "medal_activity_11d5_07",
         "medal_activity_11d5_08",
         "medal_activity_11d5_09",
-        "medal_activity_11d5_10"
+        "medal_activity_11d5_10",
+        "medal_activity_11d0_11"
       ],
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "rune_season_2_1",
-        "level_rune_04-01",
-        "1",
+        "rune_season_1_1",
+        "5",
         "8",
-        "0"
+        "3"
       ],
       "getMethod": null,
       "description": "어떤 잃어버린 무기로 원본 주조의 훈장을 새겼습니다.\n과거의 무기는 재현할 수 없지만, 그 의지와 정신은 영원히 남을 것입니다.",
@@ -3849,16 +4335,26 @@
       "medalId": "medal_activity_11d5_02",
       "medalName": "칼날 협약 훈장",
       "medalType": "activityMedal",
-      "slotId": 62,
-      "preMedalIdList": [],
+      "slotId": 92,
+      "preMedalIdList": [
+        "medal_activity_11d0_02",
+        "medal_activity_11d0_03",
+        "medal_activity_11d0_04",
+        "medal_activity_11d0_05",
+        "medal_activity_11d0_06",
+        "medal_activity_11d0_07",
+        "medal_activity_11d0_08",
+        "medal_activity_11d0_09",
+        "medal_activity_11d0_10",
+        "medal_activity_11d0_11"
+      ],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
       "unlockParam": [
         "rune_season_2_1",
         "level_rune_04-01",
         "1",
-        "8",
-        "0"
+        "8"
       ],
       "getMethod": "칼날 작전에서, 상주작전지점의 S평가 획득",
       "description": "칼날 작전에서 역경을 마주한 자에게 주는 훈장.",
@@ -3872,7 +4368,7 @@
       "medalId": "medal_activity_11d5_03",
       "medalName": "칼날 협약 훈장·II",
       "medalType": "activityMedal",
-      "slotId": 63,
+      "slotId": 93,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -3894,15 +4390,16 @@
       "medalId": "medal_activity_11d5_04",
       "medalName": "칼날 오퍼레이터 훈장",
       "medalType": "activityMedal",
-      "slotId": 64,
+      "slotId": 94,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_336_folivo",
         "1613588399",
-        "10",
-        "5"
+        "trap_014_tower",
+        "4",
+        "0"
       ],
       "getMethod": "칼날 작전에서, 오퍼레이터 씬 획득",
       "description": "칼날 작전에서 오퍼레이터의 가입을 증명한 훈장.\n완벽하지 않다는 말은 쓸모가 없다는 말이 아닙니다.",
@@ -3916,24 +4413,16 @@
       "medalId": "medal_activity_11d5_05",
       "medalName": "칼날 진지 훈장",
       "medalType": "activityMedal",
-      "slotId": 65,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10"
-      ],
+      "slotId": 95,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
         "rune_season_2_1",
         "rg1;rg2;rg3;rg4;rg5;rg6;rg7;rg8;rg9;rg10;rg11;rg12;rg13",
-        "10"
+        "10",
+        "5",
+        "0"
       ],
       "getMethod": "칼날 작전에서, 모든 로테이션 도전 임무를 완료하고 (일일 협약 도전 및 일일 위기 레벨 8 달성 필요) 보상 수령 (누적 10일)",
       "description": "칼날 작전에서 방어선을 지켜낸 자에게 주는 훈장.\n당신은 고강도 전지전 능력을 갖추었습니다.",
@@ -3947,7 +4436,7 @@
       "medalId": "medal_activity_11d5_06",
       "medalName": "칼날 호응 훈장",
       "medalType": "activityMedal",
-      "slotId": 66,
+      "slotId": 96,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
@@ -3955,7 +4444,7 @@
         "rune_season_2_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "1",
-        "8"
+        "5"
       ],
       "getMethod": "칼날 작전에서, 상주작전지점의 협약 도전 임무를 1개 완료하고 보상 수령",
       "description": "칼날 작전에서 임기응변을 발휘한 자에게 주는 훈장.",
@@ -3969,7 +4458,7 @@
       "medalId": "medal_activity_11d5_07",
       "medalName": "칼날 호응 훈장·II",
       "medalType": "activityMedal",
-      "slotId": 67,
+      "slotId": 97,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -3977,7 +4466,7 @@
         "rune_season_2_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "16"
+        "3"
       ],
       "getMethod": "칼날 작전에서, 상주작전지점의 협약 도전 임무를 8개 완료하고 보상 수령",
       "description": "칼날 작전에서 훌륭한 결단을 내린 자에게 주는 훈장.\n당신은 다양한 긴급사태에도 대처할 수 있는 실력을 갖추었습니다.",
@@ -3991,7 +4480,7 @@
       "medalId": "medal_activity_11d5_08",
       "medalName": "칼날 고행 훈장",
       "medalType": "activityMedal",
-      "slotId": 68,
+      "slotId": 98,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -3999,7 +4488,7 @@
         "rune_season_2_1",
         "enemy_hp_3;enemy_faust_atkmod_3;enemy_faust_trapmod_3;enemy_reveng_spdmod_3;enemy_reveng_atkmod_3;char_atk_3;enemy_atk_3",
         "4",
-        "8"
+        "1626721199"
       ],
       "getMethod": "칼날 작전에서, 상주작전지점의 3레벨 협약을 4개 개방",
       "description": "칼날 작전에서 전장을 누비고 다닌 자에게 주는 훈장.",
@@ -4013,7 +4502,7 @@
       "medalId": "medal_activity_11d5_09",
       "medalName": "칼날 연습전 훈장",
       "medalType": "activityMedal",
-      "slotId": 69,
+      "slotId": 99,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -4035,24 +4524,14 @@
       "medalId": "medal_activity_11d5_10",
       "medalName": "칼날 협력 훈장",
       "medalType": "activityMedal",
-      "slotId": 70,
-      "preMedalIdList": [
-        "medal_activity_10d0_02",
-        "medal_activity_10d0_03",
-        "medal_activity_10d0_04",
-        "medal_activity_10d0_05",
-        "medal_activity_10d0_06",
-        "medal_activity_10d0_07",
-        "medal_activity_10d0_08",
-        "medal_activity_10d0_09",
-        "medal_activity_10d0_10"
-      ],
+      "slotId": 100,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_2_1",
         "5",
-        "1"
+        "4000"
       ],
       "getMethod": "칼날 작전에서 지원을 사용하고 임의의 작전지점을 5회 이상 클리어",
       "description": "칼날 작전에서 서로에게 도움을 준 자에게 주는 훈장.",
@@ -4066,7 +4545,7 @@
       "medalId": "medal_activity_10d0_01",
       "medalName": "파이라이트 주조 훈장",
       "medalType": "activityMedal",
-      "slotId": 71,
+      "slotId": 101,
       "preMedalIdList": [
         "medal_activity_10d0_02",
         "medal_activity_10d0_03",
@@ -4081,10 +4560,8 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "rune_season_1_1",
-        "level_rune_03-01",
-        "1",
-        "8"
+        "11D0Activity_s1;11D0Activity_s2;11D0Activity_s3;11D0Activity_s4;11D0Activity_s5",
+        "1"
       ],
       "getMethod": null,
       "description": "어느 전설의 용병대가 사용한 표식을 새긴 훈장.\n다른 이들이 이루지 못한 일을 이뤄냈습니다.",
@@ -4098,7 +4575,7 @@
       "medalId": "medal_activity_10d0_02",
       "medalName": "파이라이트 협약 훈장",
       "medalType": "activityMedal",
-      "slotId": 72,
+      "slotId": 102,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -4120,7 +4597,7 @@
       "medalId": "medal_activity_10d0_03",
       "medalName": "파이라이트 협약 훈장·II",
       "medalType": "activityMedal",
-      "slotId": 73,
+      "slotId": 103,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisStageScoreSome",
@@ -4142,7 +4619,7 @@
       "medalId": "medal_activity_10d0_04",
       "medalName": "파이라이트 전투복 훈장",
       "medalType": "activityMedal",
-      "slotId": 74,
+      "slotId": 104,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -4163,19 +4640,8 @@
       "medalId": "medal_activity_10d0_05",
       "medalName": "파이라이트 진지 훈장",
       "medalType": "activityMedal",
-      "slotId": 75,
-      "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 105,
+      "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTempClearSome",
       "unlockParam": [
@@ -4195,14 +4661,15 @@
       "medalId": "medal_activity_10d0_06",
       "medalName": "파이라이트 호응 훈장",
       "medalType": "activityMedal",
-      "slotId": 76,
+      "slotId": 106,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisTaskSome",
       "unlockParam": [
         "rune_season_1_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
-        "1"
+        "1",
+        "3"
       ],
       "getMethod": "파이라이트 작전에서, 상주작전지점의 협약 도전 임무를 1개 완료하고 보상 수령",
       "description": "파이라이트 작전에서 임기응변을 발휘한 자에게 주는 훈장.",
@@ -4216,7 +4683,7 @@
       "medalId": "medal_activity_10d0_07",
       "medalName": "파이라이트 호응 훈장·II",
       "medalType": "activityMedal",
-      "slotId": 77,
+      "slotId": 107,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "CrisisTaskSome",
@@ -4224,7 +4691,7 @@
         "rune_season_1_1",
         "normalTask_1;normalTask_2;normalTask_3;normalTask_4;normalTask_5;normalTask_6;normalTask_7;normalTask_8",
         "8",
-        "4"
+        "1605639599"
       ],
       "getMethod": "파이라이트 작전에서, 상주작전지점의 협약 도전 임무를 8개 완료하고 보상 수령",
       "description": "파이라이트 작전에서 훌륭한 결단을 내린 자에게 주는 훈장.\n당신은 다양한 긴급사태에도 대처할 수 있는 실력을 갖추었습니다.",
@@ -4238,7 +4705,7 @@
       "medalId": "medal_activity_10d0_08",
       "medalName": "파이라이트 고행 훈장",
       "medalType": "activityMedal",
-      "slotId": 78,
+      "slotId": 108,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUnlockPermRuneSome",
@@ -4246,7 +4713,7 @@
         "rune_season_1_1",
         "char_atk_3;enemy_hp_3;enemy_crowns_3;enemy_ghost_3;char_def_3;global_costrecovery_3",
         "4",
-        "8"
+        "1612983599"
       ],
       "getMethod": "파이라이트 작전에서, 상주작전지점의 3레벨 협약을 4개 개방",
       "description": "파이라이트 작전에서 전장을 누비고 다닌 자에게 주는 훈장.",
@@ -4260,7 +4727,7 @@
       "medalId": "medal_activity_10d0_09",
       "medalName": "파이라이트 연습전 훈장",
       "medalType": "activityMedal",
-      "slotId": 79,
+      "slotId": 109,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisStageScoreSome",
@@ -4268,7 +4735,8 @@
         "rune_season_1_1",
         "level_rune_03-02;level_rune_01-03;level_rune_02-01;level_rune_02-02;level_rune_02-03;level_rune_02-04;level_rune_02-05",
         "1",
-        "8"
+        "8",
+        "0"
       ],
       "getMethod": "파이라이트 작전에서, 임의의 1개 로테이션 작전지점에서 S평가 획득",
       "description": "파이라이트 작전에서 심사숙고를 한 자에게 주는 훈장.",
@@ -4282,26 +4750,16 @@
       "medalId": "medal_activity_10d0_10",
       "medalName": "파이라이트 협력 훈장",
       "medalType": "activityMedal",
-      "slotId": 80,
-      "preMedalIdList": [
-        "medal_activity_11d0_02",
-        "medal_activity_11d0_03",
-        "medal_activity_11d0_04",
-        "medal_activity_11d0_05",
-        "medal_activity_11d0_06",
-        "medal_activity_11d0_07",
-        "medal_activity_11d0_08",
-        "medal_activity_11d0_09",
-        "medal_activity_11d0_10",
-        "medal_activity_11d0_11"
-      ],
+      "slotId": 110,
+      "preMedalIdList": [],
       "rarity": 0,
       "template": "CrisisUseAssist",
       "unlockParam": [
         "rune_season_1_1",
         "5",
+        "enemy_1105_tyokai",
         "8",
-        "3"
+        "0"
       ],
       "getMethod": "파이라이트 작전에서 지원을 사용하고 임의의 작전지점을 5회 이상 클리어",
       "description": "파이라이트 작전에서 서로에게 도움을 준 자에게 주는 훈장.",
@@ -4315,7 +4773,7 @@
       "medalId": "medal_activity_11d0_01",
       "medalName": "《극적이지 않은 학살》",
       "medalType": "activityMedal",
-      "slotId": 81,
+      "slotId": 111,
       "preMedalIdList": [
         "medal_activity_11d0_02",
         "medal_activity_11d0_03",
@@ -4331,10 +4789,10 @@
       "rarity": 4,
       "template": null,
       "unlockParam": [
-        "3",
-        "act11d0_01;act11d0_02;act11d0_03;act11d0_04;act11d0_05;act11d0_06;act11d0_07;act11d0_08",
-        "8",
-        "1605639599"
+        "act7d5",
+        "act11d0_mo01",
+        "trap_014_tower",
+        "3"
       ],
       "getMethod": null,
       "description": "당신은 모든 것을 목격했습니다.\n용의자가 죽고 단서는 끊겨버려 진범은 거대한 혼란 속으로 숨어 자취를 감추었습니다. 증오로 가득찬 함정은, 먹잇감이 법망에 걸려들기만을 기다리고 있습니다.",
@@ -4348,7 +4806,7 @@
       "medalId": "medal_activity_11d0_02",
       "medalName": "《여덟 번째 달》",
       "medalType": "activityMedal",
-      "slotId": 82,
+      "slotId": 112,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -4356,7 +4814,7 @@
         "3",
         "act11d0_01;act11d0_02;act11d0_03;act11d0_04;act11d0_05;act11d0_06;act11d0_07;act11d0_08",
         "8",
-        "4"
+        "3"
       ],
       "getMethod": "[대의회탑]의 피점령지 외 모든 스테이지를 3★ 평가로 클리어(튜토리얼 스테이지 제외)",
       "description": "라이타니아의 변경 마을에서 벌어진 사건을 해결했습니다.\n모든 이가 악의를 품고 있었던 건 아니지만, 이들은 결국 심연으로 떨어져버리고 말았습니다.",
@@ -4370,7 +4828,7 @@
       "medalId": "medal_activity_11d0_03",
       "medalName": "암석 음악가 훈장",
       "medalType": "activityMedal",
-      "slotId": 83,
+      "slotId": 113,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTower",
@@ -4378,8 +4836,7 @@
         "3",
         "act11d0_08",
         "trap_014_tower",
-        "4",
-        "0"
+        "4"
       ],
       "getMethod": "모든 축음기의 제어권을 장악한 상태로 TW-8을 3★ 평가  클리어",
       "description": "모든 '축음기'장치를 제어하고 적의 우두머리를 격파했습니다.\nL-44 '축음기'는 공업용 코드와 제품명에 불과합니다. 실제론 축음기 기능이 전혀 포함되어 있지 않죠. 광석을 두드리는 선율이 맑은 소리를 내는 것도 어쩌면 새로운 음악의 일종이라 할 수 있을 것입니다.",
@@ -4393,7 +4850,7 @@
       "medalId": "medal_activity_11d0_04",
       "medalName": "《윈터위습의 시》",
       "medalType": "activityMedal",
-      "slotId": 84,
+      "slotId": 114,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageSome",
@@ -4401,7 +4858,7 @@
         "2",
         "act11d0_s01#f#;act11d0_s02#f#",
         "2",
-        "5",
+        "1612983599",
         "0"
       ],
       "getMethod": "[대의회탑] 내 모든 함락된 지역 스테이지의 조우전 모드를 클리어",
@@ -4416,7 +4873,7 @@
       "medalId": "medal_activity_11d0_05",
       "medalName": "솔리스트 훈장",
       "medalType": "activityMedal",
-      "slotId": 85,
+      "slotId": 115,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "PassStageWithTower",
@@ -4424,7 +4881,8 @@
         "3",
         "act11d0_ex06",
         "trap_014_tower",
-        "5"
+        "5",
+        "0"
       ],
       "getMethod": "모든 축음기의 제어권을 장악한 상태로 TW-EX-6을 3★ 평가  클리어",
       "description": "가장 험난한 임무에서 모든 '축음기' 장치를 제어해냈습니다.\n이런 아츠 방어 시스템을 하나 도입해보는 건 어떨까요?",
@@ -4438,7 +4896,7 @@
       "medalId": "medal_activity_11d0_06",
       "medalName": "월루몽드 명예 훈장",
       "medalType": "activityMedal",
-      "slotId": 86,
+      "slotId": 116,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -4446,7 +4904,8 @@
         "2",
         "act11d0_ex01#f#;act11d0_ex02#f#;act11d0_ex03#f#;act11d0_ex04#f#;act11d0_ex05#f#;act11d0_ex06#f#;act11d0_ex07#f#;act11d0_ex08#f#",
         "8",
-        "3"
+        "8",
+        "0"
       ],
       "getMethod": "[고요한 변경] 내 모든 스테이지의 하드 모드를 클리어",
       "description": "험난한 임무를 이겨냈습니다.\n승리는 살 수 있다는 희망과 단결을 이끌어냈고, 월루몽드에 미래를 가져왔습니다.",
@@ -4460,7 +4919,7 @@
       "medalId": "medal_activity_11d0_07",
       "medalName": "헌병대 돌격 훈장",
       "medalType": "activityMedal",
-      "slotId": 87,
+      "slotId": 117,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "PassStageSome",
@@ -4468,7 +4927,7 @@
         "3",
         "act11d0_mo01",
         "1",
-        "1626721199"
+        "1622746799"
       ],
       "getMethod": "TW-MO-1을 3★ 평가로 클리어",
       "description": "폭동의 근원을 해결했습니다.\n폭력은 모든 문제를 해결할 수 없습니다. 우리에겐 질서가 필요합니다.",
@@ -4482,14 +4941,15 @@
       "medalId": "medal_activity_11d0_08",
       "medalName": "폴리닉의 수공예 훈장",
       "medalType": "activityMedal",
-      "slotId": 88,
+      "slotId": 118,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_345_folnic",
         "1605639599",
-        "4000"
+        "trap_025_prison",
+        "3"
       ],
       "getMethod": "이벤트 기간 동안 오퍼레이터 폴리닉 획득",
       "description": "폴리닉이 손수 제작한 훈장입니다.\n모두가 자신의 과거와 화해할 수 있는 건 아닙니다. 우리 또한 남에게 이를 강제할 순 없고요.",
@@ -4503,14 +4963,15 @@
       "medalId": "medal_activity_11d0_09",
       "medalName": "마을 부흥 훈장",
       "medalType": "activityMedal",
-      "slotId": 89,
+      "slotId": 119,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "ActivityCoinCost",
       "unlockParam": [
         "act11d0",
         "act11d0_token_currency",
-        "4000"
+        "4000",
+        "1626721199"
       ],
       "getMethod": "이벤트 기간 동안 [팔월 장터]에서 낡은 귀족령 주화를 4000개 소비",
       "description": "월루몽드에서 돈을 물 쓰듯이 썼습니다.\n덕분에 다들 시장경제가 되살아나 환호하고 있군요.",
@@ -4524,12 +4985,14 @@
       "medalId": "medal_activity_11d0_10",
       "medalName": "평정자의 훈장",
       "medalType": "activityMedal",
-      "slotId": 90,
+      "slotId": 120,
       "preMedalIdList": [],
       "rarity": 0,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "11D0Activity_s1;11D0Activity_s2;11D0Activity_s3;11D0Activity_s4;11D0Activity_s5",
+        "1",
+        "trap_026_inverter",
         "1"
       ],
       "getMethod": "오래된 일기의 수수께끼를 1개 풀고 보상 수령",
@@ -4544,14 +5007,13 @@
       "medalId": "medal_activity_11d0_11",
       "medalName": "십이음기 훈장",
       "medalType": "activityMedal",
-      "slotId": 91,
+      "slotId": 121,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "MissionCompleteSome",
       "unlockParam": [
         "11D0Activity_1;11D0Activity_2;11D0Activity_3;11D0Activity_4;11D0Activity_5;11D0Activity_6;11D0Activity_7;11D0Activity_8;11D0Activity_9;11D0Activity_10;11D0Activity_11;11D0Activity_12;11D0Activity_13;11D0Activity_14;11D0Activity_15;11D0Activity_16;11D0Activity_17;11D0Activity_18;11D0Activity_19;11D0Activity_20;11D0Activity_21;11D0Activity_22;11D0Activity_23;11D0Activity_24;11D0Activity_25;11D0Activity_s1;11D0Activity_s2;11D0Activity_s3;11D0Activity_s4;11D0Activity_s5",
-        "30",
-        "1602529199"
+        "30"
       ],
       "getMethod": "[불타버린 기록]의 모든 내용을 완료하고 보상 수령",
       "description": "이 도시는 영원히 당신의 공헌을 기억할 것입니다.\n이번 비극을 마주한 사람들은 아무것도 할 수 없었지만, 결과는 그렇게까지 최악으로 치닫지는 않았습니다.",
@@ -4565,17 +5027,15 @@
       "medalId": "medal_activity_15d5_01",
       "medalName": "외근 기록 확인 도장",
       "medalType": "activityMedal",
-      "slotId": 92,
+      "slotId": 122,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act15d5",
-        "char_108_silent@winter#2",
-        "1626375599"
+        "act15d5"
       ],
       "getMethod": "비욘드 히어의 모든 스토리 개방",
-      "description": "로도스 아일랜드 오퍼레이터 외근 임무의 지점 기록도를 모티브로 제작한 훈장, 드문드문 있는 발자국이 오퍼레이터들의 견문을 증명합니다.\n대륙 각지에서는 늘 새로운 이야기가 생겨납니다.",
+      "description": "로도스 아일랜드 오퍼레이터 파견 임무의 지점 기록도를 모티브로 제작한 훈장, 드문드문 있는 발자국이 오퍼레이터들의 견문을 증명합니다.\n대륙 각지에서는 늘 새로운 이야기가 생겨납니다.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1625547600,
@@ -4586,7 +5046,7 @@
       "medalId": "medal_activity_15d5_02",
       "medalName": "외근 복장 기념 훈장",
       "medalType": "activityMedal",
-      "slotId": 93,
+      "slotId": 123,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
@@ -4596,7 +5056,7 @@
         "1626375599"
       ],
       "getMethod": "비욘드 히어 이벤트에서 컬렉션 프로스트 브레스 획득",
-      "description": "외근 복장에 동봉된 기념 훈장.\n이 옷은 편하고 따뜻해서 사일런스가 한참 전부터 예약을 해뒀다는군요.",
+      "description": "파견 복장에 동봉된 기념 훈장.\n이 옷은 편하고 따뜻해서 사일런스가 한참 전부터 예약을 해뒀다는군요.",
       "advancedMedal": null,
       "originMedal": null,
       "activeTime": 1625547600,
@@ -4607,13 +5067,12 @@
       "medalId": "medal_activity_13d0_01",
       "medalName": "돌아오는 바람의 땅 훈장",
       "medalType": "activityMedal",
-      "slotId": 94,
+      "slotId": 124,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act13d0",
-        "1617476399"
+        "act13d0"
       ],
       "getMethod": "리와인딩 브리즈의 모든 스토리 개방",
       "description": "한 오퍼레이터가 갑판에서 바람을 쐬다 쏟아지는 빛을 보고 만든 훈장.\n태어나서 죽을 때까지, 사람들의 곁에는 늘 바람이 함께 한다고 합니다.",
@@ -4627,15 +5086,13 @@
       "medalId": "medal_activity_13d0_02",
       "medalName": "'책의 잇자국'",
       "medalType": "activityMedal",
-      "slotId": 95,
+      "slotId": 125,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotCharsBeforeTime",
       "unlockParam": [
         "char_388_mint",
-        "1617476399",
-        "trap_014_tower",
-        "3"
+        "1617476399"
       ],
       "getMethod": "리와인딩 브리즈 이벤트 중 오퍼레이터 민트 획득",
       "description": "오퍼레이터 민트의 묘사에 따라, 책이 물어뜯은 후의 잇자국을 그려넣었습니다.\n책이 사람을 무나? 책엔 이빨이 안 달려있잖아? 잠깐, 방금 책이 움직인 거 같은데?",
@@ -4649,15 +5106,12 @@
       "medalId": "medal_activity_10d5_01",
       "medalName": "페테르헤임 고등학교 뱃지",
       "medalType": "activityMedal",
-      "slotId": 96,
+      "slotId": 126,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act10d5",
-        "p_char_405_absin",
-        "1602529199",
-        "1605639599"
+        "act10d5"
       ],
       "getMethod": "우르수스의 아이들의 모든 스토리 개방",
       "description": "페테르헤임 고등학교 마크를 본떠 만든 훈장.\n그녀들은 아직 준비가 되지 않았지만, 그래도 내일로 향해 나아가고자 합니다.",
@@ -4671,15 +5125,14 @@
       "medalId": "medal_activity_10d5_02",
       "medalName": "파손된 체르노보그 경찰 뱃지",
       "medalType": "activityMedal",
-      "slotId": 97,
+      "slotId": 127,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "GotItemBeforeTime",
       "unlockParam": [
         "1",
         "p_char_405_absin",
-        "1602529199",
-        "1612983599"
+        "1602529199"
       ],
       "getMethod": " '우르수스의 아이들' 이벤트에서, 압생트의 증표를 1개 구매",
       "description": "압생트가 소장하고 있는 경찰 배지를 복원하여 만든 훈장.\n아무리 고달프고 힘들어도, 삶은 계속되어야 합니다.",
@@ -4693,16 +5146,12 @@
       "medalId": "medal_activity_4d0_01",
       "medalName": "정보 파일링 훈장",
       "medalType": "activityMedal",
-      "slotId": 98,
+      "slotId": 128,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act4d0",
-        "act12d0_08",
-        "trap_016_peon",
-        "0",
-        "0"
+        "act4d0"
       ],
       "getMethod": "전장의 비화의 모든 스토리 개방",
       "description": "파일 보관실에서 정보 파일링을 완료했을 때 사용하는 직인을 모티브로 제작한 훈장.\n정보는 어딘가 늘 누락되기 마련이죠. 우리가 할 수 있는 일은 최선을 다해 기록하는 것입니다.",
@@ -4716,16 +5165,12 @@
       "medalId": "medal_activity_6d5_01",
       "medalName": "니엔의 인장",
       "medalType": "activityMedal",
-      "slotId": 99,
+      "slotId": 129,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act6d5",
-        "act13d5_08",
-        "enemy_1105_tyokai",
-        "8",
-        "0"
+        "act6d5"
       ],
       "getMethod": "에인션트 포지의 모든 스토리 개방",
       "description": "니엔을 상징하는 표식을 베이스로 제작한 훈장.\n니엔이 원하는 매운맛을 구현해낼 수 있는 요리사는 아직도 없다고 합니다.",
@@ -4739,15 +5184,12 @@
       "medalId": "medal_activity_7d5_01",
       "medalName": "애프터눈 티 수집 교환 뱃지",
       "medalType": "activityMedal",
-      "slotId": 100,
+      "slotId": 130,
       "preMedalIdList": [],
       "rarity": 2,
       "template": "UnlockStoryGroup",
       "unlockParam": [
-        "act7d5",
-        "act11d0_mo01",
-        "trap_014_tower",
-        "3"
+        "act7d5"
       ],
       "getMethod": "오후의 일화의 모든 스토리 개방",
       "description": "애프터눈 티 컬렉팅 스티커를 기반으로 제작된 훈장. 가져가서 애프터눈 티 보상으로 교환할 순 없다.\n아직 많은 이야기가 박사님을 기다리고 있다고 합니다.",
@@ -4761,7 +5203,7 @@
       "medalId": "medal_activity_11d0_075",
       "medalName": "헌병대 돌격 훈장",
       "medalType": "activityMedal",
-      "slotId": 87,
+      "slotId": 117,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithTower",
@@ -4783,7 +5225,7 @@
       "medalId": "medal_activity_10d0_035",
       "medalName": "파이라이트 협약 훈장·II",
       "medalType": "activityMedal",
-      "slotId": 73,
+      "slotId": 103,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -4805,7 +5247,7 @@
       "medalId": "medal_activity_11d5_035",
       "medalName": "칼날 협약 훈장·II",
       "medalType": "activityMedal",
-      "slotId": 63,
+      "slotId": 93,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -4813,8 +5255,7 @@
         "rune_season_2_1",
         "level_rune_04-01",
         "18",
-        "1612983599",
-        "0"
+        "1612983599"
       ],
       "getMethod": "칼날 작전에서, 칼날 작전 개시 1주 전까지(2021-02-11 03:59:59 전까지) 상주작전지점의 위기 레벨을 18까지 달성",
       "description": null,
@@ -4828,7 +5269,7 @@
       "medalId": "medal_activity_12d0_085",
       "medalName": "관광객 훈장",
       "medalType": "activityMedal",
-      "slotId": 59,
+      "slotId": 89,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithCutTree",
@@ -4851,7 +5292,7 @@
       "medalId": "medal_activity_13d5_045",
       "medalName": "초라한 처형자의 훈장",
       "medalType": "activityMedal",
-      "slotId": 44,
+      "slotId": 74,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageKilled",
@@ -4874,7 +5315,7 @@
       "medalId": "medal_activity_14d5_035",
       "medalName": "잿불 협약 훈장 II",
       "medalType": "activityMedal",
-      "slotId": 33,
+      "slotId": 63,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -4884,7 +5325,7 @@
         "18",
         "1622746799"
       ],
-      "getMethod": "잿불 작전에서 상주 작전 지점의 위기 레벨 18 달성. 잿불 작전 개시 후 일주일 내에 완료해야 함(2021-06-04 03:59:59)",
+      "getMethod": "잿불 작전에서, 잿불 작전 개시 1주 전까지(2021-06-04 03:59:59) 상주작전지점의 위기 레벨을 18까지 달성",
       "description": null,
       "advancedMedal": null,
       "originMedal": "medal_activity_14d5_03",
@@ -4896,7 +5337,7 @@
       "medalId": "medal_activity_15d0_105",
       "medalName": "'문무겸비'",
       "medalType": "activityMedal",
-      "slotId": 30,
+      "slotId": 60,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithTrapSurvived",
@@ -4918,7 +5359,7 @@
       "medalId": "medal_activity_16d0_035",
       "medalName": "리드씰 협약 훈장·II",
       "medalType": "activityMedal",
-      "slotId": 13,
+      "slotId": 43,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "CrisisStageScoreBeforeTime",
@@ -4928,7 +5369,7 @@
         "18",
         "1626721199"
       ],
-      "getMethod": "리드씰 작전에서, 리드씰 작전 개시 1주 전까지(2021-07-20 03:59:59전까지) 상주작전지점의 위기 레벨을 18까지 달성",
+      "getMethod": "리드씰 작전에서, 리드씰 작전 개시 1주 전까지(2021.07.20 03:59:59) 상주작전지점의 위기 레벨을 18까지 달성",
       "description": null,
       "advancedMedal": null,
       "originMedal": "medal_activity_16d0_03",
@@ -4940,7 +5381,7 @@
       "medalId": "medal_activity_16d5_045",
       "medalName": "특별 환경보호 훈장",
       "medalType": "activityMedal",
-      "slotId": 4,
+      "slotId": 34,
       "preMedalIdList": null,
       "rarity": 3,
       "template": "PassStageWithLessDeploy",
@@ -4954,6 +5395,27 @@
       "description": null,
       "advancedMedal": null,
       "originMedal": "medal_activity_16d5_04",
+      "activeTime": 0,
+      "getTime": 0,
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_18d0_105",
+      "medalName": "'제2종 조우'",
+      "medalType": "activityMedal",
+      "slotId": 30,
+      "preMedalIdList": null,
+      "rarity": 3,
+      "template": "PassStageWithDeadInLess",
+      "unlockParam": [
+        "3",
+        "act18d0_08",
+        "2"
+      ],
+      "getMethod": "3★ 평가로 WD-8 클리어, [국가]에서 [붕괴의 공포] 적 적중 횟수 2회 미만",
+      "description": null,
+      "advancedMedal": null,
+      "originMedal": "medal_activity_18d0_10",
       "activeTime": 0,
       "getTime": 0,
       "medalRewardGroup": []
@@ -5161,6 +5623,26 @@
           "sortId": 9,
           "groupBackColor": "7f9190",
           "groupGetTime": 1627610400
+        },
+        {
+          "groupId": "medalGroupActivity18d0",
+          "groupName": "워크 인 더 더스트 훈장 세트",
+          "groupDesc": "한 차례 기나긴 여정을 기록한 훈장.\n문명은 갖은 변천을 거쳤지만, 그녀는 여전히 떠돌아다닌다.\n수많은 다른 생명처럼.",
+          "medalId": [
+            "medal_activity_18d0_01",
+            "medal_activity_18d0_02",
+            "medal_activity_18d0_03",
+            "medal_activity_18d0_04",
+            "medal_activity_18d0_05",
+            "medal_activity_18d0_06",
+            "medal_activity_18d0_07",
+            "medal_activity_18d0_08",
+            "medal_activity_18d0_09",
+            "medal_activity_18d0_10"
+          ],
+          "sortId": 10,
+          "groupBackColor": "27323e",
+          "groupGetTime": 1632967200
         }
       ]
     },
