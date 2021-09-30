@@ -154,7 +154,7 @@
       "zoneId": "main_0",
       "code": "0-1",
       "name": "崩落",
-      "description": "<@lv.fs>制限：</>\nコストが自然回復しない。",
+      "description": "<@lv.fs>制限：</>\nコストが自然回復しない",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -452,7 +452,7 @@
       "zoneId": "main_0",
       "code": "0-2",
       "name": "防衛",
-      "description": "<@lv.fs>制限：</>\n味方全員の攻撃力が半減。",
+      "description": "<@lv.fs>制限：</>\n全ての味方の攻撃力-50％",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -739,7 +739,7 @@
       "zoneId": "main_0",
       "code": "0-3",
       "name": "追撃",
-      "description": "<@lv.fs>制限：</>\n敵のHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -1026,7 +1026,7 @@
       "zoneId": "main_0",
       "code": "0-4",
       "name": "混戦",
-      "description": "<@lv.fs>制限：</>\n狙撃オペレーター配置禁止。",
+      "description": "<@lv.fs>制限：</>\n【狙撃】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -1335,7 +1335,7 @@
       "zoneId": "main_0",
       "code": "0-5",
       "name": "腐食",
-      "description": "<@lv.fs>制限：</>\n敵の攻撃力が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の攻撃力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -1540,7 +1540,7 @@
       "zoneId": "main_0",
       "code": "0-6",
       "name": "強撃",
-      "description": "<@lv.fs>制限：</>\nコストの回復スピードが半減。",
+      "description": "<@lv.fs>制限：</>\nコストの自然回復速度-50％",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -1827,7 +1827,7 @@
       "zoneId": "main_0",
       "code": "0-7",
       "name": "感染",
-      "description": "<@lv.fs>制限：</>\n術師オペレーターのコストが3倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n【術師】の配置コストが3倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -2125,7 +2125,7 @@
       "zoneId": "main_0",
       "code": "0-8",
       "name": "狩猟",
-      "description": "<@lv.fs>制限：</>\n味方全員のHPが半減。",
+      "description": "<@lv.fs>制限：</>\n全ての味方の最大HP-50％",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -2196,7 +2196,7 @@
       "zoneId": "main_0",
       "code": "0-9",
       "name": "騎士",
-      "description": "更に多くのオリジムシと盾兵が出現。範囲攻撃を持つ術師オペレーターと重装オペレーターで対処せよ。",
+      "description": "更に多くのオリジムシと盾兵が出現。重装オペレーターと範囲攻撃を持つ術師オペレーターで対処せよ。",
       "hardStagedId": "main_00-09#f#",
       "dangerLevel": "LV.1",
       "dangerPoint": -1,
@@ -2341,7 +2341,7 @@
       "zoneId": "main_0",
       "code": "0-9",
       "name": "騎士",
-      "description": "<@lv.fs>制限：</>\n重装オペレーター配置禁止。",
+      "description": "<@lv.fs>制限：</>\n【重装】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -2650,7 +2650,7 @@
       "zoneId": "main_0",
       "code": "0-10",
       "name": "苦境",
-      "description": "<@lv.fs>制限：</>\n味方全員の防御力が半減。",
+      "description": "<@lv.fs>制限：</>\n全ての味方の防御力-50％",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -2877,7 +2877,7 @@
       "zoneId": "main_0",
       "code": "0-11",
       "name": "突破",
-      "description": "<@lv.fs>制限：</>\n近距離オペレーターのコストが3倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての味方近距離ユニットの配置コストが3倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -3115,7 +3115,7 @@
       "zoneId": "main_1",
       "code": "1-1",
       "name": "孤島",
-      "description": "<@lv.fs>制限：</>\nオペレーター配置上限が4体に減少。",
+      "description": "<@lv.fs>制限：</>\n同時配置可能数が4に減少  ",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -3402,7 +3402,7 @@
       "zoneId": "main_1",
       "code": "1-3",
       "name": "狂奔",
-      "description": "<@lv.fs>制限：</>\n敵のHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -3607,7 +3607,7 @@
       "zoneId": "main_1",
       "code": "1-4",
       "name": "予兆",
-      "description": "<@lv.fs>制限：</>\n遠距離オペレーターのコストが3倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての味方遠距離ユニットの配置コストが3倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -3812,7 +3812,7 @@
       "zoneId": "main_1",
       "code": "1-5",
       "name": "麻痺",
-      "description": "<@lv.fs>制限：</>\n敵の移動速度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の移動速度が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -4110,7 +4110,7 @@
       "zoneId": "main_1",
       "code": "1-6",
       "name": "災害",
-      "description": "<@lv.fs>制限：</>\n障害物の数が1つに。",
+      "description": "<@lv.fs>制限：</>\n障害物の数が1に減少",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -4397,7 +4397,7 @@
       "zoneId": "main_1",
       "code": "1-7",
       "name": "暴君",
-      "description": "<@lv.fs>制限：</>\nコストの回復スピードが半減。",
+      "description": "<@lv.fs>制限：</>\nコストの自然回復速度-50％",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -4613,7 +4613,7 @@
       "zoneId": "main_1",
       "code": "1-8",
       "name": "意志",
-      "description": "<@lv.fs>制限：</>\n敵リーダーの能力発動間隔が大幅に短縮される。",
+      "description": "<@lv.fs>制限：</>\n敵リーダーの能力発動間隔が大幅に短縮",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -4911,7 +4911,7 @@
       "zoneId": "main_1",
       "code": "1-9",
       "name": "潰走",
-      "description": "<@lv.fs>制限：</>\n重装オペレーター配置禁止。",
+      "description": "<@lv.fs>制限：</>\n【重装】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -5116,7 +5116,7 @@
       "zoneId": "main_1",
       "code": "1-10",
       "name": "残留",
-      "description": "<@lv.fs>制限：</>\n敵の遠距離攻撃の射程が大幅に拡大。",
+      "description": "<@lv.fs>制限：</>\n全ての敵遠距離ユニットの攻撃範囲が大幅に拡大",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -5403,7 +5403,7 @@
       "zoneId": "main_1",
       "code": "1-12",
       "name": "代価",
-      "description": "<@lv.fs>制限：</>\n医療オペレーターのコストが2倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n【医療】の配置コストが2倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -5690,7 +5690,7 @@
       "zoneId": "main_2",
       "code": "2-1",
       "name": "龍門",
-      "description": "<@lv.fs>制限：</>\n術師オペレーター配置禁止。",
+      "description": "<@lv.fs>制限：</>\n【術師】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -5761,7 +5761,7 @@
       "zoneId": "main_2",
       "code": "S2-1",
       "name": "緩慢-1",
-      "description": "高防御力の盾兵に警戒せよ。",
+      "description": "高防御力の重装兵に警戒せよ。",
       "hardStagedId": null,
       "dangerLevel": "LV.20",
       "dangerPoint": -1,
@@ -6025,7 +6025,7 @@
       "zoneId": "main_2",
       "code": "2-2",
       "name": "不戦勝",
-      "description": "<@lv.fs>制限：</>\n補助オペレーター使用禁止。",
+      "description": "<@lv.fs>制限：</>\n【補助】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -6620,7 +6620,7 @@
       "zoneId": "main_2",
       "code": "2-3",
       "name": "推定無罪",
-      "description": "<@lv.fs>制限：</>\n障害物と近距離オペレーターのコストが2倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n障害物と味方近距離ユニットの配置コストが2倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -6907,7 +6907,7 @@
       "zoneId": "main_2",
       "code": "2-4",
       "name": "ペンギン急便",
-      "description": "<@lv.fs>制限：</>\n敵のHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -7573,7 +7573,7 @@
       "zoneId": "main_2",
       "code": "2-5",
       "name": "落下物",
-      "description": "<@lv.fs>制限：</>\n前衛オペレーターと狙撃オペレーターのコストが2倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n【前衛】・【狙撃】の配置コストが2倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -7789,7 +7789,7 @@
       "zoneId": "main_2",
       "code": "2-6",
       "name": "手すりを握る",
-      "description": "<@lv.fs>制限：</>\n術師オペレーター配置禁止。",
+      "description": "<@lv.fs>制限：</>\n【術師】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -8065,7 +8065,7 @@
       "zoneId": "main_2",
       "code": "2-7",
       "name": "衛生管理",
-      "description": "<@lv.fs>制限：</>\n敵の遠距離攻撃の射程が大幅に拡大。",
+      "description": "<@lv.fs>制限：</>\n全ての敵遠距離ユニットの攻撃範囲が大幅に拡大",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -8396,7 +8396,7 @@
       "zoneId": "main_2",
       "code": "2-8",
       "name": "約束はしない",
-      "description": "視界良好なエリアを複数確認。狙撃オペレーターを配置するのには最適だ。\nまた、周囲にフェンスは無いため、この地形をうまく利用すれば……\n<@lv.item><対空エリア></>配置したオペレーターの攻撃速度がやや下がる代わりに対空攻撃力が大幅に上昇。",
+      "description": "視界良好なエリアを複数確認。狙撃オペレーターを配置するのには最適だ。\nまた、周囲にフェンスは無いため、この地形をうまく利用すれば……\n<@lv.item><対空エリア></>配置した味方の攻撃速度がやや下がる代わりに対空攻撃力が大幅に上昇。",
       "hardStagedId": "main_02-08#f#",
       "dangerLevel": "LV.40",
       "dangerPoint": -1,
@@ -8530,7 +8530,7 @@
       "zoneId": "main_2",
       "code": "2-8",
       "name": "約束はしない",
-      "description": "<@lv.fs>制限：</>\n敵の重量が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の重量が大幅に増加",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -8746,7 +8746,7 @@
       "zoneId": "main_2",
       "code": "2-9",
       "name": "裏工作",
-      "description": "<@lv.fs>制限：</>\n敵のHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -9346,7 +9346,7 @@
       "zoneId": "main_2",
       "code": "2-10",
       "name": "不治の病",
-      "description": "<@lv.fs>制限：</>\n術師オペレーターのコストが2倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n【術師】の配置コストが2倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -9562,7 +9562,7 @@
       "zoneId": "main_3",
       "code": "3-1",
       "name": "合流",
-      "description": "<@lv.fs>制限：</>\n遠距離オペレーターのコストが2倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての味方遠距離ユニットの配置コストが2倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -9761,7 +9761,7 @@
       "zoneId": "main_3",
       "code": "3-2",
       "name": "記憶",
-      "description": "<@lv.fs>制限：</>\nコストの回復スピードが3分の1に減速。",
+      "description": "<@lv.fs>制限：</>\nコストの自然回復速度が2/3",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -9960,7 +9960,7 @@
       "zoneId": "main_3",
       "code": "3-3",
       "name": "旋回",
-      "description": "<@lv.fs>制限：</>\n敵の重量が一段階上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の重量が1ランク上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -10241,7 +10241,7 @@
       "zoneId": "main_3",
       "code": "3-4",
       "name": "亀裂",
-      "description": "<@lv.fs>制限：</>\nコストの回復スピードが3分の1に減速。",
+      "description": "<@lv.fs>制限：</>\nコストの自然回復速度が2/3",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -10451,7 +10451,7 @@
       "zoneId": "main_3",
       "code": "3-5",
       "name": "コール",
-      "description": "<@lv.fs>制限：</>\n医療オペレーターと重装オペレーターの攻撃力が半減。",
+      "description": "<@lv.fs>制限：</>\n【医療】・【重装】の攻撃力-50%",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -10522,7 +10522,7 @@
       "zoneId": "main_3",
       "code": "3-6",
       "name": "決断",
-      "description": "遠距離攻撃を行う迷彩装備の敵が大量に出現。\n戦場の探知機を有効活用し対抗せよ。\n<@lv.item><探知機></>起動後一定時間周囲の敵のステルスを無効化する。",
+      "description": "遠距離攻撃を行う迷彩装備の敵が大量に出現。\n戦場の探知機を有効活用し対抗せよ。\n<@lv.item><探知機></>起動後一定時間周囲の敵のステルス状態を無効化する。",
       "hardStagedId": "main_03-06#f#",
       "dangerLevel": "昇進1 LV.25",
       "dangerPoint": -1,
@@ -10727,7 +10727,7 @@
       "zoneId": "main_3",
       "code": "3-7",
       "name": "とどろく",
-      "description": "複雑な地形の戦場だ。障害物で敵の進攻ルートを塞ぎ、狙い撃ちしやすい場所に誘導せよ。\n<@lv.item><探知機></>起動後一定時間周囲の敵のステルスを無効化する\n<@lv.item><障害物></>敵の進攻ルートを遮る。",
+      "description": "複雑な地形の戦場だ。障害物で敵の進攻ルートを塞ぎ、狙い撃ちしやすい場所に誘導せよ。\n<@lv.item><探知機></>起動後一定時間周囲の敵のステルス状態を無効化する\n<@lv.item><障害物></>敵の進攻ルートを遮る。",
       "hardStagedId": "main_03-07#f#",
       "dangerLevel": "昇進1 LV.25",
       "dangerPoint": -1,
@@ -10861,7 +10861,7 @@
       "zoneId": "main_3",
       "code": "3-7",
       "name": "とどろく",
-      "description": "<@lv.fs>制限：</>\n使用可能な障害物の数が2つ減少。",
+      "description": "<@lv.fs>制限：</>\n障害物の配置可能数-2",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -11094,7 +11094,7 @@
       "zoneId": "main_3",
       "code": "3-8",
       "name": "たそがれ",
-      "description": "<@lv.fs>制限：</>\n敵のHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -11316,7 +11316,7 @@
       "zoneId": "main_4",
       "code": "4-1",
       "name": "フリーハグ",
-      "description": "<@lv.fs>制限：</>\n敵の遠距離攻撃の射程が大幅に拡大。",
+      "description": "<@lv.fs>制限：</>\n全ての敵遠距離ユニットの攻撃範囲が大幅に拡大",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -11550,7 +11550,7 @@
       "zoneId": "main_4",
       "code": "4-2",
       "name": "雨の中を歩く",
-      "description": "<@lv.fs>制限：</>\n味方全員の防御力が半減。",
+      "description": "<@lv.fs>制限：</>\n全ての味方の防御力-50％",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -11761,7 +11761,7 @@
       "zoneId": "main_4",
       "code": "4-3",
       "name": "人工的冷却",
-      "description": "<@lv.fs>制限：</>\n敵の攻撃力が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の攻撃力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -11832,7 +11832,7 @@
       "zoneId": "main_4",
       "code": "4-4",
       "name": "恐れるなかれ",
-      "description": "四方向からの総攻撃だ！オペレーターを配置し防衛せよ。\n<@lv.item><障害物></>敵の進攻ルートを遮る\n<@lv.item><活性源石></>に配置した味方及び通過した敵は継続してダメージを受けるが攻撃力と攻撃スピードが大幅に上昇する。",
+      "description": "四方向からの総攻撃だ！オペレーターを配置し防衛せよ。\n<@lv.item><障害物></>敵の進攻ルートを遮る\n<@lv.item><活性源石></>に配置した味方及び通過した敵は継続してダメージを受けるが攻撃力と攻撃速度が大幅に上昇する。",
       "hardStagedId": "main_04-04#f#",
       "dangerLevel": "昇進1 LV.40",
       "dangerPoint": -1,
@@ -11983,7 +11983,7 @@
       "zoneId": "main_4",
       "code": "4-4",
       "name": "恐れるなかれ",
-      "description": "<@lv.fs>制限：</>\n敵の移動速度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の移動速度が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -12216,7 +12216,7 @@
       "zoneId": "main_4",
       "code": "4-5",
       "name": "官僚主義",
-      "description": "<@lv.fs>制限：</>\n近距離オペレーターのHPが半減。",
+      "description": "<@lv.fs>制限：</>\n全ての味方近距離ユニットの最大HP-50％",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -12438,7 +12438,7 @@
       "zoneId": "main_4",
       "code": "4-6",
       "name": "見聞少なく怪多し",
-      "description": "<@lv.fs>制限：</>\nオペレーター配置上限が3体減少。",
+      "description": "<@lv.fs>制限：</>\n同時配置可能数-3",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -12671,7 +12671,7 @@
       "zoneId": "main_4",
       "code": "4-7",
       "name": "それぞれの行動",
-      "description": "<@lv.fs>制限：</>\n源石生物死亡時の爆発の威力が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<バクダンムシ>死亡時の爆発の威力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -12904,7 +12904,7 @@
       "zoneId": "main_4",
       "code": "4-8",
       "name": "ストレス反応",
-      "description": "<@lv.fs>制限：</>\n全オペレーターの再配置までの時間が2倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての味方の再配置時間が2倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -13137,7 +13137,7 @@
       "zoneId": "main_4",
       "code": "4-9",
       "name": "骨の髄まで",
-      "description": "<@lv.fs>制限：</>\n敵の防御力が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の防御力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -13359,7 +13359,7 @@
       "zoneId": "main_4",
       "code": "4-10",
       "name": "風前の灯火",
-      "description": "<@lv.fs>制限：</>\nフロストノヴァの攻撃範囲とスキル範囲が大幅に拡大。",
+      "description": "<@lv.fs>制限：</>\n<FrostNova>の攻撃範囲とスキル効果範囲が大幅に拡大",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -13571,7 +13571,7 @@
       "zoneId": "main_3",
       "code": "S3-2",
       "name": "潜伏-2",
-      "description": "敵が一か所から進行してくる。後方で守りを固めるのが定石だろう。",
+      "description": "敵が進行してくる箇所は一箇所に見えるが、後方に布陣を敷くことを提案しておく。",
       "hardStagedId": null,
       "dangerLevel": "昇進1 LV.15",
       "dangerPoint": -1,
@@ -13695,7 +13695,7 @@
       "zoneId": "main_3",
       "code": "S3-3",
       "name": "偵察-1",
-      "description": "草むらと探知機をうまく利用することがこの作戦のカギになりそうだ。\n<@lv.item><草むら></>配置した味方は敵遠距離攻撃の対象にならない\n<@lv.item><探知機></>起動後一定時間周囲の敵のステルスを無効化する。",
+      "description": "草むらと探知機をうまく利用することがこの作戦のカギになりそうだ。\n<@lv.item><草むら></>配置した味方は敵遠距離攻撃の対象にならない\n<@lv.item><探知機></>起動後一定時間周囲の敵のステルス状態を無効化する。",
       "hardStagedId": null,
       "dangerLevel": "昇進1 LV.30",
       "dangerPoint": -1,
@@ -14079,7 +14079,7 @@
       "zoneId": "main_4",
       "code": "S4-1",
       "name": "結晶-1",
-      "description": "戦場中央の活性源石を活用し更なる成果を得よ。\n<@lv.item><活性源石></>に配置した味方及び通過した敵は継続してダメージを受けるが攻撃力と攻撃スピードが大幅に上昇する。",
+      "description": "戦場中央の活性源石を活用し更なる成果を得よ。\n<@lv.item><活性源石></>に配置した味方及び通過した敵は継続してダメージを受けるが攻撃力と攻撃速度が大幅に上昇する。",
       "hardStagedId": null,
       "dangerLevel": "昇進1 LV.35",
       "dangerPoint": -1,
@@ -18478,7 +18478,7 @@
       "zoneId": "camp_zone_3",
       "code": "ウルサス",
       "name": "チェルノボーグ",
-      "description": "チェルノボーグに巣食う大量のレユニオン構成員を殲滅せよ。当エリアに出現するレユニオン幹部にも警戒せよ。\n<@lv.rem><特殊条件></>所持コストが自然回復しない。 ",
+      "description": "チェルノボーグに巣食う大量のレユニオン構成員を殲滅せよ。当エリアに出現するレユニオン幹部にも警戒せよ。\n<@lv.rem><特殊条件></>所持コストが自然回復しない。",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -20118,7 +20118,7 @@
       "zoneId": "main_5",
       "code": "5-1",
       "name": "犬猿の仲",
-      "description": "<@lv.fs>制限：</>\n近距離オペレーターの攻撃力が半減。",
+      "description": "<@lv.fs>制限：</>\n全ての味方近距離ユニットの攻撃力-50％",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -20340,7 +20340,7 @@
       "zoneId": "main_5",
       "code": "5-2",
       "name": "言い淀む",
-      "description": "<@lv.fs>制限：</>\n敵の攻撃速度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の攻撃速度が大幅に上昇。",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -20503,7 +20503,7 @@
       "zoneId": "main_5",
       "code": "5-3",
       "name": "名も無き義人",
-      "description": "<@lv.fs>制限：</>\n敵の遠距離攻撃の射程が大幅に拡大。",
+      "description": "<@lv.fs>制限：</>\n全ての敵遠距離ユニットの攻撃範囲が大幅に拡大",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -20725,7 +20725,7 @@
       "zoneId": "main_5",
       "code": "5-4",
       "name": "空っぽの家",
-      "description": "<@lv.fs>制限：</>\n敵の移動速度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の移動速度が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -20947,7 +20947,7 @@
       "zoneId": "main_5",
       "code": "5-5",
       "name": "戦火は続く",
-      "description": "<@lv.fs>制限：</>\n全オペレーターの再配置までの時間が2倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての味方の再配置時間が2倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -21170,7 +21170,7 @@
       "zoneId": "main_5",
       "code": "5-6",
       "name": "疑兵の計",
-      "description": "<@lv.fs>制限：</>\n妨害装置のコストが2倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n妨害装置の配置コストが2倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -21333,7 +21333,7 @@
       "zoneId": "main_5",
       "code": "5-7",
       "name": "一蓮托生",
-      "description": "<@lv.fs>制限：</>\n狙撃オペレーターと術師オペレーター配置禁止。",
+      "description": "<@lv.fs>制限：</>\n【狙撃】・【術師】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -21566,7 +21566,7 @@
       "zoneId": "main_5",
       "code": "5-8",
       "name": "お見通し",
-      "description": "<@lv.fs>制限：</>\n敵の防御力が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の防御力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -21777,7 +21777,7 @@
       "zoneId": "main_5",
       "code": "5-9",
       "name": "業より出でし異形",
-      "description": "<@lv.fs>制限：</>\n敵のHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -21940,7 +21940,7 @@
       "zoneId": "main_5",
       "code": "5-10",
       "name": "長夜の黎明",
-      "description": "<@lv.fs>制限：</>\nメフィストのHPと防御力が超大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<Mephisto>の最大HPと防御力が超大幅に上昇。",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -29150,7 +29150,7 @@
       "zoneId": "main_6",
       "code": "6-1",
       "name": "膠着状態",
-      "description": "<@lv.fs>制限：</>\nオペレーター配置上限が2体減少。",
+      "description": "<@lv.fs>制限：</>\n同時配置可能数-2",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -29372,7 +29372,7 @@
       "zoneId": "main_6",
       "code": "6-2",
       "name": "いくつかの誤解",
-      "description": "<@lv.fs>制限：</>\n敵の攻撃速度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の攻撃速度が大幅に上昇。",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -29583,7 +29583,7 @@
       "zoneId": "main_6",
       "code": "6-3",
       "name": "二人の迷い子",
-      "description": "<@lv.fs>制限：</>\n狂化寄生兵の攻撃力が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<狂化寄生兵>の攻撃力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -29805,7 +29805,7 @@
       "zoneId": "main_6",
       "code": "6-4",
       "name": "化膿した傷跡",
-      "description": "<@lv.fs>制限：</>\n狂化寄生投擲兵のHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<狂化寄生投擲兵>の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -29968,7 +29968,7 @@
       "zoneId": "main_6",
       "code": "6-5",
       "name": "誰を殺る？",
-      "description": "<@lv.fs>制限：</>\n狂化寄生ユニットのHPが自然減少しなくなる。",
+      "description": "<@lv.fs>制限：</>\n狂化の敵のHPが自然減少しなくなる",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -30333,7 +30333,7 @@
       "zoneId": "main_6",
       "code": "6-8",
       "name": "上から跳ぶだけ！",
-      "description": "<@lv.fs>制限：</>\n敵の移動速度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の移動速度が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -30572,7 +30572,7 @@
       "zoneId": "main_6",
       "code": "6-9",
       "name": "別の角度から",
-      "description": "<@lv.fs>制限：</>\nスノーデビル及びスノーファングが【凍結】状態の味方に攻撃する際のダメージが更に上昇。",
+      "description": "<@lv.fs>制限：</>\n<スノーデビル>及び<スノーファング>が【凍結】状態の味方に攻撃する際のダメージが更に増加",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -30783,7 +30783,7 @@
       "zoneId": "main_6",
       "code": "6-10",
       "name": "ベルを外して",
-      "description": "<@lv.fs>制限：</>\nアイスピッカーのHPと攻撃速度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<アイスピッカー>の最大HPと攻撃速度が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -30946,7 +30946,7 @@
       "zoneId": "main_6",
       "code": "6-11",
       "name": "「こんな事」",
-      "description": "<@lv.fs>制限：</>\nオペレーター配置不可エリアが7箇所増加。",
+      "description": "<@lv.fs>制限：</>\nマップ上の7つのマスが配置不可に",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -31180,7 +31180,7 @@
       "zoneId": "main_6",
       "code": "6-12",
       "name": "氷原の雪",
-      "description": "<@lv.fs>制限：</>\n源石氷晶の発動頻度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n源石氷晶の発動頻度が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -31462,7 +31462,7 @@
       "zoneId": "main_6",
       "code": "6-14",
       "name": "氷原の霜",
-      "description": "<@lv.fs>制限：</>\nヒョウバクバチの移動速度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<ヒョウバクバチ>の移動速度が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -31684,7 +31684,7 @@
       "zoneId": "main_6",
       "code": "6-15",
       "name": "悪くない思い出",
-      "description": "<@lv.fs>制限：</>\nヒョウバクバチの射程が縮小するが、防御力とHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<ヒョウバクバチ>の攻撃範囲が縮小するが、防御力と最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -31847,7 +31847,7 @@
       "zoneId": "main_6",
       "code": "6-16",
       "name": "黒うさぎ、白うさぎ",
-      "description": "<@lv.fs>制限：</>\n医療オペレーター配置禁止。",
+      "description": "<@lv.fs>制限：</>\n【医療】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -38727,7 +38727,7 @@
       "zoneId": "act11d0_zone1",
       "code": "TW-TR-1",
       "name": "装置争奪",
-      "description": "兵士でなくとも、暴力の心得が必要になる。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "兵士でなくとも、暴力の心得が必要になる。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -38798,7 +38798,7 @@
       "zoneId": "act11d0_zone1",
       "code": "TW-3",
       "name": "高塔の花火",
-      "description": "ひとつひとつ明るみになる謀略が指し示すのは、更に大きな陰謀が既に実現したという事実だった。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "ひとつひとつ明るみになる謀略が指し示すのは、更に大きな陰謀が既に実現したという事実だった。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": null,
       "dangerLevel": "昇進1 LV.20",
       "dangerPoint": -1,
@@ -38913,7 +38913,7 @@
       "zoneId": "act11d0_zone1",
       "code": "TW-4",
       "name": "復讐の魂",
-      "description": "無秩序は時間の海と心の深層に眠る恨みを呼び起こす。その本質は過去より出でるものであり、日常では鳴りを潜めし思想である。それらが高らかに正義を叫ぶのだ。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "無秩序は時間の海と心の深層に眠る恨みを呼び起こす。その本質は過去より出でるものであり、日常では鳴りを潜めし思想である。それらが高らかに正義を叫ぶのだ。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": null,
       "dangerLevel": "昇進1 LV.30",
       "dangerPoint": -1,
@@ -39143,7 +39143,7 @@
       "zoneId": "act11d0_zone1",
       "code": "TW-6",
       "name": "蔓延する怒り",
-      "description": "そして今、憤ることに理由など必要なくなった。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "そして今、憤ることに理由など必要なくなった。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": null,
       "dangerLevel": "昇進1 LV.50",
       "dangerPoint": -1,
@@ -39247,7 +39247,7 @@
       "zoneId": "act11d0_zone1",
       "code": "TW-7",
       "name": "山脈の崩落",
-      "description": "岩石も泥土も、紛争の渦からは逃れられない。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "岩石も泥土も、紛争の渦からは逃れられない。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": null,
       "dangerLevel": "昇進1 LV.70",
       "dangerPoint": -1,
@@ -39351,7 +39351,7 @@
       "zoneId": "act11d0_zone1",
       "code": "TW-8",
       "name": "月光の零落",
-      "description": "結果が明白だろうと、歩みを止める者はいなかった。死をもって志を訴える決意こそが、信念のない憤怒を退けるのだ。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "結果が明白だろうと、歩みを止める者はいなかった。死をもって志を訴える決意こそが、信念のない憤怒を退けるのだ。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": null,
       "dangerLevel": "昇進2 LV.10",
       "dangerPoint": -1,
@@ -39526,7 +39526,7 @@
       "zoneId": "act11d0_zone1",
       "code": "TW-S-1",
       "name": "三体の巨像",
-      "description": "天災により潰えた命はごく一部だが、人々は自ら残された命までをも奪い尽くすだろう。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "天災により潰えた命はごく一部だが、人々は自ら残された命までをも奪い尽くすだろう。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": "act11d0_s01#f#",
       "dangerLevel": "昇進2 LV.10",
       "dangerPoint": -1,
@@ -39623,7 +39623,7 @@
       "zoneId": "act11d0_zone1",
       "code": "TW-S-1",
       "name": "三体の巨像",
-      "description": "<@lv.fs>制限：</>\n編成が固定される。",
+      "description": "<@lv.fs>制限：</>\n編成が固定される",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -39705,7 +39705,7 @@
       "zoneId": "act11d0_zone1",
       "code": "TW-S-2",
       "name": "一束の哀悼",
-      "description": "安息を得られるのは死者のみである。それはこの大地の法則なのだ。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "安息を得られるのは死者のみである。それはこの大地の法則なのだ。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": "act11d0_s02#f#",
       "dangerLevel": "昇進2 LV.20",
       "dangerPoint": -1,
@@ -39802,7 +39802,7 @@
       "zoneId": "act11d0_zone1",
       "code": "TW-S-2",
       "name": "一束の哀悼",
-      "description": "<@lv.fs>制限：</>\n編成が固定される。",
+      "description": "<@lv.fs>制限：</>\n編成が固定される",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -39884,7 +39884,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-1",
       "name": "外周警備",
-      "description": "リターニアにある庭園はどれも複雑な構造をしている。一見単純な戦場も甘く見てはいけない。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "リターニアにある庭園はどれも複雑な構造をしている。一見単純な戦場も甘く見てはいけない。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": "act11d0_ex01#f#",
       "dangerLevel": "昇進1 LV.40",
       "dangerPoint": -1,
@@ -39970,7 +39970,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-1",
       "name": "外周警備",
-      "description": "<@lv.fs>制限：</>\nオペレーター配置不可エリアが4箇所増加。",
+      "description": "<@lv.fs>制限：</>\nマップ上の4つのマスが配置不可に",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -40127,7 +40127,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-2",
       "name": "歩みを止める",
-      "description": "<@lv.fs>制限：</>\n敵の移動速度が上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の移動速度が上昇。",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -40284,7 +40284,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-3",
       "name": "街の僻地",
-      "description": "<@lv.fs>制限：</>\n味方全員のブロック数が1減少。",
+      "description": "<@lv.fs>制限：</>\n全ての味方のブロック数-1",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -40355,7 +40355,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-4",
       "name": "メロディー戦線",
-      "description": "L-44「蓄音機」システムは、本来野獣や賊徒から街を守るためのものであるが、そんな手柄を立てる前に、その所有者によって罪悪に加担させられているのだ。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "L-44「蓄音機」システムは、本来野獣や賊徒から街を守るためのものであるが、そんな手柄を立てる前に、その所有者によって罪悪に加担させられているのだ。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": "act11d0_ex04#f#",
       "dangerLevel": "昇進1 LV.70",
       "dangerPoint": -1,
@@ -40441,7 +40441,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-4",
       "name": "メロディー戦線",
-      "description": "<@lv.fs>編成：</>\n味方全員の攻撃力が大幅に低下。",
+      "description": "<@lv.fs>編成：</>\n全ての味方の攻撃力が大幅に低下",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -40512,7 +40512,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-5",
       "name": "集中防御",
-      "description": "一箇所にまとめて配置されたアーツ発生装置は街の一角を堅守する最強の防衛設備であるが、ひとたび悪用されてしまえば、辺りは一瞬で火の海に変わるだろう。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "一箇所にまとめて配置されたアーツ発生装置は街の一角を堅守する最強の防衛設備であるが、ひとたび悪用されてしまえば、辺りは一瞬で火の海に変わるだろう。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": "act11d0_ex05#f#",
       "dangerLevel": "昇進2 LV.10",
       "dangerPoint": -1,
@@ -40598,7 +40598,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-5",
       "name": "集中防御",
-      "description": "<@lv.fs>制限：</>\nリターニア上級術師の攻撃範囲と「蓄音機」奪取効果が大幅に上昇",
+      "description": "<@lv.fs>制限：</>\n<リターニア上級術師>の攻撃範囲と「蓄音機」奪取効果が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -40669,7 +40669,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-6",
       "name": "広場の戦い",
-      "description": "マイバウム噴水広場の名前は、とある辺境生まれ名門育ちの大音楽家を記念したものだ。その音楽家は、終生貴族に頭を垂れることはなかったという。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "マイバウム噴水広場の名前は、とある辺境生まれ名門育ちの大音楽家を記念したものだ。その音楽家は、終生貴族に頭を垂れることはなかったという。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": "act11d0_ex06#f#",
       "dangerLevel": "昇進2 LV.20",
       "dangerPoint": -1,
@@ -40826,7 +40826,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-7",
       "name": "各個撃破",
-      "description": "マドロックといえど、同時に複数の創造物に命令を下すことは難しい。判断能力を持たない創造物の進む道を塞いでやれば、マドロックに対処することはできないだろう。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "マドロックといえど、同時に複数の創造物に命令を下すことは難しい。判断能力を持たない創造物の進む道を塞いでやれば、マドロックに対処することはできないだろう。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": "act11d0_ex07#f#",
       "dangerLevel": "昇進2 LV.25",
       "dangerPoint": -1,
@@ -40912,7 +40912,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-7",
       "name": "各個撃破",
-      "description": "<@lv.fs>制限：</>\n味方全員の防御力が大幅に低下。",
+      "description": "<@lv.fs>制限：</>\n全ての味方の防御力が大幅に低下",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -40983,7 +40983,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-8",
       "name": "遠方より響く足音",
-      "description": "マドロックはウォルモンドに正式に足を踏み入れた際、道に迷ったことがあるという。しかしむしろそれを楽しみ、わざわざ遠回りをして進んだらしい。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "マドロックはウォルモンドに正式に足を踏み入れた際、道に迷ったことがあるという。しかしむしろそれを楽しみ、わざわざ遠回りをして進んだらしい。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": "act11d0_ex08#f#",
       "dangerLevel": "昇進2 LV.30",
       "dangerPoint": -1,
@@ -41069,7 +41069,7 @@
       "zoneId": "act11d0_zone2",
       "code": "TW-EX-8",
       "name": "遠方より響く足音",
-      "description": "<@lv.fs>制限：</>\n編成可能なオペレーター数上限が10名に減少。",
+      "description": "<@lv.fs>制限：</>\n編成可能数が最大10人に減少",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -41140,7 +41140,7 @@
       "zoneId": "act11d0_zone3",
       "code": "TW-MO-1",
       "name": "ウォルモンド",
-      "description": "寂れた街の荒れ果てた入り口。昇らない太陽の目を盗み、冬はもうそこまで迫っていた。\n<@lv.item><\"蓄音機\"></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
+      "description": "寂れた街の荒れ果てた入り口。昇らない太陽の目を盗み、冬はもうそこまで迫っていた。\n<@lv.item><「蓄音機」></>制御権を奪取した陣営の兵器となり、周囲の敵に術ダメージを与え、味方の体力を回復する。",
       "hardStagedId": null,
       "dangerLevel": "昇進2 LV.30",
       "dangerPoint": -1,
@@ -43437,7 +43437,7 @@
       "zoneId": "main_7",
       "code": "7-2",
       "name": "別れの夜",
-      "description": "<@lv.fs>制限：</>\n寄生凶悪流れ者と寄生隊長のHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<寄生凶悪流れ者>と<寄生隊長>の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -43605,7 +43605,7 @@
       "zoneId": "main_7",
       "code": "7-3",
       "name": "変節の刃",
-      "description": "<@lv.fs>制限：</>\n味方ユニットの防御力が半減",
+      "description": "<@lv.fs>制限：</>\n全ての味方の防御力-50％",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -43828,7 +43828,7 @@
       "zoneId": "main_7",
       "code": "7-4",
       "name": "共闘の誓い-1",
-      "description": "<@lv.fs>制限：</>\n全敵ユニットの移動速度が上昇",
+      "description": "<@lv.fs>制限：</>\n全ての敵の移動速度が上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -44050,7 +44050,7 @@
       "zoneId": "main_7",
       "code": "7-5",
       "name": "共闘の誓い-2",
-      "description": "<@lv.fs>制限：</>\n遠距離オペレーターの配置コストが2倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての味方遠距離ユニットの配置コストが2倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -44284,7 +44284,7 @@
       "zoneId": "main_7",
       "code": "7-6",
       "name": "忘却の地",
-      "description": "<@lv.fs>制限：</>\n全ての敵ユニットのHPが上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の最大HPが上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -44589,7 +44589,7 @@
       "zoneId": "main_7",
       "code": "7-8",
       "name": "沈黙者の憤怒-1",
-      "description": "<@lv.fs>制限：</>\n味方ユニットのブロック数-1",
+      "description": "<@lv.fs>制限：</>\n全ての味方のブロック数-1",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -44811,7 +44811,7 @@
       "zoneId": "main_7",
       "code": "7-9",
       "name": "沈黙者の憤怒-2",
-      "description": "<@lv.fs>制限：</>\n遊撃隊伝令兵のHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<遊撃隊伝令兵>の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -45022,7 +45022,7 @@
       "zoneId": "main_7",
       "code": "7-10",
       "name": "暗がりの火",
-      "description": "<@lv.fs>制限：</>\nサルカズ傭兵の攻撃速度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<サルカズ傭兵>の攻撃速度が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -45190,7 +45190,7 @@
       "zoneId": "main_7",
       "code": "7-11",
       "name": "蔓延-1",
-      "description": "<@lv.fs>制限：</>\n敵ユニットの移動速度-60%、HPと攻撃力が大幅に上昇",
+      "description": "<@lv.fs>制限：</>\n全ての敵の移動速度-60%、最大HPと攻撃力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -45353,7 +45353,7 @@
       "zoneId": "main_7",
       "code": "7-12",
       "name": "蔓延-2",
-      "description": "<@lv.fs>制限：</>\n敵ユニットの防御力が大幅に上昇",
+      "description": "<@lv.fs>制限：</>\n全ての敵の防御力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -45564,7 +45564,7 @@
       "zoneId": "main_7",
       "code": "7-13",
       "name": "感染者の盾-1",
-      "description": "<@lv.fs>制限：</>\n狙撃、前衛オペレーター配置禁止",
+      "description": "<@lv.fs>制限：</>\n【狙撃】・【前衛】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -45775,7 +45775,7 @@
       "zoneId": "main_7",
       "code": "7-14",
       "name": "遊撃-1",
-      "description": "<@lv.fs>制限：</>\n敵ユニットの攻撃力が大幅に上昇",
+      "description": "<@lv.fs>制限：</>\n全ての敵の攻撃力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -45998,7 +45998,7 @@
       "zoneId": "main_7",
       "code": "7-15",
       "name": "遊撃-2",
-      "description": "<@lv.fs>制限：</>\n遊撃隊盾兵のHPが1/3になるが、防御力と術耐性が1.5倍に上昇",
+      "description": "<@lv.fs>制限：</>\n<遊撃隊盾兵>の最大HPが1/3になるが、防御力と術耐性+50％",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -46161,7 +46161,7 @@
       "zoneId": "main_7",
       "code": "7-16",
       "name": "無比",
-      "description": "<@lv.fs>制限：</>\nオペレーター編成可能数が7名に減少",
+      "description": "<@lv.fs>制限：</>\n編成可能数が最大7人に減少",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -46395,7 +46395,7 @@
       "zoneId": "main_7",
       "code": "7-17",
       "name": "感染者の盾-2",
-      "description": "<@lv.fs>制限：</>\n前衛、術師オペレーター配置禁止",
+      "description": "<@lv.fs>制限：</>\n【前衛】・【術師】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -46569,7 +46569,7 @@
       "zoneId": "main_7",
       "code": "7-18",
       "name": "愛国者の死",
-      "description": "<@lv.fs>制限：</>\nオペレーター配置不可エリアが6箇所増加。",
+      "description": "<@lv.fs>制限：</>\nマップ上の6つのマスが配置不可に",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -48667,7 +48667,7 @@
       "zoneId": "act12d0_zone2",
       "code": "RI-EX-1",
       "name": "東に声して西を撃つ",
-      "description": "<@lv.fs>制限：</>\nティアカウ猛攻兵が<ステルス>能力を獲得",
+      "description": "<@lv.fs>制限：</>\n<ティアカウ猛攻兵>がステルス状態になる",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -48824,7 +48824,7 @@
       "zoneId": "act12d0_zone2",
       "code": "RI-EX-2",
       "name": "徘徊",
-      "description": "<@lv.fs>制限：</>\nティアカウ投槍名人の攻撃速度が低下するが、攻撃力が大幅に上昇",
+      "description": "<@lv.fs>制限：</>\n<ティアカウ投槍名人>の攻撃速度が低下するが、攻撃力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -48981,7 +48981,7 @@
       "zoneId": "act12d0_zone2",
       "code": "RI-EX-3",
       "name": "ひしめくおばけ茸",
-      "description": "<@lv.fs>制限：</>\n味方ユニットの最大HPが大幅に減少",
+      "description": "<@lv.fs>制限：</>\n全ての味方の最大HPが大幅に減少",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -49138,7 +49138,7 @@
       "zoneId": "act12d0_zone2",
       "code": "RI-EX-4",
       "name": "板挟み",
-      "description": "<@lv.fs>制限：</>\n敵ユニットの術耐性が上昇",
+      "description": "<@lv.fs>制限：</>\n全ての敵の術耐性が上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -49295,7 +49295,7 @@
       "zoneId": "act12d0_zone2",
       "code": "RI-EX-5",
       "name": "木陰のトラップ",
-      "description": "<@lv.fs>制限：</>\n配置可能なオペレーターが2名減少",
+      "description": "<@lv.fs>制限：</>\n同時配置可能数-2",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -49452,7 +49452,7 @@
       "zoneId": "act12d0_zone2",
       "code": "RI-EX-6",
       "name": "激流",
-      "description": "<@lv.fs>制限：</>\n配置可能な<伐採作業員>が6名減少し、敵の特殊能力が無効化しない",
+      "description": "<@lv.fs>制限：</>\n伐採作業員の配置可能数-6、敵の特殊能力が無効化しない",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -49609,7 +49609,7 @@
       "zoneId": "act12d0_zone2",
       "code": "RI-EX-7",
       "name": "ぬかるみ",
-      "description": "<@lv.fs>制限：</>\n重装オペレーター配置禁止",
+      "description": "<@lv.fs>制限：</>\n【重装】使用禁止",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -49766,7 +49766,7 @@
       "zoneId": "act12d0_zone2",
       "code": "RI-EX-8",
       "name": "鰐突猛進",
-      "description": "<@lv.fs>制限：</>\nオペレーター配置不可エリアが7箇所増加し、敵の特殊能力が無効化しない",
+      "description": "<@lv.fs>制限：</>\nマップ上の6つのマスが配置不可に、敵の特殊能力が無効化しない",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -54345,7 +54345,7 @@
       "zoneId": "main_8",
       "code": "R8-1",
       "name": "殻破りし「昨日」",
-      "description": "<@lv.fs>制限：</>\nオペレーター配置不可エリアが3箇所増加。",
+      "description": "<@lv.fs>制限：</>\nマップ上の3つのマスが配置不可に",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -54721,7 +54721,7 @@
       "zoneId": "main_8",
       "code": "R8-2",
       "name": "無辜の血肉",
-      "description": "<@lv.fs>制限：</>\n味方ユニットのブロック数-1",
+      "description": "<@lv.fs>制限：</>\n全ての味方のブロック数-1",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -54943,7 +54943,7 @@
       "zoneId": "main_8",
       "code": "R8-3",
       "name": "燃え易き「麦藁」",
-      "description": "<@lv.fs>制限：</>\n遠距離オペレーターの配置コストが2倍に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての味方遠距離ユニットの配置コストが2倍",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -55182,7 +55182,7 @@
       "zoneId": "main_8",
       "code": "R8-4",
       "name": "一触即滅の「火種」",
-      "description": "<@lv.fs>制限：</>\n敵ユニットの攻撃速度が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n全ての敵の攻撃速度が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -55324,7 +55324,7 @@
       "zoneId": "main_8",
       "code": "R8-5",
       "name": "心を凍らす「寒気」",
-      "description": "たとえ文字記録にある西北凍原の最低気温でも、一部の者が繰り出すことばの、骨髄ににじむほどの冷徹さに及ばないだろう。\n<@lv.item><闘士タルラ></>敵に倒された時、耐久値が減少\n<@lv.item><フロストノヴァの源石氷晶></>周期的に衝撃波を放出、周囲の 敵全員を【寒冷】状態にする",
+      "description": "たとえ文字記録にある西北凍原の最低気温でも、一部の者が繰り出すことばの、骨髄ににじむほどの冷徹さに及ばないだろう。\n<@lv.item><闘士タルラ></>敵に倒された時、耐久値が減少\n<@lv.item><フロストノヴァの源石氷晶></>周期的に衝撃波を放出し、周囲の敵全員に【寒冷】状態を付与する",
       "hardStagedId": "main_08-05#f#",
       "dangerLevel": "昇進2 LV.15",
       "dangerPoint": -1,
@@ -55421,7 +55421,7 @@
       "zoneId": "main_8",
       "code": "R8-5",
       "name": "心を凍らす「寒気」",
-      "description": "<@lv.fs>制限：</>\nウルサスコマンドーの攻撃力と防御力が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<ウルサスコマンドー>の攻撃力と防御力が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -55703,7 +55703,7 @@
       "zoneId": "main_8",
       "code": "R8-6",
       "name": "収まらぬ「戦火」",
-      "description": "<@lv.fs>制限：</>\nウルサス重装術師の攻撃範囲が大幅に拡大。",
+      "description": "<@lv.fs>制限：</>\n<ウルサス重装術師>の攻撃範囲が大幅に拡大",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -56008,7 +56008,7 @@
       "zoneId": "main_8",
       "code": "R8-7",
       "name": "牽引の砲火",
-      "description": "<@lv.fs>制限：</>\n帝国砲撃誘導機のHPが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<帝国砲撃誘導機>の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -56171,7 +56171,7 @@
       "zoneId": "main_8",
       "code": "R8-8",
       "name": "無情に傾く「人心」",
-      "description": "<@lv.fs>制限：</>\n味方ユニットの攻撃力が大幅に低下。",
+      "description": "<@lv.fs>制限：</>\n全ての味方の攻撃力が大幅に低下  ",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -56339,7 +56339,7 @@
       "zoneId": "main_8",
       "code": "M8-6",
       "name": "再会の為の「離別」",
-      "description": "<@lv.fs>制限：</>\n狂化寄生兵、狂化寄生隊長、狂化寄生投骨兵の攻撃速度が上昇。",
+      "description": "<@lv.fs>制限：</>\n<狂化寄生兵>・<狂化寄生隊長>・<狂化寄生投骨兵>の攻撃速度が上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -56550,7 +56550,7 @@
       "zoneId": "main_8",
       "code": "R8-9",
       "name": "別れが待つ「邂逅」",
-      "description": "<@lv.fs>制限：</>\n障害物のHPが大幅に上昇。",
+      "description": "<@lv.fs>特殊条件：</>\n障害物の最大HPが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -56772,7 +56772,7 @@
       "zoneId": "main_8",
       "code": "R8-10",
       "name": "沈黙の殺戮者",
-      "description": "<@lv.fs>制限：</>\nオペレーター配置上限が3体減少。",
+      "description": "<@lv.fs>制限：</>\n同時配置可能数-3",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -56935,7 +56935,7 @@
       "zoneId": "main_8",
       "code": "M8-7",
       "name": "因果応報の「悪態」",
-      "description": "<@lv.fs>制限：</>\nサルカズ寄生ケントゥリオの回復効果が大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<サルカズ寄生ケントゥリオ>の回復効果が大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -57006,7 +57006,7 @@
       "zoneId": "main_8",
       "code": "R8-11",
       "name": "国土覆う「黒雪」",
-      "description": "未だに彼らに「敵」と称されるに値する者はいない。死にゆく者と無能の輩は最初から排除されている。\n<@lv.item><障害物></>敵の進攻ルートを遮る。\n<@lv.item><ウルサス民間人></>敵に倒された時、耐久値が減少耐久値が減少",
+      "description": "未だに彼らに「敵」と称されるに値する者はいない。死にゆく者と無能の輩は最初から排除されている。\n<@lv.item><道路障害物></>ウルサス民間人と闘士タルラの前進を阻害する。味方の攻撃によって破壊できる。\n<@lv.item><ウルサス民間人></>敵に倒された時、耐久値が減少",
       "hardStagedId": "main_08-13#f#",
       "dangerLevel": "昇進2 LV.25",
       "dangerPoint": -1,
@@ -57157,7 +57157,7 @@
       "zoneId": "main_8",
       "code": "R8-11",
       "name": "国土覆う「黒雪」",
-      "description": "<@lv.fs>制限：</>\n帝国精鋭先鋒と帝国歴戦精鋭の攻撃力とHPが上昇。",
+      "description": "<@lv.fs>制限：</>\n<帝国精鋭先鋒>と<帝国歴戦精鋭>の攻撃力と最大HPが上昇。 ",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -57368,7 +57368,7 @@
       "zoneId": "main_8",
       "code": "M8-8",
       "name": "夢からの「覚醒」",
-      "description": "<@lv.fs>制限：</>\nメフィスト・歌う者の毒性粉塵によるダメージが大幅に上昇。",
+      "description": "<@lv.fs>制限：</>\n<Mephisto・歌う者>の毒性粉塵によるダメージが大幅に上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -57672,7 +57672,7 @@
       "zoneId": "main_8",
       "code": "JT8-2",
       "name": "瞠目の先に「黄昏」",
-      "description": "<@lv.fs>制限：</>\nタルラが即時狂化状態となる。",
+      "description": "<@lv.fs>制限：</>\n<Talulah>が即時狂化状態となる",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -57895,7 +57895,7 @@
       "zoneId": "main_8",
       "code": "JT8-3",
       "name": "烈炎の中で「邁進」",
-      "description": "<@lv.fs>制限：</>\nエネルギー聚合体によるの術ダメージが上昇。",
+      "description": "<@lv.fs>制限：</>\n<エネルギー聚合体>によるの術ダメージが上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -58715,7 +58715,7 @@
       "zoneId": "main_8",
       "code": "H8-1",
       "name": "狂夜作戦-1",
-      "description": "「生命」それは貴く、脆いもの。\n<@lv.item><障害物></>敵の進攻ルートを遮る。\n<@lv.item><ウルサス民間人></>敵に倒された時、耐久値が減少",
+      "description": "「生命」それは貴く、脆いもの。\n<@lv.item><道路障害物></>ウルサス民間人と闘士タルラの前進を阻害する。味方の攻撃によって破壊できる。\n<@lv.item><ウルサス民間人></>敵に倒された時、耐久値が減少",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -60298,7 +60298,7 @@
       "zoneId": "act15d0_zone2",
       "code": "MB-EX-1",
       "name": "大混戦",
-      "description": "<@lv.fs>制限：</>\n禁固装置の向き変更。",
+      "description": "<@lv.fs>制限：</>\n禁固装置の向き変更",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -60455,7 +60455,7 @@
       "zoneId": "act15d0_zone2",
       "code": "MB-EX-2",
       "name": "三面楚歌",
-      "description": "<@lv.fs>制限：</>\n<重罪射手囚人>が「ステルス」効果を得る。",
+      "description": "<@lv.fs>制限：</>\n<重罪射手囚人>がステルス状態になる",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -60612,7 +60612,7 @@
       "zoneId": "act15d0_zone2",
       "code": "MB-EX-3",
       "name": "工事の抜け穴",
-      "description": "<@lv.fs>制限：</>\n禁固装置の数が減少する。",
+      "description": "<@lv.fs>制限：</>\n禁固装置の数が減少",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -60683,7 +60683,7 @@
       "zoneId": "act15d0_zone2",
       "code": "MB-EX-4",
       "name": "監獄の廊下",
-      "description": "廊下は戦場として囚人から人気が高いとはとても言い難い。あまりにも狭すぎる体。だが、彼らには選択の余地があまりないことも明らかである。\n<@lv.item><禁固装置></>作動範囲内にいる解放された敵を禁固する。",
+      "description": "廊下は戦場として囚人から人気が高いとはとても言い難い。あまりにも狭すぎるからだ。だが、彼らには選択の余地があまりないことも明らかである。\n<@lv.item><禁固装置></>作動範囲内にいる解放された敵を禁固する。",
       "hardStagedId": "act15d0_ex04#f#",
       "dangerLevel": "昇進1 LV.70",
       "dangerPoint": -1,
@@ -60769,7 +60769,7 @@
       "zoneId": "act15d0_zone2",
       "code": "MB-EX-4",
       "name": "監獄の廊下",
-      "description": "<@lv.fs>制限：</>\n<巨漢囚人>の攻撃速度が上昇する。",
+      "description": "<@lv.fs>制限：</>\n<巨漢囚人>の攻撃速度が上昇",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -60926,7 +60926,7 @@
       "zoneId": "act15d0_zone2",
       "code": "MB-EX-5",
       "name": "挟み撃ち",
-      "description": "<@lv.fs>制限：</>\nマップ上の4つのマスが配置不可に。",
+      "description": "<@lv.fs>制限：</>\nマップ上の4つのマスが配置不可に",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -61083,7 +61083,7 @@
       "zoneId": "act15d0_zone2",
       "code": "MB-EX-6",
       "name": "工場",
-      "description": "<@lv.fs>制限：</>\n味方ユニットの最大HPが大幅に減少。",
+      "description": "<@lv.fs>制限：</>\n全ての味方の最大HPが大幅に減少",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -61240,7 +61240,7 @@
       "zoneId": "act15d0_zone2",
       "code": "MB-EX-7",
       "name": "工事中",
-      "description": "<@lv.fs>制限：</>\n味方全員の防御力が大幅に低下。",
+      "description": "<@lv.fs>制限：</>\n全ての味方の防御力が大幅に低下",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -61397,7 +61397,7 @@
       "zoneId": "act15d0_zone2",
       "code": "MB-EX-8",
       "name": "早い者勝ち",
-      "description": "<@lv.fs>制限：</>\n追加の敵が出現。",
+      "description": "<@lv.fs>制限：</>\n追加の敵が出現",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -68694,7 +68694,7 @@
       "zoneId": "camp_zone_3",
       "code": "ウルサス",
       "name": "廃棄鉱区",
-      "description": "ウルサスの辺地にある坑道。感染者監視隊はここで感染者を捜索している。鉱区の複雑な地形を活用して、感染者の避難の時間稼ぎを行うのだ。\n<@lv.rem><特殊条件></>所持コストが自然回復しない。ウルサス民間人の救助失敗で殲滅数-1",
+      "description": "ウルサスの辺地にある坑道。感染者監視隊はここで感染者を捜索している。鉱区の複雑な地形を活用して、感染者の撤退の時間稼ぎを行うのだ。\n<@lv.rem><特殊条件></>所持コストが自然回復しない。ウルサス民間人の救助失敗で殲滅数-1",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1,
@@ -68736,6 +68736,2472 @@
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": null
+    },
+    "act18d0_01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "main_01-10",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_01",
+      "levelId": "Activities/act18d0/level_act18d0_01",
+      "zoneId": "act18d0_zone1",
+      "code": "WD-1",
+      "name": "包囲されたレッドホーン",
+      "description": "平凡そのものであるはずだったサルゴンのこの町は、あるクルビア部隊の到来により混乱に陥ることとなった。",
+      "hardStagedId": null,
+      "dangerLevel": "LV.20",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 11,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 11,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "FURN",
+            "id": "furni_icu_blackboard_01",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "FURN",
+            "id": "furni_icu_blackboard_01",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 2
+          },
+          {
+            "occPercent": 1,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_tr01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_tr01",
+      "levelId": "Activities/act18d0/level_act18d0_tr01",
+      "zoneId": "act18d0_zone1",
+      "code": "WD-TR-1",
+      "name": "空中支援対応訓練",
+      "description": "ごく一部の資金が充実した傭兵が用いる全く新しい戦略である。普段にも増して要注意。\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 3,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_tr01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_02",
+      "levelId": "Activities/act18d0/level_act18d0_02",
+      "zoneId": "act18d0_zone1",
+      "code": "WD-2",
+      "name": "オアシスの霹靂",
+      "description": "ケルシーは生存者と共に徒歩で広いオアシスにたどり着いた。多くの動物が水を求めてここに訪れる。当然、水を必要としない敵偵察ドローンもついてくる。\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": null,
+      "dangerLevel": "LV.40",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 11,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 11,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "FURN",
+            "id": "furni_icu_sampleStorage_01",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "FURN",
+            "id": "furni_icu_sampleStorage_01",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 2
+          },
+          {
+            "occPercent": 1,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_03",
+      "levelId": "Activities/act18d0/level_act18d0_03",
+      "zoneId": "act18d0_zone1",
+      "code": "WD-3",
+      "name": "サボテンの丘",
+      "description": "エリオットは心の中で数えてみた。この丘に生えているサボテンの数は315本だった。\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": null,
+      "dangerLevel": "昇進1 LV.20",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 11,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 11,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "occPercent": 1,
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_04",
+      "levelId": "Activities/act18d0/level_act18d0_04",
+      "zoneId": "act18d0_zone1",
+      "code": "WD-4",
+      "name": "鳴砂阻止戦",
+      "description": "砂が鳴る。ケルシーが言ったとおり、追っ手は予測した時刻にやってきた。飛んで火に入る虫のように。",
+      "hardStagedId": null,
+      "dangerLevel": "昇進1 LV.30",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 11,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 11,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "occPercent": 1,
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 2
+          },
+          {
+            "occPercent": 1,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_st01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_04",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_st01",
+      "levelId": null,
+      "zoneId": "act18d0_zone1",
+      "code": "WD-ST-1",
+      "name": "パインリリー",
+      "description": "花の数輪が咲くか枯れるかを気にする土などどこにもない――大地は何も気に止めない。大地は全てを受け入れる。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_iceforest_2",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_st01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_05",
+      "levelId": "Activities/act18d0/level_act18d0_05",
+      "zoneId": "act18d0_zone1",
+      "code": "WD-5",
+      "name": "沁礁の地",
+      "description": "「礁石に囲まれた地」「礁石を抱く処」。だがどれだけ見渡しても、エリオットはその名の由来を見つけることができなかった。ここの者たちは幻覚の中にでも生きているのだろうか？\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": null,
+      "dangerLevel": "昇進1 LV.40",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 11,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 11,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_05",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_06",
+      "levelId": "Activities/act18d0/level_act18d0_06",
+      "zoneId": "act18d0_zone1",
+      "code": "WD-6",
+      "name": "パーディシャーの夢",
+      "description": "都市は人々の希望を載せた。オアシスがそこに現れた。清らかな水流と堅実な山脈がパーディシャーのそば近くに侍り、人々の騒がしい声が響く。炊事の煙が立ち上がる。夢はもうじき醒める。\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": null,
+      "dangerLevel": "昇進1 LV.50",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30033",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30033",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_06",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_07",
+      "levelId": "Activities/act18d0/level_act18d0_07",
+      "zoneId": "act18d0_zone1",
+      "code": "WD-7",
+      "name": "故郷",
+      "description": "貧しい者や帰る場所のない者は失踪した富豪の遺産に身を委ねる。傭兵や殺し屋は月明かりの下に虎視眈々と狙いを定め、月が沈むまで戦いに耽る。年老いたイシンは満天の星を見上げた。骨に沁みる冷たい夜明けの風の中で、彼はいまだあのどうしようもなくひどい家を忘れがたく恋しく思っていた。\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": null,
+      "dangerLevel": "昇進1 LV.70",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 18,
+      "apFailReturn": 17,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 180,
+      "goldGain": 180,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 17,
+      "completeFavor": 18,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30053",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30053",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_08",
+      "levelId": "Activities/act18d0/level_act18d0_08",
+      "zoneId": "act18d0_zone1",
+      "code": "WD-8",
+      "name": "大雪来たれり",
+      "description": "漆黒の氷凌は影の如く。",
+      "hardStagedId": null,
+      "dangerLevel": "昇進2 LV.10",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_victoria",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 18,
+      "apFailReturn": 17,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 180,
+      "goldGain": 180,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 17,
+      "completeFavor": 18,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30103",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30103",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_st02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_08",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_st02",
+      "levelId": null,
+      "zoneId": "act18d0_zone1",
+      "code": "WD-ST-2",
+      "name": "異郷より来る者",
+      "description": "年若い頃に経たあの旅について、今ほど多くを感じたことは一度もなかった。今日に至って、ふと思ってしまった。あれほど砂漠を憎んでいたのに、自身が向かうべきなのはどこだったのだろう。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loadingS",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_01"
+    },
+    "act18d0_ex01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_st02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_ex01",
+      "levelId": "Activities/act18d0/level_act18d0_ex01",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-1",
+      "name": "群獣戦術",
+      "description": "「猟犬」という種がどのようにして現れたのかは誰も知らない。だが、それを最初に軍事に用いたのはボリバル人で間違いないと言えよう。よく訓練された猟犬は、作戦に置いて最も強力な支援となりうる。\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": "act18d0_ex01#f#",
+      "dangerLevel": "昇進1 LV.40",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act18d0_ex01",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act18d0_ex01#f#",
+      "levelId": "Activities/act18d0/level_act18d0_ex01",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-1",
+      "name": "群獣戦術",
+      "description": "<@lv.fs>制限：</>\n可動式戦術格納庫の位置が変更",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 5,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 5,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_ex01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_ex02",
+      "levelId": "Activities/act18d0/level_act18d0_ex02",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-2",
+      "name": "両面戦線",
+      "description": "よく訓練された傭兵は両面作戦を要領よく行える。また複雑な地形でも包囲戦を順調に――まて、第三小隊はいつの間に参戦したんだ？誰が動かしていいと言った！？\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": "act18d0_ex02#f#",
+      "dangerLevel": "昇進1 LV.50",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act18d0_ex02",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act18d0_ex02#f#",
+      "levelId": "Activities/act18d0/level_act18d0_ex02",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-2",
+      "name": "両面戦線",
+      "description": "<@lv.fs>制限：</>\n<鉄砧タイプB>の最大HPが大幅に上昇",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 5,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 5,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_ex02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_ex03",
+      "levelId": "Activities/act18d0/level_act18d0_ex03",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-3",
+      "name": "遠距離攻撃",
+      "description": "まず遠距離打撃を用いて標的を砲撃で叩き、次に地面部隊で掃討と包囲討伐を行う。それがよく訓練された強襲戦の――まて、止まれ！なんでもう猟犬を放っちまってるんだ！？射撃手を止めろ！",
+      "hardStagedId": "act18d0_ex03#f#",
+      "dangerLevel": "昇進1 LV.70",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act18d0_ex03",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act18d0_ex03#f#",
+      "levelId": "Activities/act18d0/level_act18d0_ex03",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-3",
+      "name": "遠距離攻撃",
+      "description": "<@lv.fs>制限：</>\n追加の敵が出現",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_ex03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_ex04",
+      "levelId": "Activities/act18d0/level_act18d0_ex04",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-4",
+      "name": "強行突入",
+      "description": "一般的には、よく訓練された傭兵は急襲であっても手筈通りの行動を――待てお前たち、猟犬はどうした？なぜ射撃手が先行している？重装兵はどこいった？なんで隊の先頭に1人しかいないんだ！？\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": "act18d0_ex04#f#",
+      "dangerLevel": "昇進1 LV.70",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act18d0_ex04",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act18d0_ex04#f#",
+      "levelId": "Activities/act18d0/level_act18d0_ex04",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-4",
+      "name": "強行突入",
+      "description": "<@lv.fs>制限：</>\n<破片>・<破片タイプU>・<鉄砧>・<鉄砧タイプB>の航続時間が大幅に延長",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_ex04",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_ex05",
+      "levelId": "Activities/act18d0/level_act18d0_ex05",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-5",
+      "name": "十字砲火支援",
+      "description": "戦場は地形が複雑だ。十字砲火に晒された戦況ならば、よく訓練された……あの……隣にいる敵が見えないのか？一番遠い標的を狙わずにはいられないのか？\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": "act18d0_ex05#f#",
+      "dangerLevel": "昇進2 LV.10",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex05#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act18d0_ex05",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act18d0_ex05#f#",
+      "levelId": "Activities/act18d0/level_act18d0_ex05",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-5",
+      "name": "十字砲火支援",
+      "description": "<@lv.fs>制限：</>\n同時配置可能数-1",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_ex05",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_ex06",
+      "levelId": "Activities/act18d0/level_act18d0_ex06",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-6",
+      "name": "小隊長",
+      "description": "傭兵の行動も「階級」に従わなければならない。各小隊の隊長と戦場指揮官は通常最もよく訓練された……ああそうだ、本当に一番訓練されたユニットなんだよ。\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える\n<@lv.item><障害物></>敵の進攻ルートを遮る。",
+      "hardStagedId": "act18d0_ex06#f#",
+      "dangerLevel": "昇進2 LV.20",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex06#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act18d0_ex06",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act18d0_ex06#f#",
+      "levelId": "Activities/act18d0/level_act18d0_ex06",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-6",
+      "name": "小隊長",
+      "description": "<@lv.fs>制限：</>\n可動式戦術格納庫の位置が変更",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_ex06",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_ex07",
+      "levelId": "Activities/act18d0/level_act18d0_ex07",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-7",
+      "name": "熟練",
+      "description": "コホン、そのだな、傭兵として使えるかどうかは必ずしも標準化された訓練と直接関係しているとは限らないと思うのだ。戦場こそが傭兵の能力を証明出来る場所なのだから。\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+      "hardStagedId": "act18d0_ex07#f#",
+      "dangerLevel": "昇進2 LV.25",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 19,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 19,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex07#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act18d0_ex07",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act18d0_ex07#f#",
+      "levelId": "Activities/act18d0/level_act18d0_ex07",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-7",
+      "name": "熟練",
+      "description": "<@lv.fs>制限：</>\n<破片タイプU>の攻撃力が大幅に上昇、攻撃範囲が大幅に拡大",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_OOD_02",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 10,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "act18d0_ex07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act18d0_ex08",
+      "levelId": "Activities/act18d0/level_act18d0_ex08",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-8",
+      "name": "帝国の影の如く",
+      "description": "ウルサスがヒッポグリフの統治を覆してから千年が過ぎ去った。帝国の輝きは山脈や都市を覆っていく。そして大地に広がる皇帝の恩恵がもたらす大いなる影こそが、ウルサスの最も深遠なる意志である。",
+      "hardStagedId": "act18d0_ex08#f#",
+      "dangerLevel": "昇進2 LV.30",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_victoria",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 19,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 19,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act18d0_token_page",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
+    },
+    "act18d0_ex08#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act18d0_ex08",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act18d0_ex08#f#",
+      "levelId": "Activities/act18d0/level_act18d0_ex08",
+      "zoneId": "act18d0_zone2",
+      "code": "WD-EX-8",
+      "name": "帝国の影の如く",
+      "description": "<@lv.fs>制限：</>\nマップ上の7つのマスが配置不可に",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1,
+      "loadingPicId": "loading_victoria",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 10,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act18d0_ex01"
     }
   },
   "campaigns": {
@@ -70394,6 +72860,24 @@
       "unitColor": "#c9c4d6",
       "buildableColor": null,
       "themeType": null
+    },
+    "VICTORIA": {
+      "themeId": "VICTORIA",
+      "unitColor": "#eef6ff",
+      "buildableColor": null,
+      "themeType": null
+    },
+    "CAVEN": {
+      "themeId": "CAVEN",
+      "unitColor": "#e3f9ff",
+      "buildableColor": null,
+      "themeType": null
+    },
+    "SALVIENTO": {
+      "themeId": "SALVIENTO",
+      "unitColor": "#dfe3f3",
+      "buildableColor": null,
+      "themeType": null
     }
   },
   "tileInfo": {
@@ -70797,6 +73281,22 @@
       "id": "14",
       "startTime": 1626152400,
       "endTime": 1627325999,
+      "forceOpenList": [
+        "weekly_1",
+        "weekly_2",
+        "weekly_3",
+        "weekly_4",
+        "weekly_5",
+        "weekly_6",
+        "weekly_7",
+        "weekly_8",
+        "weekly_9"
+      ]
+    },
+    "15": {
+      "id": "15",
+      "startTime": 1636606800,
+      "endTime": 1637780399,
       "forceOpenList": [
         "weekly_1",
         "weekly_2",
@@ -123890,6 +126390,114 @@
     "act17d0_ex08#f#": {
       "startTs": 1629874800,
       "endTs": 1630436399
+    },
+    "act18d0_01": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_tr01": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_02": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_03": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_04": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_st01": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_05": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_06": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_07": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_08": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_st02": {
+      "startTs": 1632967200,
+      "endTs": 1634151599
+    },
+    "act18d0_ex01": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex01#f#": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex02": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex02#f#": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex03": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex03#f#": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex04": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex04#f#": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex05": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex05#f#": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex06": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex06#f#": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex07": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex07#f#": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex08": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
+    },
+    "act18d0_ex08#f#": {
+      "startTs": 1633590000,
+      "endTs": 1634151599
     }
   },
   "stageFogInfo": {
