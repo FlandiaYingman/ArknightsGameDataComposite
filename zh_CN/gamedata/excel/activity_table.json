@@ -1073,6 +1073,26 @@
       "templateShopId": null,
       "medalGroupId": null,
       "isReplicate": false
+    },
+    "act9mini": {
+      "id": "act9mini",
+      "type": "MINISTORY",
+      "displayType": "MINISTORY",
+      "name": "红松林",
+      "startTime": 1634284800,
+      "endTime": 1634846399,
+      "rewardEndTime": 1635105599,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": "shop_act9mini",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_9mini_01",
+        "medal_activity_9mini_02"
+      ],
+      "isReplicate": false
     }
   },
   "zoneToActivity": {
@@ -1129,7 +1149,8 @@
     "act12side_zone2": "act12side",
     "act12side_zone3": "act12side",
     "act7sre_zone1": "act7sre",
-    "act7sre_zone2": "act7sre"
+    "act7sre_zone2": "act7sre",
+    "act9mini_zone1": "act9mini"
   },
   "missionData": [
     {
@@ -40574,6 +40595,38 @@
           "weekly_9",
           "act8mini_zone1"
         ]
+      },
+      "act9mini": {
+        "tokenItemId": "act9mini_token_ticket",
+        "zoneDescList": {
+          "act9mini_zone1": {
+            "zoneId": "act9mini_zone1",
+            "unlockText": "完成主线关卡1-10解锁"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "main_8",
+          "main_9",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "act9mini_zone1"
+        ]
       }
     },
     "ROGUELIKE": {
@@ -43538,6 +43591,9 @@
     ],
     "act7sre": [
       "act13d5_token_securities_rep_1"
+    ],
+    "act9mini": [
+      "act9mini_token_ticket"
     ]
   },
   "syncPoints": {
@@ -43619,6 +43675,10 @@
     "act7sre": [
       1633075200,
       1633895999
+    ],
+    "act9mini": [
+      1634284800,
+      1634846399
     ]
   },
   "dynActs": {
@@ -44543,6 +44603,21 @@
         }
       ],
       "startTs": 1633075200
+    },
+    {
+      "id": "dis_mini_9",
+      "type": "ACTIVITY",
+      "funcId": "act9mini",
+      "endTs": 1634846399,
+      "sortId": 5,
+      "itemId": "act9mini_token_ticket",
+      "timeNodes": [
+        {
+          "title": "<红松林>活动已开放",
+          "ts": 1634284800
+        }
+      ],
+      "startTs": 1634284800
     }
   ]
 }
