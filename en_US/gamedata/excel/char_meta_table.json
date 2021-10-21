@@ -542,7 +542,8 @@
       "char_220_grani"
     ],
     "char_263_skadi": [
-      "char_263_skadi"
+      "char_263_skadi",
+      "char_1012_skadi2"
     ],
     "char_452_bstalk": [
       "char_452_bstalk"
@@ -585,6 +586,15 @@
     ],
     "char_472_pasngr": [
       "char_472_pasngr"
+    ],
+    "char_475_akafyu": [
+      "char_475_akafyu"
+    ],
+    "char_474_glady": [
+      "char_474_glady"
+    ],
+    "char_003_kalts": [
+      "char_003_kalts"
     ]
   },
   "spCharMissions": {
@@ -785,9 +795,86 @@
           }
         ]
       }
+    },
+    "char_1012_skadi2": {
+      "mission_char_1012_skadi2_0": {
+        "charId": "char_1012_skadi2",
+        "missionId": "mission_char_1012_skadi2_0",
+        "sortId": 0,
+        "condType": "EVOLVE_PHASE",
+        "param": [
+          "1",
+          "1"
+        ],
+        "rewards": [
+          {
+            "id": "3221",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3301",
+            "count": 10,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2003",
+            "count": 50,
+            "type": "CARD_EXP"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "mission_char_1012_skadi2_1": {
+        "charId": "char_1012_skadi2",
+        "missionId": "mission_char_1012_skadi2_1",
+        "sortId": 1,
+        "condType": "EVOLVE_PHASE",
+        "param": [
+          "2",
+          "1"
+        ],
+        "rewards": [
+          {
+            "id": "3222",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30014",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3302",
+            "count": 10,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2003",
+            "count": 100,
+            "type": "CARD_EXP"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ]
+      }
     }
   },
   "spCharLaunchTimes": {
-    "char_1011_lava2": 1612566000
+    "char_1011_lava2": 1627664400,
+    "char_1012_skadi2": 1634835600
   }
 }
