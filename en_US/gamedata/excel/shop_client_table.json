@@ -3157,6 +3157,36 @@
         "id": "tag_106",
         "text": "Two years now, huh, Doctor? Man, is it that time again where I run a loss—uh, a lot, I mean, of stuff you'll really love! Just like last year, I've got some discounts just for you! The Procurement Department looks forward to your support!"
       }
+    },
+    {
+      "tagId": "tag_107",
+      "displayType": "block_1",
+      "tagName": "Rhodes Island Kitchen",
+      "itemTag": "DEADLINE",
+      "orderNum": 1,
+      "startDatetime": 1636642800,
+      "endDatetime": 1637837999,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag107_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_107",
+        "text": "There's an event going on at the cafeteria right now. Plenty of food and drinks, and they're even giving out prizes! These three are the favorites to win - who do you think stands the best chance?"
+      }
     }
   ],
   "creditUnlockGroup": {
@@ -5469,6 +5499,37 @@
     {
       "items": [
         {
+          "spriteId": "shop_mgllan_kitchen#1_r1",
+          "startTime": 1636642800,
+          "endTime": 1637837999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_248_mgllan@kitchen#1_r1",
+          "skinId": "char_248_mgllan@kitchen#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_glassb_kitchen#1_r1",
+          "startTime": 1636642800,
+          "endTime": 1637837999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_195_glassb@kitchen#1_r1",
+          "skinId": "char_195_glassb@kitchen#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_brownb_kitchen#1_r1",
+          "startTime": 1636642800,
+          "endTime": 1637837999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_137_brownb@kitchen#1_r1",
+          "skinId": "char_137_brownb@kitchen#1",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_guitar_2020",
           "startTime": 1588172400,
           "endTime": 1589972399,
@@ -5489,6 +5550,15 @@
           "param1": "beach_2020",
           "skinId": "",
           "furniId": null
+        },
+        {
+          "spriteId": "shop2",
+          "startTime": 1578222000,
+          "endTime": 1924945199,
+          "cmd": "GIFTPACKAGE",
+          "param1": null,
+          "skinId": "",
+          "furniId": ""
         }
       ]
     },
