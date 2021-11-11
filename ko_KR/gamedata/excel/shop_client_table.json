@@ -3157,6 +3157,36 @@
         "id": "tag_106",
         "text": "박사도 이곳에 온 지 거의 2년 정도 됐지 않아? 설마 나 또 손해 보는 건…… 윽, 보, 보답이라고 이건! 작년처럼, 올해도 박사를 위해 혜택을 준비했어! 앞으로도 우리 구매부 업무에 많은 성원 부탁할게~!"
       }
+    },
+    {
+      "tagId": "tag_107",
+      "displayType": "block_1",
+      "tagName": "로도스 키친",
+      "itemTag": "DEADLINE",
+      "orderNum": 1,
+      "startDatetime": 1636606800,
+      "endDatetime": 1637780399,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag107_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_107",
+        "text": "사실 식당에선 지금 이벤트를 진행 중이야. 먹을 것도 있고 마실 것도, 다양한 상품들도 있다구! 이번 우승후보는 이 세 사람인데, 누가 이길 것 같아?"
+      }
     }
   ],
   "creditUnlockGroup": {
@@ -5506,6 +5536,37 @@
     {
       "items": [
         {
+          "spriteId": "shop_mgllan_kitchen#1_r1",
+          "startTime": 1636606800,
+          "endTime": 1637780399,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_248_mgllan@kitchen#1_r1",
+          "skinId": "char_248_mgllan@kitchen#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_glassb_kitchen#1_r1",
+          "startTime": 1636606800,
+          "endTime": 1637780399,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_195_glassb@kitchen#1_r1",
+          "skinId": "char_195_glassb@kitchen#1",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_brownb_kitchen#1_r1",
+          "startTime": 1636606800,
+          "endTime": 1637780399,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_137_brownb@kitchen#1_r1",
+          "skinId": "char_137_brownb@kitchen#1",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_guitar_2020",
           "startTime": 1588136400,
           "endTime": 1589914799,
@@ -5526,6 +5587,15 @@
           "param1": "beach_2020",
           "skinId": "",
           "furniId": null
+        },
+        {
+          "spriteId": "shop2",
+          "startTime": 1578164400,
+          "endTime": 1924887599,
+          "cmd": "GIFTPACKAGE",
+          "param1": null,
+          "skinId": "",
+          "furniId": ""
         }
       ]
     },

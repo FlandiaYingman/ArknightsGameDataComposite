@@ -1438,6 +1438,40 @@
       "gachaRuleType": "NORMAL"
     },
     {
+      "gachaPoolId": "NORM_KR_10_3_1",
+      "gachaIndex": 3,
+      "openTime": 1636606800,
+      "endTime": 1637780399,
+      "gachaPoolName": "연합 작전",
+      "gachaPoolSummary": "11월 25일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "LMTGSID": null,
+      "gachaRuleType": "NORMAL",
+      "linkageRuleId": "LINKAGE_R6_01",
+      "linkageParam": {
+        "guaranteeTarget6Count": 120
+      }
+    },
+    {
+      "gachaPoolId": "NORM_KR_10_3_2",
+      "gachaIndex": 2,
+      "openTime": 1636657200,
+      "endTime": 1637866799,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "11월 26일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "LMTGSID": null,
+      "gachaRuleType": "NORMAL"
+    },
+    {
       "gachaPoolId": "LIMITED_KR_4_3_1",
       "gachaIndex": 1,
       "openTime": 1609304400,
@@ -1469,7 +1503,11 @@
       "CDPrimColor": "4F74F9",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_1401",
-      "gachaRuleType": "LIMITED"
+      "gachaRuleType": "LIMITED",
+      "linkageRuleId": "LINKAGE_R6_01",
+      "linkageParam": {
+        "guaranteeTarget6Count": 120
+      }
     },
     {
       "gachaPoolId": "LIMITED_KR_8_3_1",
@@ -1522,11 +1560,7 @@
       "CDPrimColor": "1DCBDB",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_1803",
-      "gachaRuleType": "LIMITED",
-      "linkageRuleId": "LINKAGE_R6_01",
-      "linkageParam": {
-        "guaranteeTarget6Count": 120
-      }
+      "gachaRuleType": "LIMITED"
     },
     {
       "gachaPoolId": "LINKAGE_KR_9_2_1",
@@ -2721,6 +2755,20 @@
       "startTime": 1635447600,
       "endTime": 1636657199,
       "spriteId": "picNorm_kr_10_2_2"
+    },
+    {
+      "poolId": "NORM_KR_10_3_1",
+      "index": 3,
+      "startTime": 1636606800,
+      "endTime": 1637780399,
+      "spriteId": "picNorm_kr_10_3_1"
+    },
+    {
+      "poolId": "NORM_KR_10_3_2",
+      "index": 2,
+      "startTime": 1636657200,
+      "endTime": 1637866799,
+      "spriteId": "picNorm_kr_10_3_2"
     }
   ],
   "freeGacha": [
