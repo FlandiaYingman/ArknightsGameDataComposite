@@ -248,7 +248,7 @@
     "act7d5": {
       "id": "act7d5",
       "type": "TYPE_ACT4D0",
-      "name": "Stories of Afternoon",
+      "name": "Stories of Afternoon",
       "startTime": 1598452200,
       "endTime": 1599649199,
       "rewardEndTime": 1599649199,
@@ -449,7 +449,7 @@
     "act12d0": {
       "id": "act12d0",
       "type": "TYPE_ACT9D0",
-      "name": "The Great Chief Returns ",
+      "name": "The Great Chief Returns",
       "startTime": 1614265200,
       "endTime": 1615460399,
       "rewardEndTime": 1616065199,
@@ -635,7 +635,7 @@
     "act16d5": {
       "id": "act16d5",
       "type": "TYPE_ACT9D0",
-      "name": "Who is Real",
+      "name": "Who Is Real",
       "startTime": 1627646400,
       "endTime": 1628852399,
       "rewardEndTime": 1629457199,
@@ -816,6 +816,26 @@
       "templateShopId": null,
       "medalGroupId": null,
       "isReplicate": false
+    },
+    "act7mini": {
+      "id": "act7mini",
+      "type": "MINISTORY",
+      "displayType": "MINISTORY",
+      "name": "Preluding Lights",
+      "startTime": 1639051200,
+      "endTime": 1639652399,
+      "rewardEndTime": 1639911599,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": "shop_act7mini",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_7mini_01",
+        "medal_activity_7mini_02"
+      ],
+      "isReplicate": false
     }
   },
   "zoneToActivity": {
@@ -858,7 +878,8 @@
     "act18d0_zone1": "act18d0",
     "act18d0_zone2": "act18d0",
     "act18d3_zone1": "act18d3",
-    "act18d3_zone2": "act18d3"
+    "act18d3_zone2": "act18d3",
+    "act7mini_zone1": "act7mini"
   },
   "missionData": [
     {
@@ -32144,7 +32165,7 @@
         "newsServerInfoList": {},
         "miscHub": {
           "NEWS_READ_SMALL": "{0} Views",
-          "NEWS_READ_MIDDLE": "{0}0K Views",
+          "NEWS_READ_MIDDLE": "{0}k Views",
           "NEWS_READ_LARGE": "200k+ Views",
           "NEWS_UNREAD": "{0} Unread"
         }
@@ -32440,6 +32461,37 @@
           "weekly_8",
           "weekly_9",
           "act15d5_zone1"
+        ]
+      },
+      "act7mini": {
+        "tokenItemId": "act7mini_token_permit",
+        "zoneDescList": {
+          "act7mini_zone1": {
+            "zoneId": "act7mini_zone1",
+            "unlockText": "Clear Main Story 1-10 to unlock"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "main_8",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "act7mini_zone1"
         ]
       }
     },
@@ -33532,7 +33584,8 @@
           }
         ]
       }
-    }
+    },
+    "INTERLOCK": {}
   },
   "activityItems": {
     "act4d0": [
@@ -33649,6 +33702,9 @@
     ],
     "act18d3": [
       "act18d3_token_record"
+    ],
+    "act7mini": [
+      "act7mini_token_permit"
     ]
   },
   "syncPoints": {
@@ -33711,6 +33767,10 @@
     "act18d3": [
       1634828400,
       1636023599
+    ],
+    "act7mini": [
+      1639051200,
+      1639652399
     ]
   },
   "dynActs": {
@@ -33733,5 +33793,6 @@
       "name2": "Originium Ore",
       "name3": "Originium Crude Ore"
     }
-  }
+  },
+  "replicateMissions": null
 }
