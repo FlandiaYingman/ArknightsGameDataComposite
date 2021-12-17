@@ -836,6 +836,22 @@
         "medal_activity_7mini_02"
       ],
       "isReplicate": false
+    },
+    "act5sre": {
+      "id": "act5sre",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "월루몽드의 황혼 (재개방)",
+      "startTime": 1639717200,
+      "endTime": 1640545199,
+      "rewardEndTime": 1640890799,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": "shop_act5sre",
+      "medalGroupId": "medalGroupActivity11d0",
+      "isReplicate": true
     }
   },
   "zoneToActivity": {
@@ -879,9 +895,785 @@
     "act18d0_zone2": "act18d0",
     "act18d3_zone1": "act18d3",
     "act18d3_zone2": "act18d3",
-    "act7mini_zone1": "act7mini"
+    "act7mini_zone1": "act7mini",
+    "act5sre_zone1": "act5sre",
+    "act5sre_zone2": "act5sre",
+    "act5sre_zone3": "act5sre"
   },
   "missionData": [
+    {
+      "id": "5sreActivity_1",
+      "sortId": 1,
+      "description": "TW-1 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_2",
+      "sortId": 2,
+      "description": "TW-2 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_3",
+      "sortId": 3,
+      "description": "TW-3 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_03",
+        "1",
+        "2",
+        "sktok_cannon",
+        "6"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 60
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30013",
+          "count": 2
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_4",
+      "sortId": 4,
+      "description": "TW-3을 3★ 평가로 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_03",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_nightView_framed_01",
+          "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30073",
+          "count": 2
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_5",
+      "sortId": 5,
+      "description": "TW-4 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 60
+        },
+        {
+          "type": "CHAR",
+          "id": "char_345_folnic",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_6",
+      "sortId": 6,
+      "description": "TW-5 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_05",
+        "1",
+        "2",
+        "sktok_cannon",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 80
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30044",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_7",
+      "sortId": 7,
+      "description": "TW-5를 3★ 평가로 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_05",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_nightView_bottles_01",
+          "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30054",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_8",
+      "sortId": 8,
+      "description": "TW-6 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_9",
+      "sortId": 9,
+      "description": "TW-6을 3★ 평가로 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_06",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_nightView_recordPlayer_01",
+          "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30023",
+          "count": 2
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_10",
+      "sortId": 10,
+      "description": "TW-7 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_11",
+      "sortId": 11,
+      "description": "TW-7를 3★ 평가로 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_07",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_nightView_curtain_L_01",
+          "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30033",
+          "count": 2
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_12",
+      "sortId": 12,
+      "description": "TW-8 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_08",
+        "1",
+        "2",
+        "born",
+        "8"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_13",
+      "sortId": 13,
+      "description": "TW-8을 3★ 평가로 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_08",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_nightView_curtain_R_01",
+          "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "31014",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_14",
+      "sortId": 14,
+      "description": "TW-EX-1 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_ex01",
+        "1",
+        "2",
+        "born",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_15",
+      "sortId": 15,
+      "description": "TW-EX-2 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_ex02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 60
+        },
+        {
+          "type": "MATERIAL",
+          "id": "31024",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_16",
+      "sortId": 16,
+      "description": "TW-EX-3 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_ex03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_17",
+      "sortId": 17,
+      "description": "TW-EX-4 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_ex04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 80
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30063",
+          "count": 2
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_18",
+      "sortId": 18,
+      "description": "TW-EX-5 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_ex05",
+        "1",
+        "2",
+        "sktok_poison",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 80
+        },
+        {
+          "type": "MATERIAL",
+          "id": "31033",
+          "count": 2
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_19",
+      "sortId": 19,
+      "description": "TW-EX-6 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_ex06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_20",
+      "sortId": 20,
+      "description": "TW-EX-7 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_ex07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 100
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30064",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_21",
+      "sortId": 21,
+      "description": "TW-EX-8 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_ex08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 100
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30014",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_22",
+      "sortId": 22,
+      "description": "TW-EX-8 하드 모드 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act11d0_ex08#f#",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dropS009_nocturnesOp9_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_23",
+      "sortId": 23,
+      "description": "이벤트 스테이지 내에서 적 200명 격파",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "EnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act11d0_01^act11d0_02^act11d0_03^act11d0_04^act11d0_05^act11d0_06^act11d0_07^act11d0_08^act11d0_ex01^act11d0_ex01#f#^act11d0_ex02^act11d0_ex02#f#^act11d0_ex03^act11d0_ex03#f#^act11d0_ex04^act11d0_ex04#f#^act11d0_ex05^act11d0_ex05#f#^act11d0_ex06^act11d0_ex06#f#^act11d0_ex07^act11d0_ex07#f#^act11d0_ex08^act11d0_ex08#f#^act11d0_s01^act11d0_s01#f#^act11d0_s02^act11d0_s02#f#^act11d0_mo01",
+        "200"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_24",
+      "sortId": 24,
+      "description": "이벤트 스테이지 내에서 적 1,000명 격파",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "EnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act11d0_01^act11d0_02^act11d0_03^act11d0_04^act11d0_05^act11d0_06^act11d0_07^act11d0_08^act11d0_ex01^act11d0_ex01#f#^act11d0_ex02^act11d0_ex02#f#^act11d0_ex03^act11d0_ex03#f#^act11d0_ex04^act11d0_ex04#f#^act11d0_ex05^act11d0_ex05#f#^act11d0_ex06^act11d0_ex06#f#^act11d0_ex07^act11d0_ex07#f#^act11d0_ex08^act11d0_ex08#f#^act11d0_s01^act11d0_s01#f#^act11d0_s02^act11d0_s02#f#^act11d0_mo01",
+        "1000"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_25",
+      "sortId": 25,
+      "description": "이벤트 스테이지 내에서 적 2,000명 격파",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "EnemyKill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act11d0_01^act11d0_02^act11d0_03^act11d0_04^act11d0_05^act11d0_06^act11d0_07^act11d0_08^act11d0_ex01^act11d0_ex01#f#^act11d0_ex02^act11d0_ex02#f#^act11d0_ex03^act11d0_ex03#f#^act11d0_ex04^act11d0_ex04#f#^act11d0_ex05^act11d0_ex05#f#^act11d0_ex06^act11d0_ex06#f#^act11d0_ex07^act11d0_ex07#f#^act11d0_ex08^act11d0_ex08#f#^act11d0_s01^act11d0_s01#f#^act11d0_s02^act11d0_s02#f#^act11d0_mo01",
+        "2000",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act11d0_token_currency_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null
+    },
     {
       "id": "18D3Activity_1",
       "sortId": 1,
@@ -894,7 +1686,8 @@
         "0",
         "act18d3_01",
         "2",
-        "2"
+        "3",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -922,7 +1715,8 @@
         "0",
         "act18d3_02",
         "2",
-        "3"
+        "2",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -934,6 +1728,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act18d3_token_record",
           "count": 30
+        },
+        {
+          "type": "CHAR",
+          "id": "char_459_tachak",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -950,7 +1749,7 @@
         "0",
         "act18d3_03",
         "2",
-        "2",
+        "3",
         "sktok_cannon",
         "6"
       ],
@@ -985,7 +1784,7 @@
         "0",
         "act18d3_04",
         "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -999,9 +1798,9 @@
           "count": 40
         },
         {
-          "type": "MATERIAL",
-          "id": "30073",
-          "count": 2
+          "type": "CHAR",
+          "id": "char_333_sidero",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -1051,7 +1850,7 @@
         "0",
         "act18d3_05",
         "3",
-        "2",
+        "3",
         "sktok_cannon",
         "5"
       ],
@@ -1067,8 +1866,8 @@
           "count": 60
         },
         {
-          "type": "MATERIAL",
-          "id": "30044",
+          "type": "CHAR",
+          "id": "char_304_zebra",
           "count": 1
         }
       ],
@@ -1086,7 +1885,7 @@
         "0",
         "act18d3_06",
         "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1119,7 +1918,7 @@
         "0",
         "act18d3_06",
         "3",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1147,7 +1946,7 @@
         "0",
         "act18d3_07",
         "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1180,7 +1979,7 @@
         "0",
         "act18d3_07",
         "3",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1208,7 +2007,7 @@
         "0",
         "act18d3_08",
         "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1241,7 +2040,7 @@
         "0",
         "act18d3_08",
         "3",
-        "2",
+        "3",
         "born",
         "8"
       ],
@@ -1271,7 +2070,8 @@
         "0",
         "act18d3_09",
         "2",
-        "3"
+        "2",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1304,7 +2104,7 @@
         "0",
         "act18d3_09",
         "3",
-        "2",
+        "3",
         "born",
         "5"
       ],
@@ -1334,7 +2134,8 @@
         "0",
         "act18d3_ex01",
         "2",
-        "3"
+        "2",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1367,7 +2168,8 @@
         "0",
         "act18d3_ex02",
         "2",
-        "2"
+        "2",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1395,7 +2197,8 @@
         "0",
         "act18d3_ex03",
         "2",
-        "2"
+        "2",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1463,6 +2266,7 @@
         "0",
         "act18d3_ex05",
         "2",
+        "2",
         "2"
       ],
       "unlockCondition": null,
@@ -1491,7 +2295,8 @@
         "0",
         "act18d3_ex06",
         "2",
-        "2"
+        "2",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1524,7 +2329,7 @@
         "0",
         "act18d3_ex07",
         "2",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1556,8 +2361,7 @@
       "param": [
         "0",
         "act18d3_ex08",
-        "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1611,7 +2415,9 @@
       "param": [
         "0",
         "act18d3_01^act18d3_02^act18d3_03^act18d3_04^act18d3_05^act18d3_06^act18d3_07^act18d3_08^act18d3_09^act18d3_ex01^act18d3_ex01#f#^act18d3_ex02^act18d3_ex02#f#^act18d3_ex03^act18d3_ex03#f#^act18d3_ex04^act18d3_ex04#f#^act18d3_ex05^act18d3_ex05#f#^act18d3_ex06^act18d3_ex06#f#^act18d3_ex07^act18d3_ex07#f#^act18d3_ex08^act18d3_ex08#f#",
-        "15"
+        "15",
+        "sktok_farm",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1639,7 +2445,8 @@
         "0",
         "act18d3_01^act18d3_02^act18d3_03^act18d3_04^act18d3_05^act18d3_06^act18d3_07^act18d3_08^act18d3_09^act18d3_ex01^act18d3_ex01#f#^act18d3_ex02^act18d3_ex02#f#^act18d3_ex03^act18d3_ex03#f#^act18d3_ex04^act18d3_ex04#f#^act18d3_ex05^act18d3_ex05#f#^act18d3_ex06^act18d3_ex06#f#^act18d3_ex07^act18d3_ex07#f#^act18d3_ex08^act18d3_ex08#f#",
         "45",
-        "2"
+        "act17d1",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1667,8 +2474,7 @@
         "0",
         "act18d3_01^act18d3_02^act18d3_03^act18d3_04^act18d3_05^act18d3_06^act18d3_07^act18d3_08^act18d3_09^act18d3_ex01^act18d3_ex01#f#^act18d3_ex02^act18d3_ex02#f#^act18d3_ex03^act18d3_ex03#f#^act18d3_ex04^act18d3_ex04#f#^act18d3_ex05^act18d3_ex05#f#^act18d3_ex06^act18d3_ex06#f#^act18d3_ex07^act18d3_ex07#f#^act18d3_ex08^act18d3_ex08#f#",
         "85",
-        "3",
-        "0"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1680,6 +2486,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act18d3_token_record",
           "count": 80
+        },
+        {
+          "type": "CHAR",
+          "id": "char_1011_lava2",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -1695,40 +2506,6 @@
       "param": [
         "0",
         "act18d0_01",
-        "2",
-        "2",
-        "0"
-      ],
-      "unlockCondition": null,
-      "unlockParam": null,
-      "missionGroup": "act18d0",
-      "toPage": null,
-      "periodicalPoint": 0,
-      "rewards": [
-        {
-          "type": "ACTIVITY_ITEM",
-          "id": "act18d0_token_page",
-          "count": 20
-        },
-        {
-          "type": "CHAR",
-          "id": "char_459_tachak",
-          "count": 1
-        }
-      ],
-      "backImagePath": null
-    },
-    {
-      "id": "18D0Activity_2",
-      "sortId": 2,
-      "description": "WD-2 클리어",
-      "type": "ACTIVITY",
-      "preMissionIds": null,
-      "template": "CompleteAnyStage",
-      "templateType": "0",
-      "param": [
-        "0",
-        "act18d0_02",
         "2",
         "3",
         "sktok_cannon",
@@ -1754,6 +2531,39 @@
       "backImagePath": null
     },
     {
+      "id": "18D0Activity_2",
+      "sortId": 2,
+      "description": "WD-2 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act18d0_02",
+        "2",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act18d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act18d0_token_page",
+          "count": 20
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30073",
+          "count": 2
+        }
+      ],
+      "backImagePath": null
+    },
+    {
       "id": "18D0Activity_3",
       "sortId": 3,
       "description": "WD-3 클리어",
@@ -1765,7 +2575,37 @@
         "0",
         "act18d0_03",
         "2",
-        "2"
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act18d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act18d0_token_page",
+          "count": 30
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "18D0Activity_4",
+      "sortId": 4,
+      "description": "WD-4 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act18d0_04",
+        "2",
+        "2",
+        "sktok_cannon",
+        "5"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1787,39 +2627,6 @@
       "backImagePath": null
     },
     {
-      "id": "18D0Activity_4",
-      "sortId": 4,
-      "description": "WD-4 클리어",
-      "type": "ACTIVITY",
-      "preMissionIds": null,
-      "template": "CompleteAnyStage",
-      "templateType": "0",
-      "param": [
-        "0",
-        "act18d0_04",
-        "2",
-        "2"
-      ],
-      "unlockCondition": null,
-      "unlockParam": null,
-      "missionGroup": "act18d0",
-      "toPage": null,
-      "periodicalPoint": 0,
-      "rewards": [
-        {
-          "type": "ACTIVITY_ITEM",
-          "id": "act18d0_token_page",
-          "count": 30
-        },
-        {
-          "type": "CHAR",
-          "id": "char_265_sophia",
-          "count": 1
-        }
-      ],
-      "backImagePath": null
-    },
-    {
       "id": "18D0Activity_5",
       "sortId": 5,
       "description": "WD-5 클리어",
@@ -1831,9 +2638,7 @@
         "0",
         "act18d0_05",
         "2",
-        "3",
-        "sktok_cannon",
-        "5"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1866,7 +2671,7 @@
         "0",
         "act18d0_05",
         "3",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1877,11 +2682,6 @@
         {
           "type": "FURN",
           "id": "furni_icu_wallpaper_01",
-          "count": 1
-        },
-        {
-          "type": "MATERIAL",
-          "id": "30054",
           "count": 1
         }
       ],
@@ -1899,7 +2699,7 @@
         "0",
         "act18d0_06",
         "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1911,6 +2711,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act18d0_token_page",
           "count": 60
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30023",
+          "count": 2
         }
       ],
       "backImagePath": null
@@ -1927,7 +2732,7 @@
         "0",
         "act18d0_06",
         "3",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1941,9 +2746,9 @@
           "count": 1
         },
         {
-          "type": "MATERIAL",
-          "id": "30023",
-          "count": 2
+          "type": "CHAR",
+          "id": "char_265_sophia",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -1960,7 +2765,7 @@
         "0",
         "act18d0_07",
         "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -1972,6 +2777,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act18d0_token_page",
           "count": 60
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30033",
+          "count": 2
         }
       ],
       "backImagePath": null
@@ -1988,7 +2798,9 @@
         "0",
         "act18d0_07",
         "3",
-        "2"
+        "3",
+        "born",
+        "8"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2000,11 +2812,6 @@
           "type": "FURN",
           "id": "furni_icu_screen_01",
           "count": 1
-        },
-        {
-          "type": "MATERIAL",
-          "id": "30033",
-          "count": 2
         }
       ],
       "backImagePath": null
@@ -2021,9 +2828,7 @@
         "0",
         "act18d0_08",
         "2",
-        "3",
-        "born",
-        "8"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2035,6 +2840,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act18d0_token_page",
           "count": 60
+        },
+        {
+          "type": "MATERIAL",
+          "id": "31014",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -2051,8 +2861,9 @@
         "0",
         "act18d0_08",
         "3",
-        "2",
-        "1"
+        "3",
+        "born",
+        "5"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2063,11 +2874,6 @@
         {
           "type": "FURN",
           "id": "furni_icu_desk_01",
-          "count": 1
-        },
-        {
-          "type": "MATERIAL",
-          "id": "31014",
           "count": 1
         }
       ],
@@ -2084,37 +2890,6 @@
       "param": [
         "0",
         "act18d0_ex01",
-        "2",
-        "3",
-        "born",
-        "5"
-      ],
-      "unlockCondition": null,
-      "unlockParam": null,
-      "missionGroup": "act18d0",
-      "toPage": null,
-      "periodicalPoint": 0,
-      "rewards": [
-        {
-          "type": "ACTIVITY_ITEM",
-          "id": "act18d0_token_page",
-          "count": 20
-        }
-      ],
-      "backImagePath": null
-    },
-    {
-      "id": "18D0Activity_14",
-      "sortId": 14,
-      "description": "WD-EX-2 클리어",
-      "type": "ACTIVITY",
-      "preMissionIds": null,
-      "template": "CompleteAnyStage",
-      "templateType": "0",
-      "param": [
-        "0",
-        "act18d0_ex02",
-        "2",
         "2",
         "2"
       ],
@@ -2133,6 +2908,34 @@
           "type": "MATERIAL",
           "id": "31024",
           "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "18D0Activity_14",
+      "sortId": 14,
+      "description": "WD-EX-2 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act18d0_ex02",
+        "2",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act18d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act18d0_token_page",
+          "count": 20
         }
       ],
       "backImagePath": null
@@ -2162,6 +2965,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act18d0_token_page",
           "count": 30
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30063",
+          "count": 2
         }
       ],
       "backImagePath": null
@@ -2177,40 +2985,6 @@
       "param": [
         "0",
         "act18d0_ex04",
-        "2",
-        "2",
-        "0"
-      ],
-      "unlockCondition": null,
-      "unlockParam": null,
-      "missionGroup": "act18d0",
-      "toPage": null,
-      "periodicalPoint": 0,
-      "rewards": [
-        {
-          "type": "ACTIVITY_ITEM",
-          "id": "act18d0_token_page",
-          "count": 30
-        },
-        {
-          "type": "MATERIAL",
-          "id": "30063",
-          "count": 2
-        }
-      ],
-      "backImagePath": null
-    },
-    {
-      "id": "18D0Activity_17",
-      "sortId": 17,
-      "description": "WD-EX-5 클리어",
-      "type": "ACTIVITY",
-      "preMissionIds": null,
-      "template": "CompleteAnyStage",
-      "templateType": "0",
-      "param": [
-        "0",
-        "act18d0_ex05",
         "2",
         "2",
         "sktok_poison",
@@ -2236,6 +3010,35 @@
       "backImagePath": null
     },
     {
+      "id": "18D0Activity_17",
+      "sortId": 17,
+      "description": "WD-EX-5 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act18d0_ex05",
+        "2",
+        "2",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act18d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act18d0_token_page",
+          "count": 30
+        }
+      ],
+      "backImagePath": null
+    },
+    {
       "id": "18D0Activity_18",
       "sortId": 18,
       "description": "WD-EX-6 클리어",
@@ -2246,7 +3049,6 @@
       "param": [
         "0",
         "act18d0_ex06",
-        "2",
         "2",
         "2"
       ],
@@ -2260,6 +3062,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act18d0_token_page",
           "count": 30
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30064",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -2277,40 +3084,7 @@
         "act18d0_ex07",
         "2",
         "2",
-        "1"
-      ],
-      "unlockCondition": null,
-      "unlockParam": null,
-      "missionGroup": "act18d0",
-      "toPage": null,
-      "periodicalPoint": 0,
-      "rewards": [
-        {
-          "type": "ACTIVITY_ITEM",
-          "id": "act18d0_token_page",
-          "count": 80
-        },
-        {
-          "type": "MATERIAL",
-          "id": "30064",
-          "count": 1
-        }
-      ],
-      "backImagePath": null
-    },
-    {
-      "id": "18D0Activity_20",
-      "sortId": 20,
-      "description": "WD-EX-8 클리어",
-      "type": "ACTIVITY",
-      "preMissionIds": null,
-      "template": "CompleteAnyStage",
-      "templateType": "0",
-      "param": [
-        "0",
-        "act18d0_ex08",
-        "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2332,6 +3106,34 @@
       "backImagePath": null
     },
     {
+      "id": "18D0Activity_20",
+      "sortId": 20,
+      "description": "WD-EX-8 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act18d0_ex08",
+        "2",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act18d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act18d0_token_page",
+          "count": 80
+        }
+      ],
+      "backImagePath": null
+    },
+    {
       "id": "18D0Activity_21",
       "sortId": 21,
       "description": "WD-EX-8 하드 모드 클리어",
@@ -2342,7 +3144,9 @@
       "param": [
         "0",
         "act18d0_ex08#f#",
-        "3"
+        "3",
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2398,7 +3202,7 @@
         "act18d0_01^act18d0_02^act18d0_03^act18d0_04^act18d0_05^act18d0_06^act18d0_07^act18d0_08^act18d0_ex01^act18d0_ex01#f#^act18d0_ex02^act18d0_ex02#f#^act18d0_ex03^act18d0_ex03#f#^act18d0_ex04^act18d0_ex04#f#^act18d0_ex05^act18d0_ex05#f#^act18d0_ex06^act18d0_ex06#f#^act18d0_ex07^act18d0_ex07#f#^act18d0_ex08^act18d0_ex08#f#",
         "45",
         "sktok_farm",
-        "0"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2426,8 +3230,8 @@
         "0",
         "act18d0_01^act18d0_02^act18d0_03^act18d0_04^act18d0_05^act18d0_06^act18d0_07^act18d0_08^act18d0_ex01^act18d0_ex01#f#^act18d0_ex02^act18d0_ex02#f#^act18d0_ex03^act18d0_ex03#f#^act18d0_ex04^act18d0_ex04#f#^act18d0_ex05^act18d0_ex05#f#^act18d0_ex06^act18d0_ex06#f#^act18d0_ex07^act18d0_ex07#f#^act18d0_ex08^act18d0_ex08#f#",
         "85",
-        "act17d1",
-        "0"
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2470,7 +3274,7 @@
         },
         {
           "type": "CHAR",
-          "id": "char_1011_lava2",
+          "id": "char_459_tachak",
           "count": 1
         }
       ],
@@ -2488,9 +3292,7 @@
         "1",
         "act9d0_01",
         "1",
-        "3",
-        "sktok_cannon",
-        "6"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2502,11 +3304,6 @@
           "type": "FURN",
           "id": "furni_beerhouse_framedArt1_01",
           "count": 1
-        },
-        {
-          "type": "MATERIAL",
-          "id": "30013",
-          "count": 2
         }
       ],
       "backImagePath": null
@@ -2523,7 +3320,9 @@
         "1",
         "act9d0_02",
         "1",
-        "2"
+        "2",
+        "sktok_cannon",
+        "6"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2538,7 +3337,7 @@
         },
         {
           "type": "MATERIAL",
-          "id": "30073",
+          "id": "30013",
           "count": 2
         }
       ],
@@ -2556,7 +3355,8 @@
         "1",
         "act9d0_02",
         "1",
-        "3"
+        "3",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2568,6 +3368,11 @@
           "type": "FURN",
           "id": "furni_beerhouse_framedArt2_01",
           "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30073",
+          "count": 2
         }
       ],
       "backImagePath": null
@@ -2585,8 +3390,7 @@
         "act9d0_03",
         "1",
         "2",
-        "sktok_cannon",
-        "5"
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2619,7 +3423,9 @@
         "1",
         "act9d0_04",
         "1",
-        "2"
+        "2",
+        "sktok_cannon",
+        "5"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2634,7 +3440,7 @@
         },
         {
           "type": "MATERIAL",
-          "id": "30054",
+          "id": "30044",
           "count": 1
         }
       ],
@@ -2664,6 +3470,11 @@
           "type": "FURN",
           "id": "furni_beerhouse_wallpaper_01",
           "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30054",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -2680,7 +3491,8 @@
         "1",
         "act9d0_05",
         "1",
-        "2"
+        "2",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2692,11 +3504,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag_rep_1",
           "count": 80
-        },
-        {
-          "type": "MATERIAL",
-          "id": "30023",
-          "count": 2
         }
       ],
       "backImagePath": null
@@ -2727,9 +3534,9 @@
           "count": 1
         },
         {
-          "type": "CHAR",
-          "id": "char_265_sophia",
-          "count": 1
+          "type": "MATERIAL",
+          "id": "30023",
+          "count": 2
         }
       ],
       "backImagePath": null
@@ -2746,6 +3553,7 @@
         "1",
         "act9d0_06",
         "1",
+        "2",
         "2"
       ],
       "unlockCondition": null,
@@ -2758,11 +3566,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag_rep_1",
           "count": 80
-        },
-        {
-          "type": "MATERIAL",
-          "id": "30033",
-          "count": 2
         }
       ],
       "backImagePath": null
@@ -2779,9 +3582,7 @@
         "1",
         "act9d0_06",
         "1",
-        "3",
-        "born",
-        "8"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2793,6 +3594,11 @@
           "type": "FURN",
           "id": "furni_beerhouse_banner2_01",
           "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30033",
+          "count": 2
         }
       ],
       "backImagePath": null
@@ -2809,7 +3615,9 @@
         "1",
         "act9d0_07",
         "1",
-        "2"
+        "2",
+        "born",
+        "8"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2821,11 +3629,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag_rep_1",
           "count": 100
-        },
-        {
-          "type": "MATERIAL",
-          "id": "31014",
-          "count": 1
         }
       ],
       "backImagePath": null
@@ -2842,9 +3645,7 @@
         "1",
         "act9d0_07",
         "1",
-        "3",
-        "born",
-        "5"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2855,6 +3656,11 @@
         {
           "type": "FURN",
           "id": "furni_beerhouse_banner1_01",
+          "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "31014",
           "count": 1
         }
       ],
@@ -2872,7 +3678,9 @@
         "1",
         "act9d0_08",
         "1",
-        "2"
+        "2",
+        "born",
+        "5"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2884,11 +3692,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag_rep_1",
           "count": 100
-        },
-        {
-          "type": "MATERIAL",
-          "id": "31024",
-          "count": 1
         }
       ],
       "backImagePath": null
@@ -2905,7 +3708,8 @@
         "1",
         "act9d0_08",
         "1",
-        "3"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2916,6 +3720,11 @@
         {
           "type": "FURN",
           "id": "furni_beerhouse_diningTable1_01",
+          "count": 1
+        },
+        {
+          "type": "MATERIAL",
+          "id": "31024",
           "count": 1
         }
       ],
@@ -2946,11 +3755,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag_rep_1",
           "count": 60
-        },
-        {
-          "type": "MATERIAL",
-          "id": "30063",
-          "count": 2
         }
       ],
       "backImagePath": null
@@ -2968,8 +3772,7 @@
         "act9d0_ex02",
         "1",
         "2",
-        "sktok_poison",
-        "5"
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -2984,7 +3787,7 @@
         },
         {
           "type": "MATERIAL",
-          "id": "31033",
+          "id": "30063",
           "count": 2
         }
       ],
@@ -3003,7 +3806,8 @@
         "act9d0_ex03",
         "1",
         "2",
-        "1"
+        "sktok_poison",
+        "5"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3015,6 +3819,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag_rep_1",
           "count": 80
+        },
+        {
+          "type": "MATERIAL",
+          "id": "31033",
+          "count": 2
         }
       ],
       "backImagePath": null
@@ -3031,7 +3840,8 @@
         "1",
         "act9d0_ex04",
         "1",
-        "2"
+        "2",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3043,11 +3853,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag_rep_1",
           "count": 80
-        },
-        {
-          "type": "MATERIAL",
-          "id": "30064",
-          "count": 1
         }
       ],
       "backImagePath": null
@@ -3065,7 +3870,7 @@
         "act9d0_ex05",
         "1",
         "2",
-        "2"
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3080,7 +3885,7 @@
         },
         {
           "type": "MATERIAL",
-          "id": "30014",
+          "id": "30064",
           "count": 1
         }
       ],
@@ -3110,6 +3915,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag_rep_1",
           "count": 100
+        },
+        {
+          "type": "MATERIAL",
+          "id": "30014",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -3126,8 +3936,7 @@
         "1",
         "act9d0_ex06#f#",
         "1",
-        "3",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3181,9 +3990,7 @@
       "param": [
         "0",
         "act9d0_01^act9d0_02^act9d0_03^act9d0_04^act9d0_05^act9d0_06^act9d0_07^act9d0_08^act9d0_ex01^act9d0_ex01#f#^act9d0_ex02^act9d0_ex02#f#^act9d0_ex03^act9d0_ex03#f#^act9d0_ex04^act9d0_ex04#f#^act9d0_ex05^act9d0_ex05#f#^act9d0_ex06^act9d0_ex06#f#^act9d0_mo01",
-        "1000",
-        "sktok_farm",
-        "2"
+        "1000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3210,9 +4017,7 @@
       "param": [
         "0",
         "act9d0_01^act9d0_02^act9d0_03^act9d0_04^act9d0_05^act9d0_06^act9d0_07^act9d0_08^act9d0_ex01^act9d0_ex01#f#^act9d0_ex02^act9d0_ex02#f#^act9d0_ex03^act9d0_ex03#f#^act9d0_ex04^act9d0_ex04#f#^act9d0_ex05^act9d0_ex05#f#^act9d0_ex06^act9d0_ex06#f#^act9d0_mo01",
-        "2000",
-        "trap_009_battery",
-        "1"
+        "2000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3224,6 +4029,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag_rep_1",
           "count": 200
+        },
+        {
+          "type": "CHAR",
+          "id": "char_1011_lava2",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -3252,11 +4062,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act17d0_token_form",
           "count": 40
-        },
-        {
-          "type": "CHAR",
-          "id": "char_459_tachak",
-          "count": 1
         }
       ],
       "backImagePath": null
@@ -3285,6 +4090,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act17d0_token_form",
           "count": 80
+        },
+        {
+          "type": "CHAR",
+          "id": "char_459_tachak",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -3336,8 +4146,7 @@
         "0",
         "act17d1_01_b",
         "3",
-        "3",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -3370,8 +4179,7 @@
         "0",
         "act17d1_01_c",
         "3",
-        "act17d1",
-        "0"
+        "act17d1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4008,11 +4816,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act17d0_token_form",
           "count": 30
-        },
-        {
-          "type": "CHAR",
-          "id": "char_1011_lava2",
-          "count": 1
         }
       ],
       "backImagePath": null
@@ -4028,7 +4831,6 @@
       "param": [
         "0",
         "act17d0_03",
-        "3",
         "3"
       ],
       "unlockCondition": null,
@@ -4040,6 +4842,11 @@
         {
           "type": "FURN",
           "id": "furni_R6_shockWire_01",
+          "count": 1
+        },
+        {
+          "type": "CHAR",
+          "id": "char_1011_lava2",
           "count": 1
         }
       ],
@@ -4056,8 +4863,7 @@
       "param": [
         "0",
         "act17d0_04",
-        "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4089,8 +4895,7 @@
       "param": [
         "0",
         "act17d0_05",
-        "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4117,7 +4922,6 @@
       "param": [
         "0",
         "act17d0_05",
-        "3",
         "3"
       ],
       "unlockCondition": null,
@@ -4129,6 +4933,11 @@
         {
           "type": "FURN",
           "id": "furni_R6_shumikhaLauncher_01",
+          "count": 1
+        },
+        {
+          "type": "CHAR",
+          "id": "char_451_robin",
           "count": 1
         }
       ],
@@ -4161,7 +4970,7 @@
         },
         {
           "type": "CHAR",
-          "id": "char_451_robin",
+          "id": "char_265_sophia",
           "count": 1
         }
       ],
@@ -4276,11 +5085,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act17d0_token_form",
           "count": 60
-        },
-        {
-          "type": "CHAR",
-          "id": "char_333_sidero",
-          "count": 1
         }
       ],
       "backImagePath": null
@@ -4382,7 +5186,8 @@
       "param": [
         "0",
         "act17d0_ex03",
-        "2"
+        "2",
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4410,7 +5215,7 @@
         "0",
         "act17d0_ex04",
         "2",
-        "sktok_farm",
+        "3",
         "2"
       ],
       "unlockCondition": null,
@@ -4439,7 +5244,7 @@
         "0",
         "act17d0_ex05",
         "2",
-        "trap_009_battery",
+        "3",
         "1"
       ],
       "unlockCondition": null,
@@ -4468,7 +5273,7 @@
         "0",
         "act17d0_ex06",
         "2",
-        "trap_014_tower",
+        "3",
         "0"
       ],
       "unlockCondition": null,
@@ -4595,11 +5400,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act17d0_token_form",
           "count": 60
-        },
-        {
-          "type": "CHAR",
-          "id": "char_345_folnic",
-          "count": 1
         }
       ],
       "backImagePath": null
@@ -4708,6 +5508,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act16d5_token_inker",
           "count": 60
+        },
+        {
+          "type": "CHAR",
+          "id": "char_345_folnic",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -4782,7 +5587,8 @@
       "param": [
         "0",
         "act16d5_05",
-        "2"
+        "2",
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4809,6 +5615,7 @@
       "param": [
         "0",
         "act16d5_05",
+        "3",
         "3"
       ],
       "unlockCondition": null,
@@ -4836,7 +5643,8 @@
       "param": [
         "0",
         "act16d5_06",
-        "2"
+        "2",
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -4851,7 +5659,7 @@
         },
         {
           "type": "CHAR",
-          "id": "char_451_robin",
+          "id": "char_265_sophia",
           "count": 1
         }
       ],
@@ -4884,7 +5692,7 @@
         },
         {
           "type": "CHAR",
-          "id": "char_265_sophia",
+          "id": "char_451_robin",
           "count": 1
         }
       ],
@@ -4958,7 +5766,7 @@
         "0",
         "act16d5_08",
         "2",
-        "3",
+        "trap_009_battery",
         "1"
       ],
       "unlockCondition": null,
@@ -5015,7 +5823,7 @@
         "0",
         "act16d5_09",
         "2",
-        "3",
+        "sktok_farm",
         "2"
       ],
       "unlockCondition": null,
@@ -5072,7 +5880,7 @@
         "0",
         "act16d5_10",
         "2",
-        "3",
+        "trap_009_battery",
         "1"
       ],
       "unlockCondition": null,
@@ -5129,7 +5937,7 @@
         "0",
         "act16d5_ex01",
         "2",
-        "3",
+        "sktok_farm",
         "2"
       ],
       "unlockCondition": null,
@@ -5158,7 +5966,7 @@
         "0",
         "act16d5_ex02",
         "2",
-        "3",
+        "trap_009_battery",
         "1"
       ],
       "unlockCondition": null,
@@ -5187,8 +5995,7 @@
         "0",
         "act16d5_ex03",
         "2",
-        "3",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5216,8 +6023,7 @@
         "0",
         "act16d5_ex04",
         "2",
-        "trap_014_tower",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5244,7 +6050,8 @@
       "param": [
         "0",
         "act16d5_ex05",
-        "2"
+        "2",
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5272,7 +6079,7 @@
         "0",
         "act16d5_ex06",
         "2",
-        "6",
+        "sktok_farm",
         "0"
       ],
       "unlockCondition": null,
@@ -5301,7 +6108,7 @@
         "0",
         "act16d5_ex07",
         "2",
-        "trap_009_battery",
+        "trap_014_tower",
         "0"
       ],
       "unlockCondition": null,
@@ -5329,7 +6136,9 @@
       "param": [
         "0",
         "act16d5_ex08",
-        "2"
+        "2",
+        "trap_014_tower",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5383,7 +6192,8 @@
       "param": [
         "0",
         "act16d5_01^act16d5_02^act16d5_03^act16d5_04^act16d5_05^act16d5_06^act16d5_07^act16d5_08^act16d5_09^act16d5_10^act16d5_ex01^act16d5_ex01#f#^act16d5_ex02^act16d5_ex02#f#^act16d5_ex03^act16d5_ex03#f#^act16d5_ex04^act16d5_ex04#f#^act16d5_ex05^act16d5_ex05#f#^act16d5_ex06^act16d5_ex06#f#^act16d5_ex07^act16d5_ex07#f#^act16d5_ex08^act16d5_ex08#f#",
-        "15"
+        "15",
+        "6"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5422,11 +6232,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act16d5_token_inker",
           "count": 80
-        },
-        {
-          "type": "CHAR",
-          "id": "char_345_folnic",
-          "count": 1
         }
       ],
       "backImagePath": null
@@ -5469,7 +6274,8 @@
       "param": [
         "0",
         "act15d0_01",
-        "2"
+        "2",
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5525,7 +6331,8 @@
         "0",
         "act15d0_03",
         "2",
-        "3"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5568,7 +6375,7 @@
         },
         {
           "type": "CHAR",
-          "id": "char_265_sophia",
+          "id": "char_411_tomimi",
           "count": 1
         }
       ],
@@ -5586,7 +6393,8 @@
         "0",
         "act15d0_04",
         "2",
-        "3"
+        "3",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5647,7 +6455,8 @@
         "0",
         "act15d0_05",
         "3",
-        "3"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5675,7 +6484,7 @@
         "0",
         "act15d0_06",
         "2",
-        "trap_009_battery",
+        "3",
         "1"
       ],
       "unlockCondition": null,
@@ -5704,7 +6513,8 @@
         "0",
         "act15d0_06",
         "3",
-        "3"
+        "3",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -5732,7 +6542,7 @@
         "0",
         "act15d0_07",
         "2",
-        "sktok_farm",
+        "3",
         "2"
       ],
       "unlockCondition": null,
@@ -5789,7 +6599,7 @@
         "0",
         "act15d0_08",
         "2",
-        "trap_009_battery",
+        "3",
         "1"
       ],
       "unlockCondition": null,
@@ -6017,7 +6827,7 @@
         "0",
         "act15d0_ex07",
         "2",
-        "trap_014_tower",
+        "trap_009_battery",
         "0"
       ],
       "unlockCondition": null,
@@ -6030,6 +6840,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act15d0_token_ironSheet",
           "count": 90
+        },
+        {
+          "type": "CHAR",
+          "id": "char_345_folnic",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -6046,8 +6861,7 @@
         "0",
         "act15d0_ex08",
         "2",
-        "trap_014_tower",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6101,8 +6915,7 @@
       "param": [
         "0",
         "act15d0_01^act15d0_02^act15d0_03^act15d0_04^act15d0_05^act15d0_06^act15d0_07^act15d0_08^act15d0_ex01^act15d0_ex01#f#^act15d0_ex02^act15d0_ex02#f#^act15d0_ex03^act15d0_ex03#f#^act15d0_ex04^act15d0_ex04#f#^act15d0_ex05^act15d0_ex05#f#^act15d0_ex06^act15d0_ex06#f#^act15d0_ex07^act15d0_ex07#f#^act15d0_ex08^act15d0_ex08#f#",
-        "15",
-        "6"
+        "15"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6284,7 +7097,7 @@
         },
         {
           "type": "CHAR",
-          "id": "char_411_tomimi",
+          "id": "char_333_sidero",
           "count": 1
         }
       ],
@@ -6393,8 +7206,7 @@
         "0",
         "act13d5_06",
         "2",
-        "3",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6452,7 +7264,7 @@
         "act13d5_07",
         "2",
         "3",
-        "2"
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6594,8 +7406,8 @@
         "0",
         "act13d5_ex02",
         "2",
-        "trap_009_battery",
-        "1"
+        "3",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6623,7 +7435,8 @@
         "0",
         "act13d5_ex03",
         "2",
-        "3"
+        "trap_014_tower",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6651,7 +7464,8 @@
         "0",
         "act13d5_ex04",
         "2",
-        "3"
+        "trap_014_tower",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6679,7 +7493,8 @@
         "0",
         "act13d5_ex05",
         "2",
-        "3"
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6707,8 +7522,8 @@
         "0",
         "act13d5_ex06",
         "2",
-        "sktok_farm",
-        "0"
+        "6",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6736,8 +7551,7 @@
         "0",
         "act13d5_ex07",
         "2",
-        "trap_009_battery",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6797,6 +7611,7 @@
       "param": [
         "0",
         "act13d5_ex08#f#",
+        "3",
         "3"
       ],
       "unlockCondition": null,
@@ -6824,7 +7639,9 @@
       "param": [
         "0",
         "act13d5_01^act13d5_tr01^act13d5_02^act13d5_03^act13d5_04^act13d5_05^act13d5_06^act13d5_07^act13d5_08^act13d5_ex01^act13d5_ex01#f#^act13d5_ex02^act13d5_ex02#f#^act13d5_ex03^act13d5_ex03#f#^act13d5_ex04^act13d5_ex04#f#^act13d5_ex05^act13d5_ex05#f#^act13d5_ex06^act13d5_ex06#f#^act13d5_ex07^act13d5_ex07#f#^act13d5_ex08^act13d5_ex08#f#",
-        "800"
+        "800",
+        "sktok_farm",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6851,7 +7668,9 @@
       "param": [
         "0",
         "act13d5_01^act13d5_tr01^act13d5_02^act13d5_03^act13d5_04^act13d5_05^act13d5_06^act13d5_07^act13d5_08^act13d5_ex01^act13d5_ex01#f#^act13d5_ex02^act13d5_ex02#f#^act13d5_ex03^act13d5_ex03#f#^act13d5_ex04^act13d5_ex04#f#^act13d5_ex05^act13d5_ex05#f#^act13d5_ex06^act13d5_ex06#f#^act13d5_ex07^act13d5_ex07#f#^act13d5_ex08^act13d5_ex08#f#",
-        "3000"
+        "3000",
+        "trap_009_battery",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6878,7 +7697,8 @@
       "param": [
         "0",
         "act13d5_01^act13d5_tr01^act13d5_02^act13d5_03^act13d5_04^act13d5_05^act13d5_06^act13d5_07^act13d5_08^act13d5_ex01^act13d5_ex01#f#^act13d5_ex02^act13d5_ex02#f#^act13d5_ex03^act13d5_ex03#f#^act13d5_ex04^act13d5_ex04#f#^act13d5_ex05^act13d5_ex05#f#^act13d5_ex06^act13d5_ex06#f#^act13d5_ex07^act13d5_ex07#f#^act13d5_ex08^act13d5_ex08#f#",
-        "6000"
+        "6000",
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -6962,8 +7782,7 @@
         "0",
         "act12d0_03",
         "2",
-        "3",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7003,11 +7822,6 @@
           "type": "FURN",
           "id": "furni_bolivar_sofa_01",
           "count": 1
-        },
-        {
-          "type": "CHAR",
-          "id": "char_333_sidero",
-          "count": 1
         }
       ],
       "backImagePath": null
@@ -7024,8 +7838,7 @@
         "0",
         "act12d0_04",
         "2",
-        "3",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7172,8 +7985,7 @@
         "0",
         "act12d0_07",
         "2",
-        "3",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7201,7 +8013,8 @@
         "0",
         "act12d0_07",
         "3",
-        "3"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7228,9 +8041,7 @@
       "param": [
         "0",
         "act12d0_08",
-        "2",
-        "3",
-        "1"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7258,7 +8069,8 @@
         "0",
         "act12d0_08",
         "3",
-        "3"
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7286,8 +8098,8 @@
         "0",
         "act12d0_ex01",
         "2",
-        "sktok_farm",
-        "2"
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7314,9 +8126,7 @@
       "param": [
         "0",
         "act12d0_ex02",
-        "2",
-        "3",
-        "0"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7403,7 +8213,7 @@
         "act12d0_ex05",
         "2",
         "sktok_farm",
-        "2"
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7432,35 +8242,7 @@
         "act12d0_ex06",
         "2",
         "6",
-        "1"
-      ],
-      "unlockCondition": null,
-      "unlockParam": null,
-      "missionGroup": "act12d0",
-      "toPage": null,
-      "periodicalPoint": 0,
-      "rewards": [
-        {
-          "type": "ACTIVITY_ITEM",
-          "id": "act12d0_token_components",
-          "count": 60
-        }
-      ],
-      "backImagePath": null
-    },
-    {
-      "id": "12D0Activity_20",
-      "sortId": 20,
-      "description": "RI-EX-7 클리어",
-      "type": "ACTIVITY",
-      "preMissionIds": null,
-      "template": "CompleteAnyStage",
-      "templateType": "0",
-      "param": [
-        "0",
-        "act12d0_ex07",
-        "2",
-        "3"
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7482,6 +8264,33 @@
       "backImagePath": null
     },
     {
+      "id": "12D0Activity_20",
+      "sortId": 20,
+      "description": "RI-EX-7 클리어",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act12d0_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act12d0",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act12d0_token_components",
+          "count": 60
+        }
+      ],
+      "backImagePath": null
+    },
+    {
       "id": "12D0Activity_21",
       "sortId": 21,
       "description": "RI-EX-8 클리어",
@@ -7492,8 +8301,7 @@
       "param": [
         "0",
         "act12d0_ex08",
-        "2",
-        "3"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7520,7 +8328,6 @@
       "param": [
         "0",
         "act12d0_ex08#f#",
-        "3",
         "3"
       ],
       "unlockCondition": null,
@@ -7548,9 +8355,7 @@
       "param": [
         "0",
         "act12d0_01^act12d0_02^act12d0_tr01^act12d0_03^act12d0_04^act12d0_05^act12d0_06^act12d0_07^act12d0_08^act12d0_09^act12d0_ex01^act12d0_ex01#f#^act12d0_ex02^act12d0_ex02#f#^act12d0_ex03^act12d0_ex03#f#^act12d0_ex04^act12d0_ex04#f#^act12d0_ex05^act12d0_ex05#f#^act12d0_ex06^act12d0_ex06#f#^act12d0_ex07^act12d0_ex07#f#^act12d0_ex08^act12d0_ex08#f#",
-        "800",
-        "sktok_farm",
-        "0"
+        "800"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7577,9 +8382,7 @@
       "param": [
         "0",
         "act12d0_01^act12d0_02^act12d0_tr01^act12d0_03^act12d0_04^act12d0_05^act12d0_06^act12d0_07^act12d0_08^act12d0_09^act12d0_ex01^act12d0_ex01#f#^act12d0_ex02^act12d0_ex02#f#^act12d0_ex03^act12d0_ex03#f#^act12d0_ex04^act12d0_ex04#f#^act12d0_ex05^act12d0_ex05#f#^act12d0_ex06^act12d0_ex06#f#^act12d0_ex07^act12d0_ex07#f#^act12d0_ex08^act12d0_ex08#f#",
-        "3000",
-        "trap_009_battery",
-        "0"
+        "3000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7606,8 +8409,7 @@
       "param": [
         "0",
         "act12d0_01^act12d0_02^act12d0_tr01^act12d0_03^act12d0_04^act12d0_05^act12d0_06^act12d0_07^act12d0_08^act12d0_09^act12d0_ex01^act12d0_ex01#f#^act12d0_ex02^act12d0_ex02#f#^act12d0_ex03^act12d0_ex03#f#^act12d0_ex04^act12d0_ex04#f#^act12d0_ex05^act12d0_ex05#f#^act12d0_ex06^act12d0_ex06#f#^act12d0_ex07^act12d0_ex07#f#^act12d0_ex08^act12d0_ex08#f#",
-        "6000",
-        "3"
+        "6000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7808,8 +8610,7 @@
         "0",
         "act9d0_04",
         "3",
-        "3",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7837,7 +8638,8 @@
         "0",
         "act9d0_05",
         "2",
-        "3"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7865,8 +8667,7 @@
         "0",
         "act9d0_05",
         "3",
-        "3",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7894,7 +8695,8 @@
         "0",
         "act9d0_06",
         "2",
-        "3"
+        "3",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7922,8 +8724,7 @@
         "0",
         "act9d0_06",
         "3",
-        "3",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7950,7 +8751,9 @@
       "param": [
         "0",
         "act9d0_07",
-        "2"
+        "2",
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -7978,8 +8781,7 @@
         "0",
         "act9d0_07",
         "3",
-        "sktok_farm",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8007,8 +8809,8 @@
         "0",
         "act9d0_08",
         "2",
-        "trap_009_battery",
-        "1"
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8035,7 +8837,9 @@
       "param": [
         "0",
         "act9d0_08",
-        "3"
+        "3",
+        "trap_014_tower",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8092,8 +8896,7 @@
         "0",
         "act9d0_ex02",
         "2",
-        "trap_014_tower",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8121,8 +8924,7 @@
         "0",
         "act9d0_ex03",
         "2",
-        "sktok_farm",
-        "0"
+        "6"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8150,7 +8952,7 @@
         "0",
         "act9d0_ex04",
         "2",
-        "6",
+        "sktok_farm",
         "0"
       ],
       "unlockCondition": null,
@@ -8163,11 +8965,6 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag",
           "count": 80
-        },
-        {
-          "type": "CHAR",
-          "id": "char_345_folnic",
-          "count": 1
         }
       ],
       "backImagePath": null
@@ -8183,7 +8980,9 @@
       "param": [
         "0",
         "act9d0_ex05",
-        "2"
+        "2",
+        "trap_009_battery",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8195,6 +8994,11 @@
           "type": "ACTIVITY_ITEM",
           "id": "act9d0_token_dogTag",
           "count": 100
+        },
+        {
+          "type": "CHAR",
+          "id": "char_345_folnic",
+          "count": 1
         }
       ],
       "backImagePath": null
@@ -8210,7 +9014,8 @@
       "param": [
         "0",
         "act9d0_ex06",
-        "2"
+        "2",
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8402,7 +9207,8 @@
         "1",
         "a001_03",
         "1",
-        "3"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8458,7 +9264,8 @@
         "1",
         "a001_05",
         "1",
-        "3"
+        "3",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8514,7 +9321,8 @@
         "1",
         "a001_ex01",
         "1",
-        "3"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8571,7 +9379,8 @@
         "1",
         "a001_ex03",
         "1",
-        "3"
+        "3",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8742,8 +9551,8 @@
         "0",
         "a001_01^a001_02^a001_03^a001_ex01^a001_ex02^a001_ex03^a001_04^a001_05^a001_06^a001_ex04^a001_ex05^a001_ex06^a001_ex04#f#^a001_ex05#f#^a001_ex06#f#",
         "2000",
-        "trap_014_tower",
-        "0"
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8800,7 +9609,8 @@
         "0",
         "act11d0_02",
         "2",
-        "3"
+        "trap_014_tower",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8828,7 +9638,7 @@
         "0",
         "act11d0_03",
         "2",
-        "6"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -8856,7 +9666,7 @@
         "0",
         "act11d0_03",
         "3",
-        "sktok_farm",
+        "6",
         "0"
       ],
       "unlockCondition": null,
@@ -9054,6 +9864,7 @@
       "param": [
         "0",
         "act11d0_07",
+        "3",
         "3"
       ],
       "unlockCondition": null,
@@ -9224,7 +10035,7 @@
         "0",
         "act11d0_ex04",
         "2",
-        "3",
+        "trap_009_battery",
         "1"
       ],
       "unlockCondition": null,
@@ -9253,8 +10064,7 @@
         "0",
         "act11d0_ex05",
         "2",
-        "trap_009_battery",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9282,7 +10092,7 @@
         "0",
         "act11d0_ex06",
         "2",
-        "3",
+        "sktok_farm",
         "2"
       ],
       "unlockCondition": null,
@@ -9311,8 +10121,8 @@
         "0",
         "act11d0_ex07",
         "2",
-        "sktok_farm",
-        "2"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9340,7 +10150,8 @@
         "0",
         "act11d0_ex08",
         "2",
-        "3"
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9368,8 +10179,7 @@
         "0",
         "act11d0_ex08#f#",
         "3",
-        "trap_009_battery",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9397,7 +10207,8 @@
         "0",
         "act11d0_01^act11d0_02^act11d0_03^act11d0_04^act11d0_05^act11d0_06^act11d0_07^act11d0_08^act11d0_ex01^act11d0_ex01#f#^act11d0_ex02^act11d0_ex02#f#^act11d0_ex03^act11d0_ex03#f#^act11d0_ex04^act11d0_ex04#f#^act11d0_ex05^act11d0_ex05#f#^act11d0_ex06^act11d0_ex06#f#^act11d0_ex07^act11d0_ex07#f#^act11d0_ex08^act11d0_ex08#f#^act11d0_s01^act11d0_s01#f#^act11d0_s02^act11d0_s02#f#^act11d0_mo01",
         "800",
-        "3"
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9425,8 +10236,8 @@
         "0",
         "act11d0_01^act11d0_02^act11d0_03^act11d0_04^act11d0_05^act11d0_06^act11d0_07^act11d0_08^act11d0_ex01^act11d0_ex01#f#^act11d0_ex02^act11d0_ex02#f#^act11d0_ex03^act11d0_ex03#f#^act11d0_ex04^act11d0_ex04#f#^act11d0_ex05^act11d0_ex05#f#^act11d0_ex06^act11d0_ex06#f#^act11d0_ex07^act11d0_ex07#f#^act11d0_ex08^act11d0_ex08#f#^act11d0_s01^act11d0_s01#f#^act11d0_s02^act11d0_s02#f#^act11d0_mo01",
         "4000",
-        "sktok_farm",
-        "2"
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9454,8 +10265,8 @@
         "0",
         "act11d0_01^act11d0_02^act11d0_03^act11d0_04^act11d0_05^act11d0_06^act11d0_07^act11d0_08^act11d0_ex01^act11d0_ex01#f#^act11d0_ex02^act11d0_ex02#f#^act11d0_ex03^act11d0_ex03#f#^act11d0_ex04^act11d0_ex04#f#^act11d0_ex05^act11d0_ex05#f#^act11d0_ex06^act11d0_ex06#f#^act11d0_ex07^act11d0_ex07#f#^act11d0_ex08^act11d0_ex08#f#^act11d0_s01^act11d0_s01#f#^act11d0_s02^act11d0_s02#f#^act11d0_mo01",
         "8000",
-        "trap_009_battery",
-        "1"
+        "3",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9541,7 +10352,8 @@
         "2",
         "20",
         "enemy_1092_mdgint^enemy_1092_mdgint_2",
-        "3"
+        "sktok_farm",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9598,8 +10410,7 @@
         "0",
         "act11d0_s01#f#",
         "1",
-        "trap_009_battery",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9626,7 +10437,6 @@
       "param": [
         "0",
         "a001_01",
-        "3",
         "3"
       ],
       "unlockCondition": null,
@@ -9762,7 +10572,6 @@
       "param": [
         "0",
         "a001_06",
-        "3",
         "3"
       ],
       "unlockCondition": null,
@@ -9791,7 +10600,8 @@
         "0",
         "a001_ex01",
         "3",
-        "3"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9819,8 +10629,7 @@
         "0",
         "a001_ex02",
         "3",
-        "3",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9848,7 +10657,8 @@
         "0",
         "a001_ex03",
         "3",
-        "3"
+        "3",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9876,8 +10686,7 @@
         "0",
         "a001_ex04",
         "3",
-        "3",
-        "2"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9905,7 +10714,8 @@
         "0",
         "a001_ex05",
         "3",
-        "3"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9933,8 +10743,7 @@
         "0",
         "a001_ex06",
         "3",
-        "trap_009_battery",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9962,7 +10771,8 @@
         "0",
         "a001_01^a001_02^a001_03^a001_ex01^a001_ex02^a001_ex03^a001_04^a001_05^a001_06^a001_ex04^a001_ex05^a001_ex06^a001_ex04#f#^a001_ex05#f#^a001_ex06#f#",
         "1000",
-        "3"
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -9990,8 +10800,8 @@
         "0",
         "a001_01^a001_02^a001_03^a001_ex01^a001_ex02^a001_ex03^a001_04^a001_05^a001_06^a001_ex04^a001_ex05^a001_ex06^a001_ex04#f#^a001_ex05#f#^a001_ex06#f#",
         "5000",
-        "sktok_farm",
-        "2"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10019,8 +10829,8 @@
         "0",
         "a001_01^a001_02^a001_03^a001_ex01^a001_ex02^a001_ex03^a001_04^a001_05^a001_06^a001_ex04^a001_ex05^a001_ex06^a001_ex04#f#^a001_ex05#f#^a001_ex06#f#",
         "10000",
-        "3",
-        "1"
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10047,9 +10857,8 @@
       "param": [
         "0",
         "100",
-        "act5d0_08",
-        "trap_009_battery",
-        "1"
+        "1",
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10076,8 +10885,9 @@
       "param": [
         "0",
         "300",
-        "1",
-        "3"
+        "act5d0_08",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10104,9 +10914,9 @@
       "param": [
         "0",
         "500",
-        "act5d0_09",
-        "sktok_farm",
-        "2"
+        "1",
+        "3",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10134,8 +10944,8 @@
         "0",
         "1000",
         "act5d0_09",
-        "trap_009_battery",
-        "1"
+        "sktok_farm",
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10162,9 +10972,9 @@
       "param": [
         "1",
         "200",
-        "1",
-        "3",
-        "0"
+        "act5d0_09",
+        "trap_009_battery",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10247,9 +11057,8 @@
       "param": [
         "1",
         "2000",
-        "act5d0_ex05",
-        "sktok_farm",
-        "0"
+        "1",
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10276,8 +11085,8 @@
       "param": [
         "0",
         "20000",
-        "act5d0_ex07",
-        "trap_009_battery",
+        "act5d0_ex05",
+        "sktok_farm",
         "0"
       ],
       "unlockCondition": null,
@@ -10305,8 +11114,9 @@
       "param": [
         "0",
         "50000",
-        "1",
-        "3"
+        "act5d0_ex07",
+        "trap_009_battery",
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10333,6 +11143,7 @@
       "param": [
         "0",
         "100000",
+        "1",
         "3"
       ],
       "unlockCondition": null,
@@ -10485,6 +11296,147 @@
       "backImagePath": null
     },
     {
+      "id": "5sreActivity_s1",
+      "sortId": 26,
+      "description": "사건이 갑자기 발생하여 다음과 같이 기록하였다. \n아홉 개의 꼬리가 달린 아이가 <@act.missionTips>처음으로</> 전투에 참여하였다.\n그녀의 독특한 오리지늄 아츠로 인해,\n<@act.missionTips>적들은 처음부터 끝까지 그 소리를 내는 기계들을 만질 수 없었다.</>",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "7",
+      "param": [
+        "7",
+        "3",
+        "act11d0_04",
+        "trap_014_tower",
+        "0"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "act11d0_token_warrant",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_s2",
+      "sortId": 27,
+      "description": "어떠한 외부의 힘에도 의존해선 안된다.\n그것들은 너의 마법으로 하여금 순수함을 잃게 할 것이다.\n<@act.missionTips>분노가 퍼지는</> 순간엔,\n<@act.missionTips>모든 장치를 포기하고 싸워야 한다.</>",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "6",
+      "param": [
+        "6",
+        "3",
+        "act11d0_06",
+        "trap_014_tower",
+        "0"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "act11d0_token_warrant",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_s3",
+      "sortId": 28,
+      "description": "새벽 안개에 펜을 잡기가 어렵다.\n<@act.missionTips>월루몽드의 바위가</> 땅위에 우뚝 솟았다가 와르르 무너진다.\n<@act.missionTips>스무 거인이 쓰러질 때</>까지, 대지는 침묵하지 않을 것이다.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "2",
+      "param": [
+        "2",
+        "20",
+        "enemy_1092_mdgint^enemy_1092_mdgint_2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "act11d0_token_warrant",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_s4",
+      "sortId": 29,
+      "description": "<@act.missionTips>대의회탑 아래에서</>,\n<@act.missionTips>머드락</>이라 불리는 살카즈가 한 걸음 내디뎠다.\n불꽃이 온 도시를 휘감고 있지만,\n문앞을 지키는 사람은 <@act.missionTips>여섯 명</>에 불과하다.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "5",
+      "param": [
+        "5",
+        "3",
+        "act11d0_08",
+        "6",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "act11d0_token_warrant",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
+      "id": "5sreActivity_s5",
+      "sortId": 30,
+      "description": "사건의 말미에서 의식은 나의 머리에서 벗어나기 시작했다.\n증오했던 도시가 상처투성이가 된 것을 보았지만 기쁘지는 않았다.\n남은 사람들은 <@act.missionTips> 수배령을 들고 황야로 들어갔고, 조우전은 이미 시작되었다.</>\n<@act.missionTips>떠돌아다니는 세 명의 거인과</>,\n우리의 산이 내 눈에 들어왔다.",
+      "type": "ACTIVITY",
+      "preMissionIds": null,
+      "template": "CompleteStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act11d0_s01#f#",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act5sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "act11d0_token_warrant",
+          "count": 1
+        }
+      ],
+      "backImagePath": null
+    },
+    {
       "id": "14D7Activity_1",
       "sortId": 1,
       "description": "3★ 평가로 CB-1 클리어",
@@ -10582,7 +11534,8 @@
         "1",
         "act5d0_04",
         "1",
-        "3"
+        "3",
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10610,8 +11563,7 @@
         "1",
         "act5d0_05",
         "1",
-        "3",
-        "1"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10697,7 +11649,7 @@
         "act5d0_07",
         "1",
         "3",
-        "1"
+        "0"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -10811,8 +11763,7 @@
         "1",
         "act5d0_09",
         "1",
-        "3",
-        "0"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -11647,7 +12598,7 @@
       "param": [
         "0",
         "1200",
-        "10"
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -11674,7 +12625,7 @@
       "param": [
         "0",
         "1800",
-        "25"
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -11701,7 +12652,7 @@
       "param": [
         "2",
         "35000",
-        "40"
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -11727,8 +12678,7 @@
       "templateType": "2",
       "param": [
         "2",
-        "70000",
-        "3003"
+        "70000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -11861,7 +12811,8 @@
       "templateType": "3",
       "param": [
         "3",
-        "800"
+        "800",
+        "60"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -11888,7 +12839,7 @@
       "param": [
         "3",
         "1600",
-        "3003"
+        "8"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -11915,7 +12866,7 @@
       "param": [
         "3",
         "2400",
-        "3003"
+        "16"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -11942,7 +12893,7 @@
       "param": [
         "0",
         "4",
-        "3003"
+        "24"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -11968,8 +12919,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "8",
-        "20"
+        "8"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -11995,8 +12945,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "12",
-        "40"
+        "12"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12022,8 +12971,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "1000",
-        "60"
+        "1000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12050,7 +12998,7 @@
       "param": [
         "1",
         "2000",
-        "8"
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12077,7 +13025,7 @@
       "param": [
         "1",
         "3000",
-        "16"
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12265,8 +13213,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "3000",
-        "40"
+        "3000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12292,7 +13239,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "6000"
+        "6000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12318,7 +13266,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "10000"
+        "10000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12451,8 +13400,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "200",
-        "3003"
+        "200"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12478,8 +13426,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "300",
-        "3003"
+        "300"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12506,7 +13453,7 @@
       "param": [
         "1",
         "50",
-        "3003"
+        "20"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12532,7 +13479,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "100"
+        "100",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12558,7 +13506,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "150"
+        "150",
+        "60"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12665,8 +13614,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "1",
-        "60"
+        "1"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12692,8 +13640,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "2",
-        "8"
+        "2"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12719,8 +13666,7 @@
       "templateType": "1",
       "param": [
         "1",
-        "3",
-        "16"
+        "3"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12747,7 +13693,7 @@
       "param": [
         "0",
         "60",
-        "24"
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12773,7 +13719,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "120"
+        "120",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12799,7 +13746,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "200"
+        "200",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12825,7 +13773,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "600"
+        "600",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12851,8 +13800,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "1200",
-        "10"
+        "1200"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12878,8 +13826,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "1800",
-        "25"
+        "1800"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12905,8 +13852,7 @@
       "templateType": "2",
       "param": [
         "2",
-        "35000",
-        "40"
+        "35000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12932,8 +13878,7 @@
       "templateType": "2",
       "param": [
         "2",
-        "70000",
-        "3003"
+        "70000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12959,8 +13904,7 @@
       "templateType": "2",
       "param": [
         "2",
-        "100000",
-        "3003"
+        "100000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -12986,7 +13930,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "60000"
+        "60000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13012,7 +13957,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "120000"
+        "120000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13038,7 +13984,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "200000"
+        "200000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13090,8 +14037,7 @@
       "templateType": "3",
       "param": [
         "3",
-        "1600",
-        "3003"
+        "1600"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13117,8 +14063,7 @@
       "templateType": "3",
       "param": [
         "3",
-        "2400",
-        "3003"
+        "2400"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13144,8 +14089,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "4",
-        "3003"
+        "4"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13171,7 +14115,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "8"
+        "8",
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13197,7 +14142,8 @@
       "templateType": "0",
       "param": [
         "0",
-        "12"
+        "12",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13223,7 +14169,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "1000"
+        "1000",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13463,7 +14410,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "3000"
+        "3000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13622,8 +14570,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "100",
-        "3003"
+        "100"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13860,7 +14807,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "1"
+        "1",
+        "10"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13886,7 +14834,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "2"
+        "2",
+        "25"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13912,7 +14861,8 @@
       "templateType": "1",
       "param": [
         "1",
-        "3"
+        "3",
+        "40"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13964,8 +14914,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "120",
-        "10"
+        "120"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -13991,8 +14940,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "200",
-        "25"
+        "200"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -14018,8 +14966,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "800",
-        "40"
+        "800"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -14097,7 +15044,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "50000"
+        "50000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -14123,7 +15071,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "100000"
+        "100000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -14149,7 +15098,8 @@
       "templateType": "2",
       "param": [
         "2",
-        "150000"
+        "150000",
+        "3003"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -14201,8 +15151,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "150000",
-        "3003"
+        "150000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -14228,8 +15177,7 @@
       "templateType": "0",
       "param": [
         "0",
-        "250000",
-        "3003"
+        "250000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -14255,8 +15203,7 @@
       "templateType": "3",
       "param": [
         "3",
-        "1000",
-        "3003"
+        "1000"
       ],
       "unlockCondition": null,
       "unlockParam": null,
@@ -15035,12 +15982,60 @@
   ],
   "missionGroup": [
     {
-      "id": "act18d3",
+      "id": "act5sre",
       "title": null,
       "type": "ACTIVITY",
       "preMissionGroup": null,
       "period": null,
       "rewards": [],
+      "missionIds": [
+        "5sreActivity_1",
+        "5sreActivity_2",
+        "5sreActivity_3",
+        "5sreActivity_4",
+        "5sreActivity_5",
+        "5sreActivity_6",
+        "5sreActivity_7",
+        "5sreActivity_8",
+        "5sreActivity_9",
+        "5sreActivity_10",
+        "5sreActivity_11",
+        "5sreActivity_12",
+        "5sreActivity_13",
+        "5sreActivity_14",
+        "5sreActivity_15",
+        "5sreActivity_16",
+        "5sreActivity_17",
+        "5sreActivity_18",
+        "5sreActivity_19",
+        "5sreActivity_20",
+        "5sreActivity_21",
+        "5sreActivity_22",
+        "5sreActivity_23",
+        "5sreActivity_24",
+        "5sreActivity_25",
+        "5sreActivity_s1",
+        "5sreActivity_s2",
+        "5sreActivity_s3",
+        "5sreActivity_s4",
+        "5sreActivity_s5"
+      ],
+      "startTs": 1639717200,
+      "endTs": 1640890799
+    },
+    {
+      "id": "act18d3",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [
+        {
+          "type": "CHAR_SKIN",
+          "id": "char_002_amiya@winter#1",
+          "count": 1
+        }
+      ],
       "missionIds": [
         "18D3Activity_1",
         "18D3Activity_2",
@@ -15068,9 +16063,9 @@
         "18D3Activity_24",
         "18D3Activity_25",
         "18D3Activity_26",
-        "16D5Activity_27",
-        "16D5Activity_28",
-        "16D5Activity_29",
+        "11D0Activity_s2",
+        "11D0Activity_s3",
+        "11D0Activity_s4",
         "11D0Activity_s5"
       ],
       "startTs": 1634792400,
@@ -15115,11 +16110,20 @@
         "18D0Activity_23",
         "18D0Activity_24",
         "17D5Activity_25",
-        "11D0Activity_s1",
-        "11D0Activity_s2",
-        "11D0Activity_s3",
-        "11D0Activity_s4",
-        "11D0Activity_s5"
+        "16D5Activity_26",
+        "16D5Activity_27",
+        "16D5Activity_28",
+        "16D5Activity_29",
+        "11D0Activity_s5",
+        "3D5Activity_31",
+        "3D5Activity_32",
+        "3D5Activity_33",
+        "3D5Activity_34",
+        "3D5Activity_35",
+        "3D5Activity_36",
+        "3D5Activity_37",
+        "3D5Activity_38",
+        "3D5Activity_39"
       ],
       "startTs": 1632967200,
       "endTs": 1634756399
@@ -15168,15 +16172,21 @@
         "16D5Activity_28",
         "16D5Activity_29",
         "11D0Activity_s5",
-        "3D5Activity_31",
-        "3D5Activity_32",
-        "3D5Activity_33",
-        "3D5Activity_34",
-        "3D5Activity_35",
-        "3D5Activity_36",
-        "3D5Activity_37",
-        "3D5Activity_38",
-        "3D5Activity_39"
+        "6D8Activity_31",
+        "6D8Activity_32",
+        "6D8Activity_33",
+        "6D8Activity_34",
+        "6D8Activity_35",
+        "6D8Activity_36",
+        "6D8Activity_37",
+        "6D8Activity_38",
+        "6D8Activity_39",
+        "6D8Activity_40",
+        "6D8Activity_41",
+        "6D8Activity_42",
+        "6D8Activity_43",
+        "6D8Activity_44",
+        "6D8Activity_45"
       ],
       "startTs": 1630990800,
       "endTs": 1632164399
@@ -15351,21 +16361,21 @@
         "16D5Activity_28",
         "16D5Activity_29",
         "11D0Activity_s5",
-        "6D8Activity_31",
-        "6D8Activity_32",
-        "6D8Activity_33",
-        "6D8Activity_34",
-        "6D8Activity_35",
-        "6D8Activity_36",
-        "6D8Activity_37",
-        "6D8Activity_38",
-        "6D8Activity_39",
-        "6D8Activity_40",
-        "6D8Activity_41",
-        "6D8Activity_42",
-        "6D8Activity_43",
-        "6D8Activity_44",
-        "6D8Activity_45"
+        "9D4Activity_31",
+        "9D4Activity_32",
+        "9D4Activity_33",
+        "9D4Activity_34",
+        "9D4Activity_35",
+        "9D4Activity_36",
+        "9D4Activity_37",
+        "9D4Activity_38",
+        "9D4Activity_39",
+        "9D4Activity_40",
+        "9D4Activity_41",
+        "9D4Activity_42",
+        "9D4Activity_43",
+        "9D4Activity_44",
+        "9D4Activity_45"
       ],
       "startTs": 1627610400,
       "endTs": 1629399599
@@ -15409,11 +16419,11 @@
         "15D0Activity_23",
         "15D0Activity_24",
         "15D0Activity_25",
-        "11D0Activity_s1",
-        "11D0Activity_s2",
-        "11D0Activity_s3",
-        "11D0Activity_s4",
-        "11D0Activity_s5",
+        "9D4Activity_26",
+        "9D4Activity_27",
+        "9D4Activity_28",
+        "9D4Activity_29",
+        "9D4Activity_30",
         "9D4Activity_31",
         "9D4Activity_32",
         "9D4Activity_33",
@@ -15472,11 +16482,11 @@
         "13D5Activity_23",
         "13D5Activity_24",
         "13D5Activity_25",
-        "9D4Activity_26",
-        "9D4Activity_27",
-        "9D4Activity_28",
-        "9D4Activity_29",
-        "9D4Activity_30",
+        "11D0Activity_s1",
+        "11D0Activity_s2",
+        "11D0Activity_s3",
+        "11D0Activity_s4",
+        "11D0Activity_s5",
         "9D4Activity_31",
         "9D4Activity_32",
         "9D4Activity_33",
@@ -15502,13 +16512,7 @@
       "type": "ACTIVITY",
       "preMissionGroup": null,
       "period": null,
-      "rewards": [
-        {
-          "type": "CHAR_SKIN",
-          "id": "char_002_amiya@winter#1",
-          "count": 1
-        }
-      ],
+      "rewards": [],
       "missionIds": [
         "12D0Activity_1",
         "12D0Activity_2",
@@ -15565,7 +16569,13 @@
       "type": "ACTIVITY",
       "preMissionGroup": null,
       "period": null,
-      "rewards": [],
+      "rewards": [
+        {
+          "type": "CHAR_SKIN",
+          "id": "char_002_amiya@winter#1",
+          "count": 1
+        }
+      ],
       "missionIds": [
         "9D0Activity_1",
         "9D0Activity_2",
@@ -15723,21 +16733,21 @@
         "11D0Activity_s3",
         "11D0Activity_s4",
         "11D0Activity_s5",
-        "9D4Activity_31",
-        "9D4Activity_32",
-        "9D4Activity_33",
-        "9D4Activity_34",
-        "9D4Activity_35",
-        "9D4Activity_36",
-        "9D4Activity_37",
-        "9D4Activity_38",
-        "9D4Activity_39",
-        "9D4Activity_40",
-        "9D4Activity_41",
-        "9D4Activity_42",
-        "9D4Activity_43",
-        "9D4Activity_44",
-        "9D4Activity_45"
+        "6D8Activity_31",
+        "6D8Activity_32",
+        "6D8Activity_33",
+        "6D8Activity_34",
+        "6D8Activity_35",
+        "6D8Activity_36",
+        "6D8Activity_37",
+        "6D8Activity_38",
+        "6D8Activity_39",
+        "6D8Activity_40",
+        "6D8Activity_41",
+        "6D8Activity_42",
+        "6D8Activity_43",
+        "6D8Activity_44",
+        "6D8Activity_45"
       ],
       "startTs": 1603861200,
       "endTs": 1605639599
@@ -15776,31 +16786,31 @@
         "14D7Activity_18",
         "14D7Activity_19",
         "14D7Activity_20",
-        "6D8Activity_21",
-        "6D8Activity_22",
-        "6D8Activity_23",
-        "6D8Activity_24",
-        "6D8Activity_25",
-        "6D8Activity_26",
-        "6D8Activity_27",
-        "6D8Activity_28",
-        "6D8Activity_29",
-        "6D8Activity_30",
-        "6D8Activity_31",
-        "6D8Activity_32",
-        "6D8Activity_33",
-        "6D8Activity_34",
-        "6D8Activity_35",
-        "6D8Activity_36",
-        "6D8Activity_37",
-        "6D8Activity_38",
-        "6D8Activity_39",
-        "6D8Activity_40",
-        "6D8Activity_41",
-        "6D8Activity_42",
-        "6D8Activity_43",
-        "6D8Activity_44",
-        "6D8Activity_45"
+        "9D4Activity_21",
+        "9D4Activity_22",
+        "9D4Activity_23",
+        "9D4Activity_24",
+        "9D4Activity_25",
+        "9D4Activity_26",
+        "9D4Activity_27",
+        "9D4Activity_28",
+        "9D4Activity_29",
+        "9D4Activity_30",
+        "9D4Activity_31",
+        "9D4Activity_32",
+        "9D4Activity_33",
+        "9D4Activity_34",
+        "9D4Activity_35",
+        "9D4Activity_36",
+        "9D4Activity_37",
+        "9D4Activity_38",
+        "9D4Activity_39",
+        "9D4Activity_40",
+        "9D4Activity_41",
+        "9D4Activity_42",
+        "9D4Activity_43",
+        "9D4Activity_44",
+        "9D4Activity_45"
       ],
       "startTs": 1580886000,
       "endTs": 1582657199
@@ -32316,6 +33326,64 @@
         "newsInfoList": null,
         "newsServerInfoList": null,
         "miscHub": {}
+      },
+      "act5sre": {
+        "tokenItemId": "act11d0_token_currency_rep_1",
+        "zoneDescList": {
+          "act5sre_zone1": {
+            "zoneId": "act5sre_zone1",
+            "unlockText": "미개방",
+            "displayStartTime": 1639717200
+          },
+          "act5sre_zone2": {
+            "zoneId": "act5sre_zone2",
+            "unlockText": "[대의회탑] 클리어 후 개방",
+            "displayStartTime": 1639717200
+          },
+          "act5sre_zone3": {
+            "zoneId": "act5sre_zone3",
+            "unlockText": "[대의회탑] 클리어 후 개방",
+            "displayStartTime": 1639717200
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": {
+          "5sreActivity_s1": {
+            "missionId": "5sreActivity_s1",
+            "missionTitle": "01",
+            "sortId": 1,
+            "missionIndex": "01"
+          },
+          "5sreActivity_s2": {
+            "missionId": "5sreActivity_s2",
+            "missionTitle": "02",
+            "sortId": 2,
+            "missionIndex": "02"
+          },
+          "5sreActivity_s3": {
+            "missionId": "5sreActivity_s3",
+            "missionTitle": "03",
+            "sortId": 3,
+            "missionIndex": "03"
+          },
+          "5sreActivity_s4": {
+            "missionId": "5sreActivity_s4",
+            "missionTitle": "04",
+            "sortId": 4,
+            "missionIndex": "04"
+          },
+          "5sreActivity_s5": {
+            "missionId": "5sreActivity_s5",
+            "missionTitle": "05",
+            "sortId": 5,
+            "missionIndex": "05"
+          }
+        },
+        "hasSubMission": true,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {}
       }
     },
     "LOGIN_ONLY": {
@@ -33709,6 +34777,9 @@
     ],
     "act7mini": [
       "act7mini_token_permit"
+    ],
+    "act5sre": [
+      "act11d0_token_currency_rep_1"
     ]
   },
   "syncPoints": {
@@ -33775,6 +34846,10 @@
     "act7mini": [
       1639015200,
       1639594799
+    ],
+    "act5sre": [
+      1639717200,
+      1640545199
     ]
   },
   "dynActs": {
