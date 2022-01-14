@@ -907,7 +907,7 @@
     "ba.rem": "<color=#F49800>{0}</color>",
     "ba.kw": "<color=#00B0FF>{0}</color>",
     "ba.pn": "<i>{0}</i>",
-    "ba.talpu": "<color=#F49800>{0}</color>",
+    "ba.talpu": "<color=#0098DC>{0}</color>",
     "eb.key": "<color=#00FFFF>{0}</color>",
     "eb.danger": "<color=#FF0000>{0}</color>",
     "rc.title": "<color=#FFFFFF>{0}</color>",
@@ -1041,9 +1041,9 @@
   ],
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
-  "replicateShopStartTime": 1606424400,
-  "recruitPoolVersion": 2,
-  "TSO": 1624384800,
+  "replicateShopStartTime": 1597186800,
+  "recruitPoolVersion": 5,
+  "TSO": 1608246000,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
   "voucherSkinRedeem": 1,
@@ -1267,7 +1267,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "Alternate",
-      "description": "Includes the following Operators:\nLava the Purgatory, Skadi the Corrupting Heart"
+      "description": "Includes the following Operators:\nLava the Purgatory, Skadi the Corrupting Heart, Ch'en the Holungday"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
@@ -1298,6 +1298,17 @@
       "termId": "ba.strong",
       "termName": "Vigor",
       "description": "When HP is higher than a certain percentage, increases ATK by the effect percentage (only the highest ATK increase from effects of this type will be applied)"
+    },
+    "ba.dt.erosion": {
+      "termId": "ba.dt.erosion",
+      "termName": "Corrosion Damage",
+      "description": "After Corrosion Damage reaches 1000, the affected unit has its DEF permanently reduced by 100 and takes 800 Physical damage"
+    },
+    "cc.sk.manu1": {
+      "termId": "cc.sk.manu1",
+      "termName": "Standardization Skills",
+      "description": "Include the following skills\nStandardization α, Standardization β"
     }
-  }
+  },
+  "charmEquipCount": 5
 }
