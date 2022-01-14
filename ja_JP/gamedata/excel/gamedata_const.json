@@ -907,7 +907,7 @@
     "ba.rem": "<color=#F49800>{0}</color>",
     "ba.kw": "<color=#00B0FF>{0}</color>",
     "ba.pn": "<i>{0}</i>",
-    "ba.talpu": "<color=#F49800>{0}</color>",
+    "ba.talpu": "<color=#0098DC>{0}</color>",
     "eb.key": "<color=#00FFFF>{0}</color>",
     "eb.danger": "<color=#FF0000>{0}</color>",
     "rc.title": "<color=#FFFFFF>{0}</color>",
@@ -1037,9 +1037,9 @@
   ],
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
-  "replicateShopStartTime": 1606366800,
-  "recruitPoolVersion": 2,
-  "TSO": 1624327200,
+  "replicateShopStartTime": 1597129200,
+  "recruitPoolVersion": 5,
+  "TSO": 1608188400,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
   "voucherSkinRedeem": 1,
@@ -1263,7 +1263,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "異格",
-      "description": "対象オペレーター：\n炎獄ラヴァ、濁心スカジ"
+      "description": "対象オペレーター：\n炎獄ラヴァ、濁心スカジ、遊龍チェン"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
@@ -1294,6 +1294,17 @@
       "termId": "ba.strong",
       "termName": "勇猛",
       "description": "HPが最大値の一定比率以上である時、攻撃力が効果値分増加（同名の状態は効果値が高いほうのみ適用）"
+    },
+    "ba.dt.erosion": {
+      "termId": "ba.dt.erosion",
+      "termName": "侵蝕ダメージ",
+      "description": "侵蝕ダメージの蓄積値が1000になると、800の物理ダメージを受けて、退場まで防御力-100"
+    },
+    "cc.sk.manu1": {
+      "termId": "cc.sk.manu1",
+      "termName": "標準化系スキル",
+      "description": "対象スキル：\n標準化α、標準化β"
     }
-  }
+  },
+  "charmEquipCount": 5
 }
