@@ -947,6 +947,26 @@
       "templateShopId": null,
       "medalGroupId": null,
       "isReplicate": false
+    },
+    "act8mini": {
+      "id": "act8mini",
+      "type": "MINISTORY",
+      "displayType": "MINISTORY",
+      "name": "비질로",
+      "startTime": 1645074000,
+      "endTime": 1645642799,
+      "rewardEndTime": 1645901999,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": "shop_act8mini",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_8mini_01",
+        "medal_activity_8mini_02"
+      ],
+      "isReplicate": false
     }
   },
   "zoneToActivity": {
@@ -999,7 +1019,8 @@
     "act6sre_zone2": "act6sre",
     "act12side_zone1": "act12side",
     "act12side_zone2": "act12side",
-    "act12side_zone3": "act12side"
+    "act12side_zone3": "act12side",
+    "act8mini_zone1": "act8mini"
   },
   "missionData": [
     {
@@ -36590,6 +36611,37 @@
           "weekly_9",
           "act7mini_zone1"
         ]
+      },
+      "act8mini": {
+        "tokenItemId": "act8mini_token_vigilo",
+        "zoneDescList": {
+          "act8mini_zone1": {
+            "zoneId": "act8mini_zone1",
+            "unlockText": "메인 스테이지 1-10 클리어 필요"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "main_8",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "act8mini_zone1"
+        ]
       }
     },
     "ROGUELIKE": {
@@ -39545,6 +39597,9 @@
       "act12side_token_key02",
       "act12side_token_key03",
       "act12side_token_key04"
+    ],
+    "act8mini": [
+      "act8mini_token_vigilo"
     ]
   },
   "syncPoints": {
@@ -39619,7 +39674,8 @@
     "act6sre": [
       1643958000,
       1644778799
-    ]
+    ],
+    "act8mini": []
   },
   "dynActs": {
     "act16d5d2": {
