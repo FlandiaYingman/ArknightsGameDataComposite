@@ -19541,8 +19541,110 @@
   "retroCoinMax": 2,
   "retroUnlockCost": 1,
   "retroDetail": "今週の【事象の結晶】補充権：{0}\n\n<color=#dd4747>使用方法</color>\n【事象の結晶】を{1}個消費して、【エピソード】または【サイドストーリー】を解放することができます。\n\n<color=#dd4747>獲得方法</color>\n一週につき（月曜04:00～次週の月曜03:59）【事象の結晶】の補充権が{2}個付与されます。補充権は月曜04:00にリセットされ、前週のものは流用できません。\n【事象の結晶】の所持数が上限に達していない場合、ログイン後に自動的に補充権を消費し、【事象の結晶】を{3}個獲得します。\n\n<color=#dd4747>所持上限</color>\n補充による【事象の結晶】の所持上限は{4}個です。",
-  "retroTrailList": {},
-  "ruleData": null,
+  "retroTrailList": {
+    "permanent_sidestory_2_Heart_Of_Surging_Flame": {
+      "retroId": "permanent_sidestory_2_Heart_Of_Surging_Flame",
+      "trailStartTime": 1646110800,
+      "trailRewardList": [
+        {
+          "trailRewardId": "trailReward_sidestory_2_1",
+          "starCount": 10,
+          "rewardItem": {
+            "id": "char_348_ceylon",
+            "count": 1,
+            "type": "CHAR"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_2_2",
+          "starCount": 20,
+          "rewardItem": {
+            "id": "furni_dropS004_kraftwerk_01",
+            "count": 1,
+            "type": "FURN"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_2_3",
+          "starCount": 30,
+          "rewardItem": {
+            "id": "voucher_full_ceylon",
+            "count": 1,
+            "type": "VOUCHER_FULL_POTENTIAL"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_2_4",
+          "starCount": 40,
+          "rewardItem": {
+            "id": "uni_set_guitar",
+            "count": 1,
+            "type": "UNI_COLLECTION"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_2_5",
+          "starCount": 50,
+          "rewardItem": {
+            "id": "furni_dropS004_deadBySunrise_01",
+            "count": 1,
+            "type": "FURN"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_2_6",
+          "starCount": 60,
+          "rewardItem": {
+            "id": "avatar_activity_OF",
+            "count": 1,
+            "type": "PLAYER_AVATAR"
+          }
+        }
+      ],
+      "stageList": [
+        "a003_01",
+        "a003_02",
+        "a003_03",
+        "a003_04",
+        "a003_05",
+        "a003_06",
+        "a003_07",
+        "a003_08",
+        "a003_f01",
+        "a003_f02",
+        "a003_f03",
+        "a003_f04",
+        "a003_ex01",
+        "a003_ex01#f#",
+        "a003_ex02",
+        "a003_ex02#f#",
+        "a003_ex03",
+        "a003_ex03#f#",
+        "a003_ex04",
+        "a003_ex04#f#",
+        "a003_ex05",
+        "a003_ex05#f#",
+        "a003_ex06",
+        "a003_ex06#f#"
+      ],
+      "relatedChar": "char_348_ceylon",
+      "relatedFullPotentialItemId": null,
+      "themeColor": "9cd7c9",
+      "fullPotentialItemId": "voucher_full_ceylon"
+    }
+  },
+  "ruleData": {
+    "title": [
+      "★数の計算",
+      "オペレーターの手紙",
+      "家具パック"
+    ],
+    "desc": [
+      "<color=#0098dc>記録復元</color>が解放されると、対応するイベントのステージ（幕間ストーリーとチュートリアルを除く）をクリアすることで得た評価は累計★数に計上され、数に応じて<color=#0098dc>記録復元</color>で報酬と交換することが可能です。",
+      "特定のオペレーターの潜在能力を最大レベルまで強化することができます。開封（使用）後、すでに所持している当該オペレーターの印も同時に<color=#cc3030>全て</color>消費されます。\n既に該当するオペレーターの潜在能力が最大レベルまで強化されている場合、オペレーターの手紙を獲得すると自動的に開封され、<color=#cc3030>印を消費することはありません</color>。",
+      "対応するイベントの限定インテリアのうち未所持のものを全て獲得できます（購買部取り扱い品を除く）。なお限定インテリアをすでに全て入手している場合は<color=#0098dc>記録復元</color>を通じて家具パックを受け取ることはできません。"
+    ]
+  },
   "retroPreShowTime": 604800,
   "useTemplate": false
 }
