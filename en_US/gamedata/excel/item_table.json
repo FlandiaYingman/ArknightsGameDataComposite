@@ -11061,6 +11061,87 @@
       "obtainApproach": "Event Stage drop, Event mission reward",
       "classifyType": "NONE",
       "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [
+        {
+          "stageId": "act13d5_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_08",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "voucher_full_grani": {
+      "itemId": "voucher_full_grani",
+      "name": "Grani's Personal Letter",
+      "description": "The letter only contains a few simple well-wishes—its writer, likely right at the Doctor's side by the time the letter lands on the desk.",
+      "rarity": 4,
+      "iconId": "voucher_full_grani",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 690002,
+      "usage": "A personal letter sent to the Doctor, used to improve Grani to Max Potential.",
+      "obtainApproach": "Record Restoration",
+      "classifyType": "MATERIAL",
+      "itemType": "VOUCHER_FULL_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "voucher_full_flameb": {
+      "itemId": "voucher_full_flameb",
+      "name": "Flamebringer's Personal Letter",
+      "description": "A letter that discusses floriculture, the life philosophy derived from it, and the sender's pointed feelings about the Doctor.",
+      "rarity": 4,
+      "iconId": "voucher_full_flameb",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 690003,
+      "usage": "A personal letter sent to the Doctor, used to improve Flamebringer to Max Potential.",
+      "obtainApproach": "Record Restoration",
+      "classifyType": "MATERIAL",
+      "itemType": "VOUCHER_FULL_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "uni_set_pizza": {
+      "itemId": "uni_set_pizza",
+      "name": "Grani and the Knights' Treasure Furniture Pack",
+      "description": "As long as you hand the order over to Closure, she'll help you get your hands on any furniture you don't already own. Don't worry, she's not losing out.",
+      "rarity": 4,
+      "iconId": "uni_set_pizza",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "Obtain all 'Express Chain Pizzeria' furniture exclusive to the Grani and the Knights' Treasure event not yet acquired.",
+      "obtainApproach": "Record Restoration",
+      "classifyType": "NONE",
+      "itemType": "UNI_COLLECTION",
       "stageDropList": [],
       "buildingProductList": []
     }
@@ -11667,7 +11748,10 @@
     "furni_annihilation_s7_01": 1,
     "char_332_archet@shining#1": 1,
     "char_274_astesi@shining#1": 1,
-    "char_440_pinecn@shining#1": 1
+    "char_440_pinecn@shining#1": 1,
+    "furni_foolsDay_penguin_01": 1,
+    "char_126_shotst@epoque#10": 1,
+    "char_265_sophia@epoque#11": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
@@ -11783,12 +11867,105 @@
           "type": "FURN"
         }
       ]
+    },
+    "uni_set_pizza": {
+      "uniCollectionItemId": "uni_set_pizza",
+      "uniqueItem": [
+        {
+          "id": "furni_pizza_priceList_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_cupboard_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_shelf_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_brickWallSticker_01",
+          "count": 5,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_ceilingLights_01",
+          "count": 4,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_column_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_barTable_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_barStool_01",
+          "count": 4,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_exitIndicator_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_abstractArt_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_diningTable_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_chair_L_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_chair_R_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_chair_F_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_wallpaper_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_pizza_floor_01",
+          "count": 1,
+          "type": "FURN"
+        }
+      ]
     }
   },
   "fullPotentialCharacters": {
     "char_348_ceylon": {
       "itemId": "voucher_full_ceylon",
       "ts": 1646146800
+    },
+    "char_220_grani": {
+      "itemId": "voucher_full_grani",
+      "ts": 1649948400
+    },
+    "char_131_flameb": {
+      "itemId": "voucher_full_flameb",
+      "ts": 1649948400
     }
   }
 }
