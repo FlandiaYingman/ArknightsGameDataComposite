@@ -1038,7 +1038,7 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597129200,
-  "recruitPoolVersion": 5,
+  "recruitPoolVersion": 6,
   "TSO": 1608188400,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
@@ -1138,7 +1138,7 @@
     "cc.bd_a1": {
       "termId": "cc.bd_a1",
       "termName": "知覚情報",
-      "description": "スキル<$cc.bd_A><@cc.rem>思念連鎖</></>に影響する\n付与可能オペレーター：\nロスモンティス、ウィスパーレイン、シー、アイリス"
+      "description": "<$cc.bd_A><@cc.rem>思念連鎖</></>と関連するスキルに影響する\n付与可能オペレーター：\nロスモンティス、ウィスパーレイン、シー、アイリス"
     },
     "cc.bd_b1": {
       "termId": "cc.bd_b1",
@@ -1158,12 +1158,12 @@
     "cc.bd_a1_a1": {
       "termId": "cc.bd_a1_a1",
       "termName": "記憶の欠片",
-      "description": "スキル<$cc.bd_a1><@cc.rem>知覚情報</></>に影響する\n付与可能オペレーター：\nウィスパーレイン"
+      "description": "<$cc.bd_a1><@cc.rem>知覚情報</></>と関連するスキルに影響する\n付与可能オペレーター：\nウィスパーレイン"
     },
     "cc.bd_a1_a2": {
       "termId": "cc.bd_a1_a2",
       "termName": "夢",
-      "description": "スキル<$cc.bd_a1><@cc.rem>知覚情報</></>に影響する\n付与可能オペレーター：\nアイリス"
+      "description": "<$cc.bd_a1><@cc.rem>知覚情報</></>と関連するスキルに影響する\n付与可能オペレーター：\nアイリス"
     },
     "cc.m.var1": {
       "termId": "cc.m.var1",
@@ -1263,7 +1263,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "異格",
-      "description": "対象オペレーター：\n炎獄ラヴァ、濁心スカジ、遊龍チェン"
+      "description": "対象オペレーター：\n炎獄ラヴァ、濁心スカジ、遊龍チェン、耀騎士ニアール"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
@@ -1324,6 +1324,21 @@
       "termId": "ba.dt.element",
       "termName": "元素ダメージ",
       "description": "以下のダメージ種類を含む：\n<$ba.dt.neural>神経ダメージ</>、<$ba.dt.erosion>侵蝕ダメージ</>、<$ba.dt.burning>灼熱ダメージ</>"
+    },
+    "cc.g.psk": {
+      "termId": "cc.g.psk",
+      "termName": "レッドパイン騎士団",
+      "description": "対象オペレーター：\nフレイムテイル、ファートゥース、アッシュロック、ワイルドメイン、ジャスティスナイト"
+    },
+    "cc.tag.op": {
+      "termId": "cc.tag.op",
+      "termName": "作業用プラットフォーム",
+      "description": "対象オペレーター：\nLancet-2、Castle-3、THRM-EX、ジャスティスナイト"
+    },
+    "cc.tag.knight": {
+      "termId": "cc.tag.knight",
+      "termName": "騎士",
+      "description": "対象オペレーター：\nニアール、耀騎士ニアール（異格）、ブレミシャイン、ウィスラッシュ、フレイムテイル、ファートゥース、アッシュロック、ワイルドメイン、ジャスティスナイト、グラベル"
     }
   },
   "charmEquipCount": 5,
