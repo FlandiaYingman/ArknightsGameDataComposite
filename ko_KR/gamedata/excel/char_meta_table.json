@@ -353,7 +353,8 @@
       "char_436_whispr"
     ],
     "char_148_nearl": [
-      "char_148_nearl"
+      "char_148_nearl",
+      "char_1014_nearl2"
     ],
     "char_226_hmau": [
       "char_226_hmau"
@@ -635,6 +636,24 @@
     ],
     "char_430_fartth": [
       "char_430_fartth"
+    ],
+    "char_4000_jnight": [
+      "char_4000_jnight"
+    ],
+    "char_4004_pudd": [
+      "char_4004_pudd"
+    ],
+    "char_496_wildmn": [
+      "char_496_wildmn"
+    ],
+    "char_489_serum": [
+      "char_489_serum"
+    ],
+    "char_449_glider": [
+      "char_449_glider"
+    ],
+    "char_420_flamtl": [
+      "char_420_flamtl"
     ]
   },
   "spCharMissions": {
@@ -1063,11 +1082,164 @@
           }
         ]
       }
+    },
+    "char_148_nearl": {
+      "mission_char_148_nearl_0": {
+        "charId": "char_148_nearl",
+        "missionId": "mission_char_148_nearl_0",
+        "sortId": 0,
+        "condType": "EVOLVE_PHASE",
+        "param": [
+          "1",
+          "1"
+        ],
+        "rewards": [
+          {
+            "id": "3221",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3301",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2003",
+            "count": 30,
+            "type": "CARD_EXP"
+          },
+          {
+            "id": "4001",
+            "count": 30000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "mission_char_148_nearl_1": {
+        "charId": "char_148_nearl",
+        "missionId": "mission_char_148_nearl_1",
+        "sortId": 1,
+        "condType": "EVOLVE_PHASE",
+        "param": [
+          "1",
+          "70"
+        ],
+        "rewards": [
+          {
+            "id": "3222",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30074",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30033",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2003",
+            "count": 80,
+            "type": "CARD_EXP"
+          },
+          {
+            "id": "4001",
+            "count": 80000,
+            "type": "GOLD"
+          }
+        ]
+      }
+    },
+    "char_1014_nearl2": {
+      "mission_char_1014_nearl2_0": {
+        "charId": "char_1014_nearl2",
+        "missionId": "mission_char_1014_nearl2_0",
+        "sortId": 0,
+        "condType": "EVOLVE_PHASE",
+        "param": [
+          "1",
+          "1"
+        ],
+        "rewards": [
+          {
+            "id": "3231",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3301",
+            "count": 10,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2003",
+            "count": 50,
+            "type": "CARD_EXP"
+          },
+          {
+            "id": "4001",
+            "count": 50000,
+            "type": "GOLD"
+          }
+        ]
+      },
+      "mission_char_1014_nearl2_1": {
+        "charId": "char_1014_nearl2",
+        "missionId": "mission_char_1014_nearl2_1",
+        "sortId": 1,
+        "condType": "EVOLVE_PHASE",
+        "param": [
+          "2",
+          "1"
+        ],
+        "rewards": [
+          {
+            "id": "3232",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 1,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31014",
+            "count": 2,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "3302",
+            "count": 10,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "2003",
+            "count": 100,
+            "type": "CARD_EXP"
+          },
+          {
+            "id": "4001",
+            "count": 100000,
+            "type": "GOLD"
+          }
+        ]
+      }
     }
   },
   "spCharLaunchTimes": {
     "char_1011_lava2": 1627628400,
     "char_1012_skadi2": 1634799600,
-    "char_1013_chen2": 1642143600
+    "char_1013_chen2": 1642143600,
+    "char_1014_nearl2": 1651114800
   }
 }
