@@ -1271,7 +1271,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "异格",
-      "description": "包含以下干员\n炎狱炎熔、浊心斯卡蒂、假日威龙陈、耀骑士临光、寒芒克洛丝"
+      "description": "包含以下干员\n炎狱炎熔、浊心斯卡蒂、假日威龙陈、耀骑士临光、寒芒克洛丝、归溟幽灵鲨"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
@@ -1377,18 +1377,29 @@
       "termId": "ba.dt.apoptosis",
       "termName": "凋亡损伤",
       "description": "凋亡损伤累计至1000时，15秒内无法开启技能，每秒损失1点技力并受到100点法术伤害"
+    },
+    "ba.debuff": {
+      "termId": "ba.debuff",
+      "termName": "异常状态",
+      "description": "包括<$ba.stun>晕眩</>、<$ba.cold>寒冷</>、<$ba.frozen>冻结</>等"
+    },
+    "ba.levitate": {
+      "termId": "ba.levitate",
+      "termName": "浮空",
+      "description": "变为空中单位，无法移动、攻击及使用技能；对重量大于3的单位持续时间减半"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "27.5.0",
-  "resPrefVersion": "27d0d0",
+  "dataVersion": "27.7.0",
+  "resPrefVersion": "27d7d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS检测到该关卡对应更低作战环境未获得三星评价，将自动开启<color=#fe6435>环境难度兼容</color>；\n环境难度兼容状态下挑战该关卡将<color=#fe6435>同时消耗</color>该环境与更低环境的理智，通关后则<color=#fe6435>会同步作战进度，并同时获得</color>该环境与更低环境的报酬奖励",
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
   "mainlineEasyDesc": "更轻松的通关环境\n三星首通奖励仅有对应养成类材料\n\n<color=#c6c6c6>剧情体验环境只能继续解锁下一章节的对应剧情体验环境</color>",
   "mainlineNormalDesc": "常规的游玩体验环境\n三星首通奖励含有至纯源石",
-  "addedRewardDisplayZone": "main_9"
+  "addedRewardDisplayZone": "main_9",
+  "isDynIllustStartEnabled": true
 }
