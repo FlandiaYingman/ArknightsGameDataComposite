@@ -2446,25 +2446,58 @@
             }
           },
           {
-            "resKey": "cgbird_equip_1_3_p1",
+            "resKey": "cgbird_equip_1_3_p2",
             "target": "TALENT",
             "isToken": false,
             "addOrOverrideTalentDataBundle": {
               "candidates": [
                 {
-                  "displayRangeId": true,
-                  "upgradeDescription": "",
-                  "talentIndex": -1,
+                  "displayRangeId": false,
+                  "upgradeDescription": "攻击范围内的友方单位法术抗性+15且受到的治疗效果提升5%",
+                  "talentIndex": 0,
                   "unlockCondition": {
                     "phase": 2,
                     "level": 60
                   },
                   "requiredPotentialRank": 0,
-                  "prefabKey": "10",
-                  "name": null,
+                  "prefabKey": "1",
+                  "name": "白恶魔的庇护",
                   "description": null,
-                  "rangeId": "y-3",
-                  "blackboard": []
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "magic_resistance",
+                      "value": 15
+                    },
+                    {
+                      "key": "heal_scale",
+                      "value": 1.05
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "攻击范围内的友方单位法术抗性+17<@ba.talpu>（+2）</>且受到的治疗效果提升5%",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "白恶魔的庇护",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "magic_resistance",
+                      "value": 17
+                    },
+                    {
+                      "key": "heal_scale",
+                      "value": 1.05
+                    }
+                  ]
                 }
               ]
             },
@@ -5696,6 +5729,10 @@
                     {
                       "key": "value",
                       "value": 0.1
+                    },
+                    {
+                      "key": "skill@pasngr_s_1.chain.atk_scale",
+                      "value": 0.9
                     }
                   ],
                   "overrideDescripton": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>{value:0%}</>并造成一定时间<$ba.sluggish>停顿</>",
@@ -5762,6 +5799,10 @@
                     {
                       "key": "value",
                       "value": 0.1
+                    },
+                    {
+                      "key": "skill@pasngr_s_1.chain.atk_scale",
+                      "value": 0.9
                     }
                   ],
                   "overrideDescripton": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>{value:0%}</>并造成一定时间<$ba.sluggish>停顿</>",
@@ -5879,6 +5920,10 @@
                     {
                       "key": "value",
                       "value": 0.1
+                    },
+                    {
+                      "key": "skill@pasngr_s_1.chain.atk_scale",
+                      "value": 0.9
                     }
                   ],
                   "overrideDescripton": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害降低<@ba.kw>{value:0%}</>并造成一定时间<$ba.sluggish>停顿</>",
@@ -20883,6 +20928,14 @@
                     {
                       "key": "attack@chain.atk_scale",
                       "value": 1
+                    },
+                    {
+                      "key": "skill@pasngr_s_1.chain.atk_scale",
+                      "value": 1
+                    },
+                    {
+                      "key": "skill@chain.atk_scale",
+                      "value": 1
                     }
                   ],
                   "overrideDescripton": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害<@ba.kw>不再降低</>并造成短暂的<$ba.sluggish>停顿</>",
@@ -20935,6 +20988,14 @@
                     },
                     {
                       "key": "attack@chain.atk_scale",
+                      "value": 1
+                    },
+                    {
+                      "key": "skill@pasngr_s_1.chain.atk_scale",
+                      "value": 1
+                    },
+                    {
+                      "key": "skill@chain.atk_scale",
                       "value": 1
                     }
                   ],
@@ -21056,6 +21117,14 @@
                     },
                     {
                       "key": "attack@chain.atk_scale",
+                      "value": 1
+                    },
+                    {
+                      "key": "skill@pasngr_s_1.chain.atk_scale",
+                      "value": 1
+                    },
+                    {
+                      "key": "skill@chain.atk_scale",
                       "value": 1
                     }
                   ],
