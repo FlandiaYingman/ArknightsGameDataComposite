@@ -952,7 +952,11 @@
     "ba.xg": "<color=#FF00FF>{0}</color>",
     "linkagega.charname": "<color=#FFF6A9>{0}</color>",
     "linkagega.title": "<color=#FF8A00>{0}</color>",
-    "tu.ht": "<color=#ff8d00>{0}</color>"
+    "tu.ht": "<color=#ff8d00>{0}</color>",
+    "ro1.get": "<color=#E5B684>{0}</color>",
+    "attainga.desc": "<color=#FF0000>{0}</color>",
+    "attainga.desc2": "<color=#FFD800>{0}</color>",
+    "attainga.attention": "<color=#E1322C>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1098,7 +1102,7 @@
     "ba.frozen": {
       "termId": "ba.frozen",
       "termName": "凍結",
-      "description": "移動、攻撃およびスキル発動不可（<$ba.cold>寒冷</>状態から派生）"
+      "description": "移動、攻撃およびスキル発動不可（<$ba.cold>寒冷</>状態から派生）。凍結状態の敵の術耐性-15"
     },
     "ba.sleep": {
       "termId": "ba.sleep",
@@ -1138,12 +1142,12 @@
     "cc.bd_a1": {
       "termId": "cc.bd_a1",
       "termName": "知覚情報",
-      "description": "<$cc.bd_A><@cc.rem>思念連鎖</></>と関連するスキルに影響する\n付与可能オペレーター：\nロスモンティス、ウィスパーレイン、シー、アイリス"
+      "description": "<$cc.bd_A><@cc.rem>思念連鎖</></>と関連するスキルに影響する\n付与可能オペレーター：\nロスモンティス、ウィスパーレイン、シー、リィン、アイリス"
     },
     "cc.bd_b1": {
       "termId": "cc.bd_b1",
       "termName": "俗世の憂",
-      "description": "付与可能オペレーター：\nシー、ウユウ、マルベリー"
+      "description": "付与可能オペレーター：\nシー、リィン、ウユウ、マルベリー"
     },
     "cc.bd_ash": {
       "termId": "cc.bd_ash",
@@ -1248,7 +1252,7 @@
     "cc.g.lda": {
       "termId": "cc.g.lda",
       "termName": "リー探偵事務所",
-      "description": "対象オペレーター：\nア、ウン、ワイフー"
+      "description": "対象オペレーター：\nリー、ア、ウン、ワイフー"
     },
     "cc.g.ussg": {
       "termId": "cc.g.ussg",
@@ -1263,7 +1267,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "異格",
-      "description": "対象オペレーター：\n炎獄ラヴァ、濁心スカジ、遊龍チェン、耀騎士ニアール"
+      "description": "対象オペレーター：\n炎獄ラヴァ、濁心スカジ、遊龍チェン、耀騎士ニアール、寒芒クルース"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
@@ -1339,9 +1343,22 @@
       "termId": "cc.tag.knight",
       "termName": "騎士",
       "description": "対象オペレーター：\nニアール、耀騎士ニアール（異格）、ブレミシャイン、ウィスラッシュ、フレイムテイル、ファートゥース、アッシュロック、ワイルドメイン、ジャスティスナイト、グラベル"
+    },
+    "cc.g.karlan": {
+      "termId": "cc.g.karlan",
+      "termName": "カランド貿易",
+      "description": "対象オペレーター：\nシルバーアッシュ、ノーシス、プラマニクス、クリフハート、マッターホルン、クーリエ、イェラ、オーロラ"
+    },
+    "cc.g.sui": {
+      "termId": "cc.g.sui",
+      "termName": "歳",
+      "description": "対象オペレーター：\nニェン、シー、リィン"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事象の欠片の数が足りません。購買資格証ショップあるいはイベントショップで購入してください",
-  "isVoiceLangSettingEnabled": true
+  "isVoiceLangSettingEnabled": true,
+  "isRoguelikeTopicFuncEnabled": false,
+  "dataVersion": "25.1.0 (风雪过境)",
+  "resPrefVersion": "25d0d0"
 }
