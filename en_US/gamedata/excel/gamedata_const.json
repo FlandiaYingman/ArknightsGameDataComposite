@@ -952,7 +952,11 @@
     "ba.xg": "<color=#FF00FF>{0}</color>",
     "linkagega.charname": "<color=#FFF6A9>{0}</color>",
     "linkagega.title": "<color=#FF8A00>{0}</color>",
-    "tu.ht": "<color=#ff8d00>{0}</color>"
+    "tu.ht": "<color=#ff8d00>{0}</color>",
+    "ro1.get": "<color=#E5B684>{0}</color>",
+    "attainga.desc": "<color=#FF0000>{0}</color>",
+    "attainga.desc2": "<color=#FFD800>{0}</color>",
+    "attainga.attention": "<color=#E1322C>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1102,7 +1106,7 @@
     "ba.frozen": {
       "termId": "ba.frozen",
       "termName": "Frozen",
-      "description": "Unable to move, attack, or use skills (inflicted through the <$ba.cold>Cold</> status)"
+      "description": "Unable to move, attack, or use skills (inflicted through the <$ba.cold>Cold</> status); When enemies are frozen, RES -15"
     },
     "ba.sleep": {
       "termId": "ba.sleep",
@@ -1142,12 +1146,12 @@
     "cc.bd_a1": {
       "termId": "cc.bd_a1",
       "termName": "Perception Information",
-      "description": "Affects <$cc.bd_A><@cc.rem>Chain of Thought</></>\nProvided by the following Operator(s):\nRosmontis, Dusk, Whisperain, Iris"
+      "description": "Affects skills related to <$cc.bd_A><@cc.rem>Chain of Thought</></>\nProvided by the following Operators:\nRosmontis, Dusk, Ling, Whisperain, Iris"
     },
     "cc.bd_b1": {
       "termId": "cc.bd_b1",
       "termName": "Worldly Plight",
-      "description": "Provided by the following Operator(s):\nDusk, Mr. Nothing, Mulberry"
+      "description": "Provided by the following Operators\nDusk, Ling, Mr. Nothing, Mulberry"
     },
     "cc.bd_ash": {
       "termId": "cc.bd_ash",
@@ -1252,7 +1256,7 @@
     "cc.g.lda": {
       "termId": "cc.g.lda",
       "termName": "Lee's Detective Agency",
-      "description": "Includes the following Operators:\nAak, Hung, Waai Fu"
+      "description": "Includes the following Operators\nLee, Aak, Hung, Waai Fu"
     },
     "cc.g.ussg": {
       "termId": "cc.g.ussg",
@@ -1267,7 +1271,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "Alternate",
-      "description": "Includes the following Operators: \nLava the Purgatory, Skadi the Corrupting Heart, Ch'en the Holungday, Nearl the Radiant Knight"
+      "description": "Includes the following Operators\nLava the Purgatory, Skadi the Corrupting Heart, Ch'en the Holungday, Nearl the Radiant Knight, Kroos the Keen Glint"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
@@ -1277,12 +1281,12 @@
     "cc.c.abyssal2_1": {
       "termId": "cc.c.abyssal2_1",
       "termName": "Special Bonus",
-      "description": "For every <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> Operator stationed in a Factory, the Control Center provides <@cc.vup>5%</> Productivity for every Factory with an <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> Operator stationed within it, up to a maximum of <@cc.vup>45%</> Productivity for a single Factory"
+      "description": "For every <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed in a Factory, the Control Center provides <@cc.vup>5%</> Productivity for every Factory with an <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed within it, up to a maximum of <@cc.vup>45%</> Productivity"
     },
     "cc.c.abyssal2_2": {
       "termId": "cc.c.abyssal2_2",
       "termName": "Special Bonus",
-      "description": "For every <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> Operator stationed in a Factory, the Control Center provides <@cc.vup>10%</> Productivity for every Factory with an <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> Operator stationed within it, up to a maximum of <@cc.vup>90%</> Productivity for a single Factory"
+      "description": "For every <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed in a Factory, the Control Center provides <@cc.vup>10%</> Productivity for every Factory with an <$cc.g.abyssal><@cc.kw>Abyssal Hunter</></> operator stationed within it, up to a maximum of <@cc.vup>90%</> Productivity"
     },
     "cc.c.abyssal2_3": {
       "termId": "cc.c.abyssal2_3",
@@ -1343,9 +1347,22 @@
       "termId": "cc.tag.knight",
       "termName": "Knight",
       "description": "Includes the following Operators: \nNearl the Radiant Knight, Nearl (mutually exclusive), Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, 'Justice Knight', Gravel"
+    },
+    "cc.g.karlan": {
+      "termId": "cc.g.karlan",
+      "termName": "Karlan Trade",
+      "description": "Includes the following Operators\nSilverAsh, Gnosis, Pramanix, Cliffheart, Matterhorn, Courier, Kjera, Aurora"
+    },
+    "cc.g.sui": {
+      "termId": "cc.g.sui",
+      "termName": "Sui",
+      "description": "Includes the following Operators\nNian, Dusk, Ling"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "Insufficient Information Fragments. Acquire more from the Purchase Certificates Store or the Event Store.",
-  "isVoiceLangSettingEnabled": true
+  "isVoiceLangSettingEnabled": true,
+  "isRoguelikeTopicFuncEnabled": false,
+  "dataVersion": "25.1.0 (风雪过境)",
+  "resPrefVersion": "25d0d0"
 }
