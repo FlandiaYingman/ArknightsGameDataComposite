@@ -957,7 +957,8 @@
     "attainga.desc": "<color=#FF0000>{0}</color>",
     "attainga.desc2": "<color=#FFD800>{0}</color>",
     "attainga.attention": "<color=#E1322C>{0}</color>",
-    "lv.ez": "<color=#0098dc>{0}</color>"
+    "lv.ez": "<color=#0098dc>{0}</color>",
+    "lv.hdbg": "<color=#7ba61f>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1176,12 +1177,12 @@
     "cc.m.var1": {
       "termId": "cc.m.var1",
       "termName": "回收利用",
-      "description": "由以下干员提供\n红云"
+      "description": "拥有该基建技能的干员\n红云"
     },
     "cc.m.var2": {
       "termId": "cc.m.var2",
       "termName": "配合意识",
-      "description": "由以下干员提供\n槐琥"
+      "description": "拥有该基建技能的干员\n槐琥"
     },
     "cc.t.lgd": {
       "termId": "cc.t.lgd",
@@ -1417,14 +1418,39 @@
       "termId": "cc.bd_a1_a3",
       "termName": "小节",
       "description": "可影响<$cc.bd_a1><@cc.rem>感知信息</></>相关变量\n由以下干员的基建技能提供\n车尔尼"
+    },
+    "cc.t.snsant1": {
+      "termId": "cc.t.snsant1",
+      "termName": "天道酬勤·α",
+      "description": "拥有该基建技能的干员\n雪雉"
+    },
+    "cc.t.snsant2": {
+      "termId": "cc.t.snsant2",
+      "termName": "天道酬勤·β",
+      "description": "拥有该基建技能的干员\n雪雉"
+    },
+    "cc.t.strong2": {
+      "termId": "cc.t.strong2",
+      "termName": "特殊叠加规则",
+      "description": "无法单独与<$cc.t.snsant1><@cc.rem>天道酬勤·α</></>、<$cc.t.snsant2><@cc.rem>天道酬勤·β</></>进行叠加，且优先生效\n当<$cc.t.snsant1><@cc.rem>天道酬勤·α</></>、<$cc.t.snsant2><@cc.rem>天道酬勤·β</></>与其他技能进行叠加时，该技能会对此叠加效果进行叠加"
+    },
+    "cc.t.flow_gold": {
+      "termId": "cc.t.flow_gold",
+      "termName": "赤金生产线",
+      "description": "每有<@cc.kw>1</>间<@cc.kw>制造站</>生产<@cc.kw>赤金</>，则赤金生产线<@cc.kw>+1</>"
+    },
+    "cc.sk.manu2": {
+      "termId": "cc.sk.manu2",
+      "termName": "莱茵科技类技能",
+      "description": "包含以下技能\n莱茵科技·α、莱茵科技·β"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "28.4.0",
-  "resPrefVersion": "28d2d0",
+  "dataVersion": "29.0.0",
+  "resPrefVersion": "29d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS检测到该关卡对应更低作战环境未获得三星评价，将自动开启<color=#fe6435>环境难度兼容</color>；\n环境难度兼容状态下挑战该关卡将<color=#fe6435>同时消耗</color>该环境与更低环境的理智，通关后则<color=#fe6435>会同步作战进度，并同时获得</color>该环境与更低环境的报酬奖励",
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
