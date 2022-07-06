@@ -1945,6 +1945,21 @@
       "gachaRuleType": "NORMAL"
     },
     {
+      "gachaPoolId": "NORM_JP_15_1_2",
+      "gachaIndex": 4,
+      "openTime": 1657220400,
+      "endTime": 1658429999,
+      "gachaPoolName": "スカウト最初の10回以内に★5以上確定！",
+      "gachaPoolSummary": "7月22日03:59まで",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "LMTGSID": null,
+      "gachaRuleType": "NORMAL"
+    },
+    {
       "gachaPoolId": "LIMITED_JP_4_3_1",
       "gachaIndex": 1,
       "openTime": 1609304400,
@@ -1957,7 +1972,11 @@
       "CDPrimColor": "FF1200",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_903",
-      "gachaRuleType": "LIMITED"
+      "gachaRuleType": "LIMITED",
+      "linkageRuleId": "LINKAGE_R6_01",
+      "linkageParam": {
+        "guaranteeTarget6Count": 120
+      }
     },
     {
       "gachaPoolId": "LIMITED_JP_7_1_1",
@@ -2010,11 +2029,7 @@
       "CDPrimColor": "39B47A",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_1601",
-      "gachaRuleType": "LIMITED",
-      "linkageRuleId": "LINKAGE_R6_01",
-      "linkageParam": {
-        "guaranteeTarget6Count": 120
-      }
+      "gachaRuleType": "LIMITED"
     },
     {
       "gachaPoolId": "LIMITED_JP_10_2_1",
@@ -2029,7 +2044,8 @@
       "CDPrimColor": "1DCBDB",
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_1803",
-      "gachaRuleType": "LIMITED"
+      "gachaRuleType": "LIMITED",
+      "storeTextColor": "FFFFFF"
     },
     {
       "gachaPoolId": "LIMITED_JP_12_1_1",
@@ -2045,6 +2061,10 @@
       "CDSecColor": "FFFFFF",
       "LMTGSID": "LMTGS_COIN_2101",
       "gachaRuleType": "LIMITED",
+      "linkageRuleId": "LINKAGE_R6_01",
+      "linkageParam": {
+        "guaranteeTarget6Count": 120
+      },
       "storeTextColor": "FFFFFF"
     },
     {
@@ -3476,6 +3496,13 @@
       "startTime": 1656554400,
       "endTime": 1657738799,
       "spriteId": "picNorm_jp_15_1_1"
+    },
+    {
+      "poolId": "NORM_JP_15_1_2",
+      "index": 6,
+      "startTime": 1657220400,
+      "endTime": 1658429999,
+      "spriteId": "picNorm_jp_15_1_2"
     }
   ],
   "freeGacha": [
