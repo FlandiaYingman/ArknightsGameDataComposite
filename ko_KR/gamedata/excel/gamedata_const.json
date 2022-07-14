@@ -1356,12 +1356,22 @@
       "termId": "cc.g.sui",
       "termName": "쉐이",
       "description": "다음 오퍼레이터 포함\n니엔, 시, 링"
+    },
+    "cc.w.ncdeer1": {
+      "termId": "cc.w.ncdeer1",
+      "termName": "인과",
+      "description": "소모 컨디션이 <@cc.kw>4</> 이하인 항목 가공 시 부산물 미산출 경우, 소모한 컨디션 <@cc.kw>1</>당 <@cc.kw>인과</> <@cc.kw>1</>점으로 전환"
+    },
+    "cc.w.ncdeer2": {
+      "termId": "cc.w.ncdeer2",
+      "termName": "업보",
+      "description": "소모 컨디션이 <@cc.kw>8</>인 항목 가공 시 부산물 미산출 경우, 소모한 컨디션 <@cc.kw>1</>당 <@cc.kw>업보</> <@cc.kw>1</>점으로 전환"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "기록 조각이 부족합니다. 증명서 상점 또는 이벤트 기간에 열리는 상점을 통해 교환할 수 있습니다.",
   "isVoiceLangSettingEnabled": true,
-  "isRoguelikeTopicFuncEnabled": false,
-  "dataVersion": "25.1.1 (常规池 | 剿灭更新)",
+  "isRoguelikeTopicFuncEnabled": true,
+  "dataVersion": "25.2.0 (签到活动 | 画中人复刻)",
   "resPrefVersion": "25d0d0"
 }
