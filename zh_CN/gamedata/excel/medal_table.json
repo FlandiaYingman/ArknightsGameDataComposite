@@ -18848,6 +18848,61 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_activity_11mini_01",
+      "medalName": "“时光隙隅”",
+      "medalType": "activityMedal",
+      "slotId": 245,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "UnlockStoryGroup",
+      "unlockParam": [
+        "act11mini",
+        "level_rune_09-01",
+        "18",
+        "1638129599"
+      ],
+      "getMethod": "解锁未尽篇章的全部故事",
+      "description": "剧目将暂歇，镜头会转向，电影有谢幕，看客终离场。但属于人的故事不会结束。\n不论观众们注视与否，时光永远在向前流动。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1658217600,
+      "expireTimes": [
+        {
+          "start": 1638734400,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_11mini_02",
+      "medalName": "未知的成长奖章",
+      "medalType": "activityMedal",
+      "slotId": 246,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "GotItemBeforeTime",
+      "unlockParam": [
+        "1",
+        "char_211_adnach@sale#5",
+        "1659038399"
+      ],
+      "getMethod": "未尽篇章活动期间内，获得时装无痕行者",
+      "description": "他是什么时候有的变化？他是经历了何种磨砺才成长为如今这样？有太多不为人所知的汗水与努力，等待我们发现。\n给他一声祝贺，再送上夸奖与肯定。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1658217600,
+      "expireTimes": [
+        {
+          "start": 1659038400,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_activity_10mini_01",
       "medalName": "“阴云下的火花”",
       "medalType": "activityMedal",
@@ -18857,9 +18912,9 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act10mini",
-        "level_rune_09-01",
-        "18",
-        "1638129599"
+        "act14side_ex02",
+        "fall_down",
+        "20"
       ],
       "getMethod": "解锁阴云火花的全部故事",
       "description": "在卡拉顿城镇的阴云中，名为变革的火花正在闪耀。在更加遥远的荒地之上，火花正在凝聚成更有破坏力的形态。\n“你看，我的朋友，时代要变了。”",
@@ -18868,9 +18923,9 @@
       "displayTime": 1644912000,
       "expireTimes": [
         {
-          "start": 1638734400,
+          "start": 1641844800,
           "end": -1,
-          "type": "PERM"
+          "type": "TEMP"
         }
       ],
       "medalRewardGroup": []
@@ -18886,7 +18941,8 @@
       "unlockParam": [
         "1",
         "char_347_jaksel@whirlwind#2",
-        "1645732799"
+        "1645732799",
+        "30"
       ],
       "getMethod": "阴云火花活动期间内，在活动商店中获得杰克皮肤奖励",
       "description": "像电影中的警察那样，在公共场所来回穿梭，使用各种道具与犯罪分子缠斗，造成大量公物损坏......然后被领导训斥。\n现实里可别这么干，要写检查的。",
@@ -18900,7 +18956,8 @@
           "type": "PERM"
         }
       ],
-      "medalRewardGroup": []
+      "medalRewardGroup": [],
+      "isHidden": true
     },
     {
       "medalId": "medal_activity_9mini_01",
@@ -18912,9 +18969,9 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act9mini",
-        "act14side_ex02",
-        "fall_down",
-        "20"
+        "level_rune_10-01",
+        "18",
+        "1646251199"
       ],
       "getMethod": "解锁红松林的全部故事",
       "description": "记录了身在大骑士领的年轻人们烦恼与挣扎的蚀刻章。 \n人群熙熙攘攘，每个人都在试图寻找自己的路。",
@@ -18923,12 +18980,13 @@
       "displayTime": 1634284800,
       "expireTimes": [
         {
-          "start": 1641844800,
-          "end": -1,
-          "type": "TEMP"
+          "start": -1,
+          "end": 1629792000,
+          "type": "INIT"
         }
       ],
-      "medalRewardGroup": []
+      "medalRewardGroup": [],
+      "isHidden": true
     },
     {
       "medalId": "medal_activity_9mini_02",
@@ -18942,7 +19000,7 @@
         "1",
         "char_328_cammou@witch#2",
         "1635105599",
-        "30"
+        "trap_057_wpnsts"
       ],
       "getMethod": "在红松林活动中，获得时装安息处的怪盗",
       "description": "藏在卡达角色扮演服饰口袋里的小徽章。\n卡达偷偷带了很多摄像机在身上，等到游玩结束，她拿出剪辑好的剧情录像带，大家一定会很高兴的。",
@@ -18969,9 +19027,9 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act8mini",
-        "level_rune_10-01",
-        "18",
-        "1646251199"
+        "act1lock_c-01",
+        "enemy_1156_hymhr;enemy_1157_hymwr",
+        "2"
       ],
       "getMethod": "解锁如我所见的全部故事",
       "description": "这是您的蚀刻章，这是您的故事，其意义仅属于您。\n您当然是您，但多了解一下自己，又有什么坏处呢？",
@@ -18980,9 +19038,9 @@
       "displayTime": -1,
       "expireTimes": [
         {
-          "start": -1,
-          "end": 1629792000,
-          "type": "INIT"
+          "start": 1626033600,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -19000,7 +19058,7 @@
         "1",
         "char_145_prove@wild#5",
         "1626983999",
-        "trap_057_wpnsts"
+        "1653508799"
       ],
       "getMethod": "在如我所见活动中，获得时装荒原行者",
       "description": "\"购入外勤服装时附赠的纪念章。\n多走一步，多看一眼，多收获一份希望。\"",
@@ -19043,8 +19101,7 @@
           "type": "PERM"
         }
       ],
-      "medalRewardGroup": [],
-      "isHidden": true
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_7mini_01",
@@ -19056,9 +19113,9 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act7mini",
-        "1",
-        "18",
-        "1653508799"
+        "act11d0_mo01",
+        "trap_014_tower",
+        "3"
       ],
       "getMethod": "解锁灯火序曲的全部故事",
       "description": "镌刻许许多多彷徨与坚守的蚀刻章。\n人声潮涌，远处亮起的灯火恍如某种预兆。",
@@ -19067,13 +19124,17 @@
       "displayTime": -1,
       "expireTimes": [
         {
-          "start": -1,
-          "end": 1654747200,
-          "type": "INIT"
+          "start": 1596052800,
+          "end": 1623916799,
+          "type": "TEMP"
+        },
+        {
+          "start": 1625083200,
+          "end": -1,
+          "type": "PERM"
         }
       ],
-      "medalRewardGroup": [],
-      "isHidden": true
+      "medalRewardGroup": []
     },
     {
       "medalId": "medal_activity_7mini_02",
@@ -19086,8 +19147,8 @@
       "unlockParam": [
         "char_369_bena",
         "1623355199",
-        "18",
-        "1591646399"
+        "1610654399",
+        "1596484799"
       ],
       "getMethod": "在灯火序曲活动中，获得干员贝娜",
       "description": "一枚看上去像是童话书封面的蚀刻章，贝娜说这个故事在维多利亚家喻户晓。\n然而童话翻到最后一页，抬头还是得面对生活。",
@@ -19113,74 +19174,13 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act15d5",
-        "act11d0_mo01",
-        "trap_014_tower",
-        "3"
-      ],
-      "getMethod": "解锁此地之外的全部故事",
-      "description": "以罗德岛干员外勤任务地点记录图为原型制作的蚀刻章，星星点点的足迹见证干员们一路走来的所见所闻。\n每时每刻，都有不同的故事发生在大地上的各个角落。",
-      "advancedMedal": null,
-      "originMedal": null,
-      "displayTime": -1,
-      "expireTimes": [
-        {
-          "start": 1596052800,
-          "end": 1623916799,
-          "type": "TEMP"
-        },
-        {
-          "start": 1625083200,
-          "end": -1,
-          "type": "PERM"
-        }
-      ],
-      "medalRewardGroup": []
-    },
-    {
-      "medalId": "medal_activity_15d5_02",
-      "medalName": "外勤服饰纪念章",
-      "medalType": "activityMedal",
-      "slotId": 257,
-      "preMedalIdList": [],
-      "rarity": 2,
-      "template": "GotItemBeforeTime",
-      "unlockParam": [
-        "1",
-        "char_108_silent@winter#2",
-        "1610654399",
-        "1596484799"
-      ],
-      "getMethod": "在此地之外活动中，获得时装霜息",
-      "description": "购入外勤服装时附赠的纪念章。\n这件衣服舒适又温暖，赫默很久以前就预定好了。",
-      "advancedMedal": null,
-      "originMedal": null,
-      "displayTime": -1,
-      "expireTimes": [
-        {
-          "start": 1610654400,
-          "end": -1,
-          "type": "PERM"
-        }
-      ],
-      "medalRewardGroup": []
-    },
-    {
-      "medalId": "medal_activity_13d0_01",
-      "medalName": "风回大地纪念章",
-      "medalType": "activityMedal",
-      "slotId": 258,
-      "preMedalIdList": [],
-      "rarity": 2,
-      "template": "UnlockStoryGroup",
-      "unlockParam": [
-        "act13d0",
         "act12d0_08",
         "trap_016_peon",
         "0",
         "0"
       ],
-      "getMethod": "解锁踏寻往昔之风的全部故事",
-      "description": "一位干员在甲板乘凉时灵光一闪制作的蚀刻章。\n听说人从初生到消亡，吹拂在身边的总是同一股风。",
+      "getMethod": "解锁此地之外的全部故事",
+      "description": "以罗德岛干员外勤任务地点记录图为原型制作的蚀刻章，星星点点的足迹见证干员们一路走来的所见所闻。\n每时每刻，都有不同的故事发生在大地上的各个角落。",
       "advancedMedal": null,
       "originMedal": null,
       "displayTime": -1,
@@ -19199,6 +19199,68 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_activity_15d5_02",
+      "medalName": "外勤服饰纪念章",
+      "medalType": "activityMedal",
+      "slotId": 257,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "GotItemBeforeTime",
+      "unlockParam": [
+        "1",
+        "char_108_silent@winter#2",
+        "1610654399",
+        "8",
+        "0"
+      ],
+      "getMethod": "在此地之外活动中，获得时装霜息",
+      "description": "购入外勤服装时附赠的纪念章。\n这件衣服舒适又温暖，赫默很久以前就预定好了。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1610654400,
+          "end": -1,
+          "type": "PERM"
+        },
+        {
+          "start": 1634241600,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_activity_13d0_01",
+      "medalName": "风回大地纪念章",
+      "medalType": "activityMedal",
+      "slotId": 258,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "UnlockStoryGroup",
+      "unlockParam": [
+        "act13d0",
+        "level_rune_05-01",
+        "18",
+        "1605988799"
+      ],
+      "getMethod": "解锁踏寻往昔之风的全部故事",
+      "description": "一位干员在甲板乘凉时灵光一闪制作的蚀刻章。\n听说人从初生到消亡，吹拂在身边的总是同一股风。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": 1606593600,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_activity_13d0_02",
       "medalName": "“书的牙印”",
       "medalType": "activityMedal",
@@ -19209,9 +19271,8 @@
       "unlockParam": [
         "char_388_mint",
         "1601755199",
-        "enemy_1105_tyokai",
-        "8",
-        "0"
+        "1593287999",
+        "3"
       ],
       "getMethod": "在踏寻往昔之风活动中，获得干员薄绿",
       "description": "根据干员薄绿的描述，这枚刻章描绘了书本啃咬后的牙齿印。\n书也会咬人吗？书有牙齿吗？等等，书会动？",
@@ -19225,7 +19286,7 @@
           "type": "PERM"
         },
         {
-          "start": 1634241600,
+          "start": 1640030400,
           "end": -1,
           "type": "PERM"
         }
@@ -19242,9 +19303,9 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act10d5",
-        "level_rune_05-01",
+        "level_rune_06-01",
         "18",
-        "1605988799"
+        "1611604799"
       ],
       "getMethod": "解锁乌萨斯的孩子们的全部故事",
       "description": "按照彼得海姆中学校徽打造的蚀刻章。\n她们还没有准备好，但她们想要走向明天。",
@@ -19253,7 +19314,7 @@
       "displayTime": -1,
       "expireTimes": [
         {
-          "start": 1606593600,
+          "start": 1612209600,
           "end": -1,
           "type": "PERM"
         }
@@ -19272,7 +19333,7 @@
         "1",
         "p_char_405_absin",
         "1593287999",
-        "3"
+        "1"
       ],
       "getMethod": "在乌萨斯的孩子们活动中，购买1次苦艾信物",
       "description": "使用苦艾珍藏的警徽复原的蚀刻章。\n苦涩，哀伤，生活还得继续。",
@@ -19286,7 +19347,7 @@
           "type": "PERM"
         },
         {
-          "start": 1640030400,
+          "start": 1642968000,
           "end": -1,
           "type": "PERM"
         }
@@ -19303,72 +19364,11 @@
       "template": "UnlockStoryGroup",
       "unlockParam": [
         "act7d5",
-        "level_rune_06-01",
-        "18",
-        "1611604799"
-      ],
-      "getMethod": "解锁午间逸话的全部故事",
-      "description": "根据下午茶集换贴纸制作的蚀刻章，不可以拿去兑换下午茶奖励。\n还有更多故事等待着讲述与倾听。",
-      "advancedMedal": null,
-      "originMedal": null,
-      "displayTime": -1,
-      "expireTimes": [
-        {
-          "start": 1612209600,
-          "end": -1,
-          "type": "PERM"
-        }
-      ],
-      "medalRewardGroup": []
-    },
-    {
-      "medalId": "medal_activity_6d5_01",
-      "medalName": "年的印章",
-      "medalType": "activityMedal",
-      "slotId": 263,
-      "preMedalIdList": [],
-      "rarity": 2,
-      "template": "UnlockStoryGroup",
-      "unlockParam": [
-        "act6d5",
-        "act16d5_10",
-        "trap_026_inverter",
-        "1"
-      ],
-      "getMethod": "解锁洪炉示岁的全部故事",
-      "description": "以象征年的标志为基底制作的蚀刻章。\n还是没有厨师能够做出年想要的辣味。",
-      "advancedMedal": null,
-      "originMedal": null,
-      "displayTime": -1,
-      "expireTimes": [
-        {
-          "start": 1614283200,
-          "end": 1641801599,
-          "type": "TEMP"
-        },
-        {
-          "start": 1642968000,
-          "end": -1,
-          "type": "PERM"
-        }
-      ],
-      "medalRewardGroup": []
-    },
-    {
-      "medalId": "medal_activity_4d0_01",
-      "medalName": "情报归档确认章",
-      "medalType": "activityMedal",
-      "slotId": 264,
-      "preMedalIdList": [],
-      "rarity": 2,
-      "template": "UnlockStoryGroup",
-      "unlockParam": [
-        "act4d0",
         "act18d0_08",
         "2"
       ],
-      "getMethod": "解锁战地秘闻的全部故事",
-      "description": "以档案室用来确认情报已归档时使用的公章为模板制作的蚀刻章。\n总有情报会遗漏，我们能做的只是尽力去记录。",
+      "getMethod": "解锁午间逸话的全部故事",
+      "description": "根据下午茶集换贴纸制作的蚀刻章，不可以拿去兑换下午茶奖励。\n还有更多故事等待着讲述与倾听。",
       "advancedMedal": null,
       "originMedal": null,
       "displayTime": -1,
@@ -19387,24 +19387,24 @@
       "medalRewardGroup": []
     },
     {
-      "medalId": "medal_hidden_eggstage_01",
-      "medalName": "“烈火中的碎片”",
-      "medalType": "hiddenMedal",
-      "slotId": 1,
+      "medalId": "medal_activity_6d5_01",
+      "medalName": "年的印章",
+      "medalType": "activityMedal",
+      "slotId": 263,
       "preMedalIdList": [],
       "rarity": 2,
-      "template": "PassStoryStageSome",
+      "template": "UnlockStoryGroup",
       "unlockParam": [
-        "spst_08-01;spst_08-02;spst_08-03;spst_08-04;spst_08-05",
+        "act6d5",
         "5",
         "trap_038_dsbell",
         "0"
       ],
-      "getMethod": "“您还能想起吗，那些往昔与现实夹缝中，正在燃烧的回忆。”",
-      "description": "自灰烬中取出的回忆，还在不停烧灼，能熄灭它的，只有泪水。\n星点碎片凑在一起，故事已得补全。",
+      "getMethod": "解锁洪炉示岁的全部故事",
+      "description": "以象征年的标志为基底制作的蚀刻章。\n还是没有厨师能够做出年想要的辣味。",
       "advancedMedal": null,
       "originMedal": null,
-      "displayTime": 1629792000,
+      "displayTime": -1,
       "expireTimes": [
         {
           "start": -1,
@@ -19421,6 +19421,64 @@
       "isHidden": true
     },
     {
+      "medalId": "medal_activity_4d0_01",
+      "medalName": "情报归档确认章",
+      "medalType": "activityMedal",
+      "slotId": 264,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "UnlockStoryGroup",
+      "unlockParam": [
+        "act4d0",
+        "level_rune_07-01",
+        "18",
+        "1621627199"
+      ],
+      "getMethod": "解锁战地秘闻的全部故事",
+      "description": "以档案室用来确认情报已归档时使用的公章为模板制作的蚀刻章。\n总有情报会遗漏，我们能做的只是尽力去记录。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [
+        {
+          "start": -1,
+          "end": 1629792000,
+          "type": "INIT"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": true
+    },
+    {
+      "medalId": "medal_hidden_eggstage_01",
+      "medalName": "“烈火中的碎片”",
+      "medalType": "hiddenMedal",
+      "slotId": 1,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassStoryStageSome",
+      "unlockParam": [
+        "spst_08-01;spst_08-02;spst_08-03;spst_08-04;spst_08-05",
+        "5",
+        "18",
+        "1630526399"
+      ],
+      "getMethod": "“您还能想起吗，那些往昔与现实夹缝中，正在燃烧的回忆。”",
+      "description": "自灰烬中取出的回忆，还在不停烧灼，能熄灭它的，只有泪水。\n星点碎片凑在一起，故事已得补全。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1629792000,
+      "expireTimes": [
+        {
+          "start": -1,
+          "end": 1629792000,
+          "type": "INIT"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": true
+    },
+    {
       "medalId": "medal_hidden_voucher_01",
       "medalName": "“第一封信”",
       "medalType": "hiddenMedal",
@@ -19430,9 +19488,9 @@
       "template": "FullPotentialOverflow",
       "unlockParam": [
         "1",
-        "level_rune_07-01",
-        "18",
-        "1621627199"
+        "1",
+        "chock_withdraw",
+        "6"
       ],
       "getMethod": "“已触发特殊节点需求，关于记录修复的额外反馈正录入同步序列，解码程序运行中——”",
       "description": "在经过复杂程序运行后，得到的答案却如此简单，与温馨？\n能从信件中感到满满的诚意，或许该好好考虑如何回信？",
@@ -19461,7 +19519,7 @@
         "char_4019_ncdeer",
         "story_ncdeer_set_1",
         "18",
-        "1630526399"
+        "1638129599"
       ],
       "getMethod": "“远方的善人向您敞开心扉，您将听闻她的故事。”",
       "description": "\"如梦如幻，如泡如影。\n莫非虚假，一切如真。\"",
@@ -19489,8 +19547,8 @@
       "unlockParam": [
         "tower_n_01",
         "1",
-        "chock_withdraw",
-        "6"
+        "18",
+        "1591646399"
       ],
       "getMethod": "委托方许诺，如果钢铁萝卜矿场保全工作没有出现失误，将会为罗德岛准备特别的答谢晚宴。",
       "description": "以钢铁萝卜城委托方在答谢宴上准备的菜点为印象制成的奖章。\n菜品丰富，量大管饱，除了卖相不太好，似乎也没有什么可挑剔的了。",
@@ -19518,8 +19576,8 @@
       "unlockParam": [
         "tower_n_02",
         "1",
-        "18",
-        "1638129599"
+        "trap_014_tower",
+        "3"
       ],
       "getMethod": "委托方许诺，如果多伦矿场保全工作没有出现失误，将会为罗德岛准备特别的答谢晚宴。",
       "description": "以多伦郡委托方在答谢宴上准备的菜点为灵感制成的奖章。\n即使是偏远乡村，你仍能在宴会上见到维多利亚人特有的矜持。",
@@ -19531,6 +19589,11 @@
           "start": -1,
           "end": 1654747200,
           "type": "INIT"
+        },
+        {
+          "start": 1625083200,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -19576,7 +19639,8 @@
         "3",
         "act11d0_mo01",
         "trap_014_tower",
-        "3"
+        "3",
+        "0"
       ],
       "getMethod": "以3星评价完成TW-MO-1，且战斗结束时至少掌握了3台留声机的控制权",
       "description": null,
@@ -19609,7 +19673,8 @@
         "rune_season_2_1",
         "level_rune_04-01",
         "18",
-        "1596484799"
+        "1596484799",
+        "0"
       ],
       "getMethod": "在利刃行动中，常驻行动地点达到18危机等级，且在利刃行动开始一周内完成(2020-08-04 03:59:59前)",
       "description": null,
@@ -19619,6 +19684,11 @@
       "expireTimes": [
         {
           "start": 1597089600,
+          "end": -1,
+          "type": "PERM"
+        },
+        {
+          "start": 1634241600,
           "end": -1,
           "type": "PERM"
         }
@@ -19778,6 +19848,11 @@
           "start": 1612209600,
           "end": -1,
           "type": "PERM"
+        },
+        {
+          "start": 1649707200,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": []
@@ -19826,7 +19901,8 @@
       "unlockParam": [
         "3",
         "act18d0_08",
-        "2"
+        "2",
+        "1621627199"
       ],
       "getMethod": "以3星评价完成WD-8，且在【国度】中被【坍缩恐惧】击中的次数不多于2次",
       "description": null,
@@ -19902,6 +19978,11 @@
       "expireTimes": [
         {
           "start": 1622232000,
+          "end": -1,
+          "type": "PERM"
+        },
+        {
+          "start": 1659988800,
           "end": -1,
           "type": "PERM"
         }
@@ -20008,7 +20089,8 @@
       "unlockParam": [
         "act13side",
         "3",
-        "S"
+        "S",
+        "30"
       ],
       "getMethod": "长夜临光活动期间，三大阵营的声望均到达[尊敬]",
       "description": null,
