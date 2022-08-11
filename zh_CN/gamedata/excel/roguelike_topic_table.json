@@ -418,7 +418,7 @@
       "char_236_rope": {
         "charId": "char_236_rope",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_rope",
         "recruitType": "FREE"
       },
       "char_117_myrrh": {
@@ -508,7 +508,7 @@
       "char_355_ethan": {
         "charId": "char_355_ethan",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_ethan",
         "recruitType": "FREE"
       },
       "char_277_sqrrel": {
@@ -1024,13 +1024,13 @@
       "char_173_slchan": {
         "charId": "char_173_slchan",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_slchan",
         "recruitType": "FREE"
       },
       "char_383_snsant": {
         "charId": "char_383_snsant",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_snsant",
         "recruitType": "FREE"
       },
       "char_174_slbell": {
@@ -1072,13 +1072,13 @@
       "char_215_mantic": {
         "charId": "char_215_mantic",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_mantic",
         "recruitType": "FREE"
       },
       "char_478_kirara": {
         "charId": "char_478_kirara",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_kirara",
         "recruitType": "FREE"
       },
       "char_241_panda": {
@@ -1282,13 +1282,13 @@
       "char_474_glady": {
         "charId": "char_474_glady",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_glady",
         "recruitType": "FREE"
       },
       "char_437_mizuki": {
         "charId": "char_437_mizuki",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_mizuki",
         "recruitType": "FREE"
       },
       "char_147_shining": {
@@ -1554,8 +1554,33 @@
         "canBeFree": true,
         "uniEquipId": null,
         "recruitType": "FREE"
+      },
+      "char_497_ctable": {
+        "charId": "char_497_ctable",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4054_malist": {
+        "charId": "char_4054_malist",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4055_bgsnow": {
+        "charId": "char_4055_bgsnow",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_bgsnow",
+        "recruitType": "FREE"
+      },
+      "char_1026_gvial2": {
+        "charId": "char_1026_gvial2",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
       }
-    }
+    },
+    "bpPurchaseSystemUnlockTime": 1661976000
   },
   "details": {
     "rogue_1": {
@@ -3377,7 +3402,8 @@
           "displayDiscription": "暮落已自我囚禁了许久，只为逃过那往日的幽影。\n然而，他现在同你一起拯救傀影。\n他鼓起勇气面对过去和未来。\n他不再一人独行。",
           "bpLevelId": "bp_level_25",
           "accordingCharId": "char_4025_aprot2",
-          "detailAnnounceTime": "2022/1/5 16:00:00"
+          "detailAnnounceTime": "2022/1/5 16:00:00",
+          "purchaseTitle": "主题干员"
         },
         {
           "grandPrizeDisplayId": "grand_2",
@@ -3387,7 +3413,8 @@
           "acquireTitle": "可获取主题头像",
           "displayName": "“猩红剧团”",
           "displayDiscription": "你已见过这个徽记许多次。\n你也仍将再见到它。\n然而......\n你会让它，成为彰显自我的符号吗？",
-          "bpLevelId": "bp_level_58"
+          "bpLevelId": "bp_level_58",
+          "purchaseTitle": "主题头像"
         },
         {
           "grandPrizeDisplayId": "grand_3",
@@ -3397,7 +3424,8 @@
           "acquireTitle": "可获取主题头像",
           "displayName": "“傀影常在”",
           "displayDiscription": "傀影的过去与现在交织于此。\n熟悉且陌生。\n既然他信任你，那你应当担负这份责任。\n决定他的未来。",
-          "bpLevelId": "bp_level_65"
+          "bpLevelId": "bp_level_65",
+          "purchaseTitle": "主题头像"
         },
         {
           "grandPrizeDisplayId": "grand_4",
@@ -3407,7 +3435,8 @@
           "acquireTitle": "可获取主题家具包",
           "displayName": "古堡印象家具收藏包一",
           "displayDiscription": "干员们收集资料，资料转化为成果。\n与创造绝缘的“灵感侍者”。\n平民也可享受的“睡梦之邀”。\n以及沉落在林中的“败朽躯壳”。",
-          "bpLevelId": "bp_level_80"
+          "bpLevelId": "bp_level_80",
+          "purchaseTitle": "主题家具包"
         },
         {
           "grandPrizeDisplayId": "grand_5",
@@ -3421,7 +3450,8 @@
           "detailAnnounceTime": "2022/4/1 4:00:00",
           "accordingCharId": "char_250_phatom",
           "accordingSkinId": "char_250_phatom@sale#4",
-          "picIdAftrerUnlock": "grand_5_2"
+          "picIdAftrerUnlock": "grand_5_2",
+          "purchaseTitle": "傀影动态形象时装"
         },
         {
           "grandPrizeDisplayId": "grand_6",
@@ -3431,7 +3461,8 @@
           "acquireTitle": "可获取主题家具包",
           "displayName": "古堡印象家具收藏包二",
           "displayDiscription": "干员们收集资料，资料转化为成果。\n其中的一部分，便是这套“庸庸残饰”。\n古堡中总有一些装饰，连它的主人都早已忘却。\n或许在外人眼中，它们能重获新生。",
-          "bpLevelId": "bp_level_105"
+          "bpLevelId": "bp_level_105",
+          "purchaseTitle": "主题家具包"
         },
         {
           "grandPrizeDisplayId": "grand_7",
@@ -3441,7 +3472,8 @@
           "acquireTitle": "可获取高阶信物",
           "displayName": "特种皇家信物 * 4",
           "displayDiscription": "顶级特种干员们的馈赠。\n能够帮助他们认知自我，进一步提升潜能。\n你会现在就思考如何使用它们吗？\n抑或是收入囊中，等待更合适的时机？",
-          "bpLevelId": "bp_level_110"
+          "bpLevelId": "bp_level_110",
+          "purchaseTitle": "高阶信物"
         },
         {
           "grandPrizeDisplayId": "grand_8",
@@ -3451,7 +3483,8 @@
           "acquireTitle": "可获取主题家具",
           "displayName": "“终幕之告”",
           "displayDiscription": "属于高卢的古物仍在转动。\n时间为它拉上发条。\n历史为它校准误差。\n听仔细了，戏剧即将开演。",
-          "bpLevelId": "bp_level_125"
+          "bpLevelId": "bp_level_125",
+          "purchaseTitle": "主题家具"
         },
         {
           "grandPrizeDisplayId": "grand_9",
@@ -3463,7 +3496,8 @@
           "displayDiscription": "它已完成历史赋予的使命。\n而剧团将之从遗忘中取出。\n又一次，又一次，它将成为舞台。\n历史不会铭记，艺术将其永存。",
           "bpLevelId": "bp_level_140",
           "detailAnnounceTime": "2022/7/1 4:00:00",
-          "picIdAftrerUnlock": "grand_9_2"
+          "picIdAftrerUnlock": "grand_9_2",
+          "purchaseTitle": "主题场景"
         }
       ],
       "monthMission": [
@@ -8363,7 +8397,9 @@
         "previewedRewardsAccordingUpdateId": "update_2",
         "tipButtonName": "剧场宣传板",
         "collectButtonName": "猩红珍藏",
-        "autoSetKV": "pic_rogue_1_KV2"
+        "autoSetKV": "pic_rogue_1_KV2",
+        "bpSystemName": "古堡笔记",
+        "bpPurchaseActiveEnroll": ""
       },
       "init": [
         {

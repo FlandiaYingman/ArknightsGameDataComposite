@@ -958,7 +958,8 @@
     "attainga.desc2": "<color=#FFD800>{0}</color>",
     "attainga.attention": "<color=#E1322C>{0}</color>",
     "lv.ez": "<color=#0098dc>{0}</color>",
-    "lv.hdbg": "<color=#7ba61f>{0}</color>"
+    "lv.hdbg": "<color=#7ba61f>{0}</color>",
+    "lv.act20side": "<color=#F7BC44>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1272,7 +1273,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "异格",
-      "description": "包含以下干员\n炎狱炎熔、浊心斯卡蒂、假日威龙陈、耀骑士临光、寒芒克洛丝、归溟幽灵鲨、濯尘芙蓉"
+      "description": "包含所有异格干员"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
@@ -1443,14 +1444,29 @@
       "termId": "cc.sk.manu2",
       "termName": "莱茵科技类技能",
       "description": "包含以下技能\n莱茵科技·α、莱茵科技·β"
+    },
+    "cc.bd_malist": {
+      "termId": "cc.bd_malist",
+      "termName": "工程机器人",
+      "description": "由以下干员的基建技能提供\n至简"
+    },
+    "cc.tag.durin": {
+      "termId": "cc.tag.durin",
+      "termName": "杜林族",
+      "description": "包含以下干员\n至简、桃金娘、褐果、杜林"
+    },
+    "cc.gvial": {
+      "termId": "cc.gvial",
+      "termName": "嘉维尔",
+      "description": "包含以下干员\n百炼嘉维尔、嘉维尔"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "29.7.0",
-  "resPrefVersion": "29d0d0",
+  "dataVersion": "30.0.0",
+  "resPrefVersion": "30d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS检测到该关卡对应更低作战环境未获得三星评价，将自动开启<color=#fe6435>环境难度兼容</color>；\n环境难度兼容状态下挑战该关卡将<color=#fe6435>同时消耗</color>该环境与更低环境的理智，通关后则<color=#fe6435>会同步作战进度，并同时获得</color>该环境与更低环境的报酬奖励",
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
