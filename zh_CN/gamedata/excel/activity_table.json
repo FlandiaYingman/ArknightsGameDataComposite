@@ -1598,6 +1598,41 @@
         "medal_activity_1bossrush_02"
       ],
       "isReplicate": false
+    },
+    "act29sign": {
+      "id": "act29sign",
+      "type": "CHECKIN_ONLY",
+      "name": "桂时逢月——月饼烘焙小教程",
+      "startTime": 1662609600,
+      "endTime": 1663444799,
+      "rewardEndTime": 1663444799,
+      "displayOnHome": false,
+      "hasStage": false,
+      "actTopBarColor": "ff4200",
+      "actTopBarText": "桂时逢月签到活动",
+      "templateShopId": null,
+      "medalGroupId": null,
+      "isReplicate": false
+    },
+    "act12mini": {
+      "id": "act12mini",
+      "type": "MINISTORY",
+      "displayType": "MINISTORY",
+      "name": "日暮寻路",
+      "startTime": 1662609600,
+      "endTime": 1663185599,
+      "rewardEndTime": 1663444799,
+      "displayOnHome": true,
+      "hasStage": true,
+      "actTopBarColor": null,
+      "actTopBarText": null,
+      "templateShopId": "shop_act12mini",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_12mini_01",
+        "medal_activity_12mini_02"
+      ],
+      "isReplicate": false
     }
   },
   "zoneToActivity": {
@@ -1692,7 +1727,8 @@
     "act20side_zone3": "act20side",
     "act20side_zone4": "act20side",
     "act20side_zone5": "act20side",
-    "act1bossrush_zone1": "act1bossrush"
+    "act1bossrush_zone1": "act1bossrush",
+    "act12mini_zone1": "act12mini"
   },
   "missionData": [
     {
@@ -40611,7 +40647,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -40629,7 +40666,8 @@
             "order": 2,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -40647,7 +40685,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -40665,7 +40704,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -40683,7 +40723,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -40701,7 +40742,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -40719,7 +40761,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -40737,7 +40780,8 @@
             "order": 8,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -40755,7 +40799,8 @@
             "order": 9,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -40773,7 +40818,8 @@
             "order": 10,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -40793,7 +40839,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -40806,7 +40853,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -40824,7 +40872,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -40842,7 +40891,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -40855,7 +40905,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -40873,7 +40924,8 @@
             "order": 6,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -40891,7 +40943,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -40911,7 +40964,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -40929,7 +40983,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -40947,7 +41002,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -40965,7 +41021,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -40978,7 +41035,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -40996,7 +41054,8 @@
             "order": 6,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -41014,7 +41073,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -41034,7 +41094,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -41047,7 +41108,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -41065,7 +41127,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -41078,7 +41141,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -41091,7 +41155,8 @@
             "order": 5,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -41109,7 +41174,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -41127,7 +41193,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -41152,7 +41219,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -41170,7 +41238,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -41183,7 +41252,8 @@
             "order": 3,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -41201,7 +41271,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -41219,7 +41290,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -41237,7 +41309,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -41260,7 +41333,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -41285,7 +41359,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -41303,7 +41378,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -41321,7 +41397,8 @@
             "order": 3,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -41339,7 +41416,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -41357,7 +41435,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -41375,7 +41454,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -41398,7 +41478,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -41423,7 +41504,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -41441,7 +41523,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -41459,7 +41542,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -41477,7 +41561,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -41495,7 +41580,8 @@
             "order": 5,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -41513,7 +41599,8 @@
             "order": 6,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -41531,7 +41618,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -41549,7 +41637,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -41567,7 +41656,8 @@
             "order": 9,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -41585,7 +41675,8 @@
             "order": 10,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -41610,7 +41701,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -41628,7 +41720,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -41646,7 +41739,8 @@
             "order": 3,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -41664,7 +41758,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -41682,7 +41777,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -41700,7 +41796,8 @@
             "order": 6,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -41718,7 +41815,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -41748,7 +41846,8 @@
             "order": 1,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -41771,7 +41870,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -41794,7 +41894,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -41817,7 +41918,8 @@
             "order": 4,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -41840,7 +41942,8 @@
             "order": 5,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -41863,7 +41966,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -41886,7 +41990,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -41909,7 +42014,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -41932,7 +42038,8 @@
             "order": 9,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -41955,7 +42062,8 @@
             "order": 10,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "10": {
             "itemList": [
@@ -41978,7 +42086,8 @@
             "order": 11,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "11": {
             "itemList": [
@@ -42001,7 +42110,8 @@
             "order": 12,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "12": {
             "itemList": [
@@ -42024,7 +42134,8 @@
             "order": 13,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "13": {
             "itemList": [
@@ -42047,7 +42158,8 @@
             "order": 14,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -42072,7 +42184,8 @@
             "order": 1,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -42090,7 +42203,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -42108,7 +42222,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -42126,7 +42241,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -42144,7 +42260,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -42162,7 +42279,8 @@
             "order": 6,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -42175,7 +42293,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -42195,7 +42314,8 @@
             "order": 1,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -42208,7 +42328,8 @@
             "order": 2,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -42221,7 +42342,8 @@
             "order": 3,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -42234,7 +42356,8 @@
             "order": 4,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -42247,7 +42370,8 @@
             "order": 5,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -42260,7 +42384,8 @@
             "order": 6,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -42273,7 +42398,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -42286,7 +42412,8 @@
             "order": 8,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -42299,7 +42426,8 @@
             "order": 9,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -42324,7 +42452,8 @@
             "order": 1,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -42342,7 +42471,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -42360,7 +42490,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -42378,7 +42509,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -42396,7 +42528,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -42414,7 +42547,8 @@
             "order": 6,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -42432,7 +42566,8 @@
             "order": 7,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -42457,7 +42592,8 @@
             "order": 1,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -42475,7 +42611,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -42493,7 +42630,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -42511,7 +42649,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -42529,7 +42668,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -42547,7 +42687,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -42565,7 +42706,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -42583,7 +42725,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -42601,7 +42744,8 @@
             "order": 9,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -42619,7 +42763,8 @@
             "order": 10,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -42644,7 +42789,8 @@
             "order": 1,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -42662,7 +42808,8 @@
             "order": 2,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -42680,7 +42827,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -42698,7 +42846,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -42716,7 +42865,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -42734,7 +42884,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -42752,7 +42903,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -42770,7 +42922,8 @@
             "order": 8,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -42788,7 +42941,8 @@
             "order": 9,
             "color": 1,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -42806,7 +42960,8 @@
             "order": 10,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -42831,7 +42986,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -42849,7 +43005,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -42867,7 +43024,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -42885,7 +43043,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -42903,7 +43062,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -42921,7 +43081,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -42939,7 +43100,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -42957,7 +43119,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -42975,7 +43138,8 @@
             "order": 9,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -42993,7 +43157,8 @@
             "order": 10,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "10": {
             "itemList": [
@@ -43011,7 +43176,8 @@
             "order": 11,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "11": {
             "itemList": [
@@ -43029,7 +43195,8 @@
             "order": 12,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "12": {
             "itemList": [
@@ -43047,7 +43214,8 @@
             "order": 13,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           },
           "13": {
             "itemList": [
@@ -43065,7 +43233,8 @@
             "order": 14,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "14": {
             "itemList": [
@@ -43083,7 +43252,8 @@
             "order": 15,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -43108,7 +43278,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -43126,7 +43297,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -43144,7 +43316,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -43162,7 +43335,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -43180,7 +43354,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -43198,7 +43373,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -43216,7 +43392,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -43241,7 +43418,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -43259,7 +43437,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -43277,7 +43456,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -43295,7 +43475,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -43313,7 +43494,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -43331,7 +43513,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -43349,7 +43532,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -43367,7 +43551,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -43385,7 +43570,8 @@
             "order": 9,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -43403,7 +43589,8 @@
             "order": 10,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -43428,7 +43615,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -43446,7 +43634,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -43464,7 +43653,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -43482,7 +43672,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -43500,7 +43691,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -43518,7 +43710,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -43536,7 +43729,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 2
+            "showItemOrder": 2,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -43561,7 +43755,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -43579,7 +43774,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -43597,7 +43793,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -43615,7 +43812,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -43633,7 +43831,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -43651,7 +43850,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -43669,7 +43869,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -43687,7 +43888,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -43705,7 +43907,8 @@
             "order": 9,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -43723,7 +43926,8 @@
             "order": 10,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 2
+            "showItemOrder": 2,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -43748,7 +43952,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -43766,7 +43971,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -43784,7 +43990,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -43802,7 +44009,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -43820,7 +44028,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -43838,7 +44047,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -43856,7 +44066,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -43881,7 +44092,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -43899,7 +44111,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -43917,7 +44130,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -43935,7 +44149,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -43953,7 +44168,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -43971,7 +44187,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -43989,7 +44206,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -44014,7 +44232,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -44032,7 +44251,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -44050,7 +44270,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -44068,7 +44289,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -44086,7 +44308,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -44104,7 +44327,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -44122,7 +44346,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -44140,7 +44365,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -44158,7 +44384,8 @@
             "order": 9,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 2
+            "showItemOrder": 2,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -44176,7 +44403,8 @@
             "order": 10,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -44201,7 +44429,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -44219,7 +44448,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -44237,7 +44467,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -44255,7 +44486,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -44273,7 +44505,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -44291,7 +44524,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -44309,7 +44543,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -44327,7 +44562,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -44345,7 +44581,8 @@
             "order": 9,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -44363,7 +44600,8 @@
             "order": 10,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -44388,7 +44626,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -44406,7 +44645,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -44424,7 +44664,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -44442,7 +44683,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -44460,7 +44702,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -44478,7 +44721,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -44496,7 +44740,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -44521,7 +44766,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -44539,7 +44785,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -44557,7 +44804,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -44575,7 +44823,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -44593,7 +44842,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -44611,7 +44861,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -44629,7 +44880,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -44647,7 +44899,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -44665,7 +44918,8 @@
             "order": 9,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -44683,7 +44937,8 @@
             "order": 10,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "10": {
             "itemList": [
@@ -44701,7 +44956,8 @@
             "order": 11,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "11": {
             "itemList": [
@@ -44719,7 +44975,8 @@
             "order": 12,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "12": {
             "itemList": [
@@ -44737,7 +44994,8 @@
             "order": 13,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "13": {
             "itemList": [
@@ -44755,7 +45013,8 @@
             "order": 14,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "14": {
             "itemList": [
@@ -44773,7 +45032,8 @@
             "order": 15,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -44798,7 +45058,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -44816,7 +45077,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -44834,7 +45096,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -44852,7 +45115,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -44870,7 +45134,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -44888,7 +45153,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -44906,7 +45172,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -44924,7 +45191,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -44942,7 +45210,8 @@
             "order": 9,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -44960,7 +45229,8 @@
             "order": 10,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -44985,7 +45255,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -45003,7 +45274,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -45021,7 +45293,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -45039,7 +45312,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -45057,7 +45331,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -45075,7 +45350,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -45093,7 +45369,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
@@ -45118,7 +45395,8 @@
             "order": 1,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "1": {
             "itemList": [
@@ -45136,7 +45414,8 @@
             "order": 2,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 1
+            "showItemOrder": 1,
+            "isDynItem": false
           },
           "2": {
             "itemList": [
@@ -45154,7 +45433,8 @@
             "order": 3,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "3": {
             "itemList": [
@@ -45172,7 +45452,8 @@
             "order": 4,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "4": {
             "itemList": [
@@ -45190,7 +45471,8 @@
             "order": 5,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "5": {
             "itemList": [
@@ -45208,7 +45490,8 @@
             "order": 6,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "6": {
             "itemList": [
@@ -45226,7 +45509,8 @@
             "order": 7,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "7": {
             "itemList": [
@@ -45244,7 +45528,8 @@
             "order": 8,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "8": {
             "itemList": [
@@ -45262,7 +45547,8 @@
             "order": 9,
             "color": 0,
             "keyItem": 0,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           },
           "9": {
             "itemList": [
@@ -45280,11 +45566,364 @@
             "order": 10,
             "color": 0,
             "keyItem": 1,
-            "showItemOrder": 0
+            "showItemOrder": 0,
+            "isDynItem": false
           }
         },
         "apSupplyOutOfDateDict": {
           "ap_supply_lt_120": 1661716799
+        }
+      },
+      "act29sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "mod_update_token_1",
+                "count": 10,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "2003",
+                "count": 25,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [],
+            "order": 3,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 1,
+            "isDynItem": true
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3401",
+                "count": 300,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 6,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "2004",
+                "count": 15,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 7,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120_2022_1": 1664135999,
+          "ap_supply_lt_120_2022_2": 1664135999,
+          "ap_supply_lt_120_2022_3": 1664135999,
+          "ap_supply_lt_120_2022_4": 1664135999
+        },
+        "dynCheckInData": {
+          "dynCheckInDict": {
+            "Options0": {
+              "questionDesc": "博士，饼皮原料已经调和好了，揉至柔软光滑即可！\n是否确认制作？",
+              "preOption": "Options0",
+              "optionList": [
+                "Options1",
+                "Options2"
+              ],
+              "showDay": 0,
+              "spOrderIconId": "num_1",
+              "spOrderDesc": "饼皮擀制",
+              "spOrderCompleteDesc": "饼皮擀制完毕"
+            },
+            "Options1": {
+              "questionDesc": "博士，分割馅料时可不要贪心，烤的时候容易露馅哦！\n选择放入的馅料",
+              "preOption": "Options1",
+              "optionList": [
+                "Options3",
+                "Options4"
+              ],
+              "showDay": 1,
+              "spOrderIconId": "num_2",
+              "spOrderDesc": "馅料调制",
+              "spOrderCompleteDesc": "馅料调制完毕"
+            },
+            "Options2": {
+              "questionDesc": "博士，分割馅料时可不要贪心，烤的时候容易露馅哦！\n选择放入的馅料",
+              "preOption": "Options2",
+              "optionList": [
+                "Options5",
+                "Options6"
+              ],
+              "showDay": 1,
+              "spOrderIconId": "num_2",
+              "spOrderDesc": "馅料调制",
+              "spOrderCompleteDesc": "馅料调制完毕"
+            },
+            "Options3": {
+              "questionDesc": "博士，让我们一起把月饼送入烤箱吧！",
+              "preOption": "Options3",
+              "optionList": [
+                "Options7"
+              ],
+              "showDay": 2,
+              "spOrderIconId": "num_3",
+              "spOrderDesc": "月饼烤制",
+              "spOrderCompleteDesc": "月饼烤制成功"
+            },
+            "Options4": {
+              "questionDesc": "博士，让我们一起把月饼送入烤箱吧！",
+              "preOption": "Options4",
+              "optionList": [
+                "Options8"
+              ],
+              "showDay": 2,
+              "spOrderIconId": "num_3",
+              "spOrderDesc": "月饼烤制",
+              "spOrderCompleteDesc": "月饼烤制成功"
+            },
+            "Options5": {
+              "questionDesc": "博士，让我们一起把月饼送入烤箱吧！",
+              "preOption": "Options5",
+              "optionList": [
+                "Options9"
+              ],
+              "showDay": 2,
+              "spOrderIconId": "num_3",
+              "spOrderDesc": "月饼烤制",
+              "spOrderCompleteDesc": "月饼烤制成功"
+            },
+            "Options6": {
+              "questionDesc": "博士，让我们一起把月饼送入烤箱吧！",
+              "preOption": "Options6",
+              "optionList": [
+                "Options10"
+              ],
+              "showDay": 2,
+              "spOrderIconId": "num_3",
+              "spOrderDesc": "月饼烤制",
+              "spOrderCompleteDesc": "月饼烤制成功"
+            }
+          },
+          "dynOptionDict": {
+            "Options0": {
+              "optionDesc": null,
+              "showImageId1": null,
+              "showImageId2": null,
+              "optionCompleteDesc": null,
+              "isStart": true
+            },
+            "Options1": {
+              "optionDesc": "酥皮月饼",
+              "showImageId1": "cake_1",
+              "showImageId2": "furni_MA_mooncake_S_01",
+              "optionCompleteDesc": "<color=#FF4200>酥皮月饼</color>饼皮擀制完毕",
+              "isStart": false
+            },
+            "Options2": {
+              "optionDesc": "糖皮月饼",
+              "showImageId1": "cake_2",
+              "showImageId2": "furni_MA_mooncake_G_01",
+              "optionCompleteDesc": "<color=#FF4200>糖皮月饼</color>饼皮擀制完毕",
+              "isStart": false
+            },
+            "Options3": {
+              "optionDesc": "鲜甜肉馅",
+              "showImageId1": "cake_1",
+              "showImageId2": "furni_MA_mooncake_S_01",
+              "optionCompleteDesc": "<color=#FF4200>鲜甜肉馅</color>馅料调制完毕",
+              "isStart": false
+            },
+            "Options4": {
+              "optionDesc": "乳香云腿",
+              "showImageId1": "cake_1",
+              "showImageId2": "furni_MA_mooncake_S_01",
+              "optionCompleteDesc": "<color=#FF4200>乳香云腿</color>馅料调制完毕",
+              "isStart": false
+            },
+            "Options5": {
+              "optionDesc": "玫瑰豆沙",
+              "showImageId1": "cake_2",
+              "showImageId2": "furni_MA_mooncake_G_01",
+              "optionCompleteDesc": "<color=#FF4200>玫瑰豆沙</color>馅料调制完毕",
+              "isStart": false
+            },
+            "Options6": {
+              "optionDesc": "椒盐果仁",
+              "showImageId1": "cake_2",
+              "showImageId2": "furni_MA_mooncake_G_01",
+              "optionCompleteDesc": "<color=#FF4200>椒盐果仁</color>馅料调制完毕",
+              "isStart": false
+            },
+            "Options7": {
+              "optionDesc": "确认制作",
+              "showImageId1": "cake_1",
+              "showImageId2": "furni_MA_mooncake_S_01",
+              "optionCompleteDesc": "月饼烤制成功",
+              "isStart": false
+            },
+            "Options8": {
+              "optionDesc": "确认制作",
+              "showImageId1": "cake_1",
+              "showImageId2": "furni_MA_mooncake_S_01",
+              "optionCompleteDesc": "月饼烤制成功",
+              "isStart": false
+            },
+            "Options9": {
+              "optionDesc": "确认制作",
+              "showImageId1": "cake_2",
+              "showImageId2": "furni_MA_mooncake_G_01",
+              "optionCompleteDesc": "月饼烤制成功",
+              "isStart": false
+            },
+            "Options10": {
+              "optionDesc": "确认制作",
+              "showImageId1": "cake_2",
+              "showImageId2": "furni_MA_mooncake_G_01",
+              "optionCompleteDesc": "月饼烤制成功",
+              "isStart": false
+            }
+          },
+          "dynItemDict": {
+            "Options7": [
+              {
+                "id": "furni_MA_mooncake_S_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "ap_supply_lt_120_2022_1",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "Options8": [
+              {
+                "id": "furni_MA_mooncake_S_02",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "ap_supply_lt_120_2022_2",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "Options9": [
+              {
+                "id": "furni_MA_mooncake_G_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "ap_supply_lt_120_2022_3",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "Options10": [
+              {
+                "id": "furni_MA_mooncake_G_02",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "ap_supply_lt_120_2022_4",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ]
+          },
+          "constData": {
+            "firstQuestionDesc": "博士来选你想要做的月饼吧！\n材料只够制作其中一款哦！",
+            "firstQuestionTipsDesc": "*未选择的月饼和家具将无法获得",
+            "expirationDesc": "本次活动中的月饼过期时间为 {0}",
+            "firstQuestionConfirmDesc": "确认制作"
+          },
+          "initOption": "Options0"
         }
       }
     },
@@ -60333,6 +60972,40 @@
           "weekly_10",
           "act11mini_zone1"
         ]
+      },
+      "act12mini": {
+        "tokenItemId": "act12mini_token_component",
+        "zoneDescList": {
+          "act12mini_zone1": {
+            "zoneId": "act12mini_zone1",
+            "unlockText": "完成主线关卡1-10解锁"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "main_8",
+          "main_9",
+          "main_10",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "weekly_10",
+          "act12mini_zone1"
+        ]
       }
     },
     "ROGUELIKE": {
@@ -64656,7 +65329,7 @@
           "platnm": {
             "principalId": "platnm",
             "principalName": "白金",
-            "principalEnName": "Platnm",
+            "principalEnName": "Platinum",
             "avgCharId": "char_204_platnm_1#1",
             "principalDescList": [
               "唉......提不起劲......真麻烦啊......实在不行就请无薪假吧......",
@@ -80599,6 +81272,9 @@
       "act1bossrush_relic_02",
       "act1bossrush_relic_03",
       "act1bossrush_relic_04"
+    ],
+    "act12mini": [
+      "act12mini_token_component"
     ]
   },
   "syncPoints": {
@@ -80725,7 +81401,11 @@
       1656993600,
       1658174399
     ],
-    "act11mini": []
+    "act11mini": [],
+    "act12mini": [
+      1662609600,
+      1663185599
+    ]
   },
   "dynActs": {
     "act16d5d2": {
@@ -82917,6 +83597,21 @@
         }
       ],
       "startTs": 1661414400
+    },
+    {
+      "id": "dis_mini_12",
+      "type": "ACTIVITY",
+      "funcId": "act12mini",
+      "endTs": 1663185599,
+      "sortId": 29,
+      "itemId": "act12mini_token_component",
+      "timeNodes": [
+        {
+          "title": "<日暮寻路>活动已开放",
+          "ts": 1662609600
+        }
+      ],
+      "startTs": 1662609600
     }
   ],
   "actFunData": {
