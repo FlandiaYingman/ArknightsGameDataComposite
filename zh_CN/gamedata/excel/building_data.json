@@ -9893,6 +9893,34 @@
           ]
         }
       ]
+    },
+    "char_4067_lolxh": {
+      "charId": "char_4067_lolxh",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_proc_cost[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_lolxh[000]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -14875,6 +14903,30 @@
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
       "description": "进驻贸易站时，如果下笔<@cc.kw>赤金订单</>是<@cc.kw>违约订单</>，则<@cc.kw>赤金</>交付数额外<@cc.vup>+2</>"
+    },
+    "workshop_proc_cost[000]": {
+      "buffId": "workshop_proc_cost[000]",
+      "buffName": "御灵之力·金",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_lolxh",
+      "sortId": 7112,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工原始心情消耗为<@cc.kw>8</>的<@cc.kw>任意类材料</>时，副产品的产出概率提升<@cc.vup>50%</>"
+    },
+    "workshop_formula_lolxh[000]": {
+      "buffId": "workshop_formula_lolxh[000]",
+      "buffName": "化猫",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_cost_lolxh",
+      "sortId": 7112,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工<@cc.kw>任意类材料</>时，心情消耗为<@cc.kw>4</>以上的配方全部除以<@cc.vup>4</>心情消耗"
     }
   },
   "customData": {
@@ -49757,6 +49809,35 @@
         "comfort": 75,
         "usage": "能够用来装扮宿舍，提高宿舍的氛围",
         "description": "“崭新的娱乐初生时总被认为是累赘，时间会证明它的价值。”",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "quantity": 0
+      },
+      "furni_dropS026_gluttony_01": {
+        "id": "furni_dropS026_gluttony_01",
+        "sortId": 11058,
+        "name": "饰牌《节制》",
+        "iconId": "furni_dropS026_gluttony_01",
+        "type": "WALLDECO",
+        "subType": "PLAQUE",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "能够用来装扮宿舍，提高宿舍的氛围",
+        "description": "“只享用最鲜美的部分，不可随欲吃食。”",
         "obtainApproach": "活动获得",
         "processedProductId": "3401",
         "processedProductCount": 0,
