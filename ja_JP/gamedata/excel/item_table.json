@@ -13592,6 +13592,75 @@
       "itemType": "UNI_COLLECTION",
       "stageDropList": [],
       "buildingProductList": []
+    },
+    "voucher_full_sidero": {
+      "itemId": "voucher_full_sidero",
+      "name": "シデロカの手紙",
+      "description": "手紙には時候の挨拶と数々のレシピ、運動をするようにという忠告が認められており、たっぷりとした向上心がみてとれる。",
+      "rarity": 4,
+      "iconId": "voucher_full_sidero",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5000006,
+      "usage": "ドクターへの手紙。シデロカの潜在能力を限界まで強化する。",
+      "obtainApproach": "記録復元",
+      "classifyType": "MATERIAL",
+      "itemType": "VOUCHER_FULL_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "act18d3_token_record_rep_1": {
+      "itemId": "act18d3_token_record_rep_1",
+      "name": "腐食したレコード",
+      "description": "名も知れぬ欲求がもたらす衝動によって、それを受け取らずにはいられない。",
+      "rarity": 4,
+      "iconId": "act18d3_token_record",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "もう読み取れないレコード。長らく都市の廃墟で暮らしてきた人たちと物資を交換できる。",
+      "obtainApproach": "イベント",
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [
+        {
+          "stageId": "act18d3_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_09",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": []
     }
   },
   "expItems": {
@@ -14403,7 +14472,10 @@
     "char_193_frostl@boc#4": 1,
     "char_311_mudrok@ambienceSynesthesia#2": 1,
     "char_486_takila@ambienceSynesthesia#2": 1,
-    "char_261_sddrag@ambienceSynesthesia#2": 1
+    "char_261_sddrag@ambienceSynesthesia#2": 1,
+    "furni_duanwu_wormwoodFloorLamp_01": 1,
+    "furni_act24d0_clock_01": 1,
+    "char_474_glady@boc#5": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
@@ -14909,6 +14981,10 @@
     "char_405_absin": {
       "itemId": "voucher_full_absin",
       "ts": 1666767600
+    },
+    "char_333_sidero": {
+      "itemId": "voucher_full_sidero",
+      "ts": 1669359600
     }
   }
 }
