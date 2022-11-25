@@ -13592,6 +13592,75 @@
       "itemType": "UNI_COLLECTION",
       "stageDropList": [],
       "buildingProductList": []
+    },
+    "voucher_full_sidero": {
+      "itemId": "voucher_full_sidero",
+      "name": "Sideroca's Personal Letter",
+      "description": "The letter contains an everyday greeting, a recipe under development, an exhortation to work out, and overflowing ambition.",
+      "rarity": 4,
+      "iconId": "voucher_full_sidero",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5000006,
+      "usage": "A personal letter sent to the Doctor, used to improve Sideroca to Max Potential.",
+      "obtainApproach": "Record Restoration",
+      "classifyType": "MATERIAL",
+      "itemType": "VOUCHER_FULL_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "act18d3_token_record_rep_1": {
+      "itemId": "act18d3_token_record_rep_1",
+      "name": "Corrupted Iberian Record",
+      "description": "The urge to accept it comes from a craving that knows no name.",
+      "rarity": 4,
+      "iconId": "act18d3_token_record",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "Records already ravaged beyond playability. Can be exchanged with the long-time residents of the ruins for goods.",
+      "obtainApproach": "Event Stage drop, Event mission reward",
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [
+        {
+          "stageId": "act18d3_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_09",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": []
     }
   },
   "expItems": {
@@ -14403,7 +14472,10 @@
     "char_193_frostl@boc#4": 1,
     "char_311_mudrok@ambienceSynesthesia#2": 1,
     "char_486_takila@ambienceSynesthesia#2": 1,
-    "char_261_sddrag@ambienceSynesthesia#2": 1
+    "char_261_sddrag@ambienceSynesthesia#2": 1,
+    "furni_duanwu_wormwoodFloorLamp_01": 1,
+    "furni_act24d0_clock_01": 1,
+    "char_474_glady@boc#5": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
@@ -14909,6 +14981,10 @@
     "char_405_absin": {
       "itemId": "voucher_full_absin",
       "ts": 1666803600
+    },
+    "char_333_sidero": {
+      "itemId": "voucher_full_sidero",
+      "ts": 1669395600
     }
   }
 }
