@@ -9497,6 +9497,33 @@
           ]
         }
       ]
+    },
+    "char_4043_erato": {
+      "charId": "char_4043_erato",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession2[040]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd&profession2[240]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
     }
   },
   "buffs": {
@@ -14143,6 +14170,18 @@
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "숙소에 배치 시, 해당 숙소 안에 배치된 모든 오퍼레이터 시간당 컨디션 회복 <@cc.vup>+0.15</>, 발전소가 <@cc.kw>1</>개 늘어날 때마다 회복 효과 추가로 <@cc.vup>+0.05</> (중첩 후의 최종 수치는 동종 효과 중 가장 높은 수치만 적용)"
+    },
+    "train_spd&profession2[240]": {
+      "buffId": "train_spd&profession2[240]",
+      "buffName": "현 튕기기",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train2_sniper1",
+      "sortId": 9541,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "훈련실에 배치 시, <@cc.kw>스나이퍼</> 오퍼레이터의 스킬 훈련 속도 <@cc.vup>+30%</>, 만약 훈련 마스터리 스킬이 <@cc.vup>2</>레벨까지 도달한 경우, 훈련 속도가 추가로 <@cc.vup>+45%</>"
     }
   },
   "customData": {
@@ -45833,6 +45872,35 @@
         "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
         "description": "고성 스타일로 만들어진 괘종시계의 복제품.\n막이 내리고 종소리가 울리면 새로운 공연이 시작되고, 약속한 결말은 여전히 멀리 있다.",
         "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "quantity": 0
+      },
+      "furni_contract_s9_01": {
+        "id": "furni_contract_s9_01",
+        "sortId": 12010,
+        "name": "딥니스의 깃발",
+        "iconId": "furni_contract_s9_01",
+        "type": "WALLDECO",
+        "subType": "CONTRACT",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 4,
+        "comfort": 75,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "어떤 이상한 조수를 묘사한 깃발. 조수는 바다의 맥박이고, 사람들은 이를 통해 더 깊은 곳의 비밀을 엿보아 그 모습을 새겨 기념하려고 한다.",
+        "obtainApproach": "위기 협약 시즌 보상",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
