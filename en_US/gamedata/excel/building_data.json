@@ -9497,6 +9497,33 @@
           ]
         }
       ]
+    },
+    "char_4043_erato": {
+      "charId": "char_4043_erato",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession2[040]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd&profession2[240]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
     }
   },
   "buffs": {
@@ -14143,6 +14170,18 @@
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "When this Operator is assigned to a Dormitory, restores <@cc.vup>+0.15</> Morale per hour to all Operators assigned to that Dormitory, and every <@cc.kw>1</> Power Plant increases restoration by another <@cc.vup>+0.05</> (Only the strongest stacked effect of this type takes place)"
+    },
+    "train_spd&profession2[240]": {
+      "buffId": "train_spd&profession2[240]",
+      "buffName": "Pluck String",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train2_sniper1",
+      "sortId": 9541,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Sniper</> Operators' Specialization training speed <@cc.vup>+30%</>; if training this skill to Specialization Level <@cc.vup>2</>, training speed will be further increased by <@cc.vup>+45%</>"
     }
   },
   "customData": {
@@ -45833,6 +45872,35 @@
         "usage": "Can be used to decorate the dorm and improve the ambience.",
         "description": "A replica of a grandfather clock designed in the style of an old castle. \nThe curtains fall, the bells ring, and a new performance is about to begin - yet the end of the promise remains far away.",
         "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "quantity": 0
+      },
+      "furni_contract_s9_01": {
+        "id": "furni_contract_s9_01",
+        "sortId": 12010,
+        "name": "Deepness Pennant",
+        "iconId": "furni_contract_s9_01",
+        "type": "WALLDECO",
+        "subType": "CONTRACT",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 4,
+        "comfort": 75,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A pennant that indicates a certain unusual tidal flood. Tides are the pulse of the ocean, from which one seeks to glean the secrets of the deep, recording their shapes to memory.",
+        "obtainApproach": "Contingency Contract season reward",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
