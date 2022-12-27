@@ -957,7 +957,8 @@
     "attainga.desc": "<color=#FF0000>{0}</color>",
     "attainga.desc2": "<color=#FFD800>{0}</color>",
     "attainga.attention": "<color=#E1322C>{0}</color>",
-    "lv.ez": "<color=#0098dc>{0}</color>"
+    "lv.ez": "<color=#0098dc>{0}</color>",
+    "lv.hdbg": "<color=#7ba61f>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1132,57 +1133,57 @@
     "cc.bd_A_1": {
       "termId": "cc.bd_A_1",
       "termName": "Psychokinesis",
-      "description": "Provided by the following Operator(s):\nRosmontis"
+      "description": "Operators with this skill\nRosmontis"
     },
     "cc.bd_A_2": {
       "termId": "cc.bd_A_2",
       "termName": "Manifestation of Consciousness",
-      "description": "Provided by the following Operator(s):\nRosmontis"
+      "description": "Operators with this skill\nRosmontis"
     },
     "cc.bd_A": {
       "termId": "cc.bd_A",
       "termName": "Chain of Thought",
-      "description": "Affects <$cc.bd_A_1><@cc.rem>Psychokinesis</></> and <$cc.bd_A_2><@cc.rem>Manifestation of Consciousness</></>\nProvided by the following Operator(s):\nRosmontis"
+      "description": "Affects skills related to <$cc.bd_A_1><@cc.rem>Psychokinesis</></> and <$cc.bd_A_2><@cc.rem>Manifestation of Consciousness</></>\nProvided by the following Operators' skills:\nRosmontis"
     },
     "cc.bd_a1": {
       "termId": "cc.bd_a1",
       "termName": "Perception Information",
-      "description": "Affects skills related to <$cc.bd_A><@cc.rem>Chain of Thought</></>\nProvided by the following Operators:\nRosmontis, Dusk, Ling, Whisperain, Iris"
+      "description": "Affects skills related to <$cc.bd_A><@cc.rem>Chain of Thought</></> and <$cc.bd_B><@cc.rem>Soundless Resonance</></>\nProvided by the following Operators' skills:\nRosmontis, Ebenholz, Dusk, Ling, Whisperain, Iris, Czerny"
     },
     "cc.bd_b1": {
       "termId": "cc.bd_b1",
       "termName": "Worldly Plight",
-      "description": "Provided by the following Operators\nDusk, Ling, Mr. Nothing, Mulberry"
+      "description": "Provided by the following Operators' skills\nDusk, Ling, Mr. Nothing, Mulberry"
     },
     "cc.bd_ash": {
       "termId": "cc.bd_ash",
       "termName": "Intelligence Reserve",
-      "description": "Provided by the following Operator(s):\nAsh"
+      "description": "Provided by the following Operators' skills\nAsh"
     },
     "cc.bd_tachanka": {
       "termId": "cc.bd_tachanka",
       "termName": "Ursus Specialty Beverage",
-      "description": "Provided by the following Operator(s):\nTachanka"
+      "description": "Provided by the following Operators' skills\nTachanka"
     },
     "cc.bd_a1_a1": {
       "termId": "cc.bd_a1_a1",
       "termName": "Memory Fragments",
-      "description": "Affects <$cc.bd_a1><@cc.rem>Perception Information</></>\nProvided by the following Operator(s):\nWhisperain"
+      "description": "Affects skills related to <$cc.bd_a1><@cc.rem>Perception Information</></>\nProvided by the following Operators' skills\nWhisperain"
     },
     "cc.bd_a1_a2": {
       "termId": "cc.bd_a1_a2",
       "termName": "Dreamland",
-      "description": "Affects <$cc.bd_a1><@cc.rem>Perception Information</></>\nProvided by the following Operator(s):\nIris"
+      "description": "Affects skills related to <$cc.bd_a1><@cc.rem>Perception Information</></>\nProvided by the following Operators' skills\nIris"
     },
     "cc.m.var1": {
       "termId": "cc.m.var1",
       "termName": "Recycling",
-      "description": "Provided by the following Operator(s):\nVermeil"
+      "description": "Operators with this skill\nVermeil"
     },
     "cc.m.var2": {
       "termId": "cc.m.var2",
       "termName": "Cooperative Will",
-      "description": "Provided by the following Operator(s):\nWaai Fu"
+      "description": "Operators with this skill\nWaai Fu"
     },
     "cc.t.lgd": {
       "termId": "cc.t.lgd",
@@ -1272,7 +1273,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "Alternate",
-      "description": "Includes the following Operators\nLava the Purgatory, Skadi the Corrupting Heart, Ch'en the Holungday, Nearl the Radiant Knight, Kroos the Keen Glint, Specter the Unchained"
+      "description": "Includes the following Operators\nLava the Purgatory, Skadi the Corrupting Heart, Ch'en the Holungday, Nearl the Radiant Knight, Kroos the Keen Glint, Specter the Unchained, Hibiscus the Purifier"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
@@ -1388,19 +1389,55 @@
       "termId": "ba.levitate",
       "termName": "Levitate",
       "description": "Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3."
+    },
+    "ba.physhield": {
+      "termId": "ba.physhield",
+      "termName": "Physical Shield",
+      "description": "Blocks 1 instance of Physical damage per layer of Physical Shield"
+    },
+    "ba.magicfragile": {
+      "termId": "ba.magicfragile",
+      "termName": "Arts Fragility",
+      "description": "Amplifies all Arts damage taken by the corresponding amount (only the strongest effect of this type applies)"
+    },
+    "cc.bd_B_1": {
+      "termId": "cc.bd_B_1",
+      "termName": "Lingering Melody",
+      "description": "Operators with this skill\nEbenholz"
+    },
+    "cc.bd_B_2": {
+      "termId": "cc.bd_B_2",
+      "termName": "Harmony Astray",
+      "description": "Operators with this skill\nEbenholz"
+    },
+    "cc.bd_B": {
+      "termId": "cc.bd_B",
+      "termName": "Soundless Resonance",
+      "description": "Affects skills related to <$cc.bd_B_1><@cc.rem>Lingering Melody</></> and <$cc.bd_B_2><@cc.rem>Harmony Astray</></>\nProvided by the following Operators' skills:\nEbenholz"
+    },
+    "cc.bd_a1_a3": {
+      "termId": "cc.bd_a1_a3",
+      "termName": "Measure",
+      "description": "Affects skills related to <$cc.bd_a1><@cc.rem>Perception Information</></>\nProvided by the following Operators' skills\nCzerny"
+    },
+    "cc.t.flow_gold": {
+      "termId": "cc.t.flow_gold",
+      "termName": "Pure Gold Production Line",
+      "description": "For <@cc.kw>every</> <@cc.kw>Factory</> producing <@cc.kw>Pure Gold</>, Pure Gold Production Line <@cc.kw>+1</>"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "Insufficient Information Fragments. Acquire more from the Purchase Certificates Store or the Event Store.",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "27.4.0",
-  "resPrefVersion": "27d11d0",
+  "dataVersion": "28.1.0",
+  "resPrefVersion": "28d2d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS analysis indicates that a 3-star rating has not been achieved in a lower-level environment of this stage. <color=#fe6435>Environmental Compatibility</color> will be activated. \nUnder Environmental Compatibility, attempting this stage will <color=#fe6435>consume Sanity</color> equal to the current environment and all lower-level environments combined. Upon completion, <color=#fe6435>progress will be synced, and you will receive</color> rewards for both the current environment and all lower-level environments.",
   "mainlineToughDesc": "A more challenging environment\nThe first 3-star clear will reward an Originite Prime\nIncludes extra high-difficulty stages",
   "mainlineEasyDesc": "An easier environment\nThe first 3-star clear will only reward growth materials\n\n<color=#c6c6c6>Story Environment completion will only unlock the corresponding Story Environment for the next episode</color>",
   "mainlineNormalDesc": "The standard environment\nThe first 3-star clear will reward an Originite Prime",
   "addedRewardDisplayZone": "main_9",
-  "isDynIllustStartEnabled": true
+  "isDynIllustStartEnabled": true,
+  "isRoguelikeAvgAchieveFuncEnabled": true
 }
