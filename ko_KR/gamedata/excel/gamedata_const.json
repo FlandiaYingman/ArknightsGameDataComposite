@@ -872,9 +872,9 @@
     "char_500_noirc",
     "char_503_rang"
   ],
-  "attackMax": 1210,
-  "defMax": 826,
-  "hpMax": 4225,
+  "attackMax": 2000,
+  "defMax": 1000,
+  "hpMax": 6000,
   "reMax": 100,
   "diamondToShdRate": 180,
   "baseMaxFriendNum": 15,
@@ -958,7 +958,8 @@
     "attainga.desc2": "<color=#FFD800>{0}</color>",
     "attainga.attention": "<color=#E1322C>{0}</color>",
     "lv.ez": "<color=#0098dc>{0}</color>",
-    "lv.hdbg": "<color=#7ba61f>{0}</color>"
+    "lv.hdbg": "<color=#7ba61f>{0}</color>",
+    "lv.act20side": "<color=#F7BC44>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1047,7 +1048,7 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597129200,
-  "recruitPoolVersion": 8,
+  "recruitPoolVersion": 9,
   "TSO": 1608188400,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
@@ -1272,7 +1273,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "얼터네이트",
-      "description": "다음 오퍼레이터 포함\n라바 더 퍼거토리, 스카디 더 커럽팅 하트, 첸 더 홀룽데이, 니어 더 래디언트 나이트, 크루스 더 킨 글린트, 스펙터 디 언체인드, 히비스커스 더 퓨리파이어"
+      "description": "모든 얼터네이트 오퍼레이터 포함"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
@@ -1423,16 +1424,31 @@
       "termId": "cc.t.flow_gold",
       "termName": "순금 생산 라인",
       "description": "<@cc.kw>1</>개의 <@cc.kw>제조소</>에서 <@cc.kw>순금</>을 생산할 때마다, 순금 생산 라인 <@cc.kw>+1</>"
+    },
+    "cc.bd_malist": {
+      "termId": "cc.bd_malist",
+      "termName": "공사용 로봇",
+      "description": "다음 오퍼레이터의 인프라 스킬에서 제공\n미니멀리스트"
+    },
+    "cc.tag.durin": {
+      "termId": "cc.tag.durin",
+      "termName": "두린족",
+      "description": "다음 오퍼레이터 포함\n미니멀리스트, 머틀, 체스트넛, 두린"
+    },
+    "cc.gvial": {
+      "termId": "cc.gvial",
+      "termName": "가비알",
+      "description": "다음 오퍼레이터 포함\n가비알 디 인빈서블, 가비알"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "기록 조각이 부족합니다. 증명서 상점 또는 이벤트 기간에 열리는 상점을 통해 교환할 수 있습니다.",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "28.1.0",
-  "resPrefVersion": "28d2d0",
+  "dataVersion": "29.1.0",
+  "resPrefVersion": "30d0d0",
   "easyCrystalBonus": 0,
-  "mainlineCompatibleDesc": "PRTS에 해당 스테이지의 하위 난이도 작전 환경에서 3★ 평가를 받지 못한 것이 탐지되어, <color=#fe6435>작전 난이도 호환</color> 모드가 자동으로 적용됩니다.\n작전 난이도 호환 모드에서 해당 스테이지를 도전하면 현재 난이도와 하위 난이도의 필요 이성을 <color=#fe6435>동시에 소모</color>하게 되며, 클리어 후 <color=#fe6435>작전 진행도의 동기화</color>뿐만 아니라, 하위 난이도의 보상도 <color=#fe6435>함께 획득</color>하게 됩니다.",
+  "mainlineCompatibleDesc": "PRTS에 해당 스테지의 하위 난이도 작전 환경에서 3★ 평가를 받지 못한 것이 탐지되어, <color=#fe6435>작전 난이도 호환</color> 모드가 자동으로 적용됩니다.\n작전 난이도 호환 모드에서 해당 스테이지를 도전하면 현재 난이도와 하위 난이도의 필요 이성을 <color=#fe6435>동시에 소모</color>하게 되며, 클리어 후 <color=#fe6435>작전 진행도의 동기화</color>뿐만 아니라, 하위 난이도의 보상도 <color=#fe6435>함께 획득</color>하게 됩니다.",
   "mainlineToughDesc": "도전적인 플레이 환경\n3★ 평가의 첫 클리어 보상에는 순오리지늄이 포함됩니다\n또한, 난이도가 높은 추가 스테이지도 포함됩니다",
   "mainlineEasyDesc": "쾌적한 플레이 환경\n3★ 평가의 첫 클리어 보상에는 육성류 재료만 포함됩니다\n\n<color=#c6c6c6>스토리 체험 환경 완료 시 다음 에피소드는 스토리 체험 환경만 개방됩니다</color>",
   "mainlineNormalDesc": "일반적인 플레이 환경\n3★ 평가의 첫 클리어 보상에는 순오리지늄이 포함됩니다",
