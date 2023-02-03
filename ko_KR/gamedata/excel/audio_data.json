@@ -1593,28 +1593,28 @@
       "name": "sys.ON_ACTIVITY_LOADED.act1bossrush"
     },
     {
+      "intro": "Audio/Sound_Beta_2/Music/act10rune/m_sys_ccs10_intro",
+      "loop": "Audio/Sound_Beta_2/Music/act10rune/m_sys_ccs10_loop",
+      "volume": 1,
+      "crossfade": 1,
+      "delay": 0,
+      "name": "sys.ON_CRISIS_SEASON_LOADED.rune_season_10_1"
+    },
+    {
+      "intro": "Audio/Sound_Beta_2/Music/act10rune/m_bat_ccs10_intro",
+      "loop": "Audio/Sound_Beta_2/Music/act10rune/m_bat_ccs10_loop",
+      "volume": 1,
+      "crossfade": 1,
+      "delay": 0,
+      "name": "battle.ON_GAME_READY.rune_season_10_1_main"
+    },
+    {
       "intro": "Audio/Sound_Beta_2/Music/obt/empty",
       "loop": null,
       "volume": 1,
       "crossfade": 1.5,
       "delay": 0,
       "name": "sys.BGM_CLEAR"
-    },
-    {
-      "intro": "Audio/Sound_Beta_2/Music/beta2_180603/m_sys_tech_intro",
-      "loop": "Audio/Sound_Beta_2/Music/beta2_180603/m_sys_tech_loop",
-      "volume": 1,
-      "crossfade": 1,
-      "delay": 0,
-      "name": "sys.ON_ACTIVITY_LOADED.act8mini.1"
-    },
-    {
-      "intro": "Audio/Sound_Beta_2/Music/beta2_180603/m_sys_tech_intro",
-      "loop": "Audio/Sound_Beta_2/Music/beta2_180603/m_sys_tech_loop",
-      "volume": 1,
-      "crossfade": 1,
-      "delay": 0,
-      "name": "sys.ON_ACTIVITY_LOADED.act8mini.2"
     },
     {
       "intro": "Audio/Sound_Beta_2/Music/beta2_180603/m_sys_tech_intro",
@@ -78501,7 +78501,8 @@
     "battle.ON_CUSTOM_TRIGGER.bat_act20side_02": "battle.ON_GAME_READY.bat_act20side_02",
     "battle.ON_CUSTOM_TRIGGER.bat_boss_minima": "battle.ON_GAME_READY.bat_boss_minima",
     "battle.ON_CUSTOM_TRIGGER.m_bat_ghosthunter01": "battle.ON_GAME_READY.m_bat_ghosthunter01",
-    "battle.ON_CUSTOM_TRIGGER.m_bat_ghosthunter02": "battle.ON_GAME_READY.m_bat_ghosthunter02"
+    "battle.ON_CUSTOM_TRIGGER.m_bat_ghosthunter02": "battle.ON_GAME_READY.m_bat_ghosthunter02",
+    "battle.ON_GAME_READY.rune_season_10_1_main_challenge": "battle.ON_GAME_READY.rune_season_10_1_main"
   },
   "soundFxVoiceLang": {
     "battle.ON_UNIT_BORN.char_101_sora": {
