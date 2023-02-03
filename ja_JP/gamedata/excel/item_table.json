@@ -14493,6 +14493,54 @@
       "itemType": "ACTIVITY_ITEM",
       "stageDropList": [],
       "buildingProductList": []
+    },
+    "randomMaterialRune_10": {
+      "itemId": "randomMaterialRune_10",
+      "name": "補給物資・「塵環」",
+      "description": "危機契約で入手した素材補給箱。満身創痍の大地を治療するために奮闘している人々へのせめてものお返しです。――危機契約",
+      "rarity": 4,
+      "iconId": "randomMaterialRune_10",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 60021,
+      "usage": "補給物資としてランダムに様々な素材が入っている。",
+      "obtainApproach": "危機契約報酬",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_MGACHA",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "voucher_full_mint": {
+      "itemId": "voucher_full_mint",
+      "name": "ミントの手紙",
+      "description": "手紙にはロドスでの近況や、最近読んだ本、そして地質学方面の研究で得た成果などが書かれている。",
+      "rarity": 4,
+      "iconId": "voucher_full_mint",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5000009,
+      "usage": "ドクターへの手紙。ミントの潜在能力を限界まで強化する。",
+      "obtainApproach": "記録復元",
+      "classifyType": "MATERIAL",
+      "itemType": "VOUCHER_FULL_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "act11mini_token_card": {
+      "itemId": "act11mini_token_card",
+      "name": "閲覧証",
+      "description": "この閲覧証があれば、好きな物語をどれでも自由に閲覧できる。たとえ続きがどうなっていようと、移ろう時はすべてを記録する。",
+      "rarity": 4,
+      "iconId": "act11mini_token_card",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "私設図書室が独自に発行している閲覧証。図書室の書物を閲読する際に必要である。書籍を図書室の外に持ち出すことは許されない。",
+      "obtainApproach": "期間限定ドロップ",
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": []
     }
   },
   "expItems": {
@@ -15373,7 +15421,9 @@
     "char_350_surtr@summer#9": 1,
     "char_421_crow@summer#9": 1,
     "char_401_elysm@summer#9": 1,
-    "char_484_robrta@summer#10": 1
+    "char_484_robrta@summer#10": 1,
+    "furni_contract_s10_01": 1,
+    "char_356_broca@marthe#4": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
@@ -16016,6 +16066,10 @@
     "char_411_tomimi": {
       "itemId": "voucher_full_tomimi",
       "ts": 1674802800
+    },
+    "char_388_mint": {
+      "itemId": "voucher_full_mint",
+      "ts": 1676617200
     }
   }
 }
