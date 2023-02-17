@@ -1553,6 +1553,14 @@
       "name": "sys.ON_RETRO_LOADED.permanent_sidestory_9_Dossoles_Holiday"
     },
     {
+      "intro": "Audio/Sound_Beta_2/Music/beta1_180603/m_dia_darkness01_intro",
+      "loop": "Audio/Sound_Beta_2/Music/beta1_180603/m_dia_darkness01_loop",
+      "volume": 1,
+      "crossfade": 1,
+      "delay": 0,
+      "name": "sys.ON_ACTIVITY_LOADED.act11mini"
+    },
+    {
       "intro": "Audio/Sound_Beta_2/Music/act20side/m_sys_act20side_intro",
       "loop": "Audio/Sound_Beta_2/Music/act20side/m_sys_act20side_loop",
       "volume": 1,
@@ -1615,14 +1623,6 @@
       "crossfade": 1.5,
       "delay": 0,
       "name": "sys.BGM_CLEAR"
-    },
-    {
-      "intro": "Audio/Sound_Beta_2/Music/beta2_180603/m_sys_tech_intro",
-      "loop": "Audio/Sound_Beta_2/Music/beta2_180603/m_sys_tech_loop",
-      "volume": 1,
-      "crossfade": 1,
-      "delay": 0,
-      "name": "sys.ON_ACTIVITY_LOADED.act8mini.3"
     },
     {
       "intro": "Audio/Sound_Beta_2/Music/beta2_180603/m_sys_tech_intro",
@@ -78502,7 +78502,8 @@
     "battle.ON_CUSTOM_TRIGGER.bat_boss_minima": "battle.ON_GAME_READY.bat_boss_minima",
     "battle.ON_CUSTOM_TRIGGER.m_bat_ghosthunter01": "battle.ON_GAME_READY.m_bat_ghosthunter01",
     "battle.ON_CUSTOM_TRIGGER.m_bat_ghosthunter02": "battle.ON_GAME_READY.m_bat_ghosthunter02",
-    "battle.ON_GAME_READY.rune_season_10_1_main_challenge": "battle.ON_GAME_READY.rune_season_10_1_main"
+    "battle.ON_GAME_READY.rune_season_10_1_main_challenge": "battle.ON_GAME_READY.rune_season_10_1_main",
+    "sys.ON_ACTIVITY_LOADED.act12sre": "sys.ON_ACTIVITY_LOADED.act12side"
   },
   "soundFxVoiceLang": {
     "battle.ON_UNIT_BORN.char_101_sora": {
