@@ -17306,14 +17306,14 @@
     },
     "itempack_mod_11": {
       "itemId": "itempack_mod_11",
-      "name": "术士芯片组印刻仪",
+      "name": "术师芯片组印刻仪",
       "description": "面对训练数据不足的问题，工程部生产了全新的芯片印刻仪以供干员们自行打印。",
       "rarity": 4,
       "iconId": "itempack_mod_11",
       "overrideBkg": null,
       "stackIconId": null,
       "sortId": -10000,
-      "usage": "一次性自助芯片印刻器械，存储了大量训练记录与材料，根据术士干员们的需求，可以轻松印刻出芯片组合。",
+      "usage": "一次性自助芯片印刻器械，存储了大量训练记录与材料，根据术师干员们的需求，可以轻松印刻出芯片组合。",
       "obtainApproach": "采购中心",
       "classifyType": "CONSUME",
       "itemType": "ITEM_PACK",
@@ -17461,7 +17461,40 @@
       "obtainApproach": "活动关卡掉落、活动任务获得",
       "classifyType": "NONE",
       "itemType": "ACTIVITY_ITEM",
-      "stageDropList": [],
+      "stageDropList": [
+        {
+          "stageId": "act16side_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_08",
+          "occPer": "ALWAYS"
+        }
+      ],
       "buildingProductList": []
     },
     "uni_set_inkArt": {
@@ -17628,6 +17661,22 @@
           "occPer": "ALWAYS"
         }
       ],
+      "buildingProductList": []
+    },
+    "uni_set_reception": {
+      "itemId": "uni_set_reception",
+      "name": "龙门风情茶室家具收藏包",
+      "description": null,
+      "rarity": 4,
+      "iconId": "uni_set_prison",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": null,
+      "obtainApproach": "采购中心",
+      "classifyType": "NONE",
+      "itemType": "UNI_COLLECTION",
+      "stageDropList": [],
       "buildingProductList": []
     }
   },
@@ -18737,7 +18786,9 @@
     "char_110_deepcl@winter#3": 1,
     "char_4055_bgsnow@wild#7": 1,
     "char_4032_provs@wild#7": 1,
-    "char_185_frncat@wild#7": 1
+    "char_185_frncat@wild#7": 1,
+    "char_103_angel@sale#8": 1,
+    "char_4036_forcer@epoque#20": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
@@ -19670,6 +19721,56 @@
         },
         {
           "id": "furni_inkArt_floor_01",
+          "count": 1,
+          "type": "FURN"
+        }
+      ]
+    },
+    "uni_set_reception": {
+      "uniCollectionItemId": "uni_set_reception",
+      "uniqueItem": [
+        {
+          "id": "furni_reception_screen_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_reception_sofa_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_reception_longBench_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_reception_coffeetable_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_reception_showcase_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_reception_carpet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_reception_vaseGroup_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_reception_wallpaper_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_reception_floor_01",
           "count": 1,
           "type": "FURN"
         }
