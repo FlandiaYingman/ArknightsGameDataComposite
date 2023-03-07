@@ -554,7 +554,7 @@
       "char_277_sqrrel": {
         "charId": "char_277_sqrrel",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_sqrrel",
         "recruitType": "FREE"
       },
       "char_128_plosis": {
@@ -633,13 +633,13 @@
         "charId": "char_131_flameb",
         "canBeFree": true,
         "uniEquipId": "uniequip_002_flameb",
-        "recruitType": "THIRD"
+        "recruitType": "FREE"
       },
       "char_508_aguard": {
         "charId": "char_508_aguard",
         "canBeFree": false,
         "uniEquipId": null,
-        "recruitType": "FREE"
+        "recruitType": "THIRD"
       },
       "char_155_tiger": {
         "charId": "char_155_tiger",
@@ -788,7 +788,7 @@
       "char_489_serum": {
         "charId": "char_489_serum",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_serum",
         "recruitType": "FREE"
       },
       "char_002_amiya": {
@@ -1124,7 +1124,7 @@
       "char_241_panda": {
         "charId": "char_241_panda",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_panda",
         "recruitType": "FREE"
       },
       "char_451_robin": {
@@ -1232,7 +1232,7 @@
       "char_134_ifrit": {
         "charId": "char_134_ifrit",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_ifrit",
         "recruitType": "FREE"
       },
       "char_213_mostma": {
@@ -1310,7 +1310,7 @@
       "char_400_weedy": {
         "charId": "char_400_weedy",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_weedy",
         "recruitType": "FREE"
       },
       "char_225_haak": {
@@ -1490,7 +1490,7 @@
       "char_4036_forcer": {
         "charId": "char_4036_forcer",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_forcer",
         "recruitType": "FREE"
       },
       "char_4016_kazema": {
@@ -1767,6 +1767,24 @@
         "charId": "char_4082_qiubai",
         "canBeFree": true,
         "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4077_palico": {
+        "charId": "char_4077_palico",
+        "canBeFree": false,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_1030_noirc2": {
+        "charId": "char_1030_noirc2",
+        "canBeFree": false,
+        "uniEquipId": "uniequip_002_noirc2",
+        "recruitType": "FREE"
+      },
+      "char_1029_yato2": {
+        "charId": "char_1029_yato2",
+        "canBeFree": false,
+        "uniEquipId": "uniequip_002_yato2",
         "recruitType": "FREE"
       }
     },
@@ -31942,8 +31960,8 @@
           "displayUnlockYear": 2023,
           "displayUnlockMonth": 4,
           "acquireTitle": "可获取主题场景",
-          "purchaseTitle": "主题家具包",
-          "displayName": "主题场景",
+          "purchaseTitle": "主题场景",
+          "displayName": "彼端",
           "displayDiscription": "在过往与未来中，或许有着一片不属于现在的海岸。\n第四维度由此展开，仍未知晓的景色悉数排列。\n在海的另一头，晨曦与午夜对立相望。\n而星辰缀满天际，在彼端等待我们的抉择。",
           "bpLevelId": "bp_level_155",
           "detailAnnounceTime": "2023/4/1 4:00:00"
@@ -62665,6 +62683,12 @@
             "modeId": "MONTH_TEAM",
             "modeGrade": 0,
             "predefinedId": "month_team_6",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "MONTH_TEAM",
+            "modeGrade": 0,
+            "predefinedId": "month_team_7",
             "initialDiceCount": 1
           },
           {
