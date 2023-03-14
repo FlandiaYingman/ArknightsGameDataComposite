@@ -2105,6 +2105,45 @@
       "zoneNameThird": null,
       "lockedText": null,
       "canPreview": false
+    },
+    "tower_n_03": {
+      "zoneID": "tower_n_03",
+      "zoneIndex": 0,
+      "type": "CLIMB_TOWER",
+      "zoneNameFirst": null,
+      "zoneNameSecond": null,
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act19side_zone1": {
+      "zoneID": "act19side_zone1",
+      "zoneIndex": 0,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "Test Site",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act19side_zone2": {
+      "zoneID": "act19side_zone2",
+      "zoneIndex": 1,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "Rhine Headquarters",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
     }
   },
   "weeklyAdditionInfo": {
@@ -2553,6 +2592,14 @@
     "act11mini_zone1": {
       "startTs": 1676653200,
       "endTs": 1677236399
+    },
+    "act19side_zone1": {
+      "startTs": 1678795200,
+      "endTs": 1680001199
+    },
+    "act19side_zone2": {
+      "startTs": 1679439600,
+      "endTs": 1680001199
     }
   },
   "mainlineAdditionInfo": {
@@ -2785,7 +2832,8 @@
                   "count": 5,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 1
             },
             {
               "bindStageId": "main_10-01",
@@ -2804,7 +2852,8 @@
                   "count": 3,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 2
             },
             {
               "bindStageId": "tough_10-01",
@@ -2823,9 +2872,12 @@
                   "count": 2,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 3
             }
-          ]
+          ],
+          "nodeTitle1": null,
+          "nodeTitle2": null
         },
         {
           "recordId": "main_10_note_2",
@@ -2850,7 +2902,8 @@
                   "count": 10000,
                   "type": "GOLD"
                 }
-              ]
+              ],
+              "stageDiff1": 1
             },
             {
               "bindStageId": "main_10-06",
@@ -2869,7 +2922,8 @@
                   "count": 20000,
                   "type": "GOLD"
                 }
-              ]
+              ],
+              "stageDiff1": 2
             },
             {
               "bindStageId": "tough_10-06",
@@ -2888,9 +2942,12 @@
                   "count": 2,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 3
             }
-          ]
+          ],
+          "nodeTitle1": null,
+          "nodeTitle2": null
         },
         {
           "recordId": "main_10_note_3",
@@ -2920,7 +2977,8 @@
                   "count": 20000,
                   "type": "GOLD"
                 }
-              ]
+              ],
+              "stageDiff1": 1
             },
             {
               "bindStageId": "main_10-10",
@@ -2944,7 +3002,8 @@
                   "count": 30000,
                   "type": "GOLD"
                 }
-              ]
+              ],
+              "stageDiff1": 2
             },
             {
               "bindStageId": "tough_10-10",
@@ -2963,9 +3022,12 @@
                   "count": 2,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 3
             }
-          ]
+          ],
+          "nodeTitle1": null,
+          "nodeTitle2": null
         },
         {
           "recordId": "main_10_note_4",
@@ -2995,7 +3057,8 @@
                   "count": 2,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 1
             },
             {
               "bindStageId": "main_10-13",
@@ -3019,7 +3082,8 @@
                   "count": 50000,
                   "type": "GOLD"
                 }
-              ]
+              ],
+              "stageDiff1": 2
             },
             {
               "bindStageId": "tough_10-13",
@@ -3043,9 +3107,12 @@
                   "count": 2,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 3
             }
-          ]
+          ],
+          "nodeTitle1": null,
+          "nodeTitle2": null
         },
         {
           "recordId": "main_10_note_5",
@@ -3075,7 +3142,8 @@
                   "count": 2,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 1
             },
             {
               "bindStageId": "main_10-15",
@@ -3099,7 +3167,8 @@
                   "count": 4,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 2
             },
             {
               "bindStageId": "tough_10-15",
@@ -3123,9 +3192,12 @@
                   "count": 2,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 3
             }
-          ]
+          ],
+          "nodeTitle1": null,
+          "nodeTitle2": null
         },
         {
           "recordId": "main_10_note_6",
@@ -3150,9 +3222,12 @@
                   "count": 1,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 5
             }
-          ]
+          ],
+          "nodeTitle1": null,
+          "nodeTitle2": null
         },
         {
           "recordId": "main_10_note_7",
@@ -3177,9 +3252,12 @@
                   "count": 2,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 5
             }
-          ]
+          ],
+          "nodeTitle1": null,
+          "nodeTitle2": null
         },
         {
           "recordId": "main_10_note_8",
@@ -3209,9 +3287,12 @@
                   "count": 1,
                   "type": "MATERIAL"
                 }
-              ]
+              ],
+              "stageDiff1": 5
             }
-          ]
+          ],
+          "nodeTitle1": null,
+          "nodeTitle2": null
         }
       ],
       "unlockData": {
@@ -3246,6 +3327,25 @@
       "hard_10-01",
       "hard_10-02",
       "hard_10-03"
+    ],
+    "main_11": [
+      "easy_11-01",
+      "main_11-01",
+      "tough_11-01",
+      "easy_11-06",
+      "main_11-06",
+      "tough_11-06",
+      "easy_11-10",
+      "main_11-10",
+      "tough_11-10",
+      "easy_11-13",
+      "main_11-13",
+      "tough_11-13",
+      "main_11-17",
+      "hard_11-01",
+      "hard_11-02",
+      "hard_11-03",
+      "hard_11-04"
     ]
   }
 }
