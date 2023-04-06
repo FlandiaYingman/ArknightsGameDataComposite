@@ -836,13 +836,13 @@
       "char_344_beewax": {
         "charId": "char_344_beewax",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_beewax",
         "recruitType": "FREE"
       },
       "char_388_mint": {
         "charId": "char_388_mint",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_mint",
         "recruitType": "FREE"
       },
       "char_338_iris": {
@@ -1130,13 +1130,13 @@
       "char_451_robin": {
         "charId": "char_451_robin",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_robin",
         "recruitType": "FREE"
       },
       "char_458_rfrost": {
         "charId": "char_458_rfrost",
         "canBeFree": false,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_rfrost",
         "recruitType": "FREE"
       },
       "char_369_bena": {
@@ -1268,7 +1268,7 @@
       "char_426_billro": {
         "charId": "char_426_billro",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_billro",
         "recruitType": "FREE"
       },
       "char_206_gnosis": {
@@ -1592,7 +1592,7 @@
       "char_4048_doroth": {
         "charId": "char_4048_doroth",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_doroth",
         "recruitType": "FREE"
       },
       "char_497_ctable": {
@@ -1748,7 +1748,7 @@
       "char_4080_lin": {
         "charId": "char_4080_lin",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_lin",
         "recruitType": "FREE"
       },
       "char_2024_chyue": {
@@ -1790,6 +1790,30 @@
       "char_4091_ulika": {
         "charId": "char_4091_ulika",
         "canBeFree": false,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_491_humus": {
+        "charId": "char_491_humus",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_154_morgan": {
+        "charId": "char_154_morgan",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_morgan",
+        "recruitType": "FREE"
+      },
+      "char_464_cement": {
+        "charId": "char_464_cement",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_cement",
+        "recruitType": "FREE"
+      },
+      "char_4087_ines": {
+        "charId": "char_4087_ines",
+        "canBeFree": true,
         "uniEquipId": null,
         "recruitType": "FREE"
       }
@@ -30283,6 +30307,10 @@
         "rogue_2_enroll_1": {
           "enrollId": "rogue_2_enroll_1",
           "enrollTime": 1672300800
+        },
+        "rogue_2_enroll_2": {
+          "enrollId": "rogue_2_enroll_2",
+          "enrollTime": 1681545600
         }
       },
       "milestones": [
@@ -35957,7 +35985,7 @@
                   "endBookId": "endbook_rogue_2_1_3",
                   "sortId": 3,
                   "endbookName": "枯萎之声",
-                  "unlockDesc": "未击破“偏执泡影”的近地悬浮状态下通过结局。",
+                  "unlockDesc": "未击破“偏执泡影”的近地悬浮状态下通过结局",
                   "textId": "Obt/Rogue/rogue_2/Endbook/endbook_rogue_2_1_3"
                 }
               ]
@@ -35991,7 +36019,7 @@
                   "endBookId": "endbook_rogue_2_2_3",
                   "sortId": 3,
                   "endbookName": "落叶归根",
-                  "unlockDesc": "碎石未被最后的骑士全部击碎的状态下通过结局。",
+                  "unlockDesc": "碎石未被最后的骑士全部击碎的状态下通过结局",
                   "textId": "Obt/Rogue/rogue_2/Endbook/endbook_rogue_2_2_3"
                 }
               ]
@@ -36243,7 +36271,7 @@
           },
           "pic_rogue_2_5": {
             "archiveType": "PIC",
-            "description": "继续探索以解锁"
+            "description": ""
           },
           "pic_rogue_2_6": {
             "archiveType": "PIC",
@@ -36836,6 +36864,13 @@
             "squadCapacityUp": 1,
             "battleCharLimitUp": 0,
             "maxHpUp": 1
+          },
+          "11": {
+            "exp": 80,
+            "populationUp": 15,
+            "squadCapacityUp": 2,
+            "battleCharLimitUp": 0,
+            "maxHpUp": 5
           }
         },
         "charUpgradeTable": {
@@ -36856,8 +36891,8 @@
         "tipButtonName": "导览信息端口",
         "collectButtonName": "深蓝记录仪",
         "bpSystemName": "生态谱系",
-        "autoSetKV": "",
-        "bpPurchaseActiveEnroll": "",
+        "autoSetKV": "pic_rogue_2_KV2",
+        "bpPurchaseActiveEnroll": "rogue_2_enroll_2",
         "defaultSacrificeDesc": "灯塔已然倾倒，相逢的人们打开行囊，为彼此投递光明。",
         "defaultExpeditionSelectDesc": "干员{0}将会在本层结束后归来，并带回一些物资。",
         "gotCharBuffToast": "干员<color=#9266b2>{0}</color>获得了<color=#9266b2>排异反应{1}</color>",
@@ -36869,7 +36904,7 @@
         "monthTeamDescTagName": "映射对象",
         "outerBuffCompleteText": "认知完备",
         "outerProgressTextColor": "#59dddc",
-        "outerBuffTokenSum": 89,
+        "outerBuffTokenSum": 112,
         "challengeTaskTargetName": "探索目标",
         "challengeTaskConditionName": "探索条件",
         "challengeTaskRewardName": "探索奖励",
@@ -36885,12 +36920,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -36924,12 +36962,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -36963,12 +37004,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37002,12 +37046,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37041,12 +37088,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37080,12 +37130,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37119,12 +37172,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37158,12 +37214,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37197,12 +37256,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37236,12 +37298,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37275,12 +37340,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37314,12 +37382,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37353,12 +37424,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37392,12 +37466,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37431,12 +37508,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37470,12 +37550,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37509,12 +37592,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37753,12 +37839,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37792,12 +37881,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37831,12 +37923,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37870,12 +37965,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37909,12 +38007,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37948,12 +38049,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -37987,12 +38091,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -38026,12 +38133,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -38065,12 +38175,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -38104,12 +38217,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -38143,12 +38259,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -38182,12 +38301,15 @@
             "rogue_2_band_11",
             "rogue_2_band_12",
             "rogue_2_band_13",
+            "rogue_2_band_14",
             "rogue_2_band_15",
             "rogue_2_band_16",
             "rogue_2_band_17",
+            "rogue_2_band_18",
             "rogue_2_band_19",
             "rogue_2_band_20",
             "rogue_2_band_21",
+            "rogue_2_band_22",
             "rogue_2_band_1",
             "rogue_2_band_2",
             "rogue_2_band_3",
@@ -40867,6 +40989,48 @@
             "char_506_rmedic",
             "char_514_rdfend"
           ]
+        },
+        "rogue_2_recruit_ticket_temp_5_up": {
+          "id": "rogue_2_recruit_ticket_temp_5_up",
+          "profession": 639,
+          "rarity": 16,
+          "professionList": [
+            "WARRIOR",
+            "SNIPER",
+            "TANK",
+            "MEDIC",
+            "SUPPORT",
+            "CASTER",
+            "SPECIAL",
+            "PIONEER"
+          ],
+          "rarityList": [
+            4
+          ],
+          "extraEliteNum": 0,
+          "extraFreeRarity": [],
+          "extraCharIds": []
+        },
+        "rogue_2_recruit_ticket_temp_6_up": {
+          "id": "rogue_2_recruit_ticket_temp_6_up",
+          "profession": 639,
+          "rarity": 32,
+          "professionList": [
+            "WARRIOR",
+            "SNIPER",
+            "TANK",
+            "MEDIC",
+            "SUPPORT",
+            "CASTER",
+            "SPECIAL",
+            "PIONEER"
+          ],
+          "rarityList": [
+            5
+          ],
+          "extraEliteNum": 0,
+          "extraFreeRarity": [],
+          "extraCharIds": []
         }
       },
       "upgradeTickets": {
@@ -47901,6 +48065,135 @@
               ]
             }
           ]
+        },
+        "rogue_2_band_14": {
+          "id": "rogue_2_band_14",
+          "buffs": [
+            {
+              "key": "drop_extra_pool",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "deepsea_2"
+                }
+              ]
+            },
+            {
+              "key": "set_dice",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "rogue_2_dice_2"
+                }
+              ]
+            },
+            {
+              "key": "immediate_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "rogue_2_relic_fight_158"
+                },
+                {
+                  "key": "count",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_band_18": {
+          "id": "rogue_2_band_18",
+          "buffs": [
+            {
+              "key": "zone_into_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "rogue_2_dice"
+                },
+                {
+                  "key": "count",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "key": "set_dice",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "rogue_2_dice_4"
+                }
+              ]
+            },
+            {
+              "key": "battle_dice_up",
+              "blackboard": [
+                {
+                  "key": "count",
+                  "value": 15
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_band_22": {
+          "id": "rogue_2_band_22",
+          "buffs": [
+            {
+              "key": "recruit_cost",
+              "blackboard": [
+                {
+                  "key": "rarity",
+                  "valueStr": "TIER_3,TIER_4,TIER_5,TIER_6"
+                },
+                {
+                  "key": "profession",
+                  "valueStr": "PIONEER,WARRIOR,TANK,SNIPER,CASTER,SUPPORT,MEDIC,SPECIAL"
+                },
+                {
+                  "key": "delta",
+                  "value": -1
+                }
+              ]
+            },
+            {
+              "key": "upgrade_cost",
+              "blackboard": [
+                {
+                  "key": "rarity",
+                  "valueStr": "TIER_3,TIER_4,TIER_5,TIER_6"
+                },
+                {
+                  "key": "profession",
+                  "valueStr": "PIONEER,WARRIOR,TANK,SNIPER,CASTER,SUPPORT,MEDIC,SPECIAL"
+                },
+                {
+                  "key": "delta",
+                  "value": -1
+                }
+              ]
+            },
+            {
+              "key": "set_dice",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "rogue_2_dice_5"
+                }
+              ]
+            },
+            {
+              "key": "level_limitation_up",
+              "blackboard": [
+                {
+                  "key": "up",
+                  "value": 1
+                }
+              ]
+            }
+          ]
         }
       },
       "relicParams": {
@@ -53828,6 +54121,102 @@
             "itemId": "rogue_2_relic_grace_87",
             "taskId": null
           }
+        },
+        "choice_ro2_wish_7": {
+          "id": "choice_ro2_wish_7",
+          "title": "从桌子底下取走这条贴着许愿条的鳞鱼。",
+          "description": "物尽其用：凭借对伊比利亚习俗的了解，你可能获得这件收藏品",
+          "lockedCoverDesc": null,
+          "type": "WISH",
+          "leftDecoType": "DICE",
+          "nextSceneId": "scene_ro2_wish_1",
+          "icon": "relic",
+          "displayData": {
+            "type": "NORMAL",
+            "funcIconId": "relic",
+            "itemId": null,
+            "taskId": null
+          }
+        },
+        "choice_ro2_rest_15": {
+          "id": "choice_ro2_rest_15",
+          "title": "活用安全屋",
+          "description": "设施再利用",
+          "lockedCoverDesc": null,
+          "type": "NEXT",
+          "leftDecoType": "NONE",
+          "nextSceneId": "scene_ro2_rest_7",
+          "icon": "unknown",
+          "displayData": {
+            "type": "NORMAL",
+            "funcIconId": "unknown",
+            "itemId": null,
+            "taskId": null
+          }
+        },
+        "choice_ro2_taskreward1_13": {
+          "id": "choice_ro2_taskreward1_13",
+          "title": "剩余物资再分配",
+          "description": "选择额外资源物资",
+          "lockedCoverDesc": null,
+          "type": "NEXT",
+          "leftDecoType": "NONE",
+          "nextSceneId": "scene_ro2_taskreward1_2",
+          "icon": "unknown",
+          "displayData": {
+            "type": "NORMAL",
+            "funcIconId": "unknown",
+            "itemId": null,
+            "taskId": null
+          }
+        },
+        "choice_ro2_taskreward2_13": {
+          "id": "choice_ro2_taskreward2_13",
+          "title": "剩余物资再分配",
+          "description": "选择额外资源物资",
+          "lockedCoverDesc": null,
+          "type": "NEXT",
+          "leftDecoType": "NONE",
+          "nextSceneId": "scene_ro2_taskreward2_2",
+          "icon": "unknown",
+          "displayData": {
+            "type": "NORMAL",
+            "funcIconId": "unknown",
+            "itemId": null,
+            "taskId": null
+          }
+        },
+        "choice_ro2_taskreward3_12": {
+          "id": "choice_ro2_taskreward3_12",
+          "title": "剩余物资再分配",
+          "description": "选择额外资源物资",
+          "lockedCoverDesc": null,
+          "type": "NEXT",
+          "leftDecoType": "NONE",
+          "nextSceneId": "scene_ro2_taskreward3_2",
+          "icon": "unknown",
+          "displayData": {
+            "type": "NORMAL",
+            "funcIconId": "unknown",
+            "itemId": null,
+            "taskId": null
+          }
+        },
+        "choice_ro2_bossb1_4": {
+          "id": "choice_ro2_bossb1_4",
+          "title": "离开",
+          "description": "时光流逝......",
+          "lockedCoverDesc": null,
+          "type": "LEAVE",
+          "leftDecoType": "NONE",
+          "nextSceneId": null,
+          "icon": null,
+          "displayData": {
+            "type": "NORMAL",
+            "funcIconId": "leave",
+            "itemId": null,
+            "taskId": null
+          }
         }
       },
       "choiceScenes": {
@@ -55580,6 +55969,14 @@
           "title": "赞歌",
           "description": "直至最后一刻，深海猎人仍是以人，而非海嗣的身份睡去。在你离开之后，恐鱼也没有侵占这里，一道刻入族群的伤痕就此形成。它们不会记住猎人们的样貌，它们只知道，那里不可以进入，永远不可。",
           "background": "pic_rogue_2_27",
+          "titleIcon": null,
+          "useHiddenMusic": false
+        },
+        "scene_ro2_bossb1_3": {
+          "id": "scene_ro2_bossb1_3",
+          "title": "开端",
+          "description": "“深蓝”，这个名字让你产生了一股莫名的熟悉感。当你们找到文件上的地标时，你带着水月走向设施深处，甚至在他找到并试图向你示意自己有能力同化祂的核心器官时也没有停下。你们一路向下，向下，进入了位于泰拉地幔中的“深蓝之树”实验中枢。这里是孵育祂们的场所，自然也能让海嗣成为祂们的一员。",
+          "background": "pic_rogue_2_25",
           "titleIcon": null,
           "useHiddenMusic": false
         }
@@ -58106,7 +58503,7 @@
           "value": 0,
           "sortId": 999,
           "canSacrifice": false,
-          "unlockCondDesc": "认知塑造中解锁【理性与判断】"
+          "unlockCondDesc": "认知塑造中解锁【感性】"
         },
         "rogue_2_band_13": {
           "id": "rogue_2_band_13",
@@ -58121,7 +58518,7 @@
           "value": 0,
           "sortId": 999,
           "canSacrifice": false,
-          "unlockCondDesc": "认知塑造中解锁【实践】"
+          "unlockCondDesc": "认知塑造中解锁【情绪化】"
         },
         "rogue_2_band_15": {
           "id": "rogue_2_band_15",
@@ -58151,7 +58548,7 @@
           "value": 0,
           "sortId": 999,
           "canSacrifice": false,
-          "unlockCondDesc": "认知塑造中解锁【感性】"
+          "unlockCondDesc": "认知塑造中解锁【理性与判断】"
         },
         "rogue_2_band_17": {
           "id": "rogue_2_band_17",
@@ -58166,7 +58563,7 @@
           "value": 0,
           "sortId": 999,
           "canSacrifice": false,
-          "unlockCondDesc": "认知塑造中解锁【情绪化】"
+          "unlockCondDesc": "认知塑造中解锁【实践】"
         },
         "rogue_2_band_19": {
           "id": "rogue_2_band_19",
@@ -59591,7 +59988,7 @@
           "value": 16,
           "sortId": 999,
           "canSacrifice": false,
-          "unlockCondDesc": "？？？"
+          "unlockCondDesc": null
         },
         "rogue_2_relic_fight_1": {
           "id": "rogue_2_relic_fight_1",
@@ -61827,6 +62224,81 @@
           "sortId": 999,
           "canSacrifice": false,
           "unlockCondDesc": null
+        },
+        "rogue_2_recruit_ticket_temp_5_up": {
+          "id": "rogue_2_recruit_ticket_temp_5_up",
+          "name": "5星随机直升临时招募券",
+          "description": null,
+          "usage": "随机获得一名直升的5星临时招募干员",
+          "obtainApproach": "在集成战略模式中获得",
+          "iconId": "rogue_2_recruit_ticket_temp_5_up",
+          "type": "RECRUIT_TICKET",
+          "subType": "TEMP_TICKET",
+          "rarity": "RARE",
+          "value": 12,
+          "sortId": 999,
+          "canSacrifice": false,
+          "unlockCondDesc": null
+        },
+        "rogue_2_recruit_ticket_temp_6_up": {
+          "id": "rogue_2_recruit_ticket_temp_6_up",
+          "name": "6星随机直升临时招募券",
+          "description": null,
+          "usage": "随机获得一名直升的6星临时招募干员",
+          "obtainApproach": "在集成战略模式中获得",
+          "iconId": "rogue_2_recruit_ticket_temp_6_up",
+          "type": "RECRUIT_TICKET",
+          "subType": "TEMP_TICKET",
+          "rarity": "SUPER_RARE",
+          "value": 16,
+          "sortId": 999,
+          "canSacrifice": false,
+          "unlockCondDesc": null
+        },
+        "rogue_2_band_14": {
+          "id": "rogue_2_band_14",
+          "name": "心胜于物分队",
+          "description": null,
+          "usage": "战斗有更高概率获得额外收藏品；完成委托可额外选择一次奖励；初始携带“生还者合约”",
+          "obtainApproach": "在集成战略模式中获得",
+          "iconId": "rogue_2_band_14",
+          "type": "BAND",
+          "subType": "NONE",
+          "rarity": "BORN",
+          "value": 0,
+          "sortId": 999,
+          "canSacrifice": false,
+          "unlockCondDesc": "认知塑造中解锁【物由心生】"
+        },
+        "rogue_2_band_18": {
+          "id": "rogue_2_band_18",
+          "name": "物尽其用分队",
+          "description": null,
+          "usage": "每进入新的一层获得2掷骰次数；初始骰子升级为八面骰子；战斗中可以使用更多骰子",
+          "obtainApproach": "在集成战略模式中获得",
+          "iconId": "rogue_2_band_18",
+          "type": "BAND",
+          "subType": "NONE",
+          "rarity": "BORN",
+          "value": 0,
+          "sortId": 999,
+          "canSacrifice": false,
+          "unlockCondDesc": "认知塑造中解锁【为了生存】"
+        },
+        "rogue_2_band_22": {
+          "id": "rogue_2_band_22",
+          "name": "以人为本分队",
+          "description": null,
+          "usage": "招募和晋升所有干员的希望消耗-1；在“安全的角落”节点可额外选择一次奖励；指挥等级上限+1",
+          "obtainApproach": "在集成战略模式中获得",
+          "iconId": "rogue_2_band_22",
+          "type": "BAND",
+          "subType": "NONE",
+          "rarity": "BORN",
+          "value": 0,
+          "sortId": 999,
+          "canSacrifice": false,
+          "unlockCondDesc": "认知塑造中解锁【万众一心】"
         }
       },
       "bandRef": {
@@ -61891,6 +62363,27 @@
           "iconId": "rogue_2_band_21",
           "description": "招募和晋升所有干员的希望消耗-1；在“安全的角落”节点可额外选择一次奖励",
           "bandLevel": 2,
+          "normalBandId": "rogue_2_band_19"
+        },
+        "rogue_2_band_14": {
+          "itemId": "rogue_2_band_14",
+          "iconId": "rogue_2_band_14",
+          "description": "战斗有更高概率获得额外收藏品；完成委托可额外选择一次奖励；初始携带“生还者合约”",
+          "bandLevel": 3,
+          "normalBandId": "rogue_2_band_11"
+        },
+        "rogue_2_band_18": {
+          "itemId": "rogue_2_band_18",
+          "iconId": "rogue_2_band_18",
+          "description": "每进入新的一层获得2掷骰次数；初始骰子升级为八面骰子；战斗中可以使用更多骰子",
+          "bandLevel": 3,
+          "normalBandId": "rogue_2_band_15"
+        },
+        "rogue_2_band_22": {
+          "itemId": "rogue_2_band_22",
+          "iconId": "rogue_2_band_22",
+          "description": "招募和晋升所有干员的希望消耗-1；在“安全的角落”节点可额外选择一次奖励；指挥等级上限+1",
+          "bandLevel": 3,
           "normalBandId": "rogue_2_band_19"
         }
       },
@@ -62760,7 +63253,8 @@
           "choice_ro2_king_1": "rogue_2_dicegroup_17",
           "choice_ro2_king_3": "rogue_2_dicegroup_17",
           "choice_ro2_liar1_1": "rogue_2_dicegroup_18",
-          "choice_ro2_bossa1_2": "rogue_2_dicegroup_11"
+          "choice_ro2_bossa1_2": "rogue_2_dicegroup_11",
+          "choice_ro2_wish_7": "rogue_2_dicegroup_8"
         },
         "diceRuleGroups": {
           "rogue_2_dicegroup_1": {
@@ -62984,6 +63478,12 @@
             "modeId": "MONTH_TEAM",
             "modeGrade": 0,
             "predefinedId": "month_team_7",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "MONTH_TEAM",
+            "modeGrade": 0,
+            "predefinedId": "month_team_8",
             "initialDiceCount": 1
           },
           {
@@ -64643,7 +65143,9 @@
           "frontNodeId": [
             "rogue_2_outbuff_15"
           ],
-          "nextNodeId": [],
+          "nextNodeId": [
+            "rogue_2_outbuff_53"
+          ],
           "positionP": -10,
           "positionR": 1050,
           "tokenCost": 5,
@@ -65122,7 +65624,9 @@
           "frontNodeId": [
             "rogue_2_outbuff_34"
           ],
-          "nextNodeId": [],
+          "nextNodeId": [
+            "rogue_2_outbuff_57"
+          ],
           "positionP": -19,
           "positionR": 1050,
           "tokenCost": 5,
@@ -65142,7 +65646,7 @@
           "nextNodeId": [
             "rogue_2_outbuff_37"
           ],
-          "positionP": -20,
+          "positionP": -19,
           "positionR": 630,
           "tokenCost": 3,
           "buffName": "自我审视",
@@ -65161,7 +65665,7 @@
           "nextNodeId": [
             "rogue_2_outbuff_38"
           ],
-          "positionP": -20,
+          "positionP": -19,
           "positionR": 770,
           "tokenCost": 1,
           "buffName": "生存本能III",
@@ -65186,7 +65690,7 @@
             "rogue_2_outbuff_37"
           ],
           "nextNodeId": [],
-          "positionP": -20,
+          "positionP": -19,
           "positionR": 910,
           "tokenCost": 1,
           "buffName": "命运认同",
@@ -65377,7 +65881,9 @@
           "frontNodeId": [
             "rogue_2_outbuff_45"
           ],
-          "nextNodeId": [],
+          "nextNodeId": [
+            "rogue_2_outbuff_55"
+          ],
           "positionP": -2,
           "positionR": 1050,
           "tokenCost": 5,
@@ -65911,7 +66417,7 @@
           "toNode": "rogue_2_outbuff_36",
           "fromNodeP": -17,
           "fromNodeR": 630,
-          "toNodeP": -20,
+          "toNodeP": -19,
           "toNodeR": 630,
           "enrollId": null
         },
@@ -65954,18 +66460,18 @@
         {
           "fromNode": "rogue_2_outbuff_36",
           "toNode": "rogue_2_outbuff_37",
-          "fromNodeP": -20,
+          "fromNodeP": -19,
           "fromNodeR": 630,
-          "toNodeP": -20,
+          "toNodeP": -19,
           "toNodeR": 770,
           "enrollId": null
         },
         {
           "fromNode": "rogue_2_outbuff_37",
           "toNode": "rogue_2_outbuff_38",
-          "fromNodeP": -20,
+          "fromNodeP": -19,
           "fromNodeR": 770,
-          "toNodeP": -20,
+          "toNodeP": -19,
           "toNodeR": 910,
           "enrollId": null
         },
