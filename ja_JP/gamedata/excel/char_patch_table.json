@@ -493,7 +493,7 @@
         },
         {
           "type": 0,
-          "description": "コスト-1",
+          "description": "配置コスト-1",
           "buff": {
             "attributes": {
               "abnormalFlags": null,
@@ -539,7 +539,7 @@
         },
         {
           "type": 0,
-          "description": "コスト-1",
+          "description": "配置コスト-1",
           "buff": {
             "attributes": {
               "abnormalFlags": null,
@@ -754,7 +754,9 @@
       "groupId": null,
       "teamId": null,
       "isSpChar": false,
-      "subProfessionId": "artsfghter"
+      "subProfessionId": "artsfghter",
+      "canUseActivityPotentialItem": false,
+      "activityPotentialItemId": null
     }
   },
   "unlockConds": {

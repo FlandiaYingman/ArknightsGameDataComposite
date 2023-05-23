@@ -1050,12 +1050,12 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597129200,
-  "recruitPoolVersion": 9,
+  "recruitPoolVersion": 10,
   "TSO": 1608188400,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
   "voucherSkinRedeem": 1,
-  "voucherSkinDesc": "各オペレーターの異格バージョン（異格オペレーター）が<color=#ffa633>初回</color>実装される際、<color=#ffa633>純正源石</color>を使用して該当オペレーターのコーデを購入したことがある場合、異格オペレーター<color=#ffa633>初回</color>実装後に、純正源石で購入した該当オペレーターのコーデの数に応じた数の<color=#33b5ff>【コーデ交換券】</color>が付与されます。\n\n以下の状況においては、交換券は<color=#ffa633>付与されません</color>：\n1.異格オペレーターの初回実装前に、該当オペレーターのコーデを【コーデ交換券】を使用して交換した場合。\n2.異格オペレーターが初回実装された後に、純正源石を使用して該当オペレーターのコーデを購入した場合。\n3.異格オペレーターが初回実装された後に、該当オペレーターのコーデを【コーデ交換券】を使用して交換した場合。\n\n【コーデ交換券】は使用時に発売中のコーデのみ交換することができます。また、立ち絵アニメーションが実装されるコーデとは<color=#ffa633>交換できません</color>。発売中のコーデを全て購入済みの場合、【コーデ交換券】は<color=#ffa633>使用できません</color>。\n\nまた、今後【コーデ交換券】<color=#ffa633>使用不可</color>のコーデが実装される場合は、随時告知を行ってまいります。",
+  "voucherSkinDesc": "【コーデ交換券】は使用時に発売中のコーデのみ交換することができます。また、立ち絵アニメーションが実装されるコーデとは<color=#ffa633>交換できません</color>。発売中のコーデを全て購入済みの場合、【コーデ交換券】は<color=#ffa633>使用できません</color>。\n\nまた、今後【コーデ交換券】<color=#ffa633>使用不可</color>のコーデが実装される場合は、随時告知を行ってまいります。",
   "termDescriptionDict": {
     "ba.sluggish": {
       "termId": "ba.sluggish",
@@ -1350,7 +1350,7 @@
     "cc.tag.knight": {
       "termId": "cc.tag.knight",
       "termName": "騎士",
-      "description": "対象オペレーター：\nニアール、耀騎士ニアール（異格）、ブレミシャイン、ウィスラッシュ、フレイムテイル、ファートゥース、アッシュロック、ワイルドメイン、ジャスティスナイト、グラベル"
+      "description": "対象オペレーター：\nニアール、耀騎士ニアール、ブレミシャイン、ウィスラッシュ、フレイムテイル、ファートゥース、アッシュロック、ワイルドメイン、ジャスティスナイト、グラベル"
     },
     "cc.g.karlan": {
       "termId": "cc.g.karlan",
@@ -1491,14 +1491,19 @@
       "termId": "cc.bd.costdrop",
       "termName": "体力減少分",
       "description": "オペレーターの最大体力と現在体力の差分"
+    },
+    "ba.barrier": {
+      "termId": "ba.barrier",
+      "termName": "バリア",
+      "description": "被ダメージを一定値まで無効化可能"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事象の欠片の数が足りません。購買資格証ショップあるいはイベントショップで購入してください",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "30.4.0",
-  "resPrefVersion": "32d3d0",
+  "dataVersion": "31.1.0",
+  "resPrefVersion": "33d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTSが当該ステージにおいて、★3評価未獲得の下位作戦環境を検出しました。自動的に<color=#fe6435>環境難易度互換</color>を有効化します。\nこの状態で当該ステージに挑戦すると、当該環境および下位環境での理性を<color=#fe6435>同時に消費</color>します。クリア後は<color=#fe6435>作戦進捗も同期され、下位環境の報酬も同時に受け取れます</color>",
   "mainlineToughDesc": "より困難なプレイ環境\n★3初回クリア報酬は純正源石を含む\n追加の高難易度ステージを含む",
@@ -1506,5 +1511,6 @@
   "mainlineNormalDesc": "通常のプレイ環境\n★3初回クリア報酬は純正源石を含む",
   "addedRewardDisplayZone": "main_9",
   "isDynIllustStartEnabled": true,
-  "isRoguelikeAvgAchieveFuncEnabled": true
+  "isRoguelikeAvgAchieveFuncEnabled": true,
+  "rejectSpCharMission": 1687503600
 }
