@@ -433,7 +433,7 @@
       "char_337_utage": {
         "charId": "char_337_utage",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_utage",
         "recruitType": "FREE"
       },
       "char_237_gravel": {
@@ -626,13 +626,13 @@
         "charId": "char_131_flameb",
         "canBeFree": true,
         "uniEquipId": "uniequip_002_flameb",
-        "recruitType": "FREE"
+        "recruitType": "THIRD"
       },
       "char_508_aguard": {
         "charId": "char_508_aguard",
         "canBeFree": false,
         "uniEquipId": null,
-        "recruitType": "THIRD"
+        "recruitType": "FREE"
       },
       "char_155_tiger": {
         "charId": "char_155_tiger",
@@ -709,7 +709,7 @@
       "char_475_akafyu": {
         "charId": "char_475_akafyu",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_akafyu",
         "recruitType": "FREE"
       },
       "char_421_crow": {
@@ -1051,7 +1051,7 @@
       "char_363_toddi": {
         "charId": "char_363_toddi",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_toddi",
         "recruitType": "FREE"
       },
       "char_173_slchan": {
@@ -1183,7 +1183,7 @@
       "char_197_poca": {
         "charId": "char_197_poca",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_poca",
         "recruitType": "FREE"
       },
       "char_391_rosmon": {
@@ -1429,7 +1429,7 @@
       "char_188_helage": {
         "charId": "char_188_helage",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_helage",
         "recruitType": "FREE"
       },
       "char_485_pallas": {
@@ -1549,7 +1549,7 @@
       "char_4043_erato": {
         "charId": "char_4043_erato",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_erato",
         "recruitType": "FREE"
       },
       "char_1024_hbisc2": {
@@ -1639,7 +1639,7 @@
       "char_4062_totter": {
         "charId": "char_4062_totter",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_totter",
         "recruitType": "FREE"
       },
       "char_157_dagda": {
@@ -1704,6 +1704,24 @@
       },
       "char_4065_judge": {
         "charId": "char_4065_judge",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4017_puzzle": {
+        "charId": "char_4017_puzzle",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_297_hamoni": {
+        "charId": "char_297_hamoni",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_hamoni",
+        "recruitType": "FREE"
+      },
+      "char_1020_reed2": {
+        "charId": "char_1020_reed2",
         "canBeFree": true,
         "uniEquipId": null,
         "recruitType": "FREE"
@@ -8610,7 +8628,12 @@
         "monthTeamDescTagName": "Squad Lineup",
         "outerBuffCompleteText": "Ready",
         "outerProgressTextColor": "#836730",
-        "outerBuffTokenSum": 1900
+        "outerBuffTokenSum": 1900,
+        "challengeTaskTargetName": "Investigation Objective",
+        "challengeTaskConditionName": "Investigation Requirements",
+        "challengeTaskRewardName": "Investigation Reward",
+        "challengeTaskModeName": "Deep Investigation",
+        "challengeTaskName": "Investigation Item"
       },
       "init": [
         {
@@ -23440,7 +23463,7 @@
         },
         "rogue_1_recruit_ticket_quad_melee_discount": {
           "id": "rogue_1_recruit_ticket_quad_melee_discount",
-          "name": "Frontline Integration Senior Recruitment Voucher",
+          "name": "Frontline Integration Senior Rec. Voucher",
           "description": null,
           "usage": "Recruit a Vanguard, Guard, Defender, or Specialist Operator; certain Operators are automatically promoted at the time of recruitment",
           "obtainApproach": "Obtained from Integrated Strategies.",
@@ -23455,7 +23478,7 @@
         },
         "rogue_1_recruit_ticket_quad_ranged_discount": {
           "id": "rogue_1_recruit_ticket_quad_ranged_discount",
-          "name": "Backline Coordination Senior Recruitment Voucher",
+          "name": "Backline Coordination Senior Rec. Voucher",
           "description": null,
           "usage": "Recruit a Medic, Sniper, Supporter, or Caster Operator; certain Operators are automatically promoted at the time of recruitment",
           "obtainApproach": "Obtained from Integrated Strategies.",
@@ -23470,7 +23493,7 @@
         },
         "rogue_1_recruit_ticket_all_discount": {
           "id": "rogue_1_recruit_ticket_all_discount",
-          "name": "Elite HR Senior Recruitment Voucher",
+          "name": "Elite HR Senior Rec. Voucher",
           "description": null,
           "usage": "Recruit an Operator of your choice; certain Operators are automatically promoted at the time of recruitment",
           "obtainApproach": "Obtained from Integrated Strategies.",
@@ -23890,7 +23913,7 @@
         },
         "rogue_1_relic_a08": {
           "id": "rogue_1_relic_a08",
-          "name": "Gold-Plated Dice",
+          "name": "Gold-Plated Die",
           "description": "The gold-plated die has one side representing life. As for the other nineteen sides...",
           "usage": "All enemy units have -15% HP.",
           "obtainApproach": "Obtained from Integrated Strategies.",
@@ -26245,7 +26268,7 @@
         },
         "rogue_1_relic_r06": {
           "id": "rogue_1_relic_r06",
-          "name": "Pryed Open Toolbox",
+          "name": "Pried Open Toolbox",
           "description": "The tool box of the troupe's prop master. From nails to dummy props, it has everything.",
           "usage": "Hope +4",
           "obtainApproach": "Obtained from Integrated Strategies.",
@@ -27475,7 +27498,7 @@
         },
         "rogue_1_relic_n18": {
           "id": "rogue_1_relic_n18",
-          "name": "Assault Contract - Sharp Blade",
+          "name": "Assault Co-op - Sharp Blade",
           "description": "Use the sharpest spear to strike the hardest shield. I guarantee you that the shield will break first, trust me.",
           "usage": "Increases the ATK of Vanguard and Guard Operators by +8% for each Vanguard or Guard Operator in the combat squad.",
           "obtainApproach": "Obtained from Integrated Strategies.",
@@ -27490,7 +27513,7 @@
         },
         "rogue_1_relic_n19": {
           "id": "rogue_1_relic_n19",
-          "name": "Assault Contract - Skirmish",
+          "name": "Assault Co-op - Skirmish",
           "description": "A sophisticated blocking technique is essential to protecting one's body.",
           "usage": "Increases the DEF of Vanguard and Guard Operators by +10% for each Vanguard or Guard Operator in the combat squad.",
           "obtainApproach": "Obtained from Integrated Strategies.",
@@ -27565,7 +27588,7 @@
         },
         "rogue_1_relic_n24": {
           "id": "rogue_1_relic_n24",
-          "name": "Destruction Contract - Elimination",
+          "name": "Sabotage Co-op - Elimination",
           "description": "External destruction, internal disintegration.",
           "usage": "Increases the ATK of Caster and Specialist Operators by +8% for each Caster or Specialist Operator in the combat squad.",
           "obtainApproach": "Obtained from Integrated Strategies.",
@@ -27580,7 +27603,7 @@
         },
         "rogue_1_relic_n25": {
           "id": "rogue_1_relic_n25",
-          "name": "Destruction Contract - Suppression",
+          "name": "Sabotage Co-op - Suppression",
           "description": "Don't worry about accuracy. Take enough shots, and you're guaranteed to land something!",
           "usage": "Increases the ASPD of Caster and Specialist Operators by +6 for each Caster or Specialist Operator in the combat squad.",
           "obtainApproach": "Obtained from Integrated Strategies.",
@@ -27868,7 +27891,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_02": {
           "challengeId": "rogue_1_challenge_02",
@@ -27912,7 +27940,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_03": {
           "challengeId": "rogue_1_challenge_03",
@@ -27957,7 +27990,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_04": {
           "challengeId": "rogue_1_challenge_04",
@@ -28002,7 +28040,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_05": {
           "challengeId": "rogue_1_challenge_05",
@@ -28047,7 +28090,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_06": {
           "challengeId": "rogue_1_challenge_06",
@@ -28091,7 +28139,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_07": {
           "challengeId": "rogue_1_challenge_07",
@@ -28134,7 +28187,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_08": {
           "challengeId": "rogue_1_challenge_08",
@@ -28178,7 +28236,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_09": {
           "challengeId": "rogue_1_challenge_09",
@@ -28223,7 +28286,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_10": {
           "challengeId": "rogue_1_challenge_10",
@@ -28268,7 +28336,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_11": {
           "challengeId": "rogue_1_challenge_11",
@@ -28313,7 +28386,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_12": {
           "challengeId": "rogue_1_challenge_12",
@@ -28358,7 +28436,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         }
       },
       "relicParams": {
@@ -30098,7 +30181,12 @@
           "topicEndTime": 1690887600
         }
       ],
-      "enrolls": {},
+      "enrolls": {
+        "rogue_2_enroll_1": {
+          "enrollId": "rogue_2_enroll_1",
+          "enrollTime": 1692723600
+        }
+      },
       "milestones": [
         {
           "id": "bp_level_1",
@@ -31042,8 +31130,10 @@
           "displayName": "Mysterious Outfit",
           "displayDiscription": "Mizuki does not hide his identity in the company of friends.\nThat's why you can see him darting about from place to place, his tentacles dancing around.\nPush the question of survival out of your mind.\nLet us enjoy this summer vacation together.",
           "bpLevelId": "bp_level_95",
-          "detailAnnounceTime": "2023/12/1 4:00:00",
-          "picIdAftrerUnlock": "grand_4_2"
+          "detailAnnounceTime": "2023/8/1 4:00:00",
+          "picIdAftrerUnlock": "grand_4_2",
+          "accordingCharId": "char_437_mizuki",
+          "accordingSkinId": "char_437_mizuki@sale#7"
         },
         {
           "grandPrizeDisplayId": "grand_5",
@@ -31087,7 +31177,7 @@
           "purchaseTitle": "Featured Icon",
           "displayName": "'The Cycle'",
           "displayDiscription": "The pressure to survive drives evolution, \nand evolution overcomes the dilemma of survival.\nThus, a question arises in your mind: \nWho was it who designed this cycle?",
-          "bpLevelId": "bp_level_130"
+          "bpLevelId": "bp_level_140"
         },
         {
           "grandPrizeDisplayId": "grand_9",
@@ -31098,7 +31188,7 @@
           "purchaseTitle": "Themed Furniture Pack",
           "displayName": "Themed Background",
           "displayDiscription": "In the past and present, there may come to exist a shore that does not belong to the present.\nThus, the fourth dimension unfolds, and unseen scenes are arranged in place.\nAt the far end of the ocean, the darkest night faces off against the light of dawn.\nAnd so, beyond the other side, the starry firmament awaits our decision.",
-          "bpLevelId": "bp_level_140",
+          "bpLevelId": "bp_level_155",
           "detailAnnounceTime": "2023/12/1 4:00:00"
         }
       ],
@@ -34891,7 +34981,12 @@
         "monthTeamDescTagName": "Mapping Target",
         "outerBuffCompleteText": "Cognition Complete",
         "outerProgressTextColor": "#59dddc",
-        "outerBuffTokenSum": 89
+        "outerBuffTokenSum": 89,
+        "challengeTaskTargetName": "Exploration Objective",
+        "challengeTaskConditionName": "Exploration Requirements",
+        "challengeTaskRewardName": "Exploration Reward",
+        "challengeTaskModeName": "Deep Dive Mode",
+        "challengeTaskName": "Exploration Item"
       },
       "init": [
         {
@@ -52046,7 +52141,7 @@
         "scene_ro2_trade4_4": {
           "id": "scene_ro2_trade4_4",
           "title": "For Survival",
-          "description": "A swarm of Sea Terrors suddenly appears and attacks the cave. You quickly realize—were those faint tones the sounds of the shelled creatures calling out to the Sea Terrors? If so, not even a secluded cave like this can stop the transmission of information... You escape from the chaos, hoping that the sea people also made it out safety. Hope is all you can offer.",
+          "description": "A swarm of Sea Terrors suddenly appears and attacks the cave. You quickly realize—were those faint tones the sounds of the shelled creatures calling out to the Sea Terrors? If so, not even a secluded cave like this can stop the transmission of information... You escape from the chaos, hoping that the sea people also made it out safely. Hope is all you can offer.",
           "background": "pic_rogue_2_11",
           "titleIcon": null,
           "useHiddenMusic": false
@@ -53224,6 +53319,210 @@
               "blackboard": []
             }
           ]
+        },
+        "rogue_2_mutation_5": {
+          "id": "rogue_2_mutation_5",
+          "iconId": "pic_rogue_2_mutation_1",
+          "outerName": "Hemopoietic Inhibition+",
+          "innerName": "Hemopoietic Inhibition+",
+          "functionDesc": "Operators lose HP at a faster rate when their HP is not full, but gain increased ATK based on how low their HP is",
+          "desc": "Accelerated blood cell apoptosis, inhibited bone marrow hematopoiesis",
+          "buffs": [
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "rogue_2_bleed[hp_not_full]"
+                },
+                {
+                  "key": "damage",
+                  "value": 300
+                }
+              ]
+            },
+            {
+              "key": "deck_mutation_effect",
+              "blackboard": []
+            },
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "passive_hp_ratio_to_attr_add[atk]"
+                },
+                {
+                  "key": "min_hp_ratio",
+                  "value": 0.01
+                },
+                {
+                  "key": "max_hp_ratio",
+                  "value": 1
+                },
+                {
+                  "key": "min_atk",
+                  "value": 1.2
+                },
+                {
+                  "key": "max_atk",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_mutation_6": {
+          "id": "rogue_2_mutation_6",
+          "iconId": "pic_rogue_2_mutation_2",
+          "outerName": "Concentration Disorder+",
+          "innerName": "Concentration Disorder+",
+          "functionDesc": "All Operators will automatically activate their skills, and while no skill is active, have gradually increased ATK and gradually decreased ASPD; this effect resets when the skill duration ends",
+          "desc": "Impairment of sensory functions, loss of coordination, loss of control over stress mechanisms",
+          "buffs": [
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "AutoSkillTrigger"
+                }
+              ]
+            },
+            {
+              "key": "deck_mutation_effect",
+              "blackboard": []
+            },
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "char_attack_up_after_skill"
+                },
+                {
+                  "key": "atk",
+                  "value": 0.05
+                },
+                {
+                  "key": "max_stack_cnt",
+                  "value": 60
+                },
+                {
+                  "key": "interval",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "char_attack_speed_after_skill"
+                },
+                {
+                  "key": "attack_speed",
+                  "value": -2
+                },
+                {
+                  "key": "max_stack_cnt",
+                  "value": 60
+                },
+                {
+                  "key": "interval",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_mutation_7": {
+          "id": "rogue_2_mutation_7",
+          "iconId": "pic_rogue_2_mutation_3",
+          "outerName": "Neurodegeneration+",
+          "innerName": "Neurodegeneration+",
+          "functionDesc": "Operators will be Frozen for 30s after deployment, but gain +200% ATK and DEF for the duration",
+          "desc": "Atrophy of neurons in the brain, delayed reactions, dissociated consciousness",
+          "buffs": [
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "rogue_2_frozen_attr_up[limited]"
+                },
+                {
+                  "key": "freeze",
+                  "value": 30
+                },
+                {
+                  "key": "def",
+                  "value": 2
+                },
+                {
+                  "key": "atk",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "key": "deck_mutation_effect",
+              "blackboard": []
+            }
+          ]
+        },
+        "rogue_2_mutation_8": {
+          "id": "rogue_2_mutation_8",
+          "iconId": "pic_rogue_2_mutation_4",
+          "outerName": "Metastatic Aberration+",
+          "innerName": "Metastatic Aberration+",
+          "functionDesc": "Operators have -75% Max HP, ATK, DEF, Deployment Cost, and Redeployment Time, but start with +80 SP",
+          "desc": "External cells observed in circulatory system, ectopic electrical signaling, whole-body tissue spasms",
+          "buffs": [
+            {
+              "key": "char_attribute_final_scaler",
+              "blackboard": [
+                {
+                  "key": "max_hp",
+                  "value": 0.25
+                },
+                {
+                  "key": "def",
+                  "value": 0.25
+                },
+                {
+                  "key": "atk",
+                  "value": 0.25
+                },
+                {
+                  "key": "cost",
+                  "value": 0.25
+                },
+                {
+                  "key": "respawn_time",
+                  "value": 0.25
+                }
+              ]
+            },
+            {
+              "key": "deck_mutation_effect",
+              "blackboard": []
+            },
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "passive_modify_sp[born]"
+                },
+                {
+                  "key": "sp",
+                  "value": 80
+                }
+              ]
+            }
+          ]
         }
       },
       "squadBuffData": {
@@ -53416,6 +53715,230 @@
                 {
                   "key": "id",
                   "valueStr": "pool_meide"
+                },
+                {
+                  "key": "count",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_8": {
+          "id": "rogue_2_virtue_8",
+          "iconId": "pic_rogue_2_virtue_1",
+          "outerName": "Warcry+",
+          "innerName": "Ursus's Warcry+",
+          "functionDesc": "For 300 seconds after the start of battle, all enemies have -30% ATK and Movement Speed",
+          "desc": "'The peal of winter's thunder is the victory cry of Ursus.'",
+          "buffs": [
+            {
+              "key": "global_buff_normal",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "rogue_2_attr_down[game_start]"
+                },
+                {
+                  "key": "duration",
+                  "value": 300
+                },
+                {
+                  "key": "atk",
+                  "value": 0.7
+                },
+                {
+                  "key": "move_speed",
+                  "value": 0.7
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_9": {
+          "id": "rogue_2_virtue_9",
+          "iconId": "pic_rogue_2_virtue_2",
+          "outerName": "Vicissitudes+",
+          "innerName": "Yan's Vicissitudes+",
+          "functionDesc": "The Operator on the battlefield with the highest HP will restore an additional 4 SP per second",
+          "desc": "'Time is like a loom, weaving Yan's majestic mountains and rivers.'",
+          "buffs": [
+            {
+              "key": "char_ability_new",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "rogue_2_modify_sp[highest_max_hp]"
+                },
+                {
+                  "key": "sp",
+                  "value": 4
+                },
+                {
+                  "key": "selector.profession",
+                  "valueStr": "warrior|sniper|tank|medic|support|caster|special|pioneer"
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_10": {
+          "id": "rogue_2_virtue_10",
+          "iconId": "pic_rogue_2_virtue_3",
+          "outerName": "Inspiration+",
+          "innerName": "Columbia's Inspiration+",
+          "functionDesc": "Gain an additional 120 Command EXP at the end of the next battle (One-time only)",
+          "desc": "'In a land shackled by the past, Columbia is already crafting the future.'",
+          "buffs": [
+            {
+              "key": "battle_extra_exp",
+              "blackboard": [
+                {
+                  "key": "count",
+                  "value": 120
+                },
+                {
+                  "key": "limit",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_11": {
+          "id": "rogue_2_virtue_11",
+          "iconId": "pic_rogue_2_virtue_4",
+          "outerName": "Tenacity+",
+          "innerName": "Sami's Tenacity+",
+          "functionDesc": "The Operator on the battlefield with the lowest HP percentage restores 100 HP per second",
+          "desc": "'As long as nature continues to breathe, Sami's bloodline will not run dry.'",
+          "buffs": [
+            {
+              "key": "char_ability_new",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "rogue_2_hp_recovery[lowest_hp]"
+                },
+                {
+                  "key": "hp_recovery_per_sec",
+                  "value": 100
+                },
+                {
+                  "key": "selector.profession",
+                  "valueStr": "warrior|sniper|tank|medic|support|caster|special|pioneer"
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_12": {
+          "id": "rogue_2_virtue_12",
+          "iconId": "pic_rogue_2_virtue_5",
+          "outerName": "Honor+",
+          "innerName": "Victoria's Honor+",
+          "functionDesc": "All friendly melee units have +55% Physical and Arts Dodge",
+          "desc": "'History has borne witness to Victoria's ascent, and it shall continue to do so.'",
+          "buffs": [
+            {
+              "key": "global_buff_normal",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "evade[non_pure]"
+                },
+                {
+                  "key": "prob",
+                  "value": 0.55
+                },
+                {
+                  "key": "selector.buildable",
+                  "valueStr": "melee"
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_13": {
+          "id": "rogue_2_virtue_13",
+          "iconId": "pic_rogue_2_virtue_6",
+          "outerName": "Elegance+",
+          "innerName": "Leithanien's Elegance+",
+          "functionDesc": "All friendly ranged units have +500 DEF and +50 RES",
+          "desc": "'Without art or emotion in our hearts, what difference is there between us and metal crabs?'",
+          "buffs": [
+            {
+              "key": "char_attribute_add",
+              "blackboard": [
+                {
+                  "key": "magic_resistance",
+                  "value": 50
+                },
+                {
+                  "key": "def",
+                  "value": 500
+                },
+                {
+                  "key": "selector.buildable",
+                  "valueStr": "ranged"
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_14": {
+          "id": "rogue_2_virtue_14",
+          "iconId": "pic_rogue_2_virtue_7",
+          "outerName": "Generosity+",
+          "innerName": "Sargon's Generosity+",
+          "functionDesc": "When obtained, randomly obtain 4 Collectibles",
+          "desc": "'The riches of the golden city fell to wind and sand, and thus Sargon came to glitter brightly.'",
+          "buffs": [
+            {
+              "key": "immediate_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "pool_meide_challenge"
+                },
+                {
+                  "key": "count",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "immediate_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "pool_meide_challenge"
+                },
+                {
+                  "key": "count",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "immediate_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "pool_meide_challenge"
+                },
+                {
+                  "key": "count",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "immediate_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "pool_meide_challenge"
                 },
                 {
                   "key": "count",
@@ -54185,7 +54708,7 @@
         },
         "rogue_2_recruit_ticket_pioneer": {
           "id": "rogue_2_recruit_ticket_pioneer",
-          "name": "Vanguard Recruitment Voucher",
+          "name": "Vanguard Rec. Voucher",
           "description": null,
           "usage": "Recruit a Vanguard Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54200,7 +54723,7 @@
         },
         "rogue_2_recruit_ticket_warrior": {
           "id": "rogue_2_recruit_ticket_warrior",
-          "name": "Guard Recruitment Voucher",
+          "name": "Guard Rec. Voucher",
           "description": null,
           "usage": "Recruit a Guard Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54215,7 +54738,7 @@
         },
         "rogue_2_recruit_ticket_tank": {
           "id": "rogue_2_recruit_ticket_tank",
-          "name": "Defender Recruitment Voucher",
+          "name": "Defender Rec. Voucher",
           "description": null,
           "usage": "Recruit a Defender Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54230,7 +54753,7 @@
         },
         "rogue_2_recruit_ticket_sniper": {
           "id": "rogue_2_recruit_ticket_sniper",
-          "name": "Sniper Recruitment Voucher",
+          "name": "Sniper Rec. Voucher",
           "description": null,
           "usage": "Recruit a Sniper Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54245,7 +54768,7 @@
         },
         "rogue_2_recruit_ticket_caster": {
           "id": "rogue_2_recruit_ticket_caster",
-          "name": "Caster Recruitment Voucher",
+          "name": "Caster Rec. Voucher",
           "description": null,
           "usage": "Recruit a Caster Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54260,7 +54783,7 @@
         },
         "rogue_2_recruit_ticket_support": {
           "id": "rogue_2_recruit_ticket_support",
-          "name": "Supporter Recruitment Voucher",
+          "name": "Supporter Rec. Voucher",
           "description": null,
           "usage": "Recruit a Supporter Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54275,7 +54798,7 @@
         },
         "rogue_2_recruit_ticket_medic": {
           "id": "rogue_2_recruit_ticket_medic",
-          "name": "Medic Recruitment Voucher",
+          "name": "Medic Rec. Voucher",
           "description": null,
           "usage": "Recruit a Medic Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54290,7 +54813,7 @@
         },
         "rogue_2_recruit_ticket_special": {
           "id": "rogue_2_recruit_ticket_special",
-          "name": "Specialist Recruitment Voucher",
+          "name": "Specialist Rec. Voucher",
           "description": null,
           "usage": "Recruit a Specialist Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54305,7 +54828,7 @@
         },
         "rogue_2_recruit_ticket_pioneer_sp": {
           "id": "rogue_2_recruit_ticket_pioneer_sp",
-          "name": "Elite Vanguard Recruitment Voucher",
+          "name": "Elite Vanguard Rec. Voucher",
           "description": null,
           "usage": "Recruit a Vanguard Operator (4-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54320,7 +54843,7 @@
         },
         "rogue_2_recruit_ticket_warrior_sp": {
           "id": "rogue_2_recruit_ticket_warrior_sp",
-          "name": "Elite Guard Recruitment Voucher",
+          "name": "Elite Guard Rec. Voucher",
           "description": null,
           "usage": "Recruit a Guard Operator (4-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54335,7 +54858,7 @@
         },
         "rogue_2_recruit_ticket_tank_sp": {
           "id": "rogue_2_recruit_ticket_tank_sp",
-          "name": "Elite Defender Recruitment Voucher",
+          "name": "Elite Defender Rec. Voucher",
           "description": null,
           "usage": "Recruit a Defender Operator (4-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54350,7 +54873,7 @@
         },
         "rogue_2_recruit_ticket_sniper_sp": {
           "id": "rogue_2_recruit_ticket_sniper_sp",
-          "name": "Elite Sniper Recruitment Voucher",
+          "name": "Elite Sniper Rec. Voucher",
           "description": null,
           "usage": "Recruit a Sniper Operator (4-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54365,7 +54888,7 @@
         },
         "rogue_2_recruit_ticket_caster_sp": {
           "id": "rogue_2_recruit_ticket_caster_sp",
-          "name": "Elite Caster Recruitment Voucher",
+          "name": "Elite Caster Rec. Voucher",
           "description": null,
           "usage": "Recruit a Caster Operator (4-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54380,7 +54903,7 @@
         },
         "rogue_2_recruit_ticket_support_sp": {
           "id": "rogue_2_recruit_ticket_support_sp",
-          "name": "Elite Supporter Recruitment Voucher",
+          "name": "Elite Supporter Rec. Voucher",
           "description": null,
           "usage": "Recruit a Supporter Operator (4-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54395,7 +54918,7 @@
         },
         "rogue_2_recruit_ticket_medic_sp": {
           "id": "rogue_2_recruit_ticket_medic_sp",
-          "name": "Elite Medic Recruitment Voucher",
+          "name": "Elite Medic Rec. Voucher",
           "description": null,
           "usage": "Recruit a Medic Operator (4-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54410,7 +54933,7 @@
         },
         "rogue_2_recruit_ticket_special_sp": {
           "id": "rogue_2_recruit_ticket_special_sp",
-          "name": "Elite Specialist Recruitment Voucher",
+          "name": "Elite Specialist Rec. Voucher",
           "description": null,
           "usage": "Recruit a Specialist Operator (4-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54425,7 +54948,7 @@
         },
         "rogue_2_recruit_ticket_pioneer_vip": {
           "id": "rogue_2_recruit_ticket_pioneer_vip",
-          "name": "Advanced Vanguard Recruitment Voucher",
+          "name": "Advanced Vanguard Rec. Voucher",
           "description": null,
           "usage": "Recruit a Vanguard Operator (5-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54440,7 +54963,7 @@
         },
         "rogue_2_recruit_ticket_warrior_vip": {
           "id": "rogue_2_recruit_ticket_warrior_vip",
-          "name": "Advanced Guard Recruitment Voucher",
+          "name": "Advanced Guard Rec. Voucher",
           "description": null,
           "usage": "Recruit a Guard Operator (5-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54455,7 +54978,7 @@
         },
         "rogue_2_recruit_ticket_tank_vip": {
           "id": "rogue_2_recruit_ticket_tank_vip",
-          "name": "Advanced Defender Recruitment Voucher",
+          "name": "Advanced Defender Rec. Voucher",
           "description": null,
           "usage": "Recruit a Defender Operator (5-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54470,7 +54993,7 @@
         },
         "rogue_2_recruit_ticket_sniper_vip": {
           "id": "rogue_2_recruit_ticket_sniper_vip",
-          "name": "Advanced Sniper Recruitment Voucher",
+          "name": "Advanced Sniper Rec. Voucher",
           "description": null,
           "usage": "Recruit a Sniper Operator (5-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54485,7 +55008,7 @@
         },
         "rogue_2_recruit_ticket_caster_vip": {
           "id": "rogue_2_recruit_ticket_caster_vip",
-          "name": "Advanced Caster Recruitment Voucher",
+          "name": "Advanced Caster Rec. Voucher",
           "description": null,
           "usage": "Recruit a Caster Operator (5-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54500,7 +55023,7 @@
         },
         "rogue_2_recruit_ticket_support_vip": {
           "id": "rogue_2_recruit_ticket_support_vip",
-          "name": "Advanced Supporter Recruitment Voucher",
+          "name": "Advanced Supporter Rec. Voucher",
           "description": null,
           "usage": "Recruit a Supporter Operator (5-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54515,7 +55038,7 @@
         },
         "rogue_2_recruit_ticket_medic_vip": {
           "id": "rogue_2_recruit_ticket_medic_vip",
-          "name": "Advanced Medic Recruitment Voucher",
+          "name": "Advanced Medic Rec. Voucher",
           "description": null,
           "usage": "Recruit a Medic Operator (5-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54530,7 +55053,7 @@
         },
         "rogue_2_recruit_ticket_special_vip": {
           "id": "rogue_2_recruit_ticket_special_vip",
-          "name": "Advanced Specialist Recruitment Voucher",
+          "name": "Advanced Specialist Rec. Voucher",
           "description": null,
           "usage": "Recruit a Specialist Operator (5-star Temporary Recruitment guaranteed)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54545,7 +55068,7 @@
         },
         "rogue_2_recruit_ticket_double_1": {
           "id": "rogue_2_recruit_ticket_double_1",
-          "name": "Assault Contract Recruitment Voucher",
+          "name": "Assault Co-op Rec. Voucher",
           "description": null,
           "usage": "Recruit a Vanguard or Guard Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54560,7 +55083,7 @@
         },
         "rogue_2_recruit_ticket_double_2": {
           "id": "rogue_2_recruit_ticket_double_2",
-          "name": "Fortification Contract Recruitment Voucher",
+          "name": "Fortification Contract Rec. Voucher",
           "description": null,
           "usage": "Recruit a Defender or Supporter Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54575,7 +55098,7 @@
         },
         "rogue_2_recruit_ticket_double_3": {
           "id": "rogue_2_recruit_ticket_double_3",
-          "name": "Long-Range Contract Recruitment Voucher",
+          "name": "Long-Range Contract Rec. Voucher",
           "description": null,
           "usage": "Recruit a Medic or Sniper Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54590,7 +55113,7 @@
         },
         "rogue_2_recruit_ticket_double_4": {
           "id": "rogue_2_recruit_ticket_double_4",
-          "name": "Destruction Contract Recruitment Voucher",
+          "name": "Sabotage Co-op Rec. Voucher",
           "description": null,
           "usage": "Recruit a Caster or Specialist Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54605,7 +55128,7 @@
         },
         "rogue_2_recruit_ticket_quad_melee": {
           "id": "rogue_2_recruit_ticket_quad_melee",
-          "name": "Frontline Integration Recruitment Voucher",
+          "name": "Frontline Integration Rec. Voucher",
           "description": null,
           "usage": "Recruit a Vanguard, Guard, Defender, or Specialist Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54620,7 +55143,7 @@
         },
         "rogue_2_recruit_ticket_quad_ranged": {
           "id": "rogue_2_recruit_ticket_quad_ranged",
-          "name": "Backline Coordination Recruitment Voucher",
+          "name": "Backline Coordination Rec. Voucher",
           "description": null,
           "usage": "Recruit a Medic, Sniper, Supporter, or Caster Operator",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54680,7 +55203,7 @@
         },
         "rogue_2_recruit_ticket_quad_melee_discount": {
           "id": "rogue_2_recruit_ticket_quad_melee_discount",
-          "name": "Frontline Integration Senior Recruitment Voucher",
+          "name": "Frontline Integration Senior Rec. Voucher",
           "description": null,
           "usage": "Recruit a Vanguard, Guard, Defender, or Specialist Operator; certain Operators are automatically promoted at the time of recruitment",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54695,7 +55218,7 @@
         },
         "rogue_2_recruit_ticket_quad_ranged_discount": {
           "id": "rogue_2_recruit_ticket_quad_ranged_discount",
-          "name": "Backline Coordination Senior Recruitment Voucher",
+          "name": "Backline Coordination Senior Rec. Voucher",
           "description": null,
           "usage": "Recruit a Medic, Sniper, Supporter, or Caster Operator; certain Operators are automatically promoted at the time of recruitment",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -54710,7 +55233,7 @@
         },
         "rogue_2_recruit_ticket_all_discount": {
           "id": "rogue_2_recruit_ticket_all_discount",
-          "name": "Elite HR Senior Recruitment Voucher",
+          "name": "Elite HR Senior Rec. Voucher",
           "description": null,
           "usage": "Recruit an Operator of your choice; certain Operators are automatically promoted at the time of recruitment",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -55955,7 +56478,7 @@
         },
         "rogue_2_relic_grace_44": {
           "id": "rogue_2_relic_grace_44",
-          "name": "Rusted Blade- Training",
+          "name": "Rusted Blade - Training",
           "description": "If you haven't properly prepared for a live combat drill with a Specialist Operator, you should be prepared for a thorough beating.",
           "usage": "Immediately Promote a Specialist Operator (Does not require Hope)",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -56062,7 +56585,7 @@
           "id": "rogue_2_relic_grace_51",
           "name": "Four-Leaf Clover Fossil",
           "description": "A symbol of luck that Magallan found in a place all but devoid of life. The rock has no doubt experienced many violent changes of the lands, but it survived, giving those who come across it a small bit of lingering hope. ",
-          "usage": "Gan an additional choice when loot drops from a Wish Fulfilled node or after battle",
+          "usage": "Gain an additional choice when loot drops from a Wish Fulfilled node or after battle",
           "obtainApproach": "Obtained from Integrated Strategies",
           "iconId": "rogue_2_relic_grace_51",
           "type": "RELIC",
@@ -56270,7 +56793,7 @@
         },
         "rogue_2_relic_grace_68": {
           "id": "rogue_2_relic_grace_68",
-          "name": "Pathfinder Fins",
+          "name": "Pathfinder Fin",
           "description": "An asexual marine creature endemic to the coasts of Iberia, named because they are often said to guide fincatchers back to shore. These days, they are rarely seen, and are now regarded as a symbol of luck by the new generation of Iberians.",
           "usage": "+30 Light",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -57290,7 +57813,7 @@
         },
         "rogue_2_relic_fight_50": {
           "id": "rogue_2_relic_fight_50",
-          "name": "Blunted Claws - Mastery",
+          "name": "Blunt Claws - Mastery",
           "description": "'When the darkly-clad enemies rushed towards me, there were only four words on my mind — they are done for.'",
           "usage": "Vanguard Operators have +50% ATK and DEF",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -57740,7 +58263,7 @@
         },
         "rogue_2_relic_fight_80": {
           "id": "rogue_2_relic_fight_80",
-          "name": "Rusted Blade- Overwhelm",
+          "name": "Rusted Blade - Overwhelm",
           "description": "Terrain is one aspect of battle... That’s all I can say.",
           "usage": "Specialist Operators have +2 shift strength",
           "obtainApproach": "Obtained from Integrated Strategies",
@@ -59576,6 +60099,126 @@
             "diceEndingScene": "Medic's Will",
             "diceEndingDesc": "The wandering medic takes some items out of his bag and hands them to you",
             "sound": "ON_ROGUELIKE_DICENORMAL"
+          },
+          "rogue_2_diceEve_39": {
+            "dicePointMax": 12,
+            "diceResultClass": "GREAT",
+            "diceGroupId": "rogue_2_dicegroup_19",
+            "diceEventId": "rogue_2_diceEve_39",
+            "resultDesc": "Obtained <@ro2.virtue> Enlightenment <{0}> </>",
+            "showType": "VIRTUE",
+            "canReroll": false,
+            "diceEndingScene": "Deep Dive",
+            "diceEndingDesc": "Enlightenment Amidst Crisis",
+            "sound": "ON_ROGUELIKE_DICEGREAT"
+          },
+          "rogue_2_diceEve_40": {
+            "dicePointMax": 5,
+            "diceResultClass": "GOOD",
+            "diceGroupId": "rogue_2_dicegroup_19",
+            "diceEventId": "rogue_2_diceEve_40",
+            "resultDesc": "The seas are calm, and nothing unusual is afoot",
+            "showType": "RAW_TEXT",
+            "canReroll": true,
+            "diceEndingScene": "Deep Dive",
+            "diceEndingDesc": "The seas are calm, and nothing unusual is afoot",
+            "sound": "ON_ROGUELIKE_DICEGREAT"
+          },
+          "rogue_2_diceEve_41": {
+            "dicePointMax": 12,
+            "diceResultClass": "GREAT",
+            "diceGroupId": "rogue_2_dicegroup_20",
+            "diceEventId": "rogue_2_diceEve_41",
+            "resultDesc": "Obtained <@ro2.virtue> Enlightenment <{0}> </>",
+            "showType": "VIRTUE",
+            "canReroll": false,
+            "diceEndingScene": "Deep Dive",
+            "diceEndingDesc": "The seas are calm, and nothing unusual is afoot",
+            "sound": "ON_ROGUELIKE_DICEGREAT"
+          },
+          "rogue_2_diceEve_42": {
+            "dicePointMax": 5,
+            "diceResultClass": "GOOD",
+            "diceGroupId": "rogue_2_dicegroup_20",
+            "diceEventId": "rogue_2_diceEve_42",
+            "resultDesc": "The seas are calm, and nothing unusual is afoot",
+            "showType": "RAW_TEXT",
+            "canReroll": true,
+            "diceEndingScene": "Deep Dive",
+            "diceEndingDesc": "Your operator has been afflicted with a Rejection",
+            "sound": "ON_ROGUELIKE_DICEBAD"
+          },
+          "rogue_2_diceEve_43": {
+            "dicePointMax": 3,
+            "diceResultClass": "BAD",
+            "diceGroupId": "rogue_2_dicegroup_20",
+            "diceEventId": "rogue_2_diceEve_43",
+            "resultDesc": "Operator <@ro2.mutation>{0}</> has been afflicted with the <@ro2.mutation><{1}></> Rejection",
+            "showType": "MUTATION",
+            "canReroll": true,
+            "diceEndingScene": "Deep Dive",
+            "diceEndingDesc": "Your operator has been afflicted with a Rejection",
+            "sound": "ON_ROGUELIKE_DICEBAD"
+          },
+          "rogue_2_diceEve_44": {
+            "dicePointMax": 12,
+            "diceResultClass": "GREAT",
+            "diceGroupId": "rogue_2_dicegroup_21",
+            "diceEventId": "rogue_2_diceEve_44",
+            "resultDesc": "Obtained <@ro2.virtue> Enlightenment <{0}> </>",
+            "showType": "VIRTUE",
+            "canReroll": false,
+            "diceEndingScene": "Deep Dive",
+            "diceEndingDesc": "The seas are calm, and nothing unusual is afoot",
+            "sound": "ON_ROGUELIKE_DICEGREAT"
+          },
+          "rogue_2_diceEve_45": {
+            "dicePointMax": 5,
+            "diceResultClass": "BAD",
+            "diceGroupId": "rogue_2_dicegroup_21",
+            "diceEventId": "rogue_2_diceEve_45",
+            "resultDesc": "Operator <@ro2.mutation>{0}</> has been afflicted with the <@ro2.mutation><{1}></> Rejection",
+            "showType": "MUTATION",
+            "canReroll": true,
+            "diceEndingScene": "Deep Dive",
+            "diceEndingDesc": "Your operator has been afflicted with a Rejection",
+            "sound": "ON_ROGUELIKE_DICEBAD"
+          },
+          "rogue_2_diceEve_46": {
+            "dicePointMax": 12,
+            "diceResultClass": "GREAT",
+            "diceGroupId": "rogue_2_dicegroup_22",
+            "diceEventId": "rogue_2_diceEve_46",
+            "resultDesc": "Obtained <@ro2.virtue> Enlightenment <{0}> </>",
+            "showType": "VIRTUE",
+            "canReroll": false,
+            "diceEndingScene": "Deep Dive",
+            "diceEndingDesc": "Your operator has been afflicted with a Rejection",
+            "sound": "ON_ROGUELIKE_DICEBAD"
+          },
+          "rogue_2_diceEve_47": {
+            "dicePointMax": 7,
+            "diceResultClass": "BAD",
+            "diceGroupId": "rogue_2_dicegroup_22",
+            "diceEventId": "rogue_2_diceEve_47",
+            "resultDesc": "Operator <@ro2.mutation>{0}</> has been afflicted with the <@ro2.mutation><{1}></> Rejection",
+            "showType": "MUTATION",
+            "canReroll": true,
+            "diceEndingScene": "Deep Dive",
+            "diceEndingDesc": "Your operator has been afflicted with a Rejection",
+            "sound": "ON_ROGUELIKE_DICEBAD"
+          },
+          "rogue_2_diceEve_48": {
+            "dicePointMax": 5,
+            "diceResultClass": "VERYBAD",
+            "diceGroupId": "rogue_2_dicegroup_22",
+            "diceEventId": "rogue_2_diceEve_48",
+            "resultDesc": "Operator <@ro2.mutation>{0}</> has been afflicted with the <@ro2.mutation><{1}></> Rejection",
+            "showType": "MUTATION",
+            "canReroll": true,
+            "diceEndingScene": "Deep Dive",
+            "diceEndingDesc": "Two operators have been afflicted with Rejections",
+            "sound": "ON_ROGUELIKE_DICEBAD"
           }
         },
         "diceChoices": {
@@ -59662,9 +60305,225 @@
           "rogue_2_dicegroup_18": {
             "ruleGroupId": "rogue_2_dicegroup_18",
             "minGoodNum": 6
+          },
+          "rogue_2_dicegroup_19": {
+            "ruleGroupId": "rogue_2_dicegroup_19",
+            "minGoodNum": 1
+          },
+          "rogue_2_dicegroup_20": {
+            "ruleGroupId": "rogue_2_dicegroup_20",
+            "minGoodNum": 4
+          },
+          "rogue_2_dicegroup_21": {
+            "ruleGroupId": "rogue_2_dicegroup_21",
+            "minGoodNum": 6
+          },
+          "rogue_2_dicegroup_22": {
+            "ruleGroupId": "rogue_2_dicegroup_22",
+            "minGoodNum": 8
           }
         },
-        "moduleType": "DICE"
+        "moduleType": "DICE",
+        "dicePredefines": [
+          {
+            "modeId": "EASY",
+            "modeGrade": 0,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 0,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 1,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 2,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 3,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 4,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 5,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 6,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 7,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 8,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 9,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 10,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 11,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 12,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 13,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 14,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 15,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "MONTH_TEAM",
+            "modeGrade": 0,
+            "predefinedId": "month_team_1",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "MONTH_TEAM",
+            "modeGrade": 0,
+            "predefinedId": "month_team_2",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "MONTH_TEAM",
+            "modeGrade": 0,
+            "predefinedId": "month_team_3",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "MONTH_TEAM",
+            "modeGrade": 0,
+            "predefinedId": "month_team_4",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_01",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_02",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_03",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_04",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_05",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_06",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_07",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_08",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_09",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_10",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_11",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_12",
+            "initialDiceCount": 1
+          }
+        ]
       }
     }
   },
