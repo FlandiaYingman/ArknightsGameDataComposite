@@ -1158,7 +1158,7 @@
     "cc.bd_b1": {
       "termId": "cc.bd_b1",
       "termName": "속세의 불꽃",
-      "description": "다음 오퍼레이터의 인프라 스킬에서 제공\n시, 링, 우요우, 멀베리"
+      "description": "<$cc.bd_C><@cc.rem>주술 결정</></> 관련 스킬에 영향\n다음 오퍼레이터의 인프라 스킬에서 제공\n시, 링, 총웨, 우요우, 멀베리"
     },
     "cc.bd_ash": {
       "termId": "cc.bd_ash",
@@ -1363,7 +1363,7 @@
     "cc.g.sui": {
       "termId": "cc.g.sui",
       "termName": "쉐이",
-      "description": "다음 오퍼레이터 포함\n니엔, 시, 링"
+      "description": "다음 오퍼레이터 포함\n시, 링, 총웨, 우요우, 멀베리"
     },
     "cc.w.ncdeer1": {
       "termId": "cc.w.ncdeer1",
@@ -1473,12 +1473,12 @@
     "cc.c.room1": {
       "termId": "cc.c.room1",
       "termName": "일부 시설",
-      "description": "다음 시설 포함\n발전소, 사무실, 접객실"
+      "description": "다음 시설 포함\n발전소, 사무실, 응접실"
     },
     "cc.c.room2": {
       "termId": "cc.c.room2",
       "termName": "기타 시설",
-      "description": "다음 시설 포함\n발전소, 제조소, 무역소, 사무실, 접객실"
+      "description": "다음 시설 포함\n발전소, 제조소, 무역소, 사무실, 응접실"
     },
     "cc.c.skill": {
       "termId": "cc.c.skill",
@@ -1499,14 +1499,19 @@
       "termId": "ba.barrier",
       "termName": "보호막",
       "description": "일정 량의 대미지 흡수"
+    },
+    "cc.bd_C": {
+      "termId": "cc.bd_C",
+      "termName": "주술 결정",
+      "description": "해당 인프라 스킬을 보유한 오퍼레이터\n지에윈"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "기록 조각이 부족합니다. 증명서 상점 또는 이벤트 기간에 열리는 상점을 통해 교환할 수 있습니다.",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "31.3.0",
-  "resPrefVersion": "33d0d0",
+  "dataVersion": "32.1.0",
+  "resPrefVersion": "34d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS에 해당 스테지의 하위 난이도 작전 환경에서 3★ 평가를 받지 못한 것이 탐지되어, <color=#fe6435>작전 난이도 호환</color> 모드가 자동으로 적용됩니다.\n작전 난이도 호환 모드에서 해당 스테이지를 도전하면 현재 난이도와 하위 난이도의 필요 이성을 <color=#fe6435>동시에 소모</color>하게 되며, 클리어 후 <color=#fe6435>작전 진행도의 동기화</color>뿐만 아니라, 하위 난이도의 보상도 <color=#fe6435>함께 획득</color>하게 됩니다.",
   "mainlineToughDesc": "도전적인 플레이 환경\n3★ 평가의 첫 클리어 보상에는 순오리지늄이 포함됩니다\n또한, 난이도가 높은 추가 스테이지도 포함됩니다",

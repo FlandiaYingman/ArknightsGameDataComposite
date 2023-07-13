@@ -433,7 +433,7 @@
       "char_337_utage": {
         "charId": "char_337_utage",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_utage",
         "recruitType": "FREE"
       },
       "char_237_gravel": {
@@ -626,13 +626,13 @@
         "charId": "char_131_flameb",
         "canBeFree": true,
         "uniEquipId": "uniequip_002_flameb",
-        "recruitType": "FREE"
+        "recruitType": "THIRD"
       },
       "char_508_aguard": {
         "charId": "char_508_aguard",
         "canBeFree": false,
         "uniEquipId": null,
-        "recruitType": "THIRD"
+        "recruitType": "FREE"
       },
       "char_155_tiger": {
         "charId": "char_155_tiger",
@@ -709,7 +709,7 @@
       "char_475_akafyu": {
         "charId": "char_475_akafyu",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_akafyu",
         "recruitType": "FREE"
       },
       "char_421_crow": {
@@ -1051,7 +1051,7 @@
       "char_363_toddi": {
         "charId": "char_363_toddi",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_toddi",
         "recruitType": "FREE"
       },
       "char_173_slchan": {
@@ -1183,7 +1183,7 @@
       "char_197_poca": {
         "charId": "char_197_poca",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_poca",
         "recruitType": "FREE"
       },
       "char_391_rosmon": {
@@ -1429,7 +1429,7 @@
       "char_188_helage": {
         "charId": "char_188_helage",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_helage",
         "recruitType": "FREE"
       },
       "char_485_pallas": {
@@ -1549,7 +1549,7 @@
       "char_4043_erato": {
         "charId": "char_4043_erato",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_erato",
         "recruitType": "FREE"
       },
       "char_1024_hbisc2": {
@@ -1639,7 +1639,7 @@
       "char_4062_totter": {
         "charId": "char_4062_totter",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_totter",
         "recruitType": "FREE"
       },
       "char_157_dagda": {
@@ -1704,6 +1704,24 @@
       },
       "char_4065_judge": {
         "charId": "char_4065_judge",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_4017_puzzle": {
+        "charId": "char_4017_puzzle",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_297_hamoni": {
+        "charId": "char_297_hamoni",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_hamoni",
+        "recruitType": "FREE"
+      },
+      "char_1020_reed2": {
+        "charId": "char_1020_reed2",
         "canBeFree": true,
         "uniEquipId": null,
         "recruitType": "FREE"
@@ -8610,7 +8628,12 @@
         "monthTeamDescTagName": "스쿼드 편성",
         "outerBuffCompleteText": "준비 완료",
         "outerProgressTextColor": "#836730",
-        "outerBuffTokenSum": 1900
+        "outerBuffTokenSum": 1900,
+        "challengeTaskTargetName": "조사 목표",
+        "challengeTaskConditionName": "조사 조건",
+        "challengeTaskRewardName": "조사 보상",
+        "challengeTaskModeName": "심층 조사",
+        "challengeTaskName": "조사 목록"
       },
       "init": [
         {
@@ -27869,7 +27892,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_02": {
           "challengeId": "rogue_1_challenge_02",
@@ -27913,7 +27941,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_03": {
           "challengeId": "rogue_1_challenge_03",
@@ -27958,7 +27991,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_04": {
           "challengeId": "rogue_1_challenge_04",
@@ -28003,7 +28041,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_05": {
           "challengeId": "rogue_1_challenge_05",
@@ -28048,7 +28091,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_06": {
           "challengeId": "rogue_1_challenge_06",
@@ -28092,7 +28140,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_07": {
           "challengeId": "rogue_1_challenge_07",
@@ -28135,7 +28188,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_08": {
           "challengeId": "rogue_1_challenge_08",
@@ -28179,7 +28237,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_09": {
           "challengeId": "rogue_1_challenge_09",
@@ -28224,7 +28287,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_10": {
           "challengeId": "rogue_1_challenge_10",
@@ -28269,7 +28337,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_11": {
           "challengeId": "rogue_1_challenge_11",
@@ -28314,7 +28387,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         },
         "rogue_1_challenge_12": {
           "challengeId": "rogue_1_challenge_12",
@@ -28359,7 +28437,12 @@
               "count": 15,
               "type": "MATERIAL"
             }
-          ]
+          ],
+          "challengeGroup": 0,
+          "challengeGroupSortId": 0,
+          "challengeGroupName": null,
+          "challengeUnlockDesc": null,
+          "challengeUnlockToastDesc": null
         }
       },
       "relicParams": {
@@ -30099,7 +30182,12 @@
           "topicEndTime": 1690830000
         }
       ],
-      "enrolls": {},
+      "enrolls": {
+        "rogue_2_enroll_1": {
+          "enrollId": "rogue_2_enroll_1",
+          "enrollTime": 1692687600
+        }
+      },
       "milestones": [
         {
           "id": "bp_level_1",
@@ -31043,8 +31131,10 @@
           "displayName": "신비한 컬렉션",
           "displayDiscription": "동료들을 만나도 미즈키는 자신의 신분을 숨기지 않는다.\n그렇기에 촉수를 휘날리며 더욱 분주하게 움직인다.\n생존에 관한 문제는 잠시 미뤄 두고,\n지금은 다 함께 여름의 즐거움을 만끽하자.",
           "bpLevelId": "bp_level_95",
-          "detailAnnounceTime": "2023/12/1 4:00:00",
-          "picIdAftrerUnlock": "grand_4_2"
+          "detailAnnounceTime": "2023/8/1 4:00:00",
+          "picIdAftrerUnlock": "grand_4_2",
+          "accordingCharId": "char_437_mizuki",
+          "accordingSkinId": "char_437_mizuki@sale#7"
         },
         {
           "grandPrizeDisplayId": "grand_5",
@@ -31088,7 +31178,7 @@
           "purchaseTitle": "테마 프로필",
           "displayName": "'루프'",
           "displayDiscription": "생존의 압박은 진화를 유발하고,\n진화는 생존의 난제를 극복한다.\n머릿속에 갑자기 드는 의문은,\n누가 이런 루프를 설계했을까?",
-          "bpLevelId": "bp_level_130"
+          "bpLevelId": "bp_level_140"
         },
         {
           "grandPrizeDisplayId": "grand_9",
@@ -31099,7 +31189,7 @@
           "purchaseTitle": "테마 가구 세트",
           "displayName": "테마 배경",
           "displayDiscription": "과거와 미래 사이에 현재에 속하지 않는 해안이 있을지도 모른다.\n그렇게 네 번째 차원이 펼쳐졌고, 지금껏 보지 못했던 풍경들이 나타났다.\n바다의 저편에는 정오와 자정이 맞대고 있으며,\n별이 하늘을 가득 메워 그 끝에서 우리의 선택을 기다리고 있다.",
-          "bpLevelId": "bp_level_140",
+          "bpLevelId": "bp_level_155",
           "detailAnnounceTime": "2023/12/1 4:00:00"
         }
       ],
@@ -34877,7 +34967,7 @@
         "tokenOuterBuffId": "rogue_2_token_grow",
         "previewedRewardsAccordingUpdateId": "update_2",
         "tipButtonName": "정보 안내 포트",
-        "collectButtonName": "카이룰라 레코드",
+        "collectButtonName": "카이룰라 레코더",
         "bpSystemName": "생태 계보",
         "autoSetKV": "",
         "bpPurchaseActiveEnroll": "",
@@ -34892,7 +34982,12 @@
         "monthTeamDescTagName": "투영 대상",
         "outerBuffCompleteText": "인지 완비",
         "outerProgressTextColor": "#59dddc",
-        "outerBuffTokenSum": 89
+        "outerBuffTokenSum": 89,
+        "challengeTaskTargetName": "탐험 목표",
+        "challengeTaskConditionName": "탐험 조건",
+        "challengeTaskRewardName": "탐험 보상",
+        "challengeTaskModeName": "심층 탐험",
+        "challengeTaskName": "탐험 항목"
       },
       "init": [
         {
@@ -51831,7 +51926,7 @@
         "scene_ro2_exchange_1": {
           "id": "scene_ro2_exchange_1",
           "title": "꿈속의 만남",
-          "description": "이족과의 교류도 아닌데 굳이 언어를 모방할 필요는 없다. 이건 당신들의 본래 목소리다. 아무런 어려움도 없고, 천 년 동안의 밀물과 썰물처럼 빠르지도 느리지도 않고, 단지 구슬프고 애달팠다.",
+          "description": "이종족과의 교류도 아닌데 굳이 언어를 모방할 필요는 없다. 이건 당신들의 본래 목소리다. 아무런 어려움도 없고, 천 년 동안의 밀물과 썰물처럼 빠르지도 느리지도 않고, 단지 구슬프고 애달팠다.",
           "background": "pic_rogue_2_9",
           "titleIcon": null,
           "useHiddenMusic": false
@@ -53225,6 +53320,210 @@
               "blackboard": []
             }
           ]
+        },
+        "rogue_2_mutation_5": {
+          "id": "rogue_2_mutation_5",
+          "iconId": "pic_rogue_2_mutation_1",
+          "outerName": "조혈 장애+",
+          "innerName": "조혈 장애+",
+          "functionDesc": "오퍼레이터가 최대 HP가 아닌 경우 HP가 빠르게 감소, 단 HP가 낮을수록 공격력 상승",
+          "desc": "혈구의 사멸이 가속화되어 골수의 조혈 기능이 억제",
+          "buffs": [
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "rogue_2_bleed[hp_not_full]"
+                },
+                {
+                  "key": "damage",
+                  "value": 300
+                }
+              ]
+            },
+            {
+              "key": "deck_mutation_effect",
+              "blackboard": []
+            },
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "passive_hp_ratio_to_attr_add[atk]"
+                },
+                {
+                  "key": "min_hp_ratio",
+                  "value": 0.01
+                },
+                {
+                  "key": "max_hp_ratio",
+                  "value": 1
+                },
+                {
+                  "key": "min_atk",
+                  "value": 1.2
+                },
+                {
+                  "key": "max_atk",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_mutation_6": {
+          "id": "rogue_2_mutation_6",
+          "iconId": "pic_rogue_2_mutation_2",
+          "outerName": "주의력 상실+",
+          "innerName": "주의력 상실+",
+          "functionDesc": "오퍼레이터의 스킬이 자동으로 발동, 단 스킬 미사용 상태에서 공격력이 점진적으로 상승, 공격 속도는 점진적으로 감소, 스킬 종료 후 효과 초기화",
+          "desc": "감각 기능 쇠약, 신체 균형이 무너져 스트레스 제어 능력 상실",
+          "buffs": [
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "AutoSkillTrigger"
+                }
+              ]
+            },
+            {
+              "key": "deck_mutation_effect",
+              "blackboard": []
+            },
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "char_attack_up_after_skill"
+                },
+                {
+                  "key": "atk",
+                  "value": 0.05
+                },
+                {
+                  "key": "max_stack_cnt",
+                  "value": 60
+                },
+                {
+                  "key": "interval",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "char_attack_speed_after_skill"
+                },
+                {
+                  "key": "attack_speed",
+                  "value": -2
+                },
+                {
+                  "key": "max_stack_cnt",
+                  "value": 60
+                },
+                {
+                  "key": "interval",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_mutation_7": {
+          "id": "rogue_2_mutation_7",
+          "iconId": "pic_rogue_2_mutation_3",
+          "outerName": "신경 쇠퇴+",
+          "innerName": "신경 쇠퇴+",
+          "functionDesc": "오퍼레이터가 배치 후 30초간 빙결 상태 유지, 단 공격력 및 방어력 +200%",
+          "desc": "대뇌 신경 위축, 신체 반사가 느려져 의식이 불명",
+          "buffs": [
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "rogue_2_frozen_attr_up[limited]"
+                },
+                {
+                  "key": "freeze",
+                  "value": 30
+                },
+                {
+                  "key": "def",
+                  "value": 2
+                },
+                {
+                  "key": "atk",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "key": "deck_mutation_effect",
+              "blackboard": []
+            }
+          ]
+        },
+        "rogue_2_mutation_8": {
+          "id": "rogue_2_mutation_8",
+          "iconId": "pic_rogue_2_mutation_4",
+          "outerName": "생체 변이+",
+          "innerName": "생체 변이+",
+          "functionDesc": "오퍼레이터의 최대 HP, 공격력, 방어력, 배치 비용 및 재배치 시간 -75%, 단 초기 SP +80",
+          "desc": "체외 세포가 순환계로 유입, 전기 신호를 잘못 전달하여 신체조직이 수축",
+          "buffs": [
+            {
+              "key": "char_attribute_final_scaler",
+              "blackboard": [
+                {
+                  "key": "max_hp",
+                  "value": 0.25
+                },
+                {
+                  "key": "def",
+                  "value": 0.25
+                },
+                {
+                  "key": "atk",
+                  "value": 0.25
+                },
+                {
+                  "key": "cost",
+                  "value": 0.25
+                },
+                {
+                  "key": "respawn_time",
+                  "value": 0.25
+                }
+              ]
+            },
+            {
+              "key": "deck_mutation_effect",
+              "blackboard": []
+            },
+            {
+              "key": "char_ability_new_at_root",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "passive_modify_sp[born]"
+                },
+                {
+                  "key": "sp",
+                  "value": 80
+                }
+              ]
+            }
+          ]
         }
       },
       "squadBuffData": {
@@ -53425,6 +53724,230 @@
               ]
             }
           ]
+        },
+        "rogue_2_virtue_8": {
+          "id": "rogue_2_virtue_8",
+          "iconId": "pic_rogue_2_virtue_1",
+          "outerName": "분노+",
+          "innerName": "우르수스의 분노+",
+          "functionDesc": "전투 시작 후 300초 동안 모든 적의 공격력 -30%, 이동 속도 -30%",
+          "desc": "“겨울의 천둥소리, 그것은 곧 우르수스 승리의 함성이다.”",
+          "buffs": [
+            {
+              "key": "global_buff_normal",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "rogue_2_attr_down[game_start]"
+                },
+                {
+                  "key": "duration",
+                  "value": 300
+                },
+                {
+                  "key": "atk",
+                  "value": 0.7
+                },
+                {
+                  "key": "move_speed",
+                  "value": 0.7
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_9": {
+          "id": "rogue_2_virtue_9",
+          "iconId": "pic_rogue_2_virtue_2",
+          "outerName": "변천+",
+          "innerName": "염국의 변천+",
+          "functionDesc": "전장 내 최대 HP가 가장 높은 오퍼레이터가 추가로 초당 SP +4",
+          "desc": "“흘러간 세월, 염국의 금수강산을 수놓았다.”",
+          "buffs": [
+            {
+              "key": "char_ability_new",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "rogue_2_modify_sp[highest_max_hp]"
+                },
+                {
+                  "key": "sp",
+                  "value": 4
+                },
+                {
+                  "key": "selector.profession",
+                  "valueStr": "warrior|sniper|tank|medic|support|caster|special|pioneer"
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_10": {
+          "id": "rogue_2_virtue_10",
+          "iconId": "pic_rogue_2_virtue_3",
+          "outerName": "발상+",
+          "innerName": "컬럼비아의 발상+",
+          "functionDesc": "전투 종료 후 추가로 지휘 경험치 120 획득 (1회만 발동)",
+          "desc": "“이 대지는 아직 과거에 얽매여 있지만, 컬럼비아는 미래를 창조하고 있다.”",
+          "buffs": [
+            {
+              "key": "battle_extra_exp",
+              "blackboard": [
+                {
+                  "key": "count",
+                  "value": 120
+                },
+                {
+                  "key": "limit",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_11": {
+          "id": "rogue_2_virtue_11",
+          "iconId": "pic_rogue_2_virtue_4",
+          "outerName": "강인함+",
+          "innerName": "사미의 강인함+",
+          "functionDesc": "전장 내 HP 비율이 가장 낮은 오퍼레이터가 초당 HP +100",
+          "desc": "“자연의 숨결이 살아있는 한, 사미의 핏줄은 끊기지 않을지니.”",
+          "buffs": [
+            {
+              "key": "char_ability_new",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "rogue_2_hp_recovery[lowest_hp]"
+                },
+                {
+                  "key": "hp_recovery_per_sec",
+                  "value": 100
+                },
+                {
+                  "key": "selector.profession",
+                  "valueStr": "warrior|sniper|tank|medic|support|caster|special|pioneer"
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_12": {
+          "id": "rogue_2_virtue_12",
+          "iconId": "pic_rogue_2_virtue_5",
+          "outerName": "영광+",
+          "innerName": "빅토리아의 영광+",
+          "functionDesc": "모든 근거리 오퍼레이터의 물리 및 마법 회피 +55%",
+          "desc": "“역사는 빅토리아의 흥성을 목격했으며, 앞으로도 그럴 것이다.”",
+          "buffs": [
+            {
+              "key": "global_buff_normal",
+              "blackboard": [
+                {
+                  "key": "key",
+                  "valueStr": "evade[non_pure]"
+                },
+                {
+                  "key": "prob",
+                  "value": 0.55
+                },
+                {
+                  "key": "selector.buildable",
+                  "valueStr": "melee"
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_13": {
+          "id": "rogue_2_virtue_13",
+          "iconId": "pic_rogue_2_virtue_6",
+          "outerName": "고상함+",
+          "innerName": "라이타니엔의 고상함+",
+          "functionDesc": "모든 원거리 오퍼레이터의 방어력 +500, 마법 저항 +50",
+          "desc": "“예술과 감정이 없다면, 우린 메탈 크랩과 다를 게 무엇이란 말인가?”",
+          "buffs": [
+            {
+              "key": "char_attribute_add",
+              "blackboard": [
+                {
+                  "key": "magic_resistance",
+                  "value": 50
+                },
+                {
+                  "key": "def",
+                  "value": 500
+                },
+                {
+                  "key": "selector.buildable",
+                  "valueStr": "ranged"
+                }
+              ]
+            }
+          ]
+        },
+        "rogue_2_virtue_14": {
+          "id": "rogue_2_virtue_14",
+          "iconId": "pic_rogue_2_virtue_7",
+          "outerName": "관대함+",
+          "innerName": "사르곤의 관대함+",
+          "functionDesc": "발동 시 무작위로 소장품 4개 획득",
+          "desc": "“황금의 도시가 모래바람에 파묻히자, 사르곤은 휘황찬란하게 빛났다.”",
+          "buffs": [
+            {
+              "key": "immediate_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "pool_meide_challenge"
+                },
+                {
+                  "key": "count",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "immediate_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "pool_meide_challenge"
+                },
+                {
+                  "key": "count",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "immediate_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "pool_meide_challenge"
+                },
+                {
+                  "key": "count",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "immediate_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "valueStr": "pool_meide_challenge"
+                },
+                {
+                  "key": "count",
+                  "value": 1
+                }
+              ]
+            }
+          ]
         }
       },
       "taskData": {
@@ -53473,7 +53996,7 @@
         "rogue_2_task_007": {
           "taskId": "rogue_2_task_007",
           "taskName": "공격 부대 징집",
-          "taskDesc": "캐스터, 스나이퍼 오퍼레이터를 편성하지 않고 전투 <@ro2.lose>2</>회 클리어",
+          "taskDesc": "캐스터 및 스나이퍼 오퍼레이터를 편성하지 않고 작전 <@ro2.lose>2</>회 클리어",
           "rewardSceneId": "scene_ro2_taskreward2_enter",
           "taskRarity": "RARE"
         },
@@ -59577,6 +60100,126 @@
             "diceEndingScene": "의사의 의지",
             "diceEndingDesc": "의사는 가방에서 물건을 꺼내 건네줬다",
             "sound": "ON_ROGUELIKE_DICENORMAL"
+          },
+          "rogue_2_diceEve_39": {
+            "dicePointMax": 12,
+            "diceResultClass": "GREAT",
+            "diceGroupId": "rogue_2_dicegroup_19",
+            "diceEventId": "rogue_2_diceEve_39",
+            "resultDesc": "<@ro2.virtue>계시 <{0}></> 획득",
+            "showType": "VIRTUE",
+            "canReroll": false,
+            "diceEndingScene": "심해 진입",
+            "diceEndingDesc": "고난 속에서 계시 획득",
+            "sound": "ON_ROGUELIKE_DICEGREAT"
+          },
+          "rogue_2_diceEve_40": {
+            "dicePointMax": 5,
+            "diceResultClass": "GOOD",
+            "diceGroupId": "rogue_2_dicegroup_19",
+            "diceEventId": "rogue_2_diceEve_40",
+            "resultDesc": "바다는 고요하고 아무 일도 일어나지 않았다",
+            "showType": "RAW_TEXT",
+            "canReroll": true,
+            "diceEndingScene": "심해 진입",
+            "diceEndingDesc": "바다는 고요하고 아무 일도 일어나지 않았다",
+            "sound": "ON_ROGUELIKE_DICEGREAT"
+          },
+          "rogue_2_diceEve_41": {
+            "dicePointMax": 12,
+            "diceResultClass": "GREAT",
+            "diceGroupId": "rogue_2_dicegroup_20",
+            "diceEventId": "rogue_2_diceEve_41",
+            "resultDesc": "<@ro2.virtue>계시 <{0}></> 획득",
+            "showType": "VIRTUE",
+            "canReroll": false,
+            "diceEndingScene": "심해 진입",
+            "diceEndingDesc": "바다는 고요하고 아무 일도 일어나지 않았다",
+            "sound": "ON_ROGUELIKE_DICEGREAT"
+          },
+          "rogue_2_diceEve_42": {
+            "dicePointMax": 5,
+            "diceResultClass": "GOOD",
+            "diceGroupId": "rogue_2_dicegroup_20",
+            "diceEventId": "rogue_2_diceEve_42",
+            "resultDesc": "바다는 고요하고 아무 일도 일어나지 않았다",
+            "showType": "RAW_TEXT",
+            "canReroll": true,
+            "diceEndingScene": "심해 진입",
+            "diceEndingDesc": "오퍼레이터 한 명이 거부반응 발동",
+            "sound": "ON_ROGUELIKE_DICEBAD"
+          },
+          "rogue_2_diceEve_43": {
+            "dicePointMax": 3,
+            "diceResultClass": "BAD",
+            "diceGroupId": "rogue_2_dicegroup_20",
+            "diceEventId": "rogue_2_diceEve_43",
+            "resultDesc": "오퍼레이터 <@ro2.mutation>{0}</>에게 <@ro2.mutation><{1}></> 거부반응 발동",
+            "showType": "MUTATION",
+            "canReroll": true,
+            "diceEndingScene": "심해 진입",
+            "diceEndingDesc": "오퍼레이터 한 명이 거부반응 발동",
+            "sound": "ON_ROGUELIKE_DICEBAD"
+          },
+          "rogue_2_diceEve_44": {
+            "dicePointMax": 12,
+            "diceResultClass": "GREAT",
+            "diceGroupId": "rogue_2_dicegroup_21",
+            "diceEventId": "rogue_2_diceEve_44",
+            "resultDesc": "<@ro2.virtue>계시 <{0}></> 획득",
+            "showType": "VIRTUE",
+            "canReroll": false,
+            "diceEndingScene": "심해 진입",
+            "diceEndingDesc": "바다는 고요하고 아무 일도 일어나지 않았다",
+            "sound": "ON_ROGUELIKE_DICEGREAT"
+          },
+          "rogue_2_diceEve_45": {
+            "dicePointMax": 5,
+            "diceResultClass": "BAD",
+            "diceGroupId": "rogue_2_dicegroup_21",
+            "diceEventId": "rogue_2_diceEve_45",
+            "resultDesc": "오퍼레이터 <@ro2.mutation>{0}</>에게 <@ro2.mutation><{1}></> 거부반응 발동",
+            "showType": "MUTATION",
+            "canReroll": true,
+            "diceEndingScene": "심해 진입",
+            "diceEndingDesc": "오퍼레이터 한 명이 거부반응 발동",
+            "sound": "ON_ROGUELIKE_DICEBAD"
+          },
+          "rogue_2_diceEve_46": {
+            "dicePointMax": 12,
+            "diceResultClass": "GREAT",
+            "diceGroupId": "rogue_2_dicegroup_22",
+            "diceEventId": "rogue_2_diceEve_46",
+            "resultDesc": "<@ro2.virtue>계시 <{0}></> 획득",
+            "showType": "VIRTUE",
+            "canReroll": false,
+            "diceEndingScene": "심해 진입",
+            "diceEndingDesc": "오퍼레이터 한 명이 거부반응 발동",
+            "sound": "ON_ROGUELIKE_DICEBAD"
+          },
+          "rogue_2_diceEve_47": {
+            "dicePointMax": 7,
+            "diceResultClass": "BAD",
+            "diceGroupId": "rogue_2_dicegroup_22",
+            "diceEventId": "rogue_2_diceEve_47",
+            "resultDesc": "오퍼레이터 <@ro2.mutation>{0}</>에게 <@ro2.mutation><{1}></> 거부반응 발동",
+            "showType": "MUTATION",
+            "canReroll": true,
+            "diceEndingScene": "심해 진입",
+            "diceEndingDesc": "오퍼레이터 한 명이 거부반응 발동",
+            "sound": "ON_ROGUELIKE_DICEBAD"
+          },
+          "rogue_2_diceEve_48": {
+            "dicePointMax": 5,
+            "diceResultClass": "VERYBAD",
+            "diceGroupId": "rogue_2_dicegroup_22",
+            "diceEventId": "rogue_2_diceEve_48",
+            "resultDesc": "오퍼레이터 <@ro2.mutation>{0}</>에게 <@ro2.mutation><{1}></> 거부반응 발동",
+            "showType": "MUTATION",
+            "canReroll": true,
+            "diceEndingScene": "심해 진입",
+            "diceEndingDesc": "오퍼레이터 두 명이 거부반응 발동",
+            "sound": "ON_ROGUELIKE_DICEBAD"
           }
         },
         "diceChoices": {
@@ -59663,9 +60306,225 @@
           "rogue_2_dicegroup_18": {
             "ruleGroupId": "rogue_2_dicegroup_18",
             "minGoodNum": 6
+          },
+          "rogue_2_dicegroup_19": {
+            "ruleGroupId": "rogue_2_dicegroup_19",
+            "minGoodNum": 1
+          },
+          "rogue_2_dicegroup_20": {
+            "ruleGroupId": "rogue_2_dicegroup_20",
+            "minGoodNum": 4
+          },
+          "rogue_2_dicegroup_21": {
+            "ruleGroupId": "rogue_2_dicegroup_21",
+            "minGoodNum": 6
+          },
+          "rogue_2_dicegroup_22": {
+            "ruleGroupId": "rogue_2_dicegroup_22",
+            "minGoodNum": 8
           }
         },
-        "moduleType": "DICE"
+        "moduleType": "DICE",
+        "dicePredefines": [
+          {
+            "modeId": "EASY",
+            "modeGrade": 0,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 0,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 1,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 2,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 3,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 4,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 5,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 6,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 7,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 8,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 9,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 10,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 11,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 12,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 13,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 14,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "NORMAL",
+            "modeGrade": 15,
+            "predefinedId": null,
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "MONTH_TEAM",
+            "modeGrade": 0,
+            "predefinedId": "month_team_1",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "MONTH_TEAM",
+            "modeGrade": 0,
+            "predefinedId": "month_team_2",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "MONTH_TEAM",
+            "modeGrade": 0,
+            "predefinedId": "month_team_3",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "MONTH_TEAM",
+            "modeGrade": 0,
+            "predefinedId": "month_team_4",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_01",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_02",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_03",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_04",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_05",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_06",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_07",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_08",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_09",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_10",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_11",
+            "initialDiceCount": 1
+          },
+          {
+            "modeId": "CHALLENGE",
+            "modeGrade": 0,
+            "predefinedId": "rogue_2_challenge_12",
+            "initialDiceCount": 1
+          }
+        ]
       }
     }
   },
