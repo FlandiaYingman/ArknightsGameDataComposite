@@ -15,7 +15,7 @@ jobs:
           - name: Cache Repository
             uses: actions/cache@v3
             with:
-                path: $GITHUB_WORKSPACE
+                path: ${{ github.workspace }}
                 key: ${{ runner.os }}-workspace
           - name: Checkout ArknightsGameData
             uses: actions/checkout@v3
