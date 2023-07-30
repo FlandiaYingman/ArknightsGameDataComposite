@@ -52,6 +52,13 @@ jobs:
             with: 
                 tracked-files: |
                     zh_CN/gamedata/excel/story_table.json
+                    zh_CN/gamedata/excel/story_review_table.json
+                    en_US/gamedata/excel/story_table.json
+                    en_US/gamedata/excel/story_review_table.json
+                    ja_JP/gamedata/excel/story_table.json
+                    ja_JP/gamedata/excel/story_review_table.json
+                    ko_KR/gamedata/excel/story_table.json
+                    ko_KR/gamedata/excel/story_review_table.json
                 origin: ArknightsGameData
                 dest: ArknightsGameDataComposite
           - name: Commit
