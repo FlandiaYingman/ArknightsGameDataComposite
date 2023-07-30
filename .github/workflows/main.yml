@@ -44,7 +44,7 @@ jobs:
                 # Relative path under $GITHUB_WORKSPACE to place the repository
                 path: 'ArknightsGameDataComposite'
           - name: Composite
-            uses: FlandiaYingman/arknights-game-data-composite-action@v0.8
+            uses: FlandiaYingman/arknights-game-data-composite-action@v0.9
             with: 
                 tracked-files: |
                     zh_CN/gamedata/excel/story_table.json
