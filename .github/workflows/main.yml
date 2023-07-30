@@ -1,0 +1,54 @@
+on:
+    push:
+    schedule:
+        - cron: "5 * * * *"
+
+jobs: 
+    update:
+        runs-on: ubuntu-latest
+        name: Update
+        steps:
+          - name: Checkout ArknightsGameData
+            uses: actions/checkout@v3
+            with:
+                # Repository name with owner. For example, actions/checkout
+                # Default: ${{ github.repository }}
+                repository: 'Kengxxiao/ArknightsGameData'
+
+                # Relative path under $GITHUB_WORKSPACE to place the repository
+
+                # Number of commits to fetch. 0 indicates all history for all branches and tags.
+                # Default: 1
+                fetch-depth: 0
+
+                # Relative path under $GITHUB_WORKSPACE to place the repository
+                path: 'ArknightsGameData'
+          - name: Checkout This
+            uses: actions/checkout@v3
+            with:
+                # Repository name with owner. For example, actions/checkout
+                # Default: ${{ github.repository }}
+                repository: ${{ github.repository }}
+
+                # Relative path under $GITHUB_WORKSPACE to place the repository
+
+                # Number of commits to fetch. 0 indicates all history for all branches and tags.
+                # Default: 1
+                fetch-depth: 1
+
+                # Relative path under $GITHUB_WORKSPACE to place the repository
+                path: 'ArknightsGameDataComposite'
+          - name: Composite
+            uses: FlandiaYingman/arknights-game-data-composite-action
+            with: 
+                tracked-files: |
+                    zh_CN/gamedata/excel/story_table.json
+                origin: ArknightsGameData
+                dest: ArknightsGameDataComposite
+          - name: Commit
+            uses: stefanzweifel/git-auto-commit-action@v4
+            with: 
+                # Optional. Local file path to the repository.
+                # Defaults to the root of the repository.
+                repository: ArknightsGameDataComposite
+                
