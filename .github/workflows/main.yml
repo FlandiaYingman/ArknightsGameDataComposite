@@ -54,10 +54,8 @@ jobs:
                     */gamedata/excel/*.json
                 origin: ArknightsGameData
                 dest: ArknightsGameDataComposite
-          - name: Commit This
-            uses: stefanzweifel/git-auto-commit-action@v4
-            with: 
-                # Optional. Local file path to the repository.
-                # Defaults to the root of the repository.
-                repository: 'ArknightsGameDataComposite'
+          - name: Push This
+            uses: ad-m/github-push-action@master
+            with:
+              directory: ${{ github.workspace }}/ArknightsGameDataComposite
                 
