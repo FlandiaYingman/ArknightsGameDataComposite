@@ -49035,5 +49035,264 @@
         "tokenAttributeBlackboard": {}
       }
     ]
+  },
+  "uniequip_002_forcer": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "forcer_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 0.5
+                    }
+                  ],
+                  "overrideDescripton": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃\n遠距離マスにも配置でき、遠距離マスに配置後、今回の配置コストの半分を返却",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 170
+          },
+          {
+            "key": "atk",
+            "value": 45
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "forcer_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 0.5
+                    }
+                  ],
+                  "overrideDescripton": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃\n遠距離マスにも配置でき、遠距離マスに配置後、今回の配置コストの半分を返却",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "重量ランクが3以上の敵を攻撃時、対象の防御力を250無視",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "テクニカルショット",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 3
+                    },
+                    {
+                      "key": "def_penetrate_fixed",
+                      "value": 250
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "重量ランクが3以上の敵を攻撃時、対象の防御力を270<@ba.talpu>（+20）</>無視",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "テクニカルショット",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 3
+                    },
+                    {
+                      "key": "def_penetrate_fixed",
+                      "value": 270
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 215
+          },
+          {
+            "key": "atk",
+            "value": 54
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "forcer_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 0.5
+                    }
+                  ],
+                  "overrideDescripton": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃\n遠距離マスにも配置でき、遠距離マスに配置後、今回の配置コストの半分を返却",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "重量ランクが3以上の敵を攻撃時、対象の防御力を280無視",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "テクニカルショット",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 3
+                    },
+                    {
+                      "key": "def_penetrate_fixed",
+                      "value": 280
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "重量ランクが3以上の敵を攻撃時、対象の防御力を300<@ba.talpu>（+20）</>無視",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "テクニカルショット",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 3
+                    },
+                    {
+                      "key": "def_penetrate_fixed",
+                      "value": 300
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 240
+          },
+          {
+            "key": "atk",
+            "value": 60
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
   }
 }
