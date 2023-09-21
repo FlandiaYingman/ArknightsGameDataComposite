@@ -16831,7 +16831,40 @@
       "obtainApproach": "이벤트 스테이지 드랍, 이벤트 임무 획득",
       "classifyType": "NONE",
       "itemType": "ACTIVITY_ITEM",
-      "stageDropList": [],
+      "stageDropList": [
+        {
+          "stageId": "act16side_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_08",
+          "occPer": "ALWAYS"
+        }
+      ],
       "buildingProductList": []
     },
     "uni_set_prison": {
@@ -17823,6 +17856,22 @@
       "obtainApproach": "이벤트 획득",
       "classifyType": "CONSUME",
       "itemType": "ITEM_PACK",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "randomMaterialRune_12": {
+      "itemId": "randomMaterialRune_12",
+      "name": "베이스포인트 작전 보급 물자",
+      "description": "위기 협약에서 온 보급 재료 상자. 이 땅을 치료하기 위해 늘 노력하는 분들께 드리는 작은 보답입니다.——위기 협약",
+      "rarity": 4,
+      "iconId": "randomMaterialRune_12",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 60023,
+      "usage": "각종 보급 물자가 들어있다. 다양한 재료를 랜덤으로 획득할 수 있다.",
+      "obtainApproach": "위기 협약 보상",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_MGACHA",
       "stageDropList": [],
       "buildingProductList": []
     }
@@ -18951,7 +19000,12 @@
     "char_358_lisa@epoque#22": 1,
     "char_388_mint@epoque#22": 1,
     "char_336_folivo@epoque#22": 1,
-    "char_4077_palico@mh#1": 1
+    "char_4077_palico@mh#1": 1,
+    "furni_rogue2_stone_01": 1,
+    "furni_contract_s12_01": 1,
+    "furni_contractyear1_flag_01": 1,
+    "char_4036_forcer@epoque#20": 1,
+    "char_274_astesi@epoque#23": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
