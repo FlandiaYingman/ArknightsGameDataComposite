@@ -967,7 +967,11 @@
     "ro2.desc": "<color=#6d6d6d>{0}</color>",
     "lv.mhitem": "<color=#A57F5B>{0}</color>",
     "lv.mhtx": "<color=#1B1B1B>{0}</color>",
-    "lv.mhfs": "<color=#A57F5B>{0}</color>"
+    "lv.mhfs": "<color=#A57F5B>{0}</color>",
+    "ga.classicgacha": "<color=#00A8FF>{0}</color>",
+    "ba.grt": "<color=#FFAB27>{0}</color>",
+    "ba.exl": "<color=#14F0AF>{0}</color>",
+    "ba.hrd": "<color=#DA2536>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1108,7 +1112,7 @@
     "ba.cold": {
       "termId": "ba.cold",
       "termName": "寒冷",
-      "description": "攻撃速度-30、効果時間内にもう一度寒冷状態を付与されると<$ba.frozen>凍結</>状態になる"
+      "description": "攻撃速度-30、スキル発動中にもう一度寒冷状態を付与されると<$ba.frozen>凍結</>状態になる"
     },
     "ba.frozen": {
       "termId": "ba.frozen",
@@ -1463,7 +1467,7 @@
     "cc.sk.manu2": {
       "termId": "cc.sk.manu2",
       "termName": "ラインテク系スキル",
-      "description": "対象スキル：\nラインテクα 、ラインテクβ "
+      "description": "対象スキル：\nラインテクα、ラインテクβ、ラインテクγ"
     },
     "ba.dying": {
       "termId": "ba.dying",
@@ -1534,14 +1538,39 @@
       "termId": "cc.tag.mh",
       "termName": "アイルーと愉快な仲間たち",
       "description": "対象オペレーター：\nレウスSノイルホーン、キリンRヤトウ、テラ大陸調査団"
+    },
+    "ba.berserk": {
+      "termId": "ba.berserk",
+      "termName": "不屈",
+      "description": "失ったHP量に応じて、異なる割合のステータス上昇効果を得る。HPが一定割合まで低下すると、最大値に達する（同類のステータス上昇効果は効果値が高いほうのみ適用）"
+    },
+    "ba.steal": {
+      "termId": "ba.steal",
+      "termName": "奪取",
+      "description": "対象のステータスを低下させ、自身のステータスを上昇させる。対象のステータス低下、および自身のステータス上昇には上限がある（同類のステータス上昇効果は効果値が高いほうのみ適用）"
+    },
+    "ba.weaken": {
+      "termId": "ba.weaken",
+      "termName": "虚弱",
+      "description": "対象の攻撃力が効果値分低下（同名の状態は効果値が高いほうのみ適用）"
+    },
+    "cc.g.glasgow": {
+      "termId": "cc.g.glasgow",
+      "termName": "グラスゴー",
+      "description": "対象オペレーター：\nシージ、モーガン、ダグザ、インドラ"
+    },
+    "cc.g.rh": {
+      "termId": "cc.g.rh",
+      "termName": "ライン生命",
+      "description": "対象オペレーター：\nサイレンス、イフリータ、サリア、フィリオプシス、メイヤー、マゼラン、ドロシー、アステジーニ"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事象の欠片の数が足りません。購買資格証ショップあるいはイベントショップで購入してください",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "33.3.0",
-  "resPrefVersion": "36d0d0",
+  "dataVersion": "34.1.0",
+  "resPrefVersion": "37d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTSが当該ステージにおいて、★3評価未獲得の下位作戦環境を検出しました。自動的に<color=#fe6435>環境難易度互換</color>を有効化します。\nこの状態で当該ステージに挑戦すると、当該環境および下位環境での理性を<color=#fe6435>同時に消費</color>します。クリア後は<color=#fe6435>作戦進捗も同期され、下位環境の報酬も同時に受け取れます</color>",
   "mainlineToughDesc": "より困難なプレイ環境\n★3初回クリア報酬は純正源石を含む\n追加の高難易度ステージを含む",
@@ -1550,5 +1579,73 @@
   "addedRewardDisplayZone": "main_9",
   "isDynIllustStartEnabled": true,
   "isRoguelikeAvgAchieveFuncEnabled": true,
-  "rejectSpCharMission": 1687503600
+  "rejectSpCharMission": 1687503600,
+  "isClassicQCShopEnabled": true,
+  "isClassicPotentialItemFuncEnabled": true,
+  "isClassicGachaPoolFuncEnabled": true,
+  "isVoucherClassicItemDistinguishable": true,
+  "announceWebBusType": "ak_announcement",
+  "subProfessionDamageTypePairs": {
+    "notchar1": 0,
+    "notchar2": 0,
+    "none1": 0,
+    "none2": 0,
+    "pioneer": 1,
+    "charger": 1,
+    "tactician": 1,
+    "bearer": 1,
+    "centurion": 1,
+    "fighter": 1,
+    "artsfghter": 2,
+    "instructor": 1,
+    "lord": 1,
+    "sword": 1,
+    "musha": 1,
+    "fearless": 1,
+    "reaper": 1,
+    "librator": 1,
+    "protector": 1,
+    "guardian": 1,
+    "unyield": 1,
+    "artsprotector": 1,
+    "duelist": 1,
+    "fortress": 1,
+    "fastshot": 1,
+    "closerange": 1,
+    "aoesniper": 1,
+    "longrange": 1,
+    "reaperrange": 1,
+    "siegesniper": 1,
+    "bombarder": 1,
+    "corecaster": 2,
+    "splashcaster": 2,
+    "funnel": 2,
+    "phalanx": 0,
+    "mystic": 2,
+    "chain": 2,
+    "blastcaster": 2,
+    "physician": 3,
+    "ringhealer": 3,
+    "healer": 3,
+    "wandermedic": 3,
+    "slower": 2,
+    "underminer": 2,
+    "bard": 0,
+    "blessing": 2,
+    "summoner": 2,
+    "craftsman": 1,
+    "executor": 1,
+    "pusher": 1,
+    "stalker": 1,
+    "hookmaster": 1,
+    "geek": 1,
+    "merchant": 1,
+    "traper": 1,
+    "dollkeeper": 1,
+    "incantationmedic": 2,
+    "agent": 1,
+    "shotprotector": 1,
+    "chainhealer": 3,
+    "crusher": 1
+  }
 }
