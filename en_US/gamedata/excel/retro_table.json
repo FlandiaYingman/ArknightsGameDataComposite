@@ -2070,8 +2070,8 @@
       "index": 2,
       "name": "A Walk in the Dust",
       "detail": "The extent of Kal'tsit's influence is immeasurable.\nUrsus, Victoria, and Sargon all bear marks of her presence.\nWhatever her role may be, she firmly and persistently pursues her own vision.\nThose who journey alongside her, too, are busily authoring the stories of their own lives.\nTime stops for no one, and Kal'tsit continues marching onward.",
-      "trailStartTime": -1,
-      "haveTrail": false,
+      "trailStartTime": 1698771600,
+      "haveTrail": true,
       "customActId": null,
       "customActType": "DEFAULT"
     },
@@ -48213,6 +48213,87 @@
       "relatedFullPotentialItemId": null,
       "themeColor": "cdefe2",
       "fullPotentialItemId": "voucher_full_lava2"
+    },
+    "permanent_sub_2_A_Walk_In_The_Dust": {
+      "retroId": "permanent_sub_2_A_Walk_In_The_Dust",
+      "trailStartTime": 1698771600,
+      "trailRewardList": [
+        {
+          "trailRewardId": "trailReward_sub_2_1",
+          "starCount": 12,
+          "rewardItem": {
+            "id": "char_304_zebra",
+            "count": 1,
+            "type": "CHAR"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sub_2_2",
+          "starCount": 24,
+          "rewardItem": {
+            "id": "voucher_full_zebra",
+            "count": 1,
+            "type": "VOUCHER_FULL_POTENTIAL"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sub_2_3",
+          "starCount": 32,
+          "rewardItem": {
+            "id": "uni_set_icu",
+            "count": 1,
+            "type": "UNI_COLLECTION"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sub_2_4",
+          "starCount": 45,
+          "rewardItem": {
+            "id": "furni_dropS018_needlePhobia_01",
+            "count": 1,
+            "type": "FURN"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sub_2_5",
+          "starCount": 56,
+          "rewardItem": {
+            "id": "avatar_activity_WD",
+            "count": 1,
+            "type": "PLAYER_AVATAR"
+          }
+        }
+      ],
+      "stageList": [
+        "act18d0_01",
+        "act18d0_02",
+        "act18d0_03",
+        "act18d0_04",
+        "act18d0_05",
+        "act18d0_06",
+        "act18d0_07",
+        "act18d0_08",
+        "act18d0_ex01",
+        "act18d0_ex01#f#",
+        "act18d0_ex02",
+        "act18d0_ex02#f#",
+        "act18d0_ex03",
+        "act18d0_ex03#f#",
+        "act18d0_ex04",
+        "act18d0_ex04#f#",
+        "act18d0_ex05",
+        "act18d0_ex05#f#",
+        "act18d0_ex06",
+        "act18d0_ex06#f#",
+        "act18d0_ex07",
+        "act18d0_ex07#f#",
+        "act18d0_ex08",
+        "act18d0_ex08#f#"
+      ],
+      "relatedChar": "char_304_zebra",
+      "relatedFullPotentialItemId": null,
+      "themeColor": "#e7ec62",
+      "fullPotentialItemId": "voucher_full_zebra"
     }
   },
   "ruleData": {
@@ -48223,7 +48304,7 @@
     ],
     "desc": [
       "Once <color=#0098dc>Record Restoration</color> has become available, the player may attempt the corresponding Event Stages (excluding Story and Training stages). The number of Stars obtained in ratings will be counted towards your total number of Stars. They can be exchanged for <color=#0098dc>Record Restoration</color>'s corresponding rewards.",
-      "Raises a specific Operator to Max Potential. Meanwhile, <color=#cc3030>all</color> of the Operator's Tokens will be turned in (used).\nIf the Operator is already at Max Potential, the Operator's Personal Letter will be opened (used) automatically and the Operator's Tokens <color=#cc3030>will not</color> be turned in (used).",
+      "Raises a specific Operator to Max Potential. <color=#cc3030>All</color> of the Operator's Tokens will be used in the meantime.\nIf the Operator is already at Max Potential, the Operator's Personal Letter will be used automatically and the Operator's Tokens <color=#cc3030>will not</color> be used.",
       "Includes all of the corresponding event's limited Furniture items (excluding purchasable pieces). If all the furniture pieces have been obtained, they may not be obtained again via <color=#0098dc>Record Restoration</color>."
     ]
   },
@@ -58760,6 +58841,7 @@
           "techTreeUnlockEventId": "event1_4"
         }
       }
-    }
+    },
+    "TYPE_ACT25SIDE": {}
   }
 }

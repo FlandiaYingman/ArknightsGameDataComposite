@@ -2612,6 +2612,32 @@
       "zoneNameThird": null,
       "lockedText": null,
       "canPreview": false
+    },
+    "main_12": {
+      "zoneID": "main_12",
+      "zoneIndex": 3,
+      "type": "MAINLINE",
+      "zoneNameFirst": "Episode 12",
+      "zoneNameSecond": "All Quiet Under the Thunder",
+      "zoneNameTitleCurrent": "12",
+      "zoneNameTitleUnCurrent": "12",
+      "zoneNameTitleEx": "EPISODE",
+      "zoneNameThird": "EPISODE 12",
+      "lockedText": "Clear the previous chapter to unlock",
+      "canPreview": true
+    },
+    "camp_zone_12": {
+      "zoneID": "camp_zone_12",
+      "zoneIndex": 0,
+      "type": "CAMPAIGN",
+      "zoneNameFirst": null,
+      "zoneNameSecond": null,
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
     }
   },
   "weeklyAdditionInfo": {
@@ -3374,6 +3400,26 @@
       "buttonStyle": "REPLAY",
       "spoilAlert": false,
       "zoneOpenTime": 1682614800,
+      "diffGroup": [
+        1,
+        2,
+        4
+      ]
+    },
+    "main_12": {
+      "zoneId": "main_12",
+      "chapterId": "chapter_2",
+      "preposedZoneId": "main_11",
+      "zoneIndex": 3,
+      "startStageId": "st_12-01",
+      "endStageId": "st_12-03",
+      "mainlneBgName": "mbg_chapter_2_4",
+      "recapId": "obt/main/main_12_zone_enter",
+      "recapPreStageId": "st_11-03",
+      "buttonName": "Watch Prelude",
+      "buttonStyle": "REPLAY",
+      "spoilAlert": false,
+      "zoneOpenTime": 1698148800,
       "diffGroup": [
         1,
         2,
@@ -4394,6 +4440,556 @@
         "finalDes": null,
         "remindDes": null
       }
+    },
+    "main_12": {
+      "zoneId": "main_12",
+      "records": [
+        {
+          "recordId": "main_12_note_1",
+          "zoneId": "main_12",
+          "recordTitleName": "12-4",
+          "preRecordId": null,
+          "nodeTitle1": " Per's Gold Tooth",
+          "nodeTitle2": "Per's Gold Tooth",
+          "rewards": [
+            {
+              "bindStageId": "easy_12-03",
+              "stageDiff1": 1,
+              "stageDiff": 1,
+              "picRes": "pic_1_main_12_note_1",
+              "textPath": "",
+              "textDesc": "",
+              "recordReward": [
+                {
+                  "id": "2003",
+                  "count": 3,
+                  "type": "CARD_EXP"
+                },
+                {
+                  "id": "3301",
+                  "count": 5,
+                  "type": "MATERIAL"
+                }
+              ]
+            },
+            {
+              "bindStageId": "main_12-03",
+              "stageDiff1": 2,
+              "stageDiff": 2,
+              "picRes": null,
+              "textPath": "Obt/Record/main_12/text_main_12_note_1",
+              "textDesc": "",
+              "recordReward": [
+                {
+                  "id": "3301",
+                  "count": 5,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30032",
+                  "count": 3,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "Logistics_Special_Permit",
+                  "count": 2,
+                  "type": "LIMITED_BUFF"
+                }
+              ]
+            },
+            {
+              "bindStageId": "tough_12-03",
+              "stageDiff1": 3,
+              "stageDiff": 4,
+              "picRes": "pic_3_main_12_note_1",
+              "textPath": null,
+              "textDesc": "Ol' Baldy Per's business in the district was doing so well it may as well have been on fire, but his appearance was the laughingstock of his customers. He even scared away more than a few noblewomen. In a stroke of ingenuity, he got himself a new gold tooth to bless his bakery with good fortune. He never expected his shop to really take off like that.",
+              "recordReward": [
+                {
+                  "id": "32001",
+                  "count": 1,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30064",
+                  "count": 2,
+                  "type": "MATERIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "main_12_note_2",
+          "zoneId": "main_12",
+          "recordTitleName": "12-7",
+          "preRecordId": "main_12_note_1",
+          "nodeTitle1": "The Proof of Science",
+          "nodeTitle2": "Proof of Science",
+          "rewards": [
+            {
+              "bindStageId": "easy_12-06",
+              "stageDiff1": 1,
+              "stageDiff": 1,
+              "picRes": "pic_1_main_12_note_2",
+              "textPath": "",
+              "textDesc": "",
+              "recordReward": [
+                {
+                  "id": "2003",
+                  "count": 5,
+                  "type": "CARD_EXP"
+                },
+                {
+                  "id": "4001",
+                  "count": 20000,
+                  "type": "GOLD"
+                }
+              ]
+            },
+            {
+              "bindStageId": "main_12-06",
+              "stageDiff1": 2,
+              "stageDiff": 2,
+              "picRes": null,
+              "textPath": "Obt/Record/main_12/text_main_12_note_2",
+              "textDesc": "",
+              "recordReward": [
+                {
+                  "id": "3302",
+                  "count": 5,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "4001",
+                  "count": 30000,
+                  "type": "GOLD"
+                },
+                {
+                  "id": "Logistics_Special_Permit",
+                  "count": 2,
+                  "type": "LIMITED_BUFF"
+                }
+              ]
+            },
+            {
+              "bindStageId": "tough_12-06",
+              "stageDiff1": 3,
+              "stageDiff": 4,
+              "picRes": "pic_3_main_12_note_2",
+              "textPath": null,
+              "textDesc": "At the closing ceremony of the third Columbian Heraldry Conference, a young, no-name scholar had the opportunity to give a speech in the place of his instructor, who received an award. The instructor then gave the medal to the young scholar, encouraging him to become a rising star in the field of Victorian heraldry. For a time, the bond between teacher and pupil became the talk of the town.",
+              "recordReward": [
+                {
+                  "id": "32001",
+                  "count": 1,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30073",
+                  "count": 2,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "Logistics_Special_Permit",
+                  "count": 2,
+                  "type": "LIMITED_BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "main_12_note_3",
+          "zoneId": "main_12",
+          "recordTitleName": "12-13",
+          "preRecordId": "main_12_note_2",
+          "nodeTitle1": "Gangster's Perfume Gift ",
+          "nodeTitle2": "Gangster Perfume Gift",
+          "rewards": [
+            {
+              "bindStageId": "easy_12-11",
+              "stageDiff1": 1,
+              "stageDiff": 1,
+              "picRes": "pic_1_main_12_note_3",
+              "textPath": "",
+              "textDesc": "",
+              "recordReward": [
+                {
+                  "id": "3221",
+                  "count": 4,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30012",
+                  "count": 3,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "4001",
+                  "count": 30000,
+                  "type": "GOLD"
+                }
+              ]
+            },
+            {
+              "bindStageId": "main_12-11",
+              "stageDiff1": 2,
+              "stageDiff": 2,
+              "picRes": null,
+              "textPath": "Obt/Record/main_12/text_main_12_note_3",
+              "textDesc": "",
+              "recordReward": [
+                {
+                  "id": "30043",
+                  "count": 4,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "4001",
+                  "count": 50000,
+                  "type": "GOLD"
+                },
+                {
+                  "id": "Logistics_Special_Permit",
+                  "count": 2,
+                  "type": "LIMITED_BUFF"
+                }
+              ]
+            },
+            {
+              "bindStageId": "tough_12-11",
+              "stageDiff1": 3,
+              "stageDiff": 4,
+              "picRes": "pic_3_main_12_note_3",
+              "textPath": null,
+              "textDesc": "In their fight against the Sarkaz, the leaders of the Norport Borough gangs reached a strange understanding on how to protect their neighborhood. They were planning to spearhead the resistance at the supply lines. Regardless of the outcome of their partnership, this was great news for the youngsters in love with people in their rival gangs.",
+              "recordReward": [
+                {
+                  "id": "32001",
+                  "count": 1,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "31044",
+                  "count": 2,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "Logistics_Special_Permit",
+                  "count": 2,
+                  "type": "LIMITED_BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "main_12_note_4",
+          "zoneId": "main_12",
+          "recordTitleName": "12-17",
+          "preRecordId": "main_12_note_3",
+          "nodeTitle1": "Mr. McClaren's Monthly Card",
+          "nodeTitle2": "Mr. McClaren's Monthly Card",
+          "rewards": [
+            {
+              "bindStageId": "easy_12-15",
+              "stageDiff1": 1,
+              "stageDiff": 1,
+              "picRes": "pic_1_main_12_note_4",
+              "textPath": "",
+              "textDesc": "",
+              "recordReward": [
+                {
+                  "id": "3302",
+                  "count": 5,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30093",
+                  "count": 3,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30052",
+                  "count": 2,
+                  "type": "MATERIAL"
+                }
+              ]
+            },
+            {
+              "bindStageId": "main_12-15",
+              "stageDiff1": 2,
+              "stageDiff": 2,
+              "picRes": null,
+              "textPath": "Obt/Record/main_12/text_main_12_note_4",
+              "textDesc": "",
+              "recordReward": [
+                {
+                  "id": "char_154_morgan",
+                  "count": 1,
+                  "type": "CHAR"
+                },
+                {
+                  "id": "3222",
+                  "count": 6,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "Logistics_Special_Permit",
+                  "count": 2,
+                  "type": "LIMITED_BUFF"
+                }
+              ]
+            },
+            {
+              "bindStageId": "tough_12-15",
+              "stageDiff1": 3,
+              "stageDiff": 4,
+              "picRes": "pic_3_main_12_note_4",
+              "textPath": null,
+              "textDesc": "Watching explicit films is always a good way to alleviate stress during wartime. McClaren understood this, which is why he made good money showing these flicks, unauthorized for public viewing. Come to think of it, though, who would come enforce it anyway, given everything that was going on?",
+              "recordReward": [
+                {
+                  "id": "p_char_154_morgan",
+                  "count": 1,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "31034",
+                  "count": 2,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30054",
+                  "count": 2,
+                  "type": "MATERIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "main_12_note_5",
+          "zoneId": "main_12",
+          "recordTitleName": "12-20",
+          "preRecordId": "main_12_note_4",
+          "nodeTitle1": "Unknown Butterfly Knife",
+          "nodeTitle2": "Unknown Butterfly Knife",
+          "rewards": [
+            {
+              "bindStageId": "easy_12-18",
+              "stageDiff1": 1,
+              "stageDiff": 1,
+              "picRes": "pic_1_main_12_note_5",
+              "textPath": "",
+              "textDesc": "",
+              "recordReward": [
+                {
+                  "id": "avatar_activity_EP12",
+                  "count": 1,
+                  "type": "PLAYER_AVATAR"
+                },
+                {
+                  "id": "30073",
+                  "count": 5,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "31013",
+                  "count": 2,
+                  "type": "MATERIAL"
+                }
+              ]
+            },
+            {
+              "bindStageId": "main_12-18",
+              "stageDiff1": 2,
+              "stageDiff": 2,
+              "picRes": null,
+              "textPath": "Obt/Record/main_12/text_main_12_note_5",
+              "textDesc": "",
+              "recordReward": [
+                {
+                  "id": "p_char_154_morgan",
+                  "count": 1,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "31054",
+                  "count": 4,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "Logistics_Special_Permit",
+                  "count": 2,
+                  "type": "LIMITED_BUFF"
+                }
+              ]
+            },
+            {
+              "bindStageId": "tough_12-18",
+              "stageDiff1": 3,
+              "stageDiff": 4,
+              "picRes": "pic_3_main_12_note_5",
+              "textPath": null,
+              "textDesc": "Baird still remembered that when she showed off her new butterfly knife to the Glasgow members, Indra suggested making it gang property and stamped their seal onto its hilt. Although the two of them got into a fight over this, according to Vina, Baird seemed somewhat open to the idea.",
+              "recordReward": [
+                {
+                  "id": "furni_dropS034_vision_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                {
+                  "id": "30145",
+                  "count": 1,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "Logistics_Special_Permit",
+                  "count": 2,
+                  "type": "LIMITED_BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "main_12_note_6",
+          "zoneId": "main_12",
+          "recordTitleName": "H12-1",
+          "preRecordId": "main_12_note_5",
+          "nodeTitle1": "Portable Military Flashlight",
+          "nodeTitle2": "Miniature Military Searchlight",
+          "rewards": [
+            {
+              "bindStageId": "hard_12-01",
+              "stageDiff1": 5,
+              "stageDiff": 4,
+              "picRes": "pic_3_main_12_note_6",
+              "textPath": "Obt/Record/main_12/text_main_12_note_6",
+              "textDesc": null,
+              "recordReward": [
+                {
+                  "id": "p_char_154_morgan",
+                  "count": 1,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30074",
+                  "count": 2,
+                  "type": "MATERIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "main_12_note_7",
+          "zoneId": "main_12",
+          "recordTitleName": "H12-2",
+          "preRecordId": "main_12_note_6",
+          "nodeTitle1": "Birthday Gift",
+          "nodeTitle2": "Birthday Present",
+          "rewards": [
+            {
+              "bindStageId": "hard_12-02",
+              "stageDiff1": 5,
+              "stageDiff": 4,
+              "picRes": "pic_3_main_12_note_7",
+              "textPath": "Obt/Record/main_12/text_main_12_note_7",
+              "textDesc": null,
+              "recordReward": [
+                {
+                  "id": "p_char_154_morgan",
+                  "count": 1,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30014",
+                  "count": 2,
+                  "type": "MATERIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "main_12_note_8",
+          "zoneId": "main_12",
+          "recordTitleName": "H12-3",
+          "preRecordId": "main_12_note_7",
+          "nodeTitle1": "The Cleaner's Pocket Notebook",
+          "nodeTitle2": "Personal Notebook",
+          "rewards": [
+            {
+              "bindStageId": "hard_12-03",
+              "stageDiff1": 5,
+              "stageDiff": 4,
+              "picRes": "pic_3_main_12_note_8",
+              "textPath": "Obt/Record/main_12/text_main_12_note_8",
+              "textDesc": null,
+              "recordReward": [
+                {
+                  "id": "30155",
+                  "count": 1,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30145",
+                  "count": 1,
+                  "type": "MATERIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "main_12_note_9",
+          "zoneId": "main_12",
+          "recordTitleName": "H12-4",
+          "preRecordId": "main_12_note_8",
+          "nodeTitle1": "Legacy of the Battlefield",
+          "nodeTitle2": "Battlefield Remnants",
+          "rewards": [
+            {
+              "bindStageId": "hard_12-04",
+              "stageDiff1": 5,
+              "stageDiff": 4,
+              "picRes": "pic_3_main_12_note_9",
+              "textPath": "Obt/Record/main_12/text_main_12_note_9",
+              "textDesc": null,
+              "recordReward": [
+                {
+                  "id": "furni_dropS034_territory_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                {
+                  "id": "p_char_154_morgan",
+                  "count": 1,
+                  "type": "MATERIAL"
+                },
+                {
+                  "id": "30155",
+                  "count": 1,
+                  "type": "MATERIAL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "unlockData": {
+        "noteId": "main_12_note",
+        "zoneId": "main_12",
+        "initialName": "Cleaner's Collection",
+        "finalName": null,
+        "accordingExposeId": null,
+        "initialDes": "A box of personal effects treasured by a cleaner wandering Norport Borough. The box contains many ownerless objects collected from the tattered district. Perhaps it can help you uncover the dark side of this city, buried beneath the dust of the battlefield.",
+        "finalDes": null,
+        "remindDes": null
+      }
     }
   },
   "zoneRecordRewardData": {
@@ -4435,6 +5031,49 @@
       "hard_11-02",
       "hard_11-03",
       "hard_11-04"
+    ],
+    "main_12": [
+      "easy_12-03",
+      "main_12-03",
+      "tough_12-03",
+      "easy_12-06",
+      "main_12-06",
+      "tough_12-06",
+      "easy_12-11",
+      "main_12-11",
+      "tough_12-11",
+      "easy_12-15",
+      "main_12-15",
+      "tough_12-15",
+      "easy_12-18",
+      "main_12-18",
+      "tough_12-18",
+      "hard_12-01",
+      "hard_12-02",
+      "hard_12-03",
+      "hard_12-04"
     ]
+  },
+  "zoneMetaData": {
+    "ZoneRecordMissionData": {
+      "tough_12-06": {
+        "missionId": "main12_1",
+        "recordStageId": "tough_12-06",
+        "templateDesc": "Clear tough_12-06 with a rating of 3 stars, and trigger at least 1 enemy_1313_wdfmr_2事件id组(;区分) in reachExit event",
+        "desc": "Clear Adverse Environment with a rating of 3 stars and protect confirmed agents"
+      },
+      "tough_12-11": {
+        "missionId": "main12_2",
+        "recordStageId": "tough_12-11",
+        "templateDesc": "Clear tough_12-11 with a rating of 3 stars, and trigger at least 1 enemy_1313_wdfmr_2事件id组(;区分) in reachExit event",
+        "desc": "Clear Adverse Environment with a rating of 3 stars and protect confirmed agents"
+      },
+      "tough_12-18": {
+        "missionId": "main12_3",
+        "recordStageId": "tough_12-18",
+        "templateDesc": "Clear tough_12-18 with a rating of 3 stars, and trigger at least 1 enemy_1313_wdfmr_2事件id组(;区分) in reachExit event",
+        "desc": "Clear Adverse Environment with a rating of 3 stars and protect confirmed agents"
+      }
+    }
   }
 }

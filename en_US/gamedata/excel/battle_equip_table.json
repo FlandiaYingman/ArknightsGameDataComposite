@@ -41649,7 +41649,7 @@
               "candidates": [
                 {
                   "displayRangeId": false,
-                  "upgradeDescription": "Increases ASPD based on lost HP (Reaches max boosted ASPD +120 when lose 60% HP)",
+                  "upgradeDescription": "Gains up to +120 ASPD <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 60% Max HP)",
                   "talentIndex": 0,
                   "unlockCondition": {
                     "phase": 2,
@@ -41666,8 +41666,8 @@
                       "value": 0.4
                     },
                     {
-                      "key": "max_hp_ratio",
-                      "value": 1
+                      "key": "min_attack_speed",
+                      "value": 120
                     },
                     {
                       "key": "min_attack_speed",
@@ -41774,7 +41774,7 @@
               "candidates": [
                 {
                   "displayRangeId": false,
-                  "upgradeDescription": "Increases ASPD based on lost HP (Reaches max boosted ASPD +130 when lose 50% HP)",
+                  "upgradeDescription": "Gains up to +130 ASPD <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 50% Max HP)",
                   "talentIndex": 0,
                   "unlockCondition": {
                     "phase": 2,
@@ -41791,8 +41791,8 @@
                       "value": 0.5
                     },
                     {
-                      "key": "max_hp_ratio",
-                      "value": 1
+                      "key": "min_attack_speed",
+                      "value": 130
                     },
                     {
                       "key": "min_attack_speed",
@@ -49289,6 +49289,3038 @@
           {
             "key": "atk",
             "value": 60
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_billro": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "billro_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "billro_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "billro_e_002[buff].magic_resistance",
+                      "value": 10
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 200
+          },
+          {
+            "key": "atk",
+            "value": 66
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "billro_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "billro_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "billro_e_002[buff].magic_resistance",
+                      "value": 10
+                    },
+                    {
+                      "key": "billro_e_002[max_hp_buff].max_hp",
+                      "value": 0.3
+                    },
+                    {
+                      "key": "billro_e_002[max_hp_enhance_buff].max_hp",
+                      "value": 0.6
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "+30% Max HP when skill is active, restores 40% Max HP when skill is activated; \nEffect is doubled when<$ba.charged>Charged</>",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Meal of Life",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "heal_scale",
+                      "value": 0.4
+                    },
+                    {
+                      "key": "billro_t_1[enhance].heal_scale",
+                      "value": 0.8
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "+30% Max HP when skill is active, restores 45% <@ba.talpu>(+5%)</>Max HP when skill is activated; \nEffect is doubled when<$ba.charged>Charged</>",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Meal of Life",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "heal_scale",
+                      "value": 0.45
+                    },
+                    {
+                      "key": "billro_t_1[enhance].heal_scale",
+                      "value": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 230
+          },
+          {
+            "key": "atk",
+            "value": 76
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "billro_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "billro_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "billro_e_002[buff].magic_resistance",
+                      "value": 10
+                    },
+                    {
+                      "key": "billro_e_002[max_hp_buff].max_hp",
+                      "value": 0.45
+                    },
+                    {
+                      "key": "billro_e_002[max_hp_enhance_buff].max_hp",
+                      "value": 0.9
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "+45% Max HP when skill is active, restores 45% Max HP when skill is activated; \nEffect is doubled when<$ba.charged>Charged</>",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Meal of Life",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "heal_scale",
+                      "value": 0.45
+                    },
+                    {
+                      "key": "billro_t_1[enhance].heal_scale",
+                      "value": 0.9
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "+45% Max HP when skill is active, restores 50% <@ba.talpu>(+5%)</>Max HP when skill is activated; \nEffect is doubled when<$ba.charged>Charged</>",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Meal of Life",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "heal_scale",
+                      "value": 0.5
+                    },
+                    {
+                      "key": "billro_t_1[enhance].heal_scale",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 260
+          },
+          {
+            "key": "atk",
+            "value": 85
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_lin": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "lin_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "lin_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "lin_e_002[buff].magic_resistance",
+                      "value": 10
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 62
+          },
+          {
+            "key": "def",
+            "value": 45
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "lin_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "lin_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "lin_e_002[buff].magic_resistance",
+                      "value": 10
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "50% chance to recover 2 SP when attacked",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Shrouded Strength",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.5
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "55% <@ba.talpu>(+5%)</> chance to recover 2 SP when attacked",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "2",
+                  "name": "Shrouded Strength",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.55
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 70
+          },
+          {
+            "key": "def",
+            "value": 50
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "lin_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "lin_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "lin_e_002[buff].magic_resistance",
+                      "value": 10
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "75% chance to recover 2 SP when attacked",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Shrouded Strength",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.75
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "80% <@ba.talpu>(+5%)</> chance to recover 2 SP when attacked",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "2",
+                  "name": "Shrouded Strength",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.8
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 77
+          },
+          {
+            "key": "def",
+            "value": 53
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_mint": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "mint_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "soil_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "soil_e_002[buff].magic_resistance",
+                      "value": 10
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 130
+          },
+          {
+            "key": "atk",
+            "value": 40
+          },
+          {
+            "key": "def",
+            "value": 15
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "mint_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "soil_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "soil_e_002[buff].magic_resistance",
+                      "value": 10
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When this unit's skill is not active, adjacent allies gain +18% DEF; when skill is active, less likely to be targeted by enemies",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Geologist",
+                  "description": null,
+                  "rangeId": "x-5",
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 0.18
+                    },
+                    {
+                      "key": "atk",
+                      "value": 0
+                    },
+                    {
+                      "key": "taunt_level",
+                      "value": -1
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When this unit's skill is not active, adjacent allies gain +20% <@ba.talpu>(+2%)</> DEF; when skill is active, less likely to be targeted by enemies",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Geologist",
+                  "description": null,
+                  "rangeId": "x-5",
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "atk",
+                      "value": 0
+                    },
+                    {
+                      "key": "taunt_level",
+                      "value": -1
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 150
+          },
+          {
+            "key": "atk",
+            "value": 47
+          },
+          {
+            "key": "def",
+            "value": 20
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "mint_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "soil_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "soil_e_002[buff].magic_resistance",
+                      "value": 10
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When this unit's skill is not active, adjacent allies gain +21% DEF; when skill is active, less likely to be targeted by enemies",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Geologist",
+                  "description": null,
+                  "rangeId": "x-5",
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 0.21
+                    },
+                    {
+                      "key": "atk",
+                      "value": 0
+                    },
+                    {
+                      "key": "taunt_level",
+                      "value": -1
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When this unit's skill is not active, adjacent allies gain +23% <@ba.talpu>(+2%)</> DEF; when skill is active, less likely to be targeted by enemies",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Geologist",
+                  "description": null,
+                  "rangeId": "x-5",
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 0.23
+                    },
+                    {
+                      "key": "atk",
+                      "value": 0
+                    },
+                    {
+                      "key": "taunt_level",
+                      "value": -1
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 170
+          },
+          {
+            "key": "atk",
+            "value": 52
+          },
+          {
+            "key": "def",
+            "value": 23
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_beewax": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "beewax_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "soil_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "soil_e_002[buff].magic_resistance",
+                      "value": 10
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 150
+          },
+          {
+            "key": "atk",
+            "value": 55
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "beewax_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "soil_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "soil_e_002[buff].magic_resistance",
+                      "value": 10
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "beewax_equip_1_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When this unit's skill is not active, +10% Max HP, and restores 4% Max HP per second",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Shambhala's Sanctuary",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.04
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 0.1
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 180
+          },
+          {
+            "key": "atk",
+            "value": 64
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "beewax_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 2.15
+                    },
+                    {
+                      "key": "magic_resistance",
+                      "value": 25
+                    },
+                    {
+                      "key": "soil_e_002[buff].def",
+                      "value": 1
+                    },
+                    {
+                      "key": "soil_e_002[buff].magic_resistance",
+                      "value": 10
+                    }
+                  ],
+                  "overrideDescripton": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, retains some of the bonus and attacks deal <@ba.kw>AoE Arts Damage</>",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "beewax_equip_1_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When this unit's skill is not active, +15% Max HP, and restores 4% Max HP per second",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Shambhala's Sanctuary",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.04
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 0.15
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 210
+          },
+          {
+            "key": "atk",
+            "value": 70
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_doroth": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "doroth_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Has 20% chance to deploy a trap that deals double damage",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 2
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 120
+          },
+          {
+            "key": "atk",
+            "value": 42
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "doroth_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Has 20% chance to deploy a trap that deals double damage",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 2
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "After a trap is activated, Dorothy gains +3% ATK, stacking up to 10 times",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Dreamer",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.03
+                    },
+                    {
+                      "key": "max_stack_cnt",
+                      "value": 10
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "After a trap is activated, Dorothy gains +3% ATK, stacking up to 12 <@ba.talpu>(+2)</> times",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "2",
+                  "name": "Dreamer",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.03
+                    },
+                    {
+                      "key": "max_stack_cnt",
+                      "value": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 140
+          },
+          {
+            "key": "atk",
+            "value": 50
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "doroth_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Has 20% chance to deploy a trap that deals double damage",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 2
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "After a trap is activated, Dorothy gains +4% ATK, stacking up to 10 times",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Dreamer",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.04
+                    },
+                    {
+                      "key": "max_stack_cnt",
+                      "value": 10
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "After a trap is activate, Dorothy gains +4% ATK, stacking up to 12 <@ba.talpu>(+2)</> times",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "2",
+                  "name": "Dreamer",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.04
+                    },
+                    {
+                      "key": "max_stack_cnt",
+                      "value": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 155
+          },
+          {
+            "key": "atk",
+            "value": 57
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_robin": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "robin_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Has 20% chance to deploy a trap that deals double damage",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 2
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 130
+          },
+          {
+            "key": "atk",
+            "value": 36
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "robin_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Has 20% chance to deploy a trap that deals double damage",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 2
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "robin_equip_1_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains Camouflage after being attacked, lasting for 4 seconds",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Advanced Concealment",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "talent_duration",
+                      "value": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 160
+          },
+          {
+            "key": "atk",
+            "value": 39
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "robin_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Has 20% chance to deploy a trap that deals double damage",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 2
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "robin_equip_1_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains Camouflage after being attacked, lasting for 6 seconds",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Advanced Concealment",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "talent_duration",
+                      "value": 6
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 185
+          },
+          {
+            "key": "atk",
+            "value": 41
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_rfrost": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "rfrost_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Has 20% chance to deploy a trap that deals double damage",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 2
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 35
+          },
+          {
+            "key": "def",
+            "value": 21
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "rfrost_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Has 20% chance to deploy a trap that deals double damage",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 2
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "rfrost_equip_1_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "def_penetrate_fixed",
+                      "value": 80
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Can deploy up to 8 Welcome Mats (Can store up to 10); The first enemy that steps on a Welcome Mat will trigger its effect; Frost and Welcome Mats ignore 80 DEF",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Welcome Mat",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 8
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Can deploy up to 10 <@ba.talpu>(+2)</> Welcome Mats (Can store up to 10); The first enemy that steps on a Welcome Mat will trigger its effect; Frost and Welcome Mats ignore 80 DEF",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Welcome Mat",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 10
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 42
+          },
+          {
+            "key": "def",
+            "value": 23
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "rfrost_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Has 20% chance to deploy a trap that deals double damage",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.2
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 2
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "rfrost_equip_1_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "def_penetrate_fixed",
+                      "value": 120
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Can deploy up to 8 Welcome Mats (Can store up to 10); The first enemy that steps on a Welcome Mat will trigger its effect; Frost and Welcome Mats ignore 120 DEF",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Welcome Mat",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 8
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Can deploy up to 10 <@ba.talpu>(+2)</> Welcome Mats (Can store up to 10); The first enemy that steps on a Welcome Mat will trigger its effect; Frost and Welcome Mats ignore 120 DEF",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Welcome Mat",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 10
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 47
+          },
+          {
+            "key": "def",
+            "value": 25
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_cement": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "cement_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "sp_recover_ratio",
+                      "value": -0.8
+                    }
+                  ],
+                  "overrideDescripton": "SP recovery is slowed except when blocking enemies",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 25
+          },
+          {
+            "key": "def",
+            "value": 50
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "cement_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "sp_recover_ratio",
+                      "value": -0.8
+                    }
+                  ],
+                  "overrideDescripton": "SP recovery is slowed except when blocking enemies",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains 14% Physical damage reduction; effect doubles after being deployed for 35 seconds",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Blueprint Corrections",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.14
+                    },
+                    {
+                      "key": "interval",
+                      "value": 35
+                    },
+                    {
+                      "key": "damage_resistance_addtion",
+                      "value": 0.14
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains 17% <@ba.talpu>(+3%)</> Physical damage reduction; effect doubles after being deployed for 35 seconds",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Blueprint Corrections",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.17
+                    },
+                    {
+                      "key": "interval",
+                      "value": 35
+                    },
+                    {
+                      "key": "damage_resistance_addtion",
+                      "value": 0.17
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 42
+          },
+          {
+            "key": "def",
+            "value": 75
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "cement_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "sp_recover_ratio",
+                      "value": -0.8
+                    }
+                  ],
+                  "overrideDescripton": "SP recovery is slowed except when blocking enemies",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains 16% Physical damage reduction; effect doubles after being deployed for 35 seconds",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Blueprint Corrections",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.16
+                    },
+                    {
+                      "key": "interval",
+                      "value": 35
+                    },
+                    {
+                      "key": "damage_resistance_addtion",
+                      "value": 0.16
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains 19% <@ba.talpu>(+3%)</> Physical damage reduction; effect doubles after being deployed for 35 seconds",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Blueprint Corrections",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.19
+                    },
+                    {
+                      "key": "interval",
+                      "value": 35
+                    },
+                    {
+                      "key": "damage_resistance_addtion",
+                      "value": 0.19
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "atk",
+            "value": 57
+          },
+          {
+            "key": "def",
+            "value": 100
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_morgan": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "morgan_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Increases ATK to <@ba.vup>{atk_scale:0%}</> when attacking blocked enemies",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "atk_scale",
+                      "value": 1.15
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 250
+          },
+          {
+            "key": "atk",
+            "value": 65
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "morgan_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Increases ATK to <@ba.vup>{atk_scale:0%}</> when attacking blocked enemies",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "atk_scale",
+                      "value": 1.15
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains up to +55% ATK <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Hot-Blooded Vanguard",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "min_atk",
+                      "value": 0.55
+                    },
+                    {
+                      "key": "min_hp_ratio",
+                      "value": 0.3
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains up to +57% <@ba.talpu>(+2%)</> ATK <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Hot-Blooded Vanguard",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "min_atk",
+                      "value": 0.57
+                    },
+                    {
+                      "key": "min_hp_ratio",
+                      "value": 0.3
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 310
+          },
+          {
+            "key": "atk",
+            "value": 74
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "morgan_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Increases ATK to <@ba.vup>{atk_scale:0%}</> when attacking blocked enemies",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "atk_scale",
+                      "value": 1.15
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains up to +58% ATK <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Hot-Blooded Vanguard",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "min_atk",
+                      "value": 0.58
+                    },
+                    {
+                      "key": "min_hp_ratio",
+                      "value": 0.3
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains up to +60% <@ba.talpu>(+2%)</> ATK <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 70% Max HP)",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Hot-Blooded Vanguard",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "min_atk",
+                      "value": 0.6
+                    },
+                    {
+                      "key": "min_hp_ratio",
+                      "value": 0.3
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 350
+          },
+          {
+            "key": "atk",
+            "value": 82
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_003_nian": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": "Blocks 4 enemies",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 320
+          },
+          {
+            "key": "atk",
+            "value": 35
+          },
+          {
+            "key": "def",
+            "value": 21
+          },
+          {
+            "key": "block_cnt",
+            "value": 1
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "nian_equip_2_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.03
+                    },
+                    {
+                      "key": "heal_scale",
+                      "value": 1
+                    },
+                    {
+                      "key": "max_stack_cnt",
+                      "value": 3
+                    },
+                    {
+                      "key": "heal_scale_addition",
+                      "value": 0.03
+                    },
+                    {
+                      "key": "heal_scale_max_value",
+                      "value": 1.09
+                    }
+                  ],
+                  "overrideDescripton": "Blocks 4 enemies",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When this unit is in the squad, all Defender Operators gain +19% Max HP; this unit gains +3% Max HP and healing received for each Defender Operator deployed, stacking up to 3 times",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Tectonic Armor",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.19
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When this unit is in the squad, all Defender Operators gain +23% <@ba.talpu>(+4%)</> Max HP; this unit gains +3% Max HP and healing received for each Defender Operator deployed, stacking up to 3 times",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Tectonic Armor",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.23
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 440
+          },
+          {
+            "key": "atk",
+            "value": 55
+          },
+          {
+            "key": "def",
+            "value": 26
+          },
+          {
+            "key": "block_cnt",
+            "value": 1
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "nian_equip_2_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.04
+                    },
+                    {
+                      "key": "heal_scale",
+                      "value": 1
+                    },
+                    {
+                      "key": "max_stack_cnt",
+                      "value": 3
+                    },
+                    {
+                      "key": "heal_scale_addition",
+                      "value": 0.04
+                    },
+                    {
+                      "key": "heal_scale_max_value",
+                      "value": 1.12
+                    }
+                  ],
+                  "overrideDescripton": "Blocks 4 enemies",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When this unit is in the squad, all Defender Operators gain +21% Max HP; this unit gains +4% Max HP and healing received for each Defender Operator deployed, stacking up to 3 times",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Tectonic Armor",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.21
+                    }
+                  ]
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When this unit is in the squad, all Defender Operators gain +25% <@ba.talpu>(+4%)</> Max HP; this unit gains +4% Max HP and healing received for each Defender Operator deployed, stacking up to 3 times",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Tectonic Armor",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.25
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 550
+          },
+          {
+            "key": "atk",
+            "value": 70
+          },
+          {
+            "key": "def",
+            "value": 30
+          },
+          {
+            "key": "block_cnt",
+            "value": 1
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_003_cerber": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "cerber_equip_2_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Gain <@ba.kw>{sp}</> SP when normal attacks hit an elite or leader enemy.",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "sp",
+                      "value": 1
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 80
+          },
+          {
+            "key": "atk",
+            "value": 40
+          },
+          {
+            "key": "def",
+            "value": 17
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "cerber_equip_2_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Gain <@ba.kw>{sp}</> SP when normal attacks hit an elite or leader enemy.",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "sp",
+                      "value": 1
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "cerber_equip_2_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains +12% ATK and +12 ASPD when there are no allied units in the adjacent 4 tiles",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Lone Journey",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.12
+                    },
+                    {
+                      "key": "attack_speed",
+                      "value": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 105
+          },
+          {
+            "key": "atk",
+            "value": 49
+          },
+          {
+            "key": "def",
+            "value": 21
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "cerber_equip_2_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Gain <@ba.kw>{sp}</> SP when normal attacks hit an elite or leader enemy.",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "sp",
+                      "value": 1
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "cerber_equip_2_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Gains +15% ATK and +15 ASPD when there are no allied units in the adjacent 4 tiles",
+                  "talentIndex": 1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Lone Journey",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.15
+                    },
+                    {
+                      "key": "attack_speed",
+                      "value": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 120
+          },
+          {
+            "key": "atk",
+            "value": 56
+          },
+          {
+            "key": "def",
+            "value": 23
           }
         ],
         "tokenAttributeBlackboard": {}
