@@ -967,7 +967,11 @@
     "ro2.desc": "<color=#6d6d6d>{0}</color>",
     "lv.mhitem": "<color=#A57F5B>{0}</color>",
     "lv.mhtx": "<color=#1B1B1B>{0}</color>",
-    "lv.mhfs": "<color=#A57F5B>{0}</color>"
+    "lv.mhfs": "<color=#A57F5B>{0}</color>",
+    "ga.classicgacha": "<color=#00A8FF>{0}</color>",
+    "ba.grt": "<color=#FFAB27>{0}</color>",
+    "ba.exl": "<color=#14F0AF>{0}</color>",
+    "ba.hrd": "<color=#DA2536>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1366,7 +1370,7 @@
     "cc.g.sui": {
       "termId": "cc.g.sui",
       "termName": "쉐이",
-      "description": "다음 오퍼레이터 포함\n시, 링, 총웨, 우요우, 멀베리"
+      "description": "다음 오퍼레이터 포함\n니엔, 시, 링, 총웨"
     },
     "cc.w.ncdeer1": {
       "termId": "cc.w.ncdeer1",
@@ -1466,7 +1470,7 @@
     "cc.sk.manu2": {
       "termId": "cc.sk.manu2",
       "termName": "라인테크류 스킬",
-      "description": "다음의 스킬 포함\n라인테크 α, 라인테크 β"
+      "description": "다음 스킬 포함\n라인테크 α, 라인테크 β, 라인테크 γ"
     },
     "ba.dying": {
       "termId": "ba.dying",
@@ -1537,14 +1541,39 @@
       "termId": "cc.tag.mh",
       "termName": "아이루와 유쾌한 친구들",
       "description": "다음 오퍼레이터 포함\n레우스S 느와르 코르네, 키린R 야토, 테라 대륙 조사단"
+    },
+    "ba.berserk": {
+      "termId": "ba.berserk",
+      "termName": "인내",
+      "description": "감소한 HP에 비례하여 능력치 상승, 일정 비례 시 최대 효과 도달 (동종 효과 중 최대 수치만 적용)"
+    },
+    "ba.steal": {
+      "termId": "ba.steal",
+      "termName": "탈취",
+      "description": "목표의 기본 능력치를 감소하여 자신에게 추가, 일정량 감소 시 최대 효과 도달 (동종 효과 중 최대 수치만 적용)"
+    },
+    "ba.weaken": {
+      "termId": "ba.weaken",
+      "termName": "약화",
+      "description": "목표의 공격력이 일정 비례 감소 (동종 효과 중 최대 수치만 적용)"
+    },
+    "cc.g.glasgow": {
+      "termId": "cc.g.glasgow",
+      "termName": "글래스고",
+      "description": "다음 오퍼레이터 포함\n시즈, 모건, 다그다, 인드라"
+    },
+    "cc.g.rh": {
+      "termId": "cc.g.rh",
+      "termName": "라인 랩",
+      "description": "다음 오퍼레이터 포함\n사일런스, 이프리트, 사리아, 프틸롭시스, 메이어, 마젤란, 도로시, 아스트젠"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "기록 조각이 부족합니다. 증명서 상점 또는 이벤트 기간에 열리는 상점을 통해 교환할 수 있습니다.",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "33.3.0",
-  "resPrefVersion": "36d0d0",
+  "dataVersion": "34.1.0",
+  "resPrefVersion": "37d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS에 해당 스테지의 하위 난이도 작전 환경에서 3★ 평가를 받지 못한 것이 탐지되어, <color=#fe6435>작전 난이도 호환</color> 모드가 자동으로 적용됩니다.\n작전 난이도 호환 모드에서 해당 스테이지를 도전하면 현재 난이도와 하위 난이도의 필요 이성을 <color=#fe6435>동시에 소모</color>하게 되며, 클리어 후 <color=#fe6435>작전 진행도의 동기화</color>뿐만 아니라, 하위 난이도의 보상도 <color=#fe6435>함께 획득</color>하게 됩니다.",
   "mainlineToughDesc": "도전적인 플레이 환경\n3★ 평가의 첫 클리어 보상에는 순오리지늄이 포함됩니다\n또한, 난이도가 높은 추가 스테이지도 포함됩니다",
@@ -1553,5 +1582,73 @@
   "addedRewardDisplayZone": "main_9",
   "isDynIllustStartEnabled": true,
   "isRoguelikeAvgAchieveFuncEnabled": true,
-  "rejectSpCharMission": 1687503600
+  "rejectSpCharMission": 1687503600,
+  "isClassicQCShopEnabled": true,
+  "isClassicPotentialItemFuncEnabled": true,
+  "isClassicGachaPoolFuncEnabled": true,
+  "isVoucherClassicItemDistinguishable": true,
+  "announceWebBusType": "ak_announcement",
+  "subProfessionDamageTypePairs": {
+    "notchar1": 0,
+    "notchar2": 0,
+    "none1": 0,
+    "none2": 0,
+    "pioneer": 1,
+    "charger": 1,
+    "tactician": 1,
+    "bearer": 1,
+    "centurion": 1,
+    "fighter": 1,
+    "artsfghter": 2,
+    "instructor": 1,
+    "lord": 1,
+    "sword": 1,
+    "musha": 1,
+    "fearless": 1,
+    "reaper": 1,
+    "librator": 1,
+    "protector": 1,
+    "guardian": 1,
+    "unyield": 1,
+    "artsprotector": 1,
+    "duelist": 1,
+    "fortress": 1,
+    "fastshot": 1,
+    "closerange": 1,
+    "aoesniper": 1,
+    "longrange": 1,
+    "reaperrange": 1,
+    "siegesniper": 1,
+    "bombarder": 1,
+    "corecaster": 2,
+    "splashcaster": 2,
+    "funnel": 2,
+    "phalanx": 0,
+    "mystic": 2,
+    "chain": 2,
+    "blastcaster": 2,
+    "physician": 3,
+    "ringhealer": 3,
+    "healer": 3,
+    "wandermedic": 3,
+    "slower": 2,
+    "underminer": 2,
+    "bard": 0,
+    "blessing": 2,
+    "summoner": 2,
+    "craftsman": 1,
+    "executor": 1,
+    "pusher": 1,
+    "stalker": 1,
+    "hookmaster": 1,
+    "geek": 1,
+    "merchant": 1,
+    "traper": 1,
+    "dollkeeper": 1,
+    "incantationmedic": 2,
+    "agent": 1,
+    "shotprotector": 1,
+    "chainhealer": 3,
+    "crusher": 1
+  }
 }

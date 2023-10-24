@@ -2070,8 +2070,8 @@
       "index": 2,
       "name": "워크 인 더 더스트",
       "detail": "    켈시의 인생 경험은 감히 파악할 수 없다.\n    우르수스, 빅토리아, 사르곤, 이 땅의 모든 곳에 그녀의 모습이 남아있다.\n    수천 수만 가지 신분이 있음에도, 그녀에겐 꿋꿋하게 고집하는 자신만의 바람이 있다.\n    그녀와 함께하는 사람들도 자신만의 이야기를 써 내려간다.\n    시대는 멈추지 않고, 켈시 또한 꿋꿋하게 앞으로 나아가고 있다.",
-      "trailStartTime": -1,
-      "haveTrail": false,
+      "trailStartTime": 1698735600,
+      "haveTrail": true,
       "customActId": null,
       "customActType": "DEFAULT"
     },
@@ -48213,6 +48213,87 @@
       "relatedFullPotentialItemId": null,
       "themeColor": "cdefe2",
       "fullPotentialItemId": "voucher_full_lava2"
+    },
+    "permanent_sub_2_A_Walk_In_The_Dust": {
+      "retroId": "permanent_sub_2_A_Walk_In_The_Dust",
+      "trailStartTime": 1698735600,
+      "trailRewardList": [
+        {
+          "trailRewardId": "trailReward_sub_2_1",
+          "starCount": 12,
+          "rewardItem": {
+            "id": "char_304_zebra",
+            "count": 1,
+            "type": "CHAR"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sub_2_2",
+          "starCount": 24,
+          "rewardItem": {
+            "id": "voucher_full_zebra",
+            "count": 1,
+            "type": "VOUCHER_FULL_POTENTIAL"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sub_2_3",
+          "starCount": 32,
+          "rewardItem": {
+            "id": "uni_set_icu",
+            "count": 1,
+            "type": "UNI_COLLECTION"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sub_2_4",
+          "starCount": 45,
+          "rewardItem": {
+            "id": "furni_dropS018_needlePhobia_01",
+            "count": 1,
+            "type": "FURN"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sub_2_5",
+          "starCount": 56,
+          "rewardItem": {
+            "id": "avatar_activity_WD",
+            "count": 1,
+            "type": "PLAYER_AVATAR"
+          }
+        }
+      ],
+      "stageList": [
+        "act18d0_01",
+        "act18d0_02",
+        "act18d0_03",
+        "act18d0_04",
+        "act18d0_05",
+        "act18d0_06",
+        "act18d0_07",
+        "act18d0_08",
+        "act18d0_ex01",
+        "act18d0_ex01#f#",
+        "act18d0_ex02",
+        "act18d0_ex02#f#",
+        "act18d0_ex03",
+        "act18d0_ex03#f#",
+        "act18d0_ex04",
+        "act18d0_ex04#f#",
+        "act18d0_ex05",
+        "act18d0_ex05#f#",
+        "act18d0_ex06",
+        "act18d0_ex06#f#",
+        "act18d0_ex07",
+        "act18d0_ex07#f#",
+        "act18d0_ex08",
+        "act18d0_ex08#f#"
+      ],
+      "relatedChar": "char_304_zebra",
+      "relatedFullPotentialItemId": null,
+      "themeColor": "#e7ec62",
+      "fullPotentialItemId": "voucher_full_zebra"
     }
   },
   "ruleData": {
@@ -58760,6 +58841,7 @@
           "techTreeUnlockEventId": "event1_4"
         }
       }
-    }
+    },
+    "TYPE_ACT25SIDE": {}
   }
 }

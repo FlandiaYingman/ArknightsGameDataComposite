@@ -21723,7 +21723,7 @@
     "endTime": -1,
     "startShowTime": 1669834800,
     "endShowTime": -1,
-    "replicateActionId": "",
+    "replicateActionId": null,
     "remakeStartTime": -1,
     "remakeEndTime": -1,
     "storyEntryPicId": "storyEntryPic_act17side",
@@ -31170,6 +31170,882 @@
         "storyInfo": "info/obt/memory/story_sophia_1_1",
         "storyCanEnter": 0,
         "storyTxt": "obt/memory/story_sophia_1_1",
+        "avgTag": "브릿지",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 0,
+        "requiredStages": null
+      }
+    ]
+  },
+  "main_12": {
+    "id": "main_12",
+    "name": "천둥 속의 고요",
+    "entryType": "MAINLINE",
+    "actType": "MAIN_STORY",
+    "startTime": -1,
+    "endTime": -1,
+    "startShowTime": 1698112800,
+    "endShowTime": -1,
+    "replicateActionId": "",
+    "remakeStartTime": -1,
+    "remakeEndTime": -1,
+    "storyEntryPicId": null,
+    "storyPicId": null,
+    "storyMainColor": null,
+    "useCustom": false,
+    "storyCompleteMedalId": null,
+    "rewards": [],
+    "infoUnlockDatas": [
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_st_12-01",
+        "storyGroup": "main_12",
+        "storySort": 116,
+        "storyDependence": "main_12_level_st_12-01",
+        "storyCanShow": 0,
+        "storyCode": "12-1",
+        "storyName": "뜨거운 바람",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_st_12-01",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_st_12-01",
+        "avgTag": "브릿지",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "st_12-01",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-01_beg",
+        "storyGroup": "main_12",
+        "storySort": 117,
+        "storyDependence": "main_12_level_main_12-01_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-2",
+        "storyName": "조용한 기다림",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-01_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-01_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-01",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-01_end",
+        "storyGroup": "main_12",
+        "storySort": 118,
+        "storyDependence": "main_12_level_main_12-01_end",
+        "storyCanShow": 0,
+        "storyCode": "12-2",
+        "storyName": "조용한 기다림",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-01_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-01_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-01",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-02_beg",
+        "storyGroup": "main_12",
+        "storySort": 119,
+        "storyDependence": "main_12_level_main_12-02_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-3",
+        "storyName": "선의의 배신",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-02_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-02_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-02",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-02_end",
+        "storyGroup": "main_12",
+        "storySort": 120,
+        "storyDependence": "main_12_level_main_12-02_end",
+        "storyCanShow": 0,
+        "storyCode": "12-3",
+        "storyName": "선의의 배신",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-02_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-02_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-02",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-03_beg",
+        "storyGroup": "main_12",
+        "storySort": 121,
+        "storyDependence": "main_12_level_main_12-03_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-4",
+        "storyName": "단결은 과욕",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-03_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-03_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-03",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-03_end",
+        "storyGroup": "main_12",
+        "storySort": 122,
+        "storyDependence": "main_12_level_main_12-03_end",
+        "storyCanShow": 0,
+        "storyCode": "12-4",
+        "storyName": "단결은 과욕",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-03_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-03_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-03",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-04_beg",
+        "storyGroup": "main_12",
+        "storySort": 123,
+        "storyDependence": "main_12_level_main_12-04_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-5",
+        "storyName": "취약한 강철",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-04_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-04_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-04",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-05_end",
+        "storyGroup": "main_12",
+        "storySort": 124,
+        "storyDependence": "main_12_level_main_12-05_end",
+        "storyCanShow": 0,
+        "storyCode": "12-6",
+        "storyName": "누구의 전쟁인가",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-05_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-05_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-05",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-06_beg",
+        "storyGroup": "main_12",
+        "storySort": 125,
+        "storyDependence": "main_12_level_main_12-06_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-7",
+        "storyName": "생사 논의",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-06_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-06_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-06",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-07_end",
+        "storyGroup": "main_12",
+        "storySort": 126,
+        "storyDependence": "main_12_level_main_12-07_end",
+        "storyCanShow": 0,
+        "storyCode": "12-8",
+        "storyName": "전장에서의 재회",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-07_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-07_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-07",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-08_beg",
+        "storyGroup": "main_12",
+        "storySort": 127,
+        "storyDependence": "main_12_level_main_12-08_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-9",
+        "storyName": "열정이 넘치던 날들",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-08_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-08_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-08",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-09_end",
+        "storyGroup": "main_12",
+        "storySort": 128,
+        "storyDependence": "main_12_level_main_12-09_end",
+        "storyCanShow": 0,
+        "storyCode": "12-10",
+        "storyName": "분주한 라디오 핫라인",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-09_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-09_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-09",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_st_12-02",
+        "storyGroup": "main_12",
+        "storySort": 129,
+        "storyDependence": "main_12_level_st_12-02",
+        "storyCanShow": 0,
+        "storyCode": "12-11",
+        "storyName": "기다리지 않는 시간",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_st_12-02",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_st_12-02",
+        "avgTag": "브릿지",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "st_12-02",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-10_beg",
+        "storyGroup": "main_12",
+        "storySort": 130,
+        "storyDependence": "main_12_level_main_12-10_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-12",
+        "storyName": "모자를 벗고 경례",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-10_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-10_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-10",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-11_end",
+        "storyGroup": "main_12",
+        "storySort": 131,
+        "storyDependence": "main_12_level_main_12-11_end",
+        "storyCanShow": 0,
+        "storyCode": "12-13",
+        "storyName": "역광의 그림자",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-11_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-11_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-11",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-12_beg",
+        "storyGroup": "main_12",
+        "storySort": 132,
+        "storyDependence": "main_12_level_main_12-12_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-14",
+        "storyName": "귀를 막고",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-12_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-12_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-12",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-12_end",
+        "storyGroup": "main_12",
+        "storySort": 133,
+        "storyDependence": "main_12_level_main_12-12_end",
+        "storyCanShow": 0,
+        "storyCode": "12-14",
+        "storyName": "귀를 막고",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-12_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-12_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-12",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-13_beg",
+        "storyGroup": "main_12",
+        "storySort": 134,
+        "storyDependence": "main_12_level_main_12-13_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-15",
+        "storyName": "만신창이",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-13_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-13_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-13",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-13_end",
+        "storyGroup": "main_12",
+        "storySort": 135,
+        "storyDependence": "main_12_level_main_12-13_end",
+        "storyCanShow": 0,
+        "storyCode": "12-15",
+        "storyName": "만신창이",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-13_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-13_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-13",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-14_beg",
+        "storyGroup": "main_12",
+        "storySort": 136,
+        "storyDependence": "main_12_level_main_12-14_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-16",
+        "storyName": "하늘가의 노을",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-14_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-14_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-14",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-15_end",
+        "storyGroup": "main_12",
+        "storySort": 137,
+        "storyDependence": "main_12_level_main_12-15_end",
+        "storyCanShow": 0,
+        "storyCode": "12-17",
+        "storyName": "버려진 사람",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-15_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-15_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-15",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-16_beg",
+        "storyGroup": "main_12",
+        "storySort": 138,
+        "storyDependence": "main_12_level_main_12-16_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-18",
+        "storyName": "굿 나잇",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-16_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-16_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-16",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-17_end",
+        "storyGroup": "main_12",
+        "storySort": 139,
+        "storyDependence": "main_12_level_main_12-17_end",
+        "storyCanShow": 0,
+        "storyCode": "12-19",
+        "storyName": "도약, 불꽃",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-17_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-17_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-17",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-18_beg",
+        "storyGroup": "main_12",
+        "storySort": 140,
+        "storyDependence": "main_12_level_main_12-18_beg",
+        "storyCanShow": 0,
+        "storyCode": "12-20",
+        "storyName": "진지한 초대",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-18_beg",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-18_beg",
+        "avgTag": "작전 전",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-18",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_main_12-18_end",
+        "storyGroup": "main_12",
+        "storySort": 141,
+        "storyDependence": "main_12_level_main_12-18_end",
+        "storyCanShow": 0,
+        "storyCode": "12-20",
+        "storyName": "진지한 초대",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_main_12-18_end",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_main_12-18_end",
+        "avgTag": "작전 후",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "main_12-18",
+            "minState": 2,
+            "maxState": 3
+          }
+        ]
+      },
+      {
+        "storyReviewType": 0,
+        "storyId": "main_12_level_st_12-03",
+        "storyGroup": "main_12",
+        "storySort": 142,
+        "storyDependence": "main_12_level_st_12-03",
+        "storyCanShow": 0,
+        "storyCode": "12-21",
+        "storyName": "고요한 전장",
+        "storyPic": null,
+        "storyInfo": "info/obt/main/level_st_12-03",
+        "storyCanEnter": 1,
+        "storyTxt": "obt/main/level_st_12-03",
+        "avgTag": "브릿지",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 1,
+        "requiredStages": [
+          {
+            "stageId": "st_12-03",
+            "minState": 1,
+            "maxState": 3
+          }
+        ]
+      }
+    ]
+  },
+  "story_morgan_set_1": {
+    "id": "story_morgan_set_1",
+    "name": "굴러가는 수레바퀴",
+    "entryType": "NONE",
+    "actType": "NONE",
+    "startTime": 0,
+    "endTime": 0,
+    "startShowTime": 0,
+    "endShowTime": 0,
+    "replicateActionId": null,
+    "remakeStartTime": 0,
+    "remakeEndTime": 0,
+    "storyEntryPicId": null,
+    "storyPicId": null,
+    "storyMainColor": null,
+    "useCustom": false,
+    "storyCompleteMedalId": null,
+    "rewards": null,
+    "infoUnlockDatas": [
+      {
+        "storyReviewType": 0,
+        "storyId": "story_morgan_set_1_story_1",
+        "storyGroup": "story_morgan_set_1",
+        "storySort": 0,
+        "storyDependence": null,
+        "storyCanShow": 0,
+        "storyCode": null,
+        "storyName": "굴러가는 수레바퀴",
+        "storyPic": null,
+        "storyInfo": "info/obt/memory/story_morgan_1_1",
+        "storyCanEnter": 0,
+        "storyTxt": "obt/memory/story_morgan_1_1",
+        "avgTag": "브릿지",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 0,
+        "requiredStages": null
+      }
+    ]
+  },
+  "story_cammou_set_1": {
+    "id": "story_cammou_set_1",
+    "name": "인적 없는 공장",
+    "entryType": "NONE",
+    "actType": "NONE",
+    "startTime": 0,
+    "endTime": 0,
+    "startShowTime": 0,
+    "endShowTime": 0,
+    "replicateActionId": null,
+    "remakeStartTime": 0,
+    "remakeEndTime": 0,
+    "storyEntryPicId": null,
+    "storyPicId": null,
+    "storyMainColor": null,
+    "useCustom": false,
+    "storyCompleteMedalId": null,
+    "rewards": null,
+    "infoUnlockDatas": [
+      {
+        "storyReviewType": 0,
+        "storyId": "story_cammou_set_1_story_1",
+        "storyGroup": "story_cammou_set_1",
+        "storySort": 0,
+        "storyDependence": null,
+        "storyCanShow": 0,
+        "storyCode": null,
+        "storyName": "인적 없는 공장",
+        "storyPic": null,
+        "storyInfo": "info/obt/memory/story_cammou_1_1",
+        "storyCanEnter": 0,
+        "storyTxt": "obt/memory/story_cammou_1_1",
+        "avgTag": "브릿지",
+        "unLockType": "STAGE_CLEAR",
+        "costItemType": "NONE",
+        "costItemId": null,
+        "costItemCount": 0,
+        "stageCount": 0,
+        "requiredStages": null
+      }
+    ]
+  },
+  "story_strong_set_2": {
+    "id": "story_strong_set_2",
+    "name": "요주의 인물",
+    "entryType": "NONE",
+    "actType": "NONE",
+    "startTime": 0,
+    "endTime": 0,
+    "startShowTime": 0,
+    "endShowTime": 0,
+    "replicateActionId": null,
+    "remakeStartTime": 0,
+    "remakeEndTime": 0,
+    "storyEntryPicId": null,
+    "storyPicId": null,
+    "storyMainColor": null,
+    "useCustom": false,
+    "storyCompleteMedalId": null,
+    "rewards": null,
+    "infoUnlockDatas": [
+      {
+        "storyReviewType": 0,
+        "storyId": "story_strong_set_2_story_1",
+        "storyGroup": "story_strong_set_2",
+        "storySort": 0,
+        "storyDependence": null,
+        "storyCanShow": 0,
+        "storyCode": null,
+        "storyName": "요주의 인물",
+        "storyPic": null,
+        "storyInfo": "info/obt/memory/story_strong_2_1",
+        "storyCanEnter": 0,
+        "storyTxt": "obt/memory/story_strong_2_1",
         "avgTag": "브릿지",
         "unLockType": "STAGE_CLEAR",
         "costItemType": "NONE",
