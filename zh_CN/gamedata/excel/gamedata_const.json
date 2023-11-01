@@ -978,7 +978,11 @@
     "ro3.greent": "<color=#4ffaa5>{0}</color>",
     "ro3.bluet": "<color=#0085ff>{0}</color>",
     "ro3.bosst": "<color=#ffffff>{0}</color>",
-    "lv.act20sre": "<color=#F7BC44>{0}</color>"
+    "lv.act20sre": "<color=#F7BC44>{0}</color>",
+    "crisisv2.nag": "<color=#ea9818>{0}</color>",
+    "crisisv2.pos": "<color=#16acaa>{0}</color>",
+    "crisisv2.cra": "<color=#d7181c>{0}</color>",
+    "cc.miu": "<color=#8F7156>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1067,7 +1071,7 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597132800,
-  "recruitPoolVersion": 12,
+  "recruitPoolVersion": 13,
   "TSO": 1608192000,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
@@ -1367,7 +1371,7 @@
     "cc.tag.knight": {
       "termId": "cc.tag.knight",
       "termName": "骑士",
-      "description": "包含以下干员\n耀骑士临光、临光、瑕光、鞭刃、焰尾、远牙、灰毫、野鬃、正义骑士号、砾"
+      "description": "包含以下干员\n耀骑士临光、临光、瑕光、鞭刃、焰尾、远牙、灰毫、野鬃、正义骑士号、砾、薇薇安娜"
     },
     "cc.g.karlan": {
       "termId": "cc.g.karlan",
@@ -1432,7 +1436,7 @@
     "cc.bd_B": {
       "termId": "cc.bd_B",
       "termName": "无声共鸣",
-      "description": "可影响<$cc.bd_B_1><@cc.rem>徘徊旋律</></>、<$cc.bd_B_2><@cc.rem>怅惘和声</></>相关技能\n由以下干员的基建技能提供\n黑键"
+      "description": "可影响<$cc.bd_B_1><@cc.rem>徘徊旋律</></>、<$cc.bd_B_2><@cc.rem>怅惘和声</></>、<$cc.bd_B_3><@cc.rem>无词颂歌</></>相关技能\n由以下干员的基建技能提供\n黑键、塑心、深律"
     },
     "cc.bd_a1_a3": {
       "termId": "cc.bd_a1_a3",
@@ -1497,7 +1501,7 @@
     "cc.c.skill": {
       "termId": "cc.c.skill",
       "termName": "部分技能",
-      "description": "包含以下技能\n左膀右臂、S.W.E.E.P.、零食网络、清理协议、替身、必要责任、护卫、小小的领袖、独善其身、笑靥如春"
+      "description": "包含以下技能\n左膀右臂、S.W.E.E.P.、零食网络、清理协议、替身、必要责任、护卫、小小的领袖、独善其身、笑靥如春、金盏花诗会"
     },
     "cc.sk.manu3": {
       "termId": "cc.sk.manu3",
@@ -1603,14 +1607,19 @@
       "termId": "cc.c.room3",
       "termName": "工作场所",
       "description": "包含以下设施\n发电站、制造站、贸易站、人力办公室、会客室、控制中枢、训练室"
+    },
+    "cc.bd_B_3": {
+      "termId": "cc.bd_B_3",
+      "termName": "无词颂歌",
+      "description": "拥有该基建技能的干员\n塑心"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "43.3.0",
-  "resPrefVersion": "43d0d0",
+  "dataVersion": "44.0.0",
+  "resPrefVersion": "44d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS检测到该关卡对应更低作战环境未获得三星评价，将自动开启<color=#fe6435>环境难度兼容</color>；\n环境难度兼容状态下挑战该关卡将<color=#fe6435>同时消耗</color>该环境与更低环境的理智，通关后则<color=#fe6435>会同步作战进度，并同时获得</color>该环境与更低环境的报酬奖励",
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
@@ -1688,6 +1697,11 @@
     "chainhealer": "HEAL",
     "crusher": "PHYSICAL",
     "ritualist": "MAGICAL",
-    "hunter": "PHYSICAL"
-  }
+    "hunter": "PHYSICAL",
+    "primcaster": "MAGICAL",
+    "loopshooter": "PHYSICAL"
+  },
+  "defaultMinContinuousBattleTimes": 1,
+  "defaultMaxContinuousBattleTimes": 6,
+  "continuousActionOpen": true
 }
