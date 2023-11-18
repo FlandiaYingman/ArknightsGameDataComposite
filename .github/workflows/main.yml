@@ -32,6 +32,21 @@ jobs:
 
                 # Relative path under $GITHUB_WORKSPACE to place the repository
                 path: 'ArknightsGameData'
+          - name: Checkout ArknightsGameData_YoStar
+            uses: actions/checkout@v3
+            with:
+                # Repository name with owner. For example, actions/checkout
+                # Default: ${{ github.repository }}
+                repository: 'Kengxxiao/ArknightsGameData_YoStar'
+
+                # Relative path under $GITHUB_WORKSPACE to place the repository
+
+                # Number of commits to fetch. 0 indicates all history for all branches and tags.
+                # Default: 1
+                fetch-depth: 0
+
+                # Relative path under $GITHUB_WORKSPACE to place the repository
+                path: 'ArknightsGameData_YoStar'
           - name: Checkout This
             uses: actions/checkout@v3
             with:
@@ -53,6 +68,13 @@ jobs:
                 tracking-files: |
                     */gamedata/excel/*.json
                 origin: ArknightsGameData
+                dest: ArknightsGameDataComposite
+          - name: Composite Intl
+            uses: FlandiaYingman/arknights-game-data-composite-action@v1.0
+            with: 
+                tracking-files: |
+                    */gamedata/excel/*.json
+                origin: ArknightsGameData_YoStar
                 dest: ArknightsGameDataComposite
           - name: Push This
             uses: ad-m/github-push-action@master
