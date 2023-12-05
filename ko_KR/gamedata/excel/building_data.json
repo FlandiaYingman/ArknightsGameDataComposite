@@ -10804,6 +10804,34 @@
           "buffData": []
         }
       ]
+    },
+    "char_4093_frston": {
+      "charId": "char_4093_frston",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "power_rec_spd[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "power_rec_spd_P[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 30
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -16470,6 +16498,18 @@
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
       "description": "응접실에 배치 시, 응접실에서 자신만 업무 중이고 연속으로 <@cc.kw>16</> 이상의 컨디션을 소모했을 때, 다음에 <@cc.kw>반드시</> <@cc.kw>라인 랩</> 단서 획득"
+    },
+    "power_rec_spd_P[000]": {
+      "buffId": "power_rec_spd_P[000]",
+      "buffName": "'유쾌한 대화'",
+      "buffIcon": "power",
+      "skillIcon": "bskill_pow_spd_P",
+      "sortId": 2000,
+      "buffColor": "#8fc31f",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "POWER",
+      "description": "발전소에 배치 시, <@cc.kw>켈시</>가 제어 센터에 배치되어 있으면 드론 회복 속도 <@cc.vup>+5%</>"
     }
   },
   "customData": {
