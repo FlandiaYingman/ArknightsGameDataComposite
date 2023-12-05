@@ -10804,6 +10804,34 @@
           "buffData": []
         }
       ]
+    },
+    "char_4093_frston": {
+      "charId": "char_4093_frston",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "power_rec_spd[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "power_rec_spd_P[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 30
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -16470,6 +16498,18 @@
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
       "description": "応接室配置時、自身だけが仕事中の状態にある場合、連続で<@cc.kw>16</>を超える体力を消費した後、次で<@cc.kw>必ず</><@cc.kw>ライン生命</>の手がかりを入手できる"
+    },
+    "power_rec_spd_P[000]": {
+      "buffId": "power_rec_spd_P[000]",
+      "buffName": "「愉快な対談」",
+      "buffIcon": "power",
+      "skillIcon": "bskill_pow_spd_P",
+      "sortId": 2000,
+      "buffColor": "#8fc31f",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "POWER",
+      "description": "発電所配置時、<@cc.kw>ケルシー</>が制御中枢に配置されている場合、ドローンの回復速度<@cc.vup>+5%</>"
     }
   },
   "customData": {
