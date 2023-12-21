@@ -8,7 +8,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Gift",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "A button badge given by Dossoles to foreign tourists entering the city. The attentive may notice that so long as you go shopping with this on, everything grows a little more expensive.",
       "price": 15,
       "specialObtainApproach": "Obtainable before beginning DH-TR-01",
@@ -24,8 +24,8 @@
           {
             "key": "global_initial_cost_add",
             "selector": {
-              "professionMask": 0,
-              "buildableMask": 0,
+              "professionMask": "NONE",
+              "buildableMask": "NONE",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -37,7 +37,8 @@
             "blackboard": [
               {
                 "key": "value",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -53,7 +54,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "A civilian product by the large Victorian industrial firm Box (though presumably, some similar Columbian business co-opted it as a figurehead a long while ago).",
       "price": 15,
       "specialObtainApproach": null,
@@ -70,7 +71,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -82,15 +83,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "ep_recovery"
+                "valueStr": "ep_recovery",
+                "value": 0
               },
               {
                 "key": "ep_recovery_per_sec",
-                "value": 25
+                "value": 25,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -106,7 +110,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "A new model of civilian product by the large Victorian industrial firm Box (though for being a Victorian corporation, its headquarters are based in Columbia).",
       "price": 30,
       "specialObtainApproach": null,
@@ -123,7 +127,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -135,15 +139,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "ep_recovery"
+                "valueStr": "ep_recovery",
+                "value": 0
               },
               {
                 "key": "ep_recovery_per_sec",
-                "value": 50
+                "value": 50,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -159,7 +166,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "[Honors Showcase] Reward",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Reliable, durable goods by the Columbian heavy-duty manufacturers Dogruss. A brand product you'll find even in small-scale nomadic settlements out in Sami.",
       "price": 15,
       "specialObtainApproach": "[Honors Showcase] Reward",
@@ -176,7 +183,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -188,15 +195,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "ep_recovery"
+                "valueStr": "ep_recovery",
+                "value": 0
               },
               {
                 "key": "ep_recovery_per_sec",
-                "value": 25
+                "value": 25,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -212,7 +222,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "Reliable, durable goods by the Columbian heavy-duty manufacturers Dogruss. Their industrial version's even better, but watch out—it's highly toxic!",
       "price": 30,
       "specialObtainApproach": null,
@@ -229,7 +239,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -241,15 +251,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "ep_recovery"
+                "valueStr": "ep_recovery",
+                "value": 0
               },
               {
                 "key": "ep_recovery_per_sec",
-                "value": 50
+                "value": 50,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -265,7 +278,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "A cheap distilled liquor brand found anywhere in modern Bolívar, strong-flavored, a wide favorite of the country's poor folk.",
       "price": 15,
       "specialObtainApproach": null,
@@ -282,7 +295,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -294,15 +307,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_attack_speed_up"
+                "valueStr": "drown_attack_speed_up",
+                "value": 0
               },
               {
                 "key": "attack_speed",
-                "value": -0.3
+                "value": -0.3,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -318,7 +334,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "A new product created by Destilería Chico for the high-end market, but Bolívar's rich would rather die than drink from the same brand as the poor, so sales have been poor to say the least.",
       "price": 30,
       "specialObtainApproach": null,
@@ -335,7 +351,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -347,15 +363,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_attack_speed_up"
-              },
-              {
-                "key": "attack_speed",
+                "valueStr": "drown_attack_speed_up",
                 "value": 0
               },
               {
+                "key": "attack_speed",
+                "value": 0,
+                "valueStr": null
+              },
+              {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -371,7 +390,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Anton is a high-quality liquor brand familiar to most in Bolívar, the company well-known for their dependence on their relationship with the Singas government.",
       "price": 15,
       "specialObtainApproach": null,
@@ -388,7 +407,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -400,15 +419,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_attack_speed_up"
+                "valueStr": "drown_attack_speed_up",
+                "value": 0
               },
               {
                 "key": "attack_speed",
-                "value": -0.3
+                "value": -0.3,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -424,7 +446,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "A bestseller from Destilería Anton, made with excellent ingredients and top-notch craftsmanship. For a gift to your guests, there's no other choice!",
       "price": 30,
       "specialObtainApproach": null,
@@ -441,7 +463,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -453,15 +475,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_attack_speed_up"
-              },
-              {
-                "key": "attack_speed",
+                "valueStr": "drown_attack_speed_up",
                 "value": 0
               },
               {
+                "key": "attack_speed",
+                "value": 0,
+                "valueStr": null
+              },
+              {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -477,7 +502,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "An imitation brand of royal liqueur. Its proprietor claims to be descended from Gauls, but everyone knows he was just a coalition government army grunt who fled.",
       "price": 15,
       "specialObtainApproach": null,
@@ -494,7 +519,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -506,15 +531,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_atk_up"
+                "valueStr": "drown_atk_up",
+                "value": 0
               },
               {
                 "key": "atk",
-                "value": 0.2
+                "value": 0.2,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -530,7 +558,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "The proprietor claims he discovered this Gaul liqueur's name and brewing technique from Gaul's own history books. Whether it's the truth or not, the brand has undeniably found a cachet with the upper classes.",
       "price": 30,
       "specialObtainApproach": null,
@@ -547,7 +575,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -559,15 +587,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_atk_up"
+                "valueStr": "drown_atk_up",
+                "value": 0
               },
               {
                 "key": "atk",
-                "value": 0.4
+                "value": 0.4,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -583,7 +614,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "A well-known Leithanian sparkling wine manufacturer. A common sight throughout Leithanien, this wine initially got a cold reception in Dossoles, but nowadays enjoys wide acceptance.",
       "price": 15,
       "specialObtainApproach": null,
@@ -600,7 +631,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -612,15 +643,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_atk_up"
+                "valueStr": "drown_atk_up",
+                "value": 0
               },
               {
                 "key": "atk",
-                "value": 0.2
+                "value": 0.2,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -636,7 +670,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "The inspiration for this special sparkling wine seems to have come from past vestiges of Iberia left in Bolívar, its flavor often described as remarkably similar to the Regal Champagne.",
       "price": 30,
       "specialObtainApproach": null,
@@ -653,7 +687,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -665,15 +699,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_atk_up"
+                "valueStr": "drown_atk_up",
+                "value": 0
               },
               {
                 "key": "atk",
-                "value": 0.4
+                "value": 0.4,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -689,7 +726,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "A brand of beer created by the Dossoles government themselves. Between it and every kind of high-class liquor, when you're in a city full of party fever, beer's always been the eternal winner with the people.",
       "price": 15,
       "specialObtainApproach": null,
@@ -706,7 +743,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -718,15 +755,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_def_up"
+                "valueStr": "drown_def_up",
+                "value": 0
               },
               {
                 "key": "def",
-                "value": 0.2
+                "value": 0.2,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -742,7 +782,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "A limited line released yearly to accompany the Dossoles Warrior Champion. Only up for sale while the championship's on, but nothing at all separates its flavor from the normal kind.",
       "price": 30,
       "specialObtainApproach": null,
@@ -759,7 +799,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -771,15 +811,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_def_up"
+                "valueStr": "drown_def_up",
+                "value": 0
               },
               {
                 "key": "def",
-                "value": 0.4
+                "value": 0.4,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -795,7 +838,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "A brand of craft beer that's a relative standout from all the rest. Feedos positions themselves as just a little higher-grade stuff than normal beer, and needless to say, it's a direction that's given them a solid foothold.",
       "price": 15,
       "specialObtainApproach": null,
@@ -812,7 +855,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -824,15 +867,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_def_up"
+                "valueStr": "drown_def_up",
+                "value": 0
               },
               {
                 "key": "def",
-                "value": 0.2
+                "value": 0.2,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -848,7 +894,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "One of Feedos' many lines of beer and one that's done quite well for itself, praised by draft-lovers as 'the fresh fruit of all beer.'",
       "price": 30,
       "specialObtainApproach": null,
@@ -865,7 +911,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -877,15 +923,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_def_up"
+                "valueStr": "drown_def_up",
+                "value": 0
               },
               {
                 "key": "def",
-                "value": 0.4
+                "value": 0.4,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -901,7 +950,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Why is this celebrated traveling fast food shop called Bandidos? The main reason is... the founder used to actually be a bandit.",
       "price": 15,
       "specialObtainApproach": null,
@@ -918,7 +967,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -930,7 +979,8 @@
             "blackboard": [
               {
                 "key": "atk",
-                "value": 100
+                "value": 100,
+                "valueStr": null
               }
             ]
           }
@@ -946,7 +996,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "Repeatedly name-dropped in Columbian tourist magazines, a must-have special meal at Bandidos, limited in supply and first-come, first-served.",
       "price": 30,
       "specialObtainApproach": null,
@@ -963,7 +1013,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -975,7 +1025,8 @@
             "blackboard": [
               {
                 "key": "atk",
-                "value": 200
+                "value": 200,
+                "valueStr": null
               }
             ]
           }
@@ -991,7 +1042,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "The owner was once an army chef for the True Bolívarians, and post-dischargement, came to Dossoles to start up his venture. This restaurant has no fixed outlet—these snack stands scatter all across the urban planning of Dossoles. If you want to eat there, it'll have to be fated to be.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1008,7 +1059,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1020,7 +1071,8 @@
             "blackboard": [
               {
                 "key": "atk",
-                "value": 100
+                "value": 100,
+                "valueStr": null
               }
             ]
           }
@@ -1036,7 +1088,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "Sombrero Dude's investor is a firm from Columbia called the 'Maylander Association,' and rumors say quite a few of the cooks are Columbian intelligence agents.",
       "price": 30,
       "specialObtainApproach": null,
@@ -1053,7 +1105,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1065,7 +1117,8 @@
             "blackboard": [
               {
                 "key": "atk",
-                "value": 200
+                "value": 200,
+                "valueStr": null
               }
             ]
           }
@@ -1081,7 +1134,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "A brand local to Dossoles. A worker's most frequent food supply. Rapidly filling when paired with boiled water, but fairly void of flavor.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1098,7 +1151,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1110,7 +1163,8 @@
             "blackboard": [
               {
                 "key": "def",
-                "value": 100
+                "value": 100,
+                "valueStr": null
               }
             ]
           }
@@ -1126,7 +1180,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "In order to contend against Tio Marco releasing his own products, Uncle Marco added even more industrial seasonings, with a price premium to match. This, surprisingly, resulted in nobody really buying it.",
       "price": 30,
       "specialObtainApproach": null,
@@ -1143,7 +1197,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1155,7 +1209,8 @@
             "blackboard": [
               {
                 "key": "def",
-                "value": 200
+                "value": 200,
+                "valueStr": null
               }
             ]
           }
@@ -1171,7 +1226,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "An imitation brand of Uncle Marco, with all sorts of additional industrial seasonings considerably improving the flavor, and thus gradually overtaking Uncle Marco himself in popularity.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1188,7 +1243,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1200,7 +1255,8 @@
             "blackboard": [
               {
                 "key": "def",
-                "value": 100
+                "value": 100,
+                "valueStr": null
               }
             ]
           }
@@ -1216,7 +1272,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "A product released by Tio Marco to further seize Uncle Marco's market, but owing to a lack of proper market research, it ultimately fell flat and nobody blinked twice.",
       "price": 30,
       "specialObtainApproach": null,
@@ -1233,7 +1289,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1245,7 +1301,8 @@
             "blackboard": [
               {
                 "key": "def",
-                "value": 200
+                "value": 200,
+                "valueStr": null
               }
             ]
           }
@@ -1261,7 +1318,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "The most classic and most popular of all mixed drinks in Dossoles, a common sight anywhere, recommended to everyone who's just arrived at this city.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1277,8 +1334,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 64,
-              "buildableMask": 3,
+              "professionMask": "SPECIAL",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1290,7 +1347,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1306,7 +1364,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "This cocktail is touted by the meddlesome as a fine representative of the sensuality and cute factor of Dossoles. The most frequent sight in any gathering of young people.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1322,8 +1380,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 4,
-              "buildableMask": 3,
+              "professionMask": "TANK",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1335,7 +1393,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1351,7 +1410,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "A mixed drink of thoroughly refined appearance, and a frequent guest at all sorts of dinner party. They say a Leithanian noble gave it its name.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1367,8 +1426,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 1,
-              "buildableMask": 3,
+              "professionMask": "WARRIOR",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1380,7 +1439,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1396,7 +1456,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Also known as 'the Dossoles Bloody Mary,' as the name entails, it's even more popular here than the Bloody Mary itself.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1412,8 +1472,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 512,
-              "buildableMask": 3,
+              "professionMask": "PIONEER",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1425,7 +1485,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1441,7 +1502,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Tumbling layers of red and yellow. Just as brightly vivid as the name Dossoles itself. Ms. Candela's most favored mixed drink.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1457,8 +1518,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 8,
-              "buildableMask": 3,
+              "professionMask": "MEDIC",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1470,7 +1531,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1486,7 +1548,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Want something for your sweet tooth? Then this is the one. A cocktail blended with the flavor of honey, sour yet sweet, crisp and refreshing.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1502,8 +1564,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 32,
-              "buildableMask": 2,
+              "professionMask": "CASTER",
+              "buildableMask": "RANGED",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1515,7 +1577,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1531,7 +1594,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Inspired by 'To Kill the Mockingman,' a novel that once caused a stir in Columbia. If you've never read it, do it. C'mon.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1547,8 +1610,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 2,
-              "buildableMask": 3,
+              "professionMask": "SNIPER",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1560,7 +1623,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1576,7 +1640,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "It's not common to see by any means, but if you and your friend want to make a bet, tell the bartender this is the cocktail you want, and they'll give you a very approving look.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1592,8 +1656,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 16,
-              "buildableMask": 3,
+              "professionMask": "SUPPORT",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1605,7 +1669,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1621,7 +1686,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "[Honors Showcase] Reward",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "'We'll take you to harmless waters to take risks like never before!' That's the tagline Scharzhof uses. It has to be said, for the people who actually have an interest in but flinch at the underwater, there's some draw in it.",
       "price": 15,
       "specialObtainApproach": "[Honors Showcase] Reward",
@@ -1637,8 +1702,8 @@
           {
             "key": "global_token_cnt_add",
             "selector": {
-              "professionMask": 256,
-              "buildableMask": 3,
+              "professionMask": "TRAP",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1650,11 +1715,13 @@
             "blackboard": [
               {
                 "key": "char",
-                "valueStr": "trap_046_oxygen"
+                "valueStr": "trap_046_oxygen",
+                "value": 0
               },
               {
                 "key": "value",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -1670,7 +1737,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "With its help, you'll be all set to perfectly experience the 'seabed landscapes' of Dossoles. Of course, these landscapes are only imaginations of a sort, the city planners' picturings of the sea informed by left-behind documents from Iberia.",
       "price": 30,
       "specialObtainApproach": null,
@@ -1686,8 +1753,8 @@
           {
             "key": "global_token_cnt_add",
             "selector": {
-              "professionMask": 256,
-              "buildableMask": 3,
+              "professionMask": "TRAP",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1699,11 +1766,13 @@
             "blackboard": [
               {
                 "key": "char",
-                "valueStr": "trap_046_oxygen"
+                "valueStr": "trap_046_oxygen",
+                "value": 0
               },
               {
                 "key": "value",
-                "value": 2
+                "value": 2,
+                "valueStr": null
               }
             ]
           }
@@ -1719,7 +1788,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 3,
+      "rarity": "HIGH",
       "desc": "It looks to be an exceptionally specialist coating device, theoretically able to prevent anyone from being eroded by the sea for a whole month, but given that nobody would ever even volunteer to do so, a show of technology has instead been relegated to the display window.",
       "price": 45,
       "specialObtainApproach": null,
@@ -1735,8 +1804,8 @@
           {
             "key": "global_token_cnt_add",
             "selector": {
-              "professionMask": 256,
-              "buildableMask": 3,
+              "professionMask": "TRAP",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1748,11 +1817,13 @@
             "blackboard": [
               {
                 "key": "char",
-                "valueStr": "trap_046_oxygen"
+                "valueStr": "trap_046_oxygen",
+                "value": 0
               },
               {
                 "key": "value",
-                "value": 3
+                "value": 3,
+                "valueStr": null
               }
             ]
           }
@@ -1768,7 +1839,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Coffee Plain, a household name native to Dossoles, is devoted to giving its customers great flavor variety and high quality in their coffee. They also provide all kinds of powers with apex weaponry.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1784,8 +1855,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 8,
-              "buildableMask": 3,
+              "professionMask": "MEDIC",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1797,7 +1868,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -1813,7 +1885,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Coffee Plain, a household name native to Dossoles, is devoted to giving its customers great flavor variety and high quality in their coffee. They also provide all kinds of powers with apex weaponry.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1829,8 +1901,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 64,
-              "buildableMask": 3,
+              "professionMask": "SPECIAL",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1842,7 +1914,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -1858,7 +1931,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Coffee Plain, a household name native to Dossoles, is devoted to giving its customers great flavor variety and high quality in their coffee. They also provide all kinds of powers with apex weaponry.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1874,8 +1947,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 4,
-              "buildableMask": 3,
+              "professionMask": "TANK",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1887,7 +1960,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -1903,7 +1977,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Coffee Plain, a household name native to Dossoles, is devoted to giving its customers great flavor variety and high quality in their coffee. They also provide all kinds of powers with apex weaponry.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1919,8 +1993,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 1,
-              "buildableMask": 3,
+              "professionMask": "WARRIOR",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1932,7 +2006,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -1948,7 +2023,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Coffee Plain, a household name native to Dossoles, is devoted to giving its customers great flavor variety and high quality in their coffee. They also provide all kinds of powers with apex weaponry.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1964,8 +2039,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 512,
-              "buildableMask": 3,
+              "professionMask": "PIONEER",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1977,7 +2052,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -1993,7 +2069,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Coffee Plain, a household name native to Dossoles, is devoted to giving its customers great flavor variety and high quality in their coffee. They also provide all kinds of powers with apex weaponry.",
       "price": 15,
       "specialObtainApproach": null,
@@ -2009,8 +2085,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 32,
-              "buildableMask": 3,
+              "professionMask": "CASTER",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2022,7 +2098,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -2038,7 +2115,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Coffee Plain, a household name native to Dossoles, is devoted to giving its customers great flavor variety and high quality in their coffee. They also provide all kinds of powers with apex weaponry.",
       "price": 15,
       "specialObtainApproach": null,
@@ -2054,8 +2131,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 2,
-              "buildableMask": 3,
+              "professionMask": "SNIPER",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2067,7 +2144,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -2083,7 +2161,7 @@
       "itemUsage": "Stickers for products that Ernesto tasked Ch'en with collecting in the city, providing her different custom weaponry services for each kind. Ernesto will also take surplus ones, which he'll offer to other collectors for cheap.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "Coffee Plain, a household name native to Dossoles, is devoted to giving its customers great flavor variety and high quality in their coffee. They also provide all kinds of powers with apex weaponry.",
       "price": 15,
       "specialObtainApproach": null,
@@ -2099,8 +2177,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 16,
-              "buildableMask": 3,
+              "professionMask": "SUPPORT",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2112,7 +2190,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -2128,7 +2207,7 @@
       "itemUsage": "Stickers difficult for Ernesto to do anything with, whether for their lower value, or the difficulty in selling them. But at least he's willing to pay out of his own pocket for them.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 0,
+      "rarity": "NONE",
       "desc": "Valid at all great casinos in Dossoles, one token out of a vast amount issued. For swindling tourists who don't know the truth—that's probably a safe guess...",
       "price": 9,
       "specialObtainApproach": null,
@@ -2148,8 +2227,8 @@
           {
             "key": "",
             "selector": {
-              "professionMask": 0,
-              "buildableMask": 0,
+              "professionMask": "NONE",
+              "buildableMask": "NONE",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2172,7 +2251,7 @@
       "itemUsage": "Stickers difficult for Ernesto to do anything with, whether for their lower value, or the difficulty in selling them. But at least he's willing to pay out of his own pocket for them.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 0,
+      "rarity": "NONE",
       "desc": "An alloyed coin issued in Dossoles' early years. A whole run of currency was misprinted thanks to an error on the mint's part, but it's gained quite the adulation in collectors' hands.",
       "price": 12,
       "specialObtainApproach": null,
@@ -2192,8 +2271,8 @@
           {
             "key": "",
             "selector": {
-              "professionMask": 0,
-              "buildableMask": 0,
+              "professionMask": "NONE",
+              "buildableMask": "NONE",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2216,7 +2295,7 @@
       "itemUsage": "Stickers difficult for Ernesto to do anything with, whether for their lower value, or the difficulty in selling them. But at least he's willing to pay out of his own pocket for them.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop",
-      "rarity": 0,
+      "rarity": "NONE",
       "desc": "Who's won the jackpot? Me, of course! It's Dossoles' biggest ever first prize in any lottery, so come on, try your luck!",
       "price": 18,
       "specialObtainApproach": null,
@@ -2236,8 +2315,8 @@
           {
             "key": "",
             "selector": {
-              "professionMask": 0,
-              "buildableMask": 0,
+              "professionMask": "NONE",
+              "buildableMask": "NONE",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2260,7 +2339,7 @@
       "itemUsage": "Stickers difficult for Ernesto to do anything with, whether for their lower value, or the difficulty in selling them. But at least he's willing to pay out of his own pocket for them.",
       "itemDesc": "People who collect these don't rank that high among the pantheon of collectors, really. Never underestimate just how bored people can get.",
       "itemObtainApproach": "Event Stage Drop, [Honors Showcase] Reward",
-      "rarity": 3,
+      "rarity": "HIGH",
       "desc": "Of all the outstanding coffee that Court Emeraldia tailors to the upper-class clientele, this is their highest grade. Precious beyond simple price, only those with the most authority are qualified to acquire it.",
       "price": 100,
       "specialObtainApproach": "[Honors Showcase] Reward",
@@ -2276,8 +2355,8 @@
           {
             "key": "",
             "selector": {
-              "professionMask": 0,
-              "buildableMask": 0,
+              "professionMask": "NONE",
+              "buildableMask": "NONE",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,

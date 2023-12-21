@@ -2807,6 +2807,84 @@
       "zoneNameThird": null,
       "lockedText": null,
       "canPreview": false
+    },
+    "act26side_zone1": {
+      "zoneID": "act26side_zone1",
+      "zoneIndex": 0,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "Sanctilaminium Ambrosii",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act26side_zone2": {
+      "zoneID": "act26side_zone2",
+      "zoneIndex": 1,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "Sacrarium Derelictum",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act18sre_zone1": {
+      "zoneID": "act18sre_zone1",
+      "zoneIndex": 0,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "Afterglow Hall",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act18sre_zone2": {
+      "zoneID": "act18sre_zone2",
+      "zoneIndex": 1,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "Back Alleys",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "permanent_sidestory_14_zone1": {
+      "zoneID": "permanent_sidestory_14_zone1",
+      "zoneIndex": 0,
+      "type": "SIDESTORY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "Afterglow Hall",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "permanent_sidestory_14_zone2": {
+      "zoneID": "permanent_sidestory_14_zone2",
+      "zoneIndex": 1,
+      "type": "SIDESTORY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "Back Alleys",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
     }
   },
   "weeklyAdditionInfo": {
@@ -3383,6 +3461,22 @@
     "act17sre_zone5": {
       "startTs": 1701190800,
       "endTs": 1702033199
+    },
+    "act26side_zone1": {
+      "startTs": 1703160000,
+      "endTs": 1704365999
+    },
+    "act26side_zone2": {
+      "startTs": 1703804400,
+      "endTs": 1704365999
+    },
+    "act18sre_zone1": {
+      "startTs": 1704474000,
+      "endTs": 1705316399
+    },
+    "act18sre_zone2": {
+      "startTs": 1704474000,
+      "endTs": 1705316399
     }
   },
   "mainlineAdditionInfo": {
@@ -3398,7 +3492,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3416,7 +3510,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3434,7 +3528,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3452,7 +3546,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3470,7 +3564,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3488,7 +3582,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3506,7 +3600,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3524,7 +3618,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3542,7 +3636,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3560,8 +3654,8 @@
       "recapPreStageId": "st_08-06",
       "zoneOpenTime": -1,
       "diffGroup": [
-        1,
-        2
+        "EASY",
+        "NORMAL"
       ],
       "buttonName": "Recap",
       "buttonStyle": "RECAP",
@@ -3579,9 +3673,9 @@
       "recapPreStageId": "st_09-04",
       "zoneOpenTime": 1666180800,
       "diffGroup": [
-        1,
-        2,
-        4
+        "EASY",
+        "NORMAL",
+        "TOUGH"
       ],
       "buttonName": "Watch Prelude",
       "buttonStyle": "REPLAY",
@@ -3602,9 +3696,9 @@
       "spoilAlert": false,
       "zoneOpenTime": 1682614800,
       "diffGroup": [
-        1,
-        2,
-        4
+        "EASY",
+        "NORMAL",
+        "TOUGH"
       ]
     },
     "main_12": {
@@ -3622,9 +3716,9 @@
       "spoilAlert": false,
       "zoneOpenTime": 1698148800,
       "diffGroup": [
-        1,
-        2,
-        4
+        "EASY",
+        "NORMAL",
+        "TOUGH"
       ]
     }
   },
@@ -3640,7 +3734,7 @@
           "rewards": [
             {
               "bindStageId": "easy_10-01",
-              "stageDiff": 1,
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_10_note_1",
               "textPath": "",
               "textDesc": "",
@@ -3656,11 +3750,11 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 1
+              "stageDiff1": "EASY"
             },
             {
               "bindStageId": "main_10-01",
-              "stageDiff": 2,
+              "stageDiff": "NORMAL",
               "picRes": "pic_2_main_10_note_1",
               "textPath": "Obt/Record/main_10/text_main_10_note_1",
               "textDesc": "",
@@ -3676,11 +3770,11 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 2
+              "stageDiff1": "NORMAL"
             },
             {
               "bindStageId": "tough_10-01",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_1",
               "textPath": null,
               "textDesc": "A page from a poetry anthology in Taran.\nThe poem will be all too familiar to most Victorians, as it is often required reading at secondary school.",
@@ -3696,7 +3790,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 3
+              "stageDiff1": "TOUGH"
             }
           ],
           "nodeTitle1": null,
@@ -3710,7 +3804,7 @@
           "rewards": [
             {
               "bindStageId": "easy_10-06",
-              "stageDiff": 1,
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_10_note_2",
               "textPath": "",
               "textDesc": "",
@@ -3726,11 +3820,11 @@
                   "type": "GOLD"
                 }
               ],
-              "stageDiff1": 1
+              "stageDiff1": "EASY"
             },
             {
               "bindStageId": "main_10-06",
-              "stageDiff": 2,
+              "stageDiff": "NORMAL",
               "picRes": "pic_2_main_10_note_2",
               "textPath": "Obt/Record/main_10/text_main_10_note_2",
               "textDesc": "",
@@ -3746,11 +3840,11 @@
                   "type": "GOLD"
                 }
               ],
-              "stageDiff1": 2
+              "stageDiff1": "NORMAL"
             },
             {
               "bindStageId": "tough_10-06",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_2",
               "textPath": null,
               "textDesc": "A written invitation from Count Philip.\nPossibly due to changes in the date and venue, this invitation is void by now.",
@@ -3766,7 +3860,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 3
+              "stageDiff1": "TOUGH"
             }
           ],
           "nodeTitle1": null,
@@ -3780,7 +3874,7 @@
           "rewards": [
             {
               "bindStageId": "easy_10-10",
-              "stageDiff": 1,
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_10_note_3",
               "textPath": "",
               "textDesc": "",
@@ -3801,11 +3895,11 @@
                   "type": "GOLD"
                 }
               ],
-              "stageDiff1": 1
+              "stageDiff1": "EASY"
             },
             {
               "bindStageId": "main_10-10",
-              "stageDiff": 2,
+              "stageDiff": "NORMAL",
               "picRes": "pic_2_main_10_note_3",
               "textPath": "Obt/Record/main_10/text_main_10_note_3",
               "textDesc": "",
@@ -3826,11 +3920,11 @@
                   "type": "GOLD"
                 }
               ],
-              "stageDiff1": 2
+              "stageDiff1": "NORMAL"
             },
             {
               "bindStageId": "tough_10-10",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_3",
               "textPath": null,
               "textDesc": "A transport permit acquired by Heidi through due means.\nIt comes with a full page of restrictive terms.",
@@ -3846,7 +3940,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 3
+              "stageDiff1": "TOUGH"
             }
           ],
           "nodeTitle1": null,
@@ -3860,7 +3954,7 @@
           "rewards": [
             {
               "bindStageId": "easy_10-13",
-              "stageDiff": 1,
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_10_note_4",
               "textPath": "",
               "textDesc": "",
@@ -3881,11 +3975,11 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 1
+              "stageDiff1": "EASY"
             },
             {
               "bindStageId": "main_10-13",
-              "stageDiff": 2,
+              "stageDiff": "NORMAL",
               "picRes": "pic_2_main_10_note_4",
               "textPath": "Obt/Record/main_10/text_main_10_note_4",
               "textDesc": "",
@@ -3906,11 +4000,11 @@
                   "type": "GOLD"
                 }
               ],
-              "stageDiff1": 2
+              "stageDiff1": "NORMAL"
             },
             {
               "bindStageId": "tough_10-13",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_4",
               "textPath": null,
               "textDesc": "A photo of a soldier, 'Bill.'\nSeeing his picture now prompts the Self-Salvation Corps to look away with mixed feelings.",
@@ -3931,7 +4025,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 3
+              "stageDiff1": "TOUGH"
             }
           ],
           "nodeTitle1": null,
@@ -3945,7 +4039,7 @@
           "rewards": [
             {
               "bindStageId": "easy_10-15",
-              "stageDiff": 1,
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_10_note_5",
               "textPath": "",
               "textDesc": "",
@@ -3966,11 +4060,11 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 1
+              "stageDiff1": "EASY"
             },
             {
               "bindStageId": "main_10-15",
-              "stageDiff": 2,
+              "stageDiff": "NORMAL",
               "picRes": "pic_2_main_10_note_5",
               "textPath": "Obt/Record/main_10/text_main_10_note_5",
               "textDesc": "",
@@ -3991,11 +4085,11 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 2
+              "stageDiff1": "NORMAL"
             },
             {
               "bindStageId": "tough_10-15",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_5",
               "textPath": null,
               "textDesc": "A black feather.\nThe black fowlbeasts have flown for the storm.",
@@ -4016,7 +4110,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 3
+              "stageDiff1": "TOUGH"
             }
           ],
           "nodeTitle1": null,
@@ -4030,7 +4124,7 @@
           "rewards": [
             {
               "bindStageId": "hard_10-01",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_6",
               "textPath": "Obt/Record/main_10/text_main_10_note_6",
               "textDesc": null,
@@ -4046,7 +4140,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 5
+              "stageDiff1": "HARD"
             }
           ],
           "nodeTitle1": null,
@@ -4060,7 +4154,7 @@
           "rewards": [
             {
               "bindStageId": "hard_10-02",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_7",
               "textPath": "Obt/Record/main_10/text_main_10_note_7",
               "textDesc": null,
@@ -4076,7 +4170,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 5
+              "stageDiff1": "HARD"
             }
           ],
           "nodeTitle1": null,
@@ -4090,7 +4184,7 @@
           "rewards": [
             {
               "bindStageId": "hard_10-03",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_8",
               "textPath": "Obt/Record/main_10/text_main_10_note_8",
               "textDesc": null,
@@ -4111,7 +4205,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 5
+              "stageDiff1": "HARD"
             }
           ],
           "nodeTitle1": null,
@@ -4142,8 +4236,8 @@
           "rewards": [
             {
               "bindStageId": "easy_11-01",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_11_note_1",
               "textPath": "",
               "textDesc": "",
@@ -4162,8 +4256,8 @@
             },
             {
               "bindStageId": "main_11-01",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_11/text_main_11_note_1",
               "textDesc": "",
@@ -4182,8 +4276,8 @@
             },
             {
               "bindStageId": "tough_11-01",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_1",
               "textPath": null,
               "textDesc": "A lookout tower standing tall in front of the Palace.\nBeing from several centuries ago, the tower has long since crumbled, leaving only a sketch to provide posterity a notion of what it originally looked like.",
@@ -4212,8 +4306,8 @@
           "rewards": [
             {
               "bindStageId": "easy_11-06",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_11_note_2",
               "textPath": "",
               "textDesc": "",
@@ -4232,8 +4326,8 @@
             },
             {
               "bindStageId": "main_11-06",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_11/text_main_11_note_2",
               "textDesc": "",
@@ -4252,8 +4346,8 @@
             },
             {
               "bindStageId": "tough_11-06",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_2",
               "textPath": null,
               "textDesc": "The identifying badge of the Captain of the Watch, who leads the Knights of the Tower.\nAn honor, and doubly so a responsibility.",
@@ -4282,8 +4376,8 @@
           "rewards": [
             {
               "bindStageId": "easy_11-10",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_11_note_3",
               "textPath": "",
               "textDesc": "",
@@ -4307,8 +4401,8 @@
             },
             {
               "bindStageId": "main_11-10",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_11/text_main_11_note_3",
               "textDesc": "",
@@ -4332,8 +4426,8 @@
             },
             {
               "bindStageId": "tough_11-10",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_3",
               "textPath": null,
               "textDesc": "The highest military award issued by Victoria.\nOnly found in the possession of truly heroic Victorian soldiers. You'll find more than one hanging in the White Wolf family hall, to boot.",
@@ -4362,8 +4456,8 @@
           "rewards": [
             {
               "bindStageId": "easy_11-13",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_11_note_4",
               "textPath": "",
               "textDesc": "",
@@ -4387,8 +4481,8 @@
             },
             {
               "bindStageId": "main_11-13",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_11/text_main_11_note_4",
               "textDesc": "",
@@ -4412,8 +4506,8 @@
             },
             {
               "bindStageId": "tough_11-13",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_4",
               "textPath": null,
               "textDesc": "A newspaper clipping filled with jubilation.\nThat day, all of Victoria's papers sang praises of Frederick III and his feat of conquering Gaul.",
@@ -4447,8 +4541,8 @@
           "rewards": [
             {
               "bindStageId": "main_11-17",
-              "stageDiff1": 4,
-              "stageDiff": 1,
+              "stageDiff1": "PREDEFINED",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_11_note_5",
               "textPath": "",
               "textDesc": "",
@@ -4456,8 +4550,8 @@
             },
             {
               "bindStageId": "main_11-17",
-              "stageDiff1": 4,
-              "stageDiff": 2,
+              "stageDiff1": "PREDEFINED",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_11/text_main_11_note_5",
               "textDesc": "",
@@ -4496,8 +4590,8 @@
             },
             {
               "bindStageId": "main_11-17",
-              "stageDiff1": 4,
-              "stageDiff": 4,
+              "stageDiff1": "PREDEFINED",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_5",
               "textPath": null,
               "textDesc": "A clipping of the Palace amidst firelight.\nNo one knows where Victoria is headed.",
@@ -4515,8 +4609,8 @@
           "rewards": [
             {
               "bindStageId": "hard_11-01",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_6",
               "textPath": "Obt/Record/main_11/text_main_11_note_6",
               "textDesc": null,
@@ -4545,8 +4639,8 @@
           "rewards": [
             {
               "bindStageId": "hard_11-02",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_7",
               "textPath": "Obt/Record/main_11/text_main_11_note_7",
               "textDesc": null,
@@ -4575,8 +4669,8 @@
           "rewards": [
             {
               "bindStageId": "hard_11-03",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_8",
               "textPath": "Obt/Record/main_11/text_main_11_note_8",
               "textDesc": null,
@@ -4605,8 +4699,8 @@
           "rewards": [
             {
               "bindStageId": "hard_11-04",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_9",
               "textPath": "Obt/Record/main_11/text_main_11_note_9",
               "textDesc": null,
@@ -4655,8 +4749,8 @@
           "rewards": [
             {
               "bindStageId": "easy_12-03",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_12_note_1",
               "textPath": "",
               "textDesc": "",
@@ -4675,8 +4769,8 @@
             },
             {
               "bindStageId": "main_12-03",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_12/text_main_12_note_1",
               "textDesc": "",
@@ -4700,8 +4794,8 @@
             },
             {
               "bindStageId": "tough_12-03",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_1",
               "textPath": null,
               "textDesc": "Ol' Baldy Per's business in the district was doing so well it may as well have been on fire, but his appearance was the laughingstock of his customers. He even scared away more than a few noblewomen. In a stroke of ingenuity, he got himself a new gold tooth to bless his bakery with good fortune. He never expected his shop to really take off like that.",
@@ -4730,8 +4824,8 @@
           "rewards": [
             {
               "bindStageId": "easy_12-06",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_12_note_2",
               "textPath": "",
               "textDesc": "",
@@ -4750,8 +4844,8 @@
             },
             {
               "bindStageId": "main_12-06",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_12/text_main_12_note_2",
               "textDesc": "",
@@ -4775,8 +4869,8 @@
             },
             {
               "bindStageId": "tough_12-06",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_2",
               "textPath": null,
               "textDesc": "At the closing ceremony of the third Columbian Heraldry Conference, a young, no-name scholar had the opportunity to give a speech in the place of his instructor, who received an award. The instructor then gave the medal to the young scholar, encouraging him to become a rising star in the field of Victorian heraldry. For a time, the bond between teacher and pupil became the talk of the town.",
@@ -4810,8 +4904,8 @@
           "rewards": [
             {
               "bindStageId": "easy_12-11",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_12_note_3",
               "textPath": "",
               "textDesc": "",
@@ -4835,8 +4929,8 @@
             },
             {
               "bindStageId": "main_12-11",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_12/text_main_12_note_3",
               "textDesc": "",
@@ -4860,8 +4954,8 @@
             },
             {
               "bindStageId": "tough_12-11",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_3",
               "textPath": null,
               "textDesc": "In their fight against the Sarkaz, the leaders of the Norport Borough gangs reached a strange understanding on how to protect their neighborhood. They were planning to spearhead the resistance at the supply lines. Regardless of the outcome of their partnership, this was great news for the youngsters in love with people in their rival gangs.",
@@ -4895,8 +4989,8 @@
           "rewards": [
             {
               "bindStageId": "easy_12-15",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_12_note_4",
               "textPath": "",
               "textDesc": "",
@@ -4920,8 +5014,8 @@
             },
             {
               "bindStageId": "main_12-15",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_12/text_main_12_note_4",
               "textDesc": "",
@@ -4945,8 +5039,8 @@
             },
             {
               "bindStageId": "tough_12-15",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_4",
               "textPath": null,
               "textDesc": "Watching explicit films is always a good way to alleviate stress during wartime. McClaren understood this, which is why he made good money showing these flicks, unauthorized for public viewing. Come to think of it, though, who would come enforce it anyway, given everything that was going on?",
@@ -4980,8 +5074,8 @@
           "rewards": [
             {
               "bindStageId": "easy_12-18",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_12_note_5",
               "textPath": "",
               "textDesc": "",
@@ -5005,8 +5099,8 @@
             },
             {
               "bindStageId": "main_12-18",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_12/text_main_12_note_5",
               "textDesc": "",
@@ -5030,8 +5124,8 @@
             },
             {
               "bindStageId": "tough_12-18",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_5",
               "textPath": null,
               "textDesc": "Baird still remembered that when she showed off her new butterfly knife to the Glasgow members, Indra suggested making it gang property and stamped their seal onto its hilt. Although the two of them got into a fight over this, according to Vina, Baird seemed somewhat open to the idea.",
@@ -5065,8 +5159,8 @@
           "rewards": [
             {
               "bindStageId": "hard_12-01",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_6",
               "textPath": "Obt/Record/main_12/text_main_12_note_6",
               "textDesc": null,
@@ -5095,8 +5189,8 @@
           "rewards": [
             {
               "bindStageId": "hard_12-02",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_7",
               "textPath": "Obt/Record/main_12/text_main_12_note_7",
               "textDesc": null,
@@ -5125,8 +5219,8 @@
           "rewards": [
             {
               "bindStageId": "hard_12-03",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_8",
               "textPath": "Obt/Record/main_12/text_main_12_note_8",
               "textDesc": null,
@@ -5155,8 +5249,8 @@
           "rewards": [
             {
               "bindStageId": "hard_12-04",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_9",
               "textPath": "Obt/Record/main_12/text_main_12_note_9",
               "textDesc": null,
