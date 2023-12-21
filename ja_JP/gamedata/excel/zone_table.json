@@ -2807,6 +2807,84 @@
       "zoneNameThird": null,
       "lockedText": null,
       "canPreview": false
+    },
+    "act26side_zone1": {
+      "zoneID": "act26side_zone1",
+      "zoneIndex": 0,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "アンブロシウス修道院",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act26side_zone2": {
+      "zoneID": "act26side_zone2",
+      "zoneIndex": 1,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "廃聖堂",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act18sre_zone1": {
+      "zoneID": "act18sre_zone1",
+      "zoneIndex": 0,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "光差す音楽堂",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act18sre_zone2": {
+      "zoneID": "act18sre_zone2",
+      "zoneIndex": 1,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "暗き裏路地",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "permanent_sidestory_14_zone1": {
+      "zoneID": "permanent_sidestory_14_zone1",
+      "zoneIndex": 0,
+      "type": "SIDESTORY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "光差す音楽堂",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "permanent_sidestory_14_zone2": {
+      "zoneID": "permanent_sidestory_14_zone2",
+      "zoneIndex": 1,
+      "type": "SIDESTORY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "暗き裏路地",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
     }
   },
   "weeklyAdditionInfo": {
@@ -3383,6 +3461,22 @@
     "act17sre_zone5": {
       "startTs": 1701154800,
       "endTs": 1701975599
+    },
+    "act26side_zone1": {
+      "startTs": 1703124000,
+      "endTs": 1704308399
+    },
+    "act26side_zone2": {
+      "startTs": 1703746800,
+      "endTs": 1704308399
+    },
+    "act18sre_zone1": {
+      "startTs": 1704438000,
+      "endTs": 1705258799
+    },
+    "act18sre_zone2": {
+      "startTs": 1704438000,
+      "endTs": 1705258799
     }
   },
   "mainlineAdditionInfo": {
@@ -3398,7 +3492,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3416,7 +3510,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3434,7 +3528,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3452,7 +3546,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3470,7 +3564,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3488,7 +3582,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3506,7 +3600,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3524,7 +3618,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3542,7 +3636,7 @@
       "recapPreStageId": "",
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ],
       "buttonName": "",
       "buttonStyle": "NONE",
@@ -3560,8 +3654,8 @@
       "recapPreStageId": "st_08-06",
       "zoneOpenTime": -1,
       "diffGroup": [
-        1,
-        2
+        "EASY",
+        "NORMAL"
       ],
       "buttonName": "振り返り",
       "buttonStyle": "RECAP",
@@ -3579,9 +3673,9 @@
       "recapPreStageId": "st_09-04",
       "zoneOpenTime": 1666144800,
       "diffGroup": [
-        1,
-        2,
-        4
+        "EASY",
+        "NORMAL",
+        "TOUGH"
       ],
       "buttonName": "序曲再生",
       "buttonStyle": "REPLAY",
@@ -3602,9 +3696,9 @@
       "spoilAlert": false,
       "zoneOpenTime": 1682578800,
       "diffGroup": [
-        1,
-        2,
-        4
+        "EASY",
+        "NORMAL",
+        "TOUGH"
       ]
     },
     "main_12": {
@@ -3622,9 +3716,9 @@
       "spoilAlert": false,
       "zoneOpenTime": 1698112800,
       "diffGroup": [
-        1,
-        2,
-        4
+        "EASY",
+        "NORMAL",
+        "TOUGH"
       ]
     }
   },
@@ -3640,7 +3734,7 @@
           "rewards": [
             {
               "bindStageId": "easy_10-01",
-              "stageDiff": 1,
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_10_note_1",
               "textPath": "",
               "textDesc": "",
@@ -3656,11 +3750,11 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 1
+              "stageDiff1": "EASY"
             },
             {
               "bindStageId": "main_10-01",
-              "stageDiff": 2,
+              "stageDiff": "NORMAL",
               "picRes": "pic_2_main_10_note_1",
               "textPath": "Obt/Record/main_10/text_main_10_note_1",
               "textDesc": "",
@@ -3676,11 +3770,11 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 2
+              "stageDiff1": "NORMAL"
             },
             {
               "bindStageId": "tough_10-01",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_1",
               "textPath": null,
               "textDesc": "ターラー語で書かれた、とある詩集の一ページ。\n大部分のヴィクトリア人が知っており、中学教育でよく使われる作品だ。",
@@ -3696,7 +3790,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 3
+              "stageDiff1": "TOUGH"
             }
           ],
           "nodeTitle1": null,
@@ -3710,7 +3804,7 @@
           "rewards": [
             {
               "bindStageId": "easy_10-06",
-              "stageDiff": 1,
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_10_note_2",
               "textPath": "",
               "textDesc": "",
@@ -3726,11 +3820,11 @@
                   "type": "GOLD"
                 }
               ],
-              "stageDiff1": 1
+              "stageDiff1": "EASY"
             },
             {
               "bindStageId": "main_10-06",
-              "stageDiff": 2,
+              "stageDiff": "NORMAL",
               "picRes": "pic_2_main_10_note_2",
               "textPath": "Obt/Record/main_10/text_main_10_note_2",
               "textDesc": "",
@@ -3746,11 +3840,11 @@
                   "type": "GOLD"
                 }
               ],
-              "stageDiff1": 2
+              "stageDiff1": "NORMAL"
             },
             {
               "bindStageId": "tough_10-06",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_2",
               "textPath": null,
               "textDesc": "フィリップ伯爵からの招待状。\n時間と場所が変更になったことにより、この招待状はすでに無効になっているかもしれない。",
@@ -3766,7 +3860,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 3
+              "stageDiff1": "TOUGH"
             }
           ],
           "nodeTitle1": null,
@@ -3780,7 +3874,7 @@
           "rewards": [
             {
               "bindStageId": "easy_10-10",
-              "stageDiff": 1,
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_10_note_3",
               "textPath": "",
               "textDesc": "",
@@ -3801,11 +3895,11 @@
                   "type": "GOLD"
                 }
               ],
-              "stageDiff1": 1
+              "stageDiff1": "EASY"
             },
             {
               "bindStageId": "main_10-10",
-              "stageDiff": 2,
+              "stageDiff": "NORMAL",
               "picRes": "pic_2_main_10_note_3",
               "textPath": "Obt/Record/main_10/text_main_10_note_3",
               "textDesc": "",
@@ -3826,11 +3920,11 @@
                   "type": "GOLD"
                 }
               ],
-              "stageDiff1": 2
+              "stageDiff1": "NORMAL"
             },
             {
               "bindStageId": "tough_10-10",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_3",
               "textPath": null,
               "textDesc": "ハイディが何かしらの手段で手に入れた輸送許可証。\nこの許可証には制限事項がびっしりと書かれた紙も付属している。",
@@ -3846,7 +3940,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 3
+              "stageDiff1": "TOUGH"
             }
           ],
           "nodeTitle1": null,
@@ -3860,7 +3954,7 @@
           "rewards": [
             {
               "bindStageId": "easy_10-13",
-              "stageDiff": 1,
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_10_note_4",
               "textPath": "",
               "textDesc": "",
@@ -3881,11 +3975,11 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 1
+              "stageDiff1": "EASY"
             },
             {
               "bindStageId": "main_10-13",
-              "stageDiff": 2,
+              "stageDiff": "NORMAL",
               "picRes": "pic_2_main_10_note_4",
               "textPath": "Obt/Record/main_10/text_main_10_note_4",
               "textDesc": "",
@@ -3906,11 +4000,11 @@
                   "type": "GOLD"
                 }
               ],
-              "stageDiff1": 2
+              "stageDiff1": "NORMAL"
             },
             {
               "bindStageId": "tough_10-13",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_4",
               "textPath": null,
               "textDesc": "「戦士ビル」の写真。\n現在自救軍のメンバーたちは彼の写真を見ると、複雑な心境で顔をそむける。",
@@ -3931,7 +4025,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 3
+              "stageDiff1": "TOUGH"
             }
           ],
           "nodeTitle1": null,
@@ -3945,7 +4039,7 @@
           "rewards": [
             {
               "bindStageId": "easy_10-15",
-              "stageDiff": 1,
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_10_note_5",
               "textPath": "",
               "textDesc": "",
@@ -3966,11 +4060,11 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 1
+              "stageDiff1": "EASY"
             },
             {
               "bindStageId": "main_10-15",
-              "stageDiff": 2,
+              "stageDiff": "NORMAL",
               "picRes": "pic_2_main_10_note_5",
               "textPath": "Obt/Record/main_10/text_main_10_note_5",
               "textDesc": "",
@@ -3991,11 +4085,11 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 2
+              "stageDiff1": "NORMAL"
             },
             {
               "bindStageId": "tough_10-15",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_5",
               "textPath": null,
               "textDesc": "黒い羽。\n黒色の羽獣はすでに嵐の只中へと飛んでいった。",
@@ -4016,7 +4110,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 3
+              "stageDiff1": "TOUGH"
             }
           ],
           "nodeTitle1": null,
@@ -4030,7 +4124,7 @@
           "rewards": [
             {
               "bindStageId": "hard_10-01",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_6",
               "textPath": "Obt/Record/main_10/text_main_10_note_6",
               "textDesc": null,
@@ -4046,7 +4140,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 5
+              "stageDiff1": "HARD"
             }
           ],
           "nodeTitle1": null,
@@ -4060,7 +4154,7 @@
           "rewards": [
             {
               "bindStageId": "hard_10-02",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_7",
               "textPath": "Obt/Record/main_10/text_main_10_note_7",
               "textDesc": null,
@@ -4076,7 +4170,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 5
+              "stageDiff1": "HARD"
             }
           ],
           "nodeTitle1": null,
@@ -4090,7 +4184,7 @@
           "rewards": [
             {
               "bindStageId": "hard_10-03",
-              "stageDiff": 4,
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_10_note_8",
               "textPath": "Obt/Record/main_10/text_main_10_note_8",
               "textDesc": null,
@@ -4111,7 +4205,7 @@
                   "type": "MATERIAL"
                 }
               ],
-              "stageDiff1": 5
+              "stageDiff1": "HARD"
             }
           ],
           "nodeTitle1": null,
@@ -4142,8 +4236,8 @@
           "rewards": [
             {
               "bindStageId": "easy_11-01",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_11_note_1",
               "textPath": "",
               "textDesc": "",
@@ -4162,8 +4256,8 @@
             },
             {
               "bindStageId": "main_11-01",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_11/text_main_11_note_1",
               "textDesc": "",
@@ -4182,8 +4276,8 @@
             },
             {
               "bindStageId": "tough_11-01",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_1",
               "textPath": null,
               "textDesc": "王宮の前にそびえ立つ物見の塔楼。\n数百年の時を経た今、塔はとっくに崩れ落ちてしまい、後世の人々は残された一枚の見取り図から、当時の姿を想像するしかない。",
@@ -4212,8 +4306,8 @@
           "rewards": [
             {
               "bindStageId": "easy_11-06",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_11_note_2",
               "textPath": "",
               "textDesc": "",
@@ -4232,8 +4326,8 @@
             },
             {
               "bindStageId": "main_11-06",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_11/text_main_11_note_2",
               "textDesc": "",
@@ -4252,8 +4346,8 @@
             },
             {
               "bindStageId": "tough_11-06",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_2",
               "textPath": null,
               "textDesc": "塔楼騎士を統括する警備隊長の身分証。\nそれには栄誉以上の、責任が込められている。",
@@ -4282,8 +4376,8 @@
           "rewards": [
             {
               "bindStageId": "easy_11-10",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_11_note_3",
               "textPath": "",
               "textDesc": "",
@@ -4307,8 +4401,8 @@
             },
             {
               "bindStageId": "main_11-10",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_11/text_main_11_note_3",
               "textDesc": "",
@@ -4332,8 +4426,8 @@
             },
             {
               "bindStageId": "tough_11-10",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_3",
               "textPath": null,
               "textDesc": "ヴィクトリアが授ける最高戦功勲章。\n真に勇敢なヴィクトリア戦士のみが持つことを許される。しかし白狼の一族の広間に飾られている勲章は、一枚だけに留まらない。",
@@ -4362,8 +4456,8 @@
           "rewards": [
             {
               "bindStageId": "easy_11-13",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_11_note_4",
               "textPath": "",
               "textDesc": "",
@@ -4387,8 +4481,8 @@
             },
             {
               "bindStageId": "main_11-13",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_11/text_main_11_note_4",
               "textDesc": "",
@@ -4412,8 +4506,8 @@
             },
             {
               "bindStageId": "tough_11-13",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_4",
               "textPath": null,
               "textDesc": "嬉しいニュースが書かれた新聞の切れ端。\nあの日、ヴィクトリアのすべての新聞が、ガリアを征服したフレデリックⅢ世の功績を讃えていた。",
@@ -4447,8 +4541,8 @@
           "rewards": [
             {
               "bindStageId": "main_11-17",
-              "stageDiff1": 4,
-              "stageDiff": 1,
+              "stageDiff1": "PREDEFINED",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_11_note_5",
               "textPath": "",
               "textDesc": "",
@@ -4456,8 +4550,8 @@
             },
             {
               "bindStageId": "main_11-17",
-              "stageDiff1": 4,
-              "stageDiff": 2,
+              "stageDiff1": "PREDEFINED",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_11/text_main_11_note_5",
               "textDesc": "",
@@ -4496,8 +4590,8 @@
             },
             {
               "bindStageId": "main_11-17",
-              "stageDiff1": 4,
-              "stageDiff": 4,
+              "stageDiff1": "PREDEFINED",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_5",
               "textPath": null,
               "textDesc": "火に包まれた王宮の一角。\nヴィクトリアがどこへ向かうのか、誰にも分からない。",
@@ -4515,8 +4609,8 @@
           "rewards": [
             {
               "bindStageId": "hard_11-01",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_6",
               "textPath": "Obt/Record/main_11/text_main_11_note_6",
               "textDesc": null,
@@ -4545,8 +4639,8 @@
           "rewards": [
             {
               "bindStageId": "hard_11-02",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_7",
               "textPath": "Obt/Record/main_11/text_main_11_note_7",
               "textDesc": null,
@@ -4575,8 +4669,8 @@
           "rewards": [
             {
               "bindStageId": "hard_11-03",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_8",
               "textPath": "Obt/Record/main_11/text_main_11_note_8",
               "textDesc": null,
@@ -4605,8 +4699,8 @@
           "rewards": [
             {
               "bindStageId": "hard_11-04",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_11_note_9",
               "textPath": "Obt/Record/main_11/text_main_11_note_9",
               "textDesc": null,
@@ -4655,8 +4749,8 @@
           "rewards": [
             {
               "bindStageId": "easy_12-03",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_12_note_1",
               "textPath": "",
               "textDesc": "",
@@ -4675,8 +4769,8 @@
             },
             {
               "bindStageId": "main_12-03",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_12/text_main_12_note_1",
               "textDesc": "",
@@ -4700,8 +4794,8 @@
             },
             {
               "bindStageId": "tough_12-03",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_1",
               "textPath": null,
               "textDesc": "ハゲ頭のペアの商売は繁盛している方だが、いつもお客さんにその残念な見た目をあざ笑われたり、貴族の夫人や令嬢たちに敬遠されたりして、商機を逃すこともままある。ある時、パン屋が大繁盛するように、「金運」の文字が彫られた偽の金歯を入れることを思いついた彼であったが、まさか本当に店が大繁盛するとは思いもしなかった。",
@@ -4730,8 +4824,8 @@
           "rewards": [
             {
               "bindStageId": "easy_12-06",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_12_note_2",
               "textPath": "",
               "textDesc": "",
@@ -4750,8 +4844,8 @@
             },
             {
               "bindStageId": "main_12-06",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_12/text_main_12_note_2",
               "textDesc": "",
@@ -4775,8 +4869,8 @@
             },
             {
               "bindStageId": "tough_12-06",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_2",
               "textPath": null,
               "textDesc": "第3回クルビア紋章学学術交流会の閉会式にて、賞を受賞した教師の代わりに無名の若い学者がスピーチすることになった。閉会後、教師は自身がもらったバッジをその若い学者に贈り、彼がヴィクトリアの紋章学界を牽引する立派な人材になれるように励ましの言葉をかけた。この教師と教え子の心温まるエピソードは、美談として伝えられた。",
@@ -4810,8 +4904,8 @@
           "rewards": [
             {
               "bindStageId": "easy_12-11",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_12_note_3",
               "textPath": "",
               "textDesc": "",
@@ -4835,8 +4929,8 @@
             },
             {
               "bindStageId": "main_12-11",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_12/text_main_12_note_3",
               "textDesc": "",
@@ -4860,8 +4954,8 @@
             },
             {
               "bindStageId": "tough_12-11",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_3",
               "textPath": null,
               "textDesc": "ノーポート区のギャングのトップ間において、サルカズに対抗して街を守るという点においては図らずしも合意が成された。反抗の第一歩として、彼らはまず物資運搬ルートの襲撃を企てた。この協力の結果がどうなったかはさておき、敵対するギャング同士の間で隠れて恋愛をしていた若者たちにとっては、願ってもない吉報と言えよう。",
@@ -4895,8 +4989,8 @@
           "rewards": [
             {
               "bindStageId": "easy_12-15",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_12_note_4",
               "textPath": "",
               "textDesc": "",
@@ -4920,8 +5014,8 @@
             },
             {
               "bindStageId": "main_12-15",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_12/text_main_12_note_4",
               "textDesc": "",
@@ -4945,8 +5039,8 @@
             },
             {
               "bindStageId": "tough_12-15",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_4",
               "textPath": null,
               "textDesc": "戦時中において、刺激的な映画を鑑賞してストレス解消するのは、万人に通用するいい方法の一つだ。このことを良く理解していたマクラーレンは、本来であれば上映が禁止されているようなビデオで大儲けをした。ところで、このようなご時勢にそれらを取り締まるような人がまだいるのだろうか？",
@@ -4980,8 +5074,8 @@
           "rewards": [
             {
               "bindStageId": "easy_12-18",
-              "stageDiff1": 1,
-              "stageDiff": 1,
+              "stageDiff1": "EASY",
+              "stageDiff": "EASY",
               "picRes": "pic_1_main_12_note_5",
               "textPath": "",
               "textDesc": "",
@@ -5005,8 +5099,8 @@
             },
             {
               "bindStageId": "main_12-18",
-              "stageDiff1": 2,
-              "stageDiff": 2,
+              "stageDiff1": "NORMAL",
+              "stageDiff": "NORMAL",
               "picRes": null,
               "textPath": "Obt/Record/main_12/text_main_12_note_5",
               "textDesc": "",
@@ -5030,8 +5124,8 @@
             },
             {
               "bindStageId": "tough_12-18",
-              "stageDiff1": 3,
-              "stageDiff": 4,
+              "stageDiff1": "TOUGH",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_5",
               "textPath": null,
               "textDesc": "ベアードは、自分が新しいバタフライナイフをグラスゴーのメンバーに自慢げに見せびらかした時に、インドラがそれをギャング全体の所有物だと言い始め、勝手に柄の部分にグラスゴーのマークを入れたことを未だに覚えている。その後、それが原因でベアードとインドラは殴り合いの喧嘩になったが、ヴィーナの話によれば、ベアードの方はそこまで乗り気じゃなかったようだ。",
@@ -5065,8 +5159,8 @@
           "rewards": [
             {
               "bindStageId": "hard_12-01",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_6",
               "textPath": "Obt/Record/main_12/text_main_12_note_6",
               "textDesc": null,
@@ -5095,8 +5189,8 @@
           "rewards": [
             {
               "bindStageId": "hard_12-02",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_7",
               "textPath": "Obt/Record/main_12/text_main_12_note_7",
               "textDesc": null,
@@ -5125,8 +5219,8 @@
           "rewards": [
             {
               "bindStageId": "hard_12-03",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_8",
               "textPath": "Obt/Record/main_12/text_main_12_note_8",
               "textDesc": null,
@@ -5155,8 +5249,8 @@
           "rewards": [
             {
               "bindStageId": "hard_12-04",
-              "stageDiff1": 5,
-              "stageDiff": 4,
+              "stageDiff1": "HARD",
+              "stageDiff": "TOUGH",
               "picRes": "pic_3_main_12_note_9",
               "textPath": "Obt/Record/main_12/text_main_12_note_9",
               "textDesc": null,

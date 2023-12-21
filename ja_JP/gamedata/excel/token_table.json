@@ -7,7 +7,7 @@
     "appellation": "Sealed Floor",
     "position": "NONE",
     "tagList": null,
-    "rarity": 0,
+    "rarity": "TIER_1",
     "profession": "TRAP",
     "phases": [
       {
@@ -31,7 +31,16 @@
               "spRecoveryPerSec": 1,
               "maxRespawnTime": 1,
               "tauntLevel": 0,
-              "stunImmune": false
+              "stunImmune": false,
+              "respawnTime": 60,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false
             }
           },
           {
@@ -50,7 +59,16 @@
               "spRecoveryPerSec": 1,
               "maxRespawnTime": 1,
               "tauntLevel": 0,
-              "stunImmune": false
+              "stunImmune": false,
+              "respawnTime": 60,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false
             }
           }
         ],
@@ -61,7 +79,26 @@
     "potentialRanks": null,
     "favorKeyFrames": null,
     "respawnTime": 5,
-    "subProfessionId": "notchar2"
+    "subProfessionId": "notchar2",
+    "canUseGeneralPotentialItem": false,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": null,
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "trait": null,
+    "skills": null,
+    "displayTokenDict": null,
+    "allSkillLvlup": null
   },
   "trap_005_sensor": {
     "name": "探知機",
@@ -71,7 +108,7 @@
     "appellation": "Sensor",
     "position": "NONE",
     "tagList": null,
-    "rarity": 0,
+    "rarity": "TIER_1",
     "profession": "TRAP",
     "phases": [
       {
@@ -96,7 +133,14 @@
               "spRecoveryPerSec": 1,
               "maxDeployCount": 1,
               "tauntLevel": 0,
-              "stunImmune": false
+              "stunImmune": false,
+              "maxDeckStackCnt": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false
             }
           },
           {
@@ -116,7 +160,14 @@
               "spRecoveryPerSec": 1,
               "maxDeployCount": 1,
               "tauntLevel": 0,
-              "stunImmune": false
+              "stunImmune": false,
+              "maxDeckStackCnt": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false
             }
           }
         ],
@@ -134,13 +185,38 @@
             },
             "levelUpCost": null
           }
-        ]
+        ],
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 0
+        }
       }
     ],
     "talents": null,
     "potentialRanks": null,
     "favorKeyFrames": null,
-    "subProfessionId": "notchar2"
+    "subProfessionId": "notchar2",
+    "canUseGeneralPotentialItem": false,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": null,
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "trait": null,
+    "displayTokenDict": null,
+    "allSkillLvlup": null
   },
   "trap_017_wooden_broke": {
     "name": "ダメになった切り株",
@@ -150,7 +226,7 @@
     "appellation": "Broken Stump",
     "position": "NONE",
     "tagList": null,
-    "rarity": 0,
+    "rarity": "TIER_1",
     "profession": "TRAP",
     "phases": [
       {
@@ -174,7 +250,16 @@
               "spRecoveryPerSec": 1,
               "maxRespawnTime": 1,
               "tauntLevel": 0,
-              "stunImmune": false
+              "stunImmune": false,
+              "respawnTime": 60,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false
             }
           },
           {
@@ -193,7 +278,16 @@
               "spRecoveryPerSec": 1,
               "maxRespawnTime": 1,
               "tauntLevel": 0,
-              "stunImmune": false
+              "stunImmune": false,
+              "respawnTime": 60,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false
             }
           }
         ],
@@ -204,7 +298,26 @@
     "potentialRanks": null,
     "favorKeyFrames": null,
     "respawnTime": 5,
-    "subProfessionId": "notchar2"
+    "subProfessionId": "notchar2",
+    "canUseGeneralPotentialItem": false,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": null,
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "trait": null,
+    "skills": null,
+    "displayTokenDict": null,
+    "allSkillLvlup": null
   },
   "trap_047_mandrablock": {
     "name": "封じられた地面",
@@ -214,7 +327,7 @@
     "appellation": "Sealed Floor",
     "position": "NONE",
     "tagList": null,
-    "rarity": 0,
+    "rarity": "TIER_1",
     "profession": "TRAP",
     "phases": [
       {
@@ -238,7 +351,16 @@
               "spRecoveryPerSec": 1,
               "maxRespawnTime": 1,
               "tauntLevel": 0,
-              "stunImmune": false
+              "stunImmune": false,
+              "respawnTime": 60,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false
             }
           },
           {
@@ -257,7 +379,16 @@
               "spRecoveryPerSec": 1,
               "maxRespawnTime": 1,
               "tauntLevel": 0,
-              "stunImmune": false
+              "stunImmune": false,
+              "respawnTime": 60,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false
             }
           }
         ],
@@ -268,6 +399,25 @@
     "potentialRanks": null,
     "favorKeyFrames": null,
     "respawnTime": 5,
-    "subProfessionId": "notchar2"
+    "subProfessionId": "notchar2",
+    "canUseGeneralPotentialItem": false,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": null,
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "trait": null,
+    "skills": null,
+    "displayTokenDict": null,
+    "allSkillLvlup": null
   }
 }
