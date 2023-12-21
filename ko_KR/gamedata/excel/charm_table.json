@@ -8,7 +8,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 선물",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "도솔레스에 입성하는 외국 관광객에게 주는 핀 버튼 배지. 주의 깊은 사람은 이 배지를 달고 쇼핑하면 상품 가격이 더 비싸진다는 걸 알아차릴 수 있다.",
       "price": 15,
       "specialObtainApproach": "DH-TR-01 스테이지 시작 전 획득 가능",
@@ -24,8 +24,8 @@
           {
             "key": "global_initial_cost_add",
             "selector": {
-              "professionMask": 0,
-              "buildableMask": 0,
+              "professionMask": "NONE",
+              "buildableMask": "NONE",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -37,7 +37,8 @@
             "blackboard": [
               {
                 "key": "value",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -53,7 +54,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "빅토리아 대형 공업사 박스의 민수용 제품. 사실 해당 회사는 컬럼비아 관련 기업에 실권을 잃은지 오래다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -70,7 +71,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -82,15 +83,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "ep_recovery"
+                "valueStr": "ep_recovery",
+                "value": 0
               },
               {
                 "key": "ep_recovery_per_sec",
-                "value": 25
+                "value": 25,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -106,7 +110,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "빅토리아 대형 공업사 박스의 신형 민수용 제품. 빅토리아 회사지만 본사는 사실 컬럼비아에 있다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -123,7 +127,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -135,15 +139,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "ep_recovery"
+                "valueStr": "ep_recovery",
+                "value": 0
               },
               {
                 "key": "ep_recovery_per_sec",
-                "value": 50
+                "value": 50,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -159,7 +166,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "[명예 진열장] 보상",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "컬럼비아 중공업 브랜드 도그러스의 제품은 품질이 좋아 오래 쓸 수 있다. 심지어 사미의 소규모 이동 마을에서도 이 브랜드의 제품을 볼 수 있다.",
       "price": 15,
       "specialObtainApproach": "[명예 진열장] 보상",
@@ -176,7 +183,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -188,15 +195,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "ep_recovery"
+                "valueStr": "ep_recovery",
+                "value": 0
               },
               {
                 "key": "ep_recovery_per_sec",
-                "value": 25
+                "value": 25,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -212,7 +222,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "컬럼비아 중공업 브랜드 도그러스의 제품은 품질이 좋아 오래 쓸 수 있다. 공업형은 더 뛰어나나 독성이 있다!",
       "price": 30,
       "specialObtainApproach": null,
@@ -229,7 +239,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -241,15 +251,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "ep_recovery"
+                "valueStr": "ep_recovery",
+                "value": 0
               },
               {
                 "key": "ep_recovery_per_sec",
-                "value": 50
+                "value": 50,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -265,7 +278,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "오늘날 볼리바르에서 흔히 볼 수 있는 저렴한 증류주 브랜드. 도수가 높고 자극적이며, 볼리바르의 가난한 사람들에게 인기가 좋다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -282,7 +295,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -294,15 +307,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_attack_speed_up"
+                "valueStr": "drown_attack_speed_up",
+                "value": 0
               },
               {
                 "key": "attack_speed",
-                "value": -0.3
+                "value": -0.3,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -318,7 +334,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "치코 주류사가 하이엔드 마켓을 위해 만든 신제품. 하지만 볼리바르의 부자들은 가난한 사람들과 같은 브랜드의 술을 마시려 하지 않아 판매량이 부진하다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -335,7 +351,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -347,15 +363,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_attack_speed_up"
-              },
-              {
-                "key": "attack_speed",
+                "valueStr": "drown_attack_speed_up",
                 "value": 0
               },
               {
+                "key": "attack_speed",
+                "value": 0,
+                "valueStr": null
+              },
+              {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -371,7 +390,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "대부분의 볼리바르인에게 익숙한 고급 주류 브랜드인 안톤은 싱가스 왕조라는 배경만 믿고 횡포를 부리기로 유명한 회사다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -388,7 +407,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -400,15 +419,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_attack_speed_up"
+                "valueStr": "drown_attack_speed_up",
+                "value": 0
               },
               {
                 "key": "attack_speed",
-                "value": -0.3
+                "value": -0.3,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -424,7 +446,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "안톤 주류사의 인기 제품. 좋은 원료에 뛰어난 기술을 적용해, 선물용으로 최고의 선택이다!",
       "price": 30,
       "specialObtainApproach": null,
@@ -441,7 +463,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -453,15 +475,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_attack_speed_up"
-              },
-              {
-                "key": "attack_speed",
+                "valueStr": "drown_attack_speed_up",
                 "value": 0
               },
               {
+                "key": "attack_speed",
+                "value": 0,
+                "valueStr": null
+              },
+              {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -477,7 +502,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "로열 리큐어의 짝퉁 브랜드. 사장은 가울인의 후손이라고 주장하지만, 사실은 그가 연립정부의 탈영병이라는 걸 모두가 알고 있다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -494,7 +519,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -506,15 +531,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_atk_up"
+                "valueStr": "drown_atk_up",
+                "value": 0
               },
               {
                 "key": "atk",
-                "value": 0.2
+                "value": 0.2,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -530,7 +558,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "사장이 가울 고서에서 가울 술의 이름과 양조법을 찾았다고 밝혔는데, 진짜든 아니든 이 술은 브랜드의 이미지를 고급스럽게 만들었다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -547,7 +575,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -559,15 +587,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_atk_up"
+                "valueStr": "drown_atk_up",
+                "value": 0
               },
               {
                 "key": "atk",
-                "value": 0.4
+                "value": 0.4,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -583,7 +614,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "라이타니엔 유명 스파클링 와인 제조사의 제품. 라이타니엔에서는 흔히 볼 수 있는 술로 도솔레스에 처음 출시되었을 땐 푸대접을 받았지만, 지금은 많이 받아들여졌다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -600,7 +631,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -612,15 +643,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_atk_up"
+                "valueStr": "drown_atk_up",
+                "value": 0
               },
               {
                 "key": "atk",
-                "value": 0.2
+                "value": 0.2,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -636,7 +670,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "이 특이한 스파클링 와인은 과거 이베리아가 볼리바르에 남긴 흔적에서 영감을 받았으며, 리얼 샴페인과 맛이 매우 비슷하다고 알려져 있다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -653,7 +687,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -665,15 +699,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_atk_up"
+                "valueStr": "drown_atk_up",
+                "value": 0
               },
               {
                 "key": "atk",
-                "value": 0.4
+                "value": 0.4,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -689,7 +726,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "도솔레스 정부가 직접 만든 맥주 브랜드. 축제로 가득한 도시에서는 언제나 다양한 고급술보다 맥주가 가장 인기 있다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -706,7 +743,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -718,15 +755,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_def_up"
+                "valueStr": "drown_def_up",
+                "value": 0
               },
               {
                 "key": "def",
-                "value": 0.2
+                "value": 0.2,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -742,7 +782,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "매년 도솔레스의 익스트림 철인 그랑프리에 맞춰 출시되는 한정판 맥주. 그랑프리 기간에만 살 수 있지만, 맛은 일반 제품과 다를 게 없다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -759,7 +799,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -771,15 +811,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_def_up"
+                "valueStr": "drown_def_up",
+                "value": 0
               },
               {
                 "key": "def",
-                "value": 0.4
+                "value": 0.4,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -795,7 +838,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "수많은 크래프트 맥주 브랜드 중 비교적 뛰어난 브랜드. 일반 맥주보다 조금 고급스러운 포지션을 노렸는데, 이런 방향성은 피도스의 입지를 굳혔다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -812,7 +855,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -824,15 +867,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_def_up"
+                "valueStr": "drown_def_up",
+                "value": 0
               },
               {
                 "key": "def",
-                "value": 0.2
+                "value": 0.2,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -848,7 +894,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "피도스의 여러 제품 중 비교적 성공적인 맥주로, 맥주 마니아들에게 '맥주 중의 과일 잔'으로 불린다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -865,7 +911,7 @@
             "key": "env_gbuff_new",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -877,15 +923,18 @@
             "blackboard": [
               {
                 "key": "key",
-                "valueStr": "drown_def_up"
+                "valueStr": "drown_def_up",
+                "value": 0
               },
               {
                 "key": "def",
-                "value": 0.4
+                "value": 0.4,
+                "valueStr": null
               },
               {
                 "key": "pass_profession_mask_flag",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -901,7 +950,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "이 유명한 패스트푸드 가게가 반디도스라고 불리는 이유는…… 창업자가 예전에 정말로 도적이었기 때문이다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -918,7 +967,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -930,7 +979,8 @@
             "blackboard": [
               {
                 "key": "atk",
-                "value": 100
+                "value": 100,
+                "valueStr": null
               }
             ]
           }
@@ -946,7 +996,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "컬럼비아 여행 잡지에 여러 번 이름을 올렸다. 반디도스에 가면 꼭 주문해야 하는 이색 메뉴이며, 매일 선착순 한정으로 제공된다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -963,7 +1013,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -975,7 +1025,8 @@
             "blackboard": [
               {
                 "key": "atk",
-                "value": 200
+                "value": 200,
+                "valueStr": null
               }
             ]
           }
@@ -991,7 +1042,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "진정한 볼리바르인 종군 요리사였던 사장이 제대 후 도솔레스에 와서 창업했다. 이 가게는 고정 점포가 없고, 도솔레스 거리에 포장마차의 형태로 흩어져 있어, 먹으려면 인연이 닿아야 한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1008,7 +1059,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1020,7 +1071,8 @@
             "blackboard": [
               {
                 "key": "atk",
-                "value": 100
+                "value": 100,
+                "valueStr": null
               }
             ]
           }
@@ -1036,7 +1088,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "솜브레로 형씨의 투자자는 컬럼비아의 '메이랜더 상회'라는 기업인데, 요리사 중 상당수가 컬럼비아의 정보원이라는 소문이 있다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -1053,7 +1105,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1065,7 +1117,8 @@
             "blackboard": [
               {
                 "key": "atk",
-                "value": 200
+                "value": 200,
+                "valueStr": null
               }
             ]
           }
@@ -1081,7 +1134,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "도솔레스 토종 브랜드로 노동자들이 가장 많이 먹는 건조식품. 끓인 물을 부어서 먹으면 빠르게 배불릴 수 있지만, 맛은 별로 없다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1098,7 +1151,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1110,7 +1163,8 @@
             "blackboard": [
               {
                 "key": "def",
-                "value": 100
+                "value": 100,
+                "valueStr": null
               }
             ]
           }
@@ -1126,7 +1180,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "엉클 마르코가 티오 마르코에 대항하기 위해 출시한 제품. 공업용 조미료를 더 추가하는 바람에 가격도 올라서, 오히려 아무도 사지 않는다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -1143,7 +1197,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 58,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1155,7 +1209,8 @@
             "blackboard": [
               {
                 "key": "def",
-                "value": 200
+                "value": 200,
+                "valueStr": null
               }
             ]
           }
@@ -1171,7 +1226,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "엉클 마르코의 짝퉁 브랜드. 다양한 공업용 조미료를 첨가해 맛이 훨씬 좋아져, 엉클 마르코보다 더 인기가 많아졌다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1188,7 +1243,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1200,7 +1255,8 @@
             "blackboard": [
               {
                 "key": "def",
-                "value": 100
+                "value": 100,
+                "valueStr": null
               }
             ]
           }
@@ -1216,7 +1272,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "티오 마르코가 엉클 마르코의 시장을 선점하기 위해 출시한 제품. 하지만 시장 조사를 제대로 하지 않아 결국은 아무도 찾는 사람이 없다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -1233,7 +1289,7 @@
             "key": "char_attribute_add",
             "selector": {
               "professionMask": 581,
-              "buildableMask": 3,
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1245,7 +1301,8 @@
             "blackboard": [
               {
                 "key": "def",
-                "value": 200
+                "value": 200,
+                "valueStr": null
               }
             ]
           }
@@ -1261,7 +1318,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "도솔레스에서 가장 클래식하면서도 인기 있는 칵테일. 어디서든 쉽게 만나볼 수 있어, 처음으로 이 도시에 온 사람들에게 추천한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1277,8 +1334,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 64,
-              "buildableMask": 3,
+              "professionMask": "SPECIAL",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1290,7 +1347,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1306,7 +1364,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "호사가들에게 도솔레스라는 도시의 관능적이고 사랑스러움을 대표하는 술로 칭송받는 칵테일. 젊은이들의 모임에서 가장 흔하게 볼 수 있다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1322,8 +1380,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 4,
-              "buildableMask": 3,
+              "professionMask": "TANK",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1335,7 +1393,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1351,7 +1410,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "아주 우아한 인상의 칵테일. 각종 연회의 단골손님으로 라이타니엔 귀족이 이름을 붙였다고 한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1367,8 +1426,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 1,
-              "buildableMask": 3,
+              "professionMask": "WARRIOR",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1380,7 +1439,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1396,7 +1456,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "'도솔레스의 블러디 메리'라고도 불린다. 말 그대로 이곳에서는 블러디 메리보다 더 인기 있다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1412,8 +1472,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 512,
-              "buildableMask": 3,
+              "professionMask": "PIONEER",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1425,7 +1485,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1441,7 +1502,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "빨간색과 노란색이 교차하며, 도솔레스라는 이름처럼 산뜻하다. 칸델라 시장이 가장 좋아하는 칵테일이다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1457,8 +1518,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 8,
-              "buildableMask": 3,
+              "professionMask": "MEDIC",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1470,7 +1531,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1486,7 +1548,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "달콤한 것이 당기나? 그렇다면 이거다. 꿀을 넣은 칵테일로 새콤달콤하며 상큼하다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1502,8 +1564,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 32,
-              "buildableMask": 2,
+              "professionMask": "CASTER",
+              "buildableMask": "RANGED",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1515,7 +1577,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1531,7 +1594,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "《비웃는 사람 죽이기》에서 영감을 받았다. 컬럼비아에서 선풍적인 인기를 끌었던 소설로, 아직 읽어보지 않았다면 어서 읽어보도록.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1547,8 +1610,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 2,
-              "buildableMask": 3,
+              "professionMask": "SNIPER",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1560,7 +1623,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1576,7 +1640,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "이것은 결코 흔한 칵테일이 아니다. 그러나 당신이 친구와 내기하고 싶을 때, 바텐더에게 이걸 달라고 한다면, 그는 당신에게 칭찬의 눈빛을 보낼 것이다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1592,8 +1656,8 @@
           {
             "key": "card_buff_by_profession",
             "selector": {
-              "professionMask": 16,
-              "buildableMask": 3,
+              "professionMask": "SUPPORT",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1605,7 +1669,8 @@
             "blackboard": [
               {
                 "key": "advanced_buildable_mask",
-                "value": 4
+                "value": 4,
+                "valueStr": null
               }
             ]
           }
@@ -1621,7 +1686,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "[명예 진열장] 보상",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "“100% 안전한 바다에서 펼쳐지는 전대미문의 모험!”, 샤르초프가 내건 홍보 문구다. 물속에 관심이 있지만, 꽁무니를 빼는 사람들에게 확실히 매력적이다.",
       "price": 15,
       "specialObtainApproach": "[명예 진열장] 보상",
@@ -1637,8 +1702,8 @@
           {
             "key": "global_token_cnt_add",
             "selector": {
-              "professionMask": 256,
-              "buildableMask": 3,
+              "professionMask": "TRAP",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1650,11 +1715,13 @@
             "blackboard": [
               {
                 "key": "char",
-                "valueStr": "trap_046_oxygen"
+                "valueStr": "trap_046_oxygen",
+                "value": 0
               },
               {
                 "key": "value",
-                "value": 1
+                "value": 1,
+                "valueStr": null
               }
             ]
           }
@@ -1670,7 +1737,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 2,
+      "rarity": "MEDIUM",
       "desc": "이걸 사용하면 도솔레스의 '바닷속 풍경'을 완벽하게 느낄 수 있다. 물론 이 풍경들은 도시 디자이너들이 이베리아가 남긴 문헌을 보고 바다를 상상한 것이다.",
       "price": 30,
       "specialObtainApproach": null,
@@ -1686,8 +1753,8 @@
           {
             "key": "global_token_cnt_add",
             "selector": {
-              "professionMask": 256,
-              "buildableMask": 3,
+              "professionMask": "TRAP",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1699,11 +1766,13 @@
             "blackboard": [
               {
                 "key": "char",
-                "valueStr": "trap_046_oxygen"
+                "valueStr": "trap_046_oxygen",
+                "value": 0
               },
               {
                 "key": "value",
-                "value": 2
+                "value": 2,
+                "valueStr": null
               }
             ]
           }
@@ -1719,7 +1788,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 3,
+      "rarity": "HIGH",
       "desc": "프로다워 보이는 잠수 세트로, 이론상 바닷물에 한 달 동안 담가도 침식 받지 않는다. 하지만 아무도 엄두를 내지 못해 보통은 기술 전시로서 쇼윈도에 진열되어 있다.",
       "price": 45,
       "specialObtainApproach": null,
@@ -1735,8 +1804,8 @@
           {
             "key": "global_token_cnt_add",
             "selector": {
-              "professionMask": 256,
-              "buildableMask": 3,
+              "professionMask": "TRAP",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1748,11 +1817,13 @@
             "blackboard": [
               {
                 "key": "char",
-                "valueStr": "trap_046_oxygen"
+                "valueStr": "trap_046_oxygen",
+                "value": 0
               },
               {
                 "key": "value",
-                "value": 3
+                "value": 3,
+                "valueStr": null
               }
             ]
           }
@@ -1768,7 +1839,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "커피 플레인, 도솔레스에 널리 알려진 오리지널 브랜드로 고객들에게 다양한 맛과 고품질의 커피를 제공하기 위해 힘쓰고 있다. 동시에 다양한 세력을 위한 첨단 무기도 제공한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1784,8 +1855,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 8,
-              "buildableMask": 3,
+              "professionMask": "MEDIC",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1797,7 +1868,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -1813,7 +1885,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "커피 플레인, 도솔레스에 널리 알려진 오리지널 브랜드로 고객들에게 다양한 맛과 고품질의 커피를 제공하기 위해 힘쓰고 있다. 동시에 다양한 세력을 위한 첨단 무기도 제공한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1829,8 +1901,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 64,
-              "buildableMask": 3,
+              "professionMask": "SPECIAL",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1842,7 +1914,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -1858,7 +1931,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "커피 플레인, 도솔레스에 널리 알려진 오리지널 브랜드로 고객들에게 다양한 맛과 고품질의 커피를 제공하기 위해 힘쓰고 있다. 동시에 다양한 세력을 위한 첨단 무기도 제공한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1874,8 +1947,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 4,
-              "buildableMask": 3,
+              "professionMask": "TANK",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1887,7 +1960,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -1903,7 +1977,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "커피 플레인, 도솔레스에 널리 알려진 오리지널 브랜드로 고객들에게 다양한 맛과 고품질의 커피를 제공하기 위해 힘쓰고 있다. 동시에 다양한 세력을 위한 첨단 무기도 제공한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1919,8 +1993,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 1,
-              "buildableMask": 3,
+              "professionMask": "WARRIOR",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1932,7 +2006,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -1948,7 +2023,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "커피 플레인, 도솔레스에 널리 알려진 오리지널 브랜드로 고객들에게 다양한 맛과 고품질의 커피를 제공하기 위해 힘쓰고 있다. 동시에 다양한 세력을 위한 첨단 무기도 제공한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -1964,8 +2039,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 512,
-              "buildableMask": 3,
+              "professionMask": "PIONEER",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -1977,7 +2052,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -1993,7 +2069,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "커피 플레인, 도솔레스에 널리 알려진 오리지널 브랜드로 고객들에게 다양한 맛과 고품질의 커피를 제공하기 위해 힘쓰고 있다. 동시에 다양한 세력을 위한 첨단 무기도 제공한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -2009,8 +2085,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 32,
-              "buildableMask": 3,
+              "professionMask": "CASTER",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2022,7 +2098,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -2038,7 +2115,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "커피 플레인, 도솔레스에 널리 알려진 오리지널 브랜드로 고객들에게 다양한 맛과 고품질의 커피를 제공하기 위해 힘쓰고 있다. 동시에 다양한 세력을 위한 첨단 무기도 제공한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -2054,8 +2131,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 2,
-              "buildableMask": 3,
+              "professionMask": "SNIPER",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2067,7 +2144,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -2083,7 +2161,7 @@
       "itemUsage": "첸이 에르네스토의 의뢰를 받고 시내로 가서 얻은 일부 상품의 스티커. 스티커마다 다양한 무기 개조 서비스를 제공할 수 있다. 남은 스티커를 에르네스토에게 주면, 그가 다른 수집가에게 넘겨 처리할 것이다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 1,
+      "rarity": "LOW",
       "desc": "커피 플레인, 도솔레스에 널리 알려진 오리지널 브랜드로 고객들에게 다양한 맛과 고품질의 커피를 제공하기 위해 힘쓰고 있다. 동시에 다양한 세력을 위한 첨단 무기도 제공한다.",
       "price": 15,
       "specialObtainApproach": null,
@@ -2099,8 +2177,8 @@
           {
             "key": "out_favor_add",
             "selector": {
-              "professionMask": 16,
-              "buildableMask": 3,
+              "professionMask": "SUPPORT",
+              "buildableMask": "ALL",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2112,7 +2190,8 @@
             "blackboard": [
               {
                 "key": "out_favor",
-                "value": 0.1
+                "value": 0.1,
+                "valueStr": null
               }
             ]
           }
@@ -2128,7 +2207,7 @@
       "itemUsage": "에르네스토마저 처리하기 곤란한 스티커. 수집 가치가 별로 없거나, 판매하기 어렵기 때문이다. 다행인 것은 에르네스토는 사비를 털어서라도 구매하려고 한다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 0,
+      "rarity": "NONE",
       "desc": "도솔레스의 유흥업소에서 사용할 수 있는 대량으로 발행된 코인 중 하나다. 진실을 모르는 관광객을 속일 수 있다, 아마도……",
       "price": 9,
       "specialObtainApproach": null,
@@ -2148,8 +2227,8 @@
           {
             "key": "",
             "selector": {
-              "professionMask": 0,
-              "buildableMask": 0,
+              "professionMask": "NONE",
+              "buildableMask": "NONE",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2172,7 +2251,7 @@
       "itemUsage": "에르네스토마저 처리하기 곤란한 스티커. 수집 가치가 별로 없거나, 판매하기 어렵기 때문이다. 다행인 것은 에르네스토는 사비를 털어서라도 구매하려고 한다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 0,
+      "rarity": "NONE",
       "desc": "도솔레스에서 오래전에 발행한 합금 주화다. 주화 공장의 실수로 불량 화폐가 많지만, 수집가들에게 꽤 인기 있다.",
       "price": 12,
       "specialObtainApproach": null,
@@ -2192,8 +2271,8 @@
           {
             "key": "",
             "selector": {
-              "professionMask": 0,
-              "buildableMask": 0,
+              "professionMask": "NONE",
+              "buildableMask": "NONE",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2216,7 +2295,7 @@
       "itemUsage": "에르네스토마저 처리하기 곤란한 스티커. 수집 가치가 별로 없거나, 판매하기 어렵기 때문이다. 다행인 것은 에르네스토는 사비를 털어서라도 구매하려고 한다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍",
-      "rarity": 0,
+      "rarity": "NONE",
       "desc": "누가 1등을 뽑았느냐고? 당연히 나지! 도솔레스의 최대 복권 이벤트 1등 상. 당신의 운을 확인해보라!",
       "price": 18,
       "specialObtainApproach": null,
@@ -2236,8 +2315,8 @@
           {
             "key": "",
             "selector": {
-              "professionMask": 0,
-              "buildableMask": 0,
+              "professionMask": "NONE",
+              "buildableMask": "NONE",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
@@ -2260,7 +2339,7 @@
       "itemUsage": "에르네스토마저 처리하기 곤란한 스티커. 수집 가치가 별로 없거나, 판매하기 어렵기 때문이다. 다행인 것은 에르네스토는 사비를 털어서라도 구매하려고 한다.",
       "itemDesc": "이런 걸 수집하는 사람은 수집가 중에서도 프로라고 할 수 없는데, 절대 사람의 심심한 정도를 과소평가하지 말라.",
       "itemObtainApproach": "이벤트 스테이지 드랍, [명예 진열장] 보상",
-      "rarity": 3,
+      "rarity": "HIGH",
       "desc": "상류층 고객을 위한 양질의 커피인 에메랄디아 중 단연 최상급이다. 웃돈을 줘도 구하기 어려우며, 최고 권력자만이 얻을 자격이 있다.",
       "price": 100,
       "specialObtainApproach": "[명예 진열장] 보상",
@@ -2276,8 +2355,8 @@
           {
             "key": "",
             "selector": {
-              "professionMask": 0,
-              "buildableMask": 0,
+              "professionMask": "NONE",
+              "buildableMask": "NONE",
               "charIdFilter": null,
               "enemyIdFilter": null,
               "skillIdFilter": null,
