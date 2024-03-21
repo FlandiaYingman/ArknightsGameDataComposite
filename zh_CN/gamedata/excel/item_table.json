@@ -27412,7 +27412,40 @@
       "hideInItemGet": false,
       "classifyType": "NONE",
       "itemType": "ACTIVITY_ITEM",
-      "stageDropList": [],
+      "stageDropList": [
+        {
+          "stageId": "act17d0_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act17d0_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act17d0_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act17d0_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act17d0_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act17d0_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act17d0_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act17d0_08",
+          "occPer": "ALWAYS"
+        }
+      ],
       "buildingProductList": [],
       "voucherRelateList": null
     },
@@ -27464,6 +27497,24 @@
           "occPer": "ALWAYS"
         }
       ],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "uni_set_SargonFair_2": {
+      "itemId": "uni_set_SargonFair_2",
+      "name": "阿尔萨兰家具收藏包二",
+      "description": "在靠近焚风热土的阿尔萨兰地区，这样的陈设会给您的房间带来一丝温馨。",
+      "rarity": "TIER_5",
+      "iconId": "uni_set_SargonFair_2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "获得“阿尔萨兰旅行营帐”系列家具中属于“白水绿洲”、“旧座”两个套件组的家具。",
+      "obtainApproach": "在生息演算模式中获得",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "UNI_COLLECTION",
+      "stageDropList": [],
       "buildingProductList": [],
       "voucherRelateList": null
     }
@@ -28983,7 +29034,9 @@
     "furni_artmuseum_floor_01": 1,
     "char_4123_ela@rainbow6#2": 1,
     "char_4125_rdoc@rainbow6#2": 1,
-    "char_4124_iana@rainbow6#2": 1
+    "char_4124_iana@rainbow6#2": 1,
+    "furni_contract2_s2_01": 1,
+    "char_192_falco@marthe#6": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
@@ -30585,6 +30638,56 @@
         },
         {
           "id": "furni_NHL_floor_01",
+          "count": 1,
+          "type": "FURN"
+        }
+      ]
+    },
+    "uni_set_SargonFair_2": {
+      "uniCollectionItemId": "uni_set_SargonFair_2",
+      "uniqueItem": [
+        {
+          "id": "furni_SargonFair_ceiling_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_SargonFair_chair_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_SargonFair_stocktable_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_SargonFair_carpet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_SargonFair_clothshelf_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_SargonFair_brokencarpet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_SargonFair_stoneshelf_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_SargonFair_stockcart_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_SargonFair_chandelier_01",
           "count": 1,
           "type": "FURN"
         }
