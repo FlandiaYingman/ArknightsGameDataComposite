@@ -247,7 +247,7 @@
         "avatarType": "ACTIVITY",
         "avatarIdSort": 8,
         "avatarIdDesc": "【午间逸话】记录修复\\n“午间逸话”",
-        "avatarItemName": "“午间逸话“",
+        "avatarItemName": "“午间逸话”",
         "avatarItemDesc": "坐下休息一会，听听罗德岛上正在发生的故事。",
         "avatarItemUsage": "用来彰显个性的图案，能够将之设置为头像。",
         "obtainApproach": "记录修复获得"
@@ -558,7 +558,7 @@
         "avatarIdSort": 39,
         "avatarIdDesc": "【日暮寻路】记录修复\\n“日暮寻路”",
         "avatarItemName": "“日暮寻路”",
-        "avatarItemDesc": " 踌躇回望，斜阳烂漫。",
+        "avatarItemDesc": "踌躇回望，斜阳烂漫。",
         "avatarItemUsage": "用来彰显个性的图案，能够将之设置为头像。",
         "obtainApproach": "记录修复获得"
       },
@@ -1083,7 +1083,8 @@
         "obtainApproach": "默认投放",
         "unlockDesList": [],
         "isLimitObtain": false,
-        "hideWhenLimit": false
+        "hideWhenLimit": false,
+        "rarity": 4
       },
       {
         "id": "tm_rhodes_night",
@@ -1098,7 +1099,8 @@
           "博士声望等级达到50级"
         ],
         "isLimitObtain": false,
-        "hideWhenLimit": false
+        "hideWhenLimit": false,
+        "rarity": 4
       },
       {
         "id": "tm_rogue_3",
@@ -1113,7 +1115,8 @@
           "[集成战略]探索者的银凇止境奖励"
         ],
         "isLimitObtain": false,
-        "hideWhenLimit": false
+        "hideWhenLimit": false,
+        "rarity": 4
       },
       {
         "id": "tm_mainline_1",
@@ -1128,7 +1131,8 @@
           "限时战备支援活动奖励"
         ],
         "isLimitObtain": true,
-        "hideWhenLimit": false
+        "hideWhenLimit": false,
+        "rarity": 4
       },
       {
         "id": "tm_rainbowsix_1",
@@ -1143,7 +1147,8 @@
           "[采购中心]中购买安全演习纪念礼包获得"
         ],
         "isLimitObtain": true,
-        "hideWhenLimit": true
+        "hideWhenLimit": true,
+        "rarity": 5
       }
     ],
     "themeStartTime": 1696104000,
@@ -1170,6 +1175,32 @@
             "startTime": 1709784000,
             "endTime": 1712174399,
             "invalidObtainDesc": "暂未开放获取途径"
+          }
+        ]
+      }
+    },
+    "backgroundLimitData": {
+      "bg_kalts_1": {
+        "bgId": "bg_kalts_1",
+        "limitInfos": [
+          {
+            "limitInfoId": "bg_kalts_1#1",
+            "startTime": 1709784000,
+            "endTime": 1712808000,
+            "invalidObtainDesc": "暂无获取途径",
+            "displayAfterEndTime": false
+          }
+        ]
+      },
+      "bg_rainbowsix_1": {
+        "bgId": "bg_rainbowsix_1",
+        "limitInfos": [
+          {
+            "limitInfoId": "bg_rainbowsix_1#1",
+            "startTime": 1709784000,
+            "endTime": 1712808000,
+            "invalidObtainDesc": "暂无获取途径",
+            "displayAfterEndTime": false
           }
         ]
       }
@@ -1243,7 +1274,8 @@
           "module_avatar"
         ],
         "isTimeLimit": false,
-        "timeLimitInfoList": []
+        "timeLimitInfoList": [],
+        "rarity": 4
       },
       "nc_rhodes_light": {
         "id": "nc_rhodes_light",
@@ -1265,7 +1297,8 @@
           "module_avatar"
         ],
         "isTimeLimit": false,
-        "timeLimitInfoList": []
+        "timeLimitInfoList": [],
+        "rarity": 4
       }
     },
     "consts": {
