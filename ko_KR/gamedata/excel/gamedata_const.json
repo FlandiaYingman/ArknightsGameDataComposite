@@ -978,7 +978,11 @@
     "ro3.greent": "<color=#4ffaa5>{0}</color>",
     "ro3.bluet": "<color=#0085ff>{0}</color>",
     "ro3.bosst": "<color=#ffffff>{0}</color>",
-    "lv.act20sre": "<color=#F7BC44>{0}</color>"
+    "lv.act20sre": "<color=#F7BC44>{0}</color>",
+    "crisisv2.nag": "<color=#ea9818>{0}</color>",
+    "crisisv2.pos": "<color=#16acaa>{0}</color>",
+    "crisisv2.cra": "<color=#d7181c>{0}</color>",
+    "cc.miu": "<color=#8F7156>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1367,7 +1371,7 @@
     "cc.tag.knight": {
       "termId": "cc.tag.knight",
       "termName": "기사",
-      "description": "다음 오퍼레이터 포함\n니어 더 래디언트 나이트, 니어, 블레미샤인, 위슬래시, 플레임테일, 파투스, 애쉬락, 와일드메인, 저스티스 나이트, 그라벨"
+      "description": "다음 오퍼레이터 포함\n니어 더 래디언트 나이트, 니어, 블레미샤인, 위슬래시, 플레임테일, 파투스, 애쉬락, 와일드메인, 저스티스 나이트, 그라벨, 비비아나"
     },
     "cc.g.karlan": {
       "termId": "cc.g.karlan",
@@ -1432,7 +1436,7 @@
     "cc.bd_B": {
       "termId": "cc.bd_B",
       "termName": "침묵의 공명",
-      "description": "<$cc.bd_B_1><@cc.rem>배회하는 멜로디</></>, <$cc.bd_B_2><@cc.rem>서글픈 하모니</></> 관련 스킬에 영향\n다음 오퍼레이터의 인프라 스킬에서 제공\n에벤홀츠"
+      "description": "<$cc.bd_B_1><@cc.rem>배회하는 멜로디</></>, <$cc.bd_B_2><@cc.rem>서글픈 하모니</></>, <$cc.bd_B_3><@cc.rem>무언의 찬가</></> 관련 스킬에 영향\n다음 오퍼레이터의 인프라 스킬에서 제공\n에벤홀츠, 비르투오사, 베이스라인"
     },
     "cc.bd_a1_a3": {
       "termId": "cc.bd_a1_a3",
@@ -1497,7 +1501,7 @@
     "cc.c.skill": {
       "termId": "cc.c.skill",
       "termName": "일부 스킬",
-      "description": "다음 스킬 포함\n오른팔, S.W.E.E.P, 간식 네트워크, 처분 협의, 대리인, 필요책임, 호위, 꼬마 리더, 독선기신, 봄날 같은 웃음"
+      "description": "다음 스킬 포함\n오른팔, S.W.E.E.P, 간식 네트워크, 처분 협의, 대리인, 필요책임, 호위, 꼬마 리더, 독선기신, 봄날 같은 웃음, 금잔화 시회"
     },
     "cc.sk.manu3": {
       "termId": "cc.sk.manu3",
@@ -1598,14 +1602,19 @@
       "termId": "cc.g.bs",
       "termName": "블랙스틸 월드와이드",
       "description": "다음 오퍼레이터 포함\n리스캄, 프란카, 제시카, 바닐라, 아몬드"
+    },
+    "cc.c.room3": {
+      "termId": "cc.c.room3",
+      "termName": "작업 시설",
+      "description": "다음 시설 포함\n발전소, 제조소, 무역소, 사무실, 응접실, 제어 센터, 훈련실"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "기록 조각이 부족합니다. 증명서 상점 또는 이벤트 기간에 열리는 상점을 통해 교환할 수 있습니다.",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "36.3.0",
-  "resPrefVersion": "42d0d0",
+  "dataVersion": "37.1.0",
+  "resPrefVersion": "43d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS에 해당 스테이지의 하위 난이도 작전 환경에서 3★ 평가를 받지 못한 것이 탐지되어, <color=#fe6435>작전 난이도 호환</color> 모드가 자동으로 적용됩니다.\n작전 난이도 호환 모드에서 해당 스테이지를 도전하면 현재 난이도와 하위 난이도의 필요 이성을 <color=#fe6435>동시에 소모</color>하게 되며, 클리어 후 <color=#fe6435>작전 진행도의 동기화</color>뿐만 아니라, 하위 난이도의 보상도 <color=#fe6435>함께 획득</color>하게 됩니다.",
   "mainlineToughDesc": "도전적인 플레이 환경\n3★ 평가의 첫 클리어 보상에는 순오리지늄이 포함됩니다\n또한, 난이도가 높은 추가 스테이지도 포함됩니다",
@@ -1683,6 +1692,11 @@
     "chainhealer": "HEAL",
     "crusher": "PHYSICAL",
     "ritualist": "MAGICAL",
-    "hunter": "PHYSICAL"
-  }
+    "hunter": "PHYSICAL",
+    "primcaster": "MAGICAL",
+    "loopshooter": "PHYSICAL"
+  },
+  "defaultMinContinuousBattleTimes": 1,
+  "defaultMaxContinuousBattleTimes": 6,
+  "continuousActionOpen": false
 }
