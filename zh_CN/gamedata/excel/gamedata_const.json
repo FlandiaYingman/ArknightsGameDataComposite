@@ -996,7 +996,9 @@
     "dm.award": "<color=#36BBCC>{0}</color>",
     "dm.condition": "<color=#C9C9C9>{0}</color>",
     "tutor": "<color=#36BBCC>{0}</color>",
-    "lv.muitem": "<color=#D4133C>{0}</color>"
+    "lv.muitem": "<color=#D4133C>{0}</color>",
+    "ro4.lose": "<color=#FF6E6E>{0}</color>",
+    "ro4.get": "<color=#28bfe5>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1661,14 +1663,24 @@
       "termId": "cc.g.A1",
       "termName": "A1小队",
       "description": "包含以下干员\n芙蓉、炎熔、米格鲁、芬、克洛丝"
+    },
+    "ba.fear": {
+      "termId": "ba.fear",
+      "termName": "恐惧",
+      "description": "无法被阻挡并四散逃跑"
+    },
+    "ba.addash": {
+      "termId": "ba.addash",
+      "termName": "移动",
+      "description": "不退场，以当前血量在目标位置部署"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "51.9.0",
-  "resPrefVersion": "51d0d0",
+  "dataVersion": "52.0.0",
+  "resPrefVersion": "52d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS检测到该关卡对应更低作战环境未获得三星评价，将自动开启<color=#fe6435>环境难度兼容</color>；\n环境难度兼容状态下挑战该关卡将<color=#fe6435>同时消耗</color>该环境与更低环境的理智，通关后则<color=#fe6435>会同步作战进度，并同时获得</color>该环境与更低环境的报酬奖励",
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
@@ -1749,7 +1761,8 @@
     "hunter": "PHYSICAL",
     "primcaster": "MAGICAL",
     "loopshooter": "PHYSICAL",
-    "hammer": "PHYSICAL"
+    "hammer": "PHYSICAL",
+    "alchemist": "PHYSICAL"
   },
   "defaultMinContinuousBattleTimes": 1,
   "defaultMaxContinuousBattleTimes": 6,

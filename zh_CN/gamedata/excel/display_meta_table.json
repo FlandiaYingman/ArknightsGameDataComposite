@@ -733,6 +733,26 @@
         "obtainApproach": "记录修复获得"
       },
       {
+        "avatarId": "avatar_activity_DV",
+        "avatarType": "ACTIVITY",
+        "avatarIdSort": 47,
+        "avatarIdDesc": "【绿野幻梦】记录修复\\n“绿野幻梦”",
+        "avatarItemName": "“绿野幻梦”",
+        "avatarItemDesc": "数据，实验，科学......只为编织成美梦与家园。",
+        "avatarItemUsage": "用来彰显个性的图案，能够将之设置为头像。",
+        "obtainApproach": "记录修复获得"
+      },
+      {
+        "avatarId": "avatar_activity_RL4_1",
+        "avatarType": "ACTIVITY",
+        "avatarIdSort": 49,
+        "avatarIdDesc": "参与无终奇语签到活动获得\\n“勇闯天涯”",
+        "avatarItemName": "“勇闯天涯”",
+        "avatarItemDesc": "它刚刚爬上了纸箱，它还想爬上山巅。",
+        "avatarItemUsage": "用来彰显个性的图案，能够将之设置为头像。",
+        "obtainApproach": "签到活动获得"
+      },
+      {
         "avatarId": "avatar_def_01",
         "avatarType": "DEFAULT",
         "avatarIdSort": 1,
@@ -940,7 +960,9 @@
           "avatar_activity_CR",
           "avatar_activity_SN",
           "avatar_activity_EP14",
-          "avatar_activity_LE"
+          "avatar_activity_LE",
+          "avatar_activity_DV",
+          "avatar_activity_RL4_1"
         ]
       },
       "DEFAULT": {
@@ -1416,6 +1438,10 @@
       "module_avatar": {
         "id": "module_avatar",
         "type": "AVATAR"
+      },
+      "module_avatar_simple": {
+        "id": "module_avatar_simple",
+        "type": "AVATAR_SIMPLE"
       }
     },
     "removableModuleData": {
@@ -1464,11 +1490,16 @@
           "module_background",
           "module_illust",
           "module_collect",
-          "module_avatar"
+          "module_avatar",
+          "module_avatar_simple"
         ],
         "isTimeLimit": false,
         "timeLimitInfoList": [],
-        "rarity": 4
+        "rarity": 4,
+        "isSpTheme": false,
+        "defaultShowDetail": true,
+        "themeName": "",
+        "themeEnName": ""
       },
       "nc_rhodes_light": {
         "id": "nc_rhodes_light",
@@ -1487,11 +1518,16 @@
           "module_background",
           "module_illust",
           "module_collect",
-          "module_avatar"
+          "module_avatar",
+          "module_avatar_simple"
         ],
         "isTimeLimit": false,
         "timeLimitInfoList": [],
-        "rarity": 4
+        "rarity": 4,
+        "isSpTheme": false,
+        "defaultShowDetail": true,
+        "themeName": "",
+        "themeEnName": ""
       },
       "nc_sandbox_1": {
         "id": "nc_sandbox_1",
@@ -1510,11 +1546,16 @@
           "module_background",
           "module_illust",
           "module_collect",
-          "module_avatar"
+          "module_avatar",
+          "module_avatar_simple"
         ],
         "rarity": 4,
         "isTimeLimit": false,
-        "timeLimitInfoList": []
+        "timeLimitInfoList": [],
+        "isSpTheme": false,
+        "defaultShowDetail": true,
+        "themeName": "",
+        "themeEnName": ""
       },
       "nc_sports_1": {
         "id": "nc_sports_1",
@@ -1533,7 +1574,8 @@
           "module_background",
           "module_illust",
           "module_collect",
-          "module_avatar"
+          "module_avatar",
+          "module_avatar_simple"
         ],
         "rarity": 4,
         "isTimeLimit": true,
@@ -1543,7 +1585,11 @@
             "availStartTime": 1715760000,
             "availEndTime": 1717185600
           }
-        ]
+        ],
+        "isSpTheme": false,
+        "defaultShowDetail": true,
+        "themeName": "",
+        "themeEnName": ""
       }
     },
     "consts": {
