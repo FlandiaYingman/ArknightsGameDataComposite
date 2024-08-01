@@ -982,7 +982,9 @@
     "crisisv2.nag": "<color=#ea9818>{0}</color>",
     "crisisv2.pos": "<color=#16acaa>{0}</color>",
     "crisisv2.cra": "<color=#d7181c>{0}</color>",
-    "cc.miu": "<color=#8F7156>{0}</color>"
+    "cc.miu": "<color=#8F7156>{0}</color>",
+    "lv.description": "<color=#d8d769>{0}</color>",
+    "lv.extrades": "<color=#d8d769>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1071,7 +1073,7 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597129200,
-  "recruitPoolVersion": 15,
+  "recruitPoolVersion": 16,
   "TSO": 1608188400,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
@@ -1171,7 +1173,7 @@
     "cc.bd_a1": {
       "termId": "cc.bd_a1",
       "termName": "감지 정보",
-      "description": "<$cc.bd_A><@cc.rem>생각의 사슬</></>, <$cc.bd_B><@cc.rem>침묵의 공명</></> 관련 변수에 영향\n다음 오퍼레이터의 인프라 스킬에서 제공\n로즈몬티스, 에벤홀츠, 시, 링, 위스퍼레인, 아이리스, 체르니"
+      "description": "<$cc.bd_A><@cc.rem>생각의 사슬</></>, <$cc.bd_B><@cc.rem>무성의 공명</></> 관련 변수에 영향\n다음 오퍼레이터의 인프라 스킬에서 제공\n로즈몬티스, 에벤홀츠, 시, 링, 위스퍼레인, 아이리스, 체르니"
     },
     "cc.bd_b1": {
       "termId": "cc.bd_b1",
@@ -1291,7 +1293,7 @@
     "cc.g.R6": {
       "termId": "cc.g.R6",
       "termName": "레인보우 팀",
-      "description": "다음 오퍼레이터 포함\nAsh, Tachanka, Blitz, Frost"
+      "description": "다음 오퍼레이터 포함\nAsh, Tachanka, Blitz, Frost, Ela, Doc, Iana, Fuze"
     },
     "cc.g.sp": {
       "termId": "cc.g.sp",
@@ -1381,7 +1383,7 @@
     "cc.g.sui": {
       "termId": "cc.g.sui",
       "termName": "쉐이",
-      "description": "다음 오퍼레이터 포함\n니엔, 시, 링, 총웨"
+      "description": "다음 오퍼레이터 포함\n니엔, 시, 링, 총웨, 슈"
     },
     "cc.w.ncdeer1": {
       "termId": "cc.w.ncdeer1",
@@ -1435,7 +1437,7 @@
     },
     "cc.bd_B": {
       "termId": "cc.bd_B",
-      "termName": "침묵의 공명",
+      "termName": "무성의 공명",
       "description": "<$cc.bd_B_1><@cc.rem>배회하는 멜로디</></>, <$cc.bd_B_2><@cc.rem>서글픈 하모니</></>, <$cc.bd_B_3><@cc.rem>무언의 찬가</></> 관련 스킬에 영향\n다음 오퍼레이터의 인프라 스킬에서 제공\n에벤홀츠, 비르투오사, 베이스라인"
     },
     "cc.bd_a1_a3": {
@@ -1501,7 +1503,7 @@
     "cc.c.skill": {
       "termId": "cc.c.skill",
       "termName": "일부 스킬",
-      "description": "다음 스킬 포함\n오른팔, S.W.E.E.P, 간식 네트워크, 처분 협의, 대리인, 필요책임, 호위, 꼬마 리더, 독선기신, 봄날 같은 웃음, 금잔화 시회"
+      "description": "다음 스킬 포함\n오른팔, S.W.E.E.P, 간식 네트워크, 처분 협의, 대리인, 필요책임, 호위, 꼬마 리더, 독선기신, 봄날 같은 웃음, 금잔화 시회, 수호의 길"
     },
     "cc.sk.manu3": {
       "termId": "cc.sk.manu3",
@@ -1622,14 +1624,19 @@
       "termId": "ba.dt.burning2",
       "termName": "소각 피해 (아군)",
       "description": "최대치 도달 시 폭발(일반, 정예인 경우 1000, 리더인 경우 2000), 적에게 즉시 7000의 원소 대미지를 입히며 그동안 마법 저항 -20, 쿨타임 10초"
+    },
+    "cc.t.accmuguard1": {
+      "termId": "cc.t.accmuguard1",
+      "termName": "무도",
+      "description": "스킬 마스터리 훈련을 협조해 1레벨 도달 시 <@cc.kw>1</> 누적, 2레벨 도달 시 <@cc.kw>2</> 누적, 3레벨 도달 시 <@cc.kw>3</> 누적, 최대 <@cc.kw>3</>까지 누적 (협조자의 컨디션이 0인 경우, 누적 또는 소모 불가)"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "기록 조각이 부족합니다. 증명서 상점 또는 이벤트 기간에 열리는 상점을 통해 교환할 수 있습니다.",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "38.2.0",
-  "resPrefVersion": "45d8d0",
+  "dataVersion": "39.1.0",
+  "resPrefVersion": "47d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS에 해당 스테이지의 하위 난이도 작전 환경에서 3★ 평가를 받지 못한 것이 탐지되어, <color=#fe6435>작전 난이도 호환</color> 모드가 자동으로 적용됩니다.\n작전 난이도 호환 모드에서 해당 스테이지를 도전하면 현재 난이도와 하위 난이도의 필요 이성을 <color=#fe6435>동시에 소모</color>하게 되며, 클리어 후 <color=#fe6435>작전 진행도의 동기화</color>뿐만 아니라, 하위 난이도의 보상도 <color=#fe6435>함께 획득</color>하게 됩니다.",
   "mainlineToughDesc": "도전적인 플레이 환경\n3★ 평가의 첫 클리어 보상에는 순오리지늄이 포함됩니다\n또한, 난이도가 높은 추가 스테이지도 포함됩니다",
@@ -1713,5 +1720,12 @@
   },
   "defaultMinContinuousBattleTimes": 1,
   "defaultMaxContinuousBattleTimes": 6,
-  "continuousActionOpen": true
+  "continuousActionOpen": true,
+  "isSandboxPermFuncEnabled": true,
+  "classicProtectChar": [
+    "char_252_bibeak",
+    "char_336_folivo",
+    "char_402_tuye",
+    "char_4043_erato"
+  ]
 }
