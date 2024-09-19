@@ -20673,6 +20673,54 @@
       }
     },
     {
+      "tagId": "tag_591",
+      "displayType": "block_1_1",
+      "tagName": "雷神推进者/III",
+      "itemTag": "DEADLINE",
+      "orderNum": 1001,
+      "startDatetime": 1726732800,
+      "endDatetime": 1727899199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag591_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_591",
+        "text": "咳、咳咳......冰酿开车总是这样狂飙吗？！她完全不介意自己的新衣服上沾上沙尘啊！"
+      },
+      "templateType": "NORSKIN",
+      "templateParam": {
+        "normalGiftParam": null,
+        "normalSkinParam": {
+          "showStartTs": 1726732800,
+          "showEndTs": 1727899199,
+          "skinIds": [
+            "char_4104_coldst@striker#3"
+          ],
+          "skinGroupName": "雷神推进者/III",
+          "brandIconId": "striker",
+          "colorBack": "ae3e56",
+          "colorText": "ececec",
+          "text": "时装限时上架"
+        },
+        "normalFurnParam": null,
+        "returnSkinParam": null
+      }
+    },
+    {
       "tagId": "tag_586",
       "displayType": "block_1",
       "tagName": "迷宫饭",
@@ -21207,6 +21255,53 @@
           "colorBack": "#ff8e3b",
           "colorText": "313131",
           "actId": "act36side"
+        },
+        "returnSkinParam": null
+      }
+    },
+    {
+      "tagId": "tag_593",
+      "displayType": "block_1_3",
+      "tagName": "黑钢国际安全屋",
+      "itemTag": "DEADLINE",
+      "orderNum": 3002,
+      "startDatetime": 1726732800,
+      "endDatetime": 1727899199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag593_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "BSsafehouse_2023",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_593",
+        "text": "悄悄告诉你，黑钢的小家具用的都是复合材料哦。听说都是用工厂里的余料做的。质量嘛，你当然可以放心，一分价钱一分货嘛，哈哈~"
+      },
+      "templateType": "NORFURN",
+      "templateParam": {
+        "normalGiftParam": null,
+        "normalSkinParam": null,
+        "normalFurnParam": {
+          "showStartTs": 1726732800,
+          "showEndTs": 1727899199,
+          "furnPackId": "furni_set_BSsafehouse",
+          "isNew": false,
+          "isPackSell": false,
+          "count": 4,
+          "colorBack": "#ffdd00",
+          "colorText": "313131",
+          "actId": "act28sre"
         },
         "returnSkinParam": null
       }
@@ -32574,6 +32669,37 @@
     {
       "items": [
         {
+          "spriteId": "shop_coldst_striker#3",
+          "startTime": 1726732800,
+          "endTime": 1727899199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_4104_coldst@striker#3",
+          "skinId": "char_4104_coldst@striker#3",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_leizi_game#3",
+          "startTime": 1725249600,
+          "endTime": 1726430399,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_306_leizi@game#3",
+          "skinId": "char_306_leizi@game#3",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_kroos2_game#3",
+          "startTime": 1725249600,
+          "endTime": 1726430399,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_1021_kroos2@game#3",
+          "skinId": "char_1021_kroos2@game#3",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_chimes_yun#5",
           "startTime": 1726344000,
           "endTime": 1728158399,
@@ -32598,6 +32724,24 @@
           "cmd": "SKINSHOP",
           "param1": "SS_char_1021_kroos2@game#3",
           "skinId": "char_1021_kroos2@game#3",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_207",
+          "startTime": 1722484800,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_207",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop2",
+          "startTime": 1548727200,
+          "endTime": 1924891199,
+          "cmd": "GIFTPACKAGE",
+          "param1": null,
+          "skinId": "",
           "furniId": ""
         }
       ]
@@ -32661,42 +32805,6 @@
           "param1": "SS_char_4106_bryota@epoque#34",
           "skinId": "char_4106_bryota@epoque#34",
           "furniId": ""
-        },
-        {
-          "spriteId": "shop_Once_214",
-          "startTime": 1725249600,
-          "endTime": 1726430399,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_214",
-          "skinId": "",
-          "furniId": ""
-        },
-        {
-          "spriteId": "shop_Once_105",
-          "startTime": 1688616000,
-          "endTime": 1722484799,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_105",
-          "skinId": "",
-          "furniId": ""
-        },
-        {
-          "spriteId": "shop_Once_207",
-          "startTime": 1722484800,
-          "endTime": 1916078399,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_207",
-          "skinId": "",
-          "furniId": ""
-        },
-        {
-          "spriteId": "shop2",
-          "startTime": 1548727200,
-          "endTime": 1924891199,
-          "cmd": "GIFTPACKAGE",
-          "param1": null,
-          "skinId": "",
-          "furniId": ""
         }
       ]
     },
@@ -32708,6 +32816,15 @@
           "endTime": 1728158399,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Once_212",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_214",
+          "startTime": 1725249600,
+          "endTime": 1726430399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_214",
           "skinId": "",
           "furniId": ""
         }
@@ -32745,15 +32862,6 @@
           "param1": "GP_Once_216",
           "skinId": "",
           "furniId": ""
-        },
-        {
-          "spriteId": "shop_Once_218",
-          "startTime": 1725249600,
-          "endTime": 1727639999,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_218",
-          "skinId": "",
-          "furniId": ""
         }
       ]
     },
@@ -32765,6 +32873,15 @@
           "endTime": 1727639999,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Once_217",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_218",
+          "startTime": 1725249600,
+          "endTime": 1727639999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_218",
           "skinId": "",
           "furniId": ""
         }
@@ -32802,19 +32919,6 @@
           "param1": "GP_Once_215",
           "skinId": "",
           "furniId": ""
-        }
-      ]
-    },
-    {
-      "items": [
-        {
-          "spriteId": "shop_Once_220",
-          "startTime": 1725249600,
-          "endTime": 1727639999,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_220",
-          "skinId": "",
-          "furniId": ""
         },
         {
           "spriteId": "shop_Condition_2",
@@ -32830,6 +32934,19 @@
     {
       "items": [
         {
+          "spriteId": "shop_Once_220",
+          "startTime": 1725249600,
+          "endTime": 1727639999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_220",
+          "skinId": "",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_rhodesKitchen_2024",
           "startTime": 1725249600,
           "endTime": 1726430399,
@@ -32837,19 +32954,6 @@
           "param1": "rhodesKitchen_2024",
           "skinId": "",
           "furniId": "rhodesKitchen_2024"
-        }
-      ]
-    },
-    {
-      "items": [
-        {
-          "spriteId": "shop_Condition_1",
-          "startTime": 1688616000,
-          "endTime": 1916078399,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Condition_1",
-          "skinId": "",
-          "furniId": ""
         },
         {
           "spriteId": "shop_Condition_2",
@@ -32892,11 +32996,69 @@
     {
       "items": [
         {
+          "spriteId": "shop_Condition_1",
+          "startTime": 1688616000,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_1",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Condition_2",
+          "startTime": 1688616000,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_2",
+          "skinId": "",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_Condition_3",
           "startTime": 1688616000,
           "endTime": 1916078399,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Condition_3",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_106",
+          "startTime": 1688616000,
+          "endTime": 1924891199,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_106",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_105",
+          "startTime": 1688616000,
+          "endTime": 1722484799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_105",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_207",
+          "startTime": 1722484800,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_207",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop2",
+          "startTime": 1548727200,
+          "endTime": 1924891199,
+          "cmd": "GIFTPACKAGE",
+          "param1": null,
           "skinId": "",
           "furniId": ""
         }
