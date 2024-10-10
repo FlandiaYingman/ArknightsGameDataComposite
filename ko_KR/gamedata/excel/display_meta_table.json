@@ -593,6 +593,16 @@
         "obtainApproach": "출석 이벤트 획득"
       },
       {
+        "avatarId": "avatar_activity_SN",
+        "avatarType": "ACTIVITY",
+        "avatarIdSort": 43,
+        "avatarIdDesc": "[스툴티페라 나비스] 기록 복원\n'스툴티페라 나비스'",
+        "avatarItemName": "'스툴티페라 나비스'",
+        "avatarItemDesc": "다시금 불이 밝혀진 해안의 등대, 과거의 황금이 물속으로 가라앉는 것을 지켜본다.",
+        "avatarItemUsage": "개성을 과시하는 이미지. 프로필로 설정할 수 있습니다.",
+        "obtainApproach": "기록 복원 획득"
+      },
+      {
         "avatarId": "avatar_def_01",
         "avatarType": "DEFAULT",
         "avatarIdSort": 1,
@@ -796,7 +806,8 @@
           "avatar_activity_AW",
           "avatar_activity_GA",
           "avatar_activity_XB1_1",
-          "avatar_activity_CR"
+          "avatar_activity_CR",
+          "avatar_activity_SN"
         ]
       },
       "DEFAULT": {
@@ -1007,9 +1018,10 @@
         "bgMusicId": "music_bg_rhine",
         "bgDes": "눈을 감고 식물들의 소리를 들어보세요. 정령이 말하길, 그들이 당신을 환영한다고 합니다.",
         "bgUsage": "한 장의 사진, 한 편의 추억. 테라의 어느 순간이 담겨 있습니다.",
-        "obtainApproach": "이벤트 보상",
+        "obtainApproach": "상주 이벤트 클리어",
         "unlockDesList": [
-          "미래서곡 이벤트에서 획득"
+          "3★ 평가로 도로시의 비전 DV-8 클리어",
+          "3★ 평가로 론 트레일 CW-10 클리어"
         ]
       },
       {
@@ -1069,7 +1081,8 @@
         "obtainApproach": "디폴트",
         "unlockDesList": [],
         "isLimitObtain": false,
-        "hideWhenLimit": false
+        "hideWhenLimit": false,
+        "rarity": 4
       },
       {
         "id": "tm_rhodes_night",
@@ -1084,7 +1097,8 @@
           "명성 50레벨 달성"
         ],
         "isLimitObtain": false,
-        "hideWhenLimit": false
+        "hideWhenLimit": false,
+        "rarity": 4
       },
       {
         "id": "tm_rogue_3",
@@ -1099,7 +1113,8 @@
           "[통합 전략] 탐험가의 은빛 서리 끝자락 보상"
         ],
         "isLimitObtain": false,
-        "hideWhenLimit": false
+        "hideWhenLimit": false,
+        "rarity": 4
       },
       {
         "id": "tm_mainline_1",
@@ -1114,7 +1129,8 @@
           "기간 한정 작전 지원 이벤트 보상"
         ],
         "isLimitObtain": true,
-        "hideWhenLimit": false
+        "hideWhenLimit": false,
+        "rarity": 4
       },
       {
         "id": "tm_rainbowsix_1",
@@ -1129,7 +1145,8 @@
           "[구매센터]에서 보안 훈련 기념 패키지 구매 시 획득"
         ],
         "isLimitObtain": true,
-        "hideWhenLimit": true
+        "hideWhenLimit": true,
+        "rarity": 5
       }
     ],
     "themeLimitData": {
@@ -1154,7 +1171,21 @@
         ]
       }
     },
-    "themeStartTime": 1713232800
+    "themeStartTime": 1713232800,
+    "backgroundLimitData": {
+      "bg_rainbowsix_1": {
+        "bgId": "bg_rainbowsix_1",
+        "limitInfos": [
+          {
+            "limitInfoId": "bg_rainbowsix_1#1",
+            "startTime": 1725519600,
+            "endTime": 1727895599,
+            "invalidObtainDesc": "획득처 미개방",
+            "displayAfterEndTime": false
+          }
+        ]
+      }
+    }
   },
   "nameCardV2Data": {
     "fixedModuleData": {
@@ -1224,7 +1255,8 @@
           "module_avatar"
         ],
         "isTimeLimit": false,
-        "timeLimitInfoList": []
+        "timeLimitInfoList": [],
+        "rarity": 4
       },
       "nc_rhodes_light": {
         "id": "nc_rhodes_light",
@@ -1246,7 +1278,8 @@
           "module_avatar"
         ],
         "isTimeLimit": false,
-        "timeLimitInfoList": []
+        "timeLimitInfoList": [],
+        "rarity": 4
       }
     },
     "consts": {
