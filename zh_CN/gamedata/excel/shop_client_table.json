@@ -22339,6 +22339,38 @@
       "templateParam": null
     },
     {
+      "tagId": "tag_615",
+      "displayType": "block_1",
+      "tagName": "0011/飙系列/VII",
+      "itemTag": "DEADLINE",
+      "orderNum": 1001,
+      "startDatetime": 1732521600,
+      "endDatetime": 1733687999,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag615_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_615",
+        "text": "博士，快看，止颂这身新衣服怎么样？他可从来没有尝试过这种风格，但驾驭得很不错嘛！"
+      },
+      "templateType": "DEFAULT",
+      "templateParam": null
+    },
+    {
       "tagId": "tag_616",
       "displayType": "block_1_4",
       "tagName": "术师芯片礼包",
@@ -23180,6 +23212,100 @@
           "colorBack": "#81322a",
           "colorText": "ffffff",
           "actId": "act38side"
+        },
+        "returnSkinParam": null
+      }
+    },
+    {
+      "tagId": "tag_635",
+      "displayType": "block_1_3",
+      "tagName": "秋日乐器行",
+      "itemTag": "DEADLINE",
+      "orderNum": 3003,
+      "startDatetime": 1732521600,
+      "endDatetime": 1733687999,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag635_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "musicalStore_2023",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_635",
+        "text": "莱塔尼亚乐器种类繁多，总有一款你可以演奏——不用源石技艺也可以。"
+      },
+      "templateType": "NORFURN",
+      "templateParam": {
+        "normalGiftParam": null,
+        "normalSkinParam": null,
+        "normalFurnParam": {
+          "showStartTs": 1732521600,
+          "showEndTs": 1733687999,
+          "furnPackId": "furni_set_musicalStore",
+          "isNew": false,
+          "isPackSell": true,
+          "count": 0,
+          "colorBack": "#ffd649",
+          "colorText": "313131",
+          "actId": null
+        },
+        "returnSkinParam": null
+      }
+    },
+    {
+      "tagId": "tag_636",
+      "displayType": "block_1_3",
+      "tagName": "路德维格大学讲演厅",
+      "itemTag": "DEADLINE",
+      "orderNum": 3004,
+      "startDatetime": 1732521600,
+      "endDatetime": 1733687999,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag636_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "magicAcademy_2023",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_636",
+        "text": "仰慕已久的求知殿堂，好像光是踏进来就能获得启迪呢！"
+      },
+      "templateType": "NORFURN",
+      "templateParam": {
+        "normalGiftParam": null,
+        "normalSkinParam": null,
+        "normalFurnParam": {
+          "showStartTs": 1732521600,
+          "showEndTs": 1733687999,
+          "furnPackId": "furni_set_magicAcademy",
+          "isNew": false,
+          "isPackSell": false,
+          "count": 5,
+          "colorBack": "#d44129",
+          "colorText": "ffffff",
+          "actId": "act29sre"
         },
         "returnSkinParam": null
       }
@@ -35092,6 +35218,28 @@
     {
       "items": [
         {
+          "spriteId": "shop_lessng_whirlwind#7",
+          "startTime": 1732521600,
+          "endTime": 1733687999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_4011_lessng@whirlwind#7",
+          "skinId": "char_4011_lessng@whirlwind#7",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_excu2_sale#12",
+          "startTime": 1730433600,
+          "endTime": 1732823999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_1032_excu2@sale#12",
+          "skinId": "char_1032_excu2@sale#12",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_cello_sale#12",
           "startTime": 1730433600,
           "endTime": 1732823999,
@@ -35120,19 +35268,6 @@
           "cmd": "SKINSHOP",
           "param1": "SS_char_1028_texas2@epoque#36",
           "skinId": "char_1028_texas2@epoque#36",
-          "furniId": ""
-        }
-      ]
-    },
-    {
-      "items": [
-        {
-          "spriteId": "shop_warmy_winter#4",
-          "startTime": 1730433600,
-          "endTime": 1732823999,
-          "cmd": "SKINSHOP",
-          "param1": "SS_char_4081_warmy@winter#4",
-          "skinId": "char_4081_warmy@winter#4",
           "furniId": ""
         },
         {
@@ -35168,6 +35303,28 @@
           "endTime": 1924891199,
           "cmd": "GIFTPACKAGE",
           "param1": null,
+          "skinId": "",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_warmy_winter#4",
+          "startTime": 1730433600,
+          "endTime": 1732823999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_4081_warmy@winter#4",
+          "skinId": "char_4081_warmy@winter#4",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_240",
+          "startTime": 1730433600,
+          "endTime": 1732823999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_240",
           "skinId": "",
           "furniId": ""
         }
@@ -35212,6 +35369,33 @@
           "endTime": 1732823999,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Once_240",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_234",
+          "startTime": 1730433600,
+          "endTime": 1732823999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_234",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_233",
+          "startTime": 1730433600,
+          "endTime": 1732823999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_233",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_232",
+          "startTime": 1730433600,
+          "endTime": 1732823999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_232",
           "skinId": "",
           "furniId": ""
         }
@@ -35391,6 +35575,24 @@
           "param1": "carnival_2024",
           "skinId": "",
           "furniId": "carnival_2024"
+        },
+        {
+          "spriteId": "shop_Condition_4",
+          "startTime": 1730433600,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_4",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Condition_2",
+          "startTime": 1688616000,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_2",
+          "skinId": "",
+          "furniId": ""
         }
       ]
     },
@@ -35451,6 +35653,24 @@
           "endTime": 1916078399,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Condition_2",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_207",
+          "startTime": 1722484800,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_207",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop2",
+          "startTime": 1548727200,
+          "endTime": 1924891199,
+          "cmd": "GIFTPACKAGE",
+          "param1": null,
           "skinId": "",
           "furniId": ""
         }
