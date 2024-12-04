@@ -64,7 +64,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             },
             {
@@ -92,7 +93,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             }
           ],
@@ -128,7 +130,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             },
             {
@@ -156,7 +159,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             }
           ],
@@ -208,7 +212,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             },
             {
@@ -236,7 +241,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             }
           ],
@@ -452,7 +458,8 @@
                   "valueStr": null
                 }
               ],
-              "tokenKey": null
+              "tokenKey": null,
+              "isHideTalent": false
             },
             {
               "unlockCondition": {
@@ -476,7 +483,8 @@
                   "valueStr": null
                 }
               ],
-              "tokenKey": null
+              "tokenKey": null,
+              "isHideTalent": false
             }
           ]
         }
@@ -624,7 +632,8 @@
             "sleepImmune": false,
             "frozenImmune": false,
             "levitateImmune": false,
-            "disarmedCombatImmune": false
+            "disarmedCombatImmune": false,
+            "fearedImmune": false
           }
         },
         {
@@ -652,7 +661,8 @@
             "sleepImmune": false,
             "frozenImmune": false,
             "levitateImmune": false,
-            "disarmedCombatImmune": false
+            "disarmedCombatImmune": false,
+            "fearedImmune": false
           }
         }
       ],
@@ -855,7 +865,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             },
             {
@@ -883,7 +894,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             }
           ],
@@ -919,7 +931,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             },
             {
@@ -947,7 +960,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             }
           ],
@@ -999,7 +1013,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             },
             {
@@ -1027,7 +1042,8 @@
                 "sleepImmune": false,
                 "frozenImmune": false,
                 "levitateImmune": false,
-                "disarmedCombatImmune": false
+                "disarmedCombatImmune": false,
+                "fearedImmune": false
               }
             }
           ],
@@ -1230,7 +1246,7 @@
               "requiredPotentialRank": 0,
               "prefabKey": "1",
               "name": "간절한 기대",
-              "description": "전장에 있을 시 모든 아군 유닛의 최대 HP +5%, 스킬 지속 시간 동안 모든 아군 유닛이 초당 최대 HP의 1.5% 회복",
+              "description": "배치되어 있을 때, 모든 아군 유닛의 최대 HP +5%, 스킬 지속 시간 동안 모든 아군 유닛이 초당 최대 HP의 1.5% 회복",
               "rangeId": null,
               "blackboard": [
                 {
@@ -1244,7 +1260,8 @@
                   "valueStr": null
                 }
               ],
-              "tokenKey": null
+              "tokenKey": null,
+              "isHideTalent": false
             },
             {
               "unlockCondition": {
@@ -1254,7 +1271,7 @@
               "requiredPotentialRank": 0,
               "prefabKey": "1",
               "name": "간절한 기대",
-              "description": "전장에 있을 시 모든 아군 유닛의 최대 HP +8%, 스킬 지속 시간 동안 모든 아군 유닛이 초당 최대 HP의 2.5% 회복",
+              "description": "배치되어 있을 때, 모든 아군 유닛의 최대 HP +8%, 스킬 지속 시간 동안 모든 아군 유닛이 초당 최대 HP의 2.5% 회복",
               "rangeId": null,
               "blackboard": [
                 {
@@ -1268,7 +1285,8 @@
                   "valueStr": null
                 }
               ],
-              "tokenKey": null
+              "tokenKey": null,
+              "isHideTalent": false
             }
           ]
         }
@@ -1416,7 +1434,8 @@
             "sleepImmune": false,
             "frozenImmune": false,
             "levitateImmune": false,
-            "disarmedCombatImmune": false
+            "disarmedCombatImmune": false,
+            "fearedImmune": false
           }
         },
         {
@@ -1444,7 +1463,8 @@
             "sleepImmune": false,
             "frozenImmune": false,
             "levitateImmune": false,
-            "disarmedCombatImmune": false
+            "disarmedCombatImmune": false,
+            "fearedImmune": false
           }
         }
       ],
