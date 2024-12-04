@@ -585,7 +585,7 @@
       {
         "avatarId": "avatar_activity_CR",
         "avatarType": "ACTIVITY",
-        "avatarIdSort": 42,
+        "avatarIdSort": 43,
         "avatarIdDesc": "スタンプラリー報酬\n「監視中」",
         "avatarItemName": "「監視中」",
         "avatarItemDesc": "見定めることも一種の力。",
@@ -595,7 +595,7 @@
       {
         "avatarId": "avatar_activity_SN",
         "avatarType": "ACTIVITY",
-        "avatarIdSort": 43,
+        "avatarIdSort": 44,
         "avatarIdDesc": "【狂人号】記録復元\n「狂人号」",
         "avatarItemName": "「狂人号」",
         "avatarItemDesc": "海岸の灯台は再び光を取り戻し、往日の黄金が海へ沈みゆく光景を見届けた。",
@@ -605,12 +605,22 @@
       {
         "avatarId": "avatar_activity_EP14",
         "avatarType": "ACTIVITY",
-        "avatarIdSort": 44,
+        "avatarIdSort": 45,
         "avatarIdDesc": "メインテーマ「慈悲光塔」\n「秘密のライフライン」",
         "avatarItemName": "「秘密のライフライン」",
         "avatarItemDesc": "荒野を駆け抜け、命と希望の種を蒔く者たち。",
         "avatarItemUsage": "個性を表すための画像。プロファイルアイコンとして設定可能。",
         "obtainApproach": "「隠密戦線」で獲得"
+      },
+      {
+        "avatarId": "avatar_activity_LE",
+        "avatarType": "ACTIVITY",
+        "avatarIdSort": 46,
+        "avatarIdDesc": "【塵影に交わる残響】記録復元\n「塵影に交わる残響」",
+        "avatarItemName": "「塵影に交わる残響」",
+        "avatarItemDesc": "夕陽が眩しく照りつけるが、運命の前にひれ伏そうとする者はいなかった。",
+        "avatarItemUsage": "個性を表すための画像。プロファイルアイコンとして設定可能。",
+        "obtainApproach": "記録復元"
       },
       {
         "avatarId": "avatar_def_01",
@@ -667,7 +677,7 @@
         "avatarType": "DEFAULT",
         "avatarIdSort": 6,
         "avatarIdDesc": "デフォルト\n「3min」",
-        "avatarItemName": "“3min”",
+        "avatarItemName": "「3min」",
         "avatarItemDesc": "\\",
         "avatarItemUsage": "\\",
         "obtainApproach": "デフォルトアイコン"
@@ -677,7 +687,7 @@
         "avatarType": "DEFAULT",
         "avatarIdSort": 7,
         "avatarIdDesc": "デフォルト\n「GGWP」",
-        "avatarItemName": "“Good Game”",
+        "avatarItemName": "「GGWP」",
         "avatarItemDesc": "\\",
         "avatarItemUsage": "\\",
         "obtainApproach": "デフォルトアイコン"
@@ -687,7 +697,7 @@
         "avatarType": "DEFAULT",
         "avatarIdSort": 8,
         "avatarIdDesc": "デフォルト\n「PRTS」",
-        "avatarItemName": "“PRTS”",
+        "avatarItemName": "「PRTS」",
         "avatarItemDesc": "\\",
         "avatarItemUsage": "\\",
         "obtainApproach": "デフォルトアイコン"
@@ -757,7 +767,7 @@
         "avatarType": "DEFAULT",
         "avatarIdSort": 15,
         "avatarIdDesc": "デフォルト\n「WARNING」",
-        "avatarItemName": "“WARNING”",
+        "avatarItemName": "「WARNING」",
         "avatarItemDesc": "\\",
         "avatarItemUsage": "\\",
         "obtainApproach": "デフォルトアイコン"
@@ -818,7 +828,8 @@
           "avatar_activity_XB1_1",
           "avatar_activity_CR",
           "avatar_activity_SN",
-          "avatar_activity_EP14"
+          "avatar_activity_EP14",
+          "avatar_activity_LE"
         ]
       },
       "DEFAULT": {
@@ -1228,6 +1239,10 @@
       "module_avatar": {
         "id": "module_avatar",
         "type": "AVATAR"
+      },
+      "module_avatar_simple": {
+        "id": "module_avatar_simple",
+        "type": "AVATAR_SIMPLE"
       }
     },
     "removableModuleData": {
@@ -1276,11 +1291,16 @@
           "module_background",
           "module_illust",
           "module_collect",
-          "module_avatar"
+          "module_avatar",
+          "module_avatar_simple"
         ],
         "isTimeLimit": false,
         "timeLimitInfoList": [],
-        "rarity": 4
+        "rarity": 4,
+        "isSpTheme": false,
+        "defaultShowDetail": true,
+        "themeName": "",
+        "themeEnName": ""
       },
       "nc_rhodes_light": {
         "id": "nc_rhodes_light",
@@ -1299,11 +1319,16 @@
           "module_background",
           "module_illust",
           "module_collect",
-          "module_avatar"
+          "module_avatar",
+          "module_avatar_simple"
         ],
         "isTimeLimit": false,
         "timeLimitInfoList": [],
-        "rarity": 4
+        "rarity": 4,
+        "isSpTheme": false,
+        "defaultShowDetail": true,
+        "themeName": "",
+        "themeEnName": ""
       },
       "nc_sandbox_1": {
         "id": "nc_sandbox_1",
@@ -1322,11 +1347,16 @@
           "module_background",
           "module_illust",
           "module_collect",
-          "module_avatar"
+          "module_avatar",
+          "module_avatar_simple"
         ],
         "rarity": 4,
         "isTimeLimit": false,
-        "timeLimitInfoList": []
+        "timeLimitInfoList": [],
+        "isSpTheme": false,
+        "defaultShowDetail": true,
+        "themeName": "",
+        "themeEnName": ""
       },
       "nc_sports_1": {
         "id": "nc_sports_1",
@@ -1345,7 +1375,8 @@
           "module_background",
           "module_illust",
           "module_collect",
-          "module_avatar"
+          "module_avatar",
+          "module_avatar_simple"
         ],
         "rarity": 4,
         "isTimeLimit": true,
@@ -1355,7 +1386,11 @@
             "availStartTime": 1731567600,
             "availEndTime": 1732993199
           }
-        ]
+        ],
+        "isSpTheme": false,
+        "defaultShowDetail": true,
+        "themeName": "",
+        "themeEnName": ""
       }
     },
     "consts": {

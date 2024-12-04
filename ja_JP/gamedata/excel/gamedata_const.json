@@ -996,7 +996,9 @@
     "dm.award": "<color=#36BBCC>{0}</color>",
     "dm.condition": "<color=#C9C9C9>{0}</color>",
     "tutor": "<color=#36BBCC>{0}</color>",
-    "lv.muitem": "<color=#D4133C>{0}</color>"
+    "lv.muitem": "<color=#D4133C>{0}</color>",
+    "ro4.lose": "<color=#FF6E6E>{0}</color>",
+    "ro4.get": "<color=#28bfe5>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1312,7 +1314,7 @@
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
       "termName": "アビサル",
-      "description": "対象オペレーター：\nグレイディーア、スカジ、スペクター、アンドレアナ"
+      "description": "対象オペレーター：\nグレイディーア、スカジ、スペクター、アンドレアナ、ウルピアヌス"
     },
     "cc.c.abyssal2_1": {
       "termId": "cc.c.abyssal2_1",
@@ -1658,14 +1660,24 @@
       "termId": "cc.g.A1",
       "termName": "A1小隊",
       "description": "対象オペレーター：\nハイビスカス、ラヴァ、ビーグル、フェン、クルース"
+    },
+    "ba.addash": {
+      "termId": "ba.addash",
+      "termName": "移動",
+      "description": "撤退せず、現在のHPのままで対象となるマスに再配置される"
+    },
+    "cc.tra.pepe": {
+      "termId": "cc.tra.pepe",
+      "termName": "特別独占オーダー",
+      "description": "ペペが提供する特別な貴金属を取り扱う注文リスト。この注文リストの獲得時間と収益は固定であり、必要となる純金の納品数は0"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事象の欠片の数が足りません。購買資格証ショップあるいはイベントショップで購入してください",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "40.4.0",
-  "resPrefVersion": "50d0d0",
+  "dataVersion": "41.1.0",
+  "resPrefVersion": "51d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTSが当該ステージにおいて、★3評価未獲得の下位作戦環境を検出しました。自動的に<color=#fe6435>環境難易度互換</color>を有効化します。\nこの状態で当該ステージに挑戦すると、当該環境および下位環境での理性を<color=#fe6435>同時に消費</color>します。クリア後は<color=#fe6435>作戦進捗も同期され、下位環境の報酬も同時に受け取れます</color>",
   "mainlineToughDesc": "より困難なプレイ環境\n★3初回クリア報酬は純正源石を含む\n追加の高難易度ステージを含む",
@@ -1746,7 +1758,8 @@
     "hunter": "PHYSICAL",
     "primcaster": "MAGICAL",
     "loopshooter": "PHYSICAL",
-    "hammer": "PHYSICAL"
+    "hammer": "PHYSICAL",
+    "alchemist": "PHYSICAL"
   },
   "defaultMinContinuousBattleTimes": 1,
   "defaultMaxContinuousBattleTimes": 6,
