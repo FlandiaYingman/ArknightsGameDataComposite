@@ -1101,7 +1101,7 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597132800,
-  "recruitPoolVersion": 17,
+  "recruitPoolVersion": 18,
   "TSO": 1608192000,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
@@ -1421,7 +1421,7 @@
     "cc.g.sui": {
       "termId": "cc.g.sui",
       "termName": "岁",
-      "description": "包含以下干员\n年、夕、令、重岳、黍"
+      "description": "包含以下干员\n年、夕、令、重岳、黍、余"
     },
     "ba.overdrive": {
       "termId": "ba.overdrive",
@@ -1631,7 +1631,7 @@
     "cc.g.bs": {
       "termId": "cc.g.bs",
       "termName": "黑钢国际",
-      "description": "包含以下干员\n雷蛇、芙兰卡、杰西卡、香草、杏仁"
+      "description": "包含以下干员\n雷蛇、芙兰卡、杰西卡、香草、杏仁、寻澜"
     },
     "cc.c.room3": {
       "termId": "cc.c.room3",
@@ -1727,14 +1727,19 @@
       "termId": "cc.g.siracusa",
       "termName": "叙拉古",
       "description": "包含以下干员\n安洁莉娜、拉普兰德、普罗旺斯、红云、布洛卡、巫恋、铃兰、贾维、奥斯塔、斥罪、子月、伺夜、阿罗玛、忍冬、裁度、荒芜拉普兰德"
+    },
+    "ba.physicfragile": {
+      "termId": "ba.physicfragile",
+      "termName": "物理脆弱",
+      "description": "受到的物理伤害提升相应比例（同名效果取最高）"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "57.8.0",
-  "resPrefVersion": "57d4d0",
+  "dataVersion": "58.0.0",
+  "resPrefVersion": "58d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS检测到该关卡对应更低作战环境未获得三星评价，将自动开启<color=#fe6435>环境难度兼容</color>；\n环境难度兼容状态下挑战该关卡将<color=#fe6435>同时消耗</color>该环境与更低环境的理智，通关后则<color=#fe6435>会同步作战进度，并同时获得</color>该环境与更低环境的报酬奖励",
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
@@ -1850,5 +1855,7 @@
   "leapBirthdayRewardMonth": 2,
   "leapBirthdayRewardDay": 28,
   "birthdaySettingShowStageId": "tr_05",
-  "isBirthdayFuncEnabled": true
+  "isBirthdayFuncEnabled": true,
+  "uniequipArchiveSysTrackTs": 1705896000,
+  "manufactPromptTime": 3
 }

@@ -43971,6 +43971,50 @@
       ],
       "startTs": -1,
       "endTs": -1
+    },
+    "daily_g_60": {
+      "id": "daily_g_60",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [],
+      "startTs": -1,
+      "endTs": -1
+    },
+    "daily_g_61": {
+      "id": "daily_g_61",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [],
+      "startTs": -1,
+      "endTs": -1
+    },
+    "daily_g_62": {
+      "id": "daily_g_62",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [],
+      "startTs": -1,
+      "endTs": -1
+    },
+    "daily_g_63": {
+      "id": "daily_g_63",
+      "title": null,
+      "type": "DAILY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [],
+      "startTs": -1,
+      "endTs": -1
     }
   },
   "periodicalRewards": {
@@ -52693,7 +52737,7 @@
     },
     {
       "startTime": 1737576000,
-      "endTime": 1916078399,
+      "endTime": 1740081599,
       "tagState": null,
       "periodList": [
         {
@@ -52720,13 +52764,13 @@
       ]
     },
     {
-      "startTime": 1615147200,
-      "endTime": 1624823999,
-      "tagState": null,
+      "startTime": 1740081600,
+      "endTime": 1741204799,
+      "tagState": "",
       "periodList": [
         {
-          "missionGroupId": "daily_g_42",
-          "rewardGroupId": "reward_daily_g_42",
+          "missionGroupId": "daily_g_1",
+          "rewardGroupId": "reward_daily_g_1",
           "period": [
             1,
             2,
@@ -52738,8 +52782,8 @@
           ]
         },
         {
-          "missionGroupId": "daily_g_43",
-          "rewardGroupId": "reward_daily_g_43",
+          "missionGroupId": "daily_g_1",
+          "rewardGroupId": "reward_daily_g_1",
           "period": [
             6,
             7
@@ -52748,13 +52792,13 @@
       ]
     },
     {
-      "startTime": 1624824000,
-      "endTime": 1657569599,
-      "tagState": null,
+      "startTime": 1741204800,
+      "endTime": 1916078399,
+      "tagState": "",
       "periodList": [
         {
-          "missionGroupId": "daily_g_44",
-          "rewardGroupId": "reward_daily_g_44",
+          "missionGroupId": "daily_g_1",
+          "rewardGroupId": "reward_daily_g_1",
           "period": [
             1,
             2,
@@ -52766,8 +52810,8 @@
           ]
         },
         {
-          "missionGroupId": "daily_g_45",
-          "rewardGroupId": "reward_daily_g_45",
+          "missionGroupId": "daily_g_1",
+          "rewardGroupId": "reward_daily_g_1",
           "period": [
             6,
             7
@@ -52896,6 +52940,17 @@
       "condTemplate": null,
       "condParam": [],
       "rewardsList": null
+    },
+    "act2blessing_share": {
+      "shareMissionId": "act2blessing_share",
+      "missionType": "ACTIVITY",
+      "relateActivityId": "act2blessing",
+      "startTime": 1738008000,
+      "endTime": 1739217599,
+      "limitCount": 0,
+      "condTemplate": null,
+      "condParam": [],
+      "rewardsList": null
     }
   },
   "crossAppShareMissionConst": {
@@ -52950,5 +53005,11 @@
       "shortName": "第八阶段",
       "unlockDesc": null
     }
-  }
+  },
+  "mainlineMissionEndImageDataList": [
+    {
+      "imageId": "all_clear",
+      "priority": 1
+    }
+  ]
 }
