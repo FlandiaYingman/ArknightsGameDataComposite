@@ -86,7 +86,7 @@
         "key": "env_gbuff_new_with_verify",
         "selector": {
           "professionMask": 1023,
-          "buildableMask": 3,
+          "buildableMask": "ALL",
           "charIdFilter": null,
           "enemyIdFilter": null,
           "enemyIdExcludeFilter": null,
@@ -98,13 +98,15 @@
           "enemyLevelTypeFilter": null,
           "filterTagExcludeFilter": null,
           "mapTagFilter": null,
-          "playerSideMask": 0,
-          "enemyActionHiddenGroupFilter": null
+          "playerSideMask": "ALL",
+          "enemyActionHiddenGroupFilter": null,
+          "sideType": "ALL"
         },
         "blackboard": [
           {
             "key": "key",
-            "valueStr": "crisisv2_1_comment_buff_2"
+            "valueStr": "crisisv2_1_comment_buff_2",
+            "value": 0
           }
         ]
       }
@@ -114,8 +116,8 @@
         "key": "env_gbuff_new_with_verify",
         "selector": {
           "professionMask": 1023,
-          "buildableMask": 3,
-          "playerSideMask": 0,
+          "buildableMask": "ALL",
+          "playerSideMask": "ALL",
           "charIdFilter": null,
           "enemyIdFilter": null,
           "enemyIdExcludeFilter": null,
@@ -127,12 +129,14 @@
           "filterTagFilter": null,
           "filterTagExcludeFilter": null,
           "subProfessionExcludeFilter": null,
-          "mapTagFilter": null
+          "mapTagFilter": null,
+          "sideType": "ALL"
         },
         "blackboard": [
           {
             "key": "key",
-            "valueStr": "crisisv2_1_comment_buff_2"
+            "valueStr": "crisisv2_1_comment_buff_2",
+            "value": 0
           }
         ]
       }
@@ -142,8 +146,8 @@
         "key": "env_gbuff_new_with_verify",
         "selector": {
           "professionMask": 1023,
-          "buildableMask": 3,
-          "playerSideMask": 0,
+          "buildableMask": "ALL",
+          "playerSideMask": "ALL",
           "charIdFilter": null,
           "enemyIdFilter": null,
           "enemyIdExcludeFilter": null,
@@ -155,12 +159,14 @@
           "filterTagFilter": null,
           "filterTagExcludeFilter": null,
           "subProfessionExcludeFilter": null,
-          "mapTagFilter": null
+          "mapTagFilter": null,
+          "sideType": "ALL"
         },
         "blackboard": [
           {
             "key": "key",
-            "valueStr": "crisisv2_1_comment_buff_2"
+            "valueStr": "crisisv2_1_comment_buff_2",
+            "value": 0
           }
         ]
       }

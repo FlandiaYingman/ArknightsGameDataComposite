@@ -371,7 +371,8 @@
           "backImagePath": null,
           "itemBgType": "COMMON",
           "foldId": null,
-          "haveSubMissionToUnlock": false
+          "haveSubMissionToUnlock": false,
+          "countEndTs": -1
         },
         {
           "id": "openserver_2",
@@ -402,7 +403,8 @@
           "backImagePath": null,
           "itemBgType": "COMMON",
           "foldId": null,
-          "haveSubMissionToUnlock": false
+          "haveSubMissionToUnlock": false,
+          "countEndTs": -1
         },
         {
           "id": "openserver_3",
@@ -431,7 +433,8 @@
           "backImagePath": null,
           "itemBgType": "COMMON",
           "foldId": null,
-          "haveSubMissionToUnlock": false
+          "haveSubMissionToUnlock": false,
+          "countEndTs": -1
         },
         {
           "id": "openserver_4",
@@ -460,7 +463,8 @@
           "backImagePath": null,
           "itemBgType": "COMMON",
           "foldId": null,
-          "haveSubMissionToUnlock": false
+          "haveSubMissionToUnlock": false,
+          "countEndTs": -1
         }
       ],
       "checkInData": [
@@ -725,7 +729,8 @@
           ],
           "backImagePath": null,
           "foldId": null,
-          "haveSubMissionToUnlock": false
+          "haveSubMissionToUnlock": false,
+          "countEndTs": -1
         },
         {
           "id": "openserver_2_1",
@@ -754,7 +759,8 @@
           ],
           "backImagePath": null,
           "foldId": null,
-          "haveSubMissionToUnlock": false
+          "haveSubMissionToUnlock": false,
+          "countEndTs": -1
         },
         {
           "id": "openserver_3_1",
@@ -783,7 +789,8 @@
           ],
           "backImagePath": null,
           "foldId": null,
-          "haveSubMissionToUnlock": false
+          "haveSubMissionToUnlock": false,
+          "countEndTs": -1
         },
         {
           "id": "openserver_4_1",
@@ -814,7 +821,8 @@
           ],
           "backImagePath": null,
           "foldId": null,
-          "haveSubMissionToUnlock": false
+          "haveSubMissionToUnlock": false,
+          "countEndTs": -1
         }
       ],
       "checkInData": [
@@ -4637,7 +4645,7 @@
         "desc": "EP14，慈悲灯塔现已开放\n可随时在作战终端中查看",
         "diffMissionCount": 0,
         "startTime": 1714536000,
-        "endTime": 1916078399,
+        "endTime": 1743998399,
         "imageId": "page_episode_main_14",
         "iconId": "page_episode_main_14_icon",
         "missionList": [
@@ -4805,6 +4813,200 @@
             "missionId": "back_perm_82",
             "groupId": "return_g_17",
             "sortId": 82,
+            "jumpType": "ZONE_GROUP",
+            "jumpParam": null,
+            "desc": "通关任意关卡25次",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 5,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "4001",
+                "count": 25000,
+                "type": "GOLD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupId": "return_g_23",
+        "sortId": 1,
+        "tabTitle": "全新主题曲",
+        "title": "全新主题曲已开放",
+        "desc": "EP15，离解复合现已开放\n可随时在作战终端中查看",
+        "diffMissionCount": 0,
+        "startTime": 1743998400,
+        "endTime": 1916078399,
+        "imageId": "page_episode_main_15",
+        "iconId": "page_episode_main_15_icon",
+        "missionList": [
+          {
+            "missionId": "back_perm_109",
+            "groupId": "return_g_23",
+            "sortId": 109,
+            "jumpType": "ZONE_GROUP",
+            "jumpParam": null,
+            "desc": "通关任意关卡1次",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 1,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "4001",
+                "count": 5000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_110",
+            "groupId": "return_g_23",
+            "sortId": 110,
+            "jumpType": "ZONE_GROUP",
+            "jumpParam": null,
+            "desc": "通关任意关卡3次",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 1,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "2003",
+                "count": 5,
+                "type": "CARD_EXP"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_111",
+            "groupId": "return_g_23",
+            "sortId": 111,
+            "jumpType": "ZONE_GROUP",
+            "jumpParam": null,
+            "desc": "通关任意关卡6次",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "4001",
+                "count": 10000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_112",
+            "groupId": "return_g_23",
+            "sortId": 112,
+            "jumpType": "ZONE_GROUP",
+            "jumpParam": null,
+            "desc": "通关任意关卡9次",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "2003",
+                "count": 10,
+                "type": "CARD_EXP"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_113",
+            "groupId": "return_g_23",
+            "sortId": 113,
+            "jumpType": "ZONE_GROUP",
+            "jumpParam": null,
+            "desc": "通关任意关卡12次",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "4001",
+                "count": 10000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_114",
+            "groupId": "return_g_23",
+            "sortId": 114,
+            "jumpType": "ZONE_GROUP",
+            "jumpParam": null,
+            "desc": "通关任意关卡15次",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 3,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "2003",
+                "count": 10,
+                "type": "CARD_EXP"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_115",
+            "groupId": "return_g_23",
+            "sortId": 115,
+            "jumpType": "ZONE_GROUP",
+            "jumpParam": null,
+            "desc": "通关任意关卡18次",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 3,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "4001",
+                "count": 15000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_116",
+            "groupId": "return_g_23",
+            "sortId": 116,
+            "jumpType": "ZONE_GROUP",
+            "jumpParam": null,
+            "desc": "通关任意关卡21次",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 4,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "2003",
+                "count": 15,
+                "type": "CARD_EXP"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_117",
+            "groupId": "return_g_23",
+            "sortId": 117,
             "jumpType": "ZONE_GROUP",
             "jumpParam": null,
             "desc": "通关任意关卡25次",
@@ -5162,6 +5364,26 @@
                 "type": "CLASSIC_TKT_GACHA"
               }
             ]
+          },
+          {
+            "missionId": "back_perm_31",
+            "groupId": "return_g_7",
+            "sortId": 31,
+            "jumpType": "RECRUIT_BUILD",
+            "jumpParam": null,
+            "desc": "累计完成25次公开招募",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 3,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "31063",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
           }
         ]
       },
@@ -5278,9 +5500,9 @@
             ]
           },
           {
-            "missionId": "back_perm_31",
-            "groupId": "return_g_7",
-            "sortId": 31,
+            "missionId": "back_perm_51",
+            "groupId": "return_g_11",
+            "sortId": 51,
             "jumpType": "RECRUIT_BUILD",
             "jumpParam": null,
             "desc": "累计完成25次公开招募",
@@ -5292,6 +5514,126 @@
               },
               {
                 "id": "31063",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_38",
+            "groupId": "return_g_8",
+            "sortId": 38,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取35次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "30043",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_39",
+            "groupId": "return_g_8",
+            "sortId": 39,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取40次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "30083",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_40",
+            "groupId": "return_g_8",
+            "sortId": 40,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取45次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "30093",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_41",
+            "groupId": "return_g_8",
+            "sortId": 41,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取50次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "31013",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_42",
+            "groupId": "return_g_8",
+            "sortId": 42,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取55次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "31023",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_43",
+            "groupId": "return_g_8",
+            "sortId": 43,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取60次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "31053",
                 "count": 2,
                 "type": "MATERIAL"
               }
@@ -6446,126 +6788,6 @@
                 "type": "MATERIAL"
               }
             ]
-          },
-          {
-            "missionId": "back_perm_38",
-            "groupId": "return_g_8",
-            "sortId": 38,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取35次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "30043",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
-          },
-          {
-            "missionId": "back_perm_39",
-            "groupId": "return_g_8",
-            "sortId": 39,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取40次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "30083",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
-          },
-          {
-            "missionId": "back_perm_40",
-            "groupId": "return_g_8",
-            "sortId": 40,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取45次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "30093",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
-          },
-          {
-            "missionId": "back_perm_41",
-            "groupId": "return_g_8",
-            "sortId": 41,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取50次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "31013",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
-          },
-          {
-            "missionId": "back_perm_42",
-            "groupId": "return_g_8",
-            "sortId": 42,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取55次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "31023",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
-          },
-          {
-            "missionId": "back_perm_43",
-            "groupId": "return_g_8",
-            "sortId": 43,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取60次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "31053",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
           }
         ]
       },
@@ -6696,6 +6918,126 @@
               },
               {
                 "id": "31063",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_38",
+            "groupId": "return_g_8",
+            "sortId": 38,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取35次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "30043",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_39",
+            "groupId": "return_g_8",
+            "sortId": 39,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取40次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "30083",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_40",
+            "groupId": "return_g_8",
+            "sortId": 40,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取45次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "30093",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_41",
+            "groupId": "return_g_8",
+            "sortId": 41,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取50次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "31013",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_42",
+            "groupId": "return_g_8",
+            "sortId": 42,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取55次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "31023",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_43",
+            "groupId": "return_g_8",
+            "sortId": 43,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取60次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "31053",
                 "count": 2,
                 "type": "MATERIAL"
               }
@@ -6834,126 +7176,6 @@
                 "type": "MATERIAL"
               }
             ]
-          },
-          {
-            "missionId": "back_perm_38",
-            "groupId": "return_g_8",
-            "sortId": 38,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取35次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "30043",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
-          },
-          {
-            "missionId": "back_perm_39",
-            "groupId": "return_g_8",
-            "sortId": 39,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取40次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "30083",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
-          },
-          {
-            "missionId": "back_perm_40",
-            "groupId": "return_g_8",
-            "sortId": 40,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取45次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "30093",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
-          },
-          {
-            "missionId": "back_perm_41",
-            "groupId": "return_g_8",
-            "sortId": 41,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取50次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "31013",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
-          },
-          {
-            "missionId": "back_perm_42",
-            "groupId": "return_g_8",
-            "sortId": 42,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取55次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "31023",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
-          },
-          {
-            "missionId": "back_perm_43",
-            "groupId": "return_g_8",
-            "sortId": 43,
-            "jumpType": "DAILY_MISSION",
-            "jumpParam": null,
-            "desc": "累计领取60次日常任务奖励",
-            "rewardList": [
-              {
-                "id": "return_credit_token2",
-                "count": 2,
-                "type": "RETURN_CREDIT"
-              },
-              {
-                "id": "31053",
-                "count": 2,
-                "type": "MATERIAL"
-              }
-            ]
           }
         ]
       },
@@ -7084,6 +7306,126 @@
               },
               {
                 "id": "31063",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_38",
+            "groupId": "return_g_8",
+            "sortId": 38,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取35次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "30043",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_39",
+            "groupId": "return_g_8",
+            "sortId": 39,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取40次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "30083",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_40",
+            "groupId": "return_g_8",
+            "sortId": 40,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取45次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "30093",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_41",
+            "groupId": "return_g_8",
+            "sortId": 41,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取50次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "31013",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_42",
+            "groupId": "return_g_8",
+            "sortId": 42,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取55次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "31023",
+                "count": 2,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "missionId": "back_perm_43",
+            "groupId": "return_g_8",
+            "sortId": 43,
+            "jumpType": "DAILY_MISSION",
+            "jumpParam": null,
+            "desc": "累计领取60次日常任务奖励",
+            "rewardList": [
+              {
+                "id": "return_credit_token2",
+                "count": 2,
+                "type": "RETURN_CREDIT"
+              },
+              {
+                "id": "31053",
                 "count": 2,
                 "type": "MATERIAL"
               }
