@@ -65,7 +65,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             },
             {
@@ -94,7 +95,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             }
           ],
@@ -131,7 +133,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             },
             {
@@ -160,7 +163,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             }
           ],
@@ -213,7 +217,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             },
             {
@@ -242,7 +247,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             }
           ],
@@ -633,7 +639,8 @@
             "frozenImmune": false,
             "levitateImmune": false,
             "disarmedCombatImmune": false,
-            "fearedImmune": false
+            "fearedImmune": false,
+            "palsyImmune": false
           }
         },
         {
@@ -662,7 +669,8 @@
             "frozenImmune": false,
             "levitateImmune": false,
             "disarmedCombatImmune": false,
-            "fearedImmune": false
+            "fearedImmune": false,
+            "palsyImmune": false
           }
         }
       ],
@@ -784,7 +792,20 @@
       "canUseActivityPotentialItem": false,
       "activityPotentialItemId": null,
       "classicPotentialItemId": null,
-      "displayTokenDict": null
+      "displayTokenDict": null,
+      "sortIndex": 0,
+      "mainPower": {
+        "nationId": "rhodes",
+        "groupId": null,
+        "teamId": null
+      },
+      "subPower": [
+        {
+          "nationId": "rim",
+          "groupId": null,
+          "teamId": null
+        }
+      ]
     },
     "char_1037_amiya3": {
       "name": "阿米娅",
@@ -866,7 +887,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             },
             {
@@ -895,7 +917,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             }
           ],
@@ -932,7 +955,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             },
             {
@@ -961,7 +985,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             }
           ],
@@ -1014,7 +1039,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             },
             {
@@ -1043,7 +1069,8 @@
                 "frozenImmune": false,
                 "levitateImmune": false,
                 "disarmedCombatImmune": false,
-                "fearedImmune": false
+                "fearedImmune": false,
+                "palsyImmune": false
               }
             }
           ],
@@ -1435,7 +1462,8 @@
             "frozenImmune": false,
             "levitateImmune": false,
             "disarmedCombatImmune": false,
-            "fearedImmune": false
+            "fearedImmune": false,
+            "palsyImmune": false
           }
         },
         {
@@ -1464,7 +1492,8 @@
             "frozenImmune": false,
             "levitateImmune": false,
             "disarmedCombatImmune": false,
-            "fearedImmune": false
+            "fearedImmune": false,
+            "palsyImmune": false
           }
         }
       ],
@@ -1576,6 +1605,19 @@
               "type": "MATERIAL"
             }
           ]
+        }
+      ],
+      "sortIndex": 0,
+      "mainPower": {
+        "nationId": "rhodes",
+        "groupId": null,
+        "teamId": null
+      },
+      "subPower": [
+        {
+          "nationId": "rim",
+          "groupId": null,
+          "teamId": null
         }
       ]
     }

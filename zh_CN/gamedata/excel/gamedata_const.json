@@ -1022,7 +1022,8 @@
     "duel.ping.high": "<color=#ff3d3d>{0}</color>",
     "duel.milestone": "<color=#D4133C>{0}</color>",
     "duel.dm.award": "<color=#36BBCC>{0}</color>",
-    "duel.dm.condition": "<color=#C9C9C9>{0}</color>"
+    "duel.dm.condition": "<color=#C9C9C9>{0}</color>",
+    "vecbreakv2.highlight": "<color=#d8741a>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1111,7 +1112,7 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597132800,
-  "recruitPoolVersion": 18,
+  "recruitPoolVersion": 19,
   "TSO": 1608192000,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
@@ -1136,7 +1137,7 @@
     "ba.buffres": {
       "termId": "ba.buffres",
       "termName": "抵抗",
-      "description": "<$ba.stun>晕眩</>、<$ba.cold>寒冷</>、<$ba.frozen>冻结</>等异常状态的持续时间减半（同名效果不叠加）"
+      "description": "<$ba.stun>晕眩</>、<$ba.cold>寒冷</>、<$ba.frozen>冻结</>等异常状态的持续时间减半，<$ba.palsy>麻痹</>等效果每5秒流失1层（同名效果不叠加）"
     },
     "ba.invisible": {
       "termId": "ba.invisible",
@@ -1406,7 +1407,7 @@
     "cc.tag.op": {
       "termId": "cc.tag.op",
       "termName": "作业平台",
-      "description": "包含以下干员\nLancet-2、Castle-3、THRM-EX、正义骑士号、Friston-3、PhonoR-0"
+      "description": "包含以下干员\nLancet-2、Castle-3、THRM-EX、正义骑士号、Friston-3、PhonoR-0、CONFESS-47"
     },
     "cc.tag.knight": {
       "termId": "cc.tag.knight",
@@ -1742,14 +1743,39 @@
       "termId": "ba.physicfragile",
       "termName": "物理脆弱",
       "description": "受到的物理伤害提升相应比例（同名效果取最高）"
+    },
+    "ba.dt.neural2": {
+      "termId": "ba.dt.neural2",
+      "termName": "神经损伤·我方",
+      "description": "累计满时爆发（普通、精英敌人1000点、领袖2000点累计值），敌人立即受到6000点元素伤害且获得3层<$ba.palsy>麻痹</>。10秒冷却"
+    },
+    "ba.palsy": {
+      "termId": "ba.palsy",
+      "termName": "麻痹",
+      "description": "每层麻痹可以使敌人在普通攻击时打断本次攻击，上限3层；麻痹未被消耗时持续时间无限，拥有抵抗的单位每5秒流失1层"
+    },
+    "ba.addbullet": {
+      "termId": "ba.addbullet",
+      "termName": "补弹",
+      "description": "为其他人的弹药类技能补充弹药。单次弹药类技能的持续时间内，最多被补充该次技能所装有弹药数量上限的弹药"
+    },
+    "cc.g.laterano": {
+      "termId": "cc.g.laterano",
+      "termName": "拉特兰",
+      "description": "包含以下干员\n翎羽、安德切尔、送葬人、莫斯提马、安比尔、芳汀、空弦、菲亚梅塔、见行者、空构、隐现、塑心、蕾缪安、信仰搅拌机、CONFESS-47"
+    },
+    "cc.angel": {
+      "termId": "cc.angel",
+      "termName": "能天使",
+      "description": "包含以下干员\n新约能天使、能天使"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "60.6.0",
-  "resPrefVersion": "60d4d0",
+  "dataVersion": "61.0.0",
+  "resPrefVersion": "61d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS检测到该关卡对应更低作战环境未获得三星评价，将自动开启<color=#fe6435>环境难度兼容</color>；\n环境难度兼容状态下挑战该关卡将<color=#fe6435>同时消耗</color>该环境与更低环境的理智，通关后则<color=#fe6435>会同步作战进度，并同时获得</color>该环境与更低环境的报酬奖励",
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
@@ -1834,7 +1860,8 @@
     "alchemist": "PHYSICAL",
     "primprotector": "PHYSICAL",
     "skywalker": "PHYSICAL",
-    "soulcaster": "MAGICAL"
+    "soulcaster": "MAGICAL",
+    "primguard": "PHYSICAL"
   },
   "defaultMinContinuousBattleTimes": 1,
   "defaultMaxContinuousBattleTimes": 6,
@@ -1868,5 +1895,8 @@
   "isBirthdayFuncEnabled": true,
   "uniequipArchiveSysTrackTs": 1705896000,
   "manufactPromptTime": 3,
-  "mainGuideActivedStageId": "main_15-02"
+  "mainGuideActivedStageId": "main_15-02",
+  "defaultMinMultipleBattleTimes": 1,
+  "defaultMaxMultipleBattleTimes": 6,
+  "multipleActionOpen": true
 }
