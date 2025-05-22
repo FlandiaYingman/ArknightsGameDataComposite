@@ -22294,6 +22294,38 @@
       "templateParam": null
     },
     {
+      "tagId": "tag_615",
+      "displayType": "block_1",
+      "tagName": "0011/Tempest/VII",
+      "itemTag": "DEADLINE",
+      "orderNum": 1001,
+      "startDatetime": 1747933200,
+      "endDatetime": 1749121199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag615_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_615",
+        "text": "Doc, check out Lessing's new outfit! It's a new style for him, but I think he's pulling it off!"
+      },
+      "templateType": "DEFAULT",
+      "templateParam": null
+    },
+    {
       "tagId": "tag_616",
       "displayType": "block_1_4",
       "tagName": "Caster Chip Pack",
@@ -23135,6 +23167,100 @@
           "colorBack": "#81322a",
           "colorText": "ffffff",
           "actId": "act38side"
+        },
+        "returnSkinParam": null
+      }
+    },
+    {
+      "tagId": "tag_635",
+      "displayType": "block_1_3",
+      "tagName": " Herbst Musikhaus",
+      "itemTag": "DEADLINE",
+      "orderNum": 3003,
+      "startDatetime": 1747933200,
+      "endDatetime": 1749121199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag635_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "musicalStore_2023",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_635",
+        "text": "Leithanian instruments come in a million kinds, so there's gotta be something you can play—and you don't have to use Originium Arts."
+      },
+      "templateType": "NORFURN",
+      "templateParam": {
+        "normalGiftParam": null,
+        "normalSkinParam": null,
+        "normalFurnParam": {
+          "showStartTs": 1747933200,
+          "showEndTs": 1749121199,
+          "furnPackId": "furni_set_musicalStore",
+          "isNew": false,
+          "isPackSell": true,
+          "count": 0,
+          "colorBack": "#ffd649",
+          "colorText": "313131",
+          "actId": null
+        },
+        "returnSkinParam": null
+      }
+    },
+    {
+      "tagId": "tag_636",
+      "displayType": "block_1_3",
+      "tagName": "Ludwigs-Universität Lecture Hall",
+      "itemTag": "DEADLINE",
+      "orderNum": 3004,
+      "startDatetime": 1747933200,
+      "endDatetime": 1749121199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag636_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "magicAcademy_2023",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_636",
+        "text": "This is one palace of learning I've always admired! It's almost like you could get enlightened just by walking in!"
+      },
+      "templateType": "NORFURN",
+      "templateParam": {
+        "normalGiftParam": null,
+        "normalSkinParam": null,
+        "normalFurnParam": {
+          "showStartTs": 1747933200,
+          "showEndTs": 1749121199,
+          "furnPackId": "furni_set_magicAcademy",
+          "isNew": false,
+          "isPackSell": false,
+          "count": 5,
+          "colorBack": "#d44129",
+          "colorText": "ffffff",
+          "actId": "act29sre"
         },
         "returnSkinParam": null
       }
@@ -34493,12 +34619,12 @@
     {
       "items": [
         {
-          "spriteId": "shop_cello_sale#12",
-          "startTime": 1745514000,
-          "endTime": 1747911599,
+          "spriteId": "shop_lessng_whirlwind#7",
+          "startTime": 1747933200,
+          "endTime": 1749121199,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_245_cello@sale#12",
-          "skinId": "char_245_cello@sale#12",
+          "param1": "SS_char_4011_lessng@whirlwind#7",
+          "skinId": "char_4011_lessng@whirlwind#7",
           "furniId": ""
         },
         {
@@ -34515,21 +34641,21 @@
     {
       "items": [
         {
-          "spriteId": "shop_texas2_epoque#36",
+          "spriteId": "shop_cello_sale#12",
           "startTime": 1745514000,
           "endTime": 1747911599,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_1028_texas2@epoque#36",
-          "skinId": "char_1028_texas2@epoque#36",
+          "param1": "SS_char_245_cello@sale#12",
+          "skinId": "char_245_cello@sale#12",
           "furniId": ""
         },
         {
-          "spriteId": "shop_Condition_4",
-          "startTime": 1744113600,
-          "endTime": 1916132399,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Condition_4",
-          "skinId": "",
+          "spriteId": "shop_excu2_sale#12",
+          "startTime": 1745514000,
+          "endTime": 1747911599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_1032_excu2@sale#12",
+          "skinId": "char_1032_excu2@sale#12",
           "furniId": ""
         },
         {
@@ -34546,12 +34672,12 @@
     {
       "items": [
         {
-          "spriteId": "shop_warmy_winter#4",
+          "spriteId": "shop_texas2_epoque#36",
           "startTime": 1745514000,
           "endTime": 1747911599,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_4081_warmy@winter#4",
-          "skinId": "char_4081_warmy@winter#4",
+          "param1": "SS_char_1028_texas2@epoque#36",
+          "skinId": "char_1028_texas2@epoque#36",
           "furniId": ""
         }
       ]
@@ -34559,12 +34685,12 @@
     {
       "items": [
         {
-          "spriteId": "shop_Once_243",
-          "startTime": 1746529200,
-          "endTime": 1747738799,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_243",
-          "skinId": "",
+          "spriteId": "shop_warmy_winter#4",
+          "startTime": 1745514000,
+          "endTime": 1747911599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_4081_warmy@winter#4",
+          "skinId": "char_4081_warmy@winter#4",
           "furniId": ""
         },
         {
@@ -34600,6 +34726,28 @@
           "endTime": 1924945199,
           "cmd": "GIFTPACKAGE",
           "param1": null,
+          "skinId": "",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_Once_243",
+          "startTime": 1746529200,
+          "endTime": 1747738799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_243",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_240",
+          "startTime": 1745514000,
+          "endTime": 1747911599,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_240",
           "skinId": "",
           "furniId": ""
         }
@@ -34644,6 +34792,33 @@
           "endTime": 1747911599,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Once_238",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_234",
+          "startTime": 1745514000,
+          "endTime": 1747911599,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_234",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_233",
+          "startTime": 1745514000,
+          "endTime": 1747911599,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_233",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_232",
+          "startTime": 1745514000,
+          "endTime": 1747911599,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_232",
           "skinId": "",
           "furniId": ""
         }
@@ -34800,6 +34975,24 @@
           "param1": "GP_Once_276",
           "skinId": "",
           "furniId": ""
+        },
+        {
+          "spriteId": "shop_Condition_4",
+          "startTime": 1744113600,
+          "endTime": 1916132399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_4",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Condition_2",
+          "startTime": 1705424400,
+          "endTime": 1916132399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_2",
+          "skinId": "",
+          "furniId": ""
         }
       ]
     },
@@ -34842,6 +35035,42 @@
           "endTime": 1916132399,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Condition_3",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_106",
+          "startTime": 1705424400,
+          "endTime": 1924945199,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_106",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_105",
+          "startTime": 1705424400,
+          "endTime": 1733227199,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_105",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_207",
+          "startTime": 1733227200,
+          "endTime": 1916132399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_207",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop2",
+          "startTime": 1578222000,
+          "endTime": 1924945199,
+          "cmd": "GIFTPACKAGE",
+          "param1": null,
           "skinId": "",
           "furniId": ""
         }
