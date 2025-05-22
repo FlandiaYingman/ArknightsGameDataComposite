@@ -22295,6 +22295,38 @@
       "templateParam": null
     },
     {
+      "tagId": "tag_615",
+      "displayType": "block_1",
+      "tagName": "0011/'템페스트' 시리즈/VII",
+      "itemTag": "DEADLINE",
+      "orderNum": 1001,
+      "startDatetime": 1747897200,
+      "endDatetime": 1749063599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag615_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_615",
+        "text": "이것 봐, 박사. 레싱의 새 옷이 어때? 여태껏 이런 스타일을 시도해 본 적이 없지만, 아주 멋지게 소화했네!"
+      },
+      "templateType": "DEFAULT",
+      "templateParam": null
+    },
+    {
       "tagId": "tag_616",
       "displayType": "block_1_4",
       "tagName": "캐스터 칩 패키지",
@@ -23136,6 +23168,100 @@
           "colorBack": "#81322a",
           "colorText": "ffffff",
           "actId": "act38side"
+        },
+        "returnSkinParam": null
+      }
+    },
+    {
+      "tagId": "tag_635",
+      "displayType": "block_1_3",
+      "tagName": "가을 악기점",
+      "itemTag": "DEADLINE",
+      "orderNum": 3003,
+      "startDatetime": 1747897200,
+      "endDatetime": 1749063599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag635_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "musicalStore_2023",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_635",
+        "text": "라이타니엔에 악기 종류가 얼마나 많은데, 박사도 하나쯤은 다룰 수 있겠지…… 어, 오리지늄 아츠를 몰라도 괜찮아."
+      },
+      "templateType": "NORFURN",
+      "templateParam": {
+        "normalGiftParam": null,
+        "normalSkinParam": null,
+        "normalFurnParam": {
+          "showStartTs": 1747897200,
+          "showEndTs": 1749063599,
+          "furnPackId": "furni_set_musicalStore",
+          "isNew": false,
+          "isPackSell": true,
+          "count": 0,
+          "colorBack": "#ffd649",
+          "colorText": "313131",
+          "actId": null
+        },
+        "returnSkinParam": null
+      }
+    },
+    {
+      "tagId": "tag_636",
+      "displayType": "block_1_3",
+      "tagName": "루트비히스 대학 강당",
+      "itemTag": "DEADLINE",
+      "orderNum": 3004,
+      "startDatetime": 1747897200,
+      "endDatetime": 1749063599,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag636_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "magicAcademy_2023",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_636",
+        "text": "오랫동안 동경해 왔던 배움의 전당. 왠지 발을 들이는 것만으로도 깨달음을 얻을 것 같아!"
+      },
+      "templateType": "NORFURN",
+      "templateParam": {
+        "normalGiftParam": null,
+        "normalSkinParam": null,
+        "normalFurnParam": {
+          "showStartTs": 1747897200,
+          "showEndTs": 1749063599,
+          "furnPackId": "furni_set_magicAcademy",
+          "isNew": false,
+          "isPackSell": false,
+          "count": 5,
+          "colorBack": "#d44129",
+          "colorText": "ffffff",
+          "actId": "act29sre"
         },
         "returnSkinParam": null
       }
@@ -34680,12 +34806,12 @@
     {
       "items": [
         {
-          "spriteId": "shop_cello_sale#12",
-          "startTime": 1745478000,
-          "endTime": 1747853999,
+          "spriteId": "shop_lessng_whirlwind#7",
+          "startTime": 1747897200,
+          "endTime": 1749063599,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_245_cello@sale#12",
-          "skinId": "char_245_cello@sale#12",
+          "param1": "SS_char_4011_lessng@whirlwind#7",
+          "skinId": "char_4011_lessng@whirlwind#7",
           "furniId": ""
         },
         {
@@ -34711,12 +34837,21 @@
     {
       "items": [
         {
-          "spriteId": "shop_texas2_epoque#36",
+          "spriteId": "shop_cello_sale#12",
           "startTime": 1745478000,
           "endTime": 1747853999,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_1028_texas2@epoque#36",
-          "skinId": "char_1028_texas2@epoque#36",
+          "param1": "SS_char_245_cello@sale#12",
+          "skinId": "char_245_cello@sale#12",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_excu2_sale#12",
+          "startTime": 1745478000,
+          "endTime": 1747853999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_1032_excu2@sale#12",
+          "skinId": "char_1032_excu2@sale#12",
           "furniId": ""
         }
       ]
@@ -34724,12 +34859,12 @@
     {
       "items": [
         {
-          "spriteId": "shop_warmy_winter#4",
+          "spriteId": "shop_texas2_epoque#36",
           "startTime": 1745478000,
           "endTime": 1747853999,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_4081_warmy@winter#4",
-          "skinId": "char_4081_warmy@winter#4",
+          "param1": "SS_char_1028_texas2@epoque#36",
+          "skinId": "char_1028_texas2@epoque#36",
           "furniId": ""
         },
         {
@@ -34773,11 +34908,33 @@
     {
       "items": [
         {
+          "spriteId": "shop_warmy_winter#4",
+          "startTime": 1745478000,
+          "endTime": 1747853999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_4081_warmy@winter#4",
+          "skinId": "char_4081_warmy@winter#4",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_Once_243",
           "startTime": 1746471600,
           "endTime": 1747681199,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Once_243",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_240",
+          "startTime": 1745478000,
+          "endTime": 1747853999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_240",
           "skinId": "",
           "furniId": ""
         }
@@ -34822,6 +34979,33 @@
           "endTime": 1747853999,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Once_238",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_234",
+          "startTime": 1745478000,
+          "endTime": 1747853999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_234",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_233",
+          "startTime": 1745478000,
+          "endTime": 1747853999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_233",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_232",
+          "startTime": 1745478000,
+          "endTime": 1747853999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_232",
           "skinId": "",
           "furniId": ""
         }
@@ -34978,6 +35162,24 @@
           "param1": "GP_Once_276",
           "skinId": "",
           "furniId": ""
+        },
+        {
+          "spriteId": "shop_Condition_4",
+          "startTime": 1744077600,
+          "endTime": 1916074799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_4",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Condition_2",
+          "startTime": 1705388400,
+          "endTime": 1916074799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_2",
+          "skinId": "",
+          "furniId": ""
         }
       ]
     },
@@ -35020,6 +35222,42 @@
           "endTime": 1916074799,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Condition_3",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_106",
+          "startTime": 1705388400,
+          "endTime": 1924887599,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_106",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_105",
+          "startTime": 1705388400,
+          "endTime": 1733191199,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_105",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_207",
+          "startTime": 1733191200,
+          "endTime": 1916074799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_207",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop2",
+          "startTime": 1578164400,
+          "endTime": 1924887599,
+          "cmd": "GIFTPACKAGE",
+          "param1": null,
           "skinId": "",
           "furniId": ""
         }
