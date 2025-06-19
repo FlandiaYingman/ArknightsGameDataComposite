@@ -28213,6 +28213,38 @@
       "templateParam": null
     },
     {
+      "tagId": "tag_767",
+      "displayType": "block_1",
+      "tagName": "时代/XLV",
+      "itemTag": "DEADLINE",
+      "orderNum": 1001,
+      "startDatetime": 1750320000,
+      "endDatetime": 1751486399,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag767_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_767",
+        "text": "欣赏戏剧当然要好好搭配服装，博士也觉得这条长裙很适合深巡吧？"
+      },
+      "templateType": "DEFAULT",
+      "templateParam": null
+    },
+    {
       "tagId": "tag_762",
       "displayType": "block_1",
       "tagName": "罗德厨房/II",
@@ -28336,6 +28368,38 @@
       "tagWord": {
         "id": "tag_765",
         "text": "车尔尼先生马上就要出远门了，这可是送他礼物的好机会，博士一定不会错过吧？"
+      },
+      "templateType": "DEFAULT",
+      "templateParam": null
+    },
+    {
+      "tagId": "tag_768",
+      "displayType": "block_1",
+      "tagName": "时代/XXXIII",
+      "itemTag": "DEADLINE",
+      "orderNum": 1201,
+      "startDatetime": 1750320000,
+      "endDatetime": 1751486399,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag768_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_768",
+        "text": "大家的风格还真是独特啊......你问我以前穿成什么样？呃，这是秘密。"
       },
       "templateType": "DEFAULT",
       "templateParam": null
@@ -28477,6 +28541,53 @@
           "colorBack": "#da5151",
           "colorText": "ffffff",
           "actId": "act43side"
+        },
+        "returnSkinParam": null
+      }
+    },
+    {
+      "tagId": "tag_769",
+      "displayType": "block_1_3",
+      "tagName": "深海猎人实验室",
+      "itemTag": "DEADLINE",
+      "orderNum": 3002,
+      "startDatetime": 1750320000,
+      "endDatetime": 1751486399,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag769_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "HunterInstitute_2024",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_769",
+        "text": "阿戈尔的实验室原来是这样的！就算是为了罗德岛的技术进步，也一定要花钱了解一下啊，博士！"
+      },
+      "templateType": "NORFURN",
+      "templateParam": {
+        "normalGiftParam": null,
+        "normalSkinParam": null,
+        "normalFurnParam": {
+          "showStartTs": 1750320000,
+          "showEndTs": 1751486399,
+          "furnPackId": "furni_set_HunterInstitute",
+          "isNew": false,
+          "isPackSell": false,
+          "count": 5,
+          "colorBack": "#8fb8d6",
+          "colorText": "313131",
+          "actId": "act34sre"
         },
         "returnSkinParam": null
       }
@@ -42858,12 +42969,12 @@
     {
       "items": [
         {
-          "spriteId": "shop_ascln_iteration#4",
-          "startTime": 1749096000,
-          "endTime": 1750881599,
+          "spriteId": "shop_udflow_epoque#46",
+          "startTime": 1750320000,
+          "endTime": 1751486399,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_4132_ascln@iteration#4",
-          "skinId": "char_4132_ascln@iteration#4",
+          "param1": "SS_char_4137_udflow@epoque#46",
+          "skinId": "char_4137_udflow@epoque#46",
           "furniId": ""
         },
         {
@@ -42889,12 +43000,12 @@
     {
       "items": [
         {
-          "spriteId": "shop_haini_epoque#45",
+          "spriteId": "shop_ascln_iteration#4",
           "startTime": 1749096000,
           "endTime": 1750881599,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_4079_haini@epoque#45",
-          "skinId": "char_4079_haini@epoque#45",
+          "param1": "SS_char_4132_ascln@iteration#4",
+          "skinId": "char_4132_ascln@iteration#4",
           "furniId": ""
         },
         {
@@ -42911,21 +43022,21 @@
     {
       "items": [
         {
-          "spriteId": "shop_luton_yun#6",
-          "startTime": 1748462400,
-          "endTime": 1749671999,
+          "spriteId": "shop_haini_epoque#45",
+          "startTime": 1749096000,
+          "endTime": 1750881599,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_4130_luton@yun#6",
-          "skinId": "char_4130_luton@yun#6",
+          "param1": "SS_char_4079_haini@epoque#45",
+          "skinId": "char_4079_haini@epoque#45",
           "furniId": ""
         },
         {
-          "spriteId": "shop_Condition_4",
-          "startTime": 1730433600,
-          "endTime": 1916078399,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Condition_4",
-          "skinId": "",
+          "spriteId": "shop_highmo_epoque#45",
+          "startTime": 1749096000,
+          "endTime": 1750881599,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_4066_highmo@epoque#45",
+          "skinId": "char_4066_highmo@epoque#45",
           "furniId": ""
         },
         {
@@ -42960,12 +43071,12 @@
     {
       "items": [
         {
-          "spriteId": "shop_Once_305",
-          "startTime": 1749096000,
-          "endTime": 1750276799,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_305",
-          "skinId": "",
+          "spriteId": "shop_luton_yun#6",
+          "startTime": 1748462400,
+          "endTime": 1749671999,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_4130_luton@yun#6",
+          "skinId": "char_4130_luton@yun#6",
           "furniId": ""
         }
       ]
@@ -42973,11 +43084,11 @@
     {
       "items": [
         {
-          "spriteId": "shop_Once_304",
+          "spriteId": "shop_Once_305",
           "startTime": 1749096000,
           "endTime": 1750276799,
           "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_304",
+          "param1": "GP_Once_305",
           "skinId": "",
           "furniId": ""
         },
@@ -43022,6 +43133,19 @@
     {
       "items": [
         {
+          "spriteId": "shop_Once_304",
+          "startTime": 1749096000,
+          "endTime": 1750276799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_304",
+          "skinId": "",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
           "spriteId": "shop_Once_303",
           "startTime": 1748462400,
           "endTime": 1749671999,
@@ -43042,6 +43166,24 @@
           "param1": "videoStudio_2025",
           "skinId": "",
           "furniId": "videoStudio_2025"
+        },
+        {
+          "spriteId": "shop_Condition_4",
+          "startTime": 1730433600,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_4",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Condition_2",
+          "startTime": 1688616000,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_2",
+          "skinId": "",
+          "furniId": ""
         }
       ]
     },
@@ -43084,6 +43226,42 @@
           "endTime": 1916078399,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Condition_3",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_106",
+          "startTime": 1688616000,
+          "endTime": 1924891199,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_106",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_105",
+          "startTime": 1688616000,
+          "endTime": 1722484799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_105",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_207",
+          "startTime": 1722484800,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_207",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop2",
+          "startTime": 1548727200,
+          "endTime": 1924891199,
+          "cmd": "GIFTPACKAGE",
+          "param1": null,
           "skinId": "",
           "furniId": ""
         }
