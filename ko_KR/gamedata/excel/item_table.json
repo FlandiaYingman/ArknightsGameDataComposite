@@ -1398,6 +1398,10 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "camp_r_24",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "camp_r_23",
           "occPer": "ALWAYS"
         },
@@ -1442,11 +1446,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_12",
+          "stageId": "camp_r_25",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_11",
+          "stageId": "camp_r_12",
           "occPer": "ALWAYS"
         },
         {
@@ -1498,11 +1502,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_24",
+          "stageId": "camp_r_11",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_25",
+          "stageId": "camp_r_26",
           "occPer": "ALWAYS"
         }
       ],
@@ -32170,6 +32174,184 @@
       "stageDropList": [],
       "buildingProductList": [],
       "voucherRelateList": null
+    },
+    "voucher_full_puzzle": {
+      "itemId": "voucher_full_puzzle",
+      "name": "퍼즐의 개인 우편물",
+      "description": "편지에는 자신이 스파이가 되기 전의 평온했던 삶과, 몇 번을 봐도 질리지 않는 런디니움의 안개 풍경에 대해 언급되어 있다.",
+      "rarity": "TIER_5",
+      "iconId": "voucher_full_puzzle",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5000026,
+      "usage": "박사에게 보내는 개인 우편물. 퍼즐의 잠재능력을 최고 레벨까지 상승하는 데 사용된다.",
+      "obtainApproach": "기록 복원 획득",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "VOUCHER_FULL_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "voucher_full_bdhkgt": {
+      "itemId": "voucher_full_bdhkgt",
+      "name": "지에윈의 개인 우편물",
+      "description": "편지에는 그녀가 부족을 떠나 로도스 아일랜드로 오는 동안의 견문과 방황, 그리고 함선 생활에 대한 여러 의문에 대해 언급되어 있다.",
+      "rarity": "TIER_5",
+      "iconId": "voucher_full_bdhkgt",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5000027,
+      "usage": "박사에게 보내는 개인 우편물. 지에윈의 잠재능력을 최고 레벨까지 상승하는 데 사용된다.",
+      "obtainApproach": "기록 복원 획득",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "VOUCHER_FULL_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "uni_set_countryside": {
+      "itemId": "uni_set_countryside",
+      "name": "불로 비춰주소서 가구 소장 세트",
+      "description": "구매부가 공급업체에 다시 연락해 한정판이었던 일부 가구를 충당했다. 클로저에게 고맙다고 전하자!",
+      "rarity": "TIER_5",
+      "iconId": "uni_set_countryside",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "불로 비춰주소서 이벤트에서만 획득 가능한 모든 미보유 가구를 획득할 수 있다.",
+      "obtainApproach": "기록 복원 획득",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "UNI_COLLECTION",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "uni_set_martialClub": {
+      "itemId": "uni_set_martialClub",
+      "name": "등림의 가구 소장 세트",
+      "description": "구매부가 공급업체에 다시 연락해 한정판이었던 일부 가구를 충당했다. 클로저에게 고맙다고 전하자!",
+      "rarity": "TIER_5",
+      "iconId": "uni_set_martialClub",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "등림의 이벤트에서만 획득 가능한 모든 미보유 가구를 획득할 수 있다.",
+      "obtainApproach": "기록 복원 획득",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "UNI_COLLECTION",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "act30side_token_box_rep_1": {
+      "itemId": "act30side_token_box_rep_1",
+      "name": "버든비스트 랜덤 박스",
+      "description": "'달리는 버든비스트' 프로젝트와 콜라보한 랜덤 박스 상품. 다양한 모양을 갖춘 9가지의 버든비스트 피규어가 들어 있으며, 히든 한정판도 1종 포함되어 있다.\n팁: 새로 만든 쉐라간드 조각상 앞에서 기도를 올리면 한정판에 당첨될 확률이 높아진다고 한다!",
+      "rarity": "TIER_5",
+      "iconId": "act30side_token_box",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "버든비스트 랜덤 박스는 품절될 정도로 큰 인기를 끌었다. 지금 딱 적절한 시기에 온 물량인지라, 열차의 승무원들도 기꺼이 다른 상품들로 교환해 주려고 한다.",
+      "obtainApproach": "이벤트 스테이지 드랍, 이벤트 임무 획득",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [
+        {
+          "stageId": "act30side_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act30side_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act30side_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act30side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act30side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act30side_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act30side_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act30side_08",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "act31side_token_box_rep_1": {
+      "itemId": "act31side_token_box_rep_1",
+      "name": "천주",
+      "description": "대황성 천사부의 최신 연구 개발 성과. 조작이 간편하고 기동성이 좋다. 토양의 샘플 채취, 검사 등 다양한 기능이 있는데, 때때로 개구쟁이 아이들이 가져가 '파울비스트 맞추기'를 한다.",
+      "rarity": "TIER_5",
+      "iconId": "act31side_token_box",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "천사부에서 개발한 농업용 드론. 종종 고장 때문에 밭에 추락한다. 주운 드론은 신농 장터에서 물자를 교환할 수 있다고 한다.",
+      "obtainApproach": "이벤트 스테이지 드랍, 이벤트 임무 획득",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [
+        {
+          "stageId": "act31side_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act31side_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act31side_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act31side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act31side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act31side_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act31side_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act31side_08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act31side_09",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": [],
+      "voucherRelateList": null
     }
   },
   "expItems": {
@@ -34069,7 +34251,13 @@
     "char_4117_ray@shining#2": 1,
     "char_1034_jesca2@cfa#1": 1,
     "char_2014_nian@cfa#1": 1,
-    "char_2024_chyue@cfa#1": 1
+    "char_2024_chyue@cfa#1": 1,
+    "furni_act57d6_newYearPic_01": 1,
+    "furni_annihilation_s26_01": 1,
+    "furni_rogue4_stoneGate_01": 1,
+    "char_4119_wanqin@epoque#41": 1,
+    "char_301_cutter@marthe#8": 1,
+    "char_4114_harold@snow#7": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
@@ -36174,6 +36362,146 @@
           "type": "FURN"
         }
       ]
+    },
+    "uni_set_countryside": {
+      "uniCollectionItemId": "uni_set_countryside",
+      "uniqueItem": [
+        {
+          "id": "furni_countryside_cabinet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_handcart_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_ceilingLamp_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_chair_01",
+          "count": 4,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_oven_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_table_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_basket_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_carpet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_floorLamp_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_curtain_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_partitionWall_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_wallpaper_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_countryside_floor_01",
+          "count": 1,
+          "type": "FURN"
+        }
+      ]
+    },
+    "uni_set_martialClub": {
+      "uniCollectionItemId": "uni_set_martialClub",
+      "uniqueItem": [
+        {
+          "id": "furni_martialClub_plantShelf_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_pillar_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_washtub_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_seatstone_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_drum_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_weaponRack_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_Dummy_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_carpet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_floorLamp_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_chair_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_pile_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_wallpaper_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_martialClub_floor_01",
+          "count": 1,
+          "type": "FURN"
+        }
+      ]
     }
   },
   "fullPotentialCharacters": {
@@ -36276,6 +36604,14 @@
     "char_135_halo": {
       "itemId": "voucher_full_halo",
       "ts": 1739516400
+    },
+    "char_4017_puzzle": {
+      "itemId": "voucher_full_puzzle",
+      "ts": 1751007600
+    },
+    "char_4078_bdhkgt": {
+      "itemId": "voucher_full_bdhkgt",
+      "ts": 1751526000
     }
   },
   "activityPotentialCharacters": {
