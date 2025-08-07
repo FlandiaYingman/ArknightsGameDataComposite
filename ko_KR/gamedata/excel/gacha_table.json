@@ -4985,6 +4985,66 @@
       "limitParam": null
     },
     {
+      "gachaPoolId": "SINGLE_KR_34_0_10",
+      "gachaIndex": 908,
+      "openTime": 1754550000,
+      "endTime": 1755716399,
+      "gachaPoolName": "배를 타고 온 이들",
+      "gachaPoolSummary": "8월 21일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "gachaRuleType": "SINGLE",
+      "dynMeta": null,
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "freeBackColor": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "NORM_KR_34_0_11",
+      "gachaIndex": 912,
+      "openTime": 1755154800,
+      "endTime": 1756321199,
+      "gachaPoolName": "연합 작전",
+      "gachaPoolSummary": "8월 28일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "gachaRuleType": "NORMAL",
+      "dynMeta": null,
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "freeBackColor": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "NORM_KR_34_0_12",
+      "gachaIndex": 913,
+      "openTime": 1755198000,
+      "endTime": 1756407599,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "8월 29일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "gachaRuleType": "NORMAL",
+      "dynMeta": null,
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "freeBackColor": null,
+      "limitParam": null
+    },
+    {
       "gachaPoolId": "LIMITED_KR_4_3_1",
       "gachaIndex": 10,
       "openTime": 1609304400,
@@ -5285,11 +5345,11 @@
       "LMTGSID": "LMTGS_COIN_3801",
       "CDPrimColor": "03b7b6",
       "CDSecColor": "03b7b6",
+      "freeBackColor": null,
       "gachaRuleType": "LIMITED",
       "dynMeta": null,
       "linkageRuleId": null,
       "linkageParam": null,
-      "freeBackColor": null,
       "limitParam": {
         "freeCount": 0,
         "hasFreeChar": false,
@@ -5309,11 +5369,11 @@
       "LMTGSID": "LMTGS_COIN_4101",
       "CDPrimColor": "ff76ad",
       "CDSecColor": "ab70df",
+      "freeBackColor": null,
       "gachaRuleType": "LIMITED",
       "dynMeta": null,
       "linkageRuleId": null,
       "linkageParam": null,
-      "freeBackColor": null,
       "limitParam": {
         "freeCount": 0,
         "hasFreeChar": false,
@@ -5333,11 +5393,11 @@
       "LMTGSID": "LMTGS_COIN_4401",
       "CDPrimColor": "7b6157",
       "CDSecColor": "7b6157",
+      "freeBackColor": null,
       "gachaRuleType": "LIMITED",
       "dynMeta": null,
       "linkageRuleId": null,
       "linkageParam": null,
-      "freeBackColor": null,
       "limitParam": {
         "freeCount": 0,
         "hasFreeChar": false,
@@ -5644,10 +5704,6 @@
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
         "attainRare6CharList": [
           "char_103_angel",
           "char_112_siege",
@@ -5680,7 +5736,11 @@
           "char_311_mudrok",
           "char_264_f12yin"
         ],
-        "attainRare6Num": 1
+        "attainRare6Num": 1,
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        }
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5712,10 +5772,6 @@
         "sub6RarityCharId": "char_017_huang",
         "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -5760,6 +5816,10 @@
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
         "attainRare6CharList": [
           "char_103_angel",
           "char_112_siege",
@@ -5825,64 +5885,14 @@
       "freeBackColor": null,
       "gachaRuleType": "ATTAIN",
       "dynMeta": {
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "rarityPickCharDict": {
-          "TIER_5": [
-            "char_128_plosis",
-            "char_106_franka",
-            "char_129_bluep",
-            "char_242_otter",
-            "char_108_silent",
-            "char_148_nearl",
-            "char_107_liskam",
-            "char_201_moeshd",
-            "char_174_slbell",
-            "char_241_panda",
-            "char_164_nightm",
-            "char_261_sddrag",
-            "char_356_broca",
-            "char_367_swllow",
-            "char_226_hmau",
-            "char_306_leizi",
-            "char_379_sesa",
-            "char_254_vodfox",
-            "char_373_lionhd",
-            "char_294_ayer",
-            "char_378_asbest",
-            "char_343_tknogi",
-            "char_349_chiave",
-            "char_344_beewax"
-          ],
-          "TIER_6": [
-            "char_103_angel",
-            "char_180_amgoat",
-            "char_291_aglina",
-            "char_147_shining",
-            "char_136_hsguma",
-            "char_263_skadi",
-            "char_010_chen",
-            "char_188_helage",
-            "char_017_huang",
-            "char_225_haak",
-            "char_222_bpipe",
-            "char_358_lisa"
-          ]
-        },
-        "scrollIndex": 7,
-        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
         "main6RarityCharId": "char_136_hsguma",
         "rare5CharList": [
           "char_108_silent",
           "char_106_franka",
           "char_241_panda"
         ],
+        "scrollIndex": 7,
         "sub6RarityCharId": "char_222_bpipe",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
         "attainRare6CharList": [
           "char_400_weedy",
           "char_293_thorns",
@@ -5945,8 +5955,43 @@
         ],
         "scrollIndex": 7,
         "sub6RarityCharId": "char_263_skadi",
+        "attainRare6CharList": [
+          "char_437_mizuki",
+          "char_479_sleach",
+          "char_430_fartth",
+          "char_420_flamtl",
+          "char_206_gnosis",
+          "char_322_lmlee",
+          "char_377_gdglow",
+          "char_300_phenxi",
+          "char_4039_horn",
+          "char_4009_irene",
+          "char_4046_ebnhlz",
+          "char_4048_doroth",
+          "char_4055_bgsnow",
+          "char_4064_mlynar",
+          "char_4072_ironmn",
+          "char_4065_judge",
+          "char_1020_reed2",
+          "char_4080_lin",
+          "char_4082_qiubai",
+          "char_4087_ines",
+          "char_4027_heyak",
+          "char_1032_excu2",
+          "char_1033_swire2",
+          "char_2012_typhon",
+          "char_1034_jesca2",
+          "char_4088_hodrer",
+          "char_4098_vvana",
+          "char_4116_blkkgt"
+        ],
+        "attainRare6Num": 1,
         "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -5990,42 +6035,7 @@
           ]
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
-        "attainRare6CharList": [
-          "char_437_mizuki",
-          "char_479_sleach",
-          "char_430_fartth",
-          "char_420_flamtl",
-          "char_206_gnosis",
-          "char_322_lmlee",
-          "char_377_gdglow",
-          "char_300_phenxi",
-          "char_4039_horn",
-          "char_4009_irene",
-          "char_4046_ebnhlz",
-          "char_4048_doroth",
-          "char_4055_bgsnow",
-          "char_4064_mlynar",
-          "char_4072_ironmn",
-          "char_4065_judge",
-          "char_1020_reed2",
-          "char_4080_lin",
-          "char_4082_qiubai",
-          "char_4087_ines",
-          "char_4027_heyak",
-          "char_1032_excu2",
-          "char_1033_swire2",
-          "char_2012_typhon",
-          "char_1034_jesca2",
-          "char_4088_hodrer",
-          "char_4098_vvana",
-          "char_4116_blkkgt"
-        ],
-        "attainRare6Num": 1,
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        }
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6134,32 +6144,52 @@
         ],
         "scrollIndex": 7,
         "sub6RarityCharId": "char_222_bpipe",
-        "attainRare6CharList": [
-          "char_103_angel",
-          "char_112_siege",
-          "char_134_ifrit",
-          "char_180_amgoat",
-          "char_291_aglina",
-          "char_147_shining",
-          "char_179_cgbird",
-          "char_136_hsguma",
-          "char_202_demkni",
-          "char_172_svrash",
-          "char_263_skadi",
-          "char_010_chen",
-          "char_340_shwaz",
-          "char_188_helage",
-          "char_248_mgllan",
-          "char_213_mostma",
-          "char_017_huang",
-          "char_225_haak",
-          "char_2013_cerber",
-          "char_222_bpipe",
-          "char_250_phatom",
-          "char_197_poca",
-          "char_358_lisa"
-        ],
-        "attainRare6Num": 1
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "rarityPickCharDict": {
+          "TIER_5": [
+            "char_128_plosis",
+            "char_115_headbr",
+            "char_102_texas",
+            "char_140_whitew",
+            "char_143_ghost",
+            "char_129_bluep",
+            "char_204_platnm",
+            "char_219_meteo",
+            "char_166_skfire",
+            "char_171_bldsk",
+            "char_148_nearl",
+            "char_144_red",
+            "char_158_milu",
+            "char_173_slchan",
+            "char_174_slbell",
+            "char_101_sora",
+            "char_215_mantic",
+            "char_241_panda",
+            "char_274_astesi",
+            "char_279_excu",
+            "char_243_waaifu",
+            "char_261_sddrag",
+            "char_367_swllow",
+            "char_254_vodfox"
+          ],
+          "TIER_6": [
+            "char_103_angel",
+            "char_134_ifrit",
+            "char_180_amgoat",
+            "char_147_shining",
+            "char_179_cgbird",
+            "char_136_hsguma",
+            "char_172_svrash",
+            "char_263_skadi",
+            "char_017_huang",
+            "char_2013_cerber",
+            "char_222_bpipe",
+            "char_358_lisa"
+          ]
+        },
+        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6189,32 +6219,6 @@
         ],
         "scrollIndex": 7,
         "sub6RarityCharId": "char_263_skadi",
-        "attainRare6CharList": [
-          "char_103_angel",
-          "char_112_siege",
-          "char_134_ifrit",
-          "char_180_amgoat",
-          "char_291_aglina",
-          "char_147_shining",
-          "char_179_cgbird",
-          "char_136_hsguma",
-          "char_202_demkni",
-          "char_172_svrash",
-          "char_263_skadi",
-          "char_010_chen",
-          "char_340_shwaz",
-          "char_188_helage",
-          "char_248_mgllan",
-          "char_213_mostma",
-          "char_017_huang",
-          "char_225_haak",
-          "char_2013_cerber",
-          "char_222_bpipe",
-          "char_250_phatom",
-          "char_197_poca",
-          "char_358_lisa"
-        ],
-        "attainRare6Num": 1,
         "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
         "pickUpPerCharPercent": {
@@ -6340,6 +6344,32 @@
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "attainRare6CharList": [
+          "char_103_angel",
+          "char_112_siege",
+          "char_134_ifrit",
+          "char_180_amgoat",
+          "char_291_aglina",
+          "char_147_shining",
+          "char_179_cgbird",
+          "char_136_hsguma",
+          "char_202_demkni",
+          "char_172_svrash",
+          "char_263_skadi",
+          "char_010_chen",
+          "char_340_shwaz",
+          "char_188_helage",
+          "char_248_mgllan",
+          "char_213_mostma",
+          "char_017_huang",
+          "char_225_haak",
+          "char_2013_cerber",
+          "char_222_bpipe",
+          "char_250_phatom",
+          "char_197_poca",
+          "char_358_lisa"
+        ],
+        "attainRare6Num": 1,
         "pickUpPerCharPercent": {
           "TIER_5": 0.1666625,
           "TIER_6": 0.25
@@ -6450,10 +6480,6 @@
         "sub6RarityCharId": "char_112_siege",
         "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -6497,7 +6523,37 @@
           ]
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "attainRare6CharList": [
+          "char_103_angel",
+          "char_112_siege",
+          "char_134_ifrit",
+          "char_180_amgoat",
+          "char_291_aglina",
+          "char_147_shining",
+          "char_179_cgbird",
+          "char_136_hsguma",
+          "char_202_demkni",
+          "char_172_svrash",
+          "char_263_skadi",
+          "char_010_chen",
+          "char_340_shwaz",
+          "char_188_helage",
+          "char_248_mgllan",
+          "char_213_mostma",
+          "char_017_huang",
+          "char_225_haak",
+          "char_2013_cerber",
+          "char_222_bpipe",
+          "char_250_phatom",
+          "char_197_poca",
+          "char_358_lisa"
+        ],
+        "attainRare6Num": 1,
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        }
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6527,8 +6583,38 @@
         ],
         "scrollIndex": 7,
         "sub6RarityCharId": "char_340_shwaz",
+        "attainRare6CharList": [
+          "char_103_angel",
+          "char_112_siege",
+          "char_134_ifrit",
+          "char_180_amgoat",
+          "char_291_aglina",
+          "char_147_shining",
+          "char_179_cgbird",
+          "char_136_hsguma",
+          "char_202_demkni",
+          "char_172_svrash",
+          "char_263_skadi",
+          "char_010_chen",
+          "char_340_shwaz",
+          "char_188_helage",
+          "char_248_mgllan",
+          "char_213_mostma",
+          "char_017_huang",
+          "char_225_haak",
+          "char_2013_cerber",
+          "char_222_bpipe",
+          "char_250_phatom",
+          "char_197_poca",
+          "char_358_lisa"
+        ],
+        "attainRare6Num": 1,
         "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_115_headbr",
@@ -6572,37 +6658,7 @@
           ]
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
-        "attainRare6CharList": [
-          "char_103_angel",
-          "char_112_siege",
-          "char_134_ifrit",
-          "char_180_amgoat",
-          "char_291_aglina",
-          "char_147_shining",
-          "char_179_cgbird",
-          "char_136_hsguma",
-          "char_202_demkni",
-          "char_172_svrash",
-          "char_263_skadi",
-          "char_010_chen",
-          "char_340_shwaz",
-          "char_188_helage",
-          "char_248_mgllan",
-          "char_213_mostma",
-          "char_017_huang",
-          "char_225_haak",
-          "char_2013_cerber",
-          "char_222_bpipe",
-          "char_250_phatom",
-          "char_197_poca",
-          "char_358_lisa"
-        ],
-        "attainRare6Num": 1,
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        }
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6636,44 +6692,44 @@
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
         "rarityPickCharDict": {
           "TIER_5": [
-            "char_128_plosis",
-            "char_115_headbr",
             "char_102_texas",
-            "char_140_whitew",
+            "char_106_franka",
             "char_143_ghost",
             "char_129_bluep",
             "char_204_platnm",
-            "char_219_meteo",
             "char_166_skfire",
-            "char_171_bldsk",
-            "char_148_nearl",
-            "char_144_red",
-            "char_158_milu",
-            "char_173_slchan",
-            "char_174_slbell",
-            "char_101_sora",
-            "char_215_mantic",
-            "char_241_panda",
-            "char_274_astesi",
-            "char_279_excu",
-            "char_243_waaifu",
-            "char_261_sddrag",
-            "char_367_swllow",
-            "char_254_vodfox"
+            "char_242_otter",
+            "char_108_silent",
+            "char_107_liskam",
+            "char_201_moeshd",
+            "char_145_prove",
+            "char_195_glassb",
+            "char_164_nightm",
+            "char_308_swire",
+            "char_326_glacus",
+            "char_356_broca",
+            "char_226_hmau",
+            "char_306_leizi",
+            "char_373_lionhd",
+            "char_294_ayer",
+            "char_378_asbest",
+            "char_343_tknogi",
+            "char_349_chiave",
+            "char_344_beewax"
           ],
           "TIER_6": [
-            "char_103_angel",
-            "char_134_ifrit",
-            "char_180_amgoat",
-            "char_147_shining",
-            "char_179_cgbird",
-            "char_136_hsguma",
+            "char_112_siege",
+            "char_291_aglina",
             "char_172_svrash",
             "char_263_skadi",
-            "char_017_huang",
+            "char_010_chen",
+            "char_340_shwaz",
+            "char_188_helage",
+            "char_248_mgllan",
+            "char_213_mostma",
             "char_2013_cerber",
-            "char_222_bpipe",
-            "char_358_lisa"
+            "char_250_phatom",
+            "char_197_poca"
           ]
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
@@ -6753,32 +6809,6 @@
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
-        "attainRare6CharList": [
-          "char_103_angel",
-          "char_112_siege",
-          "char_134_ifrit",
-          "char_180_amgoat",
-          "char_291_aglina",
-          "char_147_shining",
-          "char_179_cgbird",
-          "char_136_hsguma",
-          "char_202_demkni",
-          "char_172_svrash",
-          "char_263_skadi",
-          "char_010_chen",
-          "char_340_shwaz",
-          "char_188_helage",
-          "char_248_mgllan",
-          "char_213_mostma",
-          "char_017_huang",
-          "char_225_haak",
-          "char_2013_cerber",
-          "char_222_bpipe",
-          "char_250_phatom",
-          "char_197_poca",
-          "char_358_lisa"
-        ],
-        "attainRare6Num": 1,
         "pickUpPerCharPercent": {
           "TIER_5": 0.1666625,
           "TIER_6": 0.25
@@ -6919,81 +6949,10 @@
         "sub6RarityCharId": "char_134_ifrit",
         "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "rarityPickCharDict": {
-          "TIER_5": [
-            "char_102_texas",
-            "char_106_franka",
-            "char_143_ghost",
-            "char_129_bluep",
-            "char_204_platnm",
-            "char_166_skfire",
-            "char_242_otter",
-            "char_108_silent",
-            "char_107_liskam",
-            "char_201_moeshd",
-            "char_145_prove",
-            "char_195_glassb",
-            "char_164_nightm",
-            "char_308_swire",
-            "char_326_glacus",
-            "char_356_broca",
-            "char_226_hmau",
-            "char_306_leizi",
-            "char_373_lionhd",
-            "char_294_ayer",
-            "char_378_asbest",
-            "char_343_tknogi",
-            "char_349_chiave",
-            "char_344_beewax"
-          ],
-          "TIER_6": [
-            "char_112_siege",
-            "char_291_aglina",
-            "char_172_svrash",
-            "char_263_skadi",
-            "char_010_chen",
-            "char_340_shwaz",
-            "char_188_helage",
-            "char_248_mgllan",
-            "char_213_mostma",
-            "char_2013_cerber",
-            "char_250_phatom",
-            "char_197_poca"
-          ]
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
         },
-        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
-      },
-      "linkageRuleId": null,
-      "linkageParam": null,
-      "limitParam": null
-    },
-    {
-      "gachaPoolId": "CLASSIC_KR_26_0_2",
-      "gachaIndex": 9988,
-      "openTime": 1711393200,
-      "endTime": 1712602799,
-      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
-      "gachaPoolSummary": "4월 9일 03:59 에 종료됩니다.",
-      "gachaPoolDetail": null,
-      "guarantee5Avail": 1,
-      "guarantee5Count": 10,
-      "LMTGSID": null,
-      "CDPrimColor": null,
-      "CDSecColor": null,
-      "freeBackColor": null,
-      "gachaRuleType": "CLASSIC",
-      "dynMeta": {
-        "main6RarityCharId": "char_250_phatom",
-        "rare5CharList": [
-          "char_106_franka",
-          "char_173_slchan",
-          "char_274_astesi"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_213_mostma",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -7037,11 +6996,86 @@
           ]
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "CLASSIC_KR_26_0_2",
+      "gachaIndex": 9988,
+      "openTime": 1711393200,
+      "endTime": 1712602799,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "4월 9일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "CLASSIC",
+      "dynMeta": {
+        "main6RarityCharId": "char_250_phatom",
+        "rare5CharList": [
+          "char_106_franka",
+          "char_173_slchan",
+          "char_274_astesi"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_213_mostma",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
         "pickUpPerCharPercent": {
           "TIER_5": 0.1666625,
           "TIER_6": 0.25
-        }
+        },
+        "rarityPickCharDict": {
+          "TIER_5": [
+            "char_128_plosis",
+            "char_115_headbr",
+            "char_102_texas",
+            "char_140_whitew",
+            "char_143_ghost",
+            "char_129_bluep",
+            "char_204_platnm",
+            "char_219_meteo",
+            "char_166_skfire",
+            "char_171_bldsk",
+            "char_148_nearl",
+            "char_144_red",
+            "char_158_milu",
+            "char_173_slchan",
+            "char_174_slbell",
+            "char_101_sora",
+            "char_215_mantic",
+            "char_241_panda",
+            "char_274_astesi",
+            "char_279_excu",
+            "char_243_waaifu",
+            "char_261_sddrag",
+            "char_367_swllow",
+            "char_254_vodfox"
+          ],
+          "TIER_6": [
+            "char_103_angel",
+            "char_134_ifrit",
+            "char_180_amgoat",
+            "char_147_shining",
+            "char_179_cgbird",
+            "char_136_hsguma",
+            "char_172_svrash",
+            "char_263_skadi",
+            "char_017_huang",
+            "char_2013_cerber",
+            "char_222_bpipe",
+            "char_358_lisa"
+          ]
+        },
+        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -7071,32 +7105,6 @@
         ],
         "scrollIndex": 7,
         "sub6RarityCharId": "char_188_helage",
-        "attainRare6CharList": [
-          "char_103_angel",
-          "char_112_siege",
-          "char_134_ifrit",
-          "char_180_amgoat",
-          "char_291_aglina",
-          "char_147_shining",
-          "char_179_cgbird",
-          "char_136_hsguma",
-          "char_202_demkni",
-          "char_172_svrash",
-          "char_263_skadi",
-          "char_010_chen",
-          "char_340_shwaz",
-          "char_188_helage",
-          "char_248_mgllan",
-          "char_213_mostma",
-          "char_017_huang",
-          "char_225_haak",
-          "char_2013_cerber",
-          "char_222_bpipe",
-          "char_250_phatom",
-          "char_197_poca",
-          "char_358_lisa"
-        ],
-        "attainRare6Num": 1,
         "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
         "pickUpPerCharPercent": {
@@ -7146,7 +7154,33 @@
           ]
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "attainRare6CharList": [
+          "char_103_angel",
+          "char_112_siege",
+          "char_134_ifrit",
+          "char_180_amgoat",
+          "char_291_aglina",
+          "char_147_shining",
+          "char_179_cgbird",
+          "char_136_hsguma",
+          "char_202_demkni",
+          "char_172_svrash",
+          "char_263_skadi",
+          "char_010_chen",
+          "char_340_shwaz",
+          "char_188_helage",
+          "char_248_mgllan",
+          "char_213_mostma",
+          "char_017_huang",
+          "char_225_haak",
+          "char_2013_cerber",
+          "char_222_bpipe",
+          "char_250_phatom",
+          "char_197_poca",
+          "char_358_lisa"
+        ],
+        "attainRare6Num": 1
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -7168,31 +7202,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_222_bpipe",
-        "rare5CharList": [
-          "char_204_platnm",
-          "char_254_vodfox",
-          "char_243_waaifu"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_136_hsguma",
         "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
             "char_115_headbr",
-            "char_102_texas",
             "char_140_whitew",
-            "char_143_ghost",
-            "char_129_bluep",
-            "char_204_platnm",
             "char_219_meteo",
-            "char_166_skfire",
             "char_171_bldsk",
             "char_148_nearl",
             "char_144_red",
@@ -7207,25 +7224,38 @@
             "char_243_waaifu",
             "char_261_sddrag",
             "char_367_swllow",
-            "char_254_vodfox"
+            "char_379_sesa",
+            "char_254_vodfox",
+            "char_346_aosta",
+            "char_214_kafka",
+            "char_363_toddi",
+            "char_475_akafyu"
           ],
           "TIER_6": [
-            "char_103_angel",
-            "char_134_ifrit",
-            "char_180_amgoat",
             "char_147_shining",
             "char_179_cgbird",
             "char_136_hsguma",
-            "char_172_svrash",
-            "char_263_skadi",
+            "char_202_demkni",
             "char_017_huang",
-            "char_2013_cerber",
+            "char_225_haak",
             "char_222_bpipe",
-            "char_358_lisa"
+            "char_358_lisa",
+            "char_400_weedy",
+            "char_293_thorns",
+            "char_423_blemsh",
+            "char_485_pallas"
           ]
         },
+        "scrollIndex": 7,
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "main6RarityCharId": "char_222_bpipe",
+        "rare5CharList": [
+          "char_204_platnm",
+          "char_254_vodfox",
+          "char_243_waaifu"
+        ],
+        "sub6RarityCharId": "char_136_hsguma"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -7326,20 +7356,9 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_213_mostma",
-        "rare5CharList": [
-          "char_166_skfire",
-          "char_344_beewax",
-          "char_195_glassb"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_250_phatom",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
+        "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
+        "detailTitle": "지향 헤드헌팅 소개",
+        "homeIntroDesc": "지향 헤드헌팅에서 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정 가능</>! 선정 후 이번 헤드헌팅 동안 <@ga.SPGacha>변경 불가</>. 첫 10회 경우 <@ga.SPGacha>5★</> 이상 확정 획득!",
         "rarityPickCharDict": {
           "TIER_5": [
             "char_115_headbr",
@@ -7382,8 +7401,24 @@
             "char_197_poca"
           ]
         },
+        "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
+        "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "scrollIndex": 7,
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "main6RarityCharId": "char_213_mostma",
+        "rare5CharList": [
+          "char_166_skfire",
+          "char_344_beewax",
+          "char_195_glassb"
+        ],
+        "sub6RarityCharId": "char_250_phatom",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
         "attainRare6CharList": [
           "char_103_angel",
           "char_112_siege",
@@ -7431,6 +7466,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "main6RarityCharId": "char_172_svrash",
+        "rare5CharList": [
+          "char_129_bluep",
+          "char_102_texas",
+          "char_128_plosis"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_179_cgbird",
         "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
         "rarityPickCharDict": {
@@ -7475,16 +7518,8 @@
             "char_485_pallas"
           ]
         },
-        "scrollIndex": 7,
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
-        "main6RarityCharId": "char_172_svrash",
-        "rare5CharList": [
-          "char_129_bluep",
-          "char_102_texas",
-          "char_128_plosis"
-        ],
-        "sub6RarityCharId": "char_179_cgbird"
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -7632,22 +7667,22 @@
         },
         "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
         "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "scrollIndex": 6,
-        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
         "main6RarityCharId": "char_213_mostma",
         "rare5CharList": [
           "char_166_skfire",
           "char_344_beewax",
           "char_195_glassb"
         ],
+        "scrollIndex": 6,
         "sub6RarityCharId": "char_250_phatom",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
         "pickUpPerCharPercent": {
           "TIER_5": 0.1666625,
           "TIER_6": 0.25
         },
+        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
         "attainRare6CharList": [
           "char_103_angel",
           "char_112_siege",
@@ -7702,53 +7737,7 @@
           "char_226_hmau"
         ],
         "scrollIndex": 7,
-        "sub6RarityCharId": "char_291_aglina",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "rarityPickCharDict": {
-          "TIER_5": [
-            "char_128_plosis",
-            "char_115_headbr",
-            "char_140_whitew",
-            "char_219_meteo",
-            "char_171_bldsk",
-            "char_148_nearl",
-            "char_144_red",
-            "char_158_milu",
-            "char_173_slchan",
-            "char_174_slbell",
-            "char_101_sora",
-            "char_215_mantic",
-            "char_241_panda",
-            "char_274_astesi",
-            "char_279_excu",
-            "char_243_waaifu",
-            "char_261_sddrag",
-            "char_367_swllow",
-            "char_379_sesa",
-            "char_254_vodfox",
-            "char_346_aosta",
-            "char_214_kafka",
-            "char_363_toddi",
-            "char_475_akafyu"
-          ],
-          "TIER_6": [
-            "char_147_shining",
-            "char_179_cgbird",
-            "char_136_hsguma",
-            "char_202_demkni",
-            "char_017_huang",
-            "char_225_haak",
-            "char_222_bpipe",
-            "char_358_lisa",
-            "char_400_weedy",
-            "char_293_thorns",
-            "char_423_blemsh",
-            "char_485_pallas"
-          ]
-        },
-        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
+        "sub6RarityCharId": "char_291_aglina"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -7769,198 +7758,6 @@
       "CDSecColor": null,
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
-      "dynMeta": {
-        "main6RarityCharId": "char_2013_cerber",
-        "rare5CharList": [
-          "char_115_headbr",
-          "char_241_panda",
-          "char_215_mantic"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_180_amgoat",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
-        "rarityPickCharDict": {
-          "TIER_5": [
-            "char_128_plosis",
-            "char_115_headbr",
-            "char_102_texas",
-            "char_140_whitew",
-            "char_143_ghost",
-            "char_129_bluep",
-            "char_204_platnm",
-            "char_219_meteo",
-            "char_166_skfire",
-            "char_171_bldsk",
-            "char_148_nearl",
-            "char_144_red",
-            "char_158_milu",
-            "char_173_slchan",
-            "char_174_slbell",
-            "char_101_sora",
-            "char_215_mantic",
-            "char_241_panda",
-            "char_274_astesi",
-            "char_279_excu",
-            "char_243_waaifu",
-            "char_261_sddrag",
-            "char_367_swllow",
-            "char_254_vodfox"
-          ],
-          "TIER_6": [
-            "char_103_angel",
-            "char_134_ifrit",
-            "char_180_amgoat",
-            "char_147_shining",
-            "char_179_cgbird",
-            "char_136_hsguma",
-            "char_172_svrash",
-            "char_263_skadi",
-            "char_017_huang",
-            "char_2013_cerber",
-            "char_222_bpipe",
-            "char_358_lisa"
-          ]
-        },
-        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
-      },
-      "linkageRuleId": null,
-      "linkageParam": null,
-      "limitParam": null
-    },
-    {
-      "gachaPoolId": "CLASSIC_KR_29_0_1",
-      "gachaIndex": 9978,
-      "openTime": 1723489200,
-      "endTime": 1724698799,
-      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
-      "gachaPoolSummary": "8월 27일 03:59 에 종료됩니다.",
-      "gachaPoolDetail": null,
-      "guarantee5Avail": 1,
-      "guarantee5Count": 10,
-      "LMTGSID": null,
-      "CDPrimColor": null,
-      "CDSecColor": null,
-      "freeBackColor": null,
-      "gachaRuleType": "CLASSIC",
-      "dynMeta": {
-        "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
-        "detailTitle": "지향 헤드헌팅 소개",
-        "homeIntroDesc": "지향 헤드헌팅에서 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정 가능</>! 선정 후 이번 헤드헌팅 동안 <@ga.SPGacha>변경 불가</>. 첫 10회 경우 <@ga.SPGacha>5★</> 이상 확정 획득!",
-        "rarityPickCharDict": {
-          "TIER_5": [
-            "char_102_texas",
-            "char_106_franka",
-            "char_143_ghost",
-            "char_129_bluep",
-            "char_204_platnm",
-            "char_166_skfire",
-            "char_242_otter",
-            "char_108_silent",
-            "char_107_liskam",
-            "char_201_moeshd",
-            "char_145_prove",
-            "char_195_glassb",
-            "char_164_nightm",
-            "char_308_swire",
-            "char_326_glacus",
-            "char_356_broca",
-            "char_226_hmau",
-            "char_306_leizi",
-            "char_373_lionhd",
-            "char_294_ayer",
-            "char_378_asbest",
-            "char_343_tknogi",
-            "char_349_chiave",
-            "char_344_beewax"
-          ],
-          "TIER_6": [
-            "char_112_siege",
-            "char_291_aglina",
-            "char_172_svrash",
-            "char_263_skadi",
-            "char_010_chen",
-            "char_340_shwaz",
-            "char_188_helage",
-            "char_248_mgllan",
-            "char_213_mostma",
-            "char_2013_cerber",
-            "char_250_phatom",
-            "char_197_poca"
-          ]
-        },
-        "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
-        "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
-        "main6RarityCharId": "char_213_mostma",
-        "rare5CharList": [
-          "char_166_skfire",
-          "char_344_beewax",
-          "char_195_glassb"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_250_phatom",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
-        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
-      },
-      "linkageRuleId": null,
-      "linkageParam": null,
-      "limitParam": null
-    },
-    {
-      "gachaPoolId": "CLASSIC_KR_29_0_2",
-      "gachaIndex": 9977,
-      "openTime": 1724698800,
-      "endTime": 1725908399,
-      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
-      "gachaPoolSummary": "9월 10일 03:59 에 종료됩니다.",
-      "gachaPoolDetail": null,
-      "guarantee5Avail": 1,
-      "guarantee5Count": 10,
-      "LMTGSID": null,
-      "CDPrimColor": null,
-      "CDSecColor": null,
-      "freeBackColor": null,
-      "gachaRuleType": "CLASSIC",
-      "dynMeta": {
-        "main6RarityCharId": "char_340_shwaz",
-        "rare5CharList": [
-          "char_107_liskam",
-          "char_108_silent",
-          "char_294_ayer"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_197_poca"
-      },
-      "linkageRuleId": null,
-      "linkageParam": null,
-      "limitParam": null
-    },
-    {
-      "gachaPoolId": "FESCLASSIC_KR_29_0_3",
-      "gachaIndex": 9976,
-      "openTime": 1725908400,
-      "endTime": 1727117999,
-      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
-      "gachaPoolSummary": "9월 24일 03:59 에 종료됩니다.",
-      "gachaPoolDetail": null,
-      "guarantee5Avail": 1,
-      "guarantee5Count": 10,
-      "LMTGSID": null,
-      "CDPrimColor": null,
-      "CDSecColor": null,
-      "freeBackColor": null,
-      "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
         "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
         "detailTitle": "지향 헤드헌팅 소개",
@@ -8018,13 +7815,250 @@
         "scrollIndex": 7,
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "main6RarityCharId": "char_2013_cerber",
+        "rare5CharList": [
+          "char_115_headbr",
+          "char_241_panda",
+          "char_215_mantic"
+        ],
+        "sub6RarityCharId": "char_180_amgoat"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "CLASSIC_KR_29_0_1",
+      "gachaIndex": 9978,
+      "openTime": 1723489200,
+      "endTime": 1724698799,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "8월 27일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "CLASSIC",
+      "dynMeta": {
+        "main6RarityCharId": "char_213_mostma",
+        "rare5CharList": [
+          "char_166_skfire",
+          "char_344_beewax",
+          "char_195_glassb"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_250_phatom",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
+        "rarityPickCharDict": {
+          "TIER_5": [
+            "char_102_texas",
+            "char_106_franka",
+            "char_143_ghost",
+            "char_129_bluep",
+            "char_204_platnm",
+            "char_166_skfire",
+            "char_242_otter",
+            "char_108_silent",
+            "char_107_liskam",
+            "char_201_moeshd",
+            "char_145_prove",
+            "char_195_glassb",
+            "char_164_nightm",
+            "char_308_swire",
+            "char_326_glacus",
+            "char_356_broca",
+            "char_226_hmau",
+            "char_306_leizi",
+            "char_373_lionhd",
+            "char_294_ayer",
+            "char_378_asbest",
+            "char_343_tknogi",
+            "char_349_chiave",
+            "char_344_beewax"
+          ],
+          "TIER_6": [
+            "char_112_siege",
+            "char_291_aglina",
+            "char_172_svrash",
+            "char_263_skadi",
+            "char_010_chen",
+            "char_340_shwaz",
+            "char_188_helage",
+            "char_248_mgllan",
+            "char_213_mostma",
+            "char_2013_cerber",
+            "char_250_phatom",
+            "char_197_poca"
+          ]
+        },
+        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "CLASSIC_KR_29_0_2",
+      "gachaIndex": 9977,
+      "openTime": 1724698800,
+      "endTime": 1725908399,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "9월 10일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "CLASSIC",
+      "dynMeta": {
+        "main6RarityCharId": "char_340_shwaz",
+        "rare5CharList": [
+          "char_107_liskam",
+          "char_108_silent",
+          "char_294_ayer"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_197_poca",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
+        "rarityPickCharDict": {
+          "TIER_5": [
+            "char_128_plosis",
+            "char_115_headbr",
+            "char_140_whitew",
+            "char_219_meteo",
+            "char_171_bldsk",
+            "char_148_nearl",
+            "char_144_red",
+            "char_158_milu",
+            "char_173_slchan",
+            "char_174_slbell",
+            "char_101_sora",
+            "char_215_mantic",
+            "char_241_panda",
+            "char_274_astesi",
+            "char_279_excu",
+            "char_243_waaifu",
+            "char_261_sddrag",
+            "char_367_swllow",
+            "char_379_sesa",
+            "char_254_vodfox",
+            "char_346_aosta",
+            "char_214_kafka",
+            "char_363_toddi",
+            "char_475_akafyu"
+          ],
+          "TIER_6": [
+            "char_147_shining",
+            "char_179_cgbird",
+            "char_136_hsguma",
+            "char_202_demkni",
+            "char_017_huang",
+            "char_225_haak",
+            "char_222_bpipe",
+            "char_358_lisa",
+            "char_400_weedy",
+            "char_293_thorns",
+            "char_423_blemsh",
+            "char_485_pallas"
+          ]
+        },
+        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "FESCLASSIC_KR_29_0_3",
+      "gachaIndex": 9976,
+      "openTime": 1725908400,
+      "endTime": 1727117999,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "9월 24일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "FESCLASSIC",
+      "dynMeta": {
         "main6RarityCharId": "char_179_cgbird",
         "rare5CharList": [
           "char_140_whitew",
           "char_379_sesa",
           "char_367_swllow"
         ],
-        "sub6RarityCharId": "char_172_svrash"
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_172_svrash",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
+        "rarityPickCharDict": {
+          "TIER_5": [
+            "char_128_plosis",
+            "char_115_headbr",
+            "char_102_texas",
+            "char_140_whitew",
+            "char_143_ghost",
+            "char_129_bluep",
+            "char_204_platnm",
+            "char_219_meteo",
+            "char_166_skfire",
+            "char_171_bldsk",
+            "char_148_nearl",
+            "char_144_red",
+            "char_158_milu",
+            "char_173_slchan",
+            "char_174_slbell",
+            "char_101_sora",
+            "char_215_mantic",
+            "char_241_panda",
+            "char_274_astesi",
+            "char_279_excu",
+            "char_243_waaifu",
+            "char_261_sddrag",
+            "char_367_swllow",
+            "char_254_vodfox"
+          ],
+          "TIER_6": [
+            "char_103_angel",
+            "char_134_ifrit",
+            "char_180_amgoat",
+            "char_147_shining",
+            "char_179_cgbird",
+            "char_136_hsguma",
+            "char_172_svrash",
+            "char_263_skadi",
+            "char_017_huang",
+            "char_2013_cerber",
+            "char_222_bpipe",
+            "char_358_lisa"
+          ]
+        },
+        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -8125,243 +8159,6 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_263_skadi",
-        "rare5CharList": [
-          "char_174_slbell",
-          "char_261_sddrag",
-          "char_279_excu"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_248_mgllan",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
-        "rarityPickCharDict": {
-          "TIER_5": [
-            "char_128_plosis",
-            "char_115_headbr",
-            "char_140_whitew",
-            "char_219_meteo",
-            "char_171_bldsk",
-            "char_148_nearl",
-            "char_144_red",
-            "char_158_milu",
-            "char_173_slchan",
-            "char_174_slbell",
-            "char_101_sora",
-            "char_215_mantic",
-            "char_241_panda",
-            "char_274_astesi",
-            "char_279_excu",
-            "char_243_waaifu",
-            "char_261_sddrag",
-            "char_367_swllow",
-            "char_379_sesa",
-            "char_254_vodfox",
-            "char_346_aosta",
-            "char_214_kafka",
-            "char_363_toddi",
-            "char_475_akafyu"
-          ],
-          "TIER_6": [
-            "char_147_shining",
-            "char_179_cgbird",
-            "char_136_hsguma",
-            "char_202_demkni",
-            "char_017_huang",
-            "char_225_haak",
-            "char_222_bpipe",
-            "char_358_lisa",
-            "char_400_weedy",
-            "char_293_thorns",
-            "char_423_blemsh",
-            "char_485_pallas"
-          ]
-        },
-        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
-      },
-      "linkageRuleId": null,
-      "linkageParam": null,
-      "limitParam": null
-    },
-    {
-      "gachaPoolId": "CLASSIC_KR_30_0_1",
-      "gachaIndex": 9973,
-      "openTime": 1729537200,
-      "endTime": 1730746799,
-      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
-      "gachaPoolSummary": "11월 5일 03:59 에 종료됩니다.",
-      "gachaPoolDetail": null,
-      "guarantee5Avail": 1,
-      "guarantee5Count": 10,
-      "LMTGSID": null,
-      "CDPrimColor": null,
-      "CDSecColor": null,
-      "freeBackColor": null,
-      "gachaRuleType": "CLASSIC",
-      "dynMeta": {
-        "main6RarityCharId": "char_179_cgbird",
-        "rare5CharList": [
-          "char_140_whitew",
-          "char_379_sesa",
-          "char_367_swllow"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_172_svrash",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
-        "rarityPickCharDict": {
-          "TIER_5": [
-            "char_128_plosis",
-            "char_115_headbr",
-            "char_140_whitew",
-            "char_219_meteo",
-            "char_171_bldsk",
-            "char_148_nearl",
-            "char_144_red",
-            "char_158_milu",
-            "char_173_slchan",
-            "char_174_slbell",
-            "char_101_sora",
-            "char_215_mantic",
-            "char_241_panda",
-            "char_274_astesi",
-            "char_279_excu",
-            "char_243_waaifu",
-            "char_261_sddrag",
-            "char_367_swllow",
-            "char_379_sesa",
-            "char_254_vodfox",
-            "char_346_aosta",
-            "char_214_kafka",
-            "char_363_toddi",
-            "char_475_akafyu"
-          ],
-          "TIER_6": [
-            "char_147_shining",
-            "char_179_cgbird",
-            "char_136_hsguma",
-            "char_202_demkni",
-            "char_017_huang",
-            "char_225_haak",
-            "char_222_bpipe",
-            "char_358_lisa",
-            "char_400_weedy",
-            "char_293_thorns",
-            "char_423_blemsh",
-            "char_485_pallas"
-          ]
-        },
-        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
-      },
-      "linkageRuleId": null,
-      "linkageParam": null,
-      "limitParam": null
-    },
-    {
-      "gachaPoolId": "FESCLASSIC_KR_30_0_2",
-      "gachaIndex": 9972,
-      "openTime": 1730746800,
-      "endTime": 1731956399,
-      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
-      "gachaPoolSummary": "11월 19일 03:59 에 종료됩니다.",
-      "gachaPoolDetail": null,
-      "guarantee5Avail": 1,
-      "guarantee5Count": 10,
-      "LMTGSID": null,
-      "CDPrimColor": null,
-      "CDSecColor": null,
-      "freeBackColor": null,
-      "gachaRuleType": "FESCLASSIC",
-      "dynMeta": {
-        "main6RarityCharId": "char_485_pallas",
-        "rare5CharList": [
-          "char_195_glassb",
-          "char_171_bldsk",
-          "char_145_prove"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_311_mudrok",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
-        "rarityPickCharDict": {
-          "TIER_5": [
-            "char_102_texas",
-            "char_106_franka",
-            "char_143_ghost",
-            "char_129_bluep",
-            "char_204_platnm",
-            "char_166_skfire",
-            "char_242_otter",
-            "char_108_silent",
-            "char_107_liskam",
-            "char_201_moeshd",
-            "char_145_prove",
-            "char_195_glassb",
-            "char_164_nightm",
-            "char_308_swire",
-            "char_326_glacus",
-            "char_356_broca",
-            "char_226_hmau",
-            "char_306_leizi",
-            "char_373_lionhd",
-            "char_294_ayer",
-            "char_378_asbest",
-            "char_343_tknogi",
-            "char_349_chiave",
-            "char_344_beewax"
-          ],
-          "TIER_6": [
-            "char_112_siege",
-            "char_291_aglina",
-            "char_172_svrash",
-            "char_263_skadi",
-            "char_010_chen",
-            "char_340_shwaz",
-            "char_188_helage",
-            "char_248_mgllan",
-            "char_213_mostma",
-            "char_2013_cerber",
-            "char_250_phatom",
-            "char_197_poca"
-          ]
-        },
-        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
-      },
-      "linkageRuleId": null,
-      "linkageParam": null,
-      "limitParam": null
-    },
-    {
-      "gachaPoolId": "CLASSIC_KR_30_0_3",
-      "gachaIndex": 9971,
-      "openTime": 1731956400,
-      "endTime": 1733165999,
-      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
-      "gachaPoolSummary": "12월 3일 03:59 에 종료됩니다.",
-      "gachaPoolDetail": null,
-      "guarantee5Avail": 1,
-      "guarantee5Count": 10,
-      "LMTGSID": null,
-      "CDPrimColor": null,
-      "CDSecColor": null,
-      "freeBackColor": null,
-      "gachaRuleType": "CLASSIC",
-      "dynMeta": {
         "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
         "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
         "pickUpPerCharPercent": {
@@ -8413,13 +8210,255 @@
         "scrollIndex": 7,
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "main6RarityCharId": "char_263_skadi",
+        "rare5CharList": [
+          "char_174_slbell",
+          "char_261_sddrag",
+          "char_279_excu"
+        ],
+        "sub6RarityCharId": "char_248_mgllan"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "CLASSIC_KR_30_0_1",
+      "gachaIndex": 9973,
+      "openTime": 1729537200,
+      "endTime": 1730746799,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "11월 5일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "CLASSIC",
+      "dynMeta": {
+        "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
+        "detailTitle": "지향 헤드헌팅 소개",
+        "homeIntroDesc": "지향 헤드헌팅에서 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정 가능</>! 선정 후 이번 헤드헌팅 동안 <@ga.SPGacha>변경 불가</>. 첫 10회 경우 <@ga.SPGacha>5★</> 이상 확정 획득!",
+        "rarityPickCharDict": {
+          "TIER_5": [
+            "char_128_plosis",
+            "char_115_headbr",
+            "char_140_whitew",
+            "char_219_meteo",
+            "char_171_bldsk",
+            "char_148_nearl",
+            "char_144_red",
+            "char_158_milu",
+            "char_173_slchan",
+            "char_174_slbell",
+            "char_101_sora",
+            "char_215_mantic",
+            "char_241_panda",
+            "char_274_astesi",
+            "char_279_excu",
+            "char_243_waaifu",
+            "char_261_sddrag",
+            "char_367_swllow",
+            "char_379_sesa",
+            "char_254_vodfox",
+            "char_346_aosta",
+            "char_214_kafka",
+            "char_363_toddi",
+            "char_475_akafyu"
+          ],
+          "TIER_6": [
+            "char_147_shining",
+            "char_179_cgbird",
+            "char_136_hsguma",
+            "char_202_demkni",
+            "char_017_huang",
+            "char_225_haak",
+            "char_222_bpipe",
+            "char_358_lisa",
+            "char_400_weedy",
+            "char_293_thorns",
+            "char_423_blemsh",
+            "char_485_pallas"
+          ]
+        },
+        "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
+        "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
+        "main6RarityCharId": "char_179_cgbird",
+        "rare5CharList": [
+          "char_140_whitew",
+          "char_379_sesa",
+          "char_367_swllow"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_172_svrash",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
+        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "FESCLASSIC_KR_30_0_2",
+      "gachaIndex": 9972,
+      "openTime": 1730746800,
+      "endTime": 1731956399,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "11월 19일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "FESCLASSIC",
+      "dynMeta": {
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
+        "rarityPickCharDict": {
+          "TIER_5": [
+            "char_102_texas",
+            "char_106_franka",
+            "char_143_ghost",
+            "char_129_bluep",
+            "char_204_platnm",
+            "char_166_skfire",
+            "char_242_otter",
+            "char_108_silent",
+            "char_107_liskam",
+            "char_201_moeshd",
+            "char_145_prove",
+            "char_195_glassb",
+            "char_164_nightm",
+            "char_308_swire",
+            "char_326_glacus",
+            "char_356_broca",
+            "char_226_hmau",
+            "char_306_leizi",
+            "char_373_lionhd",
+            "char_294_ayer",
+            "char_378_asbest",
+            "char_343_tknogi",
+            "char_349_chiave",
+            "char_344_beewax"
+          ],
+          "TIER_6": [
+            "char_112_siege",
+            "char_291_aglina",
+            "char_172_svrash",
+            "char_263_skadi",
+            "char_010_chen",
+            "char_340_shwaz",
+            "char_188_helage",
+            "char_248_mgllan",
+            "char_213_mostma",
+            "char_2013_cerber",
+            "char_250_phatom",
+            "char_197_poca"
+          ]
+        },
+        "scrollIndex": 7,
+        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "main6RarityCharId": "char_485_pallas",
+        "rare5CharList": [
+          "char_195_glassb",
+          "char_171_bldsk",
+          "char_145_prove"
+        ],
+        "sub6RarityCharId": "char_311_mudrok"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "CLASSIC_KR_30_0_3",
+      "gachaIndex": 9971,
+      "openTime": 1731956400,
+      "endTime": 1733165999,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "12월 3일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "CLASSIC",
+      "dynMeta": {
         "main6RarityCharId": "char_225_haak",
         "rare5CharList": [
           "char_356_broca",
           "char_306_leizi",
           "char_373_lionhd"
         ],
-        "sub6RarityCharId": "char_188_helage"
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_188_helage",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
+        "rarityPickCharDict": {
+          "TIER_5": [
+            "char_102_texas",
+            "char_106_franka",
+            "char_143_ghost",
+            "char_129_bluep",
+            "char_242_otter",
+            "char_144_red",
+            "char_201_moeshd",
+            "char_145_prove",
+            "char_195_glassb",
+            "char_241_panda",
+            "char_164_nightm",
+            "char_326_glacus",
+            "char_243_waaifu",
+            "char_261_sddrag",
+            "char_356_broca",
+            "char_226_hmau",
+            "char_306_leizi",
+            "char_254_vodfox",
+            "char_373_lionhd",
+            "char_378_asbest",
+            "char_349_chiave",
+            "char_218_cuttle",
+            "char_415_flint",
+            "char_455_nothin"
+          ],
+          "TIER_6": [
+            "char_180_amgoat",
+            "char_291_aglina",
+            "char_136_hsguma",
+            "char_202_demkni",
+            "char_263_skadi",
+            "char_188_helage",
+            "char_213_mostma",
+            "char_2013_cerber",
+            "char_416_zumama",
+            "char_423_blemsh",
+            "char_472_pasngr",
+            "char_003_kalts"
+          ]
+        },
+        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -8525,63 +8564,13 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
-        "rarityPickCharDict": {
-          "TIER_5": [
-            "char_102_texas",
-            "char_106_franka",
-            "char_143_ghost",
-            "char_129_bluep",
-            "char_242_otter",
-            "char_144_red",
-            "char_201_moeshd",
-            "char_145_prove",
-            "char_195_glassb",
-            "char_241_panda",
-            "char_164_nightm",
-            "char_326_glacus",
-            "char_243_waaifu",
-            "char_261_sddrag",
-            "char_356_broca",
-            "char_226_hmau",
-            "char_306_leizi",
-            "char_254_vodfox",
-            "char_373_lionhd",
-            "char_378_asbest",
-            "char_349_chiave",
-            "char_218_cuttle",
-            "char_415_flint",
-            "char_455_nothin"
-          ],
-          "TIER_6": [
-            "char_180_amgoat",
-            "char_291_aglina",
-            "char_136_hsguma",
-            "char_202_demkni",
-            "char_263_skadi",
-            "char_188_helage",
-            "char_213_mostma",
-            "char_2013_cerber",
-            "char_416_zumama",
-            "char_423_blemsh",
-            "char_472_pasngr",
-            "char_003_kalts"
-          ]
-        },
-        "scrollIndex": 7,
-        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
         "main6RarityCharId": "char_485_pallas",
         "rare5CharList": [
           "char_195_glassb",
           "char_171_bldsk",
           "char_145_prove"
         ],
+        "scrollIndex": 7,
         "sub6RarityCharId": "char_311_mudrok"
       },
       "linkageRuleId": null,
@@ -8604,20 +8593,9 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_136_hsguma",
-        "rare5CharList": [
-          "char_173_slchan",
-          "char_106_franka",
-          "char_101_sora"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_017_huang",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
+        "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
+        "detailTitle": "지향 헤드헌팅 소개",
+        "homeIntroDesc": "지향 헤드헌팅에서 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정 가능</>! 선정 후 이번 헤드헌팅 동안 <@ga.SPGacha>변경 불가</>. 첫 10회 경우 <@ga.SPGacha>5★</> 이상 확정 획득!",
         "rarityPickCharDict": {
           "TIER_5": [
             "char_102_texas",
@@ -8660,8 +8638,24 @@
             "char_003_kalts"
           ]
         },
+        "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
+        "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
+        "scrollIndex": 7,
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "main6RarityCharId": "char_136_hsguma",
+        "rare5CharList": [
+          "char_173_slchan",
+          "char_106_franka",
+          "char_101_sora"
+        ],
+        "sub6RarityCharId": "char_017_huang"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -8683,9 +8677,20 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
-        "detailTitle": "지향 헤드헌팅 소개",
-        "homeIntroDesc": "지향 헤드헌팅에서 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정 가능</>! 선정 후 이번 헤드헌팅 동안 <@ga.SPGacha>변경 불가</>. 첫 10회 경우 <@ga.SPGacha>5★</> 이상 확정 획득!",
+        "main6RarityCharId": "char_358_lisa",
+        "rare5CharList": [
+          "char_128_plosis",
+          "char_143_ghost",
+          "char_102_texas"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_222_bpipe",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -8727,22 +8732,6 @@
             "char_423_blemsh",
             "char_485_pallas"
           ]
-        },
-        "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
-        "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
-        "main6RarityCharId": "char_358_lisa",
-        "rare5CharList": [
-          "char_128_plosis",
-          "char_143_ghost",
-          "char_102_texas"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_222_bpipe",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
@@ -8796,9 +8785,20 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
-        "detailTitle": "지향 헤드헌팅 소개",
-        "homeIntroDesc": "지향 헤드헌팅에서 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정 가능</>! 선정 후 이번 헤드헌팅 동안 <@ga.SPGacha>변경 불가</>. 첫 10회 경우 <@ga.SPGacha>5★</> 이상 확정 획득!",
+        "main6RarityCharId": "char_291_aglina",
+        "rare5CharList": [
+          "char_254_vodfox",
+          "char_129_bluep",
+          "char_415_flint"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_426_billro",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_102_texas",
@@ -8841,24 +8841,8 @@
             "char_003_kalts"
           ]
         },
-        "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
-        "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
-        "scrollIndex": 7,
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
-        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
-        "main6RarityCharId": "char_291_aglina",
-        "rare5CharList": [
-          "char_254_vodfox",
-          "char_129_bluep",
-          "char_415_flint"
-        ],
-        "sub6RarityCharId": "char_426_billro"
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -8880,20 +8864,9 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_188_helage",
-        "rare5CharList": [
-          "char_326_glacus",
-          "char_115_headbr",
-          "char_241_panda"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_250_phatom",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
+        "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
+        "detailTitle": "지향 헤드헌팅 소개",
+        "homeIntroDesc": "지향 헤드헌팅에서 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정 가능</>! 선정 후 이번 헤드헌팅 동안 <@ga.SPGacha>변경 불가</>. 첫 10회 경우 <@ga.SPGacha>5★</> 이상 확정 획득!",
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -8935,6 +8908,22 @@
             "char_423_blemsh",
             "char_485_pallas"
           ]
+        },
+        "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
+        "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
+        "main6RarityCharId": "char_188_helage",
+        "rare5CharList": [
+          "char_326_glacus",
+          "char_115_headbr",
+          "char_241_panda"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_250_phatom",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
@@ -9067,36 +9056,52 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
-        "detailTitle": "지향 헤드헌팅 소개",
-        "homeIntroDesc": "지향 헤드헌팅에서 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정 가능</>! 선정 후 이번 헤드헌팅 동안 <@ga.SPGacha>변경 불가</>. 첫 10회 경우 <@ga.SPGacha>5★</> 이상 확정 획득!",
-        "rarityPickCharDict": {
-          "TIER_5": [
-            "char_489_serum",
-            "char_497_ctable",
-            "char_4071_peper",
-            "char_4006_melnte",
-            "char_4015_spuria",
-            "char_4109_baslin"
-          ],
-          "TIER_6": [
-            "char_479_sleach",
-            "char_4046_ebnhlz",
-            "char_4087_ines",
-            "char_4088_hodrer",
-            "char_4098_vvana",
-            "char_4133_logos"
-          ]
-        },
-        "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
-        "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
+        "attainRare6CharList": [
+          "char_103_angel",
+          "char_112_siege",
+          "char_134_ifrit",
+          "char_180_amgoat",
+          "char_291_aglina",
+          "char_147_shining",
+          "char_179_cgbird",
+          "char_136_hsguma",
+          "char_202_demkni",
+          "char_172_svrash",
+          "char_263_skadi",
+          "char_010_chen",
+          "char_340_shwaz",
+          "char_188_helage",
+          "char_248_mgllan",
+          "char_213_mostma",
+          "char_017_huang",
+          "char_225_haak",
+          "char_2013_cerber",
+          "char_222_bpipe",
+          "char_250_phatom",
+          "char_197_poca",
+          "char_358_lisa",
+          "char_400_weedy",
+          "char_293_thorns",
+          "char_416_zumama",
+          "char_350_surtr",
+          "char_423_blemsh",
+          "char_311_mudrok",
+          "char_264_f12yin",
+          "char_332_archet",
+          "char_362_saga",
+          "char_472_pasngr",
+          "char_003_kalts",
+          "char_426_billro",
+          "char_485_pallas"
+        ],
+        "attainRare6Num": 1,
+        "scrollIndex": 7,
         "main6RarityCharId": "char_188_helage",
         "rare5CharList": [
           "char_326_glacus",
           "char_115_headbr",
           "char_241_panda"
         ],
-        "scrollIndex": 7,
         "sub6RarityCharId": "char_250_phatom"
       },
       "linkageRuleId": null,
@@ -9148,20 +9153,9 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_332_archet",
-        "rare5CharList": [
-          "char_373_lionhd",
-          "char_346_aosta",
-          "char_401_elysm"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_264_f12yin",
-        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
-        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
-        "pickUpPerCharPercent": {
-          "TIER_5": 0.1666625,
-          "TIER_6": 0.25
-        },
+        "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
+        "detailTitle": "지향 헤드헌팅 소개",
+        "homeIntroDesc": "지향 헤드헌팅에서 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정 가능</>! 선정 후 이번 헤드헌팅 동안 <@ga.SPGacha>변경 불가</>. 첫 10회 경우 <@ga.SPGacha>5★</> 이상 확정 획득!",
         "rarityPickCharDict": {
           "TIER_5": [
             "char_102_texas",
@@ -9203,6 +9197,22 @@
             "char_472_pasngr",
             "char_003_kalts"
           ]
+        },
+        "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
+        "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
+        "main6RarityCharId": "char_332_archet",
+        "rare5CharList": [
+          "char_373_lionhd",
+          "char_346_aosta",
+          "char_401_elysm"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_264_f12yin",
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
         },
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
@@ -9324,6 +9334,85 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "chooseRuleConst": "<color=#00a8ff>[커널 로케이팅]</color> 기간 동안, <color=#00a8ff>로케이팅 범위</color> 내에서 <color=#00a8ff>6성 오퍼레이터 2명</color> 및 <color=#00a8ff>5성 오퍼레이터 3명</color>을 선정할 수 있습니다.\n선정하는 과정에 <color=#00a8ff>6성 오퍼레이터 1명</color> 및 <color=#00a8ff>5성 오퍼레이터 1명</color>을 별도로 <color=#00a8ff>구매센터에서 교환 가능</color>하도록 설정할 수 있으며, 선정한 오퍼레이터는 <color=#ffd800>[고급증명서]</color>와 <color=#00a8ff>[범용증명서]</color>에서 교환할 수 있습니다.\n커널 로케이팅 기간 동안, 확률 UP으로 선정한 오퍼레이터는 <color=#00a8ff>이번 헤드헌팅에서 변경할 수 없습니다</color>.",
+        "homeDescConst": "커널 로케이팅에서 확률 UP 오퍼레이터를 <color=#00a8ff>자유롭게 선정 가능</color>! 선정 후 이번 헤드헌팅 동안 <color=#00a8ff>변경 불가</color>. 첫 10회 경우 <color=#00a8ff>5성</color> 이상 확정 획득!",
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.1666625,
+          "TIER_6": 0.25
+        },
+        "rarityPickCharDict": {
+          "TIER_5": [
+            "char_128_plosis",
+            "char_115_headbr",
+            "char_140_whitew",
+            "char_204_platnm",
+            "char_166_skfire",
+            "char_108_silent",
+            "char_171_bldsk",
+            "char_148_nearl",
+            "char_107_liskam",
+            "char_158_milu",
+            "char_173_slchan",
+            "char_101_sora",
+            "char_215_mantic",
+            "char_164_nightm",
+            "char_308_swire",
+            "char_274_astesi",
+            "char_367_swllow",
+            "char_379_sesa",
+            "char_294_ayer",
+            "char_343_tknogi",
+            "char_344_beewax",
+            "char_401_elysm",
+            "char_365_aprl",
+            "char_436_whispr"
+          ],
+          "TIER_6": [
+            "char_103_angel",
+            "char_112_siege",
+            "char_180_amgoat",
+            "char_172_svrash",
+            "char_248_mgllan",
+            "char_017_huang",
+            "char_225_haak",
+            "char_358_lisa",
+            "char_400_weedy",
+            "char_293_thorns",
+            "char_264_f12yin",
+            "char_362_saga"
+          ]
+        },
+        "scrollIndex": 7,
+        "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
+        "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>",
+        "main6RarityCharId": "char_332_archet",
+        "rare5CharList": [
+          "char_373_lionhd",
+          "char_346_aosta",
+          "char_401_elysm"
+        ],
+        "sub6RarityCharId": "char_264_f12yin"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "CLASSIC_ATTAIN_KR_34_0_2",
+      "gachaIndex": 9955,
+      "openTime": 1751310000,
+      "endTime": 1752519599,
+      "gachaPoolName": "커널 셀레브레이션",
+      "gachaPoolSummary": "7월 15일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "CLASSIC_ATTAIN",
+      "dynMeta": {
         "detailInfo": "<@ga.SPGacha>[지향 헤드헌팅]</> 기간 동안, 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정할 수 있습니다</>.\n<@ga.SPGacha>확률 UP 오퍼레이터는 선정하면 변경할 수 없습니다</>.",
         "detailTitle": "지향 헤드헌팅 소개",
         "homeIntroDesc": "지향 헤드헌팅에서 확률 UP 범위 내 <@ga.SPGacha>6★ 오퍼레이터 3명</> 및 <@ga.SPGacha>5★ 오퍼레이터 3명</>을 <@ga.SPGacha>자유롭게 선정 가능</>! 선정 후 이번 헤드헌팅 동안 <@ga.SPGacha>변경 불가</>. 첫 10회 경우 <@ga.SPGacha>5★</> 이상 확정 획득!",
@@ -9347,35 +9436,6 @@
         },
         "star5ChooseRule": "이번 [지향 헤드헌팅]에서 다음 5★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 5★ 출현 확률의 60%</>",
         "star6ChooseRule": "이번 [지향 헤드헌팅]에서 다음 6★ 오퍼레이터 중 <@ga.SPGacha>3명</> 선정 가능, <@ga.SPGacha>합계 획득 확률은 6★ 출현 확률의 100%</>",
-        "main6RarityCharId": "char_332_archet",
-        "rare5CharList": [
-          "char_373_lionhd",
-          "char_346_aosta",
-          "char_401_elysm"
-        ],
-        "scrollIndex": 7,
-        "sub6RarityCharId": "char_264_f12yin"
-      },
-      "linkageRuleId": null,
-      "linkageParam": null,
-      "limitParam": null
-    },
-    {
-      "gachaPoolId": "CLASSIC_ATTAIN_KR_34_0_2",
-      "gachaIndex": 9955,
-      "openTime": 1751310000,
-      "endTime": 1752519599,
-      "gachaPoolName": "커널 셀레브레이션",
-      "gachaPoolSummary": "7월 15일 03:59 에 종료됩니다.",
-      "gachaPoolDetail": null,
-      "guarantee5Avail": 1,
-      "guarantee5Count": 10,
-      "LMTGSID": null,
-      "CDPrimColor": null,
-      "CDSecColor": null,
-      "freeBackColor": null,
-      "gachaRuleType": "CLASSIC_ATTAIN",
-      "dynMeta": {
         "attainRare6CharList": [
           "char_103_angel",
           "char_112_siege",
@@ -9517,6 +9577,64 @@
         "scrollIndex": 7,
         "star5ChooseRuleConst": "이번 커널 로케이팅에서 다음 5성 오퍼레이터 중 <color=#00a8ff>3명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 5성 출현 확률의 50%</color>",
         "star6ChooseRuleConst": "이번 커널 로케이팅에서 다음 6성 오퍼레이터 중 <color=#00a8ff>2명</color> 선정 가능, <color=#00a8ff>합계 획득 확률은 6성 출현 확률의 50%</color>"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "CLASSIC_KR_34_0_5",
+      "gachaIndex": 9952,
+      "openTime": 1754938800,
+      "endTime": 1756148399,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "8월 26일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "CLASSIC",
+      "dynMeta": {
+        "main6RarityCharId": "char_003_kalts",
+        "rare5CharList": [
+          "char_243_waaifu",
+          "char_164_nightm",
+          "char_219_meteo"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_350_surtr"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "CLASSIC_KR_34_0_6",
+      "gachaIndex": 9951,
+      "openTime": 1756148400,
+      "endTime": 1757357999,
+      "gachaPoolName": "다양한 전투에서 활약하는 정예 오퍼레이터",
+      "gachaPoolSummary": "9월 9일 03:59 에 종료됩니다.",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "CLASSIC",
+      "dynMeta": {
+        "main6RarityCharId": "char_222_bpipe",
+        "rare5CharList": [
+          "char_343_tknogi",
+          "char_174_slbell",
+          "char_478_kirara"
+        ],
+        "scrollIndex": 7,
+        "sub6RarityCharId": "char_263_skadi"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -12030,6 +12148,27 @@
       "startTime": 1753988400,
       "endTime": 1755197999,
       "spriteId": "picNorm_kr_34_0_9"
+    },
+    {
+      "poolId": "SINGLE_KR_34_0_10",
+      "index": 908,
+      "startTime": 1754550000,
+      "endTime": 1755716399,
+      "spriteId": "picSingle_kr_34_0_10"
+    },
+    {
+      "poolId": "NORM_KR_34_0_11",
+      "index": 912,
+      "startTime": 1755154800,
+      "endTime": 1756321199,
+      "spriteId": "picNorm_kr_34_0_11"
+    },
+    {
+      "poolId": "NORM_KR_34_0_12",
+      "index": 913,
+      "startTime": 1755198000,
+      "endTime": 1756407599,
+      "spriteId": "picNorm_kr_34_0_12"
     },
     {
       "poolId": "FESCLASSIC_KR_24_0_4",
