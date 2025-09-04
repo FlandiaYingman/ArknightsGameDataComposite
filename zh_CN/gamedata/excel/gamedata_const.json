@@ -1028,7 +1028,25 @@
     "ro5.lose": "<color=#FF6E6E>{0}</color>",
     "ro5.get": "<color=#28bfe5>{0}</color>",
     "recalrune.nag": "<color=#c9001c>{0}</color>",
-    "recalrune.pos": "<color=#0098dc>{0}</color>"
+    "recalrune.pos": "<color=#0098dc>{0}</color>",
+    "ba.enemy": "<color=#D83C3C>{0}</color>",
+    "ba.drop": "<color=#36ACFF>{0}</color>",
+    "trap.number": "<color=#018FCE>{0}</color>",
+    "trap.debuff": "<color=#d83c3c>{0}</color>",
+    "trap.monster": "<color=#d83c3c>{0}</color>",
+    "trap.combine": "<color=#018FCE>{0}</color>",
+    "trap.drop": "<color=#018FCE>{0}</color>",
+    "strategy.number": "<color=#018FCE>{0}</color>",
+    "strategy.text": "<color=#018FCE>{0}</color>",
+    "strategy.text2": "<color=#767676>{0}</color>",
+    "gacha.text": "<color=#f3e468>{0}</color>",
+    "buff.number": "<color=#ede160>{0}</color>",
+    "level.highlight": "<color=#ede161>{0}</color>",
+    "char.oblv": "<color=#7799cc>{0}</color>",
+    "char.mort": "<color=#779977>{0}</color>",
+    "char.dolr": "<color=#bb9955>{0}</color>",
+    "char.amor": "<color=#aa4477>{0}</color>",
+    "char.tmor": "<color=#335566>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1783,14 +1801,44 @@
       "termId": "cc.g.elite",
       "termName": "精英干员",
       "description": "包含以下干员\n迷迭香、煌、逻各斯、烛煌、电弧"
+    },
+    "ba.permanentatk": {
+      "termId": "ba.permanentatk",
+      "termName": "持续攻击",
+      "description": "无论攻击范围内是否有攻击目标，都会持续进行攻击"
+    },
+    "ba.fever": {
+      "termId": "ba.fever",
+      "termName": "Fever",
+      "description": "Fever累计至450点时，任意一位<$ba.mujica>Ave Mujica</>成员手动触发技能后，在场所有<$ba.mujica>Ave Mujica</>成员20秒内会持续释放当前技能"
+    },
+    "ba.mujica": {
+      "termId": "ba.mujica",
+      "termName": "Ave Mujica",
+      "description": "包括丰川祥子、八幡海铃、三角初华、祐天寺若麦、若叶睦"
+    },
+    "cc.bd_mujica": {
+      "termId": "cc.bd_mujica",
+      "termName": "热情值",
+      "description": "可影响<$cc.bd_mujica_1><@cc.rem>丰富工作经验</></>、<$cc.bd_mujica_2><@cc.rem>演技的怪物</></>相关技能\n由以下干员的基建技能提供\n八幡海铃、三角初华、祐天寺若麦、若叶睦"
+    },
+    "cc.bd_mujica_1": {
+      "termId": "cc.bd_mujica_1",
+      "termName": "丰富工作经验",
+      "description": "拥有该基建技能的干员\n丰川祥子"
+    },
+    "cc.bd_mujica_2": {
+      "termId": "cc.bd_mujica_2",
+      "termName": "演技的怪物",
+      "description": "拥有该基建技能的干员\n若叶睦"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "64.4.0",
-  "resPrefVersion": "64d0d0",
+  "dataVersion": "65.0.0",
+  "resPrefVersion": "65d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS检测到该关卡对应更低作战环境未获得三星评价，将自动开启<color=#fe6435>环境难度兼容</color>；\n环境难度兼容状态下挑战该关卡将<color=#fe6435>同时消耗</color>该环境与更低环境的理智，通关后则<color=#fe6435>会同步作战进度，并同时获得</color>该环境与更低环境的报酬奖励",
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
@@ -1916,5 +1964,12 @@
   "defaultMaxMultipleBattleTimes": 6,
   "multipleActionOpen": true,
   "isSoCharEnabled": true,
-  "isRecalRuneFuncEnabled": true
+  "isRecalRuneFuncEnabled": true,
+  "maxStarFriendNum": 5,
+  "maxSquadAssistDisplayNum": 9,
+  "friendStarEditTrackTs": 1756958400,
+  "feverGameData": {
+    "feverDuration": 20,
+    "feverNeed": 450
+  }
 }
