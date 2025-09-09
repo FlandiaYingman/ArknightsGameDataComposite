@@ -224,7 +224,7 @@
       "stackIconId": null,
       "sortId": 200001,
       "usage": "정밀한 인공 건축자재. 기반시설 건설의 핵심 재료이다.",
-      "obtainApproach": "작전 1-1, 1-8, 3-4, 4-7 첫 클리어 보상",
+      "obtainApproach": "메인 스토리 1-1, 1-8, 3-4, 4-7 첫 클리어 보상",
       "classifyType": "NORMAL",
       "itemType": "MATERIAL",
       "stageDropList": [],
@@ -325,7 +325,7 @@
       "stackIconId": null,
       "sortId": 200005,
       "usage": "기본적인 건축자재. 로도스 아일랜드의 기반시설 건설에 사용된다.",
-      "obtainApproach": "작전 0-11, 1-1 첫 클리어 보상",
+      "obtainApproach": "메인 스토리 0-11, 1-1 첫 클리어 보상",
       "classifyType": "NORMAL",
       "itemType": "MATERIAL",
       "stageDropList": [],
@@ -1398,6 +1398,10 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "camp_r_25",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "camp_r_24",
           "occPer": "ALWAYS"
         },
@@ -1446,11 +1450,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_25",
+          "stageId": "camp_r_12",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_12",
+          "stageId": "camp_r_11",
           "occPer": "ALWAYS"
         },
         {
@@ -1502,11 +1506,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_11",
+          "stageId": "camp_r_26",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_26",
+          "stageId": "camp_r_27",
           "occPer": "ALWAYS"
         }
       ],
@@ -1689,18 +1693,14 @@
       "iconId": "MTL_SL_G1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100033,
+      "sortId": 100036,
       "usage": "지표면에서 채굴된 광석. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act25side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16side_02",
+          "stageId": "act25side_01",
           "occPer": "USUAL"
         },
         {
@@ -1748,15 +1748,15 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act16side_03",
-          "occPer": "USUAL"
-        },
-        {
           "stageId": "act12mini_01",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act13mini_03",
+          "stageId": "act16side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13mini_04",
           "occPer": "ALMOST"
         },
         {
@@ -1804,11 +1804,15 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act13mini_04",
+          "stageId": "act25side_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13mini_03",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act25side_03",
+          "stageId": "act16side_03",
           "occPer": "USUAL"
         },
         {
@@ -1816,8 +1820,8 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act10mini_03",
-          "occPer": "ALMOST"
+          "stageId": "act10mini_02",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act10d5_02",
@@ -1868,12 +1872,12 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act10mini_02",
-          "occPer": "USUAL"
-        },
-        {
           "stageId": "act18d3_03",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_02",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act18d3_01",
@@ -1924,8 +1928,12 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act18d3_02",
+          "stageId": "act10mini_03",
           "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act25side_02",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act4d0_02",
@@ -1936,11 +1944,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act26side_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act34side_01",
+          "stageId": "act26side_02",
           "occPer": "USUAL"
         },
         {
@@ -1992,11 +1996,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act34side_01",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act38side_02",
+          "stageId": "act38side_03",
           "occPer": "USUAL"
         },
         {
@@ -2040,23 +2044,27 @@
           "occPer": "USUAL"
         },
         {
+          "stageId": "act41side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act41side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act38side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act26side_03",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "act34side_02",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act25side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act33side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act32side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act26side_02",
+          "stageId": "act33side_02",
           "occPer": "USUAL"
         },
         {
@@ -2104,15 +2112,15 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act33side_02",
-          "occPer": "USUAL"
-        },
-        {
           "stageId": "act29side_03",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act29side_01",
+          "stageId": "act33side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act29side_02",
           "occPer": "USUAL"
         },
         {
@@ -2160,7 +2168,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act29side_02",
+          "stageId": "act32side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act29side_01",
           "occPer": "USUAL"
         },
         {
@@ -2184,7 +2196,7 @@
       "iconId": "MTL_SL_G2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100032,
+      "sortId": 100035,
       "usage": "지표면에서 채굴된 광석 덩어리. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -2192,6 +2204,10 @@
       "stageDropList": [
         {
           "stageId": "act28side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act25side_06",
           "occPer": "ALWAYS"
         },
         {
@@ -2231,12 +2247,12 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act13side_06",
+          "stageId": "act15mini_05",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act18d3_04",
-          "occPer": "ALMOST"
+          "stageId": "act13side_06",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act18d3_06",
@@ -2279,19 +2295,23 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act25side_06",
-          "occPer": "ALWAYS"
+          "stageId": "act18d3_04",
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "act15mini_05",
-          "occPer": "ALWAYS"
+          "stageId": "act11d0_04",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act6d5_03",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act29side_04",
+          "stageId": "act30side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_03",
           "occPer": "ALWAYS"
         },
         {
@@ -2299,11 +2319,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act39side_04",
+          "stageId": "act29side_04",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act11d0_04",
+          "stageId": "act39side_05",
           "occPer": "ALMOST"
         },
         {
@@ -2319,11 +2339,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act17mini_05",
+          "stageId": "act39side_04",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act39side_05",
+          "stageId": "act35side_06",
           "occPer": "ALMOST"
         },
         {
@@ -2347,12 +2367,8 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act30side_05",
+          "stageId": "act17mini_05",
           "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act35side_06",
-          "occPer": "ALMOST"
         },
         {
           "stageId": "main_01-07",
@@ -2408,7 +2424,7 @@
       "iconId": "MTL_SL_G3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100031,
+      "sortId": 100034,
       "usage": "지표면에서 채굴된 커다란 광석 덩어리. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -2545,7 +2561,7 @@
       "iconId": "MTL_SL_G4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100030,
+      "sortId": 100033,
       "usage": "지표면에서 채굴된 커다란 광석 덩어리를 제련한 것으로, 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -2618,14 +2634,14 @@
       "iconId": "MTL_SL_STRG1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100045,
+      "sortId": 100048,
       "usage": "천연 설탕의 대용품으로 공장에서 생산된 저렴한 인공감미료. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act25side_01",
+          "stageId": "act26side_03",
           "occPer": "OFTEN"
         },
         {
@@ -2677,11 +2693,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_04",
-          "occPer": "USUAL"
+          "stageId": "act16side_02",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_03",
+          "stageId": "act13mini_04",
           "occPer": "USUAL"
         },
         {
@@ -2729,15 +2745,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_02",
+          "stageId": "act25side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act25side_02",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act16side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -2793,7 +2813,7 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act25side_03",
+          "stageId": "act10mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -2853,7 +2873,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act25side_02",
+          "stageId": "act25side_01",
           "occPer": "OFTEN"
         },
         {
@@ -2861,11 +2881,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act26side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act34side_01",
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
         },
         {
@@ -2917,11 +2933,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act34side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_02",
+          "stageId": "act38side_03",
           "occPer": "OFTEN"
         },
         {
@@ -2965,7 +2981,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_02",
+          "stageId": "act41side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act41side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act38side_02",
           "occPer": "OFTEN"
         },
         {
@@ -2973,15 +2997,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act33side_01",
+          "stageId": "act34side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act32side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_02",
+          "stageId": "act33side_02",
           "occPer": "OFTEN"
         },
         {
@@ -3029,15 +3049,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_02",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act29side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_01",
+          "stageId": "act33side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_02",
           "occPer": "OFTEN"
         },
         {
@@ -3085,7 +3105,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_02",
+          "stageId": "act32side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
           "occPer": "OFTEN"
         },
         {
@@ -3109,14 +3133,18 @@
       "iconId": "MTL_SL_STRG2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100044,
+      "sortId": 100047,
       "usage": "공장에서 생산된 소량의 포도당. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act23side_04",
+          "stageId": "act25side_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act23side_06",
           "occPer": "USUAL"
         },
         {
@@ -3156,12 +3184,12 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act9mini_04",
-          "occPer": "ALWAYS"
+          "stageId": "act23side_04",
+          "occPer": "USUAL"
         },
         {
-          "stageId": "act8mini_04",
-          "occPer": "ALMOST"
+          "stageId": "act9mini_04",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act7mini_02",
@@ -3204,8 +3232,8 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act23side_06",
-          "occPer": "USUAL"
+          "stageId": "act8mini_04",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act6d5_04",
@@ -3216,20 +3244,28 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act26side_05",
+          "stageId": "act27side_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act41side_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act41side_05",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act40side_06",
-          "occPer": "USUAL"
+          "stageId": "act26side_05",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act18mini_06",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act25side_06",
-          "occPer": "ALWAYS"
+          "stageId": "act39side_03",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act39side_05",
@@ -3240,11 +3276,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act37side_06",
+          "stageId": "act40side_06",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act39side_03",
+          "stageId": "act36side_04",
           "occPer": "USUAL"
         },
         {
@@ -3268,11 +3304,7 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act27side_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act36side_04",
+          "stageId": "act37side_06",
           "occPer": "USUAL"
         },
         {
@@ -3329,7 +3361,7 @@
       "iconId": "MTL_SL_STRG3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100043,
+      "sortId": 100046,
       "usage": "공장에서 생산된 일정량 이상의 포도당. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -3470,7 +3502,7 @@
       "iconId": "MTL_SL_STRG4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100042,
+      "sortId": 100045,
       "usage": "공장에서 생산된 대량의 포도당. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -3547,19 +3579,15 @@
       "iconId": "MTL_SL_RUSH1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100041,
+      "sortId": 100044,
       "usage": "공업 제조에 꼭 필요한 에스테르 원료. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act26side_03",
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act11mini_03",
-          "occPer": "ALWAYS"
         },
         {
           "stageId": "act11mini_01",
@@ -3658,11 +3686,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act18side_01",
+          "stageId": "act25side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_01",
+          "stageId": "act11mini_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18side_01",
           "occPer": "OFTEN"
         },
         {
@@ -3670,7 +3702,7 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_02",
+          "stageId": "act16side_01",
           "occPer": "OFTEN"
         },
         {
@@ -3722,11 +3754,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13side_02",
+          "stageId": "act26side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13side_01",
+          "stageId": "act13side_02",
           "occPer": "OFTEN"
         },
         {
@@ -3774,7 +3806,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_01",
+          "stageId": "act16side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_01",
           "occPer": "OFTEN"
         },
         {
@@ -3786,11 +3822,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act26side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act35side_03",
+          "stageId": "act27side_03",
           "occPer": "OFTEN"
         },
         {
@@ -3834,11 +3866,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_01",
+          "stageId": "act37side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act37side_01",
+          "stageId": "act38side_03",
           "occPer": "OFTEN"
         },
         {
@@ -3886,23 +3918,27 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act41side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act26side_02",
+          "stageId": "act41side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_02",
+          "stageId": "act35side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_02",
+          "stageId": "act26side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act27side_03",
+          "stageId": "act34side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act33side_01",
           "occPer": "OFTEN"
         },
         {
@@ -3946,15 +3982,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act29side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act30side_03",
+          "stageId": "act34side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
           "occPer": "OFTEN"
         },
         {
@@ -4002,7 +4038,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_01",
+          "stageId": "act33side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act30side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4026,7 +4066,7 @@
       "iconId": "MTL_SL_RUSH2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100040,
+      "sortId": 100043,
       "usage": "공업 제조에 꼭 필요한 폴리에스테르. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4218,7 +4258,7 @@
       "iconId": "MTL_SL_RUSH3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100039,
+      "sortId": 100042,
       "usage": "공업 제조에 꼭 필요한 폴리에스테르 번들. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4367,7 +4407,7 @@
       "iconId": "MTL_SL_RUSH4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100038,
+      "sortId": 100041,
       "usage": "공업 제조에 꼭 필요한 폴리에스테르 팩. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4436,14 +4476,14 @@
       "iconId": "MTL_SL_IRON1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100049,
+      "sortId": 100052,
       "usage": "지극히 평범한 공업 재료. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act26side_02",
+          "stageId": "act26side_01",
           "occPer": "OFTEN"
         },
         {
@@ -4491,11 +4531,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act11mini_04",
-          "occPer": "ALMOST"
+          "stageId": "act13mini_02",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_02",
+          "stageId": "act13mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -4543,15 +4583,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_01",
+          "stageId": "act25side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11mini_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act26side_03",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act18side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_02",
           "occPer": "OFTEN"
         },
         {
@@ -4659,11 +4703,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_01",
+          "stageId": "act18side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act26side_03",
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
         },
         {
@@ -4671,11 +4715,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act26side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act35side_03",
+          "stageId": "act27side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4719,11 +4759,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_01",
+          "stageId": "act37side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act37side_01",
+          "stageId": "act38side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4771,7 +4811,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act41side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act41side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act35side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4779,15 +4827,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act34side_02",
+          "stageId": "act34side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act27side_03",
+          "stageId": "act33side_01",
           "occPer": "OFTEN"
         },
         {
@@ -4831,15 +4875,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act29side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act30side_03",
+          "stageId": "act34side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
           "occPer": "OFTEN"
         },
         {
@@ -4887,7 +4931,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_01",
+          "stageId": "act33side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act30side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4911,15 +4959,19 @@
       "iconId": "MTL_SL_IRON2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100048,
+      "sortId": 100051,
       "usage": "보기 드문 공업 재료. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act29side_04",
-          "occPer": "USUAL"
+          "stageId": "act31side_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act27side_05",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act25side_05",
@@ -4958,11 +5010,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act27side_05",
-          "occPer": "OFTEN"
+          "stageId": "act10mini_05",
+          "occPer": "ALWAYS"
         },
         {
-          "stageId": "act10mini_05",
+          "stageId": "act13side_06",
           "occPer": "ALWAYS"
         },
         {
@@ -5002,24 +5054,32 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act13side_06",
-          "occPer": "ALWAYS"
-        },
-        {
           "stageId": "act28side_05",
           "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act29side_04",
+          "occPer": "USUAL"
         },
         {
           "stageId": "a001_03",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act31side_04",
-          "occPer": "ALMOST"
+          "stageId": "act32side_05",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act4d0_04",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act40side_04",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act18mini_05",
@@ -5034,11 +5094,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act37side_05",
+          "stageId": "act41side_04",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act40side_04",
+          "stageId": "act36side_04",
           "occPer": "ALMOST"
         },
         {
@@ -5058,11 +5118,7 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act32side_05",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act36side_04",
+          "stageId": "act37side_05",
           "occPer": "ALMOST"
         },
         {
@@ -5127,7 +5183,7 @@
       "iconId": "MTL_SL_IRON3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100047,
+      "sortId": 100050,
       "usage": "매우 희귀한 공업 재료. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5260,7 +5316,7 @@
       "iconId": "MTL_SL_IRON4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100046,
+      "sortId": 100049,
       "usage": "값비싼 공업 재료. 중합제의 재료 중 하나로, 각종 강화에 사용된다. ",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5329,14 +5385,14 @@
       "iconId": "MTL_SL_KETONE1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100053,
+      "sortId": 100056,
       "usage": "극소량의 공업용 유기 화합물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act26side_02",
+          "stageId": "act26side_01",
           "occPer": "OFTEN"
         },
         {
@@ -5384,11 +5440,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act11mini_02",
-          "occPer": "USUAL"
+          "stageId": "act13mini_01",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_01",
+          "stageId": "act22side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5436,15 +5492,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act22side_02",
+          "stageId": "act26side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11mini_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act18side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5552,7 +5612,7 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act26side_03",
+          "stageId": "act18side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5564,15 +5624,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act27side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act35side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act35side_02",
+          "stageId": "act27side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5612,19 +5664,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act37side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_02",
+          "stageId": "act38side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_01",
+          "stageId": "act35side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act38side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5664,23 +5716,27 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act41side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act26side_01",
+          "stageId": "act41side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act38side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act27side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act35side_03",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act34side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act33side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act27side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5724,15 +5780,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act29side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act30side_02",
+          "stageId": "act34side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act30side_03",
           "occPer": "OFTEN"
         },
         {
@@ -5776,7 +5832,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act30side_03",
+          "stageId": "act33side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act33side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act30side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5800,7 +5864,7 @@
       "iconId": "MTL_SL_KETONE2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100052,
+      "sortId": 100055,
       "usage": "소량의 공업용 유기 화합물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5809,6 +5873,10 @@
         {
           "stageId": "act29side_05",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act26side_04",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act25side_05",
@@ -5843,11 +5911,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act26side_04",
-          "occPer": "OFTEN"
+          "stageId": "act14side_04",
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "act14side_04",
+          "stageId": "act13side_05",
           "occPer": "ALMOST"
         },
         {
@@ -5883,11 +5951,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act13side_05",
+          "stageId": "act27side_05",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act27side_05",
+          "stageId": "act4d0_03",
           "occPer": "ALMOST"
         },
         {
@@ -5895,12 +5963,16 @@
           "occPer": "ALMOST"
         },
         {
+          "stageId": "act31side_04",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "act30side_05",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act4d0_03",
-          "occPer": "ALMOST"
+          "stageId": "act40side_05",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act39side_03",
@@ -5915,11 +5987,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act36side_05",
-          "occPer": "ALMOST"
+          "stageId": "act41side_04",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act40side_05",
+          "stageId": "act35side_05",
           "occPer": "OFTEN"
         },
         {
@@ -5935,12 +6007,8 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act31side_04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act35side_05",
-          "occPer": "OFTEN"
+          "stageId": "act36side_05",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "sub_02-01",
@@ -6000,7 +6068,7 @@
       "iconId": "MTL_SL_KETONE3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100051,
+      "sortId": 100054,
       "usage": "일정량 이상의 공업용 유기 화합물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6149,7 +6217,7 @@
       "iconId": "MTL_SL_KETONE4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100050,
+      "sortId": 100053,
       "usage": "대량의 공업용 유기 화합물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6226,14 +6294,14 @@
       "iconId": "MTL_SL_BOSS1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100037,
+      "sortId": 100040,
       "usage": "고장 난 기계장치. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act25side_01",
+          "stageId": "act26side_03",
           "occPer": "OFTEN"
         },
         {
@@ -6285,11 +6353,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_04",
+          "stageId": "act16side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_03",
+          "stageId": "act13mini_04",
           "occPer": "OFTEN"
         },
         {
@@ -6337,15 +6405,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_02",
+          "stageId": "act25side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act25side_02",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act16side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -6401,7 +6473,7 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_03",
+          "stageId": "act10mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -6461,7 +6533,7 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act25side_02",
+          "stageId": "act25side_01",
           "occPer": "OFTEN"
         },
         {
@@ -6469,11 +6541,7 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act26side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act34side_01",
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6525,11 +6593,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act34side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_02",
+          "stageId": "act38side_03",
           "occPer": "OFTEN"
         },
         {
@@ -6573,7 +6641,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_02",
+          "stageId": "act41side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act41side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act38side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6581,15 +6657,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act33side_01",
+          "stageId": "act34side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act32side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_02",
+          "stageId": "act33side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6637,15 +6709,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_02",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act29side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_01",
+          "stageId": "act33side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6693,7 +6765,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_02",
+          "stageId": "act32side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
           "occPer": "OFTEN"
         },
         {
@@ -6717,7 +6793,7 @@
       "iconId": "MTL_SL_BOSS2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100036,
+      "sortId": 100039,
       "usage": "기계장치. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6945,7 +7021,7 @@
       "iconId": "MTL_SL_BOSS3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100035,
+      "sortId": 100038,
       "usage": "최신식 기계장치. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7066,7 +7142,7 @@
       "iconId": "MTL_SL_BOSS4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100034,
+      "sortId": 100037,
       "usage": "최고급 기계장치. 바이폴라 나노플레이크 칩의 재료 중 하나로써, 각종 강화에 사용된다. ",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7123,7 +7199,7 @@
       "iconId": "MTL_SL_ALCOHOL1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100023,
+      "sortId": 100026,
       "usage": "매우 작은 유기 화합물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7279,7 +7355,7 @@
       "iconId": "MTL_SL_ALCOHOL2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100022,
+      "sortId": 100025,
       "usage": "매우 작은 유기 화합물. 바이폴라 나노플레이크 칩의 재료 중 하나로써, 각종 강화에 사용된다. ",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7368,7 +7444,7 @@
       "iconId": "MTL_SL_MANGANESE1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100025,
+      "sortId": 100028,
       "usage": "정제와 제련에 사용되는 금속 광물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7488,7 +7564,7 @@
       "iconId": "MTL_SL_MANGANESE2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100024,
+      "sortId": 100027,
       "usage": "D32강의 재료 중 하나로써, 정제와 제련에 사용되는 금속 광물이다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7569,7 +7645,7 @@
       "iconId": "MTL_SL_PG1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100027,
+      "sortId": 100030,
       "usage": "무기 부품을 가공하는 데 이용되는 연마석. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7613,6 +7689,10 @@
         },
         {
           "stageId": "act39side_08",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act41side_06",
           "occPer": "USUAL"
         },
         {
@@ -7697,7 +7777,7 @@
       "iconId": "MTL_SL_PG2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100026,
+      "sortId": 100029,
       "usage": "무기 부품을 정밀하게 가공하는 데 이용되는 질 좋은 연마석. D32강의 재료 중 하나로써, 각종 강화에 사용된다. ",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7762,7 +7842,7 @@
       "iconId": "MTL_SL_RMA7012",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100029,
+      "sortId": 100032,
       "usage": "감도와 전도성이 좋은 광물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7882,7 +7962,7 @@
       "iconId": "MTL_SL_RMA7024",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100028,
+      "sortId": 100031,
       "usage": "감도와 전도성이 매우 우수한 광물. D32강의 재료 중 하나로써, 각종 강화에 사용된다. ",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7947,7 +8027,7 @@
       "iconId": "MTL_SL_PP",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100005,
+      "sortId": 100006,
       "usage": "복잡한 액체 가공품. 고급 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7970,7 +8050,7 @@
       "iconId": "MTL_SL_BN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100004,
+      "sortId": 100005,
       "usage": "현대 공업기술의 결정체. 고급 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7993,7 +8073,7 @@
       "iconId": "MTL_SL_DS",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100003,
+      "sortId": 100004,
       "usage": "자연에는 존재하지 않는 인공 고체 금속 재료. 고급 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8016,7 +8096,7 @@
       "iconId": "MTL_SL_OEU",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100002,
+      "sortId": 100003,
       "usage": "값비싼 오리지늄 공산품. 중요한 강화 용도로 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8039,7 +8119,7 @@
       "iconId": "MTL_SL_SHJ",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100001,
+      "sortId": 100002,
       "usage": "가공에 대한 요구치가 극도로 높은 현대 과학 기술의 산물. 고급 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8062,7 +8142,7 @@
       "iconId": "MTL_SL_PGEL3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100021,
+      "sortId": 100024,
       "usage": "고강도 가소성 재료. 다양한 강화 용도로 쓰이며, 주로 제조소에서 합성 원료로 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8178,7 +8258,7 @@
       "iconId": "MTL_SL_PGEL4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100020,
+      "sortId": 100023,
       "usage": "초고강도 가소성 재료. 다양한 강화 용도로 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8247,7 +8327,7 @@
       "iconId": "MTL_SL_IAM3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100019,
+      "sortId": 100022,
       "usage": "전자공업용 특수 고융점 합금. 다양한 강화 용도로 쓰이며, 주로 제조소에서 합성 원료로 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8379,7 +8459,7 @@
       "iconId": "MTL_SL_IAM4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100018,
+      "sortId": 100021,
       "usage": "생산량이 매우 적은 전자공업용 특수 고융점 합금. 다양한 강화 용도로 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8468,7 +8548,7 @@
       "iconId": "MTL_SL_OC3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100017,
+      "sortId": 100020,
       "usage": "중요한 오리지늄 공업 재료. 다양한 강화 용도로 사용할 수 있으며 보다 고급스러운 오리지늄 전자 부속품을 제작 및 합성할 수 있다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8584,7 +8664,7 @@
       "iconId": "MTL_SL_OC4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100016,
+      "sortId": 100019,
       "usage": "중요한 오리지늄 공업 재료. 다양한 강화 용도로 사용할 수 있으며 오리지늄 결정 유닛을 제작하는 기본 부속품이다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8657,12 +8737,16 @@
       "iconId": "MTL_SL_SS",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100015,
+      "sortId": 100018,
       "usage": "물리 성능이 좋고 산성, 알칼리성 내성이 모두 양호한 용제. 다양한 강화 용도로 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
+        {
+          "stageId": "act41side_07",
+          "occPer": "USUAL"
+        },
         {
           "stageId": "act37side_09",
           "occPer": "USUAL"
@@ -8733,7 +8817,7 @@
       "iconId": "MTL_SL_RS",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100014,
+      "sortId": 100017,
       "usage": "특수 공예를 거쳐 만든 특수 도료. 고급 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8798,7 +8882,7 @@
       "iconId": "MTL_SL_CCF",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100013,
+      "sortId": 100016,
       "usage": "금속 가공에 필수인 공업용 시제. 다양한 강화 용도로 쓰인다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8874,7 +8958,7 @@
       "iconId": "MTL_SL_PLCF",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100012,
+      "sortId": 100015,
       "usage": "여러 가지 활성 용제를 배합해 만든 원액. 고급 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8935,7 +9019,7 @@
       "iconId": "MTL_SL_ZY",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100011,
+      "sortId": 100014,
       "usage": "제련을 거쳐 생성된 화합물 결정. 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -9015,7 +9099,7 @@
       "iconId": "MTL_SL_ZYK",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100010,
+      "sortId": 100013,
       "usage": "정련을 거쳐 생성된 화합물 결정. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -9080,13 +9164,17 @@
       "iconId": "MTL_SL_XW",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100009,
+      "sortId": 100012,
       "usage": "고강도 및 고탄성 특수 섬유 다발. 다양한 강화 용도로 쓰인다.",
       "obtainApproach": null,
       "hideInItemGet": false,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
+        {
+          "stageId": "act41side_08",
+          "occPer": "USUAL"
+        },
         {
           "stageId": "act36side_08",
           "occPer": "USUAL"
@@ -9124,7 +9212,7 @@
       "iconId": "MTL_SL_XWB",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100008,
+      "sortId": 100011,
       "usage": "성형 고화 처리된 특수 강화판. 다양한 강화 용도로 쓰인다.",
       "obtainApproach": null,
       "hideInItemGet": false,
@@ -9165,7 +9253,7 @@
       "iconId": "MTL_SL_HT",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100007,
+      "sortId": 100010,
       "usage": "내열성 및 내화학성이 뛰어난 공업 재료. 다양한 강화 용도로 쓰인다.",
       "obtainApproach": null,
       "hideInItemGet": false,
@@ -9217,7 +9305,7 @@
       "iconId": "MTL_SL_HTT",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100006,
+      "sortId": 100009,
       "usage": "다양한 양질의 재료를 전처리하여 얻은 공업 재료. 다양한 강화 용도로 쓰인다.",
       "obtainApproach": null,
       "hideInItemGet": false,
@@ -11529,7 +11617,7 @@
     "p_char_112_siege": {
       "itemId": "p_char_112_siege",
       "name": "시즈의 증표",
-      "description": "단단하고 큰 대갈못. 론디니움의 장인이 만들었다. 돌고 돌아 마지막에는 고향으로 돌아오게 되리라.",
+      "description": "단단하고 큰 대갈못. 런디니움의 장인이 만들었다. 돌고 돌아 마지막에는 고향으로 돌아오게 되리라.",
       "rarity": "TIER_6",
       "iconId": "p_char_112_siege",
       "overrideBkg": null,
@@ -25705,7 +25793,7 @@
     "class_p_char_112_siege": {
       "itemId": "class_p_char_112_siege",
       "name": "시즈의 커널 증표",
-      "description": "단단하고 큰 대갈못. 론디니움의 장인이 만들었다. 돌고 돌아 마지막에는 고향으로 돌아오게 되리라.",
+      "description": "단단하고 큰 대갈못. 런디니움의 장인이 만들었다. 돌고 돌아 마지막에는 고향으로 돌아오게 되리라.",
       "rarity": "TIER_6",
       "iconId": "class_p_char_112_siege",
       "overrideBkg": null,
@@ -28129,7 +28217,7 @@
       "overrideBkg": null,
       "stackIconId": null,
       "sortId": 60115,
-      "usage": "누가 준 건지 모르겠지만, 안에는 다양한 보급품과 재료가 담겨 있다.",
+      "usage": "누구한테서 받았는지 모르는 보급품. 다양한 재료를 랜덤으로 획득할 수 있다.",
       "obtainApproach": "이벤트 획득",
       "hideInItemGet": false,
       "classifyType": "CONSUME",
@@ -30584,7 +30672,7 @@
       "iconId": "class_p_char_475_akafyu",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 1200038,
+      "sortId": 1300065,
       "usage": "아카후유의 잠재능력 상승에 사용된다.",
       "obtainApproach": "캐릭터 입사 시 획득",
       "hideInItemGet": false,
@@ -30602,7 +30690,7 @@
       "iconId": "class_p_char_478_kirara",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 1200039,
+      "sortId": 1300066,
       "usage": "키라라의 잠재능력 상승에 사용된다.",
       "obtainApproach": "캐릭터 입사 시 획득",
       "hideInItemGet": false,
@@ -32966,6 +33054,165 @@
       ],
       "buildingProductList": [],
       "voucherRelateList": null
+    },
+    "p_char_4171_wulfen": {
+      "itemId": "p_char_4171_wulfen",
+      "name": "울페나이트의 증표",
+      "description": "아름다운 광석 조각. 울페나이트 말로는 광석의 색깔이 바뀐다고 한다. 쉴 때 한 번 들여다보면 놀라운 일을 발견할지도 모른다.",
+      "rarity": "TIER_5",
+      "iconId": "p_char_4171_wulfen",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700164,
+      "usage": "울페나이트의 잠재능력 상승에 사용된다.",
+      "obtainApproach": "캐릭터 입사 시 획득",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_4177_brigid": {
+      "itemId": "p_char_4177_brigid",
+      "name": "브리지드의 증표",
+      "description": "풀로 엮은 매듭. 그 의미는 현존하는 어떤 책에서도 찾아볼 수 없다. 매듭에 짐승 기름을 바르는 것은 보기 드문 일지만, 어쩌면 당신이 베이지 않길 바라는 그녀의 배려일지도 모른다.",
+      "rarity": "TIER_5",
+      "iconId": "p_char_4177_brigid",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700165,
+      "usage": "브리지드의 잠재능력 상승에 사용된다.",
+      "obtainApproach": "캐릭터 입사 시 획득",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_450_necras": {
+      "itemId": "p_char_450_necras",
+      "name": "네크라스의 증표",
+      "description": "출판된 적 없는 이야기 모음집, 그 어떤 이야기도 아직 결말을 맺지 못했다. 자세히 읽어보면 끝나지 않은 모든 이야기가 아직 세상에 살아있는 사람을 가리키고 있는데, 당신도 그중 하나다.",
+      "rarity": "TIER_6",
+      "iconId": "p_char_450_necras",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600107,
+      "usage": "네크라스의 잠재능력 상승에 사용된다.",
+      "obtainApproach": "캐릭터 입사 시 획득",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "emoticon_basic": {
+      "itemId": "emoticon_basic",
+      "name": "이모티콘 세트",
+      "description": null,
+      "rarity": "TIER_5",
+      "iconId": "emoticon_basic",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 2000001,
+      "usage": null,
+      "obtainApproach": "협동 경기 모드 획득",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "EMOTICON_SET",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "emoticon_originium_slug": {
+      "itemId": "emoticon_originium_slug",
+      "name": "이모티콘 세트: 원석충",
+      "description": "“더 이상 입꼬리를 억지로 올려 미소 짓지 마. 원석충처럼 등껍질을 열고 몸을 펴봐…… 날 믿어, 이렇게 하면 너희도 곧 어색함이 사라질 거야.”",
+      "rarity": "TIER_5",
+      "iconId": "emoticon_originium_slug",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 2000002,
+      "usage": "원석충의 동작을 기반으로 디자인된 이모티콘 세트. 협력자 간의 의사소통에 사용된다.",
+      "obtainApproach": "협동 경기 #1 이벤트 획득",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "EMOTICON_SET",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "act1multi_token_cap": {
+      "itemId": "act1multi_token_cap",
+      "name": "참여 인증 - S1",
+      "description": "로도스 아일랜드 협동 경기의 참여 인증. “경기장에 남는 것은 땀이요, 경기장에서 가져가는 것은 우정일지니.”",
+      "rarity": "TIER_5",
+      "iconId": "act1multi_token_cap",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "쌓여가는 참여 인증은 경기 열기의 상승을 의미한다. 열기가 일정 레벨에 도달하면 그에 상응하는 보상을 받을 수 있다.",
+      "obtainApproach": "협동 경기 #1 이벤트 획득",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "act41side_token_light": {
+      "itemId": "act41side_token_light",
+      "name": "고장난 램프",
+      "description": "타라인들이 과거에서 찾아낸 전통, 허리춤에 매는 오리지늄 램프. 과거 사람들이 램프를 차고 검은 숲에 들어갔지만, 이제는 그 몸조차 바람에 흩어져 버려 그림자도 남지 않았다. 남은 건 오직 고장난 램프 뿐.",
+      "rarity": "TIER_5",
+      "iconId": "act41side_token_light",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "검은 숲에서 발견된 고장 난 오리지늄 램프. 나 시어셔의 물자 부족이 해소된 후, 주민들은 자발적으로 모여 각자 얼마 남지 않은 물자로 이 전쟁 시기의 유물을 수거했다.",
+      "obtainApproach": "이벤트 스테이지 드랍, 이벤트 임무 획득",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [
+        {
+          "stageId": "act41side_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_08",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": [],
+      "voucherRelateList": null
     }
   },
   "expItems": {
@@ -34886,7 +35133,54 @@
     "char_289_gyuki@epoque#40": 1,
     "char_164_nightm@unveiling#2": 1,
     "char_1024_hbisc2@unveiling#2": 1,
-    "char_4107_vrdant@unveiling#3": 1
+    "char_4107_vrdant@unveiling#3": 1,
+    "furni_tarahouse_hangingcarpet_01": 1,
+    "furni_tarahouse_candletray_01": 1,
+    "furni_tarahouse_column_01": 1,
+    "furni_tarahouse_table_01": 1,
+    "furni_tarahouse_chair_01": 1,
+    "furni_tarahouse_chair_02": 1,
+    "furni_tarahouse_shield_01": 1,
+    "furni_tarahouse_wallhanger_01": 1,
+    "furni_tarahouse_stove_01": 1,
+    "furni_tarahouse_pot_01": 1,
+    "furni_tarahouse_stool_01": 2,
+    "furni_tarahouse_stonecutoff_01": 1,
+    "furni_tarahouse_ceilinglight_01": 1,
+    "furni_tarahouse_wallshelf_01": 1,
+    "furni_tarahouse_bartable_01": 1,
+    "furni_tarahouse_bookcase_01": 1,
+    "furni_tarahouse_carpet_01": 1,
+    "furni_tarahouse_carpet_02": 1,
+    "furni_tarahouse_wallpaper_01": 1,
+    "furni_tarahouse_floor_01": 1,
+    "furni_kaltsroom_ceilinglight_01": 1,
+    "furni_kaltsroom_sample_01": 1,
+    "furni_kaltsroom_cabinet_01": 1,
+    "furni_kaltsroom_clock_01": 1,
+    "furni_kaltsroom_display_01": 1,
+    "furni_kaltsroom_sofa_01": 1,
+    "furni_kaltsroom_carpet_01": 1,
+    "furni_kaltsroom_ceilinglight_02": 1,
+    "furni_kaltsroom_shelf_01": 1,
+    "furni_kaltsroom_carpet_02": 1,
+    "furni_kaltsroom_cart_01": 1,
+    "furni_kaltsroom_table_01": 1,
+    "furni_kaltsroom_light_01": 1,
+    "furni_kaltsroom_chair_01": 1,
+    "furni_kaltsroom_cabinet_02": 1,
+    "furni_kaltsroom_sample_02": 1,
+    "furni_kaltsroom_wallpaper_01": 1,
+    "furni_kaltsroom_floor_01": 1,
+    "furni_animation_projector_03": 1,
+    "furni_terracommericials_BarrensTequila_01": 1,
+    "furni_annihilation_s27_01": 1,
+    "tm_mainline_1": 1,
+    "char_4146_nymph@epoque#42": 1,
+    "char_4102_threye@epoque#42": 1,
+    "char_260_durnar@epoque#42": 1,
+    "char_190_clour@epoque#43": 1,
+    "char_379_sesa@game#5": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,

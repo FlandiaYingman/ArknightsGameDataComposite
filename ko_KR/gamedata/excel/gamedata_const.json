@@ -1012,7 +1012,17 @@
     "firework.animaldesc_2": "<color=#b7d888>{0}</color>",
     "firework.animaldesc_3": "<color=#ffc25e>{0}</color>",
     "firework.animaldesc_4": "<color=#70c0db>{0}</color>",
-    "firework.animaldesc_all": "<color=#ffecb1>{0}</color>"
+    "firework.animaldesc_all": "<color=#ffecb1>{0}</color>",
+    "duel.ping.low": "<color=#7fa826>{0}</color>",
+    "duel.ping.medium": "<color=#ec7a00>{0}</color>",
+    "duel.ping.high": "<color=#ff3d3d>{0}</color>",
+    "duel.milestone": "<color=#D4133C>{0}</color>",
+    "duel.dm.award": "<color=#36BBCC>{0}</color>",
+    "duel.dm.condition": "<color=#C9C9C9>{0}</color>",
+    "multiv3.teambuff": "<color=#d0294c>{0}</color>",
+    "multiv3.matchdesc": "<color=#2ea0af>{0}</color>",
+    "multiv3.unlocktoast": "<color=#ff3a64>{0}</color>",
+    "multiv3.photodesc": "<color=#31acbc>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1106,7 +1116,7 @@
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
   "voucherSkinRedeem": 1,
-  "voucherSkinDesc": "[컬렉션 자유 선택권]으로 컬렉션 상점에서 판매 중인 컬렉션만 교환할 수 있으며, 일러스트 애니메이션이 포함된 컬렉션은 <color=#ffa633>교환할 수 없습니다</color>. 만약 컬렉션 상점에서 이미 모든 컬렉션을 구매했거나 판매 중인 컬렉션이 없으면, [컬렉션 자유 선택권]을 <color=#ffa633>사용할 수 없습니다</color>.\n\n이 밖에, [컬렉션 자유 선택권]으로 <color=#ffa633>교환할 수 없는</color> 다른 컬렉션이 출시될 경우, 별도 공지가 진행될 예정이오니 참고하여 주시기 바랍니다.",
+  "voucherSkinDesc": "[컬렉션 자유 선택권]으로 컬렉션 상점에서 판매 중인 컬렉션만 교환할 수 있으며, 모션 일러스트 컬렉션은 <color=#ffa633>교환할 수 없습니다</color>. 만약 컬렉션 상점에서 이미 모든 컬렉션을 구매했거나 판매 중인 컬렉션이 없으면, [컬렉션 자유 선택권]을 <color=#ffa633>사용할 수 없습니다</color>.\n\n이 밖에, [컬렉션 자유 선택권]으로 <color=#ffa633>교환할 수 없는</color> 다른 컬렉션이 출시될 경우, 별도 공지가 진행될 예정이오니 참고하여 주시기 바랍니다.",
   "termDescriptionDict": {
     "ba.sluggish": {
       "termId": "ba.sluggish",
@@ -1531,7 +1541,7 @@
     "cc.c.skill": {
       "termId": "cc.c.skill",
       "termName": "일부 스킬",
-      "description": "다음 스킬 포함\n오른팔, S.W.E.E.P, 간식 네트워크, 처분 협의, 대리인, 필요책임, 호위, 꼬마 리더, 독선기신, 봄날 같은 웃음, 금잔화 시회, 수호의 길"
+      "description": "다음 스킬 포함\n오른팔, S.W.E.E.P, 간식 네트워크, 처분 협의, 대리인, 필요책임, 호위, 꼬마 리더, 독선기신, 봄날 같은 웃음, 금잔화 시회, 수호의 길, 박식한 풋내기"
     },
     "cc.sk.manu3": {
       "termId": "cc.sk.manu3",
@@ -1651,7 +1661,7 @@
     "ba.dt.burning2": {
       "termId": "ba.dt.burning2",
       "termName": "소각 손상 (아군)",
-      "description": "최대치 도달 시 폭발(일반, 정예 경우 1000, 리더 경우 2000), 적에게 7000의 원소 대미지를 입히며 그동안 마법 저항 -20, 쿨타임 10초"
+      "description": "최대치 도달 시 폭발(일반, 정예 경우 1000, 리더 경우 2000), 적에게 7000 원소 대미지를 입히며 상대의 마법 저항 -20, 쿨타임 10초"
     },
     "cc.t.accmuguard1": {
       "termId": "cc.t.accmuguard1",
@@ -1738,8 +1748,8 @@
   "storyReviewUnlockItemLackTip": "기록 조각이 부족합니다. 증명서 상점 또는 이벤트 기간에 열리는 상점을 통해 교환할 수 있습니다.",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "44.4.0",
-  "resPrefVersion": "58d0d0",
+  "dataVersion": "45.2.0",
+  "resPrefVersion": "59d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS에 해당 스테이지의 하위 난이도 작전 환경에서 3★ 평가를 받지 못한 것이 탐지되어, <color=#fe6435>작전 난이도 호환</color> 모드가 자동으로 적용됩니다.\n작전 난이도 호환 모드에서 해당 스테이지를 도전하면 현재 난이도와 하위 난이도의 필요 이성을 <color=#fe6435>동시에 소모</color>하게 되며, 클리어 후 <color=#fe6435>작전 진행도의 동기화</color>뿐만 아니라, 하위 난이도의 보상도 <color=#fe6435>함께 획득</color>하게 됩니다.",
   "mainlineToughDesc": "도전적인 플레이 환경\n3★ 평가의 첫 클리어 보상에는 순오리지늄이 포함됩니다\n또한, 난이도가 높은 추가 스테이지도 포함됩니다",
@@ -1857,5 +1867,6 @@
   "leapBirthdayRewardMonth": 2,
   "leapBirthdayRewardDay": 28,
   "birthdaySettingShowStageId": "tr_05",
-  "isBirthdayFuncEnabled": false
+  "isBirthdayFuncEnabled": false,
+  "mainGuideActivedStageId": "main_15-02"
 }
