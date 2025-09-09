@@ -224,7 +224,7 @@
       "stackIconId": null,
       "sortId": 200001,
       "usage": "強靭な構造材。基地の根幹となる材料。",
-      "obtainApproach": "作戦1-1、1-8、3-4、4-7初クリア報酬",
+      "obtainApproach": "メインテーマ1-1/1-8/3-4/4-7初回クリア",
       "classifyType": "NORMAL",
       "itemType": "MATERIAL",
       "stageDropList": [],
@@ -325,7 +325,7 @@
       "stackIconId": null,
       "sortId": 200005,
       "usage": "基本的な建築材料。基地の改築などに用いられる。",
-      "obtainApproach": "作戦0-11、1-1初クリア報酬",
+      "obtainApproach": "メインテーマ0-11/1-1初回クリア",
       "classifyType": "NORMAL",
       "itemType": "MATERIAL",
       "stageDropList": [],
@@ -1398,6 +1398,10 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "camp_r_25",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "camp_r_24",
           "occPer": "ALWAYS"
         },
@@ -1446,11 +1450,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_25",
+          "stageId": "camp_r_12",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_12",
+          "stageId": "camp_r_11",
           "occPer": "ALWAYS"
         },
         {
@@ -1502,11 +1506,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_11",
+          "stageId": "camp_r_26",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "camp_r_26",
+          "stageId": "camp_r_27",
           "occPer": "ALWAYS"
         }
       ],
@@ -1689,18 +1693,14 @@
       "iconId": "MTL_SL_G1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100033,
+      "sortId": 100036,
       "usage": "地表から採掘された鉱石。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act25side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16side_02",
+          "stageId": "act25side_01",
           "occPer": "USUAL"
         },
         {
@@ -1748,15 +1748,15 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act16side_03",
-          "occPer": "USUAL"
-        },
-        {
           "stageId": "act12mini_01",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act13mini_03",
+          "stageId": "act16side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13mini_04",
           "occPer": "ALMOST"
         },
         {
@@ -1804,11 +1804,15 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act13mini_04",
+          "stageId": "act25side_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13mini_03",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act25side_03",
+          "stageId": "act16side_03",
           "occPer": "USUAL"
         },
         {
@@ -1816,8 +1820,8 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act10mini_03",
-          "occPer": "ALMOST"
+          "stageId": "act10mini_02",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act10d5_02",
@@ -1868,12 +1872,12 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act10mini_02",
-          "occPer": "USUAL"
-        },
-        {
           "stageId": "act18d3_03",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_02",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act18d3_01",
@@ -1924,8 +1928,12 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act18d3_02",
+          "stageId": "act10mini_03",
           "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act25side_02",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act4d0_02",
@@ -1936,11 +1944,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act26side_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act34side_01",
+          "stageId": "act26side_02",
           "occPer": "USUAL"
         },
         {
@@ -1992,11 +1996,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act34side_01",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act38side_02",
+          "stageId": "act38side_03",
           "occPer": "USUAL"
         },
         {
@@ -2040,23 +2044,27 @@
           "occPer": "USUAL"
         },
         {
+          "stageId": "act41side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act41side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act38side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act26side_03",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "act34side_02",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act25side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act33side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act32side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act26side_02",
+          "stageId": "act33side_02",
           "occPer": "USUAL"
         },
         {
@@ -2104,15 +2112,15 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act33side_02",
-          "occPer": "USUAL"
-        },
-        {
           "stageId": "act29side_03",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act29side_01",
+          "stageId": "act33side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act29side_02",
           "occPer": "USUAL"
         },
         {
@@ -2160,7 +2168,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act29side_02",
+          "stageId": "act32side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act29side_01",
           "occPer": "USUAL"
         },
         {
@@ -2184,7 +2196,7 @@
       "iconId": "MTL_SL_G2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100032,
+      "sortId": 100035,
       "usage": "地表から採掘された鉱石の塊。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -2192,6 +2204,10 @@
       "stageDropList": [
         {
           "stageId": "act28side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act25side_06",
           "occPer": "ALWAYS"
         },
         {
@@ -2231,12 +2247,12 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act13side_06",
+          "stageId": "act15mini_05",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act18d3_04",
-          "occPer": "ALMOST"
+          "stageId": "act13side_06",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act18d3_06",
@@ -2279,19 +2295,23 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act25side_06",
-          "occPer": "ALWAYS"
+          "stageId": "act18d3_04",
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "act15mini_05",
-          "occPer": "ALWAYS"
+          "stageId": "act11d0_04",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act6d5_03",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act29side_04",
+          "stageId": "act30side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_03",
           "occPer": "ALWAYS"
         },
         {
@@ -2299,11 +2319,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act39side_04",
+          "stageId": "act29side_04",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act11d0_04",
+          "stageId": "act39side_05",
           "occPer": "ALMOST"
         },
         {
@@ -2319,11 +2339,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act17mini_05",
+          "stageId": "act39side_04",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act39side_05",
+          "stageId": "act35side_06",
           "occPer": "ALMOST"
         },
         {
@@ -2347,12 +2367,8 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act30side_05",
+          "stageId": "act17mini_05",
           "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act35side_06",
-          "occPer": "ALMOST"
         },
         {
           "stageId": "main_01-07",
@@ -2408,7 +2424,7 @@
       "iconId": "MTL_SL_G3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100031,
+      "sortId": 100034,
       "usage": "地表から採掘された鉱石の大きな塊。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -2545,7 +2561,7 @@
       "iconId": "MTL_SL_G4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100030,
+      "sortId": 100033,
       "usage": "地表から採掘された鉱石の大きな塊が精錬された物質。昇進やスキル強化に必要な素材。融合剤の原料にも用いられる。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -2618,14 +2634,14 @@
       "iconId": "MTL_SL_STRG1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100045,
+      "sortId": 100048,
       "usage": "天然の砂糖の代替品として、機械で作られた安価な甘味料。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act25side_01",
+          "stageId": "act26side_03",
           "occPer": "OFTEN"
         },
         {
@@ -2677,11 +2693,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_04",
-          "occPer": "USUAL"
+          "stageId": "act16side_02",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_03",
+          "stageId": "act13mini_04",
           "occPer": "USUAL"
         },
         {
@@ -2729,15 +2745,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_02",
+          "stageId": "act25side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act25side_02",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act16side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -2793,7 +2813,7 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act25side_03",
+          "stageId": "act10mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -2853,7 +2873,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act25side_02",
+          "stageId": "act25side_01",
           "occPer": "OFTEN"
         },
         {
@@ -2861,11 +2881,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act26side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act34side_01",
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
         },
         {
@@ -2917,11 +2933,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act34side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_02",
+          "stageId": "act38side_03",
           "occPer": "OFTEN"
         },
         {
@@ -2965,7 +2981,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_02",
+          "stageId": "act41side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act41side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act38side_02",
           "occPer": "OFTEN"
         },
         {
@@ -2973,15 +2997,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act33side_01",
+          "stageId": "act34side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act32side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_02",
+          "stageId": "act33side_02",
           "occPer": "OFTEN"
         },
         {
@@ -3029,15 +3049,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_02",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act29side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_01",
+          "stageId": "act33side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_02",
           "occPer": "OFTEN"
         },
         {
@@ -3085,7 +3105,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_02",
+          "stageId": "act32side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
           "occPer": "OFTEN"
         },
         {
@@ -3109,14 +3133,18 @@
       "iconId": "MTL_SL_STRG2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100044,
+      "sortId": 100047,
       "usage": "機械で作られた少量の糖。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act23side_04",
+          "stageId": "act25side_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act23side_06",
           "occPer": "USUAL"
         },
         {
@@ -3156,12 +3184,12 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act9mini_04",
-          "occPer": "ALWAYS"
+          "stageId": "act23side_04",
+          "occPer": "USUAL"
         },
         {
-          "stageId": "act8mini_04",
-          "occPer": "ALMOST"
+          "stageId": "act9mini_04",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act7mini_02",
@@ -3204,8 +3232,8 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act23side_06",
-          "occPer": "USUAL"
+          "stageId": "act8mini_04",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act6d5_04",
@@ -3216,20 +3244,28 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act26side_05",
+          "stageId": "act27side_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act41side_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act41side_05",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act40side_06",
-          "occPer": "USUAL"
+          "stageId": "act26side_05",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act18mini_06",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act25side_06",
-          "occPer": "ALWAYS"
+          "stageId": "act39side_03",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act39side_05",
@@ -3240,11 +3276,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act37side_06",
+          "stageId": "act40side_06",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act39side_03",
+          "stageId": "act36side_04",
           "occPer": "USUAL"
         },
         {
@@ -3268,11 +3304,7 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act27side_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act36side_04",
+          "stageId": "act37side_06",
           "occPer": "USUAL"
         },
         {
@@ -3329,7 +3361,7 @@
       "iconId": "MTL_SL_STRG3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100043,
+      "sortId": 100046,
       "usage": "機械で作られたある程度の量の糖。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -3470,7 +3502,7 @@
       "iconId": "MTL_SL_STRG4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100042,
+      "sortId": 100045,
       "usage": "機械で作られた大量の糖。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -3547,19 +3579,15 @@
       "iconId": "MTL_SL_RUSH1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100041,
+      "sortId": 100044,
       "usage": "工業での製造に不可欠なエステル原料。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act26side_03",
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act11mini_03",
-          "occPer": "ALWAYS"
         },
         {
           "stageId": "act11mini_01",
@@ -3658,11 +3686,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act18side_01",
+          "stageId": "act25side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_01",
+          "stageId": "act11mini_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18side_01",
           "occPer": "OFTEN"
         },
         {
@@ -3670,7 +3702,7 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_02",
+          "stageId": "act16side_01",
           "occPer": "OFTEN"
         },
         {
@@ -3722,11 +3754,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13side_02",
+          "stageId": "act26side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13side_01",
+          "stageId": "act13side_02",
           "occPer": "OFTEN"
         },
         {
@@ -3774,7 +3806,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_01",
+          "stageId": "act16side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_01",
           "occPer": "OFTEN"
         },
         {
@@ -3786,11 +3822,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act26side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act35side_03",
+          "stageId": "act27side_03",
           "occPer": "OFTEN"
         },
         {
@@ -3834,11 +3866,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_01",
+          "stageId": "act37side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act37side_01",
+          "stageId": "act38side_03",
           "occPer": "OFTEN"
         },
         {
@@ -3886,23 +3918,27 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act41side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act26side_02",
+          "stageId": "act41side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_02",
+          "stageId": "act35side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_02",
+          "stageId": "act26side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act27side_03",
+          "stageId": "act34side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act33side_01",
           "occPer": "OFTEN"
         },
         {
@@ -3946,15 +3982,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act29side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act30side_03",
+          "stageId": "act34side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
           "occPer": "OFTEN"
         },
         {
@@ -4002,7 +4038,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_01",
+          "stageId": "act33side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act30side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4026,7 +4066,7 @@
       "iconId": "MTL_SL_RUSH2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100040,
+      "sortId": 100043,
       "usage": "工業での製造に不可欠な初級エステル。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4218,7 +4258,7 @@
       "iconId": "MTL_SL_RUSH3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100039,
+      "sortId": 100042,
       "usage": "工業での製造に不可欠な中級エステル。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4367,7 +4407,7 @@
       "iconId": "MTL_SL_RUSH4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100038,
+      "sortId": 100041,
       "usage": "工業での製造に不可欠な上級エステル。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4436,14 +4476,14 @@
       "iconId": "MTL_SL_IRON1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100049,
+      "sortId": 100052,
       "usage": "いたって普通の工業材料。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act26side_02",
+          "stageId": "act26side_01",
           "occPer": "OFTEN"
         },
         {
@@ -4491,11 +4531,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act11mini_04",
-          "occPer": "ALMOST"
+          "stageId": "act13mini_02",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_02",
+          "stageId": "act13mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -4543,15 +4583,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_01",
+          "stageId": "act25side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11mini_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act26side_03",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act18side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_02",
           "occPer": "OFTEN"
         },
         {
@@ -4659,11 +4703,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_01",
+          "stageId": "act18side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act26side_03",
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
         },
         {
@@ -4671,11 +4715,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act26side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act35side_03",
+          "stageId": "act27side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4719,11 +4759,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_01",
+          "stageId": "act37side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act37side_01",
+          "stageId": "act38side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4771,7 +4811,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act41side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act41side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act35side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4779,15 +4827,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act34side_02",
+          "stageId": "act34side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act27side_03",
+          "stageId": "act33side_01",
           "occPer": "OFTEN"
         },
         {
@@ -4831,15 +4875,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act29side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act30side_03",
+          "stageId": "act34side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
           "occPer": "OFTEN"
         },
         {
@@ -4887,7 +4931,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_01",
+          "stageId": "act33side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act30side_03",
           "occPer": "OFTEN"
         },
         {
@@ -4911,15 +4959,19 @@
       "iconId": "MTL_SL_IRON2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100048,
+      "sortId": 100051,
       "usage": "まれに見る工業材料。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act29side_04",
-          "occPer": "USUAL"
+          "stageId": "act31side_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act27side_05",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act25side_05",
@@ -4958,11 +5010,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act27side_05",
-          "occPer": "OFTEN"
+          "stageId": "act10mini_05",
+          "occPer": "ALWAYS"
         },
         {
-          "stageId": "act10mini_05",
+          "stageId": "act13side_06",
           "occPer": "ALWAYS"
         },
         {
@@ -5002,24 +5054,32 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act13side_06",
-          "occPer": "ALWAYS"
-        },
-        {
           "stageId": "act28side_05",
           "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act29side_04",
+          "occPer": "USUAL"
         },
         {
           "stageId": "a001_03",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act31side_04",
-          "occPer": "ALMOST"
+          "stageId": "act32side_05",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act4d0_04",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act40side_04",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act18mini_05",
@@ -5034,11 +5094,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act37side_05",
+          "stageId": "act41side_04",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act40side_04",
+          "stageId": "act36side_04",
           "occPer": "ALMOST"
         },
         {
@@ -5058,11 +5118,7 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act32side_05",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act36side_04",
+          "stageId": "act37side_05",
           "occPer": "ALMOST"
         },
         {
@@ -5127,7 +5183,7 @@
       "iconId": "MTL_SL_IRON3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100047,
+      "sortId": 100050,
       "usage": "とても珍しい工業材料。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5260,7 +5316,7 @@
       "iconId": "MTL_SL_IRON4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100046,
+      "sortId": 100049,
       "usage": "値段が高騰している工業材料。昇進やスキル強化に必要な素材。融合剤の原料にも用いられる。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5329,14 +5385,14 @@
       "iconId": "MTL_SL_KETONE1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100053,
+      "sortId": 100056,
       "usage": "ごく少量の工業用有機化合物。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act26side_02",
+          "stageId": "act26side_01",
           "occPer": "OFTEN"
         },
         {
@@ -5384,11 +5440,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act11mini_02",
-          "occPer": "USUAL"
+          "stageId": "act13mini_01",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_01",
+          "stageId": "act22side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5436,15 +5492,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act22side_02",
+          "stageId": "act26side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11mini_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act18side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5552,7 +5612,7 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act26side_03",
+          "stageId": "act18side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5564,15 +5624,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act27side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act35side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act35side_02",
+          "stageId": "act27side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5612,19 +5664,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act37side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_02",
+          "stageId": "act38side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_01",
+          "stageId": "act35side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act38side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5664,23 +5716,27 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act41side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act26side_01",
+          "stageId": "act41side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act38side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act27side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act35side_03",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act34side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act33side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act27side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5724,15 +5780,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act29side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act30side_02",
+          "stageId": "act34side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act30side_03",
           "occPer": "OFTEN"
         },
         {
@@ -5776,7 +5832,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act30side_03",
+          "stageId": "act33side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act33side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act30side_02",
           "occPer": "OFTEN"
         },
         {
@@ -5800,7 +5864,7 @@
       "iconId": "MTL_SL_KETONE2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100052,
+      "sortId": 100055,
       "usage": "少量の工業用有機化合物。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5809,6 +5873,10 @@
         {
           "stageId": "act29side_05",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act26side_04",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act25side_05",
@@ -5843,11 +5911,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act26side_04",
-          "occPer": "OFTEN"
+          "stageId": "act14side_04",
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "act14side_04",
+          "stageId": "act13side_05",
           "occPer": "ALMOST"
         },
         {
@@ -5883,11 +5951,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act13side_05",
+          "stageId": "act27side_05",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act27side_05",
+          "stageId": "act4d0_03",
           "occPer": "ALMOST"
         },
         {
@@ -5895,12 +5963,16 @@
           "occPer": "ALMOST"
         },
         {
+          "stageId": "act31side_04",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "act30side_05",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act4d0_03",
-          "occPer": "ALMOST"
+          "stageId": "act40side_05",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act39side_03",
@@ -5915,11 +5987,11 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act36side_05",
-          "occPer": "ALMOST"
+          "stageId": "act41side_04",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act40side_05",
+          "stageId": "act35side_05",
           "occPer": "OFTEN"
         },
         {
@@ -5935,12 +6007,8 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act31side_04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act35side_05",
-          "occPer": "OFTEN"
+          "stageId": "act36side_05",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "sub_02-01",
@@ -6000,7 +6068,7 @@
       "iconId": "MTL_SL_KETONE3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100051,
+      "sortId": 100054,
       "usage": "ある程度の量の工業用有機化合物。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6149,7 +6217,7 @@
       "iconId": "MTL_SL_KETONE4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100050,
+      "sortId": 100053,
       "usage": "大量の工業用有機化合物。昇進やスキル強化に必要な素材。融合剤の原料にも用いられる。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6226,14 +6294,14 @@
       "iconId": "MTL_SL_BOSS1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100037,
+      "sortId": 100040,
       "usage": "押収した壊れている機械。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act25side_01",
+          "stageId": "act26side_03",
           "occPer": "OFTEN"
         },
         {
@@ -6285,11 +6353,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_04",
+          "stageId": "act16side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act13mini_03",
+          "stageId": "act13mini_04",
           "occPer": "OFTEN"
         },
         {
@@ -6337,15 +6405,19 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act16side_02",
+          "stageId": "act25side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act25side_02",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act16side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -6401,7 +6473,7 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act25side_03",
+          "stageId": "act10mini_01",
           "occPer": "OFTEN"
         },
         {
@@ -6461,7 +6533,7 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act25side_02",
+          "stageId": "act25side_01",
           "occPer": "OFTEN"
         },
         {
@@ -6469,11 +6541,7 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act26side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act34side_01",
+          "stageId": "act26side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6525,11 +6593,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_03",
+          "stageId": "act34side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act38side_02",
+          "stageId": "act38side_03",
           "occPer": "OFTEN"
         },
         {
@@ -6573,7 +6641,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act34side_02",
+          "stageId": "act41side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act41side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act38side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6581,15 +6657,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act33side_01",
+          "stageId": "act34side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act32side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act26side_02",
+          "stageId": "act33side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6637,15 +6709,15 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act33side_02",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act29side_03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_01",
+          "stageId": "act33side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_02",
           "occPer": "OFTEN"
         },
         {
@@ -6693,7 +6765,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act29side_02",
+          "stageId": "act32side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act29side_01",
           "occPer": "OFTEN"
         },
         {
@@ -6717,7 +6793,7 @@
       "iconId": "MTL_SL_BOSS2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100036,
+      "sortId": 100039,
       "usage": "押収した機械。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6945,7 +7021,7 @@
       "iconId": "MTL_SL_BOSS3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100035,
+      "sortId": 100038,
       "usage": "押収した最新式のデバイス。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7066,7 +7142,7 @@
       "iconId": "MTL_SL_BOSS4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100034,
+      "sortId": 100037,
       "usage": "押収したハイレベルな機械。昇進やスキル強化に必要な素材。ナノフレークの原料にも用いられる。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7123,7 +7199,7 @@
       "iconId": "MTL_SL_ALCOHOL1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100023,
+      "sortId": 100026,
       "usage": "薄く小さい有機化合物。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7279,7 +7355,7 @@
       "iconId": "MTL_SL_ALCOHOL2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100022,
+      "sortId": 100025,
       "usage": "薄く小さい有機化合物。昇進やスキル強化に必要な素材。ナノフレークの原料にも用いられる。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7368,7 +7444,7 @@
       "iconId": "MTL_SL_MANGANESE1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100025,
+      "sortId": 100028,
       "usage": "精製や製錬に用いられる金属鉱物。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7488,7 +7564,7 @@
       "iconId": "MTL_SL_MANGANESE2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100024,
+      "sortId": 100027,
       "usage": "精製や製錬に用いられる金属鉱物。昇進やスキル強化に必要な素材。D32鋼の原料にも用いられる。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7569,7 +7645,7 @@
       "iconId": "MTL_SL_PG1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100027,
+      "sortId": 100030,
       "usage": "武器のパーツへの加工に用いられる研磨石。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7613,6 +7689,10 @@
         },
         {
           "stageId": "act39side_08",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act41side_06",
           "occPer": "USUAL"
         },
         {
@@ -7697,7 +7777,7 @@
       "iconId": "MTL_SL_PG2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100026,
+      "sortId": 100029,
       "usage": "武器のパーツへの精密な加工に用いられる質のいい研磨石。昇進やスキル強化に必要な素材。D32鋼の原料にも用いられる。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7762,7 +7842,7 @@
       "iconId": "MTL_SL_RMA7012",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100029,
+      "sortId": 100032,
       "usage": "感度が良く伝達効果も高い鉱物。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7882,7 +7962,7 @@
       "iconId": "MTL_SL_RMA7024",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100028,
+      "sortId": 100031,
       "usage": "感度がとても良く伝達効果も優秀な鉱物。昇進やスキル強化に必要な素材。D32鋼の原料にも用いられる。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7947,7 +8027,7 @@
       "iconId": "MTL_SL_PP",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100005,
+      "sortId": 100006,
       "usage": "複雑な液状工業製品。昇進やスキル強化に必要な高ランク素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7970,7 +8050,7 @@
       "iconId": "MTL_SL_BN",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100004,
+      "sortId": 100005,
       "usage": "現代工業技術の結晶。昇進やスキル強化に必要な高ランク素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7993,7 +8073,7 @@
       "iconId": "MTL_SL_DS",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100003,
+      "sortId": 100004,
       "usage": "自然界には存在しない、固体の人工金属素材。昇進やスキル強化に必要な高ランク素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8016,7 +8096,7 @@
       "iconId": "MTL_SL_OEU",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100002,
+      "sortId": 100003,
       "usage": "高価な源石工業製品。昇進やスキル強化に必要な高ランク素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8039,7 +8119,7 @@
       "iconId": "MTL_SL_SHJ",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100001,
+      "sortId": 100002,
       "usage": "加工の難易度が極めて高い現代科学の産物。昇進やスキル強化に必要な高ランク素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8062,7 +8142,7 @@
       "iconId": "MTL_SL_PGEL3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100021,
+      "sortId": 100024,
       "usage": "高強度の可塑性素材。昇進やスキル強化に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8178,7 +8258,7 @@
       "iconId": "MTL_SL_PGEL4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100020,
+      "sortId": 100023,
       "usage": "超高強度の可塑性素材。昇進やスキル強化に必要。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8247,7 +8327,7 @@
       "iconId": "MTL_SL_IAM3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100019,
+      "sortId": 100022,
       "usage": "電子工業用高融点特殊合金。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8379,7 +8459,7 @@
       "iconId": "MTL_SL_IAM4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100018,
+      "sortId": 100021,
       "usage": "産出量が極めて少ない、電子工業用高融点特殊合金。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8468,7 +8548,7 @@
       "iconId": "MTL_SL_OC3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100017,
+      "sortId": 100020,
       "usage": "源石工業において重要な部品。昇進やスキル強化に必要な素材。上級の源石電子部品の製作または合成のために用いることができる。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8584,7 +8664,7 @@
       "iconId": "MTL_SL_OC4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100016,
+      "sortId": 100019,
       "usage": "源石工業において重要な部品。昇進やスキル強化に必要な素材。結晶制御装置を製作する際に使用される。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8657,12 +8737,16 @@
       "iconId": "MTL_SL_SS",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100015,
+      "sortId": 100018,
       "usage": "物性がずば抜けており、酸や塩基に対する耐性に優れた活性溶剤。 昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
+        {
+          "stageId": "act41side_07",
+          "occPer": "USUAL"
+        },
         {
           "stageId": "act37side_09",
           "occPer": "USUAL"
@@ -8733,7 +8817,7 @@
       "iconId": "MTL_SL_RS",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100014,
+      "sortId": 100017,
       "usage": "特殊な工程で作られたコーティング剤。 昇進やスキル強化に必要な高ランク素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8798,7 +8882,7 @@
       "iconId": "MTL_SL_CCF",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100013,
+      "sortId": 100016,
       "usage": "金属加工に欠かせない工業用試薬。 昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8874,7 +8958,7 @@
       "iconId": "MTL_SL_PLCF",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100012,
+      "sortId": 100015,
       "usage": "活性溶剤を配合して作られた原液。昇進やスキル強化に必要な高ランク素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8935,7 +9019,7 @@
       "iconId": "MTL_SL_ZY",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100011,
+      "sortId": 100014,
       "usage": "製錬処理を経た化合物結晶。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -9015,7 +9099,7 @@
       "iconId": "MTL_SL_ZYK",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100010,
+      "sortId": 100013,
       "usage": "精錬処理を経た化合物結晶の塊。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -9080,13 +9164,17 @@
       "iconId": "MTL_SL_XW",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100009,
+      "sortId": 100012,
       "usage": "高強度かつ高い弾力性を誇る特殊ファイバー。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "hideInItemGet": false,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
+        {
+          "stageId": "act41side_08",
+          "occPer": "USUAL"
+        },
         {
           "stageId": "act36side_08",
           "occPer": "USUAL"
@@ -9124,7 +9212,7 @@
       "iconId": "MTL_SL_XWB",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100008,
+      "sortId": 100011,
       "usage": "塑形硬化処理が施された特殊ファイバー基板。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "hideInItemGet": false,
@@ -9165,7 +9253,7 @@
       "iconId": "MTL_SL_HT",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100007,
+      "sortId": 100010,
       "usage": "耐熱性と耐薬品性を兼ね備えた工業材料｡昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "hideInItemGet": false,
@@ -9217,7 +9305,7 @@
       "iconId": "MTL_SL_HTT",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100006,
+      "sortId": 100009,
       "usage": "前処理を施した優れた材料を複数使用し作られた工業材料。昇進やスキル強化に必要な素材。",
       "obtainApproach": null,
       "hideInItemGet": false,
@@ -30678,7 +30766,7 @@
       "iconId": "class_p_char_475_akafyu",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 1200038,
+      "sortId": 1300065,
       "usage": "アカフユの潜在能力強化に用いられる。",
       "obtainApproach": "オペレーター入職時獲得",
       "hideInItemGet": false,
@@ -30696,7 +30784,7 @@
       "iconId": "class_p_char_478_kirara",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 1200039,
+      "sortId": 1300066,
       "usage": "キララの潜在能力強化に用いられる。",
       "obtainApproach": "オペレーター入職時獲得",
       "hideInItemGet": false,
@@ -33060,6 +33148,165 @@
       ],
       "buildingProductList": [],
       "voucherRelateList": null
+    },
+    "p_char_4171_wulfen": {
+      "itemId": "p_char_4171_wulfen",
+      "name": "ウルフェナイトの印",
+      "description": "美しい鉱石。ウルフェナイトいわく、色が変わることがあるらしい。仕事の合間に見てみれば、思いがけない喜びを得られるかもしれない。",
+      "rarity": "TIER_5",
+      "iconId": "p_char_4171_wulfen",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700164,
+      "usage": "ウルフェナイトの潜在能力強化に用いられる。",
+      "obtainApproach": "オペレーター入職時獲得",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_4177_brigid": {
+      "itemId": "p_char_4177_brigid",
+      "name": "ブリギッドの印",
+      "description": "いくつもの輪を繋げて作られた藁の組紐。いくら書籍を当たっても、それが表す意味を見つけることはできなかった。藁縄に獣油を塗るのは、あまり一般的な行為ではない。もしかすると、茎で手を切ってしまわないようにという、彼女の気遣いなのかもしれない。",
+      "rarity": "TIER_5",
+      "iconId": "p_char_4177_brigid",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700165,
+      "usage": "ブリギッドの潜在能力強化に用いられる。",
+      "obtainApproach": "オペレーター入職時獲得",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "p_char_450_necras": {
+      "itemId": "p_char_450_necras",
+      "name": "ネクラスの印",
+      "description": "世に出ることはなかった物語集。すべての物語が未完に終わっている。じっくり目を通してみれば、どの物語も現実に生きる誰かを差しているようだ。その中には、あなたの物語も含まれている。",
+      "rarity": "TIER_6",
+      "iconId": "p_char_450_necras",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600107,
+      "usage": "ネクラスの潜在能力強化に用いられる。",
+      "obtainApproach": "オペレーター入職時獲得",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "emoticon_basic": {
+      "itemId": "emoticon_basic",
+      "name": "スタンプ",
+      "description": null,
+      "rarity": "TIER_5",
+      "iconId": "emoticon_basic",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 2000001,
+      "usage": null,
+      "obtainApproach": "協心競技報酬",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "EMOTICON_SET",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "emoticon_originium_slug": {
+      "itemId": "emoticon_originium_slug",
+      "name": "スタンプ「オリジムシ」",
+      "description": "「そんな作り笑いはやめてくれ。オリジムシのように殻を開けて、リラックスするんだ……信じてくれ、こうすれば相手ともすぐに打ち解けられるはずだから。」",
+      "rarity": "TIER_5",
+      "iconId": "emoticon_originium_slug",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 2000002,
+      "usage": "オリジムシの動きを参考にデザインされたスタンプ。協力者とのコミュニケーションに使用できる。",
+      "obtainApproach": "協心競技#1報酬",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "EMOTICON_SET",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "act1multi_token_cap": {
+      "itemId": "act1multi_token_cap",
+      "name": "参加認定証-S1",
+      "description": "協心競技の参加認定証。会場にしみ込んだ汗水と引き換えに、新たな友情を持ち帰ろう。",
+      "rarity": "TIER_5",
+      "iconId": "act1multi_token_cap",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "認定証の数は、試合への注目度と比例している。一定の注目を集めることができれば、対応する報酬を獲得できる。",
+      "obtainApproach": "協心競技#1報酬",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": null
+    },
+    "act41side_token_light": {
+      "itemId": "act41side_token_light",
+      "name": "壊れたランプ",
+      "description": "腰から下げる源石ランプは、ターラー人が過去から探し出した伝統のひとつである。昔、人々はこの灯りと共に黒き森を進んだという。そんな姿も今や風と共に消え去り、ボロボロの灯りを除けば、もはや面影すら残されていない。",
+      "rarity": "TIER_5",
+      "iconId": "act41side_token_light",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "黒き森で見つけた、壊れた源石ランプ。ナ・シアーシャの物資不足が緩和されると、住民たちは自発的に集まり、限りある物資を使って戦争の遺留物を回収した。",
+      "obtainApproach": "イベント",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [
+        {
+          "stageId": "act41side_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act41side_08",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": [],
+      "voucherRelateList": null
     }
   },
   "expItems": {
@@ -34981,7 +35228,54 @@
     "char_289_gyuki@epoque#40": 1,
     "char_164_nightm@unveiling#2": 1,
     "char_1024_hbisc2@unveiling#2": 1,
-    "char_4107_vrdant@unveiling#3": 1
+    "char_4107_vrdant@unveiling#3": 1,
+    "furni_tarahouse_hangingcarpet_01": 1,
+    "furni_tarahouse_candletray_01": 1,
+    "furni_tarahouse_column_01": 1,
+    "furni_tarahouse_table_01": 1,
+    "furni_tarahouse_chair_01": 1,
+    "furni_tarahouse_chair_02": 1,
+    "furni_tarahouse_shield_01": 1,
+    "furni_tarahouse_wallhanger_01": 1,
+    "furni_tarahouse_stove_01": 1,
+    "furni_tarahouse_pot_01": 1,
+    "furni_tarahouse_stool_01": 2,
+    "furni_tarahouse_stonecutoff_01": 1,
+    "furni_tarahouse_ceilinglight_01": 1,
+    "furni_tarahouse_wallshelf_01": 1,
+    "furni_tarahouse_bartable_01": 1,
+    "furni_tarahouse_bookcase_01": 1,
+    "furni_tarahouse_carpet_01": 1,
+    "furni_tarahouse_carpet_02": 1,
+    "furni_tarahouse_wallpaper_01": 1,
+    "furni_tarahouse_floor_01": 1,
+    "furni_kaltsroom_ceilinglight_01": 1,
+    "furni_kaltsroom_sample_01": 1,
+    "furni_kaltsroom_cabinet_01": 1,
+    "furni_kaltsroom_clock_01": 1,
+    "furni_kaltsroom_display_01": 1,
+    "furni_kaltsroom_sofa_01": 1,
+    "furni_kaltsroom_carpet_01": 1,
+    "furni_kaltsroom_ceilinglight_02": 1,
+    "furni_kaltsroom_shelf_01": 1,
+    "furni_kaltsroom_carpet_02": 1,
+    "furni_kaltsroom_cart_01": 1,
+    "furni_kaltsroom_table_01": 1,
+    "furni_kaltsroom_light_01": 1,
+    "furni_kaltsroom_chair_01": 1,
+    "furni_kaltsroom_cabinet_02": 1,
+    "furni_kaltsroom_sample_02": 1,
+    "furni_kaltsroom_wallpaper_01": 1,
+    "furni_kaltsroom_floor_01": 1,
+    "furni_animation_projector_03": 1,
+    "furni_terracommericials_BarrensTequila_01": 1,
+    "furni_annihilation_s27_01": 1,
+    "tm_mainline_1": 1,
+    "char_4146_nymph@epoque#42": 1,
+    "char_4102_threye@epoque#42": 1,
+    "char_260_durnar@epoque#42": 1,
+    "char_190_clour@epoque#43": 1,
+    "char_379_sesa@game#5": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
