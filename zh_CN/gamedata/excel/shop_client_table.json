@@ -30751,6 +30751,38 @@
       "templateParam": null
     },
     {
+      "tagId": "tag_828",
+      "displayType": "block_1",
+      "tagName": "罗德厨房/IV",
+      "itemTag": "DEADLINE",
+      "orderNum": 1003,
+      "startDatetime": 1758268800,
+      "endDatetime": 1759435199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag828_a",
+              "slotIndex": 0,
+              "cmd": "SKINSHOP",
+              "param1": null,
+              "param2": null,
+              "skinId": null
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_828",
+        "text": "听说波卜正在分享他烘焙的水果蛋糕，博士，一起去尝尝他的手艺吧！"
+      },
+      "templateType": "DEFAULT",
+      "templateParam": null
+    },
+    {
       "tagId": "tag_840",
       "displayType": "block_1",
       "tagName": "忘却梦境礼包",
@@ -31141,6 +31173,53 @@
           "colorBack": "#c73853",
           "colorText": "ffffff",
           "actId": "act45side"
+        },
+        "returnSkinParam": null
+      }
+    },
+    {
+      "tagId": "tag_850",
+      "displayType": "block_1_3",
+      "tagName": "伦蒂尼姆火车站台",
+      "itemTag": "DEADLINE",
+      "orderNum": 3002,
+      "startDatetime": 1758268800,
+      "endDatetime": 1759435199,
+      "groupList": [
+        {
+          "recommendGroup": [
+            1
+          ],
+          "dataList": [
+            {
+              "imgId": "tag850_a",
+              "slotIndex": 0,
+              "cmd": "FURNSHOP",
+              "param1": "trainStation_2024",
+              "param2": null,
+              "skinId": ""
+            }
+          ]
+        }
+      ],
+      "tagWord": {
+        "id": "tag_850",
+        "text": "站在斜阳下，等待即将到站的火车，心中满怀对未来的憧憬——怎么样博士，想不想体验一下这种感觉？"
+      },
+      "templateType": "NORFURN",
+      "templateParam": {
+        "normalGiftParam": null,
+        "normalSkinParam": null,
+        "normalFurnParam": {
+          "showStartTs": 1758268800,
+          "showEndTs": 1759435199,
+          "furnPackId": "furni_set_trainStation",
+          "isNew": false,
+          "isPackSell": false,
+          "count": 4,
+          "colorBack": "#d85d2d",
+          "colorText": "ffffff",
+          "actId": "act37sre"
         },
         "returnSkinParam": null
       }
@@ -46621,12 +46700,12 @@
     {
       "items": [
         {
-          "spriteId": "shop_vodfox_yun#8",
-          "startTime": 1756411200,
-          "endTime": 1757620799,
+          "spriteId": "shop_bobb_kitchen#4",
+          "startTime": 1758268800,
+          "endTime": 1759435199,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_254_vodfox@yun#8",
-          "skinId": "char_254_vodfox@yun#8",
+          "param1": "SS_char_487_bobb@kitchen#4",
+          "skinId": "char_487_bobb@kitchen#4",
           "furniId": ""
         },
         {
@@ -46670,12 +46749,12 @@
     {
       "items": [
         {
-          "spriteId": "shop_lasher_sightseer#3",
-          "startTime": 1756108800,
-          "endTime": 1757275199,
+          "spriteId": "shop_vodfox_yun#8",
+          "startTime": 1756411200,
+          "endTime": 1757620799,
           "cmd": "SKINSHOP",
-          "param1": "SS_char_4140_lasher@sightseer#3",
-          "skinId": "char_4140_lasher@sightseer#3",
+          "param1": "SS_char_254_vodfox@yun#8",
+          "skinId": "char_254_vodfox@yun#8",
           "furniId": ""
         },
         {
@@ -46693,6 +46772,55 @@
           "endTime": 1916078399,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Condition_2",
+          "skinId": "",
+          "furniId": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "spriteId": "shop_lasher_sightseer#3",
+          "startTime": 1756108800,
+          "endTime": 1757275199,
+          "cmd": "SKINSHOP",
+          "param1": "SS_char_4140_lasher@sightseer#3",
+          "skinId": "char_4140_lasher@sightseer#3",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_332",
+          "startTime": 1756958400,
+          "endTime": 1758743999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_332",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_333",
+          "startTime": 1756958400,
+          "endTime": 1758743999,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_333",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_207",
+          "startTime": 1722484800,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_207",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop2",
+          "startTime": 1548727200,
+          "endTime": 1924891199,
+          "cmd": "GIFTPACKAGE",
+          "param1": null,
           "skinId": "",
           "furniId": ""
         }
@@ -46759,38 +46887,11 @@
           "furniId": ""
         },
         {
-          "spriteId": "shop_Once_106",
-          "startTime": 1688616000,
-          "endTime": 1924891199,
+          "spriteId": "shop_Once_337",
+          "startTime": 1756958400,
+          "endTime": 1759348799,
           "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_106",
-          "skinId": "",
-          "furniId": ""
-        },
-        {
-          "spriteId": "shop_Once_105",
-          "startTime": 1688616000,
-          "endTime": 1722484799,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_105",
-          "skinId": "",
-          "furniId": ""
-        },
-        {
-          "spriteId": "shop_Once_207",
-          "startTime": 1722484800,
-          "endTime": 1916078399,
-          "cmd": "GIFTPACKAGE",
-          "param1": "GP_Once_207",
-          "skinId": "",
-          "furniId": ""
-        },
-        {
-          "spriteId": "shop2",
-          "startTime": 1548727200,
-          "endTime": 1924891199,
-          "cmd": "GIFTPACKAGE",
-          "param1": null,
+          "param1": "GP_Once_337",
           "skinId": "",
           "furniId": ""
         }
@@ -46863,6 +46964,24 @@
           "param1": "dreamCastle_2025",
           "skinId": "",
           "furniId": "dreamCastle_2025"
+        },
+        {
+          "spriteId": "shop_Condition_4",
+          "startTime": 1730433600,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_4",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Condition_2",
+          "startTime": 1688616000,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Condition_2",
+          "skinId": "",
+          "furniId": ""
         }
       ]
     },
@@ -46905,6 +47024,42 @@
           "endTime": 1916078399,
           "cmd": "GIFTPACKAGE",
           "param1": "GP_Condition_3",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_106",
+          "startTime": 1688616000,
+          "endTime": 1924891199,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_106",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_105",
+          "startTime": 1688616000,
+          "endTime": 1722484799,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_105",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop_Once_207",
+          "startTime": 1722484800,
+          "endTime": 1916078399,
+          "cmd": "GIFTPACKAGE",
+          "param1": "GP_Once_207",
+          "skinId": "",
+          "furniId": ""
+        },
+        {
+          "spriteId": "shop2",
+          "startTime": 1548727200,
+          "endTime": 1924891199,
+          "cmd": "GIFTPACKAGE",
+          "param1": null,
           "skinId": "",
           "furniId": ""
         }
