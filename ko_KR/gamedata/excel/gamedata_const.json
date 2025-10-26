@@ -1022,7 +1022,8 @@
     "multiv3.teambuff": "<color=#d0294c>{0}</color>",
     "multiv3.matchdesc": "<color=#2ea0af>{0}</color>",
     "multiv3.unlocktoast": "<color=#ff3a64>{0}</color>",
-    "multiv3.photodesc": "<color=#31acbc>{0}</color>"
+    "multiv3.photodesc": "<color=#31acbc>{0}</color>",
+    "vecbreakv2.highlight": "<color=#d8741a>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1111,7 +1112,7 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597129200,
-  "recruitPoolVersion": 20,
+  "recruitPoolVersion": 21,
   "TSO": 1608188400,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
@@ -1136,7 +1137,7 @@
     "ba.buffres": {
       "termId": "ba.buffres",
       "termName": "저항",
-      "description": "<$ba.stun>기절</>, <$ba.cold>냉기</>, <$ba.frozen>빙결</> 등 상태 이상의 지속 시간 50% 단축 (동일 효과 중첩 불가)"
+      "description": "<$ba.stun>기절</>, <$ba.cold>냉기</>, <$ba.frozen>빙결</> 등 상태 이상의 지속 시간 50% 단축, <$ba.palsy>마비</> 등 효과가 5초마다 1중첩 감소 (동일 효과 중첩 불가)"
     },
     "ba.invisible": {
       "termId": "ba.invisible",
@@ -1406,7 +1407,7 @@
     "cc.tag.op": {
       "termId": "cc.tag.op",
       "termName": "작업 플랫폼",
-      "description": "다음 오퍼레이터 포함\nLancet-2, Castle-3, THRM-EX, 저스티스 나이트, Friston-3, PhonoR-0"
+      "description": "다음 오퍼레이터 포함\nLancet-2, Castle-3, THRM-EX, 저스티스 나이트, Friston-3, PhonoR-0, CONFESS-47"
     },
     "cc.tag.knight": {
       "termId": "cc.tag.knight",
@@ -1742,14 +1743,39 @@
       "termId": "ba.physicfragile",
       "termName": "물리 취약",
       "description": "받는 물리 대미지가 해당 비례만큼 증가 (동종 효과 중 최대 수치만 적용)"
+    },
+    "ba.dt.neural2": {
+      "termId": "ba.dt.neural2",
+      "termName": "신경 손상·아군",
+      "description": "최대치 도달 시 폭발(일반, 정예 경우 1000, 리더 경우 2000), 적에게 6000 원소 대미지를 입히며 <$ba.palsy>마비</> 효과 3회 중첩, 쿨타임 10초"
+    },
+    "ba.palsy": {
+      "termId": "ba.palsy",
+      "termName": "마비",
+      "description": "중첩된 마비 효과 1회당 적의 일반 공격을 1회 중단시키며, 최대 3회 중첩, 마비 효과는 소모되지 않는 한 무한 지속, 저항 보유 시 5초마다 1중첩 감소"
+    },
+    "ba.addbullet": {
+      "termId": "ba.addbullet",
+      "termName": "재장전",
+      "description": "타인의 탄약류 스킬에 탄약 보충, 탄약류 스킬의 1회 지속 시간 동안 장전할 수 있는 최대 탄약 수량만큼 재장전"
+    },
+    "cc.g.laterano": {
+      "termId": "cc.g.laterano",
+      "termName": "라테라노",
+      "description": "다음 오퍼레이터 포함\n플룸, 아드나키엘, 이그제큐터, 모스티마, 엠브리엘, 아렌, 아르케토, 피아메타, 인포서, 스푸리아, 인사이더, 비르투오사, 르무엔, 산크타 믹사파라토, CONFESS-47"
+    },
+    "cc.angel": {
+      "termId": "cc.angel",
+      "termName": "엑시아",
+      "description": "다음 오퍼레이터 포함\n엑시아 더 뉴 커버넌트, 엑시아"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "기록 조각이 부족합니다. 증명서 상점 또는 이벤트 기간에 열리는 상점을 통해 교환할 수 있습니다.",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "45.3.0",
-  "resPrefVersion": "60d4d0",
+  "dataVersion": "46.2.0",
+  "resPrefVersion": "61d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS에 해당 스테이지의 하위 난이도 작전 환경에서 3★ 평가를 받지 못한 것이 탐지되어, <color=#fe6435>작전 난이도 호환</color> 모드가 자동으로 적용됩니다.\n작전 난이도 호환 모드에서 해당 스테이지를 도전하면 현재 난이도와 하위 난이도의 필요 이성을 <color=#fe6435>동시에 소모</color>하게 되며, 클리어 후 <color=#fe6435>작전 진행도의 동기화</color>뿐만 아니라, 하위 난이도의 보상도 <color=#fe6435>함께 획득</color>하게 됩니다.",
   "mainlineToughDesc": "도전적인 플레이 환경\n3★ 평가의 첫 클리어 보상에는 순오리지늄이 포함됩니다\n또한, 난이도가 높은 추가 스테이지도 포함됩니다",
@@ -1834,7 +1860,8 @@
     "alchemist": "PHYSICAL",
     "primprotector": "PHYSICAL",
     "skywalker": "PHYSICAL",
-    "soulcaster": "MAGICAL"
+    "soulcaster": "MAGICAL",
+    "primguard": "PHYSICAL"
   },
   "defaultMinContinuousBattleTimes": 1,
   "defaultMaxContinuousBattleTimes": 6,
@@ -1868,5 +1895,8 @@
   "leapBirthdayRewardDay": 28,
   "birthdaySettingShowStageId": "tr_05",
   "isBirthdayFuncEnabled": false,
-  "mainGuideActivedStageId": "main_15-02"
+  "mainGuideActivedStageId": "main_15-02",
+  "defaultMinMultipleBattleTimes": 1,
+  "defaultMaxMultipleBattleTimes": 6,
+  "multipleActionOpen": true
 }
