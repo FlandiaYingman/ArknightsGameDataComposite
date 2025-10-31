@@ -1046,7 +1046,10 @@
     "char.mort": "<color=#779977>{0}</color>",
     "char.dolr": "<color=#bb9955>{0}</color>",
     "char.amor": "<color=#aa4477>{0}</color>",
-    "char.tmor": "<color=#335566>{0}</color>"
+    "char.tmor": "<color=#335566>{0}</color>",
+    "ba.acrem": "<color=#727272>{0}</color>",
+    "autochess.gray": "<color=#777777>{0}</color>",
+    "autochess.dgreen": "<color=#40B196>{0}</color>"
   },
   "charAssistRefreshTime": [
     {
@@ -1135,7 +1138,7 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597132800,
-  "recruitPoolVersion": 19,
+  "recruitPoolVersion": 20,
   "TSO": 1608192000,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
@@ -1439,8 +1442,8 @@
     },
     "cc.g.karlan": {
       "termId": "cc.g.karlan",
-      "termName": "喀兰贸易",
-      "description": "包含以下干员\n银灰、灵知、初雪、崖心、角峰、讯使、耶拉、极光、锏"
+      "termName": "谢拉格",
+      "description": "包含以下干员\n银灰、灵知、初雪、崖心、角峰、讯使、耶拉、极光、锏、雪猎"
     },
     "cc.w.ncdeer1": {
       "termId": "cc.w.ncdeer1",
@@ -1565,7 +1568,7 @@
     "cc.c.skill": {
       "termId": "cc.c.skill",
       "termName": "部分技能",
-      "description": "包含以下技能\r\n左膀右臂、S.W.E.E.P.、零食网络、清理协议、替身、必要责任、护卫、小小的领袖、独善其身、笑靥如春、金盏花诗会、捍卫之道、博识生手、点滴关照"
+      "description": "包含以下技能\n左膀右臂、S.W.E.E.P.、零食网络、清理协议、替身、必要责任、护卫、小小的领袖、独善其身、笑靥如春、金盏花诗会、捍卫之道、博识生手、点滴关照"
     },
     "cc.sk.manu3": {
       "termId": "cc.sk.manu3",
@@ -1831,14 +1834,19 @@
       "termId": "cc.bd_mujica_2",
       "termName": "演技的怪物",
       "description": "拥有该基建技能的干员\n若叶睦"
+    },
+    "ba.alter": {
+      "termId": "ba.alter",
+      "termName": "装备应变",
+      "description": "选中在场干员后，可以通过一定条件激活的额外效果"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "66.6.0",
-  "resPrefVersion": "66d0d0",
+  "dataVersion": "67.0.0",
+  "resPrefVersion": "67d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS检测到该关卡对应更低作战环境未获得三星评价，将自动开启<color=#fe6435>环境难度兼容</color>；\n环境难度兼容状态下挑战该关卡将<color=#fe6435>同时消耗</color>该环境与更低环境的理智，通关后则<color=#fe6435>会同步作战进度，并同时获得</color>该环境与更低环境的报酬奖励",
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
@@ -1925,7 +1933,8 @@
     "skywalker": "PHYSICAL",
     "soulcaster": "MAGICAL",
     "primguard": "PHYSICAL",
-    "counsellor": "PHYSICAL"
+    "counsellor": "PHYSICAL",
+    "mercenary": "PHYSICAL"
   },
   "defaultMinContinuousBattleTimes": 1,
   "defaultMaxContinuousBattleTimes": 6,
