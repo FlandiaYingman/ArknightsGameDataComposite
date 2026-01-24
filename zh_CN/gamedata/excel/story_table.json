@@ -48628,7 +48628,7 @@
     "videoResource": true,
     "trigger": {
       "type": "ACTIVITY_LOADED",
-      "key": "act40side",
+      "key": "act40sre",
       "useRegex": false
     },
     "condition": {
@@ -56831,5 +56831,28 @@
     "setProgress": -1,
     "setFlags": null,
     "completedRewards": null
+  },
+  "Obt/Roguelike/RO5/level_rogue5_ending_5": {
+    "id": "Obt/Roguelike/RO5/level_rogue5_ending_5",
+    "needCommit": true,
+    "repeatable": true,
+    "disabled": false,
+    "videoResource": false,
+    "trigger": {
+      "type": "CUSTOM_OPERATION",
+      "key": "rogue_5_RO5_ending_5",
+      "useRegex": false
+    },
+    "condition": {
+      "minProgress": -1,
+      "maxProgress": -1,
+      "minPlayerLevel": 1,
+      "requiredFlags": [],
+      "excludedFlags": [],
+      "requiredStages": []
+    },
+    "setProgress": -1,
+    "setFlags": [],
+    "completedRewards": []
   }
 }
