@@ -1138,7 +1138,7 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597132800,
-  "recruitPoolVersion": 20,
+  "recruitPoolVersion": 21,
   "TSO": 1608192000,
   "requestSameFriendCD": 14400,
   "isDynIllustEnabled": true,
@@ -1458,7 +1458,7 @@
     "cc.g.sui": {
       "termId": "cc.g.sui",
       "termName": "岁",
-      "description": "包含以下干员\n年、夕、令、重岳、黍、余"
+      "description": "包含以下干员\n年、夕、令、重岳、黍、余、望"
     },
     "ba.overdrive": {
       "termId": "ba.overdrive",
@@ -1854,14 +1854,24 @@
       "termId": "cc.g.sargon",
       "termName": "萨尔贡",
       "description": "包含以下干员\n钼铅、菲莱、佩佩、娜仁图亚、衡沙、莎草、红隼、铅踝、图耶、泡泡、森蚺、燧石、特米米、蜜蜡、稀音、慑砂、狮蝎、异客、艾丝黛尔、至简、哈蒂娅、缇缇"
+    },
+    "cc.bd_wang_1": {
+      "termId": "cc.bd_wang_1",
+      "termName": "外势",
+      "description": "由以下干员的基建技能提供\n望\n每有一间贸易站、发电站，外势+1"
+    },
+    "cc.bd_wang_2": {
+      "termId": "cc.bd_wang_2",
+      "termName": "实地",
+      "description": "由以下干员的基建技能提供\n望\n每有一间制造站，实地+1"
     }
   },
   "charmEquipCount": 5,
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
   "isVoiceLangSettingEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
-  "dataVersion": "69.6.0",
-  "resPrefVersion": "69d0d0",
+  "dataVersion": "70.0.0",
+  "resPrefVersion": "70d0d0",
   "easyCrystalBonus": 0,
   "mainlineCompatibleDesc": "PRTS检测到该关卡对应更低作战环境未获得三星评价，将自动开启<color=#fe6435>环境难度兼容</color>；\n环境难度兼容状态下挑战该关卡将<color=#fe6435>同时消耗</color>该环境与更低环境的理智，通关后则<color=#fe6435>会同步作战进度，并同时获得</color>该环境与更低环境的报酬奖励",
   "mainlineToughDesc": "更有挑战的游玩体验环境\n三星首通奖励含有至纯源石\n会包含额外的高难关卡",
@@ -1950,7 +1960,8 @@
     "primguard": "PHYSICAL",
     "counsellor": "PHYSICAL",
     "mercenary": "PHYSICAL",
-    "skybreaker": "PHYSICAL"
+    "skybreaker": "PHYSICAL",
+    "watchman": "HEAL"
   },
   "defaultMinContinuousBattleTimes": 1,
   "defaultMaxContinuousBattleTimes": 6,
