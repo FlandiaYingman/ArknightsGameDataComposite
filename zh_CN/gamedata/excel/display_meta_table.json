@@ -1265,6 +1265,50 @@
         ]
       },
       {
+        "avatarId": "avatar_special_74",
+        "avatarType": "SPECIAL",
+        "avatarIdSort": 74,
+        "avatarIdDesc": "限时活动获得\\n“相庆”",
+        "avatarItemName": "“相庆”",
+        "avatarItemDesc": "与伙伴们携手，庆祝一段全新旅程的开始。",
+        "avatarItemUsage": "用来彰显个性的图案，能够将之设置为头像。",
+        "obtainApproach": "特殊方式获得",
+        "dynAvatarId": null,
+        "avatarDesc": "限时活动获得",
+        "isSecret": true,
+        "avatarStartTs": 1777590000,
+        "avatarLimit": true,
+        "limitDatas": [
+          {
+            "avatarId": "avatar_special_74",
+            "descShowTs": 1777590000,
+            "descHideTs": 1780613999
+          }
+        ]
+      },
+      {
+        "avatarId": "avatar_special_92",
+        "avatarType": "SPECIAL",
+        "avatarIdSort": 75,
+        "avatarIdDesc": "限时活动获得\\n“同行”",
+        "avatarItemName": "“同行”",
+        "avatarItemDesc": "跨越星海、时光与漫长的记忆，我们仍然同行。",
+        "avatarItemUsage": "用来彰显个性的图案，能够将之设置为头像。",
+        "obtainApproach": "特殊方式获得",
+        "dynAvatarId": null,
+        "avatarDesc": "限时活动获得",
+        "isSecret": true,
+        "avatarStartTs": 1777590000,
+        "avatarLimit": true,
+        "limitDatas": [
+          {
+            "avatarId": "avatar_special_92",
+            "descShowTs": 1777590000,
+            "descHideTs": 1780613999
+          }
+        ]
+      },
+      {
         "avatarId": "avatar_activity_OF",
         "avatarType": "ACTIVITY",
         "avatarIdSort": 1,
@@ -2673,6 +2717,10 @@
       {
         "avatarId": "avatar_def_02",
         "avatarType": "DEFAULT",
+        "avatarDesc": "默认头像",
+        "isSecret": false,
+        "avatarStartTs": -1,
+        "avatarLimit": false,
         "avatarIdSort": 2,
         "avatarIdDesc": "默认头像\\n“档案室”",
         "avatarItemName": "“档案室”",
@@ -2680,15 +2728,15 @@
         "avatarItemUsage": "用来彰显个性的图案，能够将之设置为头像。",
         "obtainApproach": "默认投放",
         "dynAvatarId": null,
-        "avatarDesc": "默认头像",
-        "isSecret": false,
-        "avatarStartTs": -1,
-        "avatarLimit": false,
         "limitDatas": null
       },
       {
         "avatarId": "avatar_def_03",
         "avatarType": "DEFAULT",
+        "avatarDesc": "默认头像",
+        "isSecret": false,
+        "avatarStartTs": -1,
+        "avatarLimit": false,
         "avatarIdSort": 3,
         "avatarIdDesc": "默认头像\\n“从此出”",
         "avatarItemName": "“从此出”",
@@ -2696,10 +2744,6 @@
         "avatarItemUsage": "用来彰显个性的图案，能够将之设置为头像。",
         "obtainApproach": "默认投放",
         "dynAvatarId": null,
-        "avatarDesc": "默认头像",
-        "isSecret": false,
-        "avatarStartTs": -1,
-        "avatarLimit": false,
         "limitDatas": null
       },
       {
@@ -3090,7 +3134,9 @@
           "avatar_special_80",
           "avatar_special_81",
           "avatar_special_82",
-          "avatar_special_83"
+          "avatar_special_83",
+          "avatar_special_74",
+          "avatar_special_92"
         ],
         "sortId": 3
       },
@@ -3789,6 +3835,30 @@
         ],
         "bgType": "BASE",
         "isSecret": false,
+        "multiPicId": null
+      },
+      {
+        "bgId": "bg_elitelounge_1",
+        "bgType": "BASE",
+        "bgSortId": 28,
+        "bgStartTime": 1777590000,
+        "isSecret": false,
+        "bgName": "执着",
+        "bgDes": "正因历经无数磨练，回望来时路的那一刻才更令人感慨万千。",
+        "bgUsage": "一张照片，一段回忆，凝聚了泰拉大地的某个瞬间。",
+        "isMultiForm": false,
+        "changeRule": "NONE",
+        "multiFormList": [
+          {
+            "multiFormBgId": "bg_elitelounge_1",
+            "sortId": 0,
+            "bgMusicId": "music_elitelounge_1"
+          }
+        ],
+        "obtainApproach": "累计签到获得",
+        "unlockDesList": [
+          "累计签到1500天获得"
+        ],
         "multiPicId": null
       }
     ],
@@ -4617,6 +4687,11 @@
             "id": "bg_rogue_5",
             "groupType": "BASE",
             "sortId": 27
+          },
+          {
+            "id": "bg_elitelounge_1",
+            "groupType": "BASE",
+            "sortId": 28
           }
         ]
       }
